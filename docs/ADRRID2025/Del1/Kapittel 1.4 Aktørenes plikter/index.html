@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 1.4 Aktørenes plikter &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del1/Kapittel 1.4 Aktørenes plikter';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 1.5 Avvik" href="../Kapittel 1.5 Avvik/" />
+    <link rel="prev" title="Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods" href="../Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del1_index/">Del 1 Alminnelige bestemmelser</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del1_index/" class="nav-link">Del 1 Alminnelige bestemmelser</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 1.4 Aktørenes plikter</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-1-4-aktorenes-plikter">
+<h1>Kapittel 1.4 Aktørenes plikter<a class="headerlink" href="#kapittel-1-4-aktorenes-plikter" title="Link to this heading">#</a></h1>
+<section id="alminnelige-sikkerhetstiltak">
+<h2>1.4.1 Alminnelige sikkerhetstiltak<a class="headerlink" href="#alminnelige-sikkerhetstiltak" title="Link to this heading">#</a></h2>
+<p>1.4.1.1</p>
+<p>De som er aktører ved transport av farlig gods skal treffe tiltak som er
+hensiktsmessige i forhold til arten og omfanget av de faremomenter som
+kan forutses, slik at skade på ting eller personer unngås og om
+nødvendig begrense skadevirkningene. I alle tilfelle skal de følge
+ADR/RID-bestemmelsene på sine områder.</p>
+<p>1.4.1.2</p>
+<p>Når det er umiddelbar risiko for at den offentlige sikkerhet kan bli
+truet, skal aktørene straks varsle redningstjenesten og gi de
+opplysninger denne trenger for å gripe inn.</p>
+<p>1.4.1.3</p>
+<p>ADR/RID kan fastsette nærmere de plikter som de forskjellige aktører
+skal ha.</p>
+<p>Dersom en kontraherende part finner at det ikke reduserer sikkerheten,
+kan den i sin nasjonale lovgivning overføre de forpliktelser som
+påhviler en spesiell aktør til en eller flere andre aktører, under
+forutsetning av at forpliktelsene i 1.4.2 og 1.4.3 blir oppfylt. Disse
+avvikene skal den kontraherende part meddele til sekretariatet for FNs
+Europakommisjon/OCTI sekretariatet som vil meddele dem videre til de
+kontraherende parter.</p>
+<p>Kravene i 1.2.1, 1.4.2 og 1.4.3 som gjelder definisjon av aktører og
+deres respektive forpliktelser skal ikke ha virkning for bestemmelsene i
+den nasjonale lovgivning med hensyn til de juridiske konsekvenser
+(strafferettslig, ansvar, etc.) grunnet i den omstendighet at
+angjeldende aktør er f.eks. en separat juridisk enhet, selververvende,
+arbeidsgiver eller arbeidstaker.</p>
+</section>
+<section id="hovedaktorenes-plikter">
+<h2>1.4.2 Hovedaktørenes plikter<a class="headerlink" href="#hovedaktorenes-plikter" title="Link to this heading">#</a></h2>
+<p><strong>ANM 1:</strong> Flere aktører som er tillagt sikkerhetsforpliktelser i dette
+avsnittet kan være en og samme virksomhet. Dessuten kan aktivitetene til
+en aktør med tilhørende sikkerhetsforpliktelser, dekkes av flere
+virksomheter.</p>
+<p><strong>ANM 2:</strong> For radioaktivt materiale, se også 1.7.6.</p>
+<p>1.4.2.1 Avsender</p>
+<p>1.4.2.1.1</p>
+<p>Avsender av farlig gods skal bare levere til transport forsendelser som
+er i samsvar med kravene i ADR/RID. I forhold til 1.4.1 skal avsenderen
+spesielt:</p>
+<p>a) forvisse seg om at det farlige godset er klassifisert og tillatt for
+transport i henhold til ADR/RID;</p>
+<p>b) gi transportøren opplysninger og data i sporbar form samt, om
+nødvendig, de transportdokumenter som kreves med følgedokumenter
+(tillatelser, godkjenninger, meddelelser, attester, etc.), med særlig
+vekt på kravene i kapittel 5.4 og tabell A kapittel 3.2;</p>
+<p>c) bare bruke emballasje, storemballasje, mellomstore bulkcontainere
+(IBCer) og tanker (tankkjøretøyer/vogner, løstanker, batterikjøretøyer,
+batterivogner, MEGCer, tankcontainere og multimodale tanker) som er
+godkjent for og egnet for transport av de stoffene det gjelder og merket
+slik det er bestemt i ADR/RID;</p>
+<p>d) oppfylle kravene som gjelder forsendelsesmåte og
+transportrestriksjoner;</p>
+<p>e) forvisse seg om at også tomme tanker (tankkjøretøyer/<strong>tankvogner</strong>,
+løstanker/<strong>vogner med løstanker</strong>, batterikjøretøyer,
+<strong>batterivogner</strong>, MEGCer, tankcontainere og multimodale tanker) som
+ikke er rengjort og gassfri, samt tomme, ikke rengjorte
+kjøretøyer/<strong>vogner</strong> og containere for transport i bulk, er riktig
+merket og har faresedler i henhold til kapittel 5.3, samt at tomme, ikke
+rengjorte tanker er lukket og like tette som hvis de hadde vært fulle.</p>
+<p>f) ADR: når det gjelder tank-containere og multimodale tanker som
+transporterer nedkjølte flytende gas-ser, sørge for at den aktuelle
+holdetiden er bestemt hvor det er aktuelt eller, i tilfelle av tomme,
+ikke rengjorte tankcontainere og multimodale tanker, sørge for at
+trykket er tilstrekkelig redusert.</p>
+<p><strong>RID: når det gjelder tanker som transporterer flytende gasser, sørge
+for at den aktuelle holdetiden er bestemt eller, i tilfelle av tomme,
+ikke rengjorte tanker, sørge for at trykket er tilstrekkelig redusert.</strong></p>
+<p>1.4.2.1.2</p>
+<p>Dersom avsenderen gjør bruk av andre aktørers tjenester (pakker, laster,
+fyller etc.), skal han treffe de nødvendige tiltak for å sikre at
+forsendelsen oppfyller kravene i ADR/RID. Han kan likevel stole på
+informasjon og data som han har mottatt fra andre aktører når det
+gjelder 1.4.2.1.1 (a), (b), (c) og (e).</p>
+<p>1.4.2.1.3</p>
+<p>Når avsenderen opptrer på vegne av en tredje part, skal sistnevnte
+skriftlig meddele avsenderen at det dreier seg om farlig gods og la ham
+få all informasjon og alle dokumenter som han trenger for å oppfylle
+sine forpliktelser.</p>
+<p>1.4.2.2 Transportør</p>
+<p>1.4.2.2.1</p>
+<p>ADR: I forhold til 1.4.1, skal transportøren spesielt, når det er
+relevant:</p>
+<p>RID: I forhold til 1.4.1, skal transportøren som mottar det farlige
+godset ved avgangsstedet:</p>
+<p>a) forvisse seg om at det farlige godset som skal transporteres, er
+tillatt å transportere i henhold til ADR/RID;</p>
+<p>b) forvisse seg at all dokumentasjon som er foreskrevet i ADR/RID
+knyttet til det farlige godset er fremskaffet av avsenderen og at den er
+med i transportenheten, eller ved bruk av elektronisk databehandling
+(EDB) eller elektronisk datautveksling (EDI) i stedet for papir
+dokumentasjon, at informasjonen er tilgjengelig under transporten på en
+måte som minst tilsvarer papirdokumentasjon;</p>
+<p>c) se over kjøretøyer/vogner og last for å forvisse seg om at det ikke
+foreligger noen åpenbare feil, lekkasjer eller sprekker, at det ikke
+mangler utstyr, etc;</p>
+<p>d) forvisse seg om at oppgitt frist for neste prøving av
+tankkjøretøyer/tankvogner, batterikjøretøyer/batterivogner, løstanker
+(ADR)/<strong>vogner med løstanker (RID)</strong>, tankcontainere, multimodale tanker
+og MEGCer ikke er overskredet;</p>
+<p><strong>ANM:</strong> Tanker, batterikjøretøyer/batterivogner og MEGCer kan likevel
+bli transportert etter utløpet av denne fristen etter bestemmelsene i
+4.1.6.10. (gjelder batterikjøretøyer/batterivogner og MEGCer med
+trykkbeholdere som elementer), 4.2.4.4, 4.3.2.3.7, 4.3.2.4.4,
+6.7.2.19.6, 6.7.3.15.6 eller 6.7.4.14.6.</p>
+<ol class="loweralpha simple" start="5">
+<li><p>kontrollere at kjøretøyene/vognene ikke er overlastet;</p></li>
+</ol>
+<p>f) forvisse seg om at kjøretøyer/vogner er påført store faresedler,
+merker og oransje skilter slik det er beskrevet i kapittel 5.3.</p>
+<p>g) ADR: forvisse seg om at det utstyr som er fastsatt i ADR for
+transportenheten, kjøretøyets mannskap og for visse klasser befinner seg
+på kjøretøyet.</p>
+<p>RID: forvisse seg om at det utstyr som er fastsatt de skriftlige
+instruksjonene befinner seg i førerommet.</p>
+<p>ADR: Dette skal i den grad det er hensiktsmessig og nødvendig skje på
+grunnlag av transportdokumenter og følgedokumenter samt visuell
+inspeksjon av kjøretøyet/vognen og, når det er aktuelt, også av lasten.</p>
+<p>RID: Dette skal gjøres på grunnlag av transportdokumenter og
+følgedokumenter samt visuell inspeksjon av vognen og, når det er
+aktuelt, også av lasten.</p>
+<p>Bestemmelsene i dette punktet kan anses oppfylt når Del 5 i IRS
+40471-3 <a href="#id4"><span class="problematic" id="id1">[10]_</span></a> («Inspections of dangerous goods consignments») publisert
+av UIC anvendes.</p>
+<p>1.4.2.2.2</p>
+<p>Transportøren kan likevel stole på informasjon og data som han har
+mottatt fra andre aktører når det gjelder 1.4.2.2.1 (a), (b), <strong>(RID:
+(d)),</strong> (e) og (f). Når det gjelder 1.4.2.2.1 (c) kan han stole på det
+som er bekreftet i «container-/kjøretøystuingssertifikatet» gitt i
+samsvar med 5.4.2.</p>
+<p>1.4.2.2.3</p>
+<p>Dersom transportøren finner brudd på ADR/RID-bestemmelsene, i henhold
+til 1.4.2.2.1, skal han ikke videretransportere forsendelsen før saken
+er brakt i orden.</p>
+<p>1.4.2.2.4</p>
+<p>Dersom det under transporten oppdages brudd på bestemmelsene av en slik
+karakter at det kan gå ut over sikkerheten, skal forsendelsen holdes
+tilbake så snart som mulig. Det skal likevel tas hensyn til
+trafikksikkerheten og om det er trygt å la forsendelsen stå stille samt
+den offentlige sikkerhet. Transporten får ikke fortsette før
+forsendelsen er brakt i samsvar med gjeldende bestemmelser. Vedkommende
+myndighet(er) som er involvert ved resten av reisen, kan gi tillatelse
+til at transporten kan gjenopptas.</p>
+<p>Dersom det ikke er mulig å oppfylle bestemmelsene og det ikke er gitt
+tillatelse til å fullføre reisen, skal vedkommende myndighet(er) gi
+transportøren den administrative assistanse som er nødvendig. Det samme
+gjelder dersom transportøren meddeler denne/disse vedkommende
+myndighet(er) at han ikke var blitt underrettet av avsenderen om godsets
+farlige karakter, og at han ønsker å losse, destruere, eller
+uskadeliggjøre godset i samsvar med de spesielle rettsregler som gjelder
+forsendelseskontrakten.</p>
+<p>1.4.2.2.5</p>
+<p>RID: Transportøren skal forsikre seg om at den driftsansvarlige for
+jernbaneinfrastrukturen som brukes, til enhver tid under transporten er
+i stand til, på en rask og ubegrenset måte, å frembringe de nødvendige
+opplysninger for at han skal kunne oppfylle bestemmelsene i 1.4.3.6 (b).</p>
+<p><strong>ANM:</strong> Ordningen som benyttes for fremlegging av data skal fremgå av
+bestemmelsene for bruken av jernbaneinfrastrukturen.</p>
+<p>1.4.2.2.6</p>
+<p>ADR: Transportøren skal gi kjøretøyets mannskap de skriftlige
+instruksjonene som er beskrevet i ADR.</p>
+<p>RID: Transportøren skal gi føreren de skriftlige instruksjonene som er
+beskrevet i 5.4.3.</p>
+<p>1.4.2.2.7</p>
+<p>RID: Transportøren skal informere føreren om det farlige godset om bord
+og hvor dette er plassert i toget før togets avgang.</p>
+<p>Bestemmelsene i dette kapitlet kan anses å være oppfylt dersom
+vedleggene A, B og C i IRS 40472 («Breaking sheets, consist list for
+locomotive drivers and requirements for the exchange of data necessary
+to the operation of freight rail services ») benyttes <a href="#id5"><span class="problematic" id="id2">[11]_</span></a>.</p>
+<p>1.4.2.2.8</p>
+<p>RID: Transportøren skal forvisse seg om at informasjonen er tilgjengelig
+for vedlikeholdsansvarlig (ECM), enten direkte eller via
+tankvognoperatøren, som definert i Article 15 §3 i Vedlegg G i COTIF
+(ATMF) og i Vedlegg A i ATMF.</p>
+<p>1.4.2.3 Mottaker</p>
+<p>1.4.2.3.1</p>
+<p>Mottaker er pliktig til å akseptere godset uten opphold, utenom i
+tvingende tilfeller, og verifisere etter lossing at kravene i ADR/RID
+som gjelder ham er oppfylt.</p>
+<p>1.4.2.3.2</p>
+<p>Hvis, når det gjelder container, denne verifikasjonen avdekker brudd på
+bestemmelsene i ADR/RID, skal mottakeren returnere containeren til
+transportøren, bare etter at bruddene har blitt korrigert.</p>
+<p>1.4.2.3.3</p>
+<p>Hvis mottakeren gjør bruk av tjenestene til andre aktører (losser,
+rengjører, dekontamineringsanlegg, etc.) skal han iverksette tiltak for
+å sikre at kravene i 1.4.2.3.1 og 1.4.2.3.2 av ADR/RID har blitt
+overholdt.</p>
+</section>
+<section id="de-andre-aktorenes-plikter">
+<h2>1.4.3 De andre aktørenes plikter<a class="headerlink" href="#de-andre-aktorenes-plikter" title="Link to this heading">#</a></h2>
+<p>Andre aktører og deres forpliktelser finnes i nedenstående liste, men
+listen er ikke fullstendig. De andre aktørenes forpliktelser følger av
+1.4.1 ovenfor for så vidt som de vet eller burde vite at de utfører
+oppgaver som inngår i en transportoperasjon som er underlagt ADR/RID.</p>
+<p>1.4.3.1 Laster</p>
+<p>1.4.3.1.1</p>
+<p>I forhold til 1.4.1 har den som laster følgende spesielle forpliktelser:</p>
+<p>a) han skal bare overlevere til transportøren farlig gods som er tillatt
+å transportere i henhold til ADR/RID;</p>
+<p>b) når han overleverer emballert farlig gods eller tom, ikke rengjort
+emballasje for transport, skal han undersøke om emballasjen er skadet.
+Han skal ikke overlevere et kolli hvor emballasjen er skadet, spesielt
+ikke hvis den er utett, og hvor det lekker ut eller kan lekke ut farlig
+stoff, før skaden er utbedret. Dette gjelder også tom, ikke rengjort
+emballasje;</p>
+<p>c) han skal følge de spesielle bestemmelsene som gjelder lasting og
+håndtering;</p>
+<p>d) ADR: han skal, når han har lastet farlig gods i en container, følge
+bestemmelsene om merking med store faresedler, merker og oransje skilter
+i henhold til bestemmelsene i kapittel 5.3;</p>
+<p>RID: han skal, når han overlater det farlige godset for transport
+direkte til transportøren, følge bestemmelsene om påføring av store
+faresedler, merking og oransje skilt på vognen eller storcontaineren i
+henhold til bestemmelsene i kapittel 5.3;</p>
+<p>e) når han laster kolli, skal han rette seg etter samlastingsforbudene
+og ta hensyn til gods som allerede befinner seg i kjøretøyet/vognen
+eller storcontaineren og til bestemmelsene om å holde matvarer og andre
+konsumvarer atskilt.</p>
+<p>1.4.3.1.2</p>
+<p>Lasteren kan likevel stole på informasjon og data som han har mottatt
+fra andre aktører når det gjelder 1.4.3.1.1 (a), (d) og (e).</p>
+<p>1.4.3.2 Pakker</p>
+<p>I forhold til 1.4.1 skal pakkeren spesielt rette seg etter følgende:</p>
+<p>a) kravene knyttet til bestemmelsene om emballering og samemballering;
+og</p>
+<p>b) når han klargjør kolli for transport, bestemmelsene om merking og
+faresedler på kolli.</p>
+<p>1.4.3.3 Fyller</p>
+<p>I forhold til 1.4.1 har den som fyller følgende spesielle forpliktelser:</p>
+<p>a) før fyllingen foretas skal han forvisse seg om at så vel tankene som
+deres utstyr er i tilfredsstillende teknisk stand;</p>
+<p>b) han skal forvisse seg om at oppgitt frist for neste prøving av
+tankkjøretøyer, tankvogner, batterikjøretøyer, batterivogner, løstanker
+(ADR)/vogner med løstanker (RID), tankcontainere, multimodale tanker og
+MEGCer ikke er overskredet;</p>
+<p>c) han skal bare fylle tanker med farlig gods som er tillatt å
+transportere i disse tankene;</p>
+<p>d) ved fyllingen av tanken skal han rette seg etter bestemmelsene om
+farlig gods i tilstøtende tankrom;</p>
+<p>e) ved fyllingen av tanken skal han ta hensyn til tillatte fyllingsgrad
+eller tillatte masse av innhold pr. liter volum for det stoffet som
+fylles;</p>
+<p>f) når tanken er fylt, skal han kontrollere at lukkeinnretningene er
+satt i lukket stilling og at det ikke er noen lekkasje;</p>
+<p>g) han skal forvisse seg om at det ikke befinner seg rester av det
+påfylte stoffet på utsiden av tanker som han har fylt;</p>
+<p>h) ADR: han skal, ved klargjøring av det farlige godset for transport,
+sørge for at store og små faresedler, merker og oransje skilter er
+påført tankene, kjøretøyene og containerne for transport i bulk, i
+henhold til bestemmelsene i kapittel 5.3;</p>
+<p>RID: <strong>Når farlig gods klargjøres for transport, skal han sørge for at
+store og små faresedler, merker og oransje skilter så vel som
+rangeringsmerker er påført tankene, vognene og containerne i henhold til
+bestemmelsene i kapittel 5.3;</strong></p>
+<p>i) RID: han skal, før og etter fylling av flytende gass på tankvogner,
+følge gjeldene spesielle kontrollkrav;</p>
+<p>ADR: Reservert</p>
+<p>j) han skal forsikre seg at de relevante bestemmelsene i kapitel 7.3
+overholdes når han fyller kjøretøyer/vogner eller containere med farlig
+gods i bulk.</p>
+<p>ANM (RID): Fylleren skal etablere rutiner for å sikre at han oppfyller
+alle forpliktene sine. Retningslinjer i form av sjekklister for
+tankvogner for væsker og gasser, er tilgjengelig på OTIF sin hjemmeside
+(<a class="reference external" href="http://otif.org/en?page_id=1103">http://otif.org/en?page_id=1103</a>) for å hjelpe fylleren av tankvognen
+med væske og gass til å oppfylle sine forpliktelser når det gjelder
+sikkerhet, spesielt med tanke på tankvognens lekkasjetetthet.</p>
+<p>1.4.3.4 Tankcontaineroperatør/Multimodal tankoperatør</p>
+<p>I forhold til 1.4.1, skal tankcontaineroperatøren spesielt:</p>
+<p>a) påse at bestemmelsene om utførelse, utstyr, kontroll og prøving og
+merking er fulgt;</p>
+<p>b) påse at tanker med utstyr er vedlikeholdt på en slik måte at det
+sikrer at tankcontaineren under vanlige transportforhold oppfyller
+ADR/RID-kravene inntil neste kontroll;</p>
+<p>c) sørge for at det blir foretatt ekstraordinær kontroll når det kan
+tenkes at tank eller utstyr er blitt mindre sikker(t) som følge av
+reparasjon, ombygging eller uhell.</p>
+<p>1.4.3.5 Tankvognoperatør</p>
+<p>ADR: (Reservert)</p>
+<p>RID: I forhold til avsnitt 1.4.1 skal tankvognoperatøren spesielt <a href="#id6"><span class="problematic" id="id3">[12]_</span></a>:</p>
+<p>a) sørge for at bestemmelsene som gjelder bygging, utstyr, kontroll og
+prøving og merking blir fulgt;</p>
+<p>b) få gjennomført ekstraordinær kontroll når tankskallet eller utstyrets
+sikkerhet kan være påvirket av reparasjon, ombygging eller uhell;</p>
+<p>c) sørge for at resultatet av aktivitetene i punkt (a) og (b) blir
+registrert i tankloggen;</p>
+<p>d) sørge for at vedlikeholdsansvarlig (entity in charge of maintenance,
+ECM) som er tildelt tankvognen innehar et gyldig sertifikat for
+tankvogner med farlig gods.</p>
+<p>e) sørge for at informasjonen er tilgjengelig for vedlikeholdsansvarlig
+(entity in charge of maintenance, ECM), som definert i Article 15 §3 i
+Vedlegg G i COTIF (ATMF) og i Vedlegg A i ATMF.</p>
+<p>1.4.3.6 Driftsansvarlig for jernbaneinfrastruktur</p>
+<p>ADR: (Reservert)</p>
+<p>RID: I forhold til avsnitt 1.4.1 har den driftsansvarlige for
+jernbaneinfrastrukturen følgende spesielle ansvarsområder:</p>
+<p>a) sørge for at det er utarbeidet beredskapsplaner for rangeringsområder
+i henhold til kapittel 1.11;</p>
+<p><strong>b) sørge for at han til enhver tid under transporten har rask og
+ubegrenset adgang til følgende informasjon:</strong></p>
+<p>– sammensetning av toget ved angivelse av nummeret på hver vogn og
+vogntypen dersom den ikke er inkludert i vognnummeret,</p>
+<p>– UN-numrene på det farlige godset som blir transportert i eller på hver
+vogn dersom det er krav om at de oppgis i transportdokumentet, eller
+hvis det bare er farlig gods emballert i begrensede mengder i henhold
+til kapittel 3.4 som blir transportert, informasjon som indikerer deres
+tilstedeværelse når merking av vognen eller containeren i henhold til
+kapittel 3.4 er påkrevd,</p>
+<p>– posisjonen til hver vogn i toget (vognrekkefølge).</p>
+<p>RID: Denne informasjonen skal bare overleveres til den som har behov for
+slike opplysninger av sikkerhets- eller sikringsmessige årsaker, eller
+for redningsinnsats.</p>
+<p>ANM: Ordningen som benyttes for fremlegging av data skal fremgå av
+bestemmelsene for bruken av jernbaneinfrastrukturen.</p>
+<p>1.4.3.7 Losser</p>
+<p>1.4.3.7.1</p>
+<p>I forhold til1.4.1, skal losser spesielt:</p>
+<p>a) ADR: forsikre seg om at riktig gods blir losset ved å sammenligne
+relevant informasjon i transportdokumentet med informasjon på
+emballasje, container, tank, MEMU, MEGC eller kjøretøy;</p>
+<p>RID: <strong>forsikre seg om at riktig gods blir losset ved å sammenligne
+relevant informasjon i transportdokumentet med informasjon på
+emballasje, container, tank, MEGC eller jernbanevogn;</strong></p>
+<p>b) før og under lossing kontrollere om kolli, tanken,
+kjøretøyet/jernbanevognen eller containeren har skade i en slik grad at
+det kan medføre fare ved losseoperasjonen. Hvis dette er tilfelle, skal
+lossing ikke fortsette før passende tiltak er iverksatt for å hindre
+utslipp;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>overholde alle relevante krav angående lossing og håndtering;</p></li>
+</ol>
+<p>d) umiddelbart etter lossingen av tank, kjøretøy/jernbanevogn eller
+container:</p>
+<p>i. fjerne enhver farlig rest som har festet seg til utsiden av tanken,
+kjøretøyet/jernbanevognen eller containeren under lossingen; og</p>
+<ol class="lowerroman simple" start="2">
+<li><p>sikre at ventiler og inspeksjonsåpninger er stengt;</p></li>
+</ol>
+<p>e) sikre at foreskrevet rengjøring og dekontaminering av
+kjøretøyene/jernbanevognene eller containere blir utført; og</p>
+<p>f) ADR: sikre at containere som er fullstendig losset, rengjorte og
+dekontaminerte ikke lenger er påført store faresedler, merker og oransje
+skilter som beskrevet i kapittel 5.3.</p>
+<p>RID: sikre <strong>at containere og vogner, når de har blitt fullstendig
+losset, rengjorte, avgasset og dekontaminerte, ikke lenger er påført
+store faresedler, merker og oransje skilter som beskrevet i kapittel
+5.3.</strong></p>
+<p>ANM (RID): Losseren skal etablere rutiner for å sikre at han oppfyller
+alle forpliktelsene sine. Retningslinjer i form av sjekklister for
+tankvogner for væsker og gasser, er tilgjengelig på OTIF sin hjemmeside
+(<a class="reference external" href="http://otif.org/en?page_id=1103">http://otif.org/en?page_id=1103</a>) for å hjelpe losseren av tankvognen
+med væske og gass til å oppfylle sine forpliktelser når det gjelder
+sikkerhet, spesielt med tanke på tankvognens lekkasjetetthet.</p>
+<p>1.4.3.7.2</p>
+<p>Hvis losser gjør bruk av andre aktørers tjenester (rengjøring,
+dekontaminering etc.) skal han ta nødvendige forholdsregler for å sikre
+at bestemmelsene i ADR/RID er fulgt.</p>
+<p>1.4.3.8 RID: Vedlikeholdsansvarlig (entity in charge of maintenance,
+ECM)</p>
+<p>I sammenheng med kapittel 1.4.1 skal vedlikeholdsansvarlig særlig sørge
+for at:</p>
+<p>a) vedlikeholdet av tanker med tilhørende utstyr utføres slik at det
+sikres at tanken overholder bestemmelsene i RID under vanlige
+transportforhold;</p>
+<p>b) informasjonen som definert i Article 15 §3 i Vedlegg G i COTIF (ATMF)
+og i Vedlegg A i ATMF.</p>
+<p>c) vedlikeholdsaktivitetene som angår tanken med tilhørende utstyr er
+registrert i vedlikeholdsloggen.</p>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 1.5 Avvik/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 1.5 Avvik</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alminnelige-sikkerhetstiltak">1.4.1 Alminnelige sikkerhetstiltak</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hovedaktorenes-plikter">1.4.2 Hovedaktørenes plikter</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#de-andre-aktorenes-plikter">1.4.3 De andre aktørenes plikter</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del1/Kapittel 1.4 Aktørenes plikter.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
