@@ -1,7 +1,7 @@
 .. _1.1:
 
-Kapittel 1.1 Omfang og anvendelse **big tesT**
-----------------------------------------------
+Kapittel 1.1 Omfang og anvendelse
+---------------------------------
 
 .. _1.1.1:
 
