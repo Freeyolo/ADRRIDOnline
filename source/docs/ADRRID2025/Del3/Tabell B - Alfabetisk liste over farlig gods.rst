@@ -4956,7 +4956,7 @@ N
 |       | N.O.S. med ikke mer enn 30 masseprosent nitroglyserol        |
 +-------+--------------------------------------------------------------+
 | 3357  | NITROGLYSEROL BLANDING, DESENSITERT, FLYTENDE, N.O.S. med    |
-|       | ikke mer enn 30 masse­prosent nitroglyserol                   |
+|       | ikke mer enn 30 masse­prosent nitroglyserol                  |
 +-------+--------------------------------------------------------------+
 | 3319  | NITROGLYSEROL BLANDING, DESENSITERT, I FAST FORM, N.O.S..    |
 |       | med mer enn 2, men ikke mer enn 10 masseprosent              |
@@ -5142,10 +5142,10 @@ O
 |       | BRANNFARLIG                                                  |
 +-------+--------------------------------------------------------------+
 | 3397  | ORGANISK METALLFORBINDELSE, i FAST FORM, REAGERER MED VANN,  |
-|       | SELVOPP­HETENDE                                               |
+|       | SELVOPP­HETENDE                                              |
 +-------+--------------------------------------------------------------+
 | 3397  | ORGANISK METALLFORBINDELSE, i FAST FORM, REAGERER MED VANN,  |
-|       | SELVOPP­HETENDE                                               |
+|       | SELVOPP­HETENDE                                              |
 +-------+--------------------------------------------------------------+
 | 3398  | ORGANISK METALLFORBINDELSE, FLYTENDE, REAGERER MED VANN      |
 +-------+--------------------------------------------------------------+
@@ -5165,7 +5165,7 @@ O
 |       | BRANNFARLIG                                                  |
 +-------+--------------------------------------------------------------+
 | 3397  | ORGANISK METALLFORBINDELSE, i FAST FORM, REAGERER MED VANN,  |
-|       | SELVOPP­HETENDE                                               |
+|       | SELVOPP­HETENDE                                              |
 +-------+--------------------------------------------------------------+
 | 3400  | ORGANISK METALLFORBINDELSE, i FAST FORM, SELVOPPHETENDE      |
 +-------+--------------------------------------------------------------+
@@ -6620,7 +6620,7 @@ T
 |       | masseprosent vann                                            |
 +-------+--------------------------------------------------------------+
 | 0389  | TRINITROTOLUEN (TNT) BLANDING SOM INNEHOLDER TRINITROBENZEN  |
-|       | OG ­HEXANITROSTILBEN                                          |
+|       | OG ­HEXANITROSTILBEN                                         |
 +-------+--------------------------------------------------------------+
 | 3366  | TRINITROTOLUENE (TNT), FUKTET med ikke under 10 masseprosent |
 |       | vann                                                         |
