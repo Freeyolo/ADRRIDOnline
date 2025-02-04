@@ -12,7 +12,8 @@ av en veiledning.
 
 **NB** Listen nedenfor er ikke en juridisk del av ADR eller RID.
 
-**0-9**
+0-9
+^^^
 
 +-------+--------------------------------------------------------------+
 | 2688  | 1-BROM-3-KLORPROPAN                                          |
@@ -230,7 +231,8 @@ av en veiledning.
 | 2940  | 9-FOSFABICYCLONONANER (CYCLOOKTADIENFOSFINER)                |
 +-------+--------------------------------------------------------------+
 
-**A**
+A
+^
 
 +-------+--------------------------------------------------------------+
 | 1088  | ACETAL                                                       |
@@ -905,7 +907,8 @@ av en veiledning.
 | 3242  | AZODIKARBONAMID                                              |
 +-------+--------------------------------------------------------------+
 
-**B**
+B
+^
 
 +-------+--------------------------------------------------------------+
 | 0433  | BALLISTITTMASSE (KRUTTMASSE), FUKTET med ikke under 17       |
@@ -1420,7 +1423,8 @@ av en veiledning.
 | 2353  | BUTYRYLKLORID                                                |
 +-------+--------------------------------------------------------------+
 
-**C**
+C
+^
 
 +-------+--------------------------------------------------------------+
 | 2969  | CASTORBØNNER eller CASTORMEL eller CASTORMASSE eller         |
@@ -1454,10 +1458,10 @@ av en veiledning.
 |       | Coating (som brannfarlig væske) – se: UN 1139                |
 +-------+--------------------------------------------------------------+
 | 3024  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, BRANNFARLIG,  |
-|       | GIFTIG, flamme­punkt under 23 °C                              |
+|       | GIFTIG, flamme­punkt under 23 °C                             |
 +-------+--------------------------------------------------------------+
 | 3024  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, BRANNFARLIG,  |
-|       | GIFTIG, flamme­punkt under 23 °C                              |
+|       | GIFTIG, flamme­punkt under 23 °C                             |
 +-------+--------------------------------------------------------------+
 | 3026  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG        |
 +-------+--------------------------------------------------------------+
@@ -1466,13 +1470,13 @@ av en veiledning.
 | 3026  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG        |
 +-------+--------------------------------------------------------------+
 | 3025  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,       |
-|       | BRANNFARLIG, flamme­punkt under 23 °C                         |
+|       | BRANNFARLIG, flamme­punkt under 23 °C                        |
 +-------+--------------------------------------------------------------+
 | 3025  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,       |
-|       | BRANNFARLIG, flamme­punkt under 23 °C                         |
+|       | BRANNFARLIG, flamme­punkt under 23 °C                        |
 +-------+--------------------------------------------------------------+
 | 3025  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,       |
-|       | BRANNFARLIG, flamme­punkt under 23 °C                         |
+|       | BRANNFARLIG, flamme­punkt under 23 °C                        |
 +-------+--------------------------------------------------------------+
 | 3027  | COUMARIN AVLEDET BEKJEMPNINGSMIDDEL, I FAST FORM, GIFTIG     |
 +-------+--------------------------------------------------------------+
@@ -1561,7 +1565,8 @@ av en veiledning.
 | 2246  | CYKLOPENTEN                                                  |
 +-------+--------------------------------------------------------------+
 
-**D**
+D
+^
 
 +-------+--------------------------------------------------------------+
 | 0132  | DEFLAGRERENDE METALLSALT AV AROMATISKE NITRODERIVATIVER,     |
@@ -1858,7 +1863,8 @@ av en veiledning.
 |       | Dynamitt – se: UN 0081                                       |
 +-------+--------------------------------------------------------------+
 
-**E**
+E
+^
 
 +-------+--------------------------------------------------------------+
 |       | E 85 – se UN 3475                                            |
@@ -2189,7 +2195,8 @@ av en veiledning.
 | 1196  | ETYLTRIKLORSILAN                                             |
 +-------+--------------------------------------------------------------+
 
-**F**
+F
+^
 
 +-------+--------------------------------------------------------------+
 |       | F-40 – se: UN 1202 eller UN 1223                             |
@@ -2283,10 +2290,10 @@ av en veiledning.
 | 2311  | FENETIDINER                                                  |
 +-------+--------------------------------------------------------------+
 | 3346  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE,         |
-|       | BRANNFARLIG, ­GIFTIG, flammepunkt under 23 °C                 |
+|       | BRANNFARLIG, ­GIFTIG, flammepunkt under 23 °C                |
 +-------+--------------------------------------------------------------+
 | 3346  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE,         |
-|       | BRANNFARLIG, ­GIFTIG, flammepunkt under 23 °C                 |
+|       | BRANNFARLIG, ­GIFTIG, flammepunkt under 23 °C                |
 +-------+--------------------------------------------------------------+
 | 3348  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG  |
 +-------+--------------------------------------------------------------+
@@ -2295,13 +2302,13 @@ av en veiledning.
 | 3348  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG  |
 +-------+--------------------------------------------------------------+
 | 3347  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG, |
-|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                    |
+|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 3347  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG, |
-|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                    |
+|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 3347  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG, |
-|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                    |
+|       | BRANN­FARLIG, flammepunkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 3345  | FENOKSYEDIKKSYREBASERT BEKJEMPNINGSMIDDEL, I FAST FORM,      |
 |       | GIFTIG                                                       |
@@ -2540,7 +2547,8 @@ av en veiledning.
 | 0336  | FYRVERKERI                                                   |
 +-------+--------------------------------------------------------------+
 
-**G**
+G
+^
 
 +-------+--------------------------------------------------------------+
 | 2803  | GALLIUM                                                      |
@@ -2789,8 +2797,8 @@ av en veiledning.
 |       | **RID: ikke tillatt**                                        |
 +-------+--------------------------------------------------------------+
 | 0114  | GUANYLNITROSAMINOGUANYLTETRAZEN (TETRAZEN) FUKTET med ikke   |
-|       | under 30 masse­prosent vann eller blanding av alkohol og vann |
-|       |                                                              |
+|       | under 30 masse­prosent vann eller blanding av alkohol og     | 
+|       | vann                                                         |
 |       | **RID: ikke tillatt**                                        |
 +-------+--------------------------------------------------------------+
 | 1345  | GUMMIAVFALL, pulver eller granulat, ikke over 840 mikron og  |
@@ -2812,7 +2820,8 @@ av en veiledning.
 |       | gummiinnhold over 45 %                                       |
 +-------+--------------------------------------------------------------+
 
-**H**
+H
+^
 
 +-------+--------------------------------------------------------------+
 |       | Halon – se: UN 1028, 2644, 1974, 1009 eller 1891             |
@@ -2942,7 +2951,7 @@ av en veiledning.
 +-------+--------------------------------------------------------------+
 | 3468  | HYDROGEN i METALLHYDRID LAGRINGSSYSTEM eller HYDROGEN I      |
 |       | METALLHYDRID LAGRINGSSYSTEM I UTSTYR eller HYDROGEN I        |
-|       | METALLHYDRID LAGRINGSSYSTEM ­PAKKET MED UTSTYR                |
+|       | METALLHYDRID LAGRINGSSYSTEM ­PAKKET MED UTSTYR               |
 +-------+--------------------------------------------------------------+
 | 2034  | HYDROGEN OG METAN BLANDING, KOMPRIMERT                       |
 +-------+--------------------------------------------------------------+
@@ -2991,7 +3000,7 @@ av en veiledning.
 |       | ikke mer enn 60 % hydrgenperoksid (stabilisert om nødvendig) |
 +-------+--------------------------------------------------------------+
 | 2984  | HYDROGENPEROKSID, VANNLØSNING med ikke mindre enn 8 %, men   |
-|       | mindre enn 20 % ­hydrgenperoksid (stabilisert om nødvendig)   |
+|       | mindre enn 20 % ­hydrgenperoksid (stabilisert om nødvendig)  |
 +-------+--------------------------------------------------------------+
 | 2015  | HYDROGENPEROKSID, VANNLØSNING, STABILISERT                   |
 +-------+--------------------------------------------------------------+
@@ -3032,7 +3041,8 @@ av en veiledning.
 | 1327  | HØY eller HALM                                               |
 +-------+--------------------------------------------------------------+
 
-**I**
+I
+^
 
 +-------+--------------------------------------------------------------+
 | 2900  | INFEKSJONSFREMMENDE STOFF, RAMMER bare DYR                   |
@@ -3161,10 +3171,11 @@ av en veiledning.
 | 3251  | ISOSORBID-5-MONONITRAT                                       |
 +-------+--------------------------------------------------------------+
 | 2907  | ISOSORBID-DINITRAT BLANDING med ikke under 60 % laktose,     |
-|       | manose, stivelse eller kalsium­hydrogenfosfat                 |
+|       | manose, stivelse eller kalsium­hydrogenfosfat                |
 +-------+--------------------------------------------------------------+
 
-**J**
+J
+^
 
 +-------+--------------------------------------------------------------+
 | 1608  | JERN(II)ARSENAT                                              |
@@ -3217,7 +3228,8 @@ av en veiledning.
 | 1393  | JORDALKALIMETALLEGERING, N.O.S.                              |
 +-------+--------------------------------------------------------------+
 
-**K**
+K
+^
 
 +-------+--------------------------------------------------------------+
 | 0070  | KABELKUTTERE, EKSPLOSIVE                                     |
@@ -3886,10 +3898,10 @@ av en veiledning.
 | 1629  | KVIKKSØLVACETAT                                              |
 +-------+--------------------------------------------------------------+
 | 2778  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, BRANNFARLIG,   |
-|       | GIFTIG, flamme­punkt under 23 °C                              |
+|       | GIFTIG, flamme­punkt under 23 °C                             |
 +-------+--------------------------------------------------------------+
 | 2778  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, BRANNFARLIG,   |
-|       | GIFTIG, flamme­punkt under 23 °C                              |
+|       | GIFTIG, flamme­punkt under 23 °C                             |
 +-------+--------------------------------------------------------------+
 | 3012  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG         |
 +-------+--------------------------------------------------------------+
@@ -3898,13 +3910,13 @@ av en veiledning.
 | 3012  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG         |
 +-------+--------------------------------------------------------------+
 | 3011  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,        |
-|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                    |
+|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 3011  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,        |
-|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                    |
+|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 3011  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG,        |
-|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                    |
+|       | BRANNFARLIG, flamme­punkt ikke under 23 °C                   |
 +-------+--------------------------------------------------------------+
 | 2777  | KVIKKSØLVBASERT BEKJEMPNINGSMIDDEL, I FAST FORM, GIFTIG      |
 +-------+--------------------------------------------------------------+
@@ -3952,7 +3964,8 @@ av en veiledning.
 | 2046  | KYMENER                                                      |
 +-------+--------------------------------------------------------------+
 
-**L**
+L
+^
 
 +-------+--------------------------------------------------------------+
 | 0043  | LADNINGER, BRISTE, eksplosive                                |
@@ -4134,7 +4147,8 @@ av en veiledning.
 |       | Lystgass – se: UN 1070 eller UN 2201                         |
 +-------+--------------------------------------------------------------+
 
-**M**
+M
+^
 
 +-------+--------------------------------------------------------------+
 | 1869  | MAGNESIUM eller MAGNESIUMLEGERINGER med mer enn 50 %         |
@@ -4300,27 +4314,27 @@ av en veiledning.
 | 3549  | MEDISINSK AVFALL, KATEGORI A, RAMMER MENNESKER, i fast form  |
 +-------+--------------------------------------------------------------+
 | 1228  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, GIFTIGE N.O.S. eller    |
-|       | MERKAPTAN­BLANDING, FLYTENDE, BRANNFARLIG, GIFTIG, N.O.S.     |
+|       | MERKAPTAN­BLANDING, FLYTENDE, BRANNFARLIG, GIFTIG, N.O.S.    |
 +-------+--------------------------------------------------------------+
 | 1228  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, GIFTIGE N.O.S. eller    |
-|       | MERKAPTAN­BLANDING, FLYTENDE, BRANNFARLIG, GIFTIG, N.O.S.     |
+|       | MERKAPTAN­BLANDING, FLYTENDE, BRANNFARLIG, GIFTIG, N.O.S.    |
 +-------+--------------------------------------------------------------+
 | 3336  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, N.O.S. eller            |
-|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S.             |
+|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S.            |
 +-------+--------------------------------------------------------------+
 | 3336  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, N.O.S. eller            |
-|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S.             |
+|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S.            |
 +-------+--------------------------------------------------------------+
 | 3336  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, N.O.S. eller            |
-|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S. (damptrykk  |
+|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S. (damptrykk |
 |       | ved 50 °C ikke over 110 kPa)                                 |
 +-------+--------------------------------------------------------------+
 | 3336  | MERKAPTANER, FLYTENDE, BRANNFARLIGE, N.O.S. eller            |
-|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S. (damptrykk  |
+|       | MERKAPTANBLANDING, ­FLYTENDE, BRANNFARLIG, N.O.S. (damptrykk |
 |       | ved 50 °C over 110 kPa)                                      |
 +-------+--------------------------------------------------------------+
 | 3071  | MERKAPTANER, FLYTENDE, GIFTIGE, BRANNFARLIGE N.O.S. eller    |
-|       | MERKAPTAN­BLANDING, FLYTENDE, GIFTIG, BRANNFARLIG, N.O.S.     |
+|       | MERKAPTAN­BLANDING, FLYTENDE, GIFTIG, BRANNFARLIG, N.O.S.    |
 +-------+--------------------------------------------------------------+
 | 1229  | MESITYLOKSID                                                 |
 +-------+--------------------------------------------------------------+
@@ -4543,7 +4557,8 @@ av en veiledning.
 |       | Motorer – se: UN 3528, 3529 eller 3530                       |
 +-------+--------------------------------------------------------------+
 
-**N**
+N
+^
 
 +-------+--------------------------------------------------------------+
 | 2815  | N-AMINOETYLPIPERAZIN                                         |
@@ -4647,11 +4662,11 @@ av en veiledning.
 | 1426  | NATRIUMBORHYDRID                                             |
 +-------+--------------------------------------------------------------+
 | 3320  | NATRIUMBORHYDRID OG NATRIUMHYDROKSID LØSNING, med ikke mer   |
-|       | enn 12 masse­prosent natriumborhydrid og ikke mer enn 40      |
+|       | enn 12 masse­prosent natriumborhydrid og ikke mer enn 40     |
 |       | masseprosent natriumhydroksid                                |
 +-------+--------------------------------------------------------------+
 | 3320  | NATRIUMBORHYDRID OG NATRIUMHYDROKSID LØSNING, med ikke mer   |
-|       | enn 12 masse­prosent natriumborhydrid og ikke mer enn         |
+|       | enn 12 masse­prosent natriumborhydrid og ikke mer enn        |
 |       | 40 masseprosent natriumhydroksid                             |
 +-------+--------------------------------------------------------------+
 | 1494  | NATRIUMBROMAT                                                |
@@ -5006,7 +5021,8 @@ av en veiledning.
 |       | Nødraketter – se: UN 0194, 0195, 0505 og 0506                |
 +-------+--------------------------------------------------------------+
 
-**O**
+O
+^
 
 +-------+--------------------------------------------------------------+
 | 1591  | o-DIKLORBENZEN                                               |
@@ -5351,7 +5367,8 @@ av en veiledning.
 |       | fat eller tønner)                                            |
 +-------+--------------------------------------------------------------+
 
-**P**
+P
+^
 
 +-------+--------------------------------------------------------------+
 | 1379  | PAPIR, UMETTET OLJEHOLDIG, ufullstendig tørket (inklusive    |
@@ -5661,13 +5678,15 @@ av en veiledning.
 | 1922  | PYRROLIDIN                                                   |
 +-------+--------------------------------------------------------------+
 
-**Q**
+Q
+^
 
 +-------+--------------------------------------------------------------+
 | 2656  | QUINOLIN                                                     |
 +-------+--------------------------------------------------------------+
 
-**R**
+R
+^
 
 +-------+--------------------------------------------------------------+
 | 2977  | RADIOAKTIVT MATERIALE URANHEKSAFLUORID, SPALTBART            |
@@ -5805,7 +5824,8 @@ av en veiledning.
 |       | Råolje – se: UN 1267 eller 3494                              |
 +-------+--------------------------------------------------------------+
 
-**S**
+S
+^
 
 +-------+--------------------------------------------------------------+
 | 2031  | SALPETERSYRE, annet enn rød rykende, med minst 65 %, men     |
@@ -5931,7 +5951,6 @@ av en veiledning.
 | 3222  | SELVREAKTIVT FAST STOFF TYPE B                               |
 +-------+--------------------------------------------------------------+
 | 3232  | SELVREAKTIVT FAST STOFF TYPE B, UNDER TEMPERATURKONTROLL     |
-|       |                                                              |
 |       | **RID: ikke tillatt, se: kap. 2.2.41.2.3**                   |
 +-------+--------------------------------------------------------------+
 | 3224  | SELVREAKTIVT FAST STOFF TYPE C                               |
@@ -6042,8 +6061,6 @@ av en veiledning.
 | 1906  | SLAMSYRE                                                     |
 +-------+--------------------------------------------------------------+
 |       | Slokkemiddelutløsere, se UN 0514 eller 3559                  |
-+-------+--------------------------------------------------------------+
-|       |                                                              |
 +-------+--------------------------------------------------------------+
 |       |                                                              |
 +-------+--------------------------------------------------------------+
@@ -6187,7 +6204,8 @@ av en veiledning.
 | 1347  | SØLVPIKRAT, FUKTET med ikke under 30 masseprosent vann       |
 +-------+--------------------------------------------------------------+
 
-**T**
+T
+^
 
 +-------+--------------------------------------------------------------+
 | 1857  | Tekstilavfall, fuktig                                        |
@@ -6659,7 +6677,8 @@ av en veiledning.
 | 3448  | TÅREGASSTOFF, I FAST FORM, N.O.S                             |
 +-------+--------------------------------------------------------------+
 
-**U**
+U
+^
 
 +-------+--------------------------------------------------------------+
 | 1387  | Ullavfall, fuktig                                            |
@@ -6687,7 +6706,8 @@ av en veiledning.
 | 0173  | UTLØSERMEKANISMER, EKSPLOSIVE                                |
 +-------+--------------------------------------------------------------+
 
-**V**
+V
+^
 
 +-------+--------------------------------------------------------------+
 | 2058  | VALERALDEHYD                                                 |
@@ -6759,7 +6779,8 @@ av en veiledning.
 | 3148  | VÆSKE, REAGERER MED VANN, N.O.S.                             |
 +-------+--------------------------------------------------------------+
 
-**W**
+W
+^
 
 +-------+--------------------------------------------------------------+
 |       | White sprite – se: UN 1300                                   |
@@ -6767,7 +6788,8 @@ av en veiledning.
 | 2196  | WOLFRAMHEXAFLUORID                                           |
 +-------+--------------------------------------------------------------+
 
-**X**
+X
+^
 
 +-------+--------------------------------------------------------------+
 | 3342  | XANTHATER                                                    |
@@ -6793,7 +6815,8 @@ av en veiledning.
 | 1701  | XYLYLBROMID, FLYTENDE                                        |
 +-------+--------------------------------------------------------------+
 
-**Z**
+Z
+^
 
 +-------+--------------------------------------------------------------+
 | 2858  | ZIRCONIUM, TØRT, trådkveiler eller bearbeidet til plater,    |
