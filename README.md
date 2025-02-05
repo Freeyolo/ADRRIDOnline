@@ -1,4 +1,4 @@
-# [ADRRIDOnline](https://freeyolo.github.io/ADRRIDOnline/)
+# [ADR/RID Online](https://freeyolo.github.io/ADRRIDOnline/)
 
 MWE for digitalisert versjon av ADR/RID 2025 med klikkbare hyperlinker etc.
 Bruker [Sphinx](https://www.sphinx-doc.org/en/master/index.html) med [pydata-sphinx-theme](https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html). 
