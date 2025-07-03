@@ -58,7 +58,15 @@ html_theme_options = {
     },
     "external_links": [
         {"name": "Farliggodspermen", "url": "https://farliggodspermen.no/"}
-    ],   
+    ],
+    "icon_links": [
+    {
+        "name": "18a",
+        "url": "_static/modulvogntog_snake.html",
+        "icon": "fa-solid fa-truck-front",
+        "type": "fontawesome",
+    },
+],   
 }
 
 
