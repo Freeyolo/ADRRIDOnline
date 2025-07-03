@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulvogntog med farlig gods</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes truckMove {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(5px) translateY(5px); }
+        }
+        
+        .truck-animation {
+            animation: truckMove 0.5s infinite alternate;
+        }
+        
+        .cargo-animation {
+            animation: truckMove 0.5s infinite alternate-reverse;
+        }
+        
+        #gameCanvas {
+            border: 4px solid #1e40af;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        .trailer {
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-blue-800 mb-2">Modulvogntog med farlig gods</h1>
+        <p class="text-lg text-gray-700">§ 18 a er opphevet! Transporter så mye farlig gods du klarer i modulvogntog!</p>
+    </div>
+    
+    <div class="relative">
+        <canvas id="gameCanvas" width="600" height="400" class="bg-white"></canvas>
+        <div id="gameOver" class="hidden absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center rounded-lg">
+            <h2 class="text-3xl font-bold text-white mb-4">Game Over!</h2>
+            <p class="text-xl text-white mb-6">Du overskred normaldimensjonene med  <span id="finalScore" class="font-bold">0</span> tilhengere!</p>
+            <button id="restartButton" class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+                Drive Again
+            </button>
+        </div>
+        <div id="startScreen" class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center rounded-lg">
+            <h2 class="text-3xl font-bold text-white mb-4">Modulvogntog med farlig gods</h2>
+            <p class="text-xl text-white mb-6 text-center max-w-md">Bruk piltastene til å kjøre ditt modulvogntog.<br>Samle tanktilghengere med farlig gods til ditt vogntog!</p>
+            <button id="startButton" class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+                Start Driving
+            </button>
+        </div>
+    </div>
+    
+    <div class="mt-6 flex justify-between w-full max-w-md">
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <h3 class="font-semibold text-gray-800">Kontroller</h3>
+            <p class="text-sm text-gray-600">Piltaster for retning</p>
+            <p class="text-sm text-gray-600">Mellomrom for pause</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <h3 class="font-semibold text-gray-800">Score</h3>
+            <p class="text-xl font-bold text-blue-800" id="scoreDisplay">0</p>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const canvas = document.getElementById('gameCanvas');
+            const ctx = canvas.getContext('2d');
+            const scoreDisplay = document.getElementById('scoreDisplay');
+            const finalScore = document.getElementById('finalScore');
+            const gameOverScreen = document.getElementById('gameOver');
+            const startScreen = document.getElementById('startScreen');
+            const startButton = document.getElementById('startButton');
+            const restartButton = document.getElementById('restartButton');
+            
+            // Game variables
+            const gridSize = 20;
+            const truckWidth = 30;
+            const truckHeight = 20;
+            const trailerWidth = 25;
+            const trailerHeight = 18;
+            let truck = [{ x: 10, y: 10 }];
+            let trailers = [];
+            let direction = 'right';
+            let nextDirection = 'right';
+            let food = {};
+            let score = 0;
+            let gameSpeed = 150;
+            let gameInterval;
+            let isPaused = false;
+            let gameStarted = false;
+            
+            // Adjust canvas size for mobile
+            function resizeCanvas() {
+                if (window.innerWidth < 640) {
+                    canvas.width = window.innerWidth - 40;
+                    canvas.height = (window.innerWidth - 40) * 0.66;
+                } else {
+                    canvas.width = 600;
+                    canvas.height = 400;
+                }
+            }
+            
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+            
+            // Start game
+            startButton.addEventListener('click', () => {
+                startScreen.classList.add('hidden');
+                startGame();
+            });
+            
+            restartButton.addEventListener('click', () => {
+                gameOverScreen.classList.add('hidden');
+                startGame();
+            });
+            
+            function startGame() {
+                truck = [{ x: 10, y: 10 }];
+                trailers = [];
+                direction = 'right';
+                nextDirection = 'right';
+                score = 0;
+                scoreDisplay.textContent = score;
+                gameSpeed = 150;
+                isPaused = false;
+                gameStarted = true;
+                
+                generateFood();
+                if (gameInterval) clearInterval(gameInterval);
+                gameInterval = setInterval(gameLoop, gameSpeed);
+            }
+            
+            // Generate food at random position
+            function generateFood() {
+                food = {
+                    x: Math.floor(Math.random() * (canvas.width / gridSize)),
+                    y: Math.floor(Math.random() * (canvas.height / gridSize))
+                };
+                
+                // Make sure food doesn't appear on snake
+                for (let segment of [...truck, ...trailers]) {
+                    if (segment.x === food.x && segment.y === food.y) {
+                        return generateFood();
+                    }
+                }
+            }
+            
+            // Main game loop
+            function gameLoop() {
+                if (isPaused) return;
+                
+                moveTruck();
+                if (checkCollision()) {
+                    gameOver();
+                    return;
+                }
+                
+                checkFood();
+                drawGame();
+            }
+            
+            // Move the truck
+            function moveTruck() {
+                direction = nextDirection;
+                
+                // Move trailers first (from end to start)
+                for (let i = trailers.length - 1; i > 0; i--) {
+                    trailers[i].x = trailers[i-1].x;
+                    trailers[i].y = trailers[i-1].y;
+                }
+                
+                // Move first trailer to truck position
+                if (trailers.length > 0) {
+                    trailers[0].x = truck[0].x;
+                    trailers[0].y = truck[0].y;
+                }
+                
+                // Move truck head
+                switch (direction) {
+                    case 'up':
+                        truck[0].y -= 1;
+                        break;
+                    case 'down':
+                        truck[0].y += 1;
+                        break;
+                    case 'left':
+                        truck[0].x -= 1;
+                        break;
+                    case 'right':
+                        truck[0].x += 1;
+                        break;
+                }
+                
+                // Wrap around screen
+                if (truck[0].x < 0) truck[0].x = canvas.width / gridSize - 1;
+                if (truck[0].x >= canvas.width / gridSize) truck[0].x = 0;
+                if (truck[0].y < 0) truck[0].y = canvas.height / gridSize - 1;
+                if (truck[0].y >= canvas.height / gridSize) truck[0].y = 0;
+            }
+            
+            // Check for collision
+            function checkCollision() {
+                // Check if truck hit any trailer
+                for (let segment of trailers) {
+                    if (segment.x === truck[0].x && segment.y === truck[0].y) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            
+            // Check if truck ate food
+            function checkFood() {
+                if (truck[0].x === food.x && truck[0].y === food.y) {
+                    // Add new trailer at the end
+                    let lastSegment = trailers.length > 0 ? trailers[trailers.length - 1] : truck[0];
+                    trailers.push({ x: lastSegment.x, y: lastSegment.y });
+                    
+                    // Increase score and speed
+                    score += 1;
+                    scoreDisplay.textContent = score;
+                    gameSpeed = Math.max(50, gameSpeed - 5);
+                    clearInterval(gameInterval);
+                    gameInterval = setInterval(gameLoop, gameSpeed);
+                    
+                    generateFood();
+                }
+            }
+            
+            // Draw everything
+            function drawGame() {
+                // Clear canvas
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                // Draw grid (optional)
+                drawGrid();
+                
+                // Draw food (fuel tank)
+                drawFuelTank(food.x * gridSize, food.y * gridSize);
+                
+                // Draw trailers
+                trailers.forEach((trailer, index) => {
+                    drawTrailer(trailer.x * gridSize, trailer.y * gridSize, index);
+                });
+                
+                // Draw truck
+                drawTruck(truck[0].x * gridSize, truck[0].y * gridSize);
+            }
+            
+            // Draw grid (optional)
+            function drawGrid() {
+                ctx.strokeStyle = '#e5e7eb';
+                ctx.lineWidth = 0.5;
+                
+                for (let x = 0; x < canvas.width; x += gridSize) {
+                    ctx.beginPath();
+                    ctx.moveTo(x, 0);
+                    ctx.lineTo(x, canvas.height);
+                    ctx.stroke();
+                }
+                
+                for (let y = 0; y < canvas.height; y += gridSize) {
+                    ctx.beginPath();
+                    ctx.moveTo(0, y);
+                    ctx.lineTo(canvas.width, y);
+                    ctx.stroke();
+                }
+            }
+            
+            // Draw truck
+            function drawTruck(x, y) {
+                // Save context
+                ctx.save();
+                
+                // Adjust position to center
+                x += (gridSize - truckWidth) / 2;
+                y += (gridSize - truckHeight) / 2;
+                
+                // Draw truck cabin
+                ctx.fillStyle = '#3b82f6';
+                ctx.fillRect(x, y, truckWidth * 0.4, truckHeight);
+                
+                // Draw truck hood
+                ctx.fillStyle = '#1d4ed8';
+                ctx.beginPath();
+                ctx.moveTo(x + truckWidth * 0.4, y);
+                ctx.lineTo(x + truckWidth * 0.7, y);
+                ctx.lineTo(x + truckWidth * 0.7, y + truckHeight);
+                ctx.lineTo(x + truckWidth * 0.4, y + truckHeight);
+                ctx.closePath();
+                ctx.fill();
+                
+                // Draw wheels
+                ctx.fillStyle = '#111827';
+                ctx.beginPath();
+                ctx.arc(x + truckWidth * 0.2, y + truckHeight + 3, 4, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.beginPath();
+                ctx.arc(x + truckWidth * 0.6, y + truckHeight + 3, 4, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Draw window
+                ctx.fillStyle = '#bfdbfe';
+                ctx.fillRect(x + truckWidth * 0.1, y + truckHeight * 0.2, truckWidth * 0.2, truckHeight * 0.4);
+                
+                // Add animation class effect
+                ctx.restore();
+            }
+            
+            // Draw trailer
+            function drawTrailer(x, y, index) {
+                // Save context
+                ctx.save();
+                
+                // Adjust position to center
+                x += (gridSize - trailerWidth) / 2;
+                y += (gridSize - trailerHeight) / 2;
+                
+                // Draw trailer body
+                const colors = ['#ef4444', '#f59e0b', '#10b981', '#8b5cf6'];
+                ctx.fillStyle = colors[index % colors.length];
+                ctx.fillRect(x, y, trailerWidth, trailerHeight);
+                
+                // Draw tanker details
+                ctx.strokeStyle = '#ffffff';
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.arc(x + trailerWidth * 0.5, y + trailerHeight * 0.5, trailerHeight * 0.4, 0, Math.PI * 2);
+                ctx.stroke();
+                
+                // Draw wheels
+                ctx.fillStyle = '#111827';
+                ctx.beginPath();
+                ctx.arc(x + trailerWidth * 0.3, y + trailerHeight + 3, 3, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.beginPath();
+                ctx.arc(x + trailerWidth * 0.7, y + trailerHeight + 3, 3, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Draw connection to previous segment
+                if (index === 0) {
+                    ctx.fillStyle = '#6b7280';
+                    ctx.fillRect(x - 5, y + trailerHeight * 0.4, 5, trailerHeight * 0.2);
+                }
+                
+                ctx.restore();
+            }
+            
+            // Draw fuel tank (food)
+            function drawFuelTank(x, y) {
+                // Save context
+                ctx.save();
+                
+                // Adjust position to center
+                const tankSize = gridSize * 0.7;
+                x += (gridSize - tankSize) / 2;
+                y += (gridSize - tankSize) / 2;
+                
+                // Draw tank body
+                ctx.fillStyle = '#f59e0b';
+                ctx.beginPath();
+                ctx.roundRect(x, y, tankSize, tankSize, [tankSize/2]);
+                ctx.fill();
+                
+                // Draw tank details
+                ctx.strokeStyle = '#ffffff';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.arc(x + tankSize * 0.5, y + tankSize * 0.5, tankSize * 0.3, 0, Math.PI * 2);
+                ctx.stroke();
+                
+                // Draw fuel symbol
+                ctx.fillStyle = '#ffffff';
+                ctx.font = `bold ${tankSize * 0.3}px Arial`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('⛽', x + tankSize * 0.5, y + tankSize * 0.5);
+                
+                ctx.restore();
+            }
+            
+            // Game over
+            function gameOver() {
+                clearInterval(gameInterval);
+                gameStarted = false;
+                finalScore.textContent = score;
+                gameOverScreen.classList.remove('hidden');
+            }
+            
+            // Keyboard controls
+            document.addEventListener('keydown', (e) => {
+                if (!gameStarted && e.key === ' ') {
+                    startScreen.classList.add('hidden');
+                    startGame();
+                    return;
+                }
+                
+                if (e.key === ' ') {
+                    isPaused = !isPaused;
+                    return;
+                }
+                
+                switch (e.key) {
+                    case 'ArrowUp':
+                        if (direction !== 'down') nextDirection = 'up';
+                        break;
+                    case 'ArrowDown':
+                        if (direction !== 'up') nextDirection = 'down';
+                        break;
+                    case 'ArrowLeft':
+                        if (direction !== 'right') nextDirection = 'left';
+                        break;
+                    case 'ArrowRight':
+                        if (direction !== 'left') nextDirection = 'right';
+                        break;
+                }
+            });
+            
+            // Touch controls for mobile
+            let touchStartX = 0;
+            let touchStartY = 0;
+            
+            canvas.addEventListener('touchstart', (e) => {
+                if (!gameStarted) {
+                    startScreen.classList.add('hidden');
+                    startGame();
+                    return;
+                }
+                
+                touchStartX = e.touches[0].clientX;
+                touchStartY = e.touches[0].clientY;
+                e.preventDefault();
+            }, false);
+            
+            canvas.addEventListener('touchmove', (e) => {
+                if (!gameStarted) return;
+                
+                const touchEndX = e.touches[0].clientX;
+                const touchEndY = e.touches[0].clientY;
+                
+                const dx = touchEndX - touchStartX;
+                const dy = touchEndY - touchStartY;
+                
+                if (Math.abs(dx) > Math.abs(dy)) {
+                    if (dx > 0 && direction !== 'left') nextDirection = 'right';
+                    else if (dx < 0 && direction !== 'right') nextDirection = 'left';
+                } else {
+                    if (dy > 0 && direction !== 'up') nextDirection = 'down';
+                    else if (dy < 0 && direction !== 'down') nextDirection = 'up';
+                }
+                
+                e.preventDefault();
+            }, false);
+            
+            // Initial draw
+            drawGame();
+        });
+    </script>
+</body>
+</html>
