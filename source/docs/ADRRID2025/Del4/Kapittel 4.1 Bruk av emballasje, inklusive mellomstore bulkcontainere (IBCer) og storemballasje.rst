@@ -1,10 +1,7 @@
 .. _4.1:
 
-Kapittel 4.1
-============
-
-Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og
-storemballasje
+Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje
+===============================================================================================
 
 **ANM:** Emballasjer, inkludert IBCer og storemballasjer, merket i
 samsvar med 6.1.3, 6.2.2.7, 6.2.2.8, 6.2.2.9, 6.2.2.10, 6.3.4, 6.5.2
