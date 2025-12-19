@@ -21,12 +21,14 @@ Nyheter fra 1. januar 2025
 Gjennomgående endringer
 ^^^^^^^^^^^^^^^^^^^^^^^
 
+
 – Det kommer inn ny regulering av natriumionbatterier og gjenstander og kjøretøyer med slike batterier. UN 3292 (natriumbatterier) endres til å kun omfatte batterier som inneholder metallisk natrium og natriumlegeringer.
 – Referanser til standarder oppdateres til nyere versjoner av standardene.
 – Transport av smeltet aluminium blir særskilt regulert. Tidligere ble dette kun generisk regulert som oppvarmet stoff
 – Kjøretøyer drevet av batterier basert på litium eller natriumion reguleres som egne oppføringer på listen over farlig gods
 – Unntaket for småserier og prototyper av batterier skrives om, og det kommer en liste over hvilke batterikrav de ikke unntas fra. Det gjøres tydelig at disse batteriene også tillates å være innmontert i gjenstander, som da blir tilordnet særskilte emballeringskrav.
 – Avfall forurenset av fri asbest tillates transportert i bulk på bestemte vilkår.
+
 
 Del 1
 ^^^^^
@@ -57,12 +59,12 @@ Del 3
 
 – Nye oppføringer (UN-nummer) for
 
-   – Utløsere for brannslukkere (i klasse 1 og 9)
-   – Natriumionbatterier
-   – Disilan
-   – Tilvirkede gjenstander som inneholder gallium
-   – Batteridrevne kjøretøyer
-   – Det foretas endringer i bestemmelsen for hva flytende ammoniumnitrat (UN 2426) kan bestå av.
+  – Utløsere for brannslukkere (i klasse 1 og 9)
+  – Natriumionbatterier
+  – Disilan
+  – Tilvirkede gjenstander som inneholder gallium
+  – Batteridrevne kjøretøyer
+  – Det foretas endringer i bestemmelsen for hva flytende ammoniumnitrat (UN 2426) kan bestå av.
 
 – Desensiterte eksplosiver tilordnes en ny spesiell bestemmelse med krav om at de beholder sitt desensiteringsmiddel.under transport.
 – Den spesielle bestemmelsen for transport av avfall av brannfarlig maling utvides til også å gjelde for miljøfarlig maling.
@@ -70,11 +72,11 @@ Del 3
 – Unntaket for trykkbeholdere med begrenset trykk og kapasitet, og som inneholder visse inerte gasser, slettes og erstattes med en ny spesiell bestemmelse som tillater at beholderne transporteres som begrenset mengde (LQ).
 – Nye spesielle bestemmelser:
 
-   – Unntak for kortsluttede natriumionceller og -batterier og utstyr og kjøretøyer med slike batterier
-   – Klassifisering av ulike batterikjemier basert på natrium.
-   – Unntak for nitrocellulose membranfiltre.
-   – Vilkår for utløsere for (brann)slokkemiddel som inneholder en pyroteknisk ladning.
-   – Tilordning av litiumceller og -batterier med farlige skader/defekter til transportkategori 0.
+  – Unntak for kortsluttede natriumionceller og -batterier og utstyr og kjøretøyer med slike batterier
+  – Klassifisering av ulike batterikjemier basert på natrium.
+  – Unntak for nitrocellulose membranfiltre.
+  – Vilkår for utløsere for (brann)slokkemiddel som inneholder en pyroteknisk ladning.
+  – Tilordning av litiumceller og -batterier med farlige skader/defekter til transportkategori 0.
    
 Del 4
 ^^^^^
@@ -89,8 +91,8 @@ Del 4
 – Paragrafen for maksimal fyllingsgrad for væske med forhøyet temperatur, er skrevet om.
 – Kravet om å beregne holdetid for tank med flytende nedkjølt gass droppes:
 
-   – for multimodale tanker og tankcontainere, som kun skal transportere på vei
-   – for tomme, ikke rengjorte, tankcontainere i ADR og tanker i RID. Disse blir i stedet underlagt en bestemmelse om at trykket skal være tilstrekkelig redusert
+  – for multimodale tanker og tankcontainere, som kun skal transportere på vei
+  – for tomme, ikke rengjorte, tankcontainere i ADR og tanker i RID. Disse blir i stedet underlagt en bestemmelse om at trykket skal være tilstrekkelig redusert
    
 Del 5
 ^^^^^
@@ -116,8 +118,8 @@ Del 7
 – Bulktransport av tom, ikke rengjort emballasje tillates bare for gods som er tillatt transportert i bulk, og bulkbestemmelsene for stoffet gjelder.
 – Omfattende nye bulkbestemmelser for transport av:
 
-   – flytende aluminium
-   – asbestholdig avfall
+  – flytende aluminium
+  – asbestholdig avfall
    
 – Gods som må skjermes mot sol og varme i ADR skal nå også skjermes i RID.
 – Kolli som må stå oppreist i RID må nå også stå oppreist i ADR.
