@@ -86,21 +86,21 @@ følger
 
    :ref:`1.1.4.5 <1.1.4.5>` Transport annet enn vegtransport
 
-   1.2 Definisjoner, måleenheter og forkortelser
+   :ref:`1.2 <1.2>` Definisjoner, måleenheter og forkortelser
 
-   1.3 Opplæring av personale som er involvert i transport av farlig gods
+   :ref:`1.3 <1.3>` Opplæring av personale som er involvert i transport av farlig gods
 
-   1.4 Aktørenes sikkerhetsforpliktelser
+   :ref:`1.4 <1.4>` Aktørenes sikkerhetsforpliktelser
 
-   1.5 Avvik
+   :ref:`1.5 <1.5>` Avvik
 
-   1.6 Overgangsbestemmelser
+   :ref:`1.6 <1.6>` Overgangsbestemmelser
 
-   1.8 Kontroller og andre støttetiltak for å sikre at    sikkerhetsbestemmelsene blir fulgt
+   :ref:`1.8 <1.8>` Kontroller og andre støttetiltak for å sikre at    sikkerhetsbestemmelsene blir fulgt
 
-   1.9 Transportrestriksjoner pålagt av vedkommende myndighet
+   :ref:`1.9 <1.9>` Transportrestriksjoner pålagt av vedkommende myndighet
 
-   1.10 kapittel 1.10
+   :ref:`1.10 <1.10>` kapittel 1.10
 
    3.1 Generelt
 
@@ -124,7 +124,7 @@ dokumentasjon
 
 RID: For transport av håndbagasje, registrert bagasje eller i eller på
 kjøretøyer i henhold til artikkel 5 § 1 b) i vedlegg C gjelder bare
-bestemmelsene i 1.1.3.8.
+bestemmelsene i :ref:`1.1.3.8 <1.1.3.8>`.
 
 .. _1.1.2.4:
 
