@@ -1,5 +1,9 @@
+.. _1.9:
+
 Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter
 ---------------------------------------------------------------------
+
+.. _1.9.1:
 
 1.9.1
 ^^^^^
@@ -26,6 +30,8 @@ gods på jernbane på territoriet til den kontraherende staten til RID;
 – ikke resulterer i at det farlige godset som omfattes av disse
 bestemmelsene, blir forbudt å transportere på jernbane i hele
 territoriet til den kontraherende staten til RID.
+
+.. _1.9.2:
 
 1.9.2
 ^^^^^
@@ -65,6 +71,8 @@ bestemmelser for midlertidig opphold forårsaket av dårlig vær,
 jordskjelv, ulykker, demonstrasjoner, sivil ulydighet eller fiendtlig
 militær aktivitet.
 
+.. _1.9.3:
+
 1.9.3
 ^^^^^
 
@@ -93,6 +101,8 @@ RID: Innføring av tilleggskrav som nevnt under 1.9.2 (a) og (b)
 forutsetter at vedkommende myndighet kan vise at det er belegg for slike
 tiltak [26]_\ :sup:`,`  [27]_.
 
+.. _1.9.4:
+
 1.9.4
 ^^^^^
 
@@ -107,6 +117,8 @@ tilleggsrestriksjoner innenfor rammen av 1.9.2 (a) og (b) ovenfor, skal
 underrette sekretariatet til OTIF, helst på forhånd, om
 tilleggsrestriksjonene. Sekretariatet skal gjøre dem kjent for de øvrige
 medlemsstatene.
+
+.. _1.9.5:
 
 1.9.5
 ^^^^^
@@ -136,9 +148,9 @@ Slike tilleggsrestriksjoner skal ikke omfatte områder som er dekket av
 RID, spesielt i forhold til det som er oppført i 1.1.2.1 (a) og 1.1.2.1
 (b).
 
-1.9.5.1
+.. _1.9.5.1:
 
-**Generelle bestemmelser**
+``1.9.5.1`` **Generelle bestemmelser**
 
 ADR: Når vedkommende myndighet pålegger begrensninger på transport av
 farlig gods i vegtunneler, skal vegtunnelen tilordnes en av
@@ -148,9 +160,13 @@ egnethet av alternative ruter og hensyn til trafikkregulering. En og
 samme vegtunnel kan tilordnes mer enn en tunnelkategori, for eksempel
 basert på tid på døgnet, ukedag etc.
 
-1.9.5.2 Kategorier
+.. _1.9.5.2:
 
-1.9.5.2.1
+``1.9.5.2`` Kategorier
+
+.. _1.9.5.2.1:
+
+``1.9.5.2.1`` 
 
 Kategorisering skal baseres på antagelsen om at det er tre hovedfarer
 som kan forårsake store tap av menneskeliv og alvorlig skade på
@@ -162,7 +178,9 @@ b) Utslipp av giftig gass eller flyktige giftige væsker;
 
 c) Brann.
 
-1.9.5.2.2
+.. _1.9.5.2.2:
+
+``1.9.5.2.2`` 
 
 ADR: De fem tunnelkategoriene er følgende:
 
@@ -344,16 +362,22 @@ overstiger 8 tonn (brutto masse) pr. transportenhet.
 bli pålagt som resultat av spesielle foranstaltninger godkjent av
 vedkommende myndighet på grunnlag av 1.7.4.2.
 
-1.9.5.3
+.. _1.9.5.3:
+
+``1.9.5.3`` 
 
 ADR: Bestemmelser om vegskilt og bekjentgjøring av begrensninger
 
-1.9.5.3.1
+.. _1.9.5.3.1:
+
+``1.9.5.3.1`` 
 
 ADR: Medlemsstatene skal angi tunnelbegrensninger og alternative
 transportruter ved hjelp av vegtrafikkskilt og signaler.
 
-1.9.5.3.2
+.. _1.9.5.3.2:
+
+``1.9.5.3.2`` 
 
 ADR: For dette formål kan de benytte skiltene C, 3h og D, 10a, 10b og
 10c og signaler i samsvar med Wienkonvensjonene om veitrafikkskilt og
@@ -363,7 +387,9 @@ i «Resolution on Road Signs and Signals (R.E.2)» fra «UNECE Inland
 Transport Committee Principal Working Party on Road Transport», med
 endringer.
 
-1.9.5.3.3
+.. _1.9.5.3.3:
+
+``1.9.5.3.3`` 
 
 ADR: For å underlette forståelsen av skilt, er systemet for skilt og
 signaler i Wienkonvensjonen av 1968 basert på bruk av former og farger
@@ -375,13 +401,17 @@ kontraherende stater ikke benytter Wienkonvensjonen kan de foreskrevne
 skiltene og symbolene modifiseres, forutsatt at modifikasjonene ikke
 forandrer deres vesentlige hensikt.
 
-1.9.5.3.4
+.. _1.9.5.3.4:
+
+``1.9.5.3.4`` 
 
 ADR: Trafikkskilt og signaler som forbyr innkjøring av kjøretøyer som
 transporterer farlig gods i en tunnel skal være plassert på steder som
 muliggjør valg av alternative ruter der slike finnes.
 
-1.9.5.3.5
+.. _1.9.5.3.5:
+
+``1.9.5.3.5`` 
 
 ADR: Når innkjøring i en tunnel er begrenset, eller det er fastsatt
 alternative kjøreruter, skal skilt med underskilt være oppsatt som
@@ -401,7 +431,9 @@ transporterer farlig gods som ikke er tillatt i kategori D tunneler;
 ADR: Skilt med underskilt påført bokstaven E: gjelder for kjøretøy som
 transporterer farlig gods som ikke er tillatt i kategori E tunneler.
 
-1.9.5.3.6
+.. _1.9.5.3.6:
+
+``1.9.5.3.6`` 
 
 Tunnelbegrensninger skal gjelde for alle transportenheter hvor det
 kreves oransjefargede skilt i henhold til 5.3.2, unntatt for transport
@@ -417,17 +449,58 @@ Tunnelbegrensninger gjelder ikke for farlig gods som transporteres i
 samsvar med 1.1.3, unntatt når transportenheter som transporterer slikt
 gods er merket i samsvar med 3.4.13, som beskrevet i 3.4.14.
 
-1.9.5.3.7
+.. _1.9.5.3.7:
+
+``1.9.5.3.7`` 
 
 ADR: Tunnelbegrensninger skal være bekjentgjort og tilgjengelige for
 publikum. De kontraherende parter skal informere sekretariatet i UNECE
 om slike begrensninger, og sekretariatet skal gjøre denne informasjonen
 offentlig tilgjengelig på sin hjemmeside.
 
-1.9.5.3.8
+.. _1.9.5.3.8:
+
+``1.9.5.3.8`` 
 
 ADR: medlemsstater som pålegger tunneler spesielle driftsmessige,
 risikoreduserende tiltak på noen eller alle kjøretøyer som benytter
 tunneler, slik som melding før innkjøring eller gjennomkjøring i konvoi
 eskortert av følgebiler, skal slike tiltak være bekjentgjort og
 tilgjengelig for publikum.
+
+.. [25]
+   For fremføring gjennom den engelske kanal og gjennom tuneller med
+   lignende karakteristika, se også vedlegg II til direktiv 2008(68/EU
+   (Directive 2008/68/EC on the European Parliament and of the Council
+   of 24 September 2008 on the inland transport of dangerous goods,
+   published in the official Journal of the European Union, L260, 30
+   September 2008, p. 13).
+
+.. [26]
+   Veilederen «Generic Guideline for the Calculation of Risk inherent in
+   the Carriage of Dangerous Goods by Rail», godkjent av RIDs
+   ekspertkomité 24. November 2005 kan konsulteres på OTIFs nettsted
+   (http://otif.org/en/?page_id=1103).
+
+.. [27]
+   **RID: Multimodal veiledning (Rammeverk for risikostyring av innenlands TFG) kan konsulteres på nettstedet til «Directorate General for Mobility and Transport of the European Commission» (https://ec.europa.eu/transport/themes/dangerous_good/risk_management_framework_en) eller direkte på nettstedet til det Europeiske Jernbanebyrået (https://www.era.europa.eu/activities/transport-dangerous-goods/inland-tdg_en)**
+
+.. [28]
+   ADR: Generell veiledning for beregning av risiko ved transport av
+   farlig gods på vei finnes på web-siden til sekretariatet i FNs
+   økonomiske kommisjon for Europa
+   (https://unece.org/guidelines-telematics-application-standards-construction-and-approval-vehicles-calculation-risks).
+
+.. [29]
+   ADR: Multimodal veiledning (Rammeverk for risikostyring av innenlands
+   TFG) kan konsulteres på nettstedet til «Directorate General for
+   Mobility and Transport of the European Commission»
+   (https://ec.europa.eu/transport/themes/dangerous_good/risk_management_framework_en).
+
+.. [30]
+   Denne vurderingen er basert på godsets reelle fare, type inneslutning
+   og transportert mengde.
+
+.. [31]
+   Denne vurderingen er basert på godsets reelle fare, type inneslutning
+   og transportert mengde.

@@ -1990,3 +1990,31 @@ route».
 
 † Akronymet «UIC» samsvarer med den franske betegnelsen «Union
 internationale des chemins de fer».
+
+.. [4]
+   Begrepet «operatør» er likeverdig med begrepet «innehaver»
+
+.. [5]
+   Utgitt av GCU Bureau, Avenue Louise, 500, BE-1050 Brussels,
+   www.gcubureau.org
+
+.. [6]
+   Når det gjelder emnene i forhold til den vedlikeholdsansvarlige (ECM)
+   og deres sertifisering, er Appendix G til COTIF (ATMF) harmonisert
+   med Europeiske bestemmelser, særlig Europaparlamentet og Rådets
+   direktiv (EU) 2016/798 av 11. mai 2016 om jernbanesikkerhet (artikkel
+   14, punkt 1 til 5) og Europaparlamentet og Rådets direktiv (EU)
+   2016/797 av 11. mai 2016 om interoperabilitet i jernbanesystemet i
+   Den Europeiske Union (artikkel 47, punkt 3 bokstav f). Når det
+   gjelder systemet for sertifisering av vedlikeholdsansvarlige, er
+   Annex A i ATMF tilsvarende Kommisjonens gjennomføringsforordning (EU)
+   2019/779 av 16. mai 2019 om nærmere bestemmelser om en ordning for
+   sertifisering av enheter med ansvar for vedlikehold av kjøretøyer i
+   henhold til Europa Parlamentets og Rådets direktiv (EU) 2016/798 og
+   opphevelse av Kommisjonens forordning (EU) nr. 445/2011.
+
+.. [7]
+   **RID: Forkortelsen ADR samsvarer med den franske termen «Accord relatif au transport international des marchandises dangereuses par route».**
+
+.. [8]
+   **RID: Forkortelsen «OTIF» tilsvarer den franske termen «Organisation intergouvernemantale pour les transports internationaux ferroviaires».**

@@ -1,5 +1,9 @@
+.. _1.7:
+
 Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale
 --------------------------------------------------------------------
+
+.. _1.7.1:
 
 1.7.1 Omfang og anvendelse
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -32,7 +36,9 @@ IAEA Safety Standards Series No. GS-G-2.1, IAEA, Vienna (2007), and
 Emergency», IAEA Safety Standards Series No. GSG-11, IAEA, Vienna
 (2018).*
 
-1.7.1.1
+.. _1.7.1.1:
+
+``1.7.1.1`` 
 
 ADR/RID har etablert sikkerhetsstandarder som gir kontroll på et
 akseptabelt nivå med hensyn til de farer som stråling, kritikalitet og
@@ -44,7 +50,9 @@ IAEA Regulations for the Safe Transport of Radioactive Material»* (2018
 utgaven), *IAEA Safety Standards Series No. SSG-26 (Rev. 1),* IAEA, Wien
 (2019).
 
-1.7.1.2
+.. _1.7.1.2:
+
+``1.7.1.2`` 
 
 Hensikten med ADR/RID er å etablere krav som skal oppfylles for å oppnå
 sikkerhet og å beskytte mennesker, eiendeler og miljøet fra skadelige
@@ -71,7 +79,9 @@ påkrevet. Til slutt oppnås ytterligere beskyttelse ved å innføre
 ordninger for planlegging og forberedelse av krisehåndtering for å
 beskytte mennesker, eiendom og miljø.
 
-1.7.1.3
+.. _1.7.1.3:
+
+``1.7.1.3`` 
 
 ADR/RID får anvendelse på transport av radioaktivt materiale, inklusive
 transport som skjer i tilknytning til bruken av det radioaktive
@@ -90,7 +100,9 @@ b) Normale transportforhold (mindre uhell);
 
 c) Ulykkespregede transportforhold.
 
-1.7.1.4
+.. _1.7.1.4:
+
+``1.7.1.4`` 
 
 Bestemmelsene som er nedfelt i ADR/RID gjelder ikke for noe av det
 følgende:
@@ -127,9 +139,13 @@ g) Ikke-radioaktive faste gjenstander, der radioaktive stoffer ikke
 forekommer på noen overflate i mengder som overstiger den grense som er
 gitt i definisjonen av «forurensning» i 2.2.7.1.2
 
-1.7.1.5 Spesielle bestemmelser for transport av unntakskolli
+.. _1.7.1.5:
 
-1.7.1.5.1
+``1.7.1.5`` Spesielle bestemmelser for transport av unntakskolli
+
+.. _1.7.1.5.1:
+
+``1.7.1.5.1`` 
 
 Unntakskolli som kan inneholde radioaktivt materiale i begrenset mengde,
 instrumenter, tilvirkede artikler eller tomme emballasjer som
@@ -148,21 +164,29 @@ henhold til spesiell bestemmelse 290 eller 369 i kapittel 3.3, og hvor
 bestemmelsene i (a) og (b) over kun gjelder dersom relevante, og i
 tillegg til, de som relaterer til hovedklassen.
 
-1.7.1.5.2
+.. _1.7.1.5.2:
+
+``1.7.1.5.2`` 
 
 Unntakskolli er underlagt relevante bestemmelser i alle de øvrige deler
 av ADR/RID.
 
+.. _1.7.2:
+
 1.7.2 Strålevernprogram
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-1.7.2.1
+.. _1.7.2.1:
+
+``1.7.2.1`` 
 
 Transport av radioaktivt materiale skal skje under et strålevernprogram
 bestående av systematiske ordninger som tar sikte på at stråleverntiltak
 må bli gitt betryggende oppmerksomhet.
 
-1.7.2.2
+.. _1.7.2.2:
+
+``1.7.2.2`` 
 
 Personer skal ikke utsettes for doser som overstiger de relevante
 grenseverdier. Vern og sikkerhet skal være på optimalt nivå for at
@@ -174,7 +198,9 @@ slike begrensninger. Det skal være en strukturert og systematisk
 tilnærming, og det skal legges vekt på grensesnittet mellom transport og
 andre aktiviteter.
 
-1.7.2.3
+.. _1.7.2.3:
+
+``1.7.2.3`` 
 
 Arten og omfanget av de tiltak som programmet gjør bruk av, skal stå i
 forhold til hvor stor strålebelastningen er og sannsynligheten for å bli
@@ -182,7 +208,9 @@ utsatt for den. Programmet skal inneholde kravene i 1.7.2.2, 1.7.2.4,
 1.7.2.5 og 7.5.11 CV33 (1.1). Dokumentasjon for programmet skal
 fremlegges for kontroll på anmodning fra vedkommende myndighet.
 
-1.7.2.4
+.. _1.7.2.4:
+
+``1.7.2.4`` 
 
 For yrkesrelatert eksponering som følge av transportvirksomhet hvor den
 antatte effektive dose enten:
@@ -203,12 +231,16 @@ løpet av ett år, er det ikke krav om et program for anslått dosering
 basert på overvåking av arbeidsplassen, individuell overvåking eller
 føring av personlig journal;
 
-1.7.2.5
+.. _1.7.2.5:
+
+``1.7.2.5`` 
 
 Personell (se 7.5.11, CV 33 ANM 3) skal være hensiktsmessig opplært om
 strålingsbeskyttelse inkludert forholdsregler for å begrense deres
 yrkesmessige eksponering og eksponering av andre mennesker som kan bli
 påvirket av deres handlinger.
+
+.. _1.7.3:
 
 1.7.3 Styringssystem
 ^^^^^^^^^^^^^^^^^^^^
@@ -232,10 +264,14 @@ Når vedkommende myndigheters godkjenning er påkrevet, skal slike
 godkjenninger ta i betraktning og være betinget av hensiktsmessigheten
 til styringssystemet.
 
+.. _1.7.4:
+
 1.7.4 Særordning
 ^^^^^^^^^^^^^^^^
 
-1.7.4.1
+.. _1.7.4.1:
+
+``1.7.4.1`` 
 
 Særordning er betingelser som er godkjent av vedkommende myndighet og
 som gjør det mulig å transportere sendinger med radioaktivt materiale
@@ -244,7 +280,9 @@ som ikke oppfyller ADR/RID-krav gjeldende for radio-aktivt materiale.
 **ANM:** Særordning betraktes ikke som midlertidig avvik i henhold til
 1.5.1.
 
-1.7.4.2
+.. _1.7.4.2:
+
+``1.7.4.2`` 
 
 Forsendelser som ikke er mulig å bringe i samsvar med alle bestemmelsene
 for radioaktivt materiale, får ikke transporteres bortsett fra under
@@ -259,6 +297,8 @@ skal minst svare til nivået dersom alle relevante krav i ADR/RID hadde
 vært oppfylt. For internasjonale sendinger av denne typen kreves
 multilateral godkjenning.
 
+.. _1.7.5:
+
 1.7.5 Radioaktivt materiale som har andre farlige egenskaper
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -269,10 +309,14 @@ kolliets innhold, som eksplosivitet, brannfare, evne til selvantennelse,
 kjemisk giftighet og etsevirkning, slik at alle relevante bestemmelser
 om farlig gods i ADR/RID blir fulgt.
 
+.. _1.7.6:
+
 1.7.6 Brudd på bestemmelsene
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.7.6.1
+.. _1.7.6.1:
+
+``1.7.6.1`` 
 
 I tilfelle overskridelse av enhver verdi i ADR/RID gjeldende for
 doserate eller forurensning,

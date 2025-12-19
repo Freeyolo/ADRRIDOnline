@@ -1,3 +1,5 @@
+.. _1.3:
+
 Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods
 -------------------------------------------------------------------------------
 
@@ -162,3 +164,6 @@ tilgjengelig for den ansatte eller vedkommende myndighet. Oversikt over
 opplæringen skal oppbevares av arbeidsgiver for en periode fastsatt av
 vedkommende myndighet. Oversikt over gjennomgått opplæring skal
 kontrolleres ved nyansettelse.
+
+.. [9]
+   Utgitt av GCU Bereau, Avenue Louise, 500, BE-1050 Brussels, www.gcubureau.org

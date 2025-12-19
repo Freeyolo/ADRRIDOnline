@@ -576,3 +576,14 @@ og i Vedlegg A i ATMF.
 
 c) vedlikeholdsaktivitetene som angår tanken med tilhørende utstyr er
 registrert i vedlikeholdsloggen.
+
+.. [10]
+   **RID: Versjonen av IRS (International Railway Solution) som gjelder fra 1. januar 2025.**
+
+.. [11]
+   **RID: Versjonen av IRS (International Railway Solution) som gjelder fra september 2022.**
+
+.. [12]
+   Operatør for tankvognen kan overføre organiseringen av inspeksjonen i
+   henhold til kapittel 6.8 til vedlikeholdsansvarlig (entity in charge
+   of maintenance, ECM).

@@ -1,10 +1,16 @@
+.. _1.8:
+
 Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt
 -----------------------------------------------------------------------------------------------
+
+.. _1.8.1:
 
 1.8.1 Administrative kontroller av farlig gods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.1.1
+.. _1.8.1.1:
+
+``1.8.1.1`` 
 
 Vedkommende myndigheter hos de kontraherende parter kan når som helst
 foreta stikkprøver på sitt nasjonale område for å fastslå om
@@ -15,14 +21,18 @@ Slike stikkprøver skal dog foretas på en måte som ikke utsetter
 personer, eiendom eller miljøet for fare og uten vesentlig forstyrrelse
 av trafikken.
 
-1.8.1.2
+.. _1.8.1.2:
+
+``1.8.1.2`` 
 
 De som er aktører ved transport av farlig gods (kapittel 1.4) skal
 straks, ut fra de forpliktelser som de er pålagt, stille til disposisjon
 for vedkommende myndigheter og deres representanter nødvendig
 informasjon for gjennomføring av stikkprøvene.
 
-1.8.1.3
+.. _1.8.1.3:
+
+``1.8.1.3`` 
 
 De vedkommende myndigheter kan også, for å gjennomføre kontroller på
 området til de virksomheter som er aktører ved transport av farlig gods
@@ -35,7 +45,9 @@ slik at de kan bli kontrollert, såfremt dette er mulig og rimelig. Om de
 finner det nødvendig, kan de utpeke en person fra virksomheten til å
 ledsage representanten for vedkommende myndighet.
 
-1.8.1.4
+.. _1.8.1.4:
+
+``1.8.1.4`` 
 
 Dersom vedkommende myndigheter konstaterer at ADR/RID-kravene ikke er
 oppfylt, kan de forby en sending eller avbryte en transportoperasjon
@@ -45,15 +57,21 @@ transportforbud på stedet, eller transporten kan dirigeres til et sted
 myndighetene anviser av sikkerhetshensyn. Slike tiltak skal ikke være
 årsak til vesentlig forstyrrelse av trafikken.
 
+.. _1.8.2:
+
 1.8.2 Gjensidig administrativ støtte
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.2.1
+.. _1.8.2.1:
+
+``1.8.2.1`` 
 
 De vedkommende myndigheter skal gi gjensidig administrativ støtte til
 gjennomføringen av ADR/RID.
 
-1.8.2.2
+.. _1.8.2.2:
+
+``1.8.2.2`` 
 
 Når en kontraherende part har grunnlag for å konstatere at en virksomhet
 som har hovedkontor på en annen kontraherende parts område, begår meget
@@ -68,17 +86,23 @@ begått overtredelsene. Det er ikke tillatt å formidle personopplysninger
 med mindre dette er nødvendig for strafferettslig oppfølging av meget
 alvorlige eller gjentatte overtredelser.
 
-1.8.2.3
+.. _1.8.2.3:
+
+``1.8.2.3`` 
 
 De myndigheter som får slik underretning, skal informere myndighetene
 hos den kontraherende part på hvis område det ble konstatert
 overtredelser om de skritt som, om nødvendig, er tatt overfor
 virksomheten.
 
+.. _1.8.3:
+
 1.8.3 Sikkerhetsrådgiver
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.3.1
+.. _1.8.3.1:
+
+``1.8.3.1`` 
 
 Enhver virksomhet, hvorav aktiviteter omfatter forsendelse eller
 transport av farlig gods på vei/**jernbane**, eller emballering,
@@ -87,7 +111,9 @@ flere sikkerhetsrådgivere for transport av farlig gods som skal ha
 ansvar for å medvirke til å forebygge risiko for personer, materielle
 verdier og miljøet som er knyttet til slike aktiviteter.
 
-1.8.3.2
+.. _1.8.3.2:
+
+``1.8.3.2`` 
 
 Vedkommende myndigheter hos de kontraherende parter kan beslutte at
 disse kravene ikke skal gjelde for virksomheter:
@@ -104,7 +130,9 @@ lossing av farlig gods, men som fra tid til annen foretar innenlands
 forsendelse, transport eller tilhørende pakking, fylling, lasting eller
 lossing av farlig gods som utgjør liten fare eller forurensningsrisiko.
 
-1.8.3.3
+.. _1.8.3.3:
+
+``1.8.3.3`` 
 
 Rådgiverens hovedoppgave skal være, under ansvar av virksomhetens leder,
 å ta i bruk alle egnede midler og treffe alle egnede tiltak, innenfor
@@ -172,20 +200,26 @@ fylling, lasting og lossing blir fulgt;
 
 – tilstedeværelse av sikringsplan omtalt i 1.10.3.2.
 
-1.8.3.4
+.. _1.8.3.4:
+
+``1.8.3.4`` 
 
 Rådgiveren kan også være virksomhetens leder, en person med andre
 plikter i virksomheten eller en person som ikke er direkte ansatt i
 vedkommende virksomhet, forutsatt at denne personen er i stand til å
 utføre rådgiverens plikter.
 
-1.8.3.5
+.. _1.8.3.5:
+
+``1.8.3.5`` 
 
 Alle virksomheter som dette gjelder for, skal på anmodning navngi
 rådgiveren overfor vedkommende myndighet eller det organ som den
 kontraherende part har utpekt for dette formålet.
 
-1.8.3.6
+.. _1.8.3.6:
+
+``1.8.3.6`` 
 
 Når en ulykke under transport, pakking, fylling, lasting eller lossing
 foretatt av virksomheten får konsekvenser for personer, materielle
@@ -196,27 +230,35 @@ eventuelt til den lokale offentlige myndighet. Denne rapporten erstatter
 ikke en eventuell rapport som virksomhetens ledelse måtte være pålagt å
 avgi under annen internasjonal eller nasjonal lovgivning.
 
-1.8.3.7
+.. _1.8.3.7:
+
+``1.8.3.7`` 
 
 En rådgiver skal ha et bevis som er gyldig for
 vegtransport/jernbanetransport. Beviset skal være utstedt av vedkommende
 myndighet eller av det organ som den enkelte kontraherende part har
 utpekt for dette formålet.
 
-1.8.3.8
+.. _1.8.3.8:
+
+``1.8.3.8`` 
 
 For å få et slikt bevis, må kandidaten gjennomgå opplæring og bestå en
 eksamen som er godkjent av vedkommende myndighet hos den kontraherende
 part.
 
-1.8.3.9
+.. _1.8.3.9:
+
+``1.8.3.9`` 
 
 Hovedformålet med opplæringen skal være å gi kandidatene tilstrekkelige
 kunnskaper om de farer som er forbundet med transport, pakking, fylling,
 lasting eller lossing av farlig gods, om gjeldende lover, forskrifter og
 administrative bestemmelser og om de pliktene som er oppført i 1.8.3.3.
 
-1.8.3.10
+.. _1.8.3.10:
+
+``1.8.3.10`` 
 
 Eksamen skal være organisert av vedkommende myndighet eller av et
 eksamensorgan som er oppnevnt av vedkommende myndighet. Eksamensorganet
@@ -236,7 +278,9 @@ elektronisk eksamen i samsvar med 8.2.2.7.1.8 dersom slike skal utføres;
 – at eksamensorganet er uavhengig av alle fysiske eller juridisk
 personer som har sikkerhetsrådgivere i sin tjeneste.
 
-1.8.3.11
+.. _1.8.3.11:
+
+``1.8.3.11`` 
 
 Formålet med eksamen er å fastslå om kandidaten har tilstrekkelig
 kunnskaper for å utføre de plikter som påhviler en sikkerhetsrådgiver og
@@ -303,16 +347,20 @@ for mannskapet);
 
 – bestemmelser om transportutstyr.
 
-1.8.3.12
+.. _1.8.3.12:
 
-**Eksamen**
+``1.8.3.12`` **Eksamen**
 
-1.8.3.12.1
+.. _1.8.3.12.1:
+
+``1.8.3.12.1`` 
 
 Eksamen skal bestå av en skriftlig eksamen som kan suppleres med muntlig
 eksaminasjon.
 
-1.8.3.12.2
+.. _1.8.3.12.2:
+
+``1.8.3.12.2`` 
 
 Vedkommende myndighet eller den instans som er utpekt som
 eksamensadministrator skal holde tilsyn med hver eksamen. Mulig
@@ -322,14 +370,18 @@ internasjonale og nasjonale bestemmelser er ikke tillatt. Alle
 eksamensdokumenter skal registreres og lagres som utskrift eller
 elektronisk i form av en fil.
 
-1.8.3.12.3
+.. _1.8.3.12.3:
+
+``1.8.3.12.3`` 
 
 Elektroniske medier kan bare benyttes dersom de er framskaffet av
 eksamensorganet. Kandidaten skal ikke kunne legge inn ytterligere
 informasjon på de utleverte elektroniske mediene, det skal kun være
 mulig for kandidaten å besvare de stilte spørsmål.
 
-1.8.3.12.4
+.. _1.8.3.12.4:
+
+``1.8.3.12.4`` 
 
 Den skriftlige prøven skal bestå av to deler:
 
@@ -366,7 +418,9 @@ b) Kandidatene skal løse en «case» oppgave som gjenspeiler de plikter en
 rådgiver har og som er beskrevet i 1.8.3.3, for å vise at de har de
 nødvendige kvalifikasjoner for å utføre en rådgivers oppgaver.
 
-1.8.3.12.5
+.. _1.8.3.12.5:
+
+``1.8.3.12.5`` 
 
 Skriftlig eksamen kan gjennomføres, helt eller delvis, som en
 elektronisk eksamen, hvor svarene registreres og evalueres ved bruk av
@@ -388,7 +442,9 @@ eksamineringen;
 c) Endelig levering fra hver kandidat skal registreres. Fastsettelse av
 resultatene skal være transparente;
 
-1.8.3.13
+.. _1.8.3.13:
+
+``1.8.3.13`` 
 
 De kontraherende parter kan beslutte at kandidater som har til hensikt å
 arbeide for virksomheter som spesialiserer seg på visse typer farlig
@@ -411,26 +467,36 @@ gyldig for den(de) typen(-e) av det farlige godset som er omtalt i dette
 underavsnittet og som kandidaten er eksaminert i på de vilkår som er
 definert i 1.8.3.12.
 
-1.8.3.14
+.. _1.8.3.14:
+
+``1.8.3.14`` 
 
 Vedkommende myndighet eller eksamensorganet skal føre en fortløpende
 liste over de spørsmål som har vært benyttet ved prøven.
 
-1.8.3.15
+.. _1.8.3.15:
+
+``1.8.3.15`` 
 
 Det beviset som er foreskrevet i 1.8.3.7, skal være utformet som vist i
 1.8.3.18, og det skal godtas av alle kontraherende parter.
 
-1.8.3.16 Varighet og fornying av bevis
+.. _1.8.3.16:
 
-1.8.3.16.1
+``1.8.3.16`` Varighet og fornying av bevis
+
+.. _1.8.3.16.1:
+
+``1.8.3.16.1`` 
 
 Beviset skal være gyldig i fem år. Bevisets gyldighetstid skal forlenges
 for fem år ad gangen når innehaveren har bestått en eksamen i løpet av
 det siste året før utløp. Slik eksamen skal være godkjent av vedkommende
 myndighet.
 
-1.8.3.16.2
+.. _1.8.3.16.2:
+
+``1.8.3.16.2`` 
 
 Hensikten med eksaminasjonen er å sikre at innehaveren av beviset har
 tilstrekkelig kunnskap for å utføre de plikter som er fastsatt i
@@ -440,14 +506,17 @@ utstedt. Eksamen skal være organisert på samme måte som beskrevet i
 1.8.3.10 og 1.8.3.12 til 1.8.3.14. Det er ikke nødvendig med
 «case»-oppgave som omtalt i 1.8.3.12.4 (b).
 
-1.8.3.17
+.. _1.8.3.17:
+
+``1.8.3.17`` 
 
 (Slettet)
 
-1.8.3.18 Eksempel på bevis
+.. _1.8.3.18:
 
-**Bevis for opplæring som sikkerhetsrådgiver for transport av farlig
-gods**
+``1.8.3.18`` Eksempel på bevis
+
+**Bevis for opplæring som sikkerhetsrådgiver for transport av farlig gods**
 
 Bevis nr:
 ..........................................................................................................................
@@ -483,11 +552,15 @@ Utstedt av:
 Dato: ................................................ Underskrift:
 ........................................................
 
-1.8.3.19 Utvidelse av bevis
+.. _1.8.3.19:
+
+``1.8.3.19`` Utvidelse av bevis
 
 Om en rådgiver utvider bevisets omfang innenfor perioden det er gyldig
 ved å møte kravene i 1.8.3.16.2, skal det nye bevisets gyldighetstid
 forbli som i forrige bevis.
+
+.. _1.8.4:
 
 1.8.4 Liste over vedkommende myndigheter og instanser de har utpekt
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -505,10 +578,14 @@ skal utarbeide en liste på grunnlag av den mottatte informasjon og skal
 holde den a jour. Det skal sende denne listen og endringer til listen
 til de kontraherende parter.
 
+.. _1.8.5:
+
 1.8.5 Melding om hendelser hvor farlig gods er involvert
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.5.1
+.. _1.8.5.1:
+
+``1.8.5.1`` 
 
 Dersom en alvorlig ulykke, uhell eller uforutsett hendelse finner sted
 ved lasting, fylling, transport eller lossing av farlig gods på en
@@ -519,14 +596,18 @@ jernbaneinfrastruktur,** sørge for at det settes opp og sendes en
 rapport i en slik form som beskrevet i 1.8.5.4 til vedkommende myndighet
 hos angjeldende kontraherende part senest en måned etter hendelsen.
 
-1.8.5.2
+.. _1.8.5.2:
+
+``1.8.5.2`` 
 
 Denne kontraherende part skal så, om nødvendig, sette opp en rapport til
 sekretariatet ved de forente nasjoners kommisjon for
 Europa/OCTI-sekretariatet slik at dette kan informere de andre
 kontraherende parter.
 
-1.8.5.3
+.. _1.8.5.3:
+
+``1.8.5.3`` 
 
 En hendelse som ifølge 1.8.5.1 skal rapporteres skal anses inntruffet
 dersom farlig gods har lekket ut eller om det var overhengende fare for
@@ -603,7 +684,9 @@ oppstått med det farlige godset.
 Om nødvendig, kan vedkommende myndighet forlange all relevant
 informasjon.
 
-1.8.5.4 Rapportmal for uhell ved transport av farlig gods
+.. _1.8.5.4:
+
+``1.8.5.4`` Rapportmal for uhell ved transport av farlig gods
 
 {{{IMG CLASS="«class PDF »" REF="1.8.5.4-Rapportmal-side01.pdf"/}}}
 
@@ -613,6 +696,8 @@ informasjon.
 
 Hvis nødvendig kan vedkommende myndighet be om ytterligere relevant
 dokumentasjon.
+
+.. _1.8.6:
 
 1.8.6 Administrativ regulering av aktivitetene som beskrives i 1.8.7 og 1.8.8
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -630,7 +715,9 @@ anerkjent av en annen vedkommende myndighet.
 opptre som vedkommende myndighet (se definisjonen av vedkommende
 myndighet i 1.2.1).
 
-1.8.6.1 Generelle bestemmelser
+.. _1.8.6.1:
+
+``1.8.6.1`` Generelle bestemmelser
 
 Vedkommende myndighet hos en kontraherende part til ADR/RID kan
 godkjenne kontrollorganer for følgende aktiviteter: samsvarsvurderinger,
@@ -638,9 +725,13 @@ periodiske kontroller, mellomliggende kontroller, ekstraordinære
 kontroller, verifikasjoner før ibruktagelse, samt autorisasjon og
 overvåkning av internorgan som anvendt i kapittel 6.2 og 6.8.
 
-1.8.6.2 Forpliktelser for vedkommende myndighet
+.. _1.8.6.2:
 
-1.8.6.2.1
+``1.8.6.2`` Forpliktelser for vedkommende myndighet
+
+.. _1.8.6.2.1:
+
+``1.8.6.2.1`` 
 
 Når vedkommende myndighet godkjenner et kontrollorgan til å utføre
 aktivitetene som angis i 1.8.6.1, skal akkrediteringen til
@@ -661,9 +752,13 @@ fungere som vedkommende myndighet, skal imidlertid det utpekte organet
 være akkreditert i henhold til standarden EN ISO/IEC 17020:2012 (unntatt
 avsnitt 8.1.3) type A.
 
-1.8.6.2.2 Godkjenning av kontrollorgan
+.. _1.8.6.2.2:
 
-1.8.6.2.2.1
+``1.8.6.2.2`` Godkjenning av kontrollorgan
+
+.. _1.8.6.2.2.1:
+
+``1.8.6.2.2.1`` 
 
 Type A kontrollorganer skal være etablert i henhold til nasjonal
 lovgivning og skal være en juridisk person i den kontraherende part til
@@ -673,7 +768,9 @@ Type B kontrollorganer skal være etablert i henhold til nasjonal
 lovgivning og skal være en del av en juridisk person som leverer gass i
 den kontraherende part til ADR/RID der søknaden om godkjenning fremmes.
 
-1.8.6.2.2.2
+.. _1.8.6.2.2.2:
+
+``1.8.6.2.2.2`` 
 
 Vedkommende myndighet skal sikre at kontrollorganet alltid oppfyller
 vilkårene i sin godkjennelse og skal trekke tilbake godkjennelsen dersom
@@ -681,7 +778,9 @@ disse vilkårene ikke er oppfylt. Derimot, i tilfelle suspensjon av
 akkrediteringen, er godkjennelsen bare suspendert i suspensjonsperioden
 for akkrediteringen.
 
-1.8.6.2.2.3
+.. _1.8.6.2.2.3:
+
+``1.8.6.2.2.3`` 
 
 Et kontrollorgan som starter en ny aktivitet, kan bli midlertidig
 godkjent. Før midlertidig godkjennelse gis, skal vedkommende myndighet
@@ -690,9 +789,13 @@ Kontrollorganet skal akkrediteres i henhold til EN ISO/IEC 17020:2012
 (unntatt avsnitt 8.1.3) i løpet av sitt første driftsår for å kunne
 fortsette denne nye virksomheten.
 
-1.8.6.2.3 Overvåkning av kontrollorgan
+.. _1.8.6.2.3:
 
-1.8.6.2.3.1
+``1.8.6.2.3`` Overvåkning av kontrollorgan
+
+.. _1.8.6.2.3.1:
+
+``1.8.6.2.3.1`` 
 
 Uansett hvor aktivitetene til et kontrollorgan utføres, skal vedkommende
 myndighet som godkjente dette kontrollorganet sørge for overvåkning av
@@ -705,22 +808,30 @@ beskrevet i ADR/RID-bestemmelsene.
 **ANM:** Kontrollorganets overvåkning av underleverandører som omtalt i
 1.8.6.3.3 skal også inngå i overvåkningen av kontrollorganet.
 
-1.8.6.2.3.2
+.. _1.8.6.2.3.2:
+
+``1.8.6.2.3.2`` 
 
 Hvis godkjennelsen til kontrollorganet er inndratt eller begrenset,
 eller dersom kontrollorganet har stanset aktiviteten, skal vedkommende
 myndighet ta de nødvendige grep for å sikre at saksdokumentene enten
 behandles av et annet kontrollorgan eller holdes tilgjengelig.
 
-1.8.6.2.4 Informasjonsplikt
+.. _1.8.6.2.4:
 
-1.8.6.2.4.1
+``1.8.6.2.4`` Informasjonsplikt
+
+.. _1.8.6.2.4.1:
+
+``1.8.6.2.4.1`` 
 
 Kontraherende parter til ADR/RID skal offentliggjøre deres nasjonale
 prosedyrer for vurdering, godkjennelse og overvåkning av kontrollorgan
 og eventuelle endringer i denne informasjonen.
 
-1.8.6.2.4.2
+.. _1.8.6.2.4.2:
+
+``1.8.6.2.4.2`` 
 
 Vedkommende myndighet hos den kontraherende parten til ADR/RID skal
 publisere en oppdatert liste over alle kontrollorgan denne har godkjent,
@@ -743,7 +854,9 @@ autorisert.
 En referanse til denne listen skal finnes på nettstedet til
 sekretariatet for UNECE/**OTIF**.
 
-1.8.6.2.4.3
+.. _1.8.6.2.4.3:
+
+``1.8.6.2.4.3`` 
 
 Et kontrollorgan godkjent av en vedkommende myndighet kan bli anerkjent
 av en annen vedkommende myndighet.
@@ -761,9 +874,13 @@ anerkjennelsen lenger gyldig.
 **ANM:** I denne sammenheng skal avtaler om gjensidig anerkjennelse
 mellom kontraherende parter til ADR/RID respekteres.
 
-1.8.6.3 Kontrollorganers forpliktelser
+.. _1.8.6.3:
 
-1.8.6.3.1 Alminnelige bestemmelser
+``1.8.6.3`` Kontrollorganers forpliktelser
+
+.. _1.8.6.3.1:
+
+``1.8.6.3.1`` Alminnelige bestemmelser
 
 Kontrollorganet skal:
 
@@ -829,9 +946,13 @@ gjennomføringen av kontroller og prøving.
 Kravene ovenfor anses å være oppfylt ved akkreditering i henhold til
 standard EN ISO/IEC 17020:2012 (unntatt avsnitt 8.1.3).
 
-1.8.6.3.2 Operasjonelle plikter
+.. _1.8.6.3.2:
 
-1.8.6.3.2.1
+``1.8.6.3.2`` Operasjonelle plikter
+
+.. _1.8.6.3.2.1:
+
+``1.8.6.3.2.1`` 
 
 Vedkommende myndighet eller kontrollorganet skal utføre
 samsvarsvurderinger, periodiske kontroller, mellomliggende kontroller,
@@ -841,13 +962,17 @@ eller kontrollorgan skal, når de utfører sine aktiviteter, ta hensyn til
 de involverte foretakenes størrelse, bransjetype og selskapsstruktur,
 teknologiens kompleksitet og karakter av serieproduksjon.
 
-1.8.6.3.2.2
+.. _1.8.6.3.2.2:
+
+``1.8.6.3.2.2`` 
 
 Vedkommende myndighet eller kontrollorganet skal respektere graden av
 nøyaktighet og beskyttelsesnivået som kreves for å oppfylle de gjeldene
 bestemmelsene i del 4 og 6 som er relevante.
 
-1.8.6.3.2.3
+.. _1.8.6.3.2.3:
+
+``1.8.6.3.2.3`` 
 
 Hvis en vedkommende myndighet eller et kontrollorgan finner at kravene
 som stilles i del 4 eller 6 ikke er oppfylt av produsenten, skal den
@@ -856,13 +981,17 @@ utstede typegodkjenningssertifikat eller sertifikat fra
 førstegangskontroll og prøve før de egnede korrigerende tiltakene er
 gjennomført.
 
-1.8.6.3.3 Delegering av kontrolloppgaver
+.. _1.8.6.3.3:
+
+``1.8.6.3.3`` Delegering av kontrolloppgaver
 
 **ANM:** Følgende bestemmelser gjelder bare for type A kontrollorganer.
 Type B kontrollorganer har ikke lov til å delegere aktivitetene de er
 godkjent for. For internorgan, se 1.8.7.7.2.
 
-1.8.6.3.3.1
+.. _1.8.6.3.3.1:
+
+``1.8.6.3.3.1`` 
 
 Hvis et kontrollorgan gjør bruk av tjenester fra en underleverandører
 til å utføre spesielle oppgaver i forbindelse med sin aktivitet, skal
@@ -878,29 +1007,39 @@ kompetanse- og sikkerhetsnivå som fastsatt for kontrollorganer (se
 1.8.6.3.1), og kontrollorganet skal overvåke det. Kontrollorganet skal
 informere vedkommende myndighet om de ovennevnte ordninger.
 
-1.8.6.3.3.2
+.. _1.8.6.3.3.2:
+
+``1.8.6.3.3.2`` 
 
 Kontrollorganet skal ta fullt ansvar for oppgavene som utføres av slike
 underleverandører uansett hvor de utfører oppgavene.
 
-1.8.6.3.3.3
+.. _1.8.6.3.3.3:
+
+``1.8.6.3.3.3`` 
 
 En type A kontrollorgan kan for hver aktivitet bare delegere deler av
 aktiviteten. I alle tilfeller skal vurderingen og utstedelse av
 sertifikater gjøres av selve kontrollorganet.
 
-1.8.6.3.3.4
+.. _1.8.6.3.3.4:
+
+``1.8.6.3.3.4`` 
 
 Aktiviteter skal ikke delegeres uten samtykke fra produsenten, eieren
 eller brukeren.
 
-1.8.6.3.3.5
+.. _1.8.6.3.3.5:
+
+``1.8.6.3.3.5`` 
 
 Kontrollorganet skal oppbevare den relevante dokumentasjonen som gjelder
 vurderingen av kvalifikasjoner og utført arbeid av ovennevnte
 underleverandører, til rådighet for vedkommende myndighet.
 
-1.8.6.3.4 Informasjonsplikter
+.. _1.8.6.3.4:
+
+``1.8.6.3.4`` Informasjonsplikter
 
 Ethvert kontrollorgan skal informere den vedkommende myndighet som har
 godkjent det, om følgende:
@@ -924,6 +1063,8 @@ av deres godkjenning, inkludert delegerte oppgaver.
 f) Enhver autorisasjon av, eller suspensjon eller tilbaketrekking av et
 internorgan;
 
+.. _1.8.7:
+
 1.8.7 Prosedyrer for samsvarsvurdering, utstedelse av typegodkjenningssertifikat og kontroller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -938,9 +1079,13 @@ avgjørende at foretaket er direkte involvert i alle deler av
 fremstillingen av produktet (se 1.8.7.1.5) som er gjenstand for
 samsvarsvurderingen.
 
-1.8.7.1 Generelle bestemmelser
+.. _1.8.7.1:
 
-1.8.7.1.1
+``1.8.7.1`` Generelle bestemmelser
+
+.. _1.8.7.1.1:
+
+``1.8.7.1.1`` 
 
 Prosedyrene i avsnitt 1.8.7 skal gjøres gjeldende i samsvar med kapittel
 6.2 og 6.8.
@@ -948,7 +1093,9 @@ Prosedyrene i avsnitt 1.8.7 skal gjøres gjeldende i samsvar med kapittel
 Hvis vedkommende myndighet utfører oppgavene selv, skal vedkommende
 myndighet oppfylle bestemmelsene i dette avsnittet.
 
-1.8.7.1.2
+.. _1.8.7.1.2:
+
+``1.8.7.1.2`` 
 
 Enhver søknad om
 
@@ -978,7 +1125,9 @@ eller et kontrollorgan.
 Når internorgan er godkjent for c), d), eller f), er det ikke nødvendig
 å fremsette søknad for c), d) eller f).
 
-1.8.7.1.3
+.. _1.8.7.1.3:
+
+``1.8.7.1.3`` 
 
 Søknaden må inkludere:
 
@@ -995,7 +1144,9 @@ adgang til lokalene for produksjon, kontroll, prøving og oppbevaring,
 samt tilgang til all informasjon som er nødvendig for å få oppgavene
 utført.
 
-1.8.7.1.4
+.. _1.8.7.1.4:
+
+``1.8.7.1.4`` 
 
 Når produsenten eller et foretak med prøvingssted tillates å opprette et
 internorgan i henhold til 6.2.2.12, 6.2.3.6.1, 6.8.1.5.3 b) eller
@@ -1003,7 +1154,9 @@ internorgan i henhold til 6.2.2.12, 6.2.3.6.1, 6.8.1.5.3 b) eller
 kontrollorganet vise at internorganet kan utføre kontroller og prøver i
 overensstemmelse med 1.8.7.
 
-1.8.7.1.5
+.. _1.8.7.1.5:
+
+``1.8.7.1.5`` 
 
 Typegodkjenningssertifikat, kontrollsertifikater og rapporter til
 produktene (trykkbeholdere, tanker, driftsutstyr og sammenstillingen av
@@ -1020,11 +1173,17 @@ på minimum 20 år fra utstedelsesdato;
 c) av eieren eller brukeren i en periode på minimum 15 måneder etter at
 produktet er tatt ut av bruk.
 
-1.8.7.2 Typeprøving og utstedelse av typegodkjenningssertifikat
+.. _1.8.7.2:
 
-1.8.7.2.1 Typeprøving
+``1.8.7.2`` Typeprøving og utstedelse av typegodkjenningssertifikat
 
-1.8.7.2.1.1
+.. _1.8.7.2.1:
+
+``1.8.7.2.1`` Typeprøving
+
+.. _1.8.7.2.1.1:
+
+``1.8.7.2.1.1`` 
 
 Produsenten skal:
 
@@ -1042,7 +1201,9 @@ be om flere eksemplarer hvis påkrevd av prøveprogrammet.
 **ANM:** Resultatene fra vurderinger og prøvinger i henhold til andre
 regelverk eller standarder kan tas i betraktning.
 
-1.8.7.2.1.2
+.. _1.8.7.2.1.2:
+
+``1.8.7.2.1.2`` 
 
 Kontrollorganet skal:
 
@@ -1071,12 +1232,16 @@ prøvinger skal gjennomføres.
 
 Kontrollorganet skal utstede en typeprøvingsrapport til produsenten.
 
-1.8.7.2.2 Utstedelse av typegodkjenningssertifikat
+.. _1.8.7.2.2:
+
+``1.8.7.2.2`` Utstedelse av typegodkjenningssertifikat
 
 Typegodkjenninger bekrefter konstruksjonen til produkter i
 gyldighetstiden for godkjennelsen.
 
-1.8.7.2.2.1
+.. _1.8.7.2.2.1:
+
+``1.8.7.2.2.1`` 
 
 Der hvor typen tilfredsstiller alle krav skal vedkommende myndighet
 eller kontrollorganet utstede et typegodkjenningssertifikat til
@@ -1108,7 +1273,9 @@ h) typegodkjenningens maksimale gyldighetstid; og
 
 i) eventuelle spesifikke krav i henhold til kapittel 6.2 og 6.8.
 
-1.8.7.2.2.2
+.. _1.8.7.2.2.2:
+
+``1.8.7.2.2.2`` 
 
 Typegodkjenningen skal maksimalt være gyldig i 10 år. Hvis aktuelle
 tekniske krav i ADR/RID endrer seg i løpet av den perioden slik at den
@@ -1150,7 +1317,9 @@ størrelser eller volum som ikke påvirker samsvar, eller for tanker se
 6.8.2.3.3) kan ikke forlenge eller modifisere den opprinnelige
 gyldigheten for sertifikatet.
 
-1.8.7.2.2.3
+.. _1.8.7.2.2.3:
+
+``1.8.7.2.2.3`` 
 
 Ved modifisering av et produkt med gyldig, utgått eller tilbaketrukket
 typegodkjenning, skal relevant typeprøving, prøving, kontroll og
@@ -1171,16 +1340,22 @@ en kontraherende part til ADR/RID, i samsvar med kapittel 6.2 og 6.8.
 For tanker, batterikjøretøy/batterivogn eller MEGCer, skal en kopi inngå
 som en del av tankloggen.
 
-1.8.7.3 Overvåkning av produksjon
+.. _1.8.7.3:
 
-1.8.7.3.1
+``1.8.7.3`` Overvåkning av produksjon
+
+.. _1.8.7.3.1:
+
+``1.8.7.3.1`` 
 
 Produsenten skal ta alle nødvendige forholdsregler for å forsikre seg om
 at produksjonsprosessen er i overensstemmelse med de gjeldende
 bestemmelsene i ADR/RID og typegodkjenningssertifikatet, den tekniske
 dokumentasjonen i henhold til 1.8.7.8.3 og rapporter.
 
-1.8.7.3.2
+.. _1.8.7.3.2:
+
+``1.8.7.3.2`` 
 
 Produksjonsprosessen skal underlegges overvåkning av det relevante
 organet.
@@ -1207,9 +1382,13 @@ prøvinger skal gjennomføres;
 f) Skriftlig dokumentere resultatene fra sin overvåkning av
 produksjonen.
 
-1.8.7.4 Førstegangskontroll og prøvinger
+.. _1.8.7.4:
 
-1.8.7.4.1
+``1.8.7.4`` Førstegangskontroll og prøvinger
+
+.. _1.8.7.4.1:
+
+``1.8.7.4.1`` 
 
 Produsenten skal:
 
@@ -1218,7 +1397,9 @@ a) Påføre merking spesifisert i ADR/RID; og
 b) Forsyne relevant organ med teknisk dokumentasjon spesifisert i
 1.8.7.8.4.
 
-1.8.7.4.2
+.. _1.8.7.4.2:
+
+``1.8.7.4.2`` 
 
 Det relevante organet skal:
 
@@ -1247,7 +1428,9 @@ typegodkjenningssertifikatet.
 Sertifikatet i d) og rapporten i c) kan omfatte et antall av produkter
 av samme type (gruppesertifikat eller rapport).
 
-1.8.7.4.3
+.. _1.8.7.4.3:
+
+``1.8.7.4.3`` 
 
 Sertifikatet i 1.8.7.4.2 d) skal som et minimum inneholde:
 
@@ -1272,9 +1455,13 @@ g) Typegodkjenningsnummer; og
 h) Referansen til sertifikatet for autorisasjon av internorganet, der
 det er aktuelt.
 
-1.8.7.5 Verifikasjon før ibruktagelse
+.. _1.8.7.5:
 
-1.8.7.5.1
+``1.8.7.5`` Verifikasjon før ibruktagelse
+
+.. _1.8.7.5.1:
+
+``1.8.7.5.1`` 
 
 Hvis en verifikasjon før ibruktagelse kreves av vedkommende myndighet i
 henhold til 6.8.1.5.5, skal eieren eller brukeren engasjere ett enkelt
@@ -1282,7 +1469,9 @@ kontrollorgan til å foreta verifikasjon før ibruktagelse og gi dette
 organet typegodkjenningssertifikatet og den tekniske dokumentasjonen som
 er angitt i 1.8.7.8.4.
 
-1.8.7.5.2
+.. _1.8.7.5.2:
+
+``1.8.7.5.2`` 
 
 Kontrollorganet skal gjennomgå dokumentasjonen og:
 
@@ -1295,7 +1484,9 @@ utførte de tidligere kontrollene og prøvingene;
 
 d) Verifisere at overgangsbestemmelsene i 1.6.3 eller 1.6.4 er oppfylt.
 
-1.8.7.5.3
+.. _1.8.7.5.3:
+
+``1.8.7.5.3`` 
 
 Kontrollorganet skal utstede en rapport fra gjennomført verifikasjon før
 ibruktagelse som inneholder resultatene fra vurderingen. Eieren eller
@@ -1312,10 +1503,13 @@ Kontrollorganet som er ansvarlig for verifikasjonen før ibruktagelse
 skal, uten forsinkelser, informere vedkommende myndighet om eventuelle
 avslag [24]_.
 
-1.8.7.6 Periodisk kontroll, mellomliggende kontroll og ekstraordinær
-kontroll
+.. _1.8.7.6:
 
-1.8.7.6.1
+``1.8.7.6`` Periodisk kontroll, mellomliggende kontroll og ekstraordinær kontroll
+
+.. _1.8.7.6.1:
+
+``1.8.7.6.1`` 
 
 Det relevante organet skal:
 
@@ -1331,7 +1525,9 @@ produkter; og
 
 d) Forsikre at de påkrevde merker er påført.
 
-1.8.7.6.2
+.. _1.8.7.6.2:
+
+``1.8.7.6.2`` 
 
 Rapporter fra periodiske kontroller og prøvinger av trykkbeholdere skal
 oppbevares av eieren eller brukeren minst frem til neste periodiske
@@ -1339,9 +1535,13 @@ kontroll.
 
 **ANM:** For tanker, se bestemmelser for tanklogger i 4.3.2.1.7.
 
-1.8.7.7 Autorisasjon og overvåkning av internorgan
+.. _1.8.7.7:
 
-1.8.7.7.1
+``1.8.7.7`` Autorisasjon og overvåkning av internorgan
+
+.. _1.8.7.7.1:
+
+``1.8.7.7.1`` 
 
 Når et internorgan benyttes i henhold til 6.2.2.12, 6.2.3.6.1, 6.8.1.5.3
 b) eller 6.8.1.5.4 b) skal produsenten eller prøvingsstedet:
@@ -1360,7 +1560,9 @@ ii. Påføre kontrollorganet sitt registreringsmerke eller stempel, som
 beskrevet i kapittel 6.2 og 6.8, og merket til internorganet hvor det er
 aktuelt, på produktet for å sikre sporbarhet.
 
-1.8.7.7.2
+.. _1.8.7.7.2:
+
+``1.8.7.7.2`` 
 
 Kontrollorganet skal gjennomføre en førstegangsrevisjon på hvert sted.
 Hvis denne er tilfredsstillende, skal kontrollorganet informere
@@ -1397,7 +1599,9 @@ skal i tillegg være akkreditert i henhold til EN/ISO IEC 17025:2017
 kontrollorgan for å kunne utføre oppgaver knyttet til prøving i samsvar
 med dens akkreditering.
 
-1.8.7.7.3
+.. _1.8.7.7.3:
+
+``1.8.7.7.3`` 
 
 Sertifikatet for autorisasjon skal som et minimum inneholde:
 
@@ -1421,7 +1625,9 @@ f) Merket til internorganet, hvis aktuelt; og
 
 g) Utløpsdato
 
-1.8.7.7.4
+.. _1.8.7.7.4:
+
+``1.8.7.7.4`` 
 
 Kontrollorganet skal utføre periodiske revisjoner på hvert sted i
 autorisasjonsperioden for å sikre at internorganet opprettholder og
@@ -1447,7 +1653,9 @@ e) Kontrollorganet skal gi produsenten eller prøvingsstedet, ut fra hva
 som er aktuelt, og internorganet en revisjonsrapport og, hvis prøvinger
 har blitt utført, en prøverapport.
 
-1.8.7.7.5
+.. _1.8.7.7.5:
+
+``1.8.7.7.5`` 
 
 I de tilfeller hvor det ikke er samsvar med relevante bestemmelser, skal
 kontrollorganet forsikre at korrektive tiltak iverksettes. Hvis
@@ -1458,12 +1666,16 @@ til vedkommende myndighet. En rapport skal oversendes til produsenten
 eller prøvingsstedet, ut fra hva som er relevant, og til internorganet
 med detaljert begrunnelse for beslutningen kontrollorganet har tatt.
 
-1.8.7.8 Dokumenter
+.. _1.8.7.8:
+
+``1.8.7.8`` Dokumenter
 
 Den tekniske dokumentasjonen skal muliggjøre en vurdering om samsvar med
 relevante krav.
 
-1.8.7.8.1 Dokumenter for typeprøving
+.. _1.8.7.8.1:
+
+``1.8.7.8.1`` Dokumenter for typeprøving
 
 Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
 relevant:
@@ -1502,7 +1714,9 @@ k) Prosedyrer, beskrivelser og protokoller for alle relevante prøver
 listet i standarder eller ADR/RID, for typegodkjenningen og for
 produksjonen.
 
-1.8.7.8.2 Dokumenter for utstedelse av typegodkjenningssertifikat
+.. _1.8.7.8.2:
+
+``1.8.7.8.2`` Dokumenter for utstedelse av typegodkjenningssertifikat
 
 Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
 relevant:
@@ -1528,7 +1742,9 @@ g) Typeprøvingsrapporten; og
 h) Ytterligere dokumenter som er omtalt under 1.8.7.8.1 på forespørsel
 fra vedkommende myndighet eller kontrollorgan.
 
-1.8.7.8.3 Dokumenter for overvåkning av produksjon
+.. _1.8.7.8.3:
+
+``1.8.7.8.3`` Dokumenter for overvåkning av produksjon
 
 Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
 relevant:
@@ -1553,8 +1769,9 @@ h) Varmebehandlingsdata; og
 
 i) Kalibreringsdata.
 
-1.8.7.8.4 Dokumenter for førstegangskontroll og prøving, og for
-verifikasjon før ibruktagelse
+.. _1.8.7.8.4:
+
+``1.8.7.8.4`` Dokumenter for førstegangskontroll og prøving, og for verifikasjon før ibruktagelse
 
 Produsenten skal for førstegangskontroll og prøving, og eieren eller
 bruker skal for verifikasjon før ibruktagelse, gjøre følgende
@@ -1570,8 +1787,9 @@ c) Samsvarssertifikatene for driftsutstyret; og
 d) En samsvarserklæring, inkludert beskrivelse av produktet og alle
 variasjoner utviklet fra typegodkjenningen.
 
-1.8.7.8.5 Dokumenter for periodisk kontroll, mellomliggende kontroll og
-ekstraordinær kontroll
+.. _1.8.7.8.5:
+
+``1.8.7.8.5`` Dokumenter for periodisk kontroll, mellomliggende kontroll og ekstraordinær kontroll
 
 Eieren eller brukeren, eller dens autoriserte representant, skal gjøre
 tilgjengelig, ut fra hva som er relevant:
@@ -1587,7 +1805,9 @@ i. tankloggen; og
 ii. relevante dokumenter beskrevet i 1.8.7.8.1 til 1.8.7.8.4 på
 forespørsel fra kontrollorganet.
 
-1.8.7.8.6 Dokumenter for overvåkning av internorgan
+.. _1.8.7.8.6:
+
+``1.8.7.8.6`` Dokumenter for overvåkning av internorgan
 
 Internorganet skal gjøre tilgjengelig dokumentasjon vedrørende
 kvalitetssystemet, ut fra hva som er relevant:
@@ -1614,8 +1834,9 @@ samsvar; og
 h) Opplæringsprogrammer og kvalifiseringsprosedyrer for personell
 involvert.
 
-1.8.7.9 Produkter produsert, godkjent, kontrollert og prøvet i henhold
-til standardene
+.. _1.8.7.9:
+
+``1.8.7.9`` Produkter produsert, godkjent, kontrollert og prøvet i henhold til standardene
 
 Bestemmelsene i 1.8.7.7 skal betraktes som overholdt hvis følgende
 relevante standarder er fulgt:
@@ -1630,6 +1851,8 @@ relevante standarder er fulgt:
 |                   | 2972:2018 | marking of metallic tanks           |
 +-------------------+-----------+-------------------------------------+
 
+.. _1.8.8:
+
 1.8.8 Prosedyre for samsvarsvurdering av små gassbeholdere
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1641,9 +1864,13 @@ a) Prosedyrene i avsnitt 1.8.7 for ikke-UN trykkbeholdere, med unntak av
 
 b) Prosedyrene i avsnitt 1.8.8.1 til 1.8.8.7
 
-1.8.8.1 Generelle bestemmelser
+.. _1.8.8.1:
 
-1.8.8.1.1
+``1.8.8.1`` Generelle bestemmelser
+
+.. _1.8.8.1.1:
+
+``1.8.8.1.1`` 
 
 Overvåkningen av produksjon skal utføres av et Xa-organ og testene som
 kreves i 6.2.6 skal utføres av enten et Xa-organ eller et internorgan
@@ -1652,13 +1879,17 @@ internorgan se definisjonene i 6.2.3.6.1. Samsvarsvurdering skal utføres
 av vedkommende myndighet, dens delegerte eller godkjente
 inspeksjonsorgan i en kontraherende ADR/RID-part.
 
-1.8.8.1.2
+.. _1.8.8.1.2:
+
+``1.8.8.1.2`` 
 
 Ved anvendelse av 1.8.8 skal søkeren demonstrere, forsikre og erklære
 sitt fullstendig ansvar for samsvar av små gassbeholdere med kravene i
 6.2.6 og alle andre relevante krav i ADR/RID.
 
-1.8.8.1.3
+.. _1.8.8.1.3:
+
+``1.8.8.1.3`` 
 
 Søkeren skal
 
@@ -1684,7 +1915,9 @@ av deler fra en eller flere underleverandører, skal søkeren utarbeide
 skriftlige anvisninger for hvordan den skal monteres og fylles slik at
 kravene i hans typegodkjenningssertifikat blir oppfylt.
 
-1.8.8.1.4
+.. _1.8.8.1.4:
+
+``1.8.8.1.4`` 
 
 Dersom søkeren og underleverandører sammenstiller og/eller fyller
 engangsbeholdere for gass i henhold til instruksjoner fra søkeren kan
@@ -1693,44 +1926,60 @@ dokumenter samsvar med kravene til Xa-organ i henhold til kravene i
 internorgan som kan utføre deler eller alle inspeksjonene og prøvene som
 er spesifisert i 6.2.6.
 
-1.8.8.2 Designtype prøving
+.. _1.8.8.2:
 
-1.8.8.2.1
+``1.8.8.2`` Designtype prøving
+
+.. _1.8.8.2.1:
+
+``1.8.8.2.1`` 
 
 Søkeren skal utarbeide teknisk dokumentasjon for hver type
 engangsbeholder for gass, inkludert de tekniske standardene som er
 brukt. Hvis han velger å bruke en standard som ikke er referert i 6.2.6
 skal han legge den brukte standarden til den tekniske dokumentasjonen.
 
-1.8.8.2.2
+.. _1.8.8.2.2:
+
+``1.8.8.2.2`` 
 
 Søkeren skal oppbevare teknisk dokumentasjon sammen med prøver av den
 typen og ha den tilgjengelig for Xa-organet i hele produksjonsperioden
 og minimum 5 år etter siste produksjon av engangsbeholderen for gass i
 henhold til typegodkjenningssertifikatet.
 
-1.8.8.2.3
+.. _1.8.8.2.3:
+
+``1.8.8.2.3`` 
 
 Søkeren skal etter nøye gjennomgang utstede et
 typegodkjenningssertifikat som skal være gyldig i maksimalt 10 år og
 legge det til dokumentasjonen. Det sertifikatet autoriserer han til å
 produsere engangsbeholdere for gass i den perioden.
 
-1.8.8.2.4
+.. _1.8.8.2.4:
+
+``1.8.8.2.4`` 
 
 Hvis de tekniske kravene i ADR/RID (inkludert refererte standarder) blir
 endret i den perioden slik at designtypen ikke lenger er i henhold til
 de kravene skal søkeren trekke tilbake sitt typegodkjenningssertifikat
 og informere Xa-organet.
 
-1.8.8.2.5
+.. _1.8.8.2.5:
+
+``1.8.8.2.5`` 
 
 Søkeren kan etter nøye og komplett gjennomgang utstede sertifikatet for
 en ny periode på maksimalt 10 år.
 
-1.8.8.3 Overvåkning av produksjonen
+.. _1.8.8.3:
 
-1.8.8.3.1
+``1.8.8.3`` Overvåkning av produksjonen
+
+.. _1.8.8.3.1:
+
+``1.8.8.3.1`` 
 
 Prosedyrene for designtype gjennomgang såvel som produksjonsprosessen
 skal underlegges overvåkning av Xa-organet for å sikre at søkerens
@@ -1739,7 +1988,9 @@ i typegodkjenningssertifikatet og relevante bestemmelser i ADR/RID. Hvis
 1.8.8.1.3 (e) kommer til anvendelse skal sammenstillings og fylleforetak
 være inkludert i de prosedyrene.
 
-1.8.8.3.2
+.. _1.8.8.3.2:
+
+``1.8.8.3.2`` 
 
 Søkeren skal ta nødvendige forholdsregler for å sikre at
 produksjonsprosessen samsvarer med relevante krav i ADR/RID og hans
@@ -1747,7 +1998,9 @@ typegodkjenningssertifikat med vedlegg. Hvis 1.8.8.1.3 (e) kommer til
 anvendelse skal sammenstillings og fylleforetak være inkludert i de
 prosedyrene.
 
-1.8.8.3.3
+.. _1.8.8.3.3:
+
+``1.8.8.3.3`` 
 
 Xa-organet skal:
 
@@ -1768,15 +2021,21 @@ og foretar testene er kvalifiserte og godkjente;
 
 d) dokumentere resultatet av sin overvåkning.
 
-1.8.8.3.4
+.. _1.8.8.3.4:
+
+``1.8.8.3.4`` 
 
 Hvis funnene til Xa-organet viser avvik fra typegodkjenningssertifikatet
 til søkeren eller produksjonsprosessen, skal det kreve korrektive tiltak
 eller trekke tilbake sertifikatet fra søkeren.
 
-1.8.8.4 Tetthetsprøve
+.. _1.8.8.4:
 
-1.8.8.4.1
+``1.8.8.4`` Tetthetsprøve
+
+.. _1.8.8.4.1:
+
+``1.8.8.4.1`` 
 
 Søkeren og foretak som sluttmonterer og fyller engangsbeholder for gass
 i henhold til prosedyrene til søkeren skal:
@@ -1801,7 +2060,9 @@ komplett merking på engangsbeholderen for gass på en «tag» som er festet
 til beholderen eller plassere «taggen» i en inneremballasje til
 beholderen.
 
-1.8.8.4.2
+.. _1.8.8.4.2:
+
+``1.8.8.4.2`` 
 
 Xa-organet skal:
 
@@ -1817,7 +2078,9 @@ b) sjekke sertifikatene som søkeren har levert;
 c) utføre testene som kreves i 6.2.6 eller godkjenne testprogrammet og
 internorganets måte å utføre tester.
 
-1.8.8.4.3
+.. _1.8.8.4.3:
+
+``1.8.8.4.3`` 
 
 Sertifikatet skal minimum inneholde:
 
@@ -1832,9 +2095,13 @@ c) resultatet av prøver og tester;
 
 d) data for merking som kreves i 1.8.8.4.1 (e).
 
-1.8.8.5 (Reservert)
+.. _1.8.8.5:
 
-1.8.8.6 Overvåkning av internorgans arbeid
+``1.8.8.5`` (Reservert)
+
+.. _1.8.8.6:
+
+``1.8.8.6`` Overvåkning av internorgans arbeid
 
 Når en søker eller underleverandør sammenstiller eller fyller
 engangsbeholder for gass og har etablert et internorgan, skal kravene i
@@ -1842,7 +2109,12 @@ engangsbeholder for gass og har etablert et internorgan, skal kravene i
 Underleverandør som sammenstiller eller fyller engangsbeholder for gass
 skal følge relevante krav som gjelder for søkeren.
 
-1.8.8.7 Dokumenter
+.. _1.8.8.7:
+
+``1.8.8.7`` Dokumenter
 
 Kravene i 1.8.7.8.1, 1.8.7.8.2, 1.8.7.8.3, 1.8.7.8.4 og 1.8.7.8.6
 gjelder.
+
+.. [24]
+   **RID: I et slik tilfelle skal vedkommende myndighet også informere den nasjonale sikkerhetsmyndigheten (NSA) i den berørte kontraherende staten til RID, som også er en medlemsstat i den Europeiske Unionen, med sikte på å evaluere oppfølgingstiltak som skal tas av NSA i henhold til artikkel 26 i direktiv (EU) 2016/797 om manglende oppfyllelse av grunnleggende krav for kjøretøy og kjøretøytyper og artikkel 7(4) i gjennomføringsforordning (EU) 2018/545 om utveksling av informasjon i tilknytning til tekniske eller driftsmessige forhold som kan være relevante for utstedelse av en typetillatelse for kjøretøyer og/eller tillatelse til å binge kjøretøyer i omsetning. I kontraherende stater til RID som også er kontraherende stater til ATMF, men ikke medlemsstater i Europeisk Union, skal vedkommende myndighet også informere vedkommende myndighet i betydning av artikkel 5 i ATMF’s enhetlige rettsregler, med hensikt å evaluere behovet for oppfølgingstiltak, særlig i henhold til artikkel 10a i ATMF’s enhetlige rettsregler om manglende overholdelse av kjøretøyer eller kjøretøytyper og, der det er aktuelt, i henhold til artikkel 8a i APTU enhetlige rettsregler dersom det forventes mangler i UTP.**

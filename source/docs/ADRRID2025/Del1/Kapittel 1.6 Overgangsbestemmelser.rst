@@ -1,10 +1,16 @@
+.. _1.6:
+
 Kapittel 1.6 Overgangsbestemmelser
 ----------------------------------
+
+.. _1.6.1:
 
 1.6.1 Generelt
 ^^^^^^^^^^^^^^
 
-1.6.1.1
+.. _1.6.1.1:
+
+``1.6.1.1`` 
 
 Om ikke annet er bestemt, kan stoffene og gjenstandene i ADR/RID
 transporteres inntil 30. juni 2025 i henhold til bestemmelsene i
@@ -12,11 +18,15 @@ ADR/RID [15]_ gjeldende fram til 31. desember 2024.
 
 ANM (RID): For opplysninger i transportdokumentet, se 5.4.1.1.12.
 
-1.6.1.2
+.. _1.6.1.2:
+
+``1.6.1.2`` 
 
 (Slettet)
 
-1.6.1.3
+.. _1.6.1.3:
+
+``1.6.1.3`` 
 
 Stoffer og gjenstander av klasse 1 som tilhører en kontraherende parts
 væpnede styrker, og som har vært pakket før 1. januar 1990 i samsvar med
@@ -26,7 +36,9 @@ og at transportdokumentet viser at det er militære varer som er pakket
 før 1. januar 1990. De øvrige bestemmelsene for klasse 1 i kraft fra 1.
 januar 1990 skal være oppfylt.
 
-1.6.1.4
+.. _1.6.1.4:
+
+``1.6.1.4`` 
 
 Stoffer og gjenstander av klasse 1 som ble emballert i perioden mellom
 1. januar 1990 og 31. desember 1996 i samsvar med bestemmelsene i
@@ -35,14 +47,18 @@ under forutsetning av at emballasjen fortsatt er intakt og at de er
 deklarert i transportdokumentet som gods av klasse 1 emballert i
 tidsrommet mellom 1. januar 1990 og 31. desember 1996.
 
-1.6.1.5
+.. _1.6.1.5:
+
+``1.6.1.5`` 
 
 RID: Mellomstore bulkcontainere (IBCer) som ble fremstilt i samsvar med
 kravene i margnr. 405 (5) og 555 (3) som var gjeldende før 1. januar
 1999, men som ikke er i samsvar med kravene i margnr. 405 (5) og 555 (3)
 som var gjeldende fra 1. januar 1999, får fortsatt benyttes.
 
-1.6.1.6
+.. _1.6.1.6:
+
+``1.6.1.6`` 
 
 Mellomstore bulkcontainere (IBCer) som ble fremstilt før 1. januar 2003
 i samsvar med kravene i margnr. 3612(1) gjeldende inntil 30. juni 2001,
@@ -50,7 +66,9 @@ og som ikke er i samsvar med kravene i 6.5.2.1.1 med hensyn til
 bokstavhøyde, tallkoder og symboler gjeldende fra 1. juli 2001, får
 fortsatt benyttes.
 
-1.6.1.7
+.. _1.6.1.7:
+
+``1.6.1.7`` 
 
 Typegodkjenninger utstedt før 1. juli 2005 for fat, kanner og
 komposittemballasje av plast, fremstilt av polyetylen med høy- eller
@@ -60,7 +78,9 @@ fortsatt være gyldige inntil 31. desember 2009. Slike emballasjer,
 fremstilt og merket på bakgrunn av disse typegodkjenningene, er tillatt
 benyttet inntil utløpet av deres levetid fastsatt etter 4.1.1.15.
 
-1.6.1.8
+.. _1.6.1.8:
+
+``1.6.1.8`` 
 
 Eksisterende oransje skilt som tilfredsstiller kravene i 5.3.2.2
 gjeldende inntil 31. desember 2004 får fortsatt benyttes inntil 31.
@@ -68,15 +88,21 @@ desember 2026 forutsatt at bestemmelsene i 5.3.2.2.1 og 5.3.2.2.2 om at
 skiltet, tall og bokstaver holder seg på plass uavhengig av
 kjøretøyets/vognens orientering er oppfylt.
 
-1.6.1.9
+.. _1.6.1.9:
+
+``1.6.1.9`` 
 
 (Slettet)
 
-1.6.1.10
+.. _1.6.1.10:
+
+``1.6.1.10`` 
 
 (Slettet)
 
-1.6.1.11
+.. _1.6.1.11:
+
+``1.6.1.11`` 
 
 Typegodkjenninger for fat, kanner og komposittemballasjer av høy eller
 middels molekylmasse polyetylen, samt for høy molekylmasse polyetylen
@@ -85,22 +111,30 @@ IBCer utstedt før 1. juli 2007 i samsvar med bestemmelsene i 6.1.6.1.
 bestemmelsene i 6.1.6.1 (a) gjeldende fra 1. januar 2007, er fortsatt
 gyldige.
 
-1.6.1.12
+.. _1.6.1.12:
+
+``1.6.1.12`` 
 
 (Slettet)
 
-1.6.1.13
+.. _1.6.1.13:
+
+``1.6.1.13`` 
 
 (Slettet)
 
-1.6.1.14
+.. _1.6.1.14:
+
+``1.6.1.14`` 
 
 IBC som er fremstilt før 1. januar 2011 i samsvar med en prototype som
 ikke oppfyller vibrasjonstesten i 6.5.6.13 eller som ikke trengte å
 oppfylle kravene i 6.5.6.9. (d) om dropptest på den tiden, kan fortsatt
 benyttes.
 
-1.6.1.15
+.. _1.6.1.15:
+
+``1.6.1.15`` 
 
 IBCer produsert, rekondisjonert eller reparert før 1. januar 2011
 trenger ikke merkes med maksimal tillatt stablelast i henhold til
@@ -112,37 +146,53 @@ IBCer produsert, rekondisjonert eller reparert mellom 1. januar 2011 og
 overensstemmelse med 6.5.2.2.2 i kraft fram til 31. desember 2014, kan
 fortsatt benyttes.
 
-1.6.1.16
+.. _1.6.1.16:
+
+``1.6.1.16`` 
 
 (Slettet)
 
-1.6.1.17
+.. _1.6.1.17:
+
+``1.6.1.17`` 
 
 (Slettet)
 
-1.6.1.18
+.. _1.6.1.18:
+
+``1.6.1.18`` 
 
 (Slettet)
 
-1.6.1.19
+.. _1.6.1.19:
+
+``1.6.1.19`` 
 
 (Slettet)
 
-1.6.1.20
+.. _1.6.1.20:
+
+``1.6.1.20`` 
 
 (Slettet)
 
-1.6.1.21
+.. _1.6.1.21:
+
+``1.6.1.21`` 
 
 ADR: (Slettet)
 
 RID: (Reservert)
 
-1.6.1.22
+.. _1.6.1.22:
+
+``1.6.1.22`` 
 
 (Slettet)
 
-1.6.1.23
+.. _1.6.1.23:
+
+``1.6.1.23`` 
 
 ADR: Brannslukkingsapparater tilvirket før 1. juli 2011 i
 overensstemmelse med kravene i 8.1.4.3 gjeldende fram til 31. desember
@@ -150,15 +200,21 @@ overensstemmelse med kravene i 8.1.4.3 gjeldende fram til 31. desember
 
 **RID: (Reservert)**
 
-1.6.1.24
+.. _1.6.1.24:
+
+``1.6.1.24`` 
 
 (Slettet)
 
-1.6.1.25
+.. _1.6.1.25:
+
+``1.6.1.25`` 
 
 (Slettet)
 
-1.6.1.26
+.. _1.6.1.26:
+
+``1.6.1.26`` 
 
 Storemballasjer produsert eller gjenoppbygd før 1. januar 2014 og som
 ikke er i samsvar med kravene i 6.6.3.1 vedrørende størrelsen på
@@ -173,7 +229,9 @@ Storemballasjer produsert eller gjenoppbygd mellom 1. januar 2011 og
 stablelasten i henhold til 6.6.3.3 i kraft fram til 31. desember 2014,
 kan fortsatt benyttes.
 
-1.6.1.27
+.. _1.6.1.27:
+
+``1.6.1.27`` 
 
 Beholdere, innebygget i utstyr og maskiner, som inneholder flytende
 drivstoff eller brensel tilordnet UN-nr. 1202, 1203, 1223, 1268, 1863 og
@@ -181,11 +239,15 @@ drivstoff eller brensel tilordnet UN-nr. 1202, 1203, 1223, 1268, 1863 og
 bokstav (a) i spesiell bestemmelse 363 i kapitel 3.3 gjeldende fra 1.
 januar 2013, får fortsatt benyttes.
 
-1.6.1.28
+.. _1.6.1.28:
+
+``1.6.1.28`` 
 
 (Slettet)
 
-1.6.1.29
+.. _1.6.1.29:
+
+``1.6.1.29`` 
 
 Litiumceller og -batterier tilvirket i samsvar med en type som oppfyller
 kravene i underavsnitt 38.3 i UN Testmanualen, revisjon 3, endring 1,
@@ -197,71 +259,99 @@ Litiumceller og -batterier tilvirket før 1. juli 2003 som oppfyller
 kravene i UN Testmanualen, revisjon 3, kan fortsatt transporteres dersom
 alle andre gjeldende krav er oppfylt.
 
-1.6.1.30
+.. _1.6.1.30:
+
+``1.6.1.30`` 
 
 (Slettet)
 
-1.6.1.31
+.. _1.6.1.31:
+
+``1.6.1.31`` 
 
 (Slettet)
 
-1.6.1.32
+.. _1.6.1.32:
+
+``1.6.1.32`` 
 
 (Slettet)
 
-1.6.1.33
+.. _1.6.1.33:
+
+``1.6.1.33`` 
 
 Elektriske dobbeltlags kondensatorer tilordnet UN-nr. 3499, tilvirket
 før 1. januar 2014, trenger ikke å være merket med
 energilagringskapasiteten i Wh som påkrevd av paragraf (e) i spesiell
 bestemmelse 361 i kapittel 3.3.
 
-1.6.1.34
+.. _1.6.1.34:
+
+``1.6.1.34`` 
 
 Asymmetriske kondensatorer tilordnet UN-nr. 3508, tilvirket før 1.
 januar 2016, behøver ikke å være merket med energilagringskapasiteten i
 Wh som påkrevd av paragraf (c) i spesiell bestemmelse 372 i kapittel
 3.3.
 
-1.6.1.35
+.. _1.6.1.35:
+
+``1.6.1.35`` 
 
 ADR: (Slettet)
 
 RID: (Reservert)
 
-1.6.1.36
+.. _1.6.1.36:
+
+``1.6.1.36`` 
 
 ADR: (Slettet)
 
 RID: (Reservert)
 
-1.6.1.37
+.. _1.6.1.37:
+
+``1.6.1.37`` 
 
 ADR: (Reservert)
 
 RID: (Slettet)
 
-1.6.1.38
+.. _1.6.1.38:
+
+``1.6.1.38`` 
 
 (Slettet)
 
-1.6.1.39
+.. _1.6.1.39:
+
+``1.6.1.39`` 
 
 (Slettet)
 
-1.6.1.40
+.. _1.6.1.40:
+
+``1.6.1.40`` 
 
 (Slettet)
 
-1.6.1.41
+.. _1.6.1.41:
+
+``1.6.1.41`` 
 
 (Slettet)
 
-1.6.1.42
+.. _1.6.1.42:
+
+``1.6.1.42`` 
 
 (Slettet)
 
-1.6.1.43
+.. _1.6.1.43:
+
+``1.6.1.43`` 
 
 Kjøretøy som er levert på service før 1. juli 2017, som definert i
 spesiell bestemmelse 388 og 669 i kapittel 3.3, og deres utstyr til bruk
@@ -271,11 +361,15 @@ gjeldende til 31. desember 2016, men som inneholder litiumceller og
 transporteres som en last i henhold til spesiell bestemmelse 666 i
 kapittel 3.3.
 
-1.6.1.44
+.. _1.6.1.44:
+
+``1.6.1.44`` 
 
 (Slettet)
 
-1.6.1.45
+.. _1.6.1.45:
+
+``1.6.1.45`` 
 
 Kontraherende parter kan til 31. desember 2020 fortsatt utstede bevis
 til sikkerhetsrådgivere for farlig gods i samsvar med modellen gjeldene
@@ -283,15 +377,21 @@ til 31. desember 2018, istedenfor bevis som samsvarer med kravene i
 1.8.3.18 gjeldene fra 1. januar 2019. Slike bevis kan benyttes frem til
 deres femårige gyldighet utløper.
 
-1.6.1.46
+.. _1.6.1.46:
+
+``1.6.1.46`` 
 
 (Slettet)
 
-1.6.1.47
+.. _1.6.1.47:
+
+``1.6.1.47`` 
 
 (Slettet)
 
-1.6.1.48
+.. _1.6.1.48:
+
+``1.6.1.48`` 
 
 ADR: Godkjenningsattest for kjøretøy som transporterer visse typer
 farlig gods som samsvarer med modellen i 9.1.3.5 gjeldene inntil 31.
@@ -299,19 +399,25 @@ desember 2020, utstedt før 1. juli 2021, kan fortsatt benyttes.
 
 RID: (Reservert)
 
-1.6.1.49
+.. _1.6.1.49:
+
+``1.6.1.49`` 
 
 Merket som er gjengitt i Figur 5.2.1.9.2 gjeldende fram til 31. desember
 2022, kan fortsatt benyttes fram til 31. desember 2026.
 
-1.6.1.50
+.. _1.6.1.50:
+
+``1.6.1.50`` 
 
 Gjenstander som oppfyller definisjonen av «TENNERE, ELEKTRONISKE»
 beskrevet i 2.2.1.4 («Navneliste»), og som er tilordnet UN nr. 0511,
 0512 og 0513, kan fortsatt benytte oppføringene for «TENNERE,
 ELEKTRISKE» (UN nr. 0030, 0255 og 0456) fram til 30 juni 2025.
 
-1.6.1.51
+.. _1.6.1.51:
+
+``1.6.1.51`` 
 
 Lim, maling og malingrelaterte stoffer, trykkfarger og
 trykkfargerelaterte stoffer samt harpiksløsninger, tilordnet UN 3082
@@ -338,7 +444,9 @@ måte; eller
 b) Som inneremballasjer i sammensatte emballasjer med maksimal masse på
 40 kg.
 
-1.6.1.52
+.. _1.6.1.52:
+
+``1.6.1.52`` 
 
 Innerbeholdere på komposittIBCer produsert før 1. juli 2021 i samsvar
 med kravene i 6.5.2.2.4 i kraft fram til 31. desember 2020, og som ikke
@@ -348,11 +456,15 @@ designet til den ytre omslutningen, gjeldende fra 1. januar 2021, kan
 fortsatt benyttes fram til slutten av sin bruksperiode bestemt i
 4.1.1.15.
 
-1.6.1.53
+.. _1.6.1.53:
+
+``1.6.1.53`` 
 
 (Slettet)
 
-1.6.1.54
+.. _1.6.1.54:
+
+``1.6.1.54`` 
 
 Kjeler for transport av smeltet aluminium UN 3257 som har blitt bygget
 og godkjent før 1. juli 2025 i henhold til gjeldende nasjonale krav, men
@@ -361,29 +473,39 @@ tilleggsbestemmelse AP 11 i 7.3.3.2.7 gjeldende fra 1. januar 2025, kan
 fortsatt benyttes med godkjenning fra vedkommende myndighet i de
 landende de benyttes.
 
-1.6.1.55
+.. _1.6.1.55:
+
+``1.6.1.55`` 
 
 Stoffer tilordnet UN 1835 eller 3560 kan transporteres inntil
 31.desember 2026 i samsvar med klassifiseringsbestemmelsene og
 transportbetingelsene i ADR/RID gjeldene for UN 1835
 TETRAMETYLAMMO-NIUMHYDROKSID, LØSNING frem til 31.desember 2024.
 
-1.6.1.56
+.. _1.6.1.56:
+
+``1.6.1.56`` 
 
 Stoffer tilordnet UN 3423 kan transporteres inntil 31.desember 2026 i
 samsvar med klassifiseringsbestemmelsene og transportbetingelsene i
 ADR/RID gjeldende frem til 31.desember 2024.
 
-1.6.1.57
+.. _1.6.1.57:
+
+``1.6.1.57`` 
 
 Emballasje produsert før 1. januar 2027 og som ikke oppfyller kravene i
 6.1.3.1 om påført merking på deler som ikke er avtagbare gjeldende fra
 1.januar 2025, kan fortsatt benyttes.
 
+.. _1.6.2:
+
 1.6.2 Trykkbeholdere og beholdere for klasse 2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.6.2.1
+.. _1.6.2.1:
+
+``1.6.2.1`` 
 
 Beholdere produsert før 1 januar 1997, men som ikke er i samsvar med
 ADR/RID-kravene gjeldende fra 1 januar 1997, men som var tillatt å
@@ -392,30 +514,40 @@ transportere i henhold til ADR/RID-bestemmelsene i kraft inntil
 forutsetning av at kravene til periodisk prøving i
 emballeringsforskriftene P200 og P203 er oppfylt.
 
-1.6.2.2
+.. _1.6.2.2:
+
+``1.6.2.2`` 
 
 (Slettet)
 
-1.6.2.3
+.. _1.6.2.3:
+
+``1.6.2.3`` 
 
 Gassflasker for transport av stoffer i klasse 2 konstruert før 1. januar
 2003 får fortsatt etter 1. januar 2003 beholde sine merker som er i
 samsvar med bestemmelsene som var gjeldende inntil 31. desember 2002.
 
-1.6.2.4
+.. _1.6.2.4:
+
+``1.6.2.4`` 
 
 Trykkbeholdere konstruert og bygget i samsvar med tidligere tekniske
 koder som ikke lenger er gyldige i henhold til 6.2.5 kan fortsatt
 benyttes.
 
-1.6.2.5
+.. _1.6.2.5:
+
+``1.6.2.5`` 
 
 Trykkbeholdere og deres lukkemekanismer, konstruert og bygget i samsvar
 med standarder i ADR/RID som gjaldt på tilvirkningstidspunktet (se
 6.2.4), kan fortsatt benyttes dersom de ikke er begrenset av en spesiell
 overgangsbestemmelse.
 
-1.6.2.6
+.. _1.6.2.6:
+
+``1.6.2.6`` 
 
 Trykkbeholdere for andre stoffer enn klasse 2, bygd før 1. juli 2009 i
 henhold til kravene i 4.1.4.4 gjeldende frem til 31. desember 2008, men
@@ -423,22 +555,30 @@ som ikke følger bestemmelsene i 4.1.3.6 gjeldende fra 1. januar 2009,
 kan fortsatt brukes forutsatt at bestemmelsene i 4.1.4.4 gjeldende til
 31. desember 2008 overholdes.
 
-1.6.2.7
+.. _1.6.2.7:
+
+``1.6.2.7`` 
 
 (Slettet)
 
-1.6.2.8
+.. _1.6.2.8:
+
+``1.6.2.8`` 
 
 (Slettet)
 
-1.6.2.9
+.. _1.6.2.9:
+
+``1.6.2.9`` 
 
 Kravene i emballeringsbestemmelsene i P200 (10), spesiell
 emballeringsbestemmelse v i 4.1.4.1, som gjaldt inntil 31. desember 2010
 kan anvendes av kontraherende parter til ADR/RID for beholdere som er
 konstruert før 1. januar 2015.
 
-1.6.2.10
+.. _1.6.2.10:
+
+``1.6.2.10`` 
 
 Refyllbare sveisede beholdere for transport av gasser med UN-numre 1011,
 1075, 1965,1969 eller 1978, som er gitt 15 års intervall for periodisk
@@ -448,7 +588,9 @@ emballeringsbestemmelse v i 4.1.4.1 som var gjeldende inntil 31.
 desember 2010, kan fortsatt gjennomgå periodisk kontroll i henhold til
 disse bestemmelsene.
 
-1.6.2.11
+.. _1.6.2.11:
+
+``1.6.2.11`` 
 
 Engangsbeholdere for gass produsert og klargjort for transport før 1.
 januar 2013, og hvor ikke bestemmelsene i 1.8.6, 1.8.7 eller 1.8.8 for
@@ -456,7 +598,9 @@ samsvarsvurdering av engangsbeholder for gass har vært benyttet, får
 fortsatt transporteres etter den denne dato, forutsatt at alle øvrige
 relevante krav i ADR/RID er oppfylt.
 
-1.6.2.12
+.. _1.6.2.12:
+
+``1.6.2.12`` 
 
 Redningstrykkbeholdere får fortsatt bygges og godkjennes i
 overensstemmelse med nasjonale bestemmelser fram til 31. desember 2013.
@@ -464,14 +608,18 @@ Redningstrykkbeholdere bygget og godkjent i samsvar med nasjonale
 bestemmelser før 1. januar 2014 får fortsatt benyttes med godkjenning av
 vedkommende myndigheter i brukerlandene.
 
-1.6.2.13
+.. _1.6.2.13:
+
+``1.6.2.13`` 
 
 Gassflaskebatterier tilvirket før 1. juli 2013 som ikke er merket i
 henhold til 6.2.3.9.7.2 og 6.2.3.9.7.3 gjeldende fra 1. januar 2013
 eller 6.2.3.9.7.2 gjeldende fra 1. januar 2015, kan brukes fram til
 neste periodiske kontroll etter 1. juli 2015.
 
-1.6.2.14
+.. _1.6.2.14:
+
+``1.6.2.14`` 
 
 Gassflasker tilvirket før 1. januar 2016 i samsvar med 6.2.3 og en
 spesifikasjon som er godkjent av de vedkommende myndighetene i landene
@@ -481,22 +629,30 @@ emballeringsbestemmelse P 208 (1), kan benyttes til å transportere
 adsorberte gasser forutsatt at de generelle kravene til emballering i
 4.1.6.1 er innfridd.
 
-1.6.2.15
+.. _1.6.2.15:
+
+``1.6.2.15`` 
 
 Gassflaskebatterier som har gjennomgått periodisk kontroll før 1. juli
 2015 og som ikke er merket i samsvar med 6.2.3.9.7.3 gjeldende fra 1.
 januar 2015 kan benyttes fram til den neste periodiske kontrollen etter
 1. juli 2015.
 
-1.6.2.16
+.. _1.6.2.16:
+
+``1.6.2.16`` 
 
 (Slettet)
 
-1.6.2.17
+.. _1.6.2.17:
+
+``1.6.2.17`` 
 
 (Slettet)
 
-1.6.2.18
+.. _1.6.2.18:
+
+``1.6.2.18`` 
 
 Lukkede beholdere for nedkjølt gass tilvirket før 1. juli 2023, som ble
 underlagt førstegangskontrollen og prøvekravene i 6.2.1.5.2 gjeldende
@@ -504,33 +660,45 @@ fram til 31. desember 2022, men som ikke er i henhold til kravene
 gjeldende fra 1. januar 2023 relatert til første gangs kontroll og
 prøving i 6.2.1.5.2, kan fortsatt benyttes.
 
-1.6.2.19
+.. _1.6.2.19:
+
+``1.6.2.19`` 
 
 Acetylengassflasker tilvirket før 1. juli 2023 som ikke er merket i
 samsvar med 6.2.2.7.3 (k) eller (l) gjeldende fra 1. januar 2023, kan
 fortsatt benyttes fram til første periodiske kontroll og prøving etter
 1. juli 2023.
 
-1.6.2.20
+.. _1.6.2.20:
+
+``1.6.2.20`` 
 
 Lukkeinnretninger på refyllbare trykkbeholdere tilvirket før 1. juli
 2023 som ikke er merket i samsvar med 6.2.2.11 eller 6.2.3.9.8 gjeldende
 fra 1. januar 2023, kan fortsatt benyttes.
 
-1.6.2.21
+.. _1.6.2.21:
+
+``1.6.2.21`` 
 
 (Slettet)
 
-1.6.2.22
+.. _1.6.2.22:
+
+``1.6.2.22`` 
 
 (Slettet)
 
-1.6.2.23
+.. _1.6.2.23:
+
+``1.6.2.23`` 
 
 Kravene i ANM. 3 i 6.2.1.6.1 gjeldene frem til 31. desember 2024, kan
 fortsatt benyttes inntil 31. desember 2026.
 
-1.6.2.24
+.. _1.6.2.24:
+
+``1.6.2.24`` 
 
 For transport av gasser med UN nr. 1006, 1013 1046 og 1066 i gassflasker
 som har et produkt av kapasitet og prøvetrykk på maksimalt 15,2
@@ -538,10 +706,14 @@ MPa·l(152 bar·l ) kan bestemmelsene i spesiell bestemmelse 653 i
 ka-pittel 3.3 gjeldene frem til 31.desember 2024, fortsatt benyttes
 inntil 31.desember 2026.
 
+.. _1.6.3:
+
 1.6.3 Faste tanker (tankkjøretøyer) løstanker og batterikjøretøyer samt tankvogner og batterivogner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.6.3.1
+.. _1.6.3.1:
+
+``1.6.3.1`` 
 
 ADR: Faste tanker (tankkjøretøyer), løstanker og batterikjøretøyer
 produsert før krav gjeldende fra 1. oktober 1978 trådte i kraft, får
@@ -557,7 +729,9 @@ til tanken, brukes som grunnlag for beregningen.
 
 RID: (slettet)
 
-1.6.3.2
+.. _1.6.3.2:
+
+``1.6.3.2`` 
 
 ADR: Periodisk prøving av faste tanker, (tankkjøretøyer/tankvogner),
 løstanker og batterikjøretøyer/batterivogner som fortsatt er i bruk
@@ -569,7 +743,9 @@ prøvetrykk, skal det være tilstrekkelig med et prøvetrykk på 200 kPa
 
 RID: (slettet)
 
-1.6.3.3
+.. _1.6.3.3:
+
+``1.6.3.3`` 
 
 ADR: Faste tanker (tankkjøretøyer/tankvogner), løstanker og
 batterikjøretøyer som oppfyller overgangsbestemmelsene i 1.6.3.1 og
@@ -584,19 +760,27 @@ RID: Tankvogner hvor tankskallet ble bygget før ikrafttredelsen av
 kravene gjeldende fra 1. oktober 1978 kan fortsatt benyttes dersom deres
 veggtykkelse og utstyrselementer innfrir kravene i kapittel 6.8.
 
-1.6.3.3.1
+.. _1.6.3.3.1:
+
+``1.6.3.3.1`` 
 
 RID: (Slettet)
 
-1.6.3.3.2
+.. _1.6.3.3.2:
+
+``1.6.3.3.2`` 
 
 RID: (Slettet)
 
-1.6.3.3.3
+.. _1.6.3.3.3:
+
+``1.6.3.3.3`` 
 
 RID: (Slettet)
 
-1.6.3.3.4
+.. _1.6.3.3.4:
+
+``1.6.3.3.4`` 
 
 RID: Tankvogner som er beregnet på transport av gasser i klasse 2 og
 hvor deres tankskall ble bygget mellom 1. januar 1971 og 31. desember
@@ -604,7 +788,9 @@ hvor deres tankskall ble bygget mellom 1. januar 1971 og 31. desember
 utstyrselementer, men ikke deres veggtykkelse, innfrir kravene i
 kapittel 6.8.
 
-1.6.3.3.5
+.. _1.6.3.3.5:
+
+``1.6.3.3.5`` 
 
 RID: Tankvogner som er beregnet på transport av gasser i klasse 2 og
 hvor deres tankskall ble bygget mellom 1. januar 1976 og 30. september
@@ -612,7 +798,9 @@ hvor deres tankskall ble bygget mellom 1. januar 1976 og 30. september
 utstyrselementer, men ikke deres veggtykkelse, innfrir kravene i
 kapittel 6.8
 
-1.6.3.4
+.. _1.6.3.4:
+
+``1.6.3.4`` 
 
 a) ADR: Faste tanker (tankkjøretøyer/tankvogner), løstanker og
 batterikjøretøyer produsert før 1. mai 1985 i samsvar med kravene i ADR
@@ -632,14 +820,18 @@ får fortsatt benyttes. Dette gjelder også for tankvogner som ikke er
 merket med materialangivelse for tanken i henhold til vedlegg XI,
 avsnitt 1.6.1, slik det har vært foreskrevet fra 1. januar 1988.
 
-1.6.3.5
+.. _1.6.3.5:
+
+``1.6.3.5`` 
 
 Faste tanker (tankkjøretøyer/tankvogner), løstanker og
 batterikjøretøyer/batterivogner produsert før 1. januar 1993 i samsvar
 med kravene i kraft inntil 31. desember 1992, men som ikke oppfyller
 krav gjeldende fra 1. januar 1993, får fortsatt benyttes.
 
-1.6.3.6
+.. _1.6.3.6:
+
+``1.6.3.6`` 
 
 a) ADR: Faste tanker (tankkjøretøyer), løstanker og batterikjøretøyer
 produsert mellom 1. januar 1978 og 31. desember 1984 skal, dersom de er
@@ -658,7 +850,9 @@ bestemmelsene som var gjeldende inntil 31. desember 1994, men som ikke
 er i samsvar med de bestemmelsene som var gjeldende fra 1. januar 1995,
 får fortsatt benyttes.
 
-1.6.3.7
+.. _1.6.3.7:
+
+``1.6.3.7`` 
 
 ADR: Faste tanker (tankkjøretøyer), løstanker og batterikjøretøyer
 produsert før 1. januar 1999 i samsvar med kravene i kraft inntil 31.
@@ -672,7 +866,9 @@ gjeldende inntil 31. desember 1996, men som ikke er i samsvar med de
 bestemmelsene i disse avsnittene som var gjeldende fra 1. januar 1997,
 får fortsatt benyttes.
 
-1.6.3.8
+.. _1.6.3.8:
+
+``1.6.3.8`` 
 
 For gasser som transporteres i tankkjøretøy/tankvogn,
 batterikjøretøy/batterivogn eller løstanker, og som har fått ny
@@ -681,15 +877,21 @@ nye navnet på gassene som krevet i 6.8.3.5.2 eller 6.8.3.5.3 på tanken
 eller på tankplaten (se 6.8.3.5.6 (b) eller c)) før i forbindelse med
 neste periodiske kontroll.
 
-1.6.3.9
+.. _1.6.3.9:
+
+``1.6.3.9`` 
 
 (Reservert)
 
-1.6.3.10
+.. _1.6.3.10:
+
+``1.6.3.10`` 
 
 (Reservert)
 
-1.6.3.11
+.. _1.6.3.11:
+
+``1.6.3.11`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker produsert før 1. januar
 1997 i samsvar med kravene i kraft inntil 31. desember 1996, men som
@@ -701,28 +903,38 @@ bestemmelsene som var gjeldende inntil 31. desember 1996, men som ikke
 er i samsvar med de bestemmelsene i vedlegg XI, avsnitt 3.3.3 og 3.3.4
 som var gjeldende fra 1. januar 1997, får fortsatt benyttes.
 
-1.6.3.12
+.. _1.6.3.12:
+
+``1.6.3.12`` 
 
 ADR: (Reservert)
 
 RID: (Slettet)
 
-1.6.3.13
+.. _1.6.3.13:
+
+``1.6.3.13`` 
 
 (Slettet)
 
-1.6.3.14
+.. _1.6.3.14:
+
+``1.6.3.14`` 
 
 RID: Tankvogner konstruert før 1. januar 1999 i samsvar med kravene i
 vedlegg XI, avsnitt 5.3.6.3 som var i kraft frem til 31. desember 1998,
 men som ikke er i samsvar med kravene i vedlegg XI, avsnitt 5.3.6.3, som
 var gjeldende fra 1. januar 1999, får fortsatt benyttes.
 
-1.6.3.15
+.. _1.6.3.15:
+
+``1.6.3.15`` 
 
 (Slettet)
 
-1.6.3.16
+.. _1.6.3.16:
+
+``1.6.3.16`` 
 
 Faste tanker (tankkjøretøyer og -vogner), batterikjøretøyer/-vogner og
 ADR: løstanker bygget før 1. januar 2007 og som ikke samsvarer med
@@ -730,11 +942,15 @@ bestemmelsene i 4.3.2, 6.8.2.3, 6.8.2.4 og 6.8.3.4 angående tanklogg,
 skal innsamling av informasjon til tankloggen påbegynnes senest ved
 første periodiske kontroll etter 30. juni 2007.
 
-1.6.3.17
+.. _1.6.3.17:
+
+``1.6.3.17`` 
 
 (Slettet)
 
-1.6.3.18
+.. _1.6.3.18:
+
+``1.6.3.18`` 
 
 Faste tanker (tankkjøretøyer og -vogner), batterikjøretøyer/-vogner og
 ADR: løstanker bygget før 1. januar 2007 og som ikke samsvarer med
@@ -749,14 +965,18 @@ RID: Merking av tankvogner og batterivogner med den alfanumeriske koden
 angitt i de spesielle bestemmelser TC og TE skal utføres i henhold til
 6.8.4.
 
-1.6.3.19
+.. _1.6.3.19:
+
+``1.6.3.19`` 
 
 ADR: Faste tanker (tankkjøretøyer/tankvogner) og løstanker bygget før 1.
 januar 2003 i samsvar med kravene i 6.8.2.1.21 i kraft inntil 31.
 desember 2002, men som ikke oppfyller kravene gjeldende fra 1. januar
 2003, får fortsatt benyttes.
 
-1.6.3.20
+.. _1.6.3.20:
+
+``1.6.3.20`` 
 
 Faste tanker (tankkjøretøyer/tankvogner) og løstanker bygget før 1. juli
 2003 i samsvar med kravene i kraft inntil 31. desember 2002, men som
@@ -764,34 +984,46 @@ ikke oppfyller kravene i 6.8.2.1.7 gjeldende fra 1. januar 2003 og
 spesiell bestemmelse TE 15 i 6.8.4(b) gjeldende fra 1. januar 2003 til
 31. desember 2006, får fortsatt benyttes.
 
-1.6.3.21
+.. _1.6.3.21:
+
+``1.6.3.21`` 
 
 (Slettet)
 
-1.6.3.22
+.. _1.6.3.22:
+
+``1.6.3.22`` 
 
 RID: Tankvogner av aluminiumslegering produsert før 1. januar 2003 i
 samsvar med kravene i kraft inntil 31. desember 2002 men som ikke
 oppfyller kravene gjeldende fra 1. januar 2003, får fortsatt benyttes.
 
-1.6.3.23
+.. _1.6.3.23:
+
+``1.6.3.23`` 
 
 ADR: (Reservert)
 
 RID: (Slettet)
 
-1.6.3.24
+.. _1.6.3.24:
+
+``1.6.3.24`` 
 
 RID: Tankvogner for transport av etsende gasser med UN-nr. 1052, 1790 og
 2073 som er produsert før 1. januar 2003 og oppfyller kravene i kraft
 til 31. desember 2002, men som ikke oppfyller kravene i 6.8.5.1.1 b)
 gjeldende fra 1. januar 2003, får fortsatt benyttes.
 
-1.6.3.25
+.. _1.6.3.25:
+
+``1.6.3.25`` 
 
 (Slettet)
 
-1.6.3.26
+.. _1.6.3.26:
+
+``1.6.3.26`` 
 
 Faste tanker og løstanker (tankkjøretøyer/-vogner) og
 batterikjøretøyer/-vogner og løstanker bygget før 1. januar 2007 i
@@ -800,7 +1032,9 @@ ikke samsvarer med bestemmelsene gjeldende fra 1. januar 2007 angående
 merking med vakuumkonstruksjonstrykket i samsvar med 6.8.2.5.1, kan
 fortsatt benyttes.
 
-1.6.3.27
+.. _1.6.3.27:
+
+``1.6.3.27`` 
 
 **RID:**
 
@@ -835,7 +1069,9 @@ fremstilt før 1. juli 2015 og som ikke er i samsvar med relevante
 bestemmelser i spesiell bestemmelse TE 22 i 6.8.4 gjeldende fra 1.januar
 2015, kan fremdeles benyttes.
 
-1.6.3.28
+.. _1.6.3.28:
+
+``1.6.3.28`` 
 
 RID: Tankvogner bygget før 1. januar 2005 i samsvar med krav gjeldende
 opp til 31. desember 2004 og som ikke er i samsvar med kravene i 2. ledd
@@ -843,26 +1079,34 @@ i 6.8.2.2.1, skal settes i samsvar med disse kravene senest ved neste
 ombygging eller neste reparasjon, når dette er praktisk mulig og
 arbeidet krever at utstyret løsgjøres.
 
-1.6.3.29
+.. _1.6.3.29:
+
+``1.6.3.29`` 
 
 RID: Tankvogner bygget før 1. januar 2005 og som ikke samsvarer med
 kravene i 6.8.2.2.4 gjeldende fra 1. januar 2005 får fortsatt benyttes.
 
-1.6.3.30
+.. _1.6.3.30:
+
+``1.6.3.30`` 
 
 ADR: Faste slamsugertanker (tankkjøretøyer) og løse slamsugertanker
 bygget før 1. juli 2005 i samsvar med bestemmelsene som var gyldig
 inntil 31. desember 2004, men som ikke oppfyller kravene i 6.10.3.9
 gjeldende fra 1. januar 2005 får fortsatt benyttes.
 
-1.6.3.31
+.. _1.6.3.31:
+
+``1.6.3.31`` 
 
 Faste tanker (tankkjøretøyer/-vogner), løstanker og elementer i
 batterikjøretøyer/-vogner konstruert og bygget i samsvar med tekniske
 koder som var gyldige på konstruksjonstidspunktet i henhold til kravene
 i 6.8.2.7 på samme tidspunkt, kan fortsatt benyttes.
 
-1.6.3.32
+.. _1.6.3.32:
+
+``1.6.3.32`` 
 
 ADR: Faste tanker (tankkjøretøy) og løstanker konstruert før 1. Juli
 2007 i henholdt til krav gjeldende frem til 31. Desember 2006, som er
@@ -892,7 +1136,9 @@ tilfredsstiller bestemmelsene i spesiell bestemmelse TE 25 (b) skal være
 utstyrt med innretninger i samsvar med spesiell bestemmelse TE 25 (a),
 (c) eller (d).
 
-1.6.3.33
+.. _1.6.3.33:
+
+``1.6.3.33`` 
 
 ADR: (Slettet)
 
@@ -901,7 +1147,9 @@ januar 1986 i henhold til kravene gjeldende frem til 31. desember 1985,
 og som ikke er i samsvar med kravene i 6.8.3.1.6 om buffere, kan
 fremdeles brukes.
 
-1.6.3.34
+.. _1.6.3.34:
+
+``1.6.3.34`` 
 
 ADR: Til tross for bestemmelsene i 4.3.2.2.4 kan faste tanker
 (tankkjøretøy) og løstanker beregnet på transport av flytende gasser
@@ -910,11 +1158,15 @@ men som var delt før 1. juli 2009 med skillevegger eller skvalpeskott i
 seksjoner på mer enn 7 500 liters kapasitet, kan fremdeles fylles til
 mer enn 20% og mindre enn 80% av deres kapasitet.
 
-1.6.3.35
+.. _1.6.3.35:
+
+``1.6.3.35`` 
 
 (Slettet)
 
-1.6.3.36
+.. _1.6.3.36:
+
+``1.6.3.36`` 
 
 ADR: Faste tanker (tankkjøretøy) beregnet for transport av flytende,
 ikke giftige, brannfarlige gasser, som er produsert før 1. juli 2011 og
@@ -925,11 +1177,15 @@ RID: Tankvogner som er konstruert før 1. januar 2011 i henhold til krav
 gjeldende til 31. desember 2010, men som ikke oppfyller kravene i
 6.8.2.1.29 som gjelder fra 1. januar 2011 kan fortsatt benyttes.
 
-1.6.3.37
+.. _1.6.3.37:
+
+``1.6.3.37`` 
 
 (Slettet)
 
-1.6.3.38
+.. _1.6.3.38:
+
+``1.6.3.38`` 
 
 Faste tanker (tankkjøretøy), tankvogner, løstanker, batterivogner og
 batterikjøretøy som konstruert og produsert i henhold til standarder som
@@ -937,18 +1193,24 @@ gjaldt på konstruksjonstidspunktet (se 6.8.2.6 and 6.8.3.6), i henhold
 til kravene i ADR som var gjeldende på den tiden, kan fortsatt brukes
 hvis de ikke omfattes av spesifikke overgangsbestemmelser.
 
-1.6.3.39
+.. _1.6.3.39:
+
+``1.6.3.39`` 
 
 Faste tanker (tankkjøretøy) tankvogner og løstanker som ble konstruert
 før 1. januar 2011 i henhold til kravene i 6.8.2.2.3 i kraft inntil 31.
 desember 2010, men som ikke oppfyller kravene i 6.8.2.2.3, avsnitt 3,
 som gjelder plassering av flammefelle, kan fortsatt brukes.
 
-1.6.3.40
+.. _1.6.3.40:
+
+``1.6.3.40`` 
 
 (Slettet)
 
-1.6.3.41
+.. _1.6.3.41:
+
+``1.6.3.41`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**Tankvogner (RID)**
 bygget før 1. juli 2013 i samsvar med bestemmelsene i kraft inntil 31.
@@ -957,11 +1219,15 @@ i 6.8.2.5.2 eller 6.8.3.5.6 gjeldende fra 1. januar 2013 kan, inntil
 neste periodiske inspeksjon etter 1. juli 2013, fortsatt merkes i
 samsvar med bestemmelsene gjeldende inntil 31. desember 2012.
 
-1.6.3.42
+.. _1.6.3.42:
+
+``1.6.3.42`` 
 
 (Slettet)
 
-1.6.3.43
+.. _1.6.3.43:
+
+``1.6.3.43`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**Tankvogner (RID)**
 bygget før 1. januar 2012 i samsvar med krav gjeldende opp til 31.
@@ -969,7 +1235,9 @@ desember 2012 og som ikke er i samsvar med kravene i 6.8.2.6, relatert
 til standardene EN 14432:2006 og EN 14433:2006 gyldige fra 1. januar
 2011, får fortsatt benyttes.
 
-1.6.3.44
+.. _1.6.3.44:
+
+``1.6.3.44`` 
 
 RID: (Reservert)
 
@@ -982,7 +1250,9 @@ i spesiell bestemmelse 664 i kapittel 3.3 gjeldende fra 1. januar 2015
 skal kun benyttes med samtykke fra de vedkommende myndighetene i landene
 de blir brukt.
 
-1.6.3.45
+.. _1.6.3.45:
+
+``1.6.3.45`` 
 
 RID: Tankvogner for nedkjølte, flytende gasser fremstilt før 1. juli
 2017 i henhold til gjeldende bestemmelser fram til 31. desember 2016,
@@ -992,14 +1262,18 @@ kontroll etter 1. juli 2017. Frem til denne kontrollen, for å følge
 bestemmelsene i 4.3.3.5 og 5.4.1.2.2 (d), kan holdetiden estimeres uten
 hensyn til referanseholdetiden.
 
-1.6.3.46
+.. _1.6.3.46:
+
+``1.6.3.46`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**Tankvogner (RID)**
 fremstilt før 1. juli i henhold til gjeldende bestemmelser frem til 31.
 desember 2016, men som ikke er i samsvar med bestemmelsene i 6.8.2.1.23
 gjeldende fra 1. januar 2017, kan fremdeles benyttes.
 
-1.6.3.47
+.. _1.6.3.47:
+
+``1.6.3.47`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**Tankvogner (RID)**
 konstruert før 1. juli 2019 med sikkerhetsventiler som oppfyller kravene
@@ -1008,7 +1282,9 @@ i kraft frem til 31. desember 2018, men som ikke oppfyller kravene i
 gjeldene fra 1. januar 2019, kan fortsatt benyttes fram til neste
 mellomliggende eller periodiske kontroll etter 1. januar 2021.
 
-1.6.3.48
+.. _1.6.3.48:
+
+``1.6.3.48`` 
 
 Uansett kravene i spesiell bestemmelse TU 42 i 4.3.5 gjeldene fra 1.
 januar 2019, kan faste tanker (tankkjøretøyer) og løstanker
@@ -1018,7 +1294,9 @@ før 1. januar 2019 til transport av stoffer med en pH verdi lavere enn
 5,0 eller høyere enn 8,0, fortsatt benyttes til transport av disse
 stoffene til 31. desember 2026.
 
-1.6.3.49
+.. _1.6.3.49:
+
+``1.6.3.49`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**tankvogner (RID)**
 konstruert før 1. juli 2019 i samsvar med kravene i kraft frem til 31.
@@ -1026,7 +1304,9 @@ desember 2018, men som ikke oppfyller kravene i 6.8.2.2.10 om
 sprengtrykk for sprengskiven gjeldene fra 1. januar 2019, kan fortsatt
 benyttes.
 
-1.6.3.50
+.. _1.6.3.50:
+
+``1.6.3.50`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**tankvogner (RID)**
 konstruert før 1. juli 2019 i samsvar med kravene i 6.8.2.2.3 i kraft
@@ -1034,7 +1314,9 @@ frem til 31. desember 2018, men som ikke oppfyller kravene i 6.8.2.2.3 i
 siste (ADR)/**nest siste (RID)** avsnitt om flammefeller på
 pusteventiler gjeldene fra 1. januar 2019, kan fortsatt benyttes.
 
-1.6.3.51
+.. _1.6.3.51:
+
+``1.6.3.51`` 
 
 Faste tanker (tankkjøretøyer) og løstanker(ADR)/**tankvogner (RID)**
 konstruert før 1.juli 2019 i samsvar med kravene i kraft frem til
@@ -1042,14 +1324,18 @@ konstruert før 1.juli 2019 i samsvar med kravene i kraft frem til
 inspeksjon av sveiseskjøtene mot tankendenes buede kant («knuckle area»)
 gjeldende fra 1.januar 2019, kan fortsatt benyttes.
 
-1.6.3.52
+.. _1.6.3.52:
+
+``1.6.3.52`` 
 
 Faste tanker (tankkjøretøyer) og løstanker (ADR)/**tankvogner (RID)**
 konstruert før 1. juli 2019 i samsvar med kravene i kraft frem til 31.
 desember 2018, men som ikke oppfyller kravene i 6.8.2.2.11 gjeldene fra
 1. januar 2019, kan fortsatt benyttes.
 
-1.6.3.53
+.. _1.6.3.53:
+
+``1.6.3.53`` 
 
 Typegodkjenningssertifikat utstedt for faste tanker (tankkjøretøyer),
 løstanker og batterikjøretøy (ADR)/**tankvogner og batterivogner (RID)**
@@ -1059,7 +1345,9 @@ oppgi nasjonalitetskjennemerket brukt på kjøretøy i internasjonal
 vegtrafikk [19]_ til det landet hvor godkjenningen ble gitt samt et
 registreringsnummer, gjeldene fra 1. januar 2019, kan fortsatt benyttes.
 
-1.6.3.54
+.. _1.6.3.54:
+
+``1.6.3.54`` 
 
 Prosedyrer brukt av vedkommende myndighet for godkjenning av eksperter
 for utførelse av aktiviteter vedrørende ADR: faste tanker
@@ -1071,7 +1359,9 @@ januar 2023, kan fortsatt benyttes fram til 31. desember 2032.
 
 **ANM:** Termen «ekspert» har blitt erstattet av termen «kontrollorgan».
 
-1.6.3.55
+.. _1.6.3.55:
+
+``1.6.3.55`` 
 
 Typegodkjenningssertifikater for ADR: faste tanker (tankkjøretøyer) og
 løstanker/**RID: tankvogner**, ment for transport av andre stoffer enn
@@ -1079,7 +1369,9 @@ de som TA4 og TT9 i 6.8.4 gjelder for, utstedt før 1. juli 2023 i
 samsvar med kapittel 6.8, og som ikke samsvarer med 1.8.7 gjeldende fra
 1. januar 2023, kan fortsatt benyttes fram til slutten av sin gyldighet.
 
-1.6.3.56
+.. _1.6.3.56:
+
+``1.6.3.56`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker tilvirket før 1. juli
 2033 i samsvar med bestemmelsene i kapittel 6.9 i kraft fram til 31.
@@ -1088,7 +1380,9 @@ fra 1. januar 2023, kan fortsatt benyttes.
 
 RID: (Reservert)
 
-1.6.3.57
+.. _1.6.3.57:
+
+``1.6.3.57`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker/**RID: tankvogner**
 tilvirket før 1. januar 2024 i samsvar med bestemmelsene i kraft fram
@@ -1096,7 +1390,9 @@ til 31 desember 2022, men som ikke samsvarer med kravene som gjelder fra
 1. januar 2023 når det gjelder utrustning med sikkerhetsventiler i
 henhold til 6.8.3.2.9, kan fortsatt benyttes.
 
-1.6.3.58
+.. _1.6.3.58:
+
+``1.6.3.58`` 
 
 ADR: (Reservert)
 
@@ -1113,14 +1409,18 @@ bestemmelsene i 6.8.2.4.6 gjeldende fram til 31 desember 2022, fortsette
 og kontroller på tankene på tankvogner, uavhengig av listen i henhold
 til 1.8.6.2.4 gjeldende fra 1. januar 2023.
 
-1.6.3.59
+.. _1.6.3.59:
+
+``1.6.3.59`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker/**RID: tankvogner**
 bygget før 1. juli 2023 i henhold til bestemmelsene i kraft fram til 31.
 desember 2022, men som ikke oppfyller kravene i spesiell bestemmelse
 TE26 i 6.8.4 (b) gjeldende fra 1. januar 2023, kan fortsatt benyttes.
 
-1.6.3.60
+.. _1.6.3.60:
+
+``1.6.3.60`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker/**RID: tankvogner** som
 allerede er utstyrt med sikkerhetsventiler som oppfyller bestemmelsene i
@@ -1128,22 +1428,28 @@ allerede er utstyrt med sikkerhetsventiler som oppfyller bestemmelsene i
 merkingen i henhold til 6.8.3.2.9.6 før neste mellomliggende eller
 periodiske kontroll etter 31. desember 2023.
 
-1.6.3.61
+.. _1.6.3.61:
+
+``1.6.3.61`` 
 
 ADR: Faste tanker (tankkjøretøyer) og løstanker/**RID: tankvogner**
 bygget før 1.juli 2025 i samsvar med kravene som gjaldt frem til 31.
 desember 2024, men som ikke oppfyller kravene i 6.8.2.2.11 gjeldende fra
 1. januar 2025, kan fortsatt benyttes.
 
-1.6.3.62 til 1.6.3.99
+``1.6.3.62 til 1.6.3.99``
 
 ADR: (Reservert)
 
-1.6.3.100
+.. _1.6.3.100:
+
+``1.6.3.100`` 
 
 ADR: Tanker av fiberarmert plast (FRP)
 
-1.6.3.100.1
+.. _1.6.3.100.1:
+
+``1.6.3.100.1`` 
 
 Tanker av fiberarmert plast produsert før 1. juli 2002 i samsvar med en
 prototype godkjent før 1. juli 2001 i henhold til kravene i vedlegg B.1c
@@ -1154,7 +1460,9 @@ inntil 30. juni 2001.
 Fra og med 1. juli 2001 kan dog ingen ny prototype godkjennes i henhold
 til kravene i kraft inntil 30. juni 2001.
 
-1.6.3.100.2
+.. _1.6.3.100.2:
+
+``1.6.3.100.2`` 
 
 FRP tanker konstruert før 1. juli 2021 i samsvar med kravene i kraft
 inntil 31. desember 2020, men som ikke oppfyller kravene for merking av
@@ -1163,22 +1471,30 @@ eller 6.13.6.1 gjeldende fra 1. januar 2023, kan fortsatt merkes i
 samsvar med kravene gjeldene inntil 31. desember 2020, frem til neste
 periodiske kontroll etter 1. juli 2021.
 
+.. _1.6.4:
+
 1.6.4 Tankcontainere, multimodale tanker og MEGCer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.6.4.1
+.. _1.6.4.1:
+
+``1.6.4.1`` 
 
 Tankcontainere produsert før 1. januar 1988 i samsvar med kravene i
 kraft inntil 31. desember 1987, men som ikke oppfyller kravene gjeldende
 fra 1. januar 1988, får fortsatt benyttes.
 
-1.6.4.2
+.. _1.6.4.2:
+
+``1.6.4.2`` 
 
 Tankcontainere produsert før 1. januar 1993 i samsvar med kravene i
 kraft inntil 31. desember 1992, men som ikke oppfyller kravene gjeldende
 fra 1. januar 1993, får fortsatt benyttes.
 
-1.6.4.3
+.. _1.6.4.3:
+
+``1.6.4.3`` 
 
 ADR: Tankcontainere produsert før 1. januar 1999 i samsvar med kravene i
 kraft inntil 31. desember 1998, men som ikke oppfyller kravene gjeldende
@@ -1188,7 +1504,9 @@ RID: Tankcontainere produsert før 1. januar 1995 i samsvar med kravene i
 kraft inntil 31. desember 1994, men som ikke oppfyller kravene gjeldende
 fra 1. januar 1995, får fortsatt benyttes.
 
-1.6.4.4
+.. _1.6.4.4:
+
+``1.6.4.4`` 
 
 RID: Tankcontainer for brannfarlig væske med flammepunkt over 55 °C til
 60 °C som ble bygget etter bestemmelsene i RID vedlegg X avsnitt 1.2.7,
@@ -1196,7 +1514,9 @@ RID: Tankcontainer for brannfarlig væske med flammepunkt over 55 °C til
 oppfyller kravene i disse avsnittene i RID gjeldende fra 1. januar 1997,
 kan benyttes inntil videre.
 
-1.6.4.5
+.. _1.6.4.5:
+
+``1.6.4.5`` 
 
 For gasser som transporteres i tankcontainere og MEGCer, og som har fått
 ny betegnelse ved endringer i ADR/RID, er det ikke nødvendig å påføre
@@ -1204,7 +1524,9 @@ det nye navnet på gassene som krevet i 6.8.3.5.2 eller 6.8.3.5.3 på
 tanken eller på tankplaten (se 6.8.3.5.6 (b) eller c)) før i forbindelse
 med neste periodiske kontroll.
 
-1.6.4.6
+.. _1.6.4.6:
+
+``1.6.4.6`` 
 
 Tankcontainere bygget før 1. januar 2007 i samsvar med bestemmelsene
 gjeldende inntil 31. desember 2006, og som ikke samsvarer med
@@ -1212,7 +1534,9 @@ bestemmelsene gjeldende fra 1. januar 2007 angående merking med
 vakuumkonstruksjonstrykket i samsvar med 6.8.2.5.1, kan fortsatt
 benyttes.
 
-1.6.4.7
+.. _1.6.4.7:
+
+``1.6.4.7`` 
 
 ADR: Tankcontainere produsert før 1. januar 1997 i samsvar med kravene i
 kraft inntil 31. desember 1996, men som ikke oppfyller kravene i margnr.
@@ -1223,28 +1547,38 @@ kravene gjeldende inntil 31. desember 1996, men som ikke er i samsvar
 med kravene i vedlegg X, 3.3.3 og 3.3.4 som var gjeldende fra 1. januar
 1997, får fortsatt benyttes.
 
-1.6.4.8
+.. _1.6.4.8:
+
+``1.6.4.8`` 
 
 RID: Tankcontainere som ble fremstilt før 1. januar 1999 i samsvar med
 bestemmelsene i vedlegg X, 5.3.6.3 som var gjeldende inntil 31. desember
 1998, men som ikke er i samsvar med bestemmelsene i vedlegg X, 5.3.6.3,
 som var gjeldende fra 1. januar 1999, får fortsatt benyttes.
 
-1.6.4.9
+.. _1.6.4.9:
+
+``1.6.4.9`` 
 
 Tankcontainere og MEGCer konstruert og bygget i samsvar med tekniske
 koder som var gyldige på konstruksjonstidspunktet i henhold til kravene
 i 6.8.2.7 på samme tidspunkt, kan fortsatt benyttes.
 
-1.6.4.10
+.. _1.6.4.10:
+
+``1.6.4.10`` 
 
 (Reservert)
 
-1.6.4.11
+.. _1.6.4.11:
+
+``1.6.4.11`` 
 
 (Reservert)
 
-1.6.4.12
+.. _1.6.4.12:
+
+``1.6.4.12`` 
 
 Tankcontainere og MEGCer produsert før 1. januar 2003 i samsvar med
 kravene i kraft til 30. juni 2001, men som ikke oppfyller kravene
@@ -1254,66 +1588,90 @@ De skal merkes med den relevante tankkode og når aktuelt de relevante
 alfanumeriske koder av spesielle bestemmelser TC og TE i henhold til
 6.8.4.
 
-1.6.4.13
+.. _1.6.4.13:
+
+``1.6.4.13`` 
 
 Tankcontainere produsert før 1. juli 2003 i samsvar med kravene i kraft
 inntil 31. desember 2002, men som ikke oppfyller kravene i 6.8.2.1.7 og
 spesiell bestemmelse TE15 i 6.8.4 (b) gjeldende fra 1. januar 2003 til
 31. desember 2006, får fortsatt benyttes.
 
-1.6.4.14
+.. _1.6.4.14:
+
+``1.6.4.14`` 
 
 RID: Tankcontainer for transport av etsende gasser med UN-nr. 1052, 1790
 og 2073 som er produsert før 1. januar 2003 og oppfyller kravene i kraft
 inntil 31. desember 2002, men som ikke oppfyller kravene i 6.8.5.1.1 b)
 gjeldende fra 1. januar 2003, får fortsatt benyttes.
 
-1.6.4.15
+.. _1.6.4.15:
+
+``1.6.4.15`` 
 
 (Slettet)
 
-1.6.4.16
+.. _1.6.4.16:
+
+``1.6.4.16`` 
 
 (Slettet)
 
-1.6.4.17
+.. _1.6.4.17:
+
+``1.6.4.17`` 
 
 (Slettet)
 
-1.6.4.18
+.. _1.6.4.18:
+
+``1.6.4.18`` 
 
 For tankcontainere og MEGCer konstruert før 1. januar 2007 og som ikke
 samsvarer med bestemmelsene i 4.3.2, 6.8.2.3, 6.8.2.4 og 6.8.3.4
 angående tanklogg, skal innsamling av informasjon til tankloggen
 påbegynnes senest ved neste periodiske kontroll etter 30. juni 2007.
 
-1.6.4.19
+.. _1.6.4.19:
+
+``1.6.4.19`` 
 
 (Slettet)
 
-1.6.4.20
+.. _1.6.4.20:
+
+``1.6.4.20`` 
 
 Slamsugere (tankcontainere) bygget før 1. juli 2005 i samsvar med
 bestemmelsene som var gyldige inntil 31. desember 2004, men som ikke
 oppfyller kravene i 6.10.3.9 gjeldende fra 1. januar 2005, kan fortsatt
 benyttes.
 
-1.6.4.30
+.. _1.6.4.30:
+
+``1.6.4.30`` 
 
 Multimodale tanker og UN-MEGCer som ikke tilfredsstiller
 konstruksjonskravene gjeldende fra 1. januar 2007, men som er konstruert
 i samsvar med et konstruksjonsgodkjenningssertifikat utstedt før 1.
 januar 2008 kan fortsatt benyttes.
 
-1.6.4.31
+.. _1.6.4.31:
+
+``1.6.4.31`` 
 
 (Slettet)
 
-1.6.4.32
+.. _1.6.4.32:
+
+``1.6.4.32`` 
 
 (Slettet)
 
-1.6.4.33
+.. _1.6.4.33:
+
+``1.6.4.33`` 
 
 Til tross for bestemmelsene i 4.3.2.2.4 kan tankcontainere beregnet på
 transport av flytende gasser eller nedkjølte flytende gasser som følger
@@ -1322,19 +1680,27 @@ skillevegger eller skvalpeskott i seksjoner på mer enn 7 500 liters
 kapasitet, kan fremdeles fylles til mer enn 20% og mindre enn 80% av
 deres kapasitet.
 
-1.6.4.34
+.. _1.6.4.34:
+
+``1.6.4.34`` 
 
 (Slettet)
 
-1.6.4.35
+.. _1.6.4.35:
+
+``1.6.4.35`` 
 
 (Slettet)
 
-1.6.4.36
+.. _1.6.4.36:
+
+``1.6.4.36`` 
 
 (Slettet)
 
-1.6.4.37
+.. _1.6.4.37:
+
+``1.6.4.37`` 
 
 Multimodale tanker og MEGCer som er produsert før 1. januar 2012 som
 oppfyller kravene til relevant merking i 6.7.2.20.1, 6.7.3.16.1,
@@ -1344,11 +1710,15 @@ fra 2011 inkludert, når relevant, kravene i 6.7.2.20.1 (g) til merking
 med symbolet «S» på merkeplaten når tankskallet eller tankrommet er delt
 i seksjoner, av skvalpeskott, som ikke er større enn 7500 liter.
 
-1.6.4.38
+.. _1.6.4.38:
+
+``1.6.4.38`` 
 
 (Slettet)
 
-1.6.4.39
+.. _1.6.4.39:
+
+``1.6.4.39`` 
 
 Tankcontainere og MEGCer som er produsert i henhold til standarder som
 var gjeldende på produksjonstidspunktet (se 6.8.2.6 and 6.8.3.6) i
@@ -1356,18 +1726,24 @@ henhold til bestemmelsene i ADR/RID som var gjeldende på det tidspunktet
 kan fortsatt brukes hvis de ikke omfattes av spesifikke
 overgangsbestemmelser.
 
-1.6.4.40
+.. _1.6.4.40:
+
+``1.6.4.40`` 
 
 Tankcontainere som er produsert før 1. januar 2011 i henhold til
 bestemmelsene i 6.8.2.2.3 som var i kraft frem til 31. desember 2010 men
 som ikke oppfyller kravene i 6.8.2.2.3, avsnitt 3, som gjelder
 plassering av flammefelle, kan fortsatt brukes.
 
-1.6.4.41
+.. _1.6.4.41:
+
+``1.6.4.41`` 
 
 (Slettet)
 
-1.6.4.42
+.. _1.6.4.42:
+
+``1.6.4.42`` 
 
 Tankcontainere, bygget før 1. juli 2013 i samsvar med bestemmelsene i
 kraft inntil 31. desember 2012, men som derimot ikke overholder
@@ -1376,28 +1752,38 @@ januar 2013 kan, inntil neste periodiske inspeksjon etter 1. juli 2013,
 fortsatt merkes i samsvar med bestemmelsene gjeldende inntil 31.
 desember 2012.
 
-1.6.4.43
+.. _1.6.4.43:
+
+``1.6.4.43`` 
 
 Multimodale tanker og MEGCer bygget før 1. januar 2014 behøver ikke
 tilfredsstille kravene i 6.7.2.13.1 (f), 6.7.3.9.1 (e), 6.7.4.8.1 (e) og
 6.7.5.6.1 (d) om merking av trykkavlastningsinnretninger.
 
-1.6.4.44
+.. _1.6.4.44:
+
+``1.6.4.44`` 
 
 (Slettet)
 
-1.6.4.45
+.. _1.6.4.45:
+
+``1.6.4.45`` 
 
 (Slettet)
 
-1.6.4.46
+.. _1.6.4.46:
+
+``1.6.4.46`` 
 
 Tankcontainere konstruert før 1. januar 2012 i henhold til bestemmelsene
 i kraft fram til 31.desember 2012, men som ikke i samsvarer med kravene
 i 6.8.2.6 som er relatert til standardene EN 14432:2006 og EN 14433:2006
 gjeldende fra 1.januar 2011, kan fortsatt benyttes.
 
-1.6.4.47
+.. _1.6.4.47:
+
+``1.6.4.47`` 
 
 Tankcontainere for nedkjølte, flytende gasser fremstilt før 1. juli 2017
 i henhold til gjeldende bestemmelser fram til 31. desember 2016, men som
@@ -1407,14 +1793,18 @@ kontroll etter 1. juli 2017. Frem til denne kontrollen, for å følge
 bestemmelsene i 4.3.3.5 og 5.4.1.2.2 (d), kan holdetiden estimeres uten
 hensyn til referanseholdetiden.
 
-1.6.4.48
+.. _1.6.4.48:
+
+``1.6.4.48`` 
 
 Tankcontainere som er fremstilt før 1. juli 2017 i henhold til
 bestemmelsene gjeldende frem til 31. desember 2016, men som ikke
 tilfredsstiller kravene i 6.8.2.1.23 gjeldende fra 1. januar 2017, kan
 benyttes.
 
-1.6.4.49
+.. _1.6.4.49:
+
+``1.6.4.49`` 
 
 Tankcontainere konstruert før 1. juli 2019 med sikkerhetsventiler som
 oppfyller kravene i kraft frem til 31. desember 2018, men som ikke
@@ -1422,7 +1812,9 @@ oppfyller kravene i 6.8.3.2.9 i siste avsnitt om ventilenes design eller
 beskyttelse gjeldene fra 1. januar 2019, kan fortsatt benyttes frem til
 neste mellomliggende eller periodiske kontroll etter 1. januar 2021.
 
-1.6.4.50
+.. _1.6.4.50:
+
+``1.6.4.50`` 
 
 Uansett kravene i spesiell bestemmelse TU 42 i 4.3.5 gjeldene fra 1.
 januar 2019 kan tankcontainere med tankskall konstruert av
@@ -1431,34 +1823,44 @@ før 1. januar 2019 til transport av stoffer med en pH verdi lavere enn
 5,0 eller høyere enn 8,0, fortsatt benyttes til transport av disse
 stoffene inntil 31. desember 2026.
 
-1.6.4.51
+.. _1.6.4.51:
+
+``1.6.4.51`` 
 
 Tankcontainere konstruert før 1. juli 2019 i samsvar med kravene i kraft
 frem til 31. desember 2018, men som ikke oppfyller kravene i 6.8.2.2.10
 om sprengtrykk for sprengskiven gjeldene fra 1. januar 2019, kan
 fortsatt benyttes.
 
-1.6.4.52
+.. _1.6.4.52:
+
+``1.6.4.52`` 
 
 Tankcontainere konstruert før 1. juli 2019 i samsvar med kravene i
 6.8.2.2.3 som var i kraft frem til 31. desember 2018, men som ikke
 oppfyller kravene i 6.8.2.2.3 i siste avsnitt om flammefeller på
 pusteventiler gjeldene fra 1. januar 2019, kan fortsatt benyttes.
 
-1.6.4.53
+.. _1.6.4.53:
+
+``1.6.4.53`` 
 
 Tankcontainere konstruert før 1.juli 2019 i samsvar med kravene i kraft
 frem til 31.desember 2018, men som ikke oppfyller kravene i 6.8.2.1.23
 om inspeksjon av sveiseskjøtene mot tankendenes buede kant («knuckle
 area») gjeldende fra 1.januar 2019, kan fortsatt benyttes.
 
-1.6.4.54
+.. _1.6.4.54:
+
+``1.6.4.54`` 
 
 Tankcontainere konstruert før 1. juli 2019 i samsvar med kravene i kraft
 frem til 31. desember 2018, men som ikke oppfyller kravene i 6.8.2.2.11
 gjeldene fra 1. januar 2019, kan fortsatt benyttes.
 
-1.6.4.55
+.. _1.6.4.55:
+
+``1.6.4.55`` 
 
 ADR: (Reservert)
 
@@ -1469,14 +1871,18 @@ oppfyller kravene for merking av tankkoden i 6.9.6.1 [20]_ gjeldene fra
 inntil 31. desember 2020 frem til neste periodiske kontroll etter 1.
 juli 2021.
 
-1.6.4.56
+.. _1.6.4.56:
+
+``1.6.4.56`` 
 
 Tankcontainere som ikke er i samsvar med kravene i 6.8.3.4.6 (b)
 gjeldende fra 1. januar 2023, kan fortsatt benyttes hvis en
 mellomliggende kontroll gjennomføres minst seks år etter hver periodisk
 kontroll gjennomført etter 1 juli 2023.
 
-1.6.4.57
+.. _1.6.4.57:
+
+``1.6.4.57`` 
 
 Prosedyrer, brukt av vedkommende myndighet for å godkjenne eksperter som
 utfører aktiviteter angående tankcontainere ment for transport av
@@ -1488,7 +1894,9 @@ relasjon til 6.8.1.5, andre avsnitt, andre innrykk.
 
 **ANM:** Ordlyden «ekspert» er erstattet av ordlyden «kontrollorgan»
 
-1.6.4.58
+.. _1.6.4.58:
+
+``1.6.4.58`` 
 
 Typegodkjenningssertifikater gitt for tankcontainere ment for transport
 av stoffer som ikke er underlagt TA4 og TT9 i 6.8.4, utstedt før 1. juli
@@ -1496,28 +1904,36 @@ av stoffer som ikke er underlagt TA4 og TT9 i 6.8.4, utstedt før 1. juli
 gjeldende fra 1. januar 2023, kan fortsatt benyttes fram til gyldigheten
 deres utløper.
 
-1.6.4.59
+.. _1.6.4.59:
+
+``1.6.4.59`` 
 
 Tankcontainere av fiberarmert plast bygget før 1. juli 2033 i samsvar
 med kravene i kapittel 6.9 som gjaldt fram til 31. desember 2022, kan
 fortsatt benyttes i samsvar med bestemmelsene i kapittel 4.4 som gjaldt
 frem til 31. desember 2022.
 
-1.6.4.60
+.. _1.6.4.60:
+
+``1.6.4.60`` 
 
 Tankcontainere bygget før 1. januar 2024 i henhold til kravene som
 gjaldt fram til 31. desember 2022, men som imidlertid ikke samsvarer med
 bestemmelsene som gjelder fra 1. januar 2023 om utrustning med
 sikkerhetsventil i henhold til 6.8.3.2.9, kan fortsatt benyttes.
 
-1.6.4.61
+.. _1.6.4.61:
+
+``1.6.4.61`` 
 
 Tankcontainere bygget før 1. juli 2023 i samsvar med bestemmelsene i
 kraft fram til 31. desember 2022, men som ikke samsvarer med
 bestemmelsene i 6.8.2.2.4, andre og tredje avsnitt, gjeldende fra 1.
 januar 2023, kan fortsatt benyttes.
 
-1.6.4.62
+.. _1.6.4.62:
+
+``1.6.4.62`` 
 
 Ekstra store tankcontainere bygget før 1. juli 2023 i samsvar med
 bestemmelsene i kraft fram til 31. desember 2022, men som ikke samsvarer
@@ -1525,67 +1941,91 @@ med bestemmelsene i 6.8.2.1.18, tredje avsnitt, angående
 minimumstykkelse for tankskallet, gjeldende fra 1. januar 2023, kan
 fortsatt benyttes.
 
-1.6.4.63
+.. _1.6.4.63:
+
+``1.6.4.63`` 
 
 Tankcontainere bygget før 1. juli 2023 i samsvar med bestemmelsene i
 kraft fram til 31. desember 2022, men som ikke oppfyller bestemmelsene i
 spesiell bestemmelse TE 26 i 6.8.4 (b), gjeldende fra 1. januar 2023,
 kan fortsatt benyttes.
 
-1.6.4.64
+.. _1.6.4.64:
+
+``1.6.4.64`` 
 
 Tankcontainere som allerede er utstyrt med sikkerhetsventiler som
 oppfyller bestemmelsene i 6.8.3.2.9 gjeldende fra 1. januar 2023 behøver
 ikke å påføres merkingen i samsvar med 6.8.3.2.9.6 før neste
 mellomliggende eller periodiske kontroll etter 31. desember 2023.
 
-1.6.4.65
+.. _1.6.4.65:
+
+``1.6.4.65`` 
 
 Tankcontainere som er bygget før 1. juli 2025 i samsvar med kravene som
 gjaldt frem til 31. desember 2024, men som ikke oppfyller kravene i
 6.8.2.2.11 gjeldende fra 1.januar 2025, kan fortsatt benyttes.
 
-1.6.4.66
+.. _1.6.4.66:
+
+``1.6.4.66`` 
 
 Multimodale tanker bygget før 1. januar 2027 i samsvar med kravene som
 gjaldt frem til 31. desember 2024, men som imidlertid ikke oppfyller
 kravene i 6.7.4.15.1 (i) (iv) gjeldende fra 1.januar 2025, kan fortsatt
 benyttes.
 
+.. _1.6.5:
+
 1.6.5 ADR: Kjøretøyer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **RID: (Reservert)**
 
-1.6.5.1
+.. _1.6.5.1:
+
+``1.6.5.1`` 
 
 (Reservert)
 
-1.6.5.2
+.. _1.6.5.2:
+
+``1.6.5.2`` 
 
 (Reservert)
 
-1.6.5.3
+.. _1.6.5.3:
+
+``1.6.5.3`` 
 
 (Reservert)
 
-1.6.5.4
+.. _1.6.5.4:
+
+``1.6.5.4`` 
 
 Når det gjelder bygging av AT kjøretøyer, kan bestemmelsene i del 9 som
 gjelder frem til 31. desember 2024 benyttes frem til 31.desember 2026.
 
-1.6.5.5
+.. _1.6.5.5:
+
+``1.6.5.5`` 
 
 For kjøretøyer registrert eller tatt i bruk før 1. januar 2003, som har
 elektrisk utstyr som ikke oppfyller kravene i 9.2.2, 9.3.7 eller 9.7.8
 men som oppfyller kravene som var gyldige inntil 30. juni 2001, får
 fortsatt benyttes inntil videre.
 
-1.6.5.6
+.. _1.6.5.6:
+
+``1.6.5.6`` 
 
 (Slettet)
 
-1.6.5.7
+.. _1.6.5.7:
+
+``1.6.5.7`` 
 
 Komplette eller ferdigstilte kjøretøyer som ble typegodkjent før 31.
 desember 2002 i samsvar med FN regulativ Nr. 105 [21]_ med endring er
@@ -1596,14 +2036,18 @@ angitt i endringsserie 01 eller de tilsvarende bestemmelser i direktiv
 er fortsatt tillatt godkjent og benyttet, under forutsetning av at de
 var førstegangsregistrert eller tatt i bruk før 1. juli 2003.
 
-1.6.5.8
+.. _1.6.5.8:
+
+``1.6.5.8`` 
 
 EXII- og EXIII- kjøretøyer godkjent første gang før 1. juli 2005 i
 samsvar med kravene i Del 9 gjeldende frem til 31. desember 2004, men
 som ikke er i samsvar med kravene gjeldende fra 1. januar 2005 får
 fortsatt benyttes.
 
-1.6.5.9
+.. _1.6.5.9:
+
+``1.6.5.9`` 
 
 Tankkjøretøyer registrert, eller tatt i bruk hvis registrering ikke er
 påkrevd, før 1. juli 2004, med faste tanker med kapasitet over 3
@@ -1611,7 +2055,9 @@ m\ :sup:`3` med prøvetrykk under 4 bar, beregnet for transport av farlig
 gods i flytende eller smeltet tilstand, og som ikke oppfyller kravene i
 9.7.5.2, kan fortsatt benyttes.
 
-1.6.5.10
+.. _1.6.5.10:
+
+``1.6.5.10`` 
 
 Godkjenningsattester i samsvar med modellen vist i 9.1.3.5 inntil 31.
 desember 2006 og de gjeldende fra 1. januar 2007 til 31. desember 2008,
@@ -1619,21 +2065,27 @@ kan fortsatt benyttes. Godkjenningsattester som samsvarer med modellen
 vist i 9.1.3.5 gjeldende fra 1. januar 2009 fram til 31. desember 2014,
 kan fortsatt benyttes.
 
-1.6.5.11
+.. _1.6.5.11:
+
+``1.6.5.11`` 
 
 MEMUer som har blitt produsert og godkjent før 1. juli 2009 i henhold
 til gjeldende nasjonale krav, men som ikke samsvarer med konstruksjons
 og godkjenningskrav gjeldende fra 1. januar 2009, kan fortsatt benyttes
 etter godkjenning av vedkommende myndighet i de landene de benyttes.
 
-1.6.5.12
+.. _1.6.5.12:
+
+``1.6.5.12`` 
 
 EX/III og FL kjøretøy som er registrert eller tatt i bruk før 1. april
 2012, hvor de elektriske koblingene ikke fyller kravene i 9.2.2.6.3, men
 som fyller kravene som var i kraft inntil 31. desember 2010, kan
 fortsatt benyttes.
 
-1.6.5.13
+.. _1.6.5.13:
+
+``1.6.5.13`` 
 
 Tilhengere registrert (eller tatt i bruk hvis registrering ikke var
 påkrevd) før 1. juli 1995, utstyrt med blokkeringsfrie bremser i henhold
@@ -1641,27 +2093,35 @@ til FN regulativ nr 13, 06 serien av endringer, men som ikke oppfyller
 de tekniske krav for kategori A blokkeringsfrie bremser, er fortsatt
 tillatt brukt.
 
-1.6.5.14
+.. _1.6.5.14:
+
+``1.6.5.14`` 
 
 MEMUer som har blitt godkjent før 1. juli 2013 i samsvar med
 bestemmelsene i ADR i kraft inntil 31.  desember 2012, men som ikke er i
 overensstemmelse med kravene i 6.12.3.1.2 eller 6.12.3.2.2 gjeldende fra
 1. januar 2013, får fortsatt benyttes.
 
-1.6.5.15
+.. _1.6.5.15:
+
+``1.6.5.15`` 
 
 Når det gjelder anvendelsen av bestemmelsene i del 9, så kan kjøretøyer
 som første gang er registrert eller tatt i bruk før 1. november 2014, og
 som har blitt godkjent i henhold til bestemmelsene i direktivene som
 blir opphevet av forordning (EF) nr. 661/2009 [23]_, fortsatt benyttes.
 
-1.6.5.16
+.. _1.6.5.16:
+
+``1.6.5.16`` 
 
 EX/II-, EX/III-, FL- og OX-kjøretøy som er registrert før 1. april 2018,
 med bensintanker som ikke er godkjent etter FN Regulativ nr. 34, kan
 fortsatt benyttes.
 
-1.6.5.17
+.. _1.6.5.17:
+
+``1.6.5.17`` 
 
 Kjøretøy som første gang er registrert eller tatt i bruk før 1. april
 2018 som ikke er i samsvar med bestemmelsene i 9.2.2.8.5, eller
@@ -1669,62 +2129,82 @@ standardene ISO 6722-1:2011 + Cor 01:2012 eller ISO 6722-2:2013 for
 kabler i 9.2.2.2.1, men som er i henhold til bestemmelsene gjeldene frem
 til 31. desember 2016, kan fortsatt benyttes.
 
-1.6.5.18
+.. _1.6.5.18:
+
+``1.6.5.18`` 
 
 Kjøretøy som første gang er registrert eller tatt i bruk før 1. april
 2018 godkjent spesielt som OX-kjøretøy kan fortsatt benyttes til
 transport av UN 2015.
 
-1.6.5.19
+.. _1.6.5.19:
+
+``1.6.5.19`` 
 
 Når det gjelder den årlige tekniske kontrollen av kjøretøyer som første
 gang er registrert eller tatt i bruk før 1. april 2018 godkjent spesielt
 som OX-kjøretøy, kan bestemmelsene i del 9 gjeldende frem til 31.
 desember 2016 fortsatt benyttes.
 
-1.6.5.20
+.. _1.6.5.20:
+
+``1.6.5.20`` 
 
 Godkjenningsattester for OX-kjøretøy i samsvar med modellen vist i
 9.1.3.5 inntil 31. desember 2016 kan fortsatt benyttes.
 
-1.6.5.21
+.. _1.6.5.21:
+
+``1.6.5.21`` 
 
 (Slettet)
 
-1.6.5.22
+.. _1.6.5.22:
+
+``1.6.5.22`` 
 
 Kjøretøyer førstegangsregistrert (eller som blir tatt i bruk dersom
 registrering ikke er påkrevd) før 1. januar 2021 i samsvar med kravene i
 9.7.3 gjeldene fram til 31. desember 2018, men som ikke er i samsvar med
 kravene i 9.7.3 gjeldene fra 1. januar 2019, kan fortsatt benyttes.
 
-1.6.5.23
+.. _1.6.5.23:
+
+``1.6.5.23`` 
 
 EX/III-kjøretøyer, registrert eller tatt i bruk før 1. januar 2029, i
 samsvar med bestemmelsene i 9.7.9.2 som gjaldt fram til 31. desember
 2022, men som ikke samsvarer med bestemmelsene i 9.7.9.2 gjeldende fra
 1. januar 2023, kan fortsatt benyttes.
 
-1.6.5.24
+.. _1.6.5.24:
+
+``1.6.5.24`` 
 
 FL-kjøretøyer, registrert eller tatt i bruk før 1. januar 2029, som ikke
 samsvarer med kravene i 9.7.9.1 gjeldende fra 1. januar 2023, kan
 fortsatt benyttes.
 
-1.6.5.25
+.. _1.6.5.25:
+
+``1.6.5.25`` 
 
 FL-kjøretøyer, registrert eller tatt i bruk før 1. januar 2029, som ikke
 samsvarer med kravene i 9.7.9.2 gjeldende fra 1. januar 2023, kan
 fortsatt benyttes.
 
-1.6.5.26
+.. _1.6.5.26:
+
+``1.6.5.26`` 
 
 Kjøretøyer førstegangsregistrert (eller som ble tatt i bruk dersom
 registrering ikke er påkrevd) før 1. januar 2027 godkjent som
 AT-kjøretøy, men som ikke er i samsvar med bestemmelsene i 9.2.4.2 om
 drivstofftanker, kan fortsatt benyttes.
 
-1.6.5.27
+.. _1.6.5.27:
+
+``1.6.5.27`` 
 
 Kjøretøyer førstegangsregistrert (eller som ble tatt i bruk dersom
 registrering ikke er påkrevd) før 1. januar 2027 godkjent som
@@ -1732,21 +2212,23 @@ AT-kjøretøy, men som ikke er i samsvar med bestemmelsene i 9.2.4.4.2 om
 evaluering av det oppladbare elektriske energilagringssystemet, kan
 fortsatt benyttes.
 
-1.6.5.28
+.. _1.6.5.28:
+
+``1.6.5.28`` 
 
 Kjøretøyer førstegangsregistrert (eller som ble tatt i bruk dersom
 registrering ikke er påkrevd) før 1. januar 2027 godkjent som
 AT-kjøretøy, men som ikke er i samsvar med bestemmelsene i 9.2.4.3.1 om
 motorer, kan fortsatt benyttes.
 
+.. _1.6.6:
+
 1.6.6 Klasse 7
 ^^^^^^^^^^^^^^
 
-1.6.6.1 Kolli hvor konstruksjonen ikke trenger godkjenning av
-vedkommende myndighet i henhold til utgavene 1985, 1985 (som endret i
-1990), 1996, 1996 (revidert), 1996 (som endret i 2003), 2005, 2009 eller
-2012 av IAEA **«Regulations for the safe transport of radioactive
-material»**
+.. _1.6.6.1:
+
+``1.6.6.1`` Kolli hvor konstruksjonen ikke trenger godkjenning av vedkommende myndighet i henhold til utgavene 1985, 1985 (som endret i 1990), 1996, 1996 (revidert), 1996 (som endret i 2003), 2005, 2009 eller 2012 av IAEA **«Regulations for the safe transport of radioactive material»**
 
 Kolli som ikke trenger godkjenning fra vedkommende myndighet av
 konstruksjonen (unntakskolli, Type IP-1, Type IP-2, Type IP-3 og Type A
@@ -1794,12 +2276,13 @@ anvendt; og
 
 – kolliet ikke er tilvirket eller modifisert etter 31. desember 2025
 
-1.6.6.2 Kollikonstruksjoner som er godkjent i henhold til utgavene 1985,
-1985 (som endret i 1990), 1996, 1996 (revidert), 1996 (som endret i
-2003), 2005, 2009 eller 2012 av IAEA «Regulations for the safe transport
-of radioactive material»
+.. _1.6.6.2:
 
-1.6.6.2.1
+``1.6.6.2`` Kollikonstruksjoner som er godkjent i henhold til utgavene 1985, 1985 (som endret i 1990), 1996, 1996 (revidert), 1996 (som endret i 2003), 2005, 2009 eller 2012 av IAEA «Regulations for the safe transport of radioactive material»
+
+.. _1.6.6.2.1:
+
+``1.6.6.2.1`` 
 
 Kolli som krever vedkommende myndighets godkjenning av konstruksjonen
 skal oppfylle bestemmelsene i ADR/RID i sin helhet bortsett fra at:
@@ -1837,14 +2320,18 @@ iii. aktivitetsnivåene og materialrestriksjonene i 2.2.7 er anvendt;
 iv. bestemmelsene og kontrollene for transport i del 1, 3, 4, 5, og 7 er
 anvendt;
 
-1.6.6.2.2
+.. _1.6.6.2.2:
+
+``1.6.6.2.2`` 
 
 Ingen ny tilvirkning av emballasjer etter en kollikonstruksjon som
 oppfyller bestemmelsene i 1985 eller 1985 (som endret 1990) utgavene av
 *IAEA «Regulation for the Safe Transport of Radioactive Material»*, skal
 tillates påbegynt.
 
-1.6.6.2.3
+.. _1.6.6.2.3:
+
+``1.6.6.2.3`` 
 
 Ingen ny tilvirkning av emballasjer etter en kollikonstruksjon som
 oppfyller bestemmelsene i utgave 1996, 1996 (revidert), 1996 (som endret
@@ -1852,9 +2339,9 @@ oppfyller bestemmelsene i utgave 1996, 1996 (revidert), 1996 (som endret
 Transport of Radioactive Material»*, skal tillates påbegynt etter 31.
 desember 2028.
 
-1.6.6.3 Kolli unntatt fra bestemmelsene for spaltbart materiale etter
-2011 og 2013 utgavene av ADR/RID (2009 utgaven av *IAEA* **«Regulations
-for the Safe Transport of Radioactive Material»**)
+.. _1.6.6.3:
+
+``1.6.6.3`` Kolli unntatt fra bestemmelsene for spaltbart materiale etter 2011 og 2013 utgavene av ADR/RID (2009 utgaven av *IAEA* **«Regulations for the Safe Transport of Radioactive Material»**)
 
 Kolli som inneholder spaltbart materiale som er unntatt fra
 klassifisering som som «SPALTBART» i henhold til 2.2.7.2.3.5 (a) (i)
@@ -1866,10 +2353,9 @@ ikke-spaltbart eller unntatt spaltbart, bortsett fra at begrensningene
 for forsendelsen i tabell 2.2.7.2.3.5 av disse utgavene skal gjelde for
 kjøretøyet/vognen. Forsendelsen skal transporteres under eksklusiv bruk.
 
-1.6.6.4 Radioaktivt materiale i spesiell form som er godkjent i henhold
-til IAEA **«Regulations for the Safe Transport of Radioactive
-Material»**, utgavene 1985, 1985 (som endret i 1990), 1996, 1996
-(revidert), 1996 (som endret 2003), 2005, 2009 eller 2012
+.. _1.6.6.4:
+
+``1.6.6.4`` Radioaktivt materiale i spesiell form som er godkjent i henhold til IAEA **«Regulations for the Safe Transport of Radioactive Material»**, utgavene 1985, 1985 (som endret i 1990), 1996, 1996 (revidert), 1996 (som endret 2003), 2005, 2009 eller 2012
 
 Radioaktivt materiale i spesiell form tilvirket etter en konstruksjon
 som har fått unilateral godkjenning fra vedkommende myndighet i henhold
@@ -1887,3 +2373,49 @@ godkjenning fra vedkommende myndighet i henhold til *IAEA «Regulations
 for the Safe Transport og Radioactive Material»* utgavene 1996, 1996
 (revidert), 1996 (som endret 2003), 2005, 2009 eller 2012, skal tillates
 påbegynt etter 31. desember 2025.
+
+.. [15]
+   RID utgaven i kraft fra 1. januar 2023.
+
+.. [16]
+   I henhold til RID gjeldende fra 1. mai 1985.
+
+.. [17]
+   I henhold til RID gjeldende fra 1. januar 1990, 1. januar 1993 og 1.
+   januar 1995.
+
+.. [18]
+   DELEGERT KOMMISJONSFORORDNING (EU) 2020/1182 av 19. mai 2020 om
+   endring av del 3 i vedlegg VI til europaparlaments- og rådsforordning
+   (EF) nr. 1272/2008 om klassifisering, merking og emballering av
+   stoffer og stoffblandinger for å tilpasse den til den tekniske og
+   vitenskapelige utviklingen (femtende ATP til CLP, gjeldende fra 1
+   mars. 2022).
+
+.. [19]
+   Registreringslandet sitt nasjonalitetskjennemerke som blir brukt på
+   motorkjøretøy og tilhengere i internasjonal vegtrafikk, for eksempel
+   i samsvar med Genèvekonvensjonen om vegtrafikk av 1949 eller
+   Wienkonvensjonen om vegtrafikk av 1968.
+
+.. [20]
+   RID-utgaven i kraft fra 1. januar 2021 fram til 31. desember 2022.
+
+.. [21]
+   Regulativ Nr. 105 (Uniform provisions concerning the approval of
+   vehicles intended for the carriage of dangerous goods with regard to
+   their specific construction features).
+
+.. [22]
+   Direktive 98/91/EC of the European Parliament and of the Council of
+   14 December 1998 relating to motor vehicles and their trailers
+   intended for the transport of dangerous goods by road and amending
+   Directive 70/156/EEC relating to the type approval of motor vehicles
+   and their trailers (Official Journal of the European Communities No.
+   L 011 of 16 January 1999, pp. 0025–0036).
+
+.. [23]
+   Forordning (EF) 661/2009 av 13. juli 2009 om krav til typegodkjenning
+   for den generelle sikkerhet til kjøretøy og tilhengere, samt
+   systemer, komponenter og separate tekniske enheter til sådanne
+   kjøretøy (Official Journal L 200 fra 31.7.2009, s. 1).

@@ -15,5 +15,5 @@ Del 1 Alminnelige bestemmelser
    Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt
    Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter
    Kapittel 1.10 Bestemmelser om sikring (security)
-   Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner
+   Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner
 

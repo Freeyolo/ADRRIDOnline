@@ -1107,3 +1107,20 @@ til.
 **ANM:** En standard gir en nærmere forklaring på hvordan bestemmelsene
 i ADR/RID skal oppfylles, og kan inneholde krav som kommer i tillegg til
 de som står i ADR/RID.
+
+.. [1]
+   International Maritime Organisation (IMO) har gitt ut «Guidance on
+   the Continued Use of Existing IMO Type Portable Tanks and Road Tank
+   Vehicles for the Transport of Dangerous Goods» som rundskriv
+   CCC.1/Circ.3. Kopier av dette rundskrivet kan finnes på IMOs
+   hjemmeside www.imo.org
+
+.. [2]
+   Avtaler inngått i samsvar med dette underavsnitt er oppført OTIFs
+   web-side (http://otif.org/en/?page_id=176).
+
+.. [3]
+   «The International Rail Transport Committee» (CIT) utgir «CIM/SMGS
+   Consignment Note Manual (GLV-CIM/SMGS)», som inneholder den felles
+   malen for fraktbrev i henhold til CIM og SMGS fraktavtale og
+   bestemmelsene som gjennomfører dem (se www.cit-rail.org).
