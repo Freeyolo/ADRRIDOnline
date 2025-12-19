@@ -482,154 +482,151 @@ RID: Når farlige gods i samme transportkategori transporteres i samme
 vogn eller storcontainer i henhold til 1.1.3.1 c) er største samlede
 mengde angitt i kolonne (3) i nedenstående tabell:
 
-+------+------------------------------------------------+-------------+
-| Tr   | Stoffer eller gjenstander                      | Største     |
-| ansp |                                                | samlede     |
-| ort- | Emballasjegruppe eller                         | mengde på   |
-| kate | klassifikasjonskode/gruppe eller UN-nr.        | en          |
-| gori |                                                | transport   |
-|      | (2)                                            | enhet\ :sup |
-| (1)  |                                                | :`b`/**vogn |
-|      |                                                | eller       |
-|      |                                                | stor        |
-|      |                                                | container** |
-|      |                                                | (3)         |
-+======+================================================+=============+
-| 0    | Klasse 1: 1.1A (ADR), 1.1L, 1.2L, 1.3L og      | 0           |
-|      | UN-nr. 0190                                    |             |
-|      |                                                |             |
-|      | Klasse 3: UN-nr. 3343                          |             |
-|      |                                                |             |
-|      | Klasse 4.2: Stoffer som tilhører               |             |
-|      | emballasjegruppe I                             |             |
-|      |                                                |             |
-|      | Klasse 4.3: UN-nr. 1183, 1242, 1295, 1340,     |             |
-|      | 1390, 1403, 1928, 2813, 2965, 2968, 2988,      |             |
-|      | 3129, 3130, 3131, 3132, 3134, 3148, 3396, 3398 |             |
-|      | og 3399                                        |             |
-|      |                                                |             |
-|      | Klasse 5.1: UN-nr. 2426                        |             |
-|      |                                                |             |
-|      | Klasse 6.1: UN-nr. 1051, 1600, 1613, 1614,     |             |
-|      | 2312, 3250 og 3294                             |             |
-|      |                                                |             |
-|      | Klasse 6.2: UN-nr. 2814, 2900 og 3549          |             |
-|      |                                                |             |
-|      | Klasse 7: UN-nr. 2912 til 2919, 2977, 2978 og  |             |
-|      | 3321 til 3333                                  |             |
-|      |                                                |             |
-|      | Klasse 8: UN-nr. 2215 (Maleinsyreanhydrid,     |             |
-|      | smeltet)                                       |             |
-|      |                                                |             |
-|      | Klasse 9: UN-nr. 2315, 3151, 3152 og 3432 og   |             |
-|      | gjenstander som inneholder slike stoffer eller |             |
-|      | blandinger                                     |             |
-|      |                                                |             |
-|      | og tom, ikke rengjort emballasje som har       |             |
-|      | inneholdt stoffer klassifisert i denne         |             |
-|      | transportkategorien, med unntak av emballasje  |             |
-|      | tilhørende UN-nr. 2908.                        |             |
-+------+------------------------------------------------+-------------+
-| 1    | Stoffer og gjenstander som tilhører            | 20          |
-|      | emballasjegruppe I og som ikke er klassifisert |             |
-|      | i transportkategori 0, samt stoffer og         |             |
-|      | gjenstander av følgende klasser:               |             |
-+------+------------------------------------------------+-------------+
-|      | Klasse 1: 1.1B til 1.1J\ :sup:`a`, 1.2B til    |             |
-|      | 1.2J, 1.3C, 1.3G, 1.3H, 1.3J og 1.5D\ :sup:`a` |             |
-|      |                                                |             |
-|      | Klasse 2: gruppene T, TC\ :sup:`a`, TO, TF,    |             |
-|      | TOC\ :sup:`a` og TFC, aerosoler: gruppene C,   |             |
-|      | CO, FC, T, TF, TC, TO, TFC og TOC, kjemikalier |             |
-|      | under trykk: UN-nr. 3502, 3503, 3504 og 3505   |             |
-|      |                                                |             |
-|      | Klasse 4,1: UN-nr. 3221 til 3224 og 3231 (ADR) |             |
-|      | til 3240 (ADR), 3533 (ADR) og 3534 (ADR)       |             |
-|      |                                                |             |
-|      | Klasse 5.2: UN-nr. 3101 til 3104 og 3111 (ADR) |             |
-|      | til 3120 (ADR)                                 |             |
-+------+------------------------------------------------+-------------+
-| 2    | Stoffer som tilhører emballasjegruppe II og    | 333         |
-|      | som ikke er klassifisert i                     |             |
-|      | transportkategoriene 0, 1 eller 4 samt stoffer |             |
-|      | og gjenstander av følgende klasser:            |             |
-+------+------------------------------------------------+-------------+
-|      | Klasse 1: 1.4B til 1.4G og 1.6N                |             |
-|      |                                                |             |
-|      | Klasse 2: gruppe F, Aerosoler: F, kjemikalier  |             |
-|      | under trykk: UN nr. 3501                       |             |
-|      |                                                |             |
-|      | Klasse 4.1: UN-nr. 3225 til 3230, 3531 og 3532 |             |
-|      |                                                |             |
-|      | Klasse 4.3: UN-nr. 3292                        |             |
-|      |                                                |             |
-|      | Klasse 5.1: UN-nr. 3356                        |             |
-|      |                                                |             |
-|      | Klasse 5.2: UN-nr. 3105 til 3110               |             |
-|      |                                                |             |
-|      | Klasse 6.1: UN-nr. 1700, 2016 og 2017 og       |             |
-|      | stoffer som tilhører emballasjegruppe III      |             |
-|      |                                                |             |
-|      | Klasse 6.2: UN-nr. 3291                        |             |
-|      |                                                |             |
-|      | Klasse 9: UN-nr. 3090, 3091, 3245, 3480, 3481, |             |
-|      | 3536, 3551 og 3552                             |             |
-+------+------------------------------------------------+-------------+
-| 3    | Stoffer som tilhører emballasjegruppe III og   | 1 000       |
-|      | som ikke er klassifisert i transportkategori   |             |
-|      | 0, 2 eller 4, samt stoffer og gjenstander av   |             |
-|      | følgende klasser:                              |             |
-+------+------------------------------------------------+-------------+
-|      | Klasse 2: gruppene A og O, Aerosoler: A og O,  |             |
-|      | kjemikalier under trykk: UN-nr. 3500           |             |
-|      |                                                |             |
-|      | Klasse 3: UN-nr. 3473                          |             |
-|      |                                                |             |
-|      | Klasse 4.3: UN-nr. 3476                        |             |
-|      |                                                |             |
-|      | Klasse 8: UN-nr. 2794, 2795, 2800, 3028, 3477, |             |
-|      | 3506 og 3554                                   |             |
-|      |                                                |             |
-|      | Klasse 9: UN-nr. 2990 og 3072                  |             |
-+------+------------------------------------------------+-------------+
-| 4    | Klasse 1: 1.4S                                 | ubegrenset  |
-|      |                                                |             |
-|      | Klasse 2: UN-nr. 3537 til 3539                 |             |
-|      |                                                |             |
-|      | Klasse 3: UN-nr. 3540                          |             |
-|      |                                                |             |
-|      | Klasse 4.1: UN-nr. 1331, 1345, 1944, 1945,     |             |
-|      | 2254, 2623 og 3541                             |             |
-|      |                                                |             |
-|      | Klasse 4.2: UN-nr. 1361 og 1362                |             |
-|      | Emballasjegruppe III og UN-nr. 3542            |             |
-|      |                                                |             |
-|      | Klasse 4.3: UN-nr. 3543                        |             |
-|      |                                                |             |
-|      | Klasse 5.1: UN-nr. 3544                        |             |
-|      |                                                |             |
-|      | Klasse 5.2: UN-nr. 3545                        |             |
-|      |                                                |             |
-|      | Klasse 6.1: UN-nr. 3546                        |             |
-|      |                                                |             |
-|      | Klasse 7: UN-nr. 2908 til 2911                 |             |
-|      |                                                |             |
-|      | Klasse 8: UN-nr. 3547                          |             |
-|      |                                                |             |
-|      | Klasse 9: UN-nr. 3268, 3499, 3508, 3509, 3548  |             |
-|      | og 3559                                        |             |
-|      |                                                |             |
-|      | og tomme, ikke rengjorte emballasjer som har   |             |
-|      | inneholdt farlig gods, med unntak av de        |             |
-|      | klassifisert i transportkategori 0             |             |
-+------+------------------------------------------------+-------------+
++------+------------------------------------------------+----------------+
+| Tr   | Stoffer eller gjenstander                      | Største        |
+| ansp |                                                | samlede        |
+| ort- | Emballasjegruppe eller                         | mengde på      |
+| kate | klassifikasjonskode/gruppe eller UN-nr.        | en             |
+| gori |                                                | transport      |
+|      | (2)                                            | enhet\ :sup:`b`|
+| (1)  |                                                |/**vogn         |
+|      |                                                | eller          |
+|      |                                                | stor           |
+|      |                                                | container**    |
+|      |                                                | (3)            |
++======+================================================+================+
+| 0    | Klasse 1: 1.1A (ADR), 1.1L, 1.2L, 1.3L og      | 0              |
+|      | UN-nr. 0190                                    |                |
+|      |                                                |                |
+|      | Klasse 3: UN-nr. 3343                          |                |
+|      |                                                |                |
+|      | Klasse 4.2: Stoffer som tilhører               |                |
+|      | emballasjegruppe I                             |                |
+|      |                                                |                |
+|      | Klasse 4.3: UN-nr. 1183, 1242, 1295, 1340,     |                |
+|      | 1390, 1403, 1928, 2813, 2965, 2968, 2988,      |                |
+|      | 3129, 3130, 3131, 3132, 3134, 3148, 3396, 3398 |                |
+|      | og 3399                                        |                |
+|      |                                                |                |
+|      | Klasse 5.1: UN-nr. 2426                        |                |
+|      |                                                |                |
+|      | Klasse 6.1: UN-nr. 1051, 1600, 1613, 1614,     |                |
+|      | 2312, 3250 og 3294                             |                |
+|      |                                                |                |
+|      | Klasse 6.2: UN-nr. 2814, 2900 og 3549          |                |
+|      |                                                |                |
+|      | Klasse 7: UN-nr. 2912 til 2919, 2977, 2978 og  |                |
+|      | 3321 til 3333                                  |                |
+|      |                                                |                |
+|      | Klasse 8: UN-nr. 2215 (Maleinsyreanhydrid,     |                |
+|      | smeltet)                                       |                |
+|      |                                                |                |
+|      | Klasse 9: UN-nr. 2315, 3151, 3152 og 3432 og   |                |
+|      | gjenstander som inneholder slike stoffer eller |                |
+|      | blandinger                                     |                |
+|      |                                                |                |
+|      | og tom, ikke rengjort emballasje som har       |                |
+|      | inneholdt stoffer klassifisert i denne         |                |
+|      | transportkategorien, med unntak av emballasje  |                |
+|      | tilhørende UN-nr. 2908.                        |                |
++------+------------------------------------------------+----------------+
+| 1    | Stoffer og gjenstander som tilhører            | 20             |
+|      | emballasjegruppe I og som ikke er klassifisert |                |
+|      | i transportkategori 0, samt stoffer og         |                |
+|      | gjenstander av følgende klasser:               |                |
++------+------------------------------------------------+----------------+
+|      | Klasse 1: 1.1B til 1.1J\ :sup:`a`, 1.2B til    |                |
+|      | 1.2J, 1.3C, 1.3G, 1.3H, 1.3J og 1.5D\ :sup:`a` |                |
+|      |                                                |                |
+|      | Klasse 2: gruppene T, TC\ :sup:`a`, TO, TF,    |                |
+|      | TOC\ :sup:`a` og TFC, aerosoler: gruppene C,   |                |
+|      | CO, FC, T, TF, TC, TO, TFC og TOC, kjemikalier |                |
+|      | under trykk: UN-nr. 3502, 3503, 3504 og 3505   |                |
+|      |                                                |                |
+|      | Klasse 4,1: UN-nr. 3221 til 3224 og 3231 (ADR) |                |
+|      | til 3240 (ADR), 3533 (ADR) og 3534 (ADR)       |                |
+|      |                                                |                |
+|      | Klasse 5.2: UN-nr. 3101 til 3104 og 3111 (ADR) |                |
+|      | til 3120 (ADR)                                 |                |
++------+------------------------------------------------+----------------+
+| 2    | Stoffer som tilhører emballasjegruppe II og    | 333            |
+|      | som ikke er klassifisert i                     |                |
+|      | transportkategoriene 0, 1 eller 4 samt stoffer |                |
+|      | og gjenstander av følgende klasser:            |                |
++------+------------------------------------------------+----------------+
+|      | Klasse 1: 1.4B til 1.4G og 1.6N                |                |
+|      |                                                |                |
+|      | Klasse 2: gruppe F, Aerosoler: F, kjemikalier  |                |
+|      | under trykk: UN nr. 3501                       |                |
+|      |                                                |                |
+|      | Klasse 4.1: UN-nr. 3225 til 3230, 3531 og 3532 |                |
+|      |                                                |                |
+|      | Klasse 4.3: UN-nr. 3292                        |                |
+|      |                                                |                |
+|      | Klasse 5.1: UN-nr. 3356                        |                |
+|      |                                                |                |
+|      | Klasse 5.2: UN-nr. 3105 til 3110               |                |
+|      |                                                |                |
+|      | Klasse 6.1: UN-nr. 1700, 2016 og 2017 og       |                |
+|      | stoffer som tilhører emballasjegruppe III      |                |
+|      |                                                |                |
+|      | Klasse 6.2: UN-nr. 3291                        |                |
+|      |                                                |                |
+|      | Klasse 9: UN-nr. 3090, 3091, 3245, 3480, 3481, |                |
+|      | 3536, 3551 og 3552                             |                |
++------+------------------------------------------------+----------------+
+| 3    | Stoffer som tilhører emballasjegruppe III og   | 1 000          |
+|      | som ikke er klassifisert i transportkategori   |                |
+|      | 0, 2 eller 4, samt stoffer og gjenstander av   |                |
+|      | følgende klasser:                              |                |
++------+------------------------------------------------+----------------+
+|      | Klasse 2: gruppene A og O, Aerosoler: A og O,  |                |
+|      | kjemikalier under trykk: UN-nr. 3500           |                |
+|      |                                                |                |
+|      | Klasse 3: UN-nr. 3473                          |                |
+|      |                                                |                |
+|      | Klasse 4.3: UN-nr. 3476                        |                |
+|      |                                                |                |
+|      | Klasse 8: UN-nr. 2794, 2795, 2800, 3028, 3477, |                |
+|      | 3506 og 3554                                   |                |
+|      |                                                |                |
+|      | Klasse 9: UN-nr. 2990 og 3072                  |                |
++------+------------------------------------------------+----------------+
+| 4    | Klasse 1: 1.4S                                 | ubegrenset     |
+|      |                                                |                |
+|      | Klasse 2: UN-nr. 3537 til 3539                 |                |
+|      |                                                |                |
+|      | Klasse 3: UN-nr. 3540                          |                |
+|      |                                                |                |
+|      | Klasse 4.1: UN-nr. 1331, 1345, 1944, 1945,     |                |
+|      | 2254, 2623 og 3541                             |                |
+|      |                                                |                |
+|      | Klasse 4.2: UN-nr. 1361 og 1362                |                |
+|      | Emballasjegruppe III og UN-nr. 3542            |                |
+|      |                                                |                |
+|      | Klasse 4.3: UN-nr. 3543                        |                |
+|      |                                                |                |
+|      | Klasse 5.1: UN-nr. 3544                        |                |
+|      |                                                |                |
+|      | Klasse 5.2: UN-nr. 3545                        |                |
+|      |                                                |                |
+|      | Klasse 6.1: UN-nr. 3546                        |                |
+|      |                                                |                |
+|      | Klasse 7: UN-nr. 2908 til 2911                 |                |
+|      |                                                |                |
+|      | Klasse 8: UN-nr. 3547                          |                |
+|      |                                                |                |
+|      | Klasse 9: UN-nr. 3268, 3499, 3508, 3509, 3548  |                |
+|      | og 3559                                        |                |
+|      |                                                |                |
+|      | og tomme, ikke rengjorte emballasjer som har   |                |
+|      | inneholdt farlig gods, med unntak av de        |                |
+|      | klassifisert i transportkategori 0             |                |
++------+------------------------------------------------+----------------+
 
-a) For UN-nr. 0081, 0082, 0084, 0241, 0331, 0332, 0482, 1005 og 1017,
-skal største samlede mengde på en
-transportenhet/jernbanevogn/storcontainer være 50 kg.
+*a) For UN-nr. 0081, 0082, 0084, 0241, 0331, 0332, 0482, 1005 og 1017, skal største samlede mengde på en transportenhet/jernbanevogn/storcontainer være 50 kg.*
 
-*b) ADR: Største samlede mengde for hver transportkategori tilsvarer en
-beregnet verdi på «1000» (se også 1.1.3.6.4).*
+*b) ADR: Største samlede mengde for hver transportkategori tilsvarer en beregnet verdi på «1000» (se også 1.1.3.6.4).*
 
 I ovenstående tabell betyr «største samlede mengde på en
 transportenhet/**vogn/storcontainer**\ »:
@@ -773,6 +770,8 @@ eventuell knusing av lyspæren vil forbli inne i kolliet.
 
 **ANM:** Lyspærer som inneholder radioaktivt materiale er omtalt i
 2.2.7.2.2.2 (b).
+
+.. _1.1.4:
 
 1.1.4 Anvendelse av andre regelverk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1095,7 +1094,8 @@ gjennomføre kontroll, inkludert mellomliggende transportoperasjoner.
 
 .. _1.1.5:
 
-``1.1.5`` Bruk av standarder
+1.1.5 Bruk av standarder
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Hvor det kreves bruk av standarder, og det forekommer uoverensstemmelser
 mellom kravene i standarden og bestemmelsene i ADR/RID, gjelder
