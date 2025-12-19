@@ -1,5 +1,9 @@
+.. _3.2:
+
 Kapittel 3.2 Liste over farlig gods
 -----------------------------------
+
+.. _3.2.1:
 
 3.2.1 Tabell A: Liste over farlig gods, ordnet etter UN-nummer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

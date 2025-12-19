@@ -1,10 +1,16 @@
+.. _3.5:
+
 Kapittel 3.5 Farlig gods pakket i unntatte mengder
 --------------------------------------------------
+
+.. _3.5.1:
 
 3.5.1 Unntatte mengder
 ^^^^^^^^^^^^^^^^^^^^^^
 
-3.5.1.1
+.. _3.5.1.1:
+
+``3.5.1.1`` 
 
 Unntatte mengder av farlig gods i visse klasser, annet enn gjenstander,
 som tilfredsstiller kravene i dette kapittelet er ikke underlagt andre
@@ -20,7 +26,9 @@ c) Emballasjekravene i 4.1.1.1., 4.1.1.2, 4.1.1.4 og 4.1.1.6.
 **ANM:** Med hensyn til radioaktivt materiale gjelder kravene i 1.7.1.5
 for radioaktivt materiale i unntatte mengder.
 
-3.5.1.2
+.. _3.5.1.2:
+
+``3.5.1.2`` 
 
 Farlig gods som kan transporteres som unntatte mengder i samsvar med
 bestemmelsene i dette kapittelet er vist i kolonne (7b) i tabell A i
@@ -54,13 +62,17 @@ vannkapasiteten til innerbeholderen og, volumet vist for
 ytteremballasjen refererer til den samlede vannkapasitet av alle
 inneremballasjene inne i en enkel ytteremballasje.
 
-3.5.1.3
+.. _3.5.1.3:
+
+``3.5.1.3`` 
 
 Dersom gods med ulike koder er pakket sammen som unntatte mengder, så
 skal totalmengden gods per ytteremballasje begrenses ned til den mest
 restriktive koden.
 
-3.5.1.4
+.. _3.5.1.4:
+
+``3.5.1.4`` 
 
 Unntatte mengder av farlig gods tilordnet kodene E1, E2, E4 og E5 med en
 maksimal netto mengde farlig gods per inneremballasje begrenset til 1 ml
@@ -77,6 +89,8 @@ absorberende materiale til å kunne absorbere hele inneremballasjens
 innhold; og
 
 b) Bestemmelsene i 3.5.3.
+
+.. _3.5.2:
 
 3.5.2 Emballasjer
 ^^^^^^^^^^^^^^^^^
@@ -118,10 +132,14 @@ nødvendig merking og;
 f) Overpakning kan benyttes, og kan også inneholde kolli av farlig gods
 eller gods som ikke er underlagt bestemmelsene i ADR/RID.
 
+.. _3.5.3:
+
 3.5.3 Prøving av kolli
 ^^^^^^^^^^^^^^^^^^^^^^
 
-3.5.3.1
+.. _3.5.3.1:
+
+``3.5.3.1`` 
 
 Det komplette kolli, som klargjort for transport, med inneremballasjer
 som er fylt til minst 95% av sin kapasitet for faste stoffer eller 98%
@@ -159,7 +177,9 @@ b) En kraft skal virke på toppoverflaten i 24 timer; kraften skal
 tilsvare totalvekten på en 3 meters høy stabel av identisk like kolli
 som testobjektet (inklusive testobjektet).
 
-3.5.3.2
+.. _3.5.3.2:
+
+``3.5.3.2`` 
 
 For testformålet kan stoffet som skal transporteres i kolliet erstattes
 av andre stoffer på en slik måte at dette ikke gjør resultatene fra
@@ -169,10 +189,14 @@ det transporterte stoffet. I falltesten for væsker, hvis andre stoffer
 benyttes, må egenvekten og viskositeten av erstatningsstoffet være nær
 likt tilsvarende for stoffet som skal transporteres.
 
+.. _3.5.4:
+
 3.5.4 Merking av kolli
 ^^^^^^^^^^^^^^^^^^^^^^
 
-3.5.4.1
+.. _3.5.4.1:
+
+``3.5.4.1`` 
 
 Kolli som inneholder unntatte mengder av farlig gods som er klargjort i
 samsvar med dette kapittelet skal merkes med et varig og lesbart merke
@@ -182,7 +206,9 @@ stoffene som finnes inne i kolli, skal vises på merket. Hvis navnet på
 avsender eller mottaker ikke er vist annetsteds på kolliet skal denne
 informasjonen også vises på merket.
 
-3.5.4.2 Merke for unntatte mengder
+.. _3.5.4.2:
+
+``3.5.4.2`` Merke for unntatte mengder
 
 {{{IMG CLASS="«class WMF »" REF="Image6880.EPS"/}}}
 
@@ -200,7 +226,9 @@ bakgrunn. Minstemålene skal være 100 mm x 100 mm. For dimensjoner som
 ikke er angitt, skal alle karakteristika være omtrentlig proporsjonale
 til de som er vist.
 
-3.5.4.3 Bruk av overpakninger
+.. _3.5.4.3:
+
+``3.5.4.3`` Bruk av overpakninger
 
 For en overpakning som inneholder farlig gods pakket i unntatte mengder,
 gjelder følgende:
@@ -220,11 +248,15 @@ De øvrige bestemmelsene i 5.1.2.1 gjelder kun dersom annet farlig gods
 som ikke er pakket i unntatte mengder inngår i overpakningen, og da kun
 i forhold til dette andre farlige godset.
 
+.. _3.5.5:
+
 3.5.5 Maksimalt antall av kolli i kjøretøy/jernbanevogn eller i en container
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Antallet kolli i et kjøretøy/jernbanevogn eller i en container skal ikke
 overskride 1000.
+
+.. _3.5.6:
 
 3.5.6 Dokumentasjon
 ^^^^^^^^^^^^^^^^^^^

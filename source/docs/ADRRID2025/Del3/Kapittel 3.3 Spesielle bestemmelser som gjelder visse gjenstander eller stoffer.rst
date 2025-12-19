@@ -1,7 +1,12 @@
+.. _3.3:
+
 Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer
 -------------------------------------------------------------------------------
 
+.. _3.3.1:
+
 3.3.1
+^^^^^
 
 Når det fremgår av kolonne 6 i tabell A i kapittel 3.2 at en spesiell
 bestemmelse skal gjelde for et stoff eller en gjenstand, er innholdet av
@@ -13,7 +18,9 @@ eksempel «LITIUMBATTERIER TIL KASSERING», skal størrelsen på merkingen
 være minst 12 mm, dersom ikke annet er oppgitt i den spesielle
 bestemmelsen eller annet sted i ADR/RID.
 
-16
+.. _SP16:
+
+``16``
 
 Prøver av nye eller eksisterende eksplosive stoffer eller gjenstander
 får transporteres slik vedkommende myndighet bestemmer (se 2.2.1.1.3)
@@ -23,12 +30,16 @@ fuktet eller gjort ufølsomme skal være begrenset til 10 kr i små kolli
 slik vedkommende myndighet bestemmer. Eksplosive prøver som er fuktet
 eller gjort ufølsomme, skal være begrenset til 25 kr.
 
-23
+.. _SP23:
+
+``23``
 
 Selv om dette er brannfarlig stoff, er det bare farlig når det er
 innesluttet og under ekstreme brannforhold.
 
-28
+.. _SP28:
+
+``28``
 
 Dette stoffet kan bare transporteres under bestemmelsene for klasse 3
 eller 4.1 når det er emballert slik at prosentandelen av
@@ -37,59 +48,81 @@ tidspunkt under transport (se 2.2.3.1.1 og 2.2.41.1.18). I tilfeller
 hvor tilsetningsstoffet ikke er oppgitt, skal stoffet være emballert
 slik at mengden eksplosivstoff ikke overstiger oppgitt verdi.
 
-32
+.. _SP32:
+
+``32``
 
 Dette stoffet er ikke underlagt ADR/RID-bestemmelsene når det foreligger
 i annen form.
 
-37
+.. _SP37:
+
+``37``
 
 Dette stoffet er ikke underlagt ADR/RID-bestemmelsene når det er belagt
 (har en coating).
 
-38
+.. _SP38:
+
+``38``
 
 Dette stoffet er ikke underlagt ADR/RID-bestemmelsene dersom det
 inneholder ikke over 0,1 % kalsiumkarbid.
 
-39
+.. _SP39:
+
+``39``
 
 Dette stoffet er ikke underlagt ADR/RID-bestemmelsene dersom det
 inneholder mindre enn 30 % eller ikke mindre enn 90 % silisium.
 
-43
+.. _SP43:
+
+``43``
 
 Når disse stoffene leveres for transport som bekjempningsmidler, skal de
 transporteres under den relevante posisjon som bekjempningsmiddel og i
 samsvar med de relevante bestemmelsene for bekjempningsmidler, (se
 2.2.61.1.10 til 2.2.61.1.11.2)
 
-45
+.. _SP45:
+
+``45``
 
 Antimonsulfider og oksider som inneholder ikke over 0,5 % arsenikk,
 beregnet av den samlede masse, er ikke underlagt ADR/RID-bestemmelsene.
 
-47
+.. _SP47:
+
+``47``
 
 Jern(II)cyanider og Jern(III)cyanider er ikke underlagt
 ADR/RID-bestemmelsene.
 
-48
+.. _SP48:
+
+``48``
 
 Transport av dette stoffet er forbudt når det inneholder mer enn 20 %
 hydrogencyanid.
 
-59
+.. _SP59:
+
+``59``
 
 Disse stoffene er ikke underlagt ADR/RID-bestemmelsene når de inneholder
 høyst 50 % magnesium.
 
-60
+.. _SP60:
+
+``60``
 
 Transport av dette stoffet er forbudt hvis konsentrasjonen overstiger
 72 %.
 
-61
+.. _SP61:
+
+``61``
 
 Den tekniske betegnelsen, som skal være et supplement til varenavnet,
 skal være ISO-betegnelsen (se også ISO 1750:1981 «\ *Bekjempningsmidler
@@ -98,36 +131,50 @@ annen betegnelse oppført i WHO «\ *Recommended Classification of
 Pesticides by Hazard and Guidelines to Classification*\ » eller navnet
 på den aktive substansen (se også 3.1.2.8.1 og 3.1.2.8.1.1.)
 
-62
+.. _SP62:
+
+``62``
 
 Dette stoffet er ikke underlagt ADR/RID-bestemmelsene dersom det
 inneholder ikke over 4 % natriumhydroksid.
 
-65
+.. _SP65:
+
+``65``
 
 Hydrogenperoksid i vandig løsning med mindre enn 8 % hydrogenperoksid er
 ikke underlagt ADR-bestemmelsene.
 
-66
+.. _SP66:
+
+``66``
 
 Sinober (*Cinnabar*, kvikksølvsulfid (HgS)) er ikke underlagt
 bestemmelsene i ADR/RID
 
-103
+.. _SP103:
+
+``103``
 
 Transport av ammoniumnitritter og blandinger av uorganisk nitritt med et
 ammoniumsalt er forbudt.
 
-105
+.. _SP105:
+
+``105``
 
 Nitrocellulose som svarer til beskrivelsene i UN-nr. 2556 eller UN-nr.
 2557 kan klassifiseres i klasse 4.1.
 
-113
+.. _SP113:
+
+``113``
 
 Transport av kjemisk ustabile blandinger er forbudt.
 
-119
+.. _SP119:
+
+``119``
 
 Som kjølemaskiner regnes maskiner og andre innretninger som er
 konstruert ene og alene for å holde matvarer eller andre varer ved lav
@@ -139,7 +186,9 @@ henhold til 2.2.2.1.3, eller mindre enn 12 liter ammoniakkløsning (UN
 
 **ANM:** For transport, kan varmepumper betraktes som kjølemaskiner.
 
-122
+.. _SP122:
+
+``122``
 
 For hver av de tilordnete organiske peroksidsammensetninger er
 tilleggsfare(r), (ADR: eventuelle kontroll- og faretemperaturer), samt
@@ -147,73 +196,99 @@ UN-nr. (for den beskrivende posisjonen) gitt i 2.2.52.4, 4.1.4.2
 emballeringsbestemmelse IBC 520 og 4.2.5.2.6 bestemmelse T23 for
 multimodal tank.
 
-123
+.. _SP123:
+
+``123``
 
 (Reservert)
 
-127
+.. _SP127:
+
+``127``
 
 Annet inert materiale eller blanding av inerte materialer får anvendes,
 forutsatt at det er inert materiale med de samme flegmatiserende
 egenskaper.
 
-131
+.. _SP131:
+
+``131``
 
 Det flegmatiserte stoffet skal være merkbart mindre følsomt enn tørt
 PETN.
 
-135
+.. _SP135:
+
+``135``
 
 Vannfritt natriumsalt av diklorisocyanursyre tilfredsstiller ikke
 kriteriene for å bli inkludert i klasse 5.1 og er ikke underlagt
 ADR/RID-bestemmelsene med mindre det tilfredsstiller kriteriene for å
 bli inkludert i en annen klasse.
 
-138
+.. _SP138:
+
+``138``
 
 pbrombensylcyanid er ikke underlagt ADR/RID-bestemmelsene.
 
-141
+.. _SP141:
+
+``141``
 
 Produkter som er gitt tilstrekkelig varmebehandling, slik at de ikke
 innebærer noen fare under transport, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-142
+.. _SP142:
+
+``142``
 
 Ekstrahert soyamel som inneholder ikke over 1,5 % olje og 11 % fuktighet
 og som i det vesentlige er fri for brannfarlige løsningsmidler, er ikke
 underlagt ADR/RID-bestemmelsene.
 
-144
+.. _SP144:
+
+``144``
 
 Vandige løsninger som inneholder høyst 24 volumprosent alkohol er ikke
 underlagt ADR/RID-bestemmelsene.
 
-145
+.. _SP145:
+
+``145``
 
 Alkoholholdige drikkevarer i emballasjegruppe III som transporteres i
 beholdere med volum høyst 250 liter, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-152
+.. _SP152:
+
+``152``
 
 Klassifiseringen av dette stoffet vil variere med partikkelstørrelse og
 emballasje, men avgrensningene er ikke fastslått eksperimentelt.
 Hensiktsmessig klassifisering skal foretas i samsvar med 2.2.1.
 
-153
+.. _SP153:
+
+``153``
 
 Denne posisjonen kommer bare til anvendelse dersom det kan vises på
 grunnlag av testing at stoffene i kontakt med vann hverken er brennbare
 eller viser tegn til selvantennelse, og at den gassblandingen som
 utvikles ikke er brennbar.
 
-162
+.. _SP162:
+
+``162``
 
 (Slettet)
 
-163
+.. _SP163:
+
+``163``
 
 Denne posisjonen skal ikke benyttes ved transport av stoff som er
 oppført med navn i tabell A i kapittel 3.2. Stoffer som transporteres
@@ -221,7 +296,9 @@ under denne posisjonen kan inneholde inntil 20 % nitrocellulose
 forutsatt at innholdet av nitrogen i nitrocellulosen ikke utgjør mer enn
 12,6 % av den tørre massen.
 
-168
+.. _SP168:
+
+``168``
 
 Asbest som er nedsenket eller fiksert i naturlig eller kunstig
 bindemiddel (som sement, plast, asfalt, kunstharpiks eller mineralsk
@@ -233,7 +310,9 @@ ADR/RID-bestemmelsene når de er emballert på en slik måte at det under
 transporten ikke kan slippes ut farlige mengder asbestfiber som kan
 innåndes.
 
-169
+.. _SP169:
+
+``169``
 
 Ftalsyreanhydrid i fast form og tetrahydroftalsyreanhydrider som
 inneholder ikke over 0,05 % maleinsyreanhydrid, er ikke underlagt
@@ -241,7 +320,9 @@ ADR/RID-bestemmelsene. Ftalsyreanhydrid, smeltet, ved en temperatur som
 er høyere enn flammepunktet og som inneholder ikke over 0,05 %
 maleinsyreanhydrid, skal klassifiseres under UN 3256.
 
-172
+.. _SP172:
+
+``172``
 
 Dersom et radioaktivt materiale har (en) tilleggsfare:
 
@@ -265,17 +346,23 @@ i 5.4.1.1.1 (d).
 
 For emballering, se også 4.1.9.1.5.
 
-177
+.. _SP177:
+
+``177``
 
 Bariumsulfat er ikke underlagt ADR/RID-bestemmelsene.
 
-178
+.. _SP178:
+
+``178``
 
 Denne posisjonen skal bare benyttes når det i tabell A i kapittel 3.2
 ikke finnes noen annen posisjon som passer, og bare med samtykke fra
 vedkommende myndighet i opprinnelseslandet (se 2.2.1.1.3)
 
-181
+.. _SP181:
+
+``181``
 
 Kolli som inneholder slike stoffer skal være merket med fareseddel nr. 1
 (se 5.2.2.2.2) med mindre vedkommende myndighet i opprinnelseslandet har
@@ -283,21 +370,29 @@ gitt tillatelse til å unnlate å påføre denne fareseddelen fordi det
 foreligger testresultater som viser at stoffet i denne emballasjen ikke
 har eksplosive egenskaper (se 5.2.2.1.9).
 
-182
+.. _SP182:
+
+``182``
 
 Gruppen alkalimetaller omfatter litium, natrium, kalium, rubidium og
 cesium.
 
-183
+.. _SP183:
+
+``183``
 
 Gruppen jordalkalimetaller omfatter magnesium, kalsium, strontium og
 barium.
 
-186
+.. _SP186:
+
+``186``
 
 (Slettet)
 
-188
+.. _SP188:
+
+``188``
 
 Celler og litiumbatterier som leveres for transport er ikke underlagt
 andre bestemmelser i ADR/RID dersom følgende vilkår er oppfylt:
@@ -395,31 +490,41 @@ Et enkeltcellebatteri som definert i Del III i underavsnitt 38.3.2.3 i
 UN Testmanualen anses som en «celle», og skal transporteres i henhold
 til kravene for «celler» i denne spesielle bestemmelsen.
 
-190
+.. _SP190:
+
+``190``
 
 Aerosolbeholdere skal ha beskyttelse som hindrer utilsiktet utslipp.
 Aerosolbeholdere med volum ikke over 50 ml som ikke har giftig innhold,
 er ikke underlagt ADR/RID-bestemmelsene.
 
-191
+.. _SP191:
+
+``191``
 
 Små beholdere med volum ikke over 50 ml som ikke har giftig innhold, er
 ikke underlagt ADR/RID-bestemmelsene.
 
-193
+.. _SP193:
+
+``193``
 
 Denne posisjonen skal bare brukes for gjødselblandinger basert på
 ammoniumnitrat. De skal være klassifisert i henhold til prosedyrene gitt
 i UN Testmanualen, del III, avsnitt 39. Gjødsel som oppfyller kriteriene
 for dette UN nummeret er ikke underlagt kravene i ADR/RID.
 
-194
+.. _SP194:
+
+``194``
 
 For hvert av de tilordnete selvreaktive stoffer er eventuelle kontroll-
 og faretemperaturer, samt UN-nr. (for den beskrivende posisjonen) gitt i
 2.2.41.4.
 
-196
+.. _SP196:
+
+``196``
 
 Sammensetninger som i laboratorietester hverken detonerer eller
 deflagrerer i kavitert tilstand, ikke reagerer når de opphetes i
@@ -429,13 +534,17 @@ termisk stabile (dvs. SADT 60 °C eller høyere for et kolli på 50 kr).
 Sammensetninger som ikke fyller disse kriterier skal transporteres i
 samsvar med bestemmelsene for klasse 5.2, (se 2.2.52.4).
 
-198
+.. _SP198:
+
+``198``
 
 Nitrocelluloseløsninger som inneholder høyst 20 % nitrocellulose får
 transporteres som maling, parfymeprodukter eller trykkfarge, ettersom
 det passer. Se UN-nr. 1210, 1263, 1266, 3066, 3469 og 3470.
 
-199
+.. _SP199:
+
+``199``
 
 Blyforbindelser som har en løsbarhet på 5 % eller mindre når de er
 blandet i for-holdet 1:1000 med 0,07M saltsyre og omrørt i en time ved
@@ -445,7 +554,9 @@ methods of test»*) er å betrakte som uoppløselige og er ikke underlagt
 bestemmelsene i ADR/RID med mindre de oppfyller kriteriene for å bli
 inkludert i en annen klasse.
 
-201
+.. _SP201:
+
+``201``
 
 Lightere og lighter-refillere skal være i samsvar med bestemmelsene i
 det landet de er fylt. De skal være utstyrt med beskyttelse som hindrer
@@ -462,38 +573,52 @@ inneholde mer enn 65 g flytende petroleumsgass.
 **ANM:** For lightere som er samlet inn separat som avfall se kapittel
 3.3 SP654.
 
-203
+.. _SP203:
+
+``203``
 
 Denne posisjonen skal ikke benyttes for flytende polyklorerte bifenyler,
 UN-nr. 2315 og polyklorerte bifenyler i fast form, UN-nr. 3432.
 
-204
+.. _SP204:
+
+``204``
 
 (Slettet)
 
-205
+.. _SP205:
+
+``205``
 
 Denne posisjonen skal ikke benyttes for UN 3155 PENTAKLORFENOL 3155.
 
-207
+.. _SP207:
+
+``207``
 
 Komponenter for støping av plast kan være fremstilt av polystyren,
 poly(metylmetakrylat) eller annet polymermateriale.
 
-208
+.. _SP208:
+
+``208``
 
 Handelskvalitet av kalsiumnitratgjødsel som i hovedsak består et av et
 dobbeltsalt, (kalsiumnitrat og ammoniumnitrat) inneholdende ikke over
 10 % ammoniumnitrat og minst 12 % krystallvann, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-210
+.. _SP210:
+
+``210``
 
 Toksiner fra planter, dyr eller bakterier som inneholder
 infeksjonsfremmende stoffer, eller toksiner som befinner seg i
 infeksjonsfremmende stoffer, skal klassifiseres i klasse 6.2.
 
-215
+.. _SP215:
+
+``215``
 
 Denne posisjonen gjelder bare teknisk rent stoff, eller sammensetninger
 med det teknisk rene stoffet som har SADT høyere enn 75 °C, den omfatter
@@ -503,7 +628,9 @@ ikke mer enn 35 masseprosent azodikarbonamid og minst 65 % inert stoff
 er ikke underlagt ADR med mindre de oppfyller kriterier for andre
 klasser.
 
-216
+.. _SP216:
+
+``216``
 
 Blandinger av faste stoffer som ikke er underlagt ADR/RID-bestemmelsene
 og brannfarlige væsker, får transporteres under denne posisjonen uten
@@ -515,7 +642,9 @@ emballasjegruppe II eller III som er absorbert i et fast stoff er ikke
 underlagt ADR/RID-bestemmelsene forutsatt at det ikke forekommer fri
 væske i forpakningen eller gjenstanden.
 
-217
+.. _SP217:
+
+``217``
 
 Blandinger av faste stoffer som ikke er underlagt ADR/RID-bestemmelsene
 og giftige væsker, får transporteres under denne posisjonen uten
@@ -524,7 +653,9 @@ forutsetning av at det ikke er synlig fri væske når stoffet lastes eller
 når emballasjen eller lasteenheten lukkes. Denne posisjonen skal ikke
 benyttes for faste stoffer som inneholder væske i emballasjegruppe I.
 
-218
+.. _SP218:
+
+``218``
 
 Blandinger av faste stoffer som ikke er underlagt ADR/RID-bestemmelsene
 og etsende væsker, får transporteres under denne posisjonen uten
@@ -532,7 +663,9 @@ forutgående klassifisering i henhold til kriteriene for klasse 8 under
 forutsetning av at det ikke er synlig fri væske når stoffet lastes eller
 når emballasjen eller lasteenheten lukkes.
 
-219
+.. _SP219:
+
+``219``
 
 Genetisk modifiserte mikroorganismer (GMMOer) og genetisk modifiserte
 organismer (GMOer) emballert og merket i henhold til
@@ -543,25 +676,33 @@ Hvis GMMOer eller GMOer tilfredsstiller kriteriene for tilordning til
 klasse 6.1 eller 6.2 (se 2.2.61.1 og 2.2.62.1) gjelder kravene i ADR/RID
 for transport av giftige stoffer eller infeksjonsfremmende stoffer.
 
-220
+.. _SP220:
+
+``220``
 
 Kun den tekniske betegnelsen for den brannfarlige væskekomponenten i
 løsningen eller blandingen skal angis i parentes umiddelbart etter
 varenavnet.
 
-221
+.. _SP221:
+
+``221``
 
 Stoffer som tilhører emballasjegruppe I, skal ikke tas med under denne
 posisjonen.
 
-224
+.. _SP224:
+
+``224``
 
 Med mindre det kan vises ved testing at stoffet ikke er mer følsomt i
 frossen tilstand enn i flytende tilstand, skal stoffet holdes flytende
 under normal transport. Det skal ikke fryse ved temperaturer over
 –15 °C.
 
-225
+.. _SP225:
+
+``225``
 
 Brannslukkere under denne posisjonen kan omfatte innmonterte
 drivpatroner (patroner, driv som tilhører klassifiseringskode 1.4C eller
@@ -603,32 +744,42 @@ brannbekjempningsinstallasjoner, skal tilfredsstille kravene i kapittel
 6.2 og alle bestemmelsene som gjelder for det relevante farlige godset,
 når disse trykkbeholderne blir transportert separat.
 
-226
+.. _SP226:
+
+``226``
 
 Sammensetninger med dette stoffet som inneholder ikke under 30 % ikke
 flyktig, ikke brannfarlig flegmatiseringsmiddel, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-227
+.. _SP227:
+
+``227``
 
 Når stoffet er flegmatisert med vann og uorganisk inert materiale, får
 innholdet av ureanitrat ikke overstige 75 masseprosent, og blandingen må
 ikke kunne detoneres ved test type (a) i serie 1 i UN Testmanualen, Del
 1.
 
-228
+.. _SP228:
+
+``228``
 
 Blandinger som ikke oppfyller kriteriene for brannfarlige gasser (se
 2.2.2.1.5), skal transporteres under UN-nr. 3163.
 
-230
+.. _SP230:
+
+``230``
 
 Litiumceller og -batterier kan transporteres under denne oppføringen
 dersom de oppfyller bestemmelsene i 2.2.9.1.7.1. Natriumionceller og
 -batterier kan transporteres under denne oppføringen dersom de oppfyller
 bestemmelsene i 2.2.9.1.7.2.
 
-235
+.. _SP235:
+
+``235``
 
 Denne oppføringen gjelder for gjenstander som inneholder eksplosive
 stoffer i klasse 1 og som også kan inneholde farlig gods av andre
@@ -636,7 +787,9 @@ klasser. Disse gjenstandene blir brukt til å øke sikkerheten i
 kjøretøyer, fartøyer og luftfartøyer – f.eks. kollisjonsputeutløsere,
 kollisjonsputemoduler, beltestrammere og pyromekanisk utstyr.
 
-236
+.. _SP236:
+
+``236``
 
 Polyesterreparasjonssett består av to komponenter: et basismateriale
 (enten klasse 3 eller klasse 4.1, emballasjegruppe II eller III) og en
@@ -647,7 +800,9 @@ klasse 3 eller klasse 4.1 anvendt på basismaterialet.
 Mengdebegrensningen som er angitt i kolonne (7a) i tabell A i kapittel
 3.2, gjelder basismaterialet.
 
-237
+.. _SP237:
+
+``237``
 
 Membranfiltrene, inklusive papirseparatorer, belegg og
 kledningsmateriale mv. som er til stede under transporten, skal ikke
@@ -659,7 +814,9 @@ Testmanualen, Del III, underavsnitt 33.2, at membranfiltere av
 nitrocellulose i den form de skal transporteres ikke skal være underlagt
 bestemmelsene for brannfarlige faste stoffer av klasse 4.1.
 
-238
+.. _SP238:
+
+``238``
 
 a) Batterier kan betraktes som lekkasjesikre dersom de kan motstå
 nedenstående tester med hensyn til vibrasjon og trykkforskjeller uten at
@@ -684,7 +841,9 @@ batterihus ved 55 °C, og det ikke er fri væske som kan renne og
 batteripolene er beskyttet mot kortslutning når batteriet er emballert
 for transport.
 
-239
+.. _SP239:
+
+``239``
 
 Batterier eller celler skal ikke inneholde andre farlige stoffer enn
 natrium, svovel eller natriumforbindelser (f.eks. natriumpolysulfider og
@@ -706,11 +865,15 @@ Batterier skal bestå av celler som er sikret og fullstendig innesluttet
 i metallhus som er utført og lukket på en slik måte at det ikke kan skje
 utslipp av de farlige stoffene under vanlige transportforhold.
 
-240
+.. _SP240:
+
+``240``
 
 (Slettet)
 
-241
+.. _SP241:
+
+``241``
 
 Sammensetningen skal være tilberedt slik at den forblir homogen uten å
 skille seg under transporten. Sammensetninger med lavt innhold av
@@ -723,23 +886,31 @@ III, underavsnitt 33.2.4 (om nødvendig skal chips knuses og siktes til
 en partikkelstørrelse mindre enn 1,25 mm), er ikke underlagt
 ADR/RID-bestemmelsene.
 
-242
+.. _SP242:
+
+``242``
 
 Svovel som er formet på en spesiell måte (f.eks. prillet, granulert,
 pelletert, pastillformet eller i flak) er ikke underlagt ADR/RID.
 
-243
+.. _SP243:
+
+``243``
 
 Bensin til bruk i eksplosjonsmotorer (som bilmotorer, stasjonære motorer
 og andre slike motorer) skal tilordnes denne posisjonen uavhengig av
 variasjoner i flyktighet.
 
-244
+.. _SP244:
+
+``244``
 
 Denne posisjonen omfatter f.eks. aluminiumslagg, aluminiumavskum, brukte
 katoder, brukt digelforing og slagg av aluminiumsalter.
 
-247
+.. _SP247:
+
+``247``
 
 Alkoholholdige drikkevarer som inneholder mer enn 24 volumprosent
 alkohol, men ikke over 70 volumprosent får, avvikende fra bestemmelsene
@@ -760,12 +931,16 @@ Hvert fat skal være sikret i vugge som er tilpasset fatet og fastkilt på
 egnet måte slik at det ikke på noen måte kan forskyve seg under
 transport.
 
-249
+.. _SP249:
+
+``249``
 
 Ferrocerium, stabilisert for å hindre korrosjon, med jerninnhold ikke
 under 10 % er ikke underlagt ADR/RID-bestemmelsene.
 
-250
+.. _SP250:
+
+``250``
 
 Denne posisjonen får bare benyttes for prøvesendinger av kjemikalier som
 skal analyseres i forbindelse med implementering av *the Convention on
@@ -786,7 +961,9 @@ b) Under transporten skal kopi av transporttillatelsen som viser de
 fastsatte mengdebegrensninger og emballasjekrav være vedheftet
 transportdokumentet.
 
-251
+.. _SP251:
+
+``251``
 
 Posisjonen KJEMISK SETT eller FØRSTEHJELPSETT er beregnet for kasser,
 skrin etc. som inneholder små mengder av forskjellige slag farlig gods
@@ -821,7 +998,9 @@ farlig gods i mengder som ikke overskrider de begrensede mengder som er
 fastsatt for det enkelte stoff i kolonne (7a) i Tabell A i kapittel 3.2
 er tillatt transportert i henhold til bestemmelsene i kapittel 3.4.
 
-252
+.. _SP252:
+
+``252``
 
 (1) Ammoniumnitrat varm konsentrert løsning kan transporteres under
 denne oppføringen for-utsatt at:
@@ -851,26 +1030,34 @@ c) Ammoniumnitratet forblir i løsning under alle transportforhold; og
 
 d) Løsningen oppfyller ikke kriteriene for noen andre klasser.
 
-266
+.. _SP266:
+
+``266``
 
 Dette stoffet skal ikke transporteres hvis det inneholder mindre
 alkohol, vann eller flegmatiseringsmiddel enn spesifisert, med mindre
 vedkommende myndighet har gitt spesiell tillatelse til det (se 2.2.1.1).
 
-267
+.. _SP267:
+
+``267``
 
 Alle eksplosiver for sprenging, type C, som inneholder klorater, skal
 holdes atskilt fra eksplosiver som inneholder ammoniumnitrat eller andre
 ammoniumsalter.
 
-270
+.. _SP270:
+
+``270``
 
 Vandige løsninger av klasse 5.1, uorganiske nitrater, betraktes som at
 de ikke oppfyller kriteriene for klasse 5.1 dersom konsentrasjonen av
 stoffene i løsning ved den laveste temperaturen som forekommer under
 transporten ikke overstiger 80 % av metningskonsentrasjonen.
 
-271
+.. _SP271:
+
+``271``
 
 Laktose eller glykose eller lignende substanser får benyttes som
 flegmatiseringsmiddel dersom stoffet inneholder ikke under 90
@@ -883,13 +1070,17 @@ underlagt ADR/RID-bestemmelsene. Kolli som inneholder blandinger med
 ikke under 90 masseprosent flegmatiseringsmiddel behøver ikke være
 påført fareseddel nr. 6.1.
 
-272
+.. _SP272:
+
+``272``
 
 Dette stoffet skal ikke transporteres under bestemmelsene for klasse 4.1
 med mindre vedkommende myndighet har gitt spesiell tillatelse til det
 (se UN-nr. 0143 eller UN-nr. 0150, som relevant).
 
-273
+.. _SP273:
+
+``273``
 
 Maneb og manebpreparater som er stabilisert for å hindre selvoppheting
 behøver ikke å bli klassifisert i klasse 4.2 dersom det kan vises ved
@@ -898,11 +1089,15 @@ og at temperaturen i sentrum av prøven ikke overstiger 200 °C når den
 holdes ved en temperatur ikke under 75 °C ± 2 °C i en periode på 24
 timer.
 
-274
+.. _SP274:
+
+``274``
 
 Bestemmelsene i 3.1.2.8 får anvendelse.
 
-278
+.. _SP278:
+
+``278``
 
 Disse stoffene skal ikke klassifiseres og transporteres med mindre
 vedkommende myndighet har gitt tillatelse til det på grunnlag av
@@ -912,13 +1107,17 @@ Testmanualen foretatt på kolli som er gjort klar for transport (se
 grunnlag av kriteriene i 2.2.3 og den type kolli som ble benyttet ved
 serie 6(c)-testen.
 
-279
+.. _SP279:
+
+``279``
 
 Stoffet skal tilordnes denne klassifiseringen eller emballasjegruppen på
 grunnlag av menneskelig erfaring fremfor streng anvendelse av
 klassifiseringskriteriene i ADR/RID.
 
-280
+.. _SP280:
+
+``280``
 
 Denne oppføringen gjelder for sikkerhetsutstyr for kjøretøyer, fartøyer
 eller luftfartøyer, f.eks. kollisjonsputeutløsere,
@@ -934,11 +1133,15 @@ oppføringen gjelder ikke for livredningsmateriell som beskrives i
 spesiell bestemmelse 296 (UN 2990 og 3072) eller for utløsere for
 slokkemiddel beskrevet i spesiell bestemmelse 407 (UN 0514 og 3559).
 
-282
+.. _SP282:
+
+``282``
 
 (Slettet)
 
-283
+.. _SP283:
+
+``283``
 
 Gjenstander som inneholder gass og som er beregnet på å virke som
 støtdempere, inklusive innretninger for å absorbere energi, eller
@@ -970,7 +1173,9 @@ heller ikke skytes ut som en rakett.
 
 Se også 1.1.3.2 (d) for utstyr som anvendes for kjøretøyets drift.
 
-284
+.. _SP284:
+
+``284``
 
 En kjemisk oksygengenerator som inneholder oksiderende stoffer skal
 oppfylle følgende betingelser:
@@ -988,14 +1193,18 @@ c) Når en generator er utstyrt med en innretning for igangsetting, skal
 det være minst to positivt virkende mekanismer som forhindrer utilsiktet
 igangsetting.
 
-286
+.. _SP286:
+
+``286``
 
 Membranfiltere av nitrocellulose som omfattes av denne posisjonen, er
 ikke underlagt ADR/RID-bestemmelsene når hvert filter har en masse som
 ikke overstiger 0,5 g og befinner seg hver for seg i en gjenstand eller
 forseglet pakke.
 
-288
+.. _SP288:
+
+``288``
 
 Disse stoffene skal ikke klassifiseres og transporteres med mindre
 vedkommende myndighet har gitt tillatelse til det på grunnlag av
@@ -1003,14 +1212,18 @@ resultater fra serie 2 tester og en serie 6 (c) test fra Del I i UN
 Testmanualen foretatt på kolli som er gjort klar for transport (se
 2.2.1.1).
 
-289
+.. _SP289:
+
+``289``
 
 Sikkerhetsutstyr, elektrisk initiert og sikkerhetsutstyr, pyroteknisk,
 installert i kjøretøyer, vogner, fartøyer eller luftfartøyer eller i
 ferdigstilte komponenter, slik som rattstammer, dørpaneler, seter etc.
 er ikke underlagt ADR/RID.
 
-290
+.. _SP290:
+
+``290``
 
 Når dette radioaktive materialet tilfredsstiller definisjonene og
 kriteriene for andre klasser som definert i kapittel 2, skal det
@@ -1046,7 +1259,9 @@ stoffet fra alle farlig gods bestemmelsene for de andre klassene skal
 det klassifiseres i henhold til gjeldende UN nummer for klasse 7 og alle
 vilkår spesifisert i 1.7.1.5 gjelder.
 
-291
+.. _SP291:
+
+``291``
 
 Brannfarlige, flytende gasser skal befinne seg inne i kjølemaskinens
 komponenter. Disse komponentene skal være konstruert og prøvet for minst
@@ -1059,11 +1274,15 @@ inneholder mindre enn 12 kr gass.
 
 **ANM:** For transport, kan varmepumper betraktes som kjølemaskiner.
 
-292
+.. _SP292:
+
+``292``
 
 (Slettet)
 
-293
+.. _SP293:
+
+``293``
 
 For fyrstikker gjelder følgende definisjoner:
 
@@ -1081,12 +1300,16 @@ friksjon mot en fast overflate;
 d) Voksfyrstikker er fyrstikker som kan antennes ved friksjon enten mot
 en preparert overflate eller mot en fast overflate.
 
-295
+.. _SP295:
+
+``295``
 
 Batterier trenger ikke være påført merking og faresedler hver for seg
 dersom pallen er påført riktig merking og faresedler.
 
-296
+.. _SP296:
+
+``296``
 
 Disse posisjonene gjelder for nødutstyr slik som redningsflåter,
 personlig flyteutrustning og selvoppblåsende redningssklier. UN 2990
@@ -1119,17 +1342,23 @@ beholdere med kapasitet ikke over 120 ml, installert utelukkende med
 hensikt på aktiveringen av utstyret, er ikke underlagt bestemmelsene i
 ADR/RID.
 
-298
+.. _SP298:
+
+``298``
 
 (Slettet)
 
-300
+.. _SP300:
+
+``300``
 
 Fiskemel, fiskeavfall og krillmel skal ikke lastes hvis dets temperatur
 ved lastetidspunktet overstiger 35 °C eller er 5 °C høyere enn
 omgivelsestemperaturen, avhengig av den høyeste av de to.
 
-301
+.. _SP301:
+
+``301``
 
 Denne posisjonen gjelder kun for gjenstander, slik som maskiner,
 apparater eller utstyr, som inneholder farlig gods som rester eller som
@@ -1148,34 +1377,46 @@ tiltenkte orientering, skal orienteringspiler vises på minst to
 motstående vertikale sider med pilene pekende i den korrekte retningen i
 samsvar med 5.2.1.10.
 
-302
+.. _SP302:
+
+``302``
 
 Lasteenheter, desinfisert med gass, som ikke inneholder annet farlig
 gods er kun underlagt bestemmelsene i 5.5.2.
 
-303
+.. _SP303:
+
+``303``
 
 Disse beholderne skal tilordnes den klassifikasjonskoden gassen eller
 gassblandingen i beholderen har i samsvar med bestemmelsene i 2.2.2.
 
-304
+.. _SP304:
+
+``304``
 
 Denne oppføringen kan bare benyttes for stoffer som er for ufølsomme til
 å bli inkludert i klasse 1 når de testes i henhold til testserie 2 (se
 UN Testmanualen, del I)
 
-305
+.. _SP305:
+
+``305``
 
 Disse stoffene er ikke underlagt ADR/RID i konsentrasjoner på høyst 50
 mg/kg.
 
-306
+.. _SP306:
+
+``306``
 
 Denne oppføringen kan bare benyttes for stoffer som er for ufølsomme til
 å bli inkludert i klasse 1 når de testes i henhold til testserie 2 (se
 UN Testmanualen, del I).
 
-307
+.. _SP307:
+
+``307``
 
 Denne posisjonen skal kun benyttes for ammoniumnitrat basert gjødsel.
 Den skal være klassifisert i samsvar med prosedyren gitt i UN
@@ -1187,7 +1428,9 @@ kontraherende stat, skal klassifiseringen og transportbetingelsene
 godkjennes av vedkommende myndighet i den første ADR/RID kontraherende
 stat forsendelsen kommer til.
 
-309
+.. _SP309:
+
+``309``
 
 Denne posisjonen gjelder for ikke-sensiterte emulsjoner, løsninger og
 geler som hovedsakelig består av ammoniumnitrat og en brennstoff-fase og
@@ -1212,7 +1455,9 @@ ammoniumnitrat emulsjon, løsning eller gel, mellomprodukt for
 sprengstoff (ANE), i testserie 8 av UN Testmanualen, del I, seksjon 18
 og være godkjent av vedkommende myndighet.
 
-310
+.. _SP310:
+
+``310``
 
 Celler og batterier fra produksjonsserier på ikke mer enn 100 celler
 eller batterier, eller pre-produksjonsprototyper som transporteres for
@@ -1243,7 +1488,9 @@ Celler, batterier eller celler og batterier inni utstyr transportert for
 avhending eller gjenvinning kan emballeres i samsvar med spesiell
 bestemmelse 377 og emballeringsbestemmelse P909 i 4.1.4.1.
 
-311
+.. _SP311:
+
+``311``
 
 Denne oppføringen skal kun benyttes for stoffer som er godkjent av
 vedkommende myndighet på bakgrunn av resultater fra relevante prøver i
@@ -1251,15 +1498,21 @@ henhold til Del 1 av *Manual of Tests and Criteria*. Emballeringen skal
 sikre at prosentdelen av fortynningsmidlet ikke på noe tidspunkt faller
 under den grensen som er fastsatt i godkjenningen.
 
-312
+.. _SP312:
+
+``312``
 
 (Slettet)
 
-313
+.. _SP313:
+
+``313``
 
 (Slettet)
 
-314
+.. _SP314:
+
+``314``
 
 a) Disse stoffene innebærer fare for eksotermisk dekomponering ved høye
 temperaturer. Dekomponering kan utløses av varme eller av forurensninger
@@ -1269,24 +1522,32 @@ disse).
 b) Stoffene skal under transporten være beskyttet mot direkte sollys og
 andre varmekilder, og være plassert i godt ventilerte områder.
 
-315
+.. _SP315:
+
+``315``
 
 Denne posisjonen skal ikke benyttes for stoffer i klasse 6.1 som
 oppfyller kriteriene for giftighet ved innånding i emballeringsgruppe I
 beskrevet i 2.2.61.1.8.
 
-316
+.. _SP316:
+
+``316``
 
 Denne posisjonen gjelder kun for kalsiumhypokloritt, tørr, transportert
 i ikke-lettknuselig tablettform.
 
-317
+.. _SP317:
+
+``317``
 
 «Spaltbart – Unntatt» gjelder kun for spaltbart materiale og kolli som
 inneholder spaltbart materiale, som er unntatt i samsvar med
 2.2.7.2.3.5.
 
-318
+.. _SP318:
+
+``318``
 
 Varenavnet skal i transportdokumentet suppleres med den tekniske
 betegnelsen (se 3.1.2.8). Når det infeksjonsfremmende stoffet som skal
@@ -1295,43 +1556,61 @@ inkludering i kategori A og tilordning til UN Nr. 2814 eller 2900, skal
 teksten «Mistenkt infeksjonsfremmende stoff av kategori A» tilføyes i
 parentes etter varenavnet i transportdokumentet.
 
-319
+.. _SP319:
+
+``319``
 
 Stoffer som er emballert og kolli som er merket i henhold til
 emballeringsinstruks P650 er ikke underlagt andre bestemmelser i
 ADR/RID.
 
-320
+.. _SP320:
+
+``320``
 
 (Slettet)
 
-321
+.. _SP321:
+
+``321``
 
 Disse lagringsenhetene skal alltid betraktes som inneholdende hydrogen.
 
-322
+.. _SP322:
+
+``322``
 
 Dette godset er tilordnet emballasjegruppe III når det transporteres som
 ikke-lettknuselige tabletter.
 
-323
+.. _SP323:
+
+``323``
 
 (Reservert)
 
-324
+.. _SP324:
+
+``324``
 
 Dette stoffet må stabiliseres når konsentrasjonen ikke overstiger 99 %.
 
-325
+.. _SP325:
+
+``325``
 
 Ikke-spaltbar eller unntatt spaltbar uranheksafluorid skal klassifiseres
 under UN 2978.
 
-326
+.. _SP326:
+
+``326``
 
 Spaltbar uranheksafluorid skal klassifiseres under UN 2977.
 
-327
+.. _SP327:
+
+``327``
 
 Aerosolbeholdere og engangsbeholdere for gass, som avfall, levert for
 transport i samsvar med 5.4.1.1.3.1, kan transporteres som UN 1950 eller
@@ -1358,7 +1637,9 @@ Brukte engangsbeholdere for gass som har vært fylt med ikke-brannfarlig,
 ikke giftig gass i klasse 2, gruppe A eller O, og som har blitt
 punktert, er ikke underlagt ADR/RID.
 
-328
+.. _SP328:
+
+``328``
 
 Denne oppføringen gjelder for brenselcellepatroner, også når disse er
 montert i utstyr eller er pakket med utstyr. Brenselcellepatroner som er
@@ -1385,35 +1666,49 @@ og under den relevante oppføringen av UN 3091 LITIUMMETALLBATTERIER I
 UTSTYR, UN 3481 LITIUMIONBATTERIER I UTSTYR eller UN 3552
 NATRIUMIONBATTERIER INNMONTERT I UTSTYR.
 
-329
+.. _SP329:
+
+``329``
 
 (Reservert)
 
-330
+.. _SP330:
+
+``330``
 
 (Slettet)
 
-331
+.. _SP331:
+
+``331``
 
 (Reservert)
 
-332
+.. _SP332:
+
+``332``
 
 Magnesiumnitrat heksahydrat er ikke underlagt bestemmelsene i ADR/RID.
 
-333
+.. _SP333:
+
+``333``
 
 Blandinger av etanol og bensin til bruk i gnisttenningsmotorer (for
 eksempel bilmotorer, stasjonære motorer og andre motorer), skal
 tilordnes denne oppføringen uavhengig av variasjoner i flyktighet.
 
-334
+.. _SP334:
+
+``334``
 
 En brenselcellepatron kan inneholde en aktiveringsagens dersom den er
 utstyrt med to uavhengige innretninger for å forhindre utilsiktet
 blanding med brenselet under transport.
 
-335
+.. _SP335:
+
+``335``
 
 Blandinger av fast stoff som ikke er underlagt ADR/RID-bestemmelsene og
 miljøfarlig væske eller fast stoff skal klassifiseres som UN 3077 og kan
@@ -1428,13 +1723,17 @@ fast stoff slik at det ikke er fri væske i pakken eller i gjenstanden,
 eller inneholder mindre enn 10 g miljøfarlig fast stoff, er ikke
 underlagt bestemmelsene i ADR/RID.
 
-336
+.. _SP336:
+
+``336``
 
 Enkelte kolli av ikke brennbart LSA-II eller LSA-III materiale i fast
 form skal, hvis de transporteres med fly, ikke inneholde en aktivitet på
 mer enn 3000 A\ :sub:`2`.
 
-337
+.. _SP337:
+
+``337``
 
 Kolli av type B(U) og type B(M) skal, hvis de transporteres med fly,
 ikke inneholde aktiviteter større enn følgende:
@@ -1447,7 +1746,9 @@ b) For radioaktivt materiale med spesiell form: 3 000 A\ :sub:`1` eller
 
 c) For alt annet radioaktivt materiale: 3 000 A\ :sub:`2`.
 
-338
+.. _SP338:
+
+``338``
 
 Enhver brenselcellepatron som blir transportert under denne oppføringen
 og som er konstruert for å inneholde brannfarlig gass skal:
@@ -1460,7 +1761,9 @@ av denne skal ikke overstige 1 000 kPa ved 55 °C; og
 
 c) Bestå prøven i varmt vannbad beskrevet i 6.2.6.3.1.
 
-339
+.. _SP339:
+
+``339``
 
 Brenselcellepatroner som inneholder hydrogen i metallhydrid som blir
 transportert under denne oppføringen skal ha en vannkapasitet på mindre
@@ -1567,7 +1870,9 @@ identifikasjonsnummer; og
 c) Utgår dato basert på maksimal levetid for bruk (år i fire siffer;
 måneder i to siffer).
 
-340
+.. _SP340:
+
+``340``
 
 Kjemisett, førstehjelpsett og polyesterreparasjonssett som inneholder
 farlige stoffer i indre forpakninger som ikke overstiger mengdegrensene
@@ -1577,11 +1882,15 @@ kapittel 3.5. Stoffer i klasse 5.2, selv om de ikke er individuelt
 tillatt som unntatte mengder i kolonne (7b) av tabell A i kapittel 3.2,
 er tillat i slike sett og er tilordnet kode E2 (se 3.5.1.2).
 
-341
+.. _SP341:
+
+``341``
 
 (Reservert)
 
-342
+.. _SP342:
+
+``342``
 
 Innerbeholdere av glass (som ampuller eller kapsler) kun ment for bruk i
 steriliseringsutstyr, når de inneholder mindre enn 30 ml etylenoksid per
@@ -1607,7 +1916,9 @@ c) Hver innerbeholder av glass er beskyttet med et middel for å
 forhindre punktering av plastposen (f.eks. hylser eller buffer) i
 tilfelle kolliet blir skadet (f.eks. ved knusing).
 
-343
+.. _SP343:
+
+``343``
 
 Denne oppføringen brukes for råolje som inneholder hydrogensulfid i
 tilstrekkelig konsentrasjon til at dampen som utvikles fra råoljen kan
@@ -1615,11 +1926,15 @@ utgjøre en fare ved innånding. Tilordning til emballasjegruppe skal
 bestemmes av brannfaren og innåndingsfaren, i samsvar med graden av fare
 til stede.
 
-344
+.. _SP344:
+
+``344``
 
 Bestemmelsene i 6.2.6 skal være oppfylt.
 
-345
+.. _SP345:
+
+``345``
 
 Denne gassen som innhold i en åpen beholder for nedkjølt gass med en
 maksimal kapasitet på 1 liter, konstruert med doble glassvegger med
@@ -1628,7 +1943,9 @@ underlagt ADR/RID forutsatt at hver beholder blir transportert i en
 ytteremballasje med egnet støtdempende eller absorberende materiale til
 å beskytte den mot støtskade.
 
-346
+.. _SP346:
+
+``346``
 
 Åpne beholdere for nedkjølte gasser som er i samsvar med kravene i
 emballeringsbestemmelse P 203 i 4.1.4.1 og som ikke inneholder noe
@@ -1636,48 +1953,66 @@ farlig gods bortsett fra UN 1977 nitrogen, nedkjølt flytende, som er
 fullt absorbert i ett porøst materiale er ikke underlagt noen andre krav
 i ADR/RID.
 
-347
+.. _SP347:
+
+``347``
 
 Denne oppføringen skal bare benyttes hvis resultatene fra testserie 6
 (d) i del I av FNs testmanual har vist at enhver farlig virkning i
 forbindelse med fungering er begrenset til innsiden av kolliet.
 
-348
+.. _SP348:
+
+``348``
 
 Litiumbatterier produsert etter 31. desember 2011 og natriumionbatterier
 produsert etter 31. desember 2025, skal være merket med wattime-ytelsen
 på utsiden av batteriet.
 
-349
+.. _SP349:
+
+``349``
 
 Blandinger av ett hypokloritt og ett ammoniumsalt får ikke mottas for
 transport. UN 1791 hypoklorittløsning er stoff i klasse 8.
 
-350
+.. _SP350:
+
+``350``
 
 Ammoniumbromat og dets vannholdige løsninger og blandinger av ett bromat
 og ett ammoniumsalt får ikke mottas for transport.
 
-351
+.. _SP351:
+
+``351``
 
 Ammoniumklorat og dets vannholdige løsninger og blandinger av ett klorat
 og ett ammoniumsalt får ikke mottas for transport.
 
-352
+.. _SP352:
+
+``352``
 
 Ammoniumkloritt og dets vannholdige løsninger og blandinger av ett
 kloritt og ett ammoniumsalt får ikke mottas for transport.
 
-353
+.. _SP353:
+
+``353``
 
 Ammoniumpermanganat og dets vannholdige løsninger og blandinger av ett
 permanganat og ett ammoniumsalt får ikke mottas for transport.
 
-354
+.. _SP354:
+
+``354``
 
 Dette stoffet er giftig ved innånding.
 
-355
+.. _SP355:
+
+``355``
 
 Oksygenflasker til bruk i nødssituasjoner som blir transportert under
 denne oppføringen kan inkludere installerte utløsningspatroner
@@ -1688,7 +2023,9 @@ oksygenflaske. Flasker med installerte utløsningspatroner som er
 klargjort for transport skal ha en effektiv beskyttelse mot utilsiktet
 aktivering.
 
-356
+.. _SP356:
+
+``356``
 
 Metallhydridlagringssystemer beregnet for å installeres i kjøretøy,
 vogner, fartøyer, maskiner, motorer eller fly, skal være godkjent av
@@ -1701,28 +2038,36 @@ godkjent av vedkommende myndighet i produksjonslandet\ :sup:`1` eller så
 skal en kopi av godkjenningen til vedkommende myndighet i
 produksjonslandet [1]_ følge hver forsendelse.
 
-357
+.. _SP357:
+
+``357``
 
 Petroleumsråolje som inneholder hydrogensulfid i tilstrekkelig
 konsentrasjon til at dampen som utvikles fra råoljen kan utgjøre en fare
 ved innånding skal forsendes under oppføringen UN 3494 PETROLEUM SUR
 RÅOLJE, BRANNFARLIG, GIFTIG.
 
-358
+.. _SP358:
+
+``358``
 
 Nitroglyserinløsning i alkohol med mer enn 1 % men ikke over 5 %
 nitroglyserin kan klassifiseres i klasse 3 og tilordnes UN 3064 under
 forutsetning av at alle kravene i emballeringsbestemmelse P 300 i
 4.1.4.1 er overholdt.
 
-359
+.. _SP359:
+
+``359``
 
 Nitroglyserinløsning i alkohol med mer enn 1 % men ikke over 5 %
 nitroglyserin skal klassifiseres i klasse 1 og tilordnes UN 0144 hvis
 ikke alle kravene i emballeringsbestemmelse P 300 i 4.1.4.1 er
 overholdt.
 
-360
+.. _SP360:
+
+``360``
 
 | Kjøretøy som kun er drevet med litiummetallbatterier,
   litiumionbatterier eller natriumionbatterier skal tilordnes
@@ -1735,7 +2080,9 @@ overholdt.
 | INSTALLERT I LASTEENHETER litiumionbatterier eller
   litiummetallbatterier.
 
-361
+.. _SP361:
+
+``361``
 
 Denne oppføringen gjelder for dobbeltlags elektriske kondensatorer med
 energilagringskapasitet større enn 0,3 Wh. Kondensatorer med
@@ -1806,11 +2153,15 @@ beskyttelse av utstyret som inneholder dem.
 restspenning (f.eks. asymmetriske kondensatorer) omfattes ikke av denne
 posisjonen.
 
-362
+.. _SP362:
+
+``362``
 
 (Reservert)
 
-363
+.. _SP363:
+
+``363``
 
 Denne posisjonen kan bare brukes når betingelsene i denne spesielle
 bestemmelsen er oppfylt. Ingen andre krav i ADR/RID gjelder.
@@ -1942,24 +2293,32 @@ tunnelrestriksjonene i samsvar med 8.6.4 gjelder.
 
 m) Kravene oppgitt i emballeringsbestemmelse P005 i 4.1.4.1 skal følges.
 
-364
+.. _SP364:
+
+``364``
 
 Denne gjenstanden får bare transporteres under bestemmelsene i kapittel
 3.4 dersom kolliet, slik det leveres for transport, er i stand til å
 bestå prøven i henhold til prøveserie 6(d) i del 1 av UN testmanualen,
 avgjort av vedkommende myndighet.
 
-365
+.. _SP365:
+
+``365``
 
 For tilvirkede instrumenter og gjenstander som inneholder kvikksølv
 eller gallium, se UN 3506 eller 3554, som relevant.
 
-366
+.. _SP366:
+
+``366``
 
 Tilvirkede instrumenter og gjenstander som ikke inneholder mer enn 1 kg
 kvikksølv eller gallium er ikke underlagt ADR/RID.
 
-367
+.. _SP367:
+
+``367``
 
 Angående dokumentasjon:
 
@@ -1978,12 +2337,16 @@ og «malingsrelatert stoff, brannfarlig, etsende» i samme kolli; og
 kolli som inneholder «trykkfarge» og «trykkfargerelatert stoff» i samme
 kolli.
 
-368
+.. _SP368:
+
+``368``
 
 Når man har ikke spaltbart eller unntatt spaltbart uranheksafluorid,
 skal materialet klassifiseres under UN 3507 eller UN 2978.
 
-369
+.. _SP369:
+
+``369``
 
 I samsvar med 2.1.3.5.3 (a) er dette radioaktive materialet i et
 unntakskolli i besittelse av giftige og etsende egenskaper klassifisert
@@ -1999,7 +2362,9 @@ klasse 6.1 med en etsende tilleggsfare, gjelder bestemmelsene i 5.1.3.2,
 
 Fareseddel for klasse 7 kreves ikke.
 
-370
+.. _SP370:
+
+``370``
 
 Denne posisjonen gjelder bare for ammoniumnitrat som oppfyller ett av de
 følgende kriteriene:
@@ -2019,7 +2384,9 @@ et eksisterende varenavn i tabell A i kapittel 3.2, inkludert
 ammoniumnitrat blandet med diesel (ANFO) eller en av de kommersielle
 typene av ammoniumnitrat.
 
-371
+.. _SP371:
+
+``371``
 
 (1) Denne oppføringen gjelder også for gjenstander som inneholder en
 liten trykkbeholder med en utløsningsinnretning. Slike gjenstander skal
@@ -2064,7 +2431,9 @@ i serier er tilvirket i god kvalitet, samsvarer med konstruksjonstypen
 og er i stand til å innfri kravene i (1). Produsenten skal framlegge
 slik informasjon for vedkommende myndighet på forespørsel.
 
-372
+.. _SP372:
+
+``372``
 
 Denne oppføringen gjelder for asymmetriske kondensatorer med en
 energilagringskapasitet større enn 0,3 Wh. Kondensatorer med en
@@ -2130,7 +2499,9 @@ elektrolytt i klasse 8 skal, uavhengig av bestemmelsene i denne
 spesielle bestemmelsen, transporteres som UN 2795 AKKUMULATORER, VÅTE,
 FYLT MED ALKALI, for lagring av elektrisitet.
 
-373
+.. _SP373:
+
+``373``
 
 Nøytrondetektorer som inneholder bortrifluoridgass som ikke er trykksatt
 kan transporteres under denne oppføringen forutsatt at følgende
@@ -2195,11 +2566,15 @@ emballert i samsvar med paragraf (b). Detektorsystemer som inneholder
 slike detektorer er ikke underlagt ADR/RID forutsatt at de er emballert
 i henhold til paragraf (c).
 
-374
+.. _SP374:
+
+``374``
 
 (Reservert)
 
-375
+.. _SP375:
+
+``375``
 
 Disse stoffene er, når de transporteres i enkel eller sammensatt
 emballasje som inneholder en nettomengde per enkel emballasje eller
@@ -2209,7 +2584,9 @@ mindre for faste stoffer, ikke underlagt noen andre bestemmelser i
 ADR/RID forutsatt at emballasjen oppfyller de alminnelige bestemmelsene
 i 4.1.1.1, 4.1.1.2, og 4.1.1.4 til 4.1.1.8.
 
-376
+.. _SP376:
+
+``376``
 
 Celler og batterier av litiummetall, litiumion eller natriumion, som er
 påvist å være skadede eller defekte slik at de ikke samsvarer med typen
@@ -2282,7 +2659,9 @@ samsvar med spesiell bestemmelse 376».
 Dersom det kommer til anvendelse, skal en kopi av godkjenningen fra
 vedkommende myndighet ledsage transporten.
 
-377
+.. _SP377:
+
+``377``
 
 Celler og batterier av litiummetall, litiumion eller natriumion, samt
 utstyr som inneholder slike celler og batterier, som transporteres for
@@ -2300,7 +2679,9 @@ eller «NATRIUMIONBATTERIER TIL GJENVINNING», som hensiktsmessig.
 Påviste skadede og defekte batterier skal transporteres i henhold til
 spesiell bestemmelse 376.
 
-378
+.. _SP378:
+
+``378``
 
 Strålingsdetektorer som inneholder denne gassen i ikke-refyllbare
 trykkbeholdere som ikke oppfyller kravene i kapittel 6.2 og
@@ -2339,7 +2720,9 @@ er ikke underlagt andre bestemmelser i ADR/RID dersom detektorene
 oppfyller kravene i (a) til (f) ovenfor, og kapasiteten på
 detektorbeholderne ikke overstiger 50 ml.
 
-379
+.. _SP379:
+
+``379``
 
 Vannfri ammoniakk absorbert eller adsorbert på et fast stoff i
 ammoniakkdispensersystemer, eller beholdere som er beregnet for å
@@ -2391,15 +2774,21 @@ kapasitet, ved å øke temperaturen inntil spesifisert trykk er oppnådd.
 Prøveresultatene skal dokumenteres, være sporbare og kommuniseres til
 relevante myndigheter på forespørsel.
 
-380
+.. _SP380:
+
+``380``
 
 (Reservert)
 
-381
+.. _SP381:
+
+``381``
 
 (Reservert)
 
-382
+.. _SP382:
+
+``382``
 
 Polymerkuler kan være laget av polystyren, poly(metylmetakrylat) eller
 annet polymerisk materiale. Når det kan påvises at ingen brannfarlig
@@ -2410,22 +2799,30 @@ trenger ikke ekspanderbare polymerkuler å klassifiseres under dette
 UN-nummeret. Denne testen bør kun utføres ved vurdering av om et stoff
 ikke lenger skal klassifiseres som farlig gods.
 
-383
+.. _SP383:
+
+``383``
 
 Bordtennisballer tilvirket av celluloid er ikke underlagt bestemmelsene
 i ADR/RID når nettomassen av hver enkelt bordtennisball ikke overstiger
 3,0 g, og total netto masse av bordtennisballer ikke overstiger 500 g
 per kolli.
 
-384
+.. _SP384:
+
+``384``
 
 (Reservert)
 
-385
+.. _SP385:
+
+``385``
 
 (Slettet)
 
-386
+.. _SP386:
+
+``386``
 
 RID: Stoffer stabilisert ved temperaturkontroll er ikke tillatt å
 transportere på jernbane.
@@ -2453,7 +2850,9 @@ stabilisatoren, aktuelle driftsmessige kontroller pålagt i regelverk
 transporteres ved temperaturer over utendørstemperaturen), og eventuelle
 andre faktorer.
 
-387
+.. _SP387:
+
+``387``
 
 Litiumbatterier i overensstemmelse med 2.2.9.1.7.1 (f) inneholdende både
 primære litiummetallceller og oppladbare litiumionceller skal tilordnes
@@ -2463,7 +2862,9 @@ litiuminnholdet til alle litiummetallcellene i batteriet ikke overstige
 1,5 g og den totale kapasiteten til alle litiumioncellene i batteriet
 skal ikke overstige 10 Wh.
 
-388
+.. _SP388:
+
+``388``
 
 Oppføringene under UN nr. 3166 gjelder for kjøretøyer med interne
 forbrenningsmotorer eller brenselceller, forsynt av brannfarlige væsker
@@ -2541,7 +2942,9 @@ Dersom et litiumbatteri installert i et kjøretøy er skadet eller defekt,
 skal kjøretøyet transporteres i samsvar med betingelsene definert i
 spesiell bestemmelse 667 (c).
 
-389
+.. _SP389:
+
+``389``
 
 Denne oppføringen gjelder bare for litiumionbatterier eller
 litiummetallbatterier installert i lasteenheter («cargo transport
@@ -2567,7 +2970,9 @@ faresedler. Lasteenheten skal ha oransje skilt i samsvar med 5.3.2.2 og
 store faresedler i samsvar med 5.3.1.1 på to motstående sider (ADR:
 unntatt når bestemt i 1.1.3.6).
 
-390
+.. _SP390:
+
+``390``
 
 Når et kolli inneholder en kombinasjon av litiumbatterier innmontert i
 utstyr og litiumbatterier pakket med utstyr, gjelder følgende krav for
@@ -2587,11 +2992,15 @@ utstyr, skal transportdokumentet oppgi både «UN 3091 LITIUM METALL
 BATTERIER PAKKET MED UTSTYR» og «UN 3481 LITIUM ION BATTERIER PAKKET MED
 UTSTYR».
 
-391
+.. _SP391:
+
+``391``
 
 (Reservert)
 
-392
+.. _SP392:
+
+``392``
 
 Ved transport av beholdersystemer for gassdrivstoff som er designet og
 godkjent for å bli montert i motorkjøretøyer, og som inneholder denne
@@ -2755,23 +3164,31 @@ Eksempel 2: «UN 1965 HYDROKARBON GASSBLANDING, FLYTENDE, N.O.S., 2.1, 3
 beholdersystemer for gassdrivstoff, hver med 15 kr netto masse med
 gass».
 
-393
+.. _SP393:
+
+``393``
 
 Nitrocellulosen skal tilfredsstille kriteriene i «Bergmann-Junk test»
 eller «methyl violet paper test» i UN Testmanualen, vedlegg 10. Prøver
 av type 3 (c) behøver ikke å utføres.
 
-394
+.. _SP394:
+
+``394``
 
 Nitrocellulosen skal tilfredsstille kriteriene i «Bergmann-Junk test»
 eller «methyl violet paper test» i UN Testmanualen, vedlegg 10.
 
-395
+.. _SP395:
+
+``395``
 
 Denne posisjonen skal bare benyttes for kategori A medisinsk avfall i
 fast form transportert for avhending.
 
-396
+.. _SP396:
+
+``396``
 
 Store og robuste gjenstander kan transporteres med tilkoblede
 gassflasker som har åpne ventiler uavhengig av 4.1.6.5 forutsatt at:
@@ -2798,7 +3215,9 @@ f) lasteenheter som inneholder gjenstander som transporteres sammen med
 gassflasker med åpne ventiler som inneholder en gass med fare for
 kvelning, er godt ventilert og merket i samsvar med 5.5.3.6.
 
-397
+.. _SP397:
+
+``397``
 
 Blandinger av nitrogen og oksygen med minst 19,5 % og høyst 23.5 %
 oksygen i volum kan transporteres under denne posisjonen dersom ingen
@@ -2806,7 +3225,9 @@ andre oksiderende gasser er til stede. En klasse 5.1 fareseddel for
 sekundærfare (modell nr. 5.1, se 5.2.2.2.2) er ikke påkrevd for
 konsentrasjoner innenfor disse grenseverdiene.
 
-398
+.. _SP398:
+
+``398``
 
 Denne posisjonen gjelder for blandinger av butylener,1-butylen,
 cis-2-butylen og trans-2 butylen. For isobutylen, se UN-nr. 1055.
@@ -2814,11 +3235,15 @@ cis-2-butylen og trans-2 butylen. For isobutylen, se UN-nr. 1055.
 **ANM:** for tilleggsinformasjon som skal legges til i
 transportdokumentet, se 5.4.1.2.2 (e).
 
-399
+.. _SP399:
+
+``399``
 
 (Reservert)
 
-400
+.. _SP400:
+
+``400``
 
 Natriumionceller og natriumionbatterier og natriumionceller og
 natriumionbatterier som er innmontert i, eller emballert med, utstyr,
@@ -2853,7 +3278,9 @@ farlig gods som er tillatt transportert i samsvar med bestemmelsene i
 kapittel 3.4, og i mengder som ikke overstiger de som er spesifisert i
 kolonne (7a) av tabell A i kapittel 3.2.
 
-401
+.. _SP401:
+
+``401``
 
 Natriumionceller og natriumionbatterier med organisk elektrolytt skal
 transporteres som UN 3551 eller 3552, som relevant. Natriumionceller og
@@ -2861,13 +3288,17 @@ natriumionbatterier med vandig alkalielektrolytt skal transporteres som
 UN 2795. Batterier med metallisk natrium eller natriumlegering skal
 transporteres som UN 3292.
 
-402
+.. _SP402:
+
+``402``
 
 Stoffers som transporteres under denne oppføringen skal ha et damptrykk
 ved 70 ºC som ikke overstiger 1.1 MPa (11 bar) og en tetthet ved 50 ºC
 som ikke er lavere enn 0,525 kg/l.
 
-403
+.. _SP403:
+
+``403``
 
 Nitrocellulose membranfiltre dekket av denne oppføringen, med et
 nitrocelluloseinnhold som ikke overstiger 53 g/m\ :sup:`2` og 300 g
@@ -2892,7 +3323,9 @@ iii Runde filtre emballert i diskholdere eller pappemballasje på minimum
 250 g/m\ :sup:`2` eller enkeltpakket i poser av papir og plastmateriale
 på minimum 100 g/m\ :sup:`2` totalt.
 
-404
+.. _SP404:
+
+``404``
 
 Kjøretøyer drevet av natriumionbatterier som ikke inneholder annet
 farlig gods, er ikke underlagt andre bestemmelser i ADR/RID hvis
@@ -2900,11 +3333,15 @@ batteriet er kortsluttet på en slik måte at batteriet ikke inneholder
 elektrisk energi. Kortslutningen av batteriet skal være lett å
 identifisere (for eksempel en samleskinne mellom batteripolene).
 
-405
+.. _SP405:
+
+``405``
 
 (Reservert)
 
-406
+.. _SP406:
+
+``406``
 
 Stoffer under denne oppføringen kan transporteres i samsvar med
 bestemmelsene for begrensede mengder i kapittel 3.4 når de transporteres
@@ -2914,7 +3351,9 @@ produkt av kapasitet og prøvetrykk som ikke overstiger 15.2 Mpa . l (152
 bar . l). Trykkbeholderne skal ikke være emballert sammen med annet
 farlig gods.
 
-407
+.. _SP407:
+
+``407``
 
 Utløsere for slokkemiddel er gjenstander som inneholder et pyroteknisk
 stoff som er beregnet på å spre et brannslokkemiddel når det aktiveres,
@@ -2946,7 +3385,9 @@ myndighet i tilvirkningslandet. [3]_
 Denne oppføringen gjelder ikke for «SIKKERHETSUTSTYR, elektrisk
 initiert» beskrevet i spesiell bestemmelse 280 (UN 3268).
 
-408
+.. _SP408:
+
+``408``
 
 Denne oppføringen gjelder bare vandige løsninger bestående av vann,
 tetrametylammoniumhydroksid (TMAH), og ikke mer enn 1 % av andre
@@ -2969,73 +3410,101 @@ GIFTIG VÆSKE, ETSENDE, ORGANISK, N.O.S., PG II.
 
 (Reservert)
 
-500
+.. _SP500:
+
+``500``
 
 (Slettet)
 
-501
+.. _SP501:
+
+``501``
 
 For naftalen, smeltet se UN-nr. 2304.
 
-502
+.. _SP502:
+
+``502``
 
 UN 2006 plast, nitrocellulosebasert, selvopphetende, n.o.s, og UN 2002
 celluloidavfall er stoffer av klasse 4.2.
 
-503
+.. _SP503:
+
+``503``
 
 For fosfor, hvitt, smeltet, se UN-nr. 2447.
 
-504
+.. _SP504:
+
+``504``
 
 UN 1847 kaliumsulfid, hydrat med ikke under 30 % krystallvann, UN 1849
 natriumsulfid, hydrat med ikke under 30 % krystallvann og UN 2949
 natriumhydrogensulfid hydratisert med ikke under 25 % krystallvann er
 stoffer av klasse 8.
 
-505
+.. _SP505:
+
+``505``
 
 UN 2004 magnesiumdiamid er stoff av klasse 4.2.
 
-506
+.. _SP506:
+
+``506``
 
 Jordalkalimetaller og legeringer av jordalkalimetaller i selvantennende
 form er stoffer av klasse 4.2. UN 1869 magnesium eller
 magnesiumlegeringer som inneholder mer enn 50 % magnesium i form av
 pellets, spon eller bånd, er stoffer av klasse 4.1.
 
-507
+.. _SP507:
+
+``507``
 
 UN 3048 aluminiumfosfid bekjempningsmidler med tilsetninger som hindrer
 at det avgis giftige, brannfarlige gasser, er stoffer av klasse 6.1.
 
-508
+.. _SP508:
+
+``508``
 
 UN 1871 titanhydrid og UN 1437 zirkoniumhydrid er stoffer av klasse 4.1.
 UN 2870 Aluminiumborhydrid er stoff av klasse 4.2.
 
-509
+.. _SP509:
+
+``509``
 
 UN 1908 Klorittløsning er stoff av klasse 8.
 
-510
+.. _SP510:
+
+``510``
 
 UN 1755 Kromsyreløsning er stoff av klasse 8.
 
-511
+.. _SP511:
+
+``511``
 
 UN 1625 Kvikksølv(II)nitrat, UN 1627 kvikksølv(I)nitrat og UN 2727
 thalliumnitrat er stoffer av klasse 6.1. Toriumnitrat i fast form,
 uranylnitratheksahydratløsning og uranylnitrat i fast form er stoffer av
 klasse 7.
 
-512
+.. _SP512:
+
+``512``
 
 UN 1730 Antimonpentaklorid, flytende, UN 1731 antimonpentakloridløsning,
 UN 1732 antimonpentafluorid og UN 1733 antimontriklorid er stoffer av
 klasse 8.
 
-513
+.. _SP513:
+
+``513``
 
 UN 0224 Bariumazid, tørr eller fuktet med under 50 vektprosent vann er
 stoffer av klasse 1. UN1571 Bariumazid, fuktet med ikke under 50
@@ -3048,44 +3517,62 @@ Bariumkloratløsning og UN 3406 Bariumperkloratløsning er stoffer av
 klasse 5.1. UN 1565 Bariumcyanid og UN 1884 Bariumoksid er stoffer av
 klasse 6.1
 
-514
+.. _SP514:
+
+``514``
 
 UN 2464 Berylliumnitrat er stoff av klasse 5.1.
 
-515
+.. _SP515:
+
+``515``
 
 UN 1581 Klorpikrin og metylbromid blanding og UN 1582 klorpikrin og
 metylklorid blanding er stoffer av klasse 2.
 
-516
+.. _SP516:
+
+``516``
 
 UN 1912 Metylklorid og metylenklorid blanding er stoff av klasse 2.
 
-517
+.. _SP517:
+
+``517``
 
 UN 1690 Natriumfluorid i fast form, UN1812 kaliumfluorid i fast form, UN
 2505 ammoniumfluorid, UN 2674 natriumfluorsilikat og UN 2856
 fluorsilikater, n.o.s, UN 3415 natriumfluoridløsning og UN 3422
 kaliumfluoridløsning er stoffer av klasse 6.1.
 
-518
+.. _SP518:
+
+``518``
 
 UN 1463 Kromtrioksid, vannfri (kromsyre i fast form) er stoff av klasse
 5.1.
 
-519
+.. _SP519:
+
+``519``
 
 UN 1048 hydrogenbromid, vannfri, er stoff av klasse 2.
 
-520
+.. _SP520:
+
+``520``
 
 UN 1050 hydrogenklorid, vannfri, er stoff av klasse 2.
 
-521
+.. _SP521:
+
+``521``
 
 Kloritter og hypokloritter i fast form er stoffer av klasse 5.1
 
-522
+.. _SP522:
+
+``522``
 
 UN 1873 perklorsyre i vannløsning med mer enn 50 masseprosent men ikke
 mer enn 72 masseprosent ren syre er stoffer av klasse 5.1.
@@ -3093,18 +3580,24 @@ Perklorsyreløsninger som inneholder mer enn 72 masseprosent ren syre,
 eller blandinger av perklorsyre med annen væske enn vann, får ikke
 mottas for transport.
 
-523
+.. _SP523:
+
+``523``
 
 UN 1382 vannfri kaliumsulfid og UN 1385 vannfri natriumsulfid og deres
 hydrater med mindre enn 30 % krystallvann, og UN 2318 natriumhydrosulfid
 med mindre enn 25 % krystallvann er stoffer av klasse 4.2.
 
-524
+.. _SP524:
+
+``524``
 
 UN 2858 Zirconiumprodukter med tykkelse 18 mm eller mer er stoffer av
 klasse 4.1.
 
-525
+.. _SP525:
+
+``525``
 
 Løsninger av uorganiske cyanider som totalt inneholder mer enn 30 %
 cyanidioner, skal tilordnes emballasjegruppe I, løsninger som totalt
@@ -3112,31 +3605,43 @@ inneholder mer enn 3 % og ikke mer enn 30 % cyanidioner skal tilordnes
 emballasjegruppe II, og løsninger som totalt inneholder mer enn 0,3 % og
 ikke mer enn 3 % cyanidioner skal tilordnes emballasjegruppe III.
 
-526
+.. _SP526:
+
+``526``
 
 UN 2000 celluloid er tilordnet klasse 4.1.
 
-527
+.. _SP527:
+
+``527``
 
 (Reservert)
 
-528
+.. _SP528:
+
+``528``
 
 UN 1353 fibre eller tekstiler impregnert med svakt nitrert cellulose,
 som ikke er selvopphetende, er stoffer av klasse 4.1.
 
-529
+.. _SP529:
+
+``529``
 
 UN 0135 Kvikksølvfulminat, fuktet med ikke under 20 masseprosent vann,
 eller blanding av alkohol og vann er stoff av klasse 1.
 Kvikksølv(I)klorid (kalomel) er stoff av klasse 6.1 (UN-nr. 2025).
 
-530
+.. _SP530:
+
+``530``
 
 UN 3293 hydrazin, vannløsning med ikke over 37 masseprosent hydrazin er
 stoff av klasse 6.1.
 
-531
+.. _SP531:
+
+``531``
 
 Blandinger som har flammepunkt under 23 °C og som inneholder over 55 %
 nitrocellulose uavhengig av nitrogeninnholdet, eller som inneholder ikke
@@ -3144,116 +3649,160 @@ over 55 % nitrocellulose med nitrogeninnhold over 12,6 % (tørr masse),
 er stoffer av klasse 1 (se UN-nr. 0340 eller 0342) eller av klasse 4.1
 (UN-nr. 2555, 2556 eller 2557).
 
-532
+.. _SP532:
+
+``532``
 
 (Slettet)
 
-533
+.. _SP533:
+
+``533``
 
 UN 1198 Brannfarlige formaldehydløsninger er stoffer av klasse 3.
 Formaldehydløsninger som ikke er brannfarlige, med mindre enn 25 %
 formaldehyd, er ikke underlagt ADR/RID-bestemmelsene.
 
-534
+.. _SP534:
+
+``534``
 
 Selv om bensin under visse klimatiske forhold leveres med damptrykk som
 er høyere enn 110 kPa (1,10 bar) ved 50°C, men ikke høyere enn 150 kPa
 (1,50 bar), skal den fortsatt klassifiseres under denne posisjonen.
 
-535
+.. _SP535:
+
+``535``
 
 UN 1469 blynitrat og UN 1470 blyperklorat i fast form og UN 3408
 blyperkloratløsning er stoffer av klasse 5.1.
 
-536
+.. _SP536:
+
+``536``
 
 For naftalen i fast form, se UN 1334.
 
-537
+.. _SP537:
+
+``537``
 
 Titantriklorid eller UN 2869 titantrikloridblanding, ikke
 selvantennende, er stoff av klasse 8.
 
-538
+.. _SP538:
+
+``538``
 
 For svovel (i fast form), se UN 1350.
 
-539
+.. _SP539:
+
+``539``
 
 Løsninger av isocyanater med flammepunkt ikke under 23 °C er stoffer av
 klasse 6.1.
 
-540
+.. _SP540:
+
+``540``
 
 UN 1326 Hafniumpulver, fuktet, UN 1352 titanpulver, fuktet, eller UN
 1358 zirkoniumpulver, fuktet, med ikke under 25 % vann, er stoffer av
 klasse 4.1.
 
-541
+.. _SP541:
+
+``541``
 
 Nitrocelluloseblandinger med lavere innhold av vann, alkohol eller
 mykningsmiddel enn de angitte grenser, er stoffer av klasse 1.
 
-542
+.. _SP542:
+
+``542``
 
 Talkum som inneholder tremolitt og/eller aktinolitt kommer inn under
 denne posisjonen.
 
-543
+.. _SP543:
+
+``543``
 
 (Slettet)
 
-544
+.. _SP544:
+
+``544``
 
 UN 1032 Dimetylamin, vannfri, UN 1036 etylamin, UN 1061 metylamin,
 vannfri og UN 1083 trimetylamin, vannfri, er stoffer av klasse 2.
 
-545
+.. _SP545:
+
+``545``
 
 UN 0401 Dipicrylsulfid, fuktet, med mindre enn 10 masseprosent vann er
 stoff av klasse 1.
 
-546
+.. _SP546:
+
+``546``
 
 UN 2009 Zirkonium, tørr, bearbeidet til plater, bånd eller trådkveiler
 med tykkelse mindre enn 18 mm, er stoff av klasse 4.2. Zirkonium, tørr,
 bearbeidet til plater, bånd eller trådkveiler med tykkelse 254 mm eller
 mer, er ikke underlagt ADR/RID-bestemmelsene.
 
-547
+.. _SP547:
+
+``547``
 
 UN 2210 Maneb eller UN 2210 manebpreparater i selvopphetende form er
 stoffer av klasse 4.2.
 
-548
+.. _SP548:
+
+``548``
 
 Klorsilaner som avgir brannfarlig gass ved kontakt med vann, er stoffer
 av klasse 4.3.
 
-549
+.. _SP549:
+
+``549``
 
 Klorsilaner med flammepunkt under 23 °C som ikke avgir brannfarlige
 gasser ved kontakt med vann, er stoffer av klasse 3. Klorsilaner med
 flammepunkt 23 °C eller høyere som ikke avgir brannfarlige gasser ved
 kontakt med vann, er stoffer av klasse 8.
 
-550
+.. _SP550:
+
+``550``
 
 UN 1333 Cerium i blokker, staver eller barrer er stoff av klasse 4.1.
 
-551
+.. _SP551:
+
+``551``
 
 Løsninger av disse isocyanatene med flammepunkt under 23 °C er stoffer
 av klasse 3.
 
-552
+.. _SP552:
+
+``552``
 
 Metaller og metallegeringer i pulverform eller annen brannfarlig form
 som kan selvantenne, er stoffer av klasse 4.2. Metaller og
 metallegeringer i pulverform eller annen brannfarlig form som avgir
 brennbare gasser ved kontakt med vann, er stoffer av klasse 4.3.
 
-553
+.. _SP553:
+
+``553``
 
 Denne blandingen av hydrogenperoksid og peroksyedikksyre skal ved
 testing i laboratorium (se UN Testmanualen, Del II, avsnitt 20), hverken
@@ -3266,66 +3815,90 @@ skal være forenlig med peroksyedikksyre. Sammensetninger som ikke møter
 disse kriteriene, skal betraktes som stoffer av klasse 5.2 (se UN
 Testmanualen, Del II, avsnitt 20.4.3(g)).
 
-554
+.. _SP554:
+
+``554``
 
 Metallhydrider som avgir brannfarlig gass i kontakt med vann, er stoffer
 av klasse 4.3. UN 2870 Aluminiumborhydrid eller 2870 aluminiumborhydrid
 i innretninger er stoff av klasse 4.2.
 
-555
+.. _SP555:
+
+``555``
 
 Støv og pulver av metaller i ikke-selvantennende form og ikke giftig,
 men som avgir brannfarlige gasser ved kontakt med vann, er stoffer av
 klasse 4.3.
 
-556
+.. _SP556:
+
+``556``
 
 (Slettet)
 
-557
+.. _SP557:
+
+``557``
 
 Metallstøv og metallpulver i selvantennende form er stoffer av klasse
 4.2.
 
-558
+.. _SP558:
+
+``558``
 
 Metaller og metallegeringer i selvantennende form er stoffer av klasse
 4.2. Metaller og metallegeringer som ikke avgir brannfarlige gasser ved
 kontakt med vann og som ikke er selvantennende eller selvopphetende, men
 som lett antennes, er stoffer av klasse 4.1.
 
-559
+.. _SP559:
+
+``559``
 
 (Slettet)
 
-560
+.. _SP560:
+
+``560``
 
 Oppvarmet væske/flytende stoff, n.o.s, ved eller over 100 °C (inklusiv
 smeltede metaller og smeltede salter), og, for stoff som har ett
 flammepunkt, ved en temperatur under dets flammepunkt, er stoff i klasse
 9 (UN-nr. 3257).
 
-561
+.. _SP561:
+
+``561``
 
 Klorformiater som har overveiende etsende egenskaper, er stoffer av
 klasse 8.
 
-562
+.. _SP562:
+
+``562``
 
 Selvantennende metallorganiske forbindelser er stoffer av klasse 4.2.
 Vannreaktive brannfarlige metallorganiske forbindelser er stoffer av
 klasse 4.3.
 
-563
+.. _SP563:
+
+``563``
 
 UN 1905 Selensyre er stoff av klasse 8.
 
-564
+.. _SP564:
+
+``564``
 
 UN 2443 Vanadiumoksytriklorid, UN 2444 vanadiumtetraklorid og UN 2475
 vanadiumtriklorid er stoffer av klasse 8.
 
-565
+.. _SP565:
+
+``565``
 
 Uspesifisert avfall fra medisinsk eller veterinærmedisinsk behandling av
 mennesker eller dyr eller fra biologisk forskning, som sannsynligvis
@@ -3334,16 +3907,22 @@ Dekontaminert klinisk avfall eller avfall fra biologisk forskning som
 før har inneholdt infeksjonsfremmende stoffer er ikke underlagt
 bestemmelsene for klasse 6.2.
 
-566
+.. _SP566:
+
+``566``
 
 UN 2030 hydrazin i vannløsning med mer enn 37 masseprosent hydrazin, er
 stoffer av klasse 8.
 
-567
+.. _SP567:
+
+``567``
 
 (Slettet)
 
-568
+.. _SP568:
+
+``568``
 
 Bariumazid med vanninnhold under den angitte grensen er stoff av klasse
 1, UN 0224.
@@ -3352,11 +3931,15 @@ Bariumazid med vanninnhold under den angitte grensen er stoff av klasse
 
 (Reservert)
 
-580
+.. _SP580:
+
+``580``
 
 (Slettet)
 
-581
+.. _SP581:
+
+``581``
 
 Denne posisjonen omfatter blandinger av propadien med 1 til 4%
 metylacetylen i tillegg til følgende blandinger:
@@ -3381,7 +3964,9 @@ metylacetylen i tillegg til følgende blandinger:
 | P2** |               |              |                | P2»**       |
 +------+---------------+--------------+----------------+-------------+
 
-582
+.. _SP582:
+
+``582``
 
 Denne oppføringen dekker, blant annet, blandinger av gasser indikert av
 bokstaven R…, med følgende egenskaper:
@@ -3414,7 +3999,9 @@ F3.
 diklorfluormetan (1,30 kr/l), dikloridfluormetan (1,21 kr/l) og
 klordifluormetan (1,09 kr/l).
 
-583
+.. _SP583:
+
+``583``
 
 Denne oppføringen omfatter, blant annet, blandinger av gasser med
 følgende egenskaper:
@@ -3456,7 +4043,9 @@ følgende egenskaper:
 a. Ved transport i tank får handelsnavnene «butan» og «propan» bare
 benyttes som tillegg.
 
-584
+.. _SP584:
+
+``584``
 
 Denne gassen er ikke underlagt bestemmelsene i ADR/RID når:
 
@@ -3471,11 +4060,15 @@ Denne gassen er ikke underlagt bestemmelsene i ADR/RID når:
 – en kapsel inneholder ikke mer enn 0,75 g av denne gassen per
 cm\ :sup:`3` kapasitet.
 
-585
+.. _SP585:
+
+``585``
 
 (Slettet)
 
-586
+.. _SP586:
+
+``586``
 
 Pulver av hafnium, titan og zirkonium skal ha synlig overskudd av vann.
 Fuktet pulver av hafnium, titan og zirkonium som er fremstilt mekanisk
@@ -3483,36 +4076,50 @@ og har partikkelstørrelse 53 mm eller større eller som er fremstilt
 kjemisk og har partikkelstørrelse 840 mm eller større, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-587
+.. _SP587:
+
+``587``
 
 Bariumstearat og bariumtitanat er ikke underlagt ADR/RID-bestemmelsene.
 
-588
+.. _SP588:
+
+``588``
 
 Faste, hydratiserte former av aluminiumbromid og aluminiumklorid er ikke
 underlagt ADR/RID-bestemmelsene.
 
-589
+.. _SP589:
+
+``589``
 
 (Slettet)
 
-590
+.. _SP590:
+
+``590``
 
 Jernkloridheksahydrat er ikke underlagt ADR/RID-bestemmelsene.
 
-591
+.. _SP591:
+
+``591``
 
 Blysulfat med ikke over 3 % fri syre er ikke underlagt
 ADR/RID-bestemmelsene for klasse 8.
 
-592
+.. _SP592:
+
+``592``
 
 Ikke rengjort, tom emballasje (inklusive tomme IBCer og tom
 storemballasje), tomme tankkjøretøyer og -vogner, tomme løstanker, tomme
 tankcontainere, tomme multimodale tanker og tomme småcontainere som har
 inneholdt dette stoffet, er ikke underlagt ADR/RID-bestemmelsene.
 
-593
+.. _SP593:
+
+``593``
 
 Denne gassen, når den brukes for kjøling av gods som ikke oppfyller
 kriteriene for noen klasse, f.eks. medisinske eller biologiske prøver,
@@ -3521,7 +4128,9 @@ med bestemmelsene i emballeringsbestemmelse P203, paragraf (6) for åpne
 beholdere for nedkjølt gass i 4.1.4.1, er ikke underlagt bestemmelsene i
 ADR/RID bortsett fra det som angis i 5.5.3.
 
-594
+.. _SP594:
+
+``594``
 
 Følgende gjenstander, tilvirket og fylt i henhold til bestemmelsene som
 gjelder i tilvirkningslandet, er ikke underlagt kravene i ADR/RID:
@@ -3543,18 +4152,24 @@ utførelse, når de er emballert i en solid ytteremballasje.
 bestemmelsene som gjelder i landet hvor de er tilvirket eller
 bestemmelsene som gjelder i landet hvor de blir brukt.
 
-596
+.. _SP596:
+
+``596``
 
 Kadmiumpigmenter, som kadmiumsulfider, kadmiumsulfoselenider og
 kadmiumsalter av høyere fettsyrer (f.eks. kadmiumstearat) er ikke
 underlagt ADR/RID-bestemmelsene.
 
-597
+.. _SP597:
+
+``597``
 
 Eddikksyreløsninger med ikke over 10 masseprosent ren syre er ikke
 underlagt ADR/RID-bestemmelsene.
 
-598
+.. _SP598:
+
+``598``
 
 Følgende er ikke underlagt ADR/RID-bestemmelsene:
 
@@ -3585,28 +4200,38 @@ av gjenstandene;
 «Brukte akkumulatorbatterier» betyr akkumulatorbatterier som
 transporteres for gjenvinning etter at deres normale brukstid er slutt.
 
-599
+.. _SP599:
+
+``599``
 
 (Slettet)
 
-600
+.. _SP600:
+
+``600``
 
 Vanadiumpentoksid, smeltet og størknet, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-601
+.. _SP601:
+
+``601``
 
 Bruksklare farmasøytiske produkter (legemidler), som er stoffer
 fremstilt og pakket i emballasje egnet for detaljsalg eller distribusjon
 til personlig bruk eller husholdningsbruk, er ikke underlagt
 ADR/RID-bestemmelsene.
 
-602
+.. _SP602:
+
+``602``
 
 Fosforsulfider som ikke er fri for gult og hvitt fosfor, får ikke mottas
 for transport.
 
-603
+.. _SP603:
+
+``603``
 
 Vannfri hydrogencyanid som ikke svarer til beskrivelsen for UN 1051
 eller UN 1614, får ikke mottas for transport. Hydrogencyanid (blåsyre)
@@ -3617,62 +4242,86 @@ og væsken er klar og fargeløs.
 
 (Slettet)
 
-607
+.. _SP607:
+
+``607``
 
 Blandinger av kaliumnitrat og natriumnitritt med et ammoniumsalt får
 ikke mottas for transport.
 
-608
+.. _SP608:
+
+``608``
 
 (Slettet)
 
-609
+.. _SP609:
+
+``609``
 
 Tetranitrometan som ikke er fri for brennbare forurensninger, får ikke
 mottas for transport.
 
-610
+.. _SP610:
+
+``610``
 
 Transport av dette stoffet når det inneholder mer enn 45 %
 hydrogencyanid, er forbudt.
 
-611
+.. _SP611:
+
+``611``
 
 Ammoniumnitrat som inneholder mer enn 0,2 % brennbare stoffer (inklusive
 eventuelle organiske stoffer beregnet som karbon) får ikke mottas for
 transport med mindre det inngår i et stoff eller en gjenstand av klasse
 1.
 
-612
+.. _SP612:
+
+``612``
 
 (Reservert)
 
-613
+.. _SP613:
+
+``613``
 
 Klorsyreløsning som inneholder mer enn 10 % klorsyre samt blandinger av
 klorsyre med annen væske enn vann, får ikke mottas for transport.
 
-614
+.. _SP614:
+
+``614``
 
 2,3,7,8-tetraklordibenzo-p-dioxin (TCDD) i konsentrasjoner som betraktes
 som meget giftige i henhold til kriteriene i 2.2.61.1, får ikke mottas
 for transport.
 
-615
+.. _SP615:
+
+``615``
 
 (Reservert)
 
-616
+.. _SP616:
+
+``616``
 
 Stoffer som inneholder over 40 % flytende nitrerte estere, skal
 tilfredsstille utsvettingsprøven i 2.3.1.
 
-617
+.. _SP617:
+
+``617``
 
 I tillegg til eksplosivtypen skal handelsnavnet for angjeldende
 eksplosiv angis på kolliet.
 
-618
+.. _SP618:
+
+``618``
 
 I beholdere som inneholder 1,2-butadien, skal konsentrasjonen av oksygen
 i gassfasen ikke overstige 50 ml/m\ :sup:`3`.
@@ -3681,7 +4330,9 @@ i gassfasen ikke overstige 50 ml/m\ :sup:`3`.
 
 (Reservert)
 
-623
+.. _SP623:
+
+``623``
 
 UN 1829 Svoveltrioksid skal være inaktivert. Svoveltrioksid med renhet
 99,95 % eller renere får transporteres i tanker uten at det er
@@ -3691,7 +4342,9 @@ minstetemperatur 32,5 °C, skal transportdokumentet ha følgende
 påtegning: **«Minstetemperatur for produktet under transporten:
 32,5 °C»**
 
-625
+.. _SP625:
+
+``625``
 
 Kolli som inneholder disse gjenstandene, skal tydelig merkes som følger:
 **«UN 1950 AEROSOLER»**
@@ -3700,11 +4353,15 @@ Kolli som inneholder disse gjenstandene, skal tydelig merkes som følger:
 
 (Reservert)
 
-632
+.. _SP632:
+
+``632``
 
 Betraktes som selvantennende (pyrofort).
 
-633
+.. _SP633:
+
+``633``
 
 Kolli og småcontainere som inneholder disse stoffene skal være merket:
 **«Holdes vekk fra tennkilder».** Merkingen skal være på et offisielt
@@ -3712,18 +4369,24 @@ språk i avsenderlandet og dessuten, om dette ikke er engelsk, fransk
 eller tysk, på engelsk, fransk eller tysk med mindre annet er avtalt
 mellom de land som berøres av transporten.
 
-634
+.. _SP634:
+
+``634``
 
 (Slettet)
 
-635
+.. _SP635:
+
+``635``
 
 Kolli som inneholder slike gjenstander skal ikke være merket med
 fareseddel nr. 9 med mindre gjenstanden er fullstendig omsluttet av
 emballasje, kasse eller annet som hindrer at det er umiddelbart synlig
 hva slags gjenstand det dreier seg om.
 
-636
+.. _SP636:
+
+``636``
 
 Litiumceller og batterier eller natriumionceller og batterier med en
 bruttomasse på ikke mer enn 500 g hver, litiumionceller eller
@@ -3755,7 +4418,9 @@ c) Kolli er merket med «LITIUMBATTERIER TIL KASSERING», «LITIUMBATTERIER
 TIL GJENVINNING», «NATRIUMIONBATTERIER TIL KASSERING» eller
 «NATRIUMIONBATTERIER TIL GJENVINNING», som relevant.
 
-637
+.. _SP637:
+
+``637``
 
 Genmodifiserte mikroorganismer og genmodifiserte organismer er
 organismer som ikke er farlige for mennesker og dyr, men som kunne
@@ -3773,15 +4438,21 @@ Ved transport av lett bedervelige stoffer under dette UN-nummeret skal
 det gis relevant informasjon, f.eks: «Holdes kjølig, +2 °/+4 °C» eller
 «Transporteres i frossen tilstand» eller «Tåler ikke frost».
 
-638
+.. _SP638:
+
+``638``
 
 Stoffer relatert til selv-reaktive stoffer (se 2.2.41.1.19).
 
-639
+.. _SP639:
+
+``639``
 
 Se 2.2.2.3 klassifiseringskode 2F, UN 1965, ANM 2.
 
-640
+.. _SP640:
+
+``640``
 
 De fysiske og tekniske egenskapene nevnt i kolonne 2 i tabell A i kap.
 3.2, avgjør de forskjellige tankkoder for transport av stoffer i samme
@@ -3799,23 +4470,31 @@ Denne teksten kan sløyfes når transporten foregår i en tank som, for
 stoffer av en spesiell emballeringsgruppe under et spesifikt UN-nummer,
 oppfyller minst de strengeste krav som er stillet.
 
-642
+.. _SP642:
+
+``642``
 
 Med unntak av tillatelse i henhold til 1.1.4.2, skal denne posisjonen
 fra FNs regelverksmal ikke benyttes for gjødsel, ammoniakkdunstende med
 fri ammoniakk. For øvrig, for transport av ammoniakkløsning, se UN-nr.
 2073, 2672 og 3318.
 
-643
+.. _SP643:
+
+``643``
 
 Asfalt som inneholder grus eller pukk er ikke underlagt bestemmelsene
 for klasse 9.
 
-644
+.. _SP644:
+
+``644``
 
 (Slettet)
 
-645
+.. _SP645:
+
+``645``
 
 Klassifiseringskoden angitt i kolonne (3b) i tabell A i kapittel 3.2 kan
 kun benyttes med godkjenning av vedkommende myndighet i en
@@ -3828,11 +4507,15 @@ vedkommende myndighet forlange at klassifiseringen verifiseres på
 bakgrunn av resultater fra gjennomførte prøver i henhold til Testserie 6
 i UN Testmanualen, Del 1, seksjon 16.
 
-646
+.. _SP646:
+
+``646``
 
 Vanndampaktivert kull er ikke underlagt ADR/RID.
 
-647
+.. _SP647:
+
+``647``
 
 Transport av vineddik og eddiksyre med ikke over 25 masseprosent ren
 eddiksyre er kun underlagt følgende bestemmelser:
@@ -3864,17 +4547,23 @@ alminnelige bestemmelser om emballering i 4.1.1.1, 4.1.1.2, 4.1.1.4,
 
 Øvrige bestemmelser i ADR/RID gjelder ikke.
 
-648
+.. _SP648:
+
+``648``
 
 Gjenstander impregnert med dette bekjempningsmidlet, slik som
 trefiberplater, papirstrimler, bomullsdotter, plastplater, plassert i
 lufttette forpakninger er ikke underlagt ADR/RID.
 
-649
+.. _SP649:
+
+``649``
 
 (Slettet)
 
-650
+.. _SP650:
+
+``650``
 
 Avfall som består av emballasjerester for maling samt størknede og
 flytende malingrester kan transporteres etter betingelsene for UN 1263,
@@ -3921,13 +4610,17 @@ bestemmelse, skal godset deklareres i transportdokumentet i samsvar med
 «UN 3082 AVFALL MILJØFARLIG STOFF, FLYTENDE, N.O.S. (MALING), 9, PG III,
 (-)».
 
-651
+.. _SP651:
+
+``651``
 
 ADR: Spesiell bestemmelse «V2 (1)» gjelder ikke hvis netto eksplosiv
 masse per transportenhet er 4000 kr eller mindre, og netto eksplosiv
 masse per kjøretøy ikke overstiger 3000 kr.
 
-652
+.. _SP652:
+
+``652``
 
 ADR: Beholdere av austenittisk rustfritt stål, ferittisk-austenittisk
 stål (Duplex) og sveist titan og som ikke tilfredsstiller bestemmelsene
@@ -3974,11 +4667,15 @@ angir at den bare er for bruk i varmluftsballonger og luftskip;
 h) Varigheten av bruken (fra førstegangs inspeksjon) skal ikke overstige
 25 år.
 
-653
+.. _SP653:
+
+``653``
 
 (Slettet)
 
-654
+.. _SP654:
+
+``654``
 
 Brukte lightere som er separat innsamlet og sendt i henhold til
 5.4.1.1.3.1 kan transporteres under denne oppføringen for
@@ -4012,7 +4709,9 @@ redningsemballasje, forutsatt at tilstrekkelige tiltak er iverksatt for
 PP84 og RR5 til emballeringsbestemmelse P002 i 4.1.4.1 gjelder ikke
 brukte lightere.
 
-655
+.. _SP655:
+
+``655``
 
 Flasker som er utført, tilvirket, godkjent og merket i overensstemmelse
 med direktiv 97/23/EC [5]_ eller direktiv 2014/68/EU [6]_ og som brukes
@@ -4023,17 +4722,23 @@ emballeringsbestemmelse P200 i 4.1.4.1 ikke overskrides. Trykket som
 brukes til den hydrauliske trykkprøven er det trykket som flasken er
 merket med i henhold til direktiv 97/23/EC eller 2014/68/EU.
 
-656
+.. _SP656:
+
+``656``
 
 (Slettet)
 
-657
+.. _SP657:
+
+``657``
 
 Denne oppføringen skal kun benyttes for teknisk rent stoff; for
 blandinger av LPG-komponenter, se UN 1965 eller se UN 1075 i sammenheng
 med ANM 2 til 2.2.2.3.
 
-658
+.. _SP658:
+
+``658``
 
 UN-nr. 1057 LIGHTERE som samsvarer med standard EN ISO 9994:2019
 «Lighters – Safety Specification» og UN-nr. 1057 LIGHTER REFILLER, kan
@@ -4050,7 +4755,9 @@ kjøretøy/en vogn eller storcontainer; og
 c) Hver ytteremballasje er tydelig og varig merket med «UN 1057
 LIGHTERE» eller «UN 1057 LIGHTER-REFILLER», som relevant.
 
-659
+.. _SP659:
+
+``659``
 
 Stoffer som PP86 eller TP7 er tilordnet til i kolonne (9a) og kolonne
 (11) i tabell A i kapittel 3.2, og derfor må ha luft eliminert fra
@@ -4060,15 +4767,21 @@ kapittel 3.2.
 
 **ANM:** Se også 2.2.2.1.7
 
-660
+.. _SP660:
+
+``660``
 
 (Slettet)
 
-661
+.. _SP661:
+
+``661``
 
 (Slettet)
 
-662
+.. _SP662:
+
+``662``
 
 Gassflasker som ikke oppfyller bestemmelsene i kapittel 6.2, og som kun
 benyttes ombord i skip eller luftfartøyer, kan transporteres dersom
@@ -4089,7 +4802,9 @@ P200 i 4.1.4.1 skal være oppfylt.
 Transportdokumentet skal inkludere følgende erklæring: «Transport i
 henhold til spesiell bestemmelse 662»
 
-663
+.. _SP663:
+
+``663``
 
 Denne oppføringen skal bare benyttes for emballasjer, storemballasjer
 eller mellomstore bulkcontainere, eller deler av slike, som har
@@ -4138,7 +4853,9 @@ oppføringen.
 
 **ANM:** Alle de andre bestemmelsene i ADR/RID gjelder.
 
-664
+.. _SP664:
+
+``664``
 
 RID: (Reservert)
 
@@ -4254,7 +4971,9 @@ oppføringen i overensstemmelse med kapittel 5.3, påvirkes ikke av
 tilstedeværelsen av utstyr for additiver eller additivene den
 inneholder.
 
-665
+.. _SP665:
+
+``665``
 
 ADR: Umalt hardt kull, koks og antrasitt som oppfyller
 klassifikasjonskriteriene til klasse 4.2, emballasjegruppe III, er ikke
@@ -4281,7 +5000,9 @@ cargo manifest eller CMR/CIM forsendelsesbrev):
 
 De andre bestemmelsene i RID gjelder ikke.
 
-666
+.. _SP666:
+
+``666``
 
 Kjøretøyer og batteridrevet utstyr referert i spesiell bestemmelse 388
 samt eventuelt farlig gods de inneholder som er nødvendig for deres
@@ -4325,7 +5046,9 @@ bestemmelsene om merking og faresedler i kapittel 5.2.
 Alternativt, for kjøretøyer drevet av natriumionbatteri, se spesiell
 bestemmelse 404.
 
-667
+.. _SP667:
+
+``667``
 
 a) (Slettet)
 
@@ -4353,7 +5076,9 @@ c) Prosedyrene angitt i (b) gjelder også for skadede celler eller
 batterier av litium eller natriumion i kjøre-tøyer, motorer eller
 maskiner.
 
-668
+.. _SP668:
+
+``668``
 
 Stoffer som skal brukes til påføring av vegmerking og bitumen og
 lignende produkter som skal brukes til reparasjon av sprekker og revner
@@ -4370,7 +5095,9 @@ transporten;
 
 d) Den maksimale kapasiteten til kjelen er begrenset til 3000 liter.
 
-669
+.. _SP669:
+
+``669``
 
 En tilhenger med innmontert utstyr, drevet av flytende drivstoff eller
 gassdrivstoff eller et elektrisk lagrings- og produksjonssystem som er
@@ -4381,7 +5108,9 @@ for disse UN-numrene, når den transporteres som gods på et kjøretøy/en
 vogn, forutsatt at den totale kapasiteten av tankene som inneholder
 flytende drivstoff ikke overstiger 500 liter.
 
-670
+.. _SP670:
+
+``670``
 
 a) Litiumceller og litiumbatterier og natriumionceller og
 natriumionbatterier installert i utstyr fra private husholdninger, som
@@ -4459,7 +5188,9 @@ som sannsynligvis vil bli brukt både av private husholdninger og andre
 brukere enn private husholdninger, skal i alle tilfeller bli ansett for
 å være utstyr fra private husholdninger.
 
-671
+.. _SP671:
+
+``671``
 
 Når det gjelder ADR: unntaket relatert til transporterte mengder per
 transportenhet/**RID: samlet maksimal tillatt mengde per vogn eller
@@ -4478,7 +5209,9 @@ emballasjegruppe skal plasseres i transportkategori 2 for utfylling av
 transportdokumenter og for unntakene i henhold til mengder transportert
 per transportenhet/**per vogn eller storcontainer** (se 1.1.3.6).
 
-672
+.. _SP672:
+
+``672``
 
 Gjenstander slik som maskiner, apparater eller utstyr som transporteres
 under denne posisjonen og i samsvar med spesiell bestemmelse 301 er ikke
@@ -4493,14 +5226,18 @@ kapasitet og tiltenkte bruk, og som oppfyller de angjeldende kravene i
 designet slik at beholderne som inneholder farlig gods er gitt
 tilstrekkelig beskyttelse.
 
-673
+.. _SP673:
+
+``673``
 
 ADR: (Reservert)
 
 **RID: Ved transport av denne gjenstanden behøver man ikke å anvende
 kravene i kapittel 1.10 og 5.3, avsnitt 5.4.3 og kapittel 7.2.**
 
-674
+.. _SP674:
+
+``674``
 
 Denne spesielle bestemmelsen gjelder for periodisk kontroll og prøver av
 overstøpte gassflasker som definert i 1.2.1.
@@ -4882,12 +5619,16 @@ gjennom den elektroniske identifikasjonsbrikken;
 eller tilsvarende, som er sertifisert av et akkreditert uavhengig organ
 anerkjent av vedkommende myndighet.
 
-675
+.. _SP675:
+
+``675``
 
 For kolli som inneholder dette farlig godset, er samlasting med stoffer
 og gjenstander i klasse 1, unntatt 1.4 S, ikke tillatt.
 
-676
+.. _SP676:
+
+``676``
 
 For transport av kolli som inneholder polymeriserende stoffer, trenger
 ikke bestemmelsene i spesiell bestemmelse 386, sammen med 7.1.7.3,
@@ -4916,7 +5657,9 @@ spesielle bestemmelsen, kan det vurderes ytterligere tiltak for å
 forhindre farlig polymerisering, for eksempel tilsetningen av
 inhibitorer.
 
-677
+.. _SP677:
+
+``677``
 
 Celler og batterier som, i samsvar med spesiell bestemmelse 376, er
 identifisert som farlige eller defekte og som under normale
@@ -4927,7 +5670,9 @@ transportkategori 0. I transportdokumentet skal ordene «Transport i
 samsvar med spesiell bestemmelse 376» suppleres med ordene
 «Transportkategori 0».
 
-678
+.. _SP678:
+
+``678``
 
 Avfall bestående av gjenstander og materialer forurenset av fri asbest
 (UN 2212 og 2590), som ikke er fiksert eller bundet i et materiale på en

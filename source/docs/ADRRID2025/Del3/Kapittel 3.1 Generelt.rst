@@ -1,5 +1,9 @@
+.. _3.1:
+
 Kapittel 3.1 Generelt
 ---------------------
+
+.. _3.1.1:
 
 3.1.1 Innledning
 ^^^^^^^^^^^^^^^^
@@ -10,12 +14,16 @@ kapitler. Disse alminnelige bestemmelser er ikke gitt i tabellene. Når
 en alminnelig bestemmelse står i motsetning til en spesiell bestemmelse,
 skal den spesielle bestemmelsen gjelde.
 
+.. _3.1.2:
+
 3.1.2 Varenavn
 ^^^^^^^^^^^^^^
 
 **ANM:** For varenavn til bruk ved transport av prøver, se 2.1.4.1.
 
-3.1.2.1
+.. _3.1.2.1:
+
+``3.1.2.1`` 
 
 Varenavnet skal være den betegnelsen som står med store bokstaver i
 tabell A i kapittel 3.2 som mest nøyaktig beskriver godset (med tillegg
@@ -25,7 +33,9 @@ varenavn kan vises i parentes etter varenavnet, f.eks. ETANOL
 (ETYLALKOHOL). Deler av en posisjon som står med små bokstaver behøver
 ikke å betraktes som del av varenavnet.
 
-3.1.2.2
+.. _3.1.2.2:
+
+``3.1.2.2`` 
 
 Når en kombinasjon av flere forskjellige varenavn er oppført under et
 enkelt UN nummer, og disse er adskilt av «eller» med små bokstaver,
@@ -44,7 +54,9 @@ LIGHTER REFILLER;
 b) UN 2793 JERNHOLDIG METALLSPON i selvopphetende form skal som varenavn
 hete JERNHOLDIG METALLSPON.
 
-3.1.2.3
+.. _3.1.2.3:
+
+``3.1.2.3`` 
 
 Varenavnet kan stå i entall eller flertall etter som det passer.
 Dessuten er rekkefølgen for beskrivende ord som inngår i varenavnet,
@@ -53,14 +65,18 @@ valgfri i dokumentasjon eller merker på kolli. For eksempel kan
 Handelsnavn eller militære betegnelser som består av varenavnet supplert
 med ytterligere beskrivende tekst, får benyttes for gods av klasse 1.
 
-3.1.2.4
+.. _3.1.2.4:
+
+``3.1.2.4`` 
 
 Mange stoffer har en posisjon både for dets faste og flytende form (se
 definisjon for fast og flytende i 1.2.1) eller for fast form og løsning.
 Disse er gitt separate UN nr. som ikke nødvendigvis er plassert ved
 siden av hverandre [1]_.
 
-3.1.2.5
+.. _3.1.2.5:
+
+``3.1.2.5`` 
 
 Med mindre det allerede står med store bokstaver som del av navnet i
 tabell A i kapittel 3.2, skal beskrivelsen «SMELTET» tilføyes som del av
@@ -68,7 +84,9 @@ varenavnet når et stoff som er fast stoff i henhold til definisjonen i
 1.2.1, leveres for transport i smeltet tilstand (f.eks. ALKYLFENOL I
 FAST FORM, N.O.S., SMELTET).
 
-3.1.2.6
+.. _3.1.2.6:
+
+``3.1.2.6`` 
 
 Med unntak for selvreaktive stoffer og organiske peroksider, eller når
 det allerede er oppført med store bokstaver under navnet oppført i
@@ -103,14 +121,19 @@ navnet oppført i kolonne (2) av tabell A i kapittel 3.2.
 c) For gasser: transportbetingelsene skal være godkjent av vedkommende
 myndighet.
 
-3.1.2.7
+.. _3.1.2.7:
+
+``3.1.2.7`` 
 
 Hydrater kan transporteres under varenavnet for det vannfrie stoffet.
 
-3.1.2.8 Beskrivende posisjoner eller «ikke nærmere bestemt» (N.O.S.)
-posisjoner
+.. _3.1.2.8:
 
-3.1.2.8.1
+``3.1.2.8`` Beskrivende posisjoner eller «ikke nærmere bestemt» (N.O.S.) posisjoner
+
+.. _3.1.2.8.1:
+
+``3.1.2.8.1`` 
 
 Varenavn som er en «n.o.s.» posisjon eller «beskrivende» posisjon, og
 som har spesiell bestemmelse 274 eller 318 angitt i kolonne (6) i Tabell
@@ -125,7 +148,9 @@ tekster som «blanding», «løsning» eller lignende, samt angivelse av
 innholdet av stoffet i prosent kan også benyttes. For eksempel: «UN 1993
 Brannfarlig væske, n.o.s. (inneholder xylen og benzen), 3, II»
 
-3.1.2.8.1.1
+.. _3.1.2.8.1.1:
+
+``3.1.2.8.1.1`` 
 
 Den tekniske betegnelsen skal være en anerkjent kjemisk eller biologisk
 betegnelse, eller ett navn som blir brukt i vitenskapelige og tekniske
@@ -135,7 +160,9 @@ samsvar med ISO eller «WHO Recommended Classification of Pesticides by
 Hazard and Guidelines to Classification», eller navnet på det/de aktive
 stoffet/stoffene.
 
-3.1.2.8.1.2
+.. _3.1.2.8.1.2:
+
+``3.1.2.8.1.2`` 
 
 Når en blanding av farlig gods eller gjenstander som inneholder farlig
 gods er betegnet av en n.o.s., eller en beskrivende, posisjon som er
@@ -151,7 +178,9 @@ som er oppført i parentes, være navnet på en av de komponentene som er
 
 **ANM:** se 5.4.1.2.2
 
-3.1.2.8.1.3
+.. _3.1.2.8.1.3:
+
+``3.1.2.8.1.3`` 
 
 Eksempler som viser valg av varenavn supplert med teknisk betegnelse for
 slike n.o.s-posisjoner:
@@ -164,7 +193,9 @@ UN 2902 BEKJEMPNINGSMIDDEL, FLYTENDE, GIFTIG, N.O.S. (drazoxolon)
 UN 3540 GJENSTANDER SOM INNEHOLDER BRANNFARLIG VÆSKE, N.O.S.
 (pyrrolidin).
 
-3.1.2.8.1.4
+.. _3.1.2.8.1.4:
+
+``3.1.2.8.1.4`` 
 
 For UN 3077 og 3082, kan den tekniske betegnelsen være et navn oppført
 med store bokstaver i kolonne 2 av tabell A i kapittel 3.2, forutsatt at
@@ -175,6 +206,8 @@ stoffet eller blandingen, skal benyttes, f.eks.:
 UN 3082, MILJØFARLIG STOFF, FLYTENDE, N.O.S. (MALING)
 
 UN 3082, MILJØFARLIG STOFF, FLYTENDE, N.O.S. (PARFYMEPRODUKTER)
+
+.. _3.1.3:
 
 3.1.3 Løsninger og blandinger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -189,7 +222,9 @@ tekniske urenheter eller tilsetningsstoffer for stabilitet eller andre
 formål som påvirker deres klassifisering skal regnes som en løsning
 eller blanding (se 2.1.3.3).
 
-3.1.3.1
+.. _3.1.3.1:
+
+``3.1.3.1`` 
 
 En løsning eller blanding er ikke underlagt ADR/RID hvis
 karakteristikkene, egenskapene, formen eller den fysiske tilstanden til
@@ -197,7 +232,9 @@ løsningen eller blandingen er slik at det ikke tilfredsstiller
 kriteriene, inkludert kriteriene fra menneskelig erfaring, til å bli
 inkludert i noen klasse.
 
-3.1.3.2
+.. _3.1.3.2:
+
+``3.1.3.2`` 
 
 En løsning eller blanding som i henhold til klassifiseringskriteriene er
 underlagt ADR/RID, bestående av ett enkelt dominerende stoff nevnt ved
@@ -227,7 +264,9 @@ I tillegg kan også konsentrasjonen til blandingen eller løsningen
 indikeres etter utgangsbeskrivelsen av blandingen eller løsningen, for
 eksempel, «ACETON 75 % LØSNING».
 
-3.1.3.3
+.. _3.1.3.3:
+
+``3.1.3.3`` 
 
 En løsning eller blanding som i henhold til klassifiseringskriteriene er
 underlagt ADR/RID, og som ikke er nevnt ved navn i tabell A i kapittel

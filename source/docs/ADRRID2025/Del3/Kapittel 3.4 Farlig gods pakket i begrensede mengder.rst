@@ -1,7 +1,12 @@
+.. _3.4:
+
 Kapittel 3.4 Farlig gods pakket i begrensede mengder
 ----------------------------------------------------
 
+.. _3.4.1:
+
 3.4.1
+^^^^^
 
 Dette kapittelet angir bestemmelsene som gjelder for transport av farlig
 gods av bestemte klasser emballert i begrensede mengder. Begrensningen
@@ -34,7 +39,10 @@ g) Del 7, kapittel 7.1 og 7.2.1, 7.2.2, 7.5.1 (unntatt 7.5.1.4),
 
 h) ADR: Del 8, 8.2.3, 8.6.3.3 og 8.6.4.
 
+.. _3.4.2:
+
 3.4.2
+^^^^^
 
 Farlig gods skal bare emballeres i inneremballasjer plassert i egnede
 ytteremballasjer. Mellomemballasjer kan benyttes. Gjenstander i
@@ -44,7 +52,10 @@ aerosoler eller «beholdere, små, inneholder gass», er det ikke nødvendig
 å bruke inneremballasje. Den totale brutto massen av kolliet skal ikke
 overskride 30 kr.
 
+.. _3.4.3:
+
 3.4.3
+^^^^^
 
 Bortsett fra gjenstander i faregruppe 1.4, forenlighetsgruppe S, er
 brett som dekkes med krympe- eller strekkfilm, og som oppfyller
@@ -56,22 +67,32 @@ glass, porselen, steintøy eller visse typer plast, skal plasseres i en
 egnet mellomemballasje som oppfyller betingelsene i 4.1.1.1, 4.1.1.2 og
 4.1.1.4 til 4.1.1.8, og være utført slik at de oppfyller
 konstruksjonskravene i 6.1.4. Den totale brutto massen av kolliet skal
-ikke overskride 20 kr.
+ikke overskride 20 kg.
+
+.. _3.4.3:
 
 3.4.4
+^^^^^
 
 Flytende gods av klasse 8, emballasjegruppe II med inneremballasje av
 glass, porselen eller steintøy skal være omsluttet i en forenlig og stiv
 mellomemballasje.
 
+.. _3.4.5:
+
 3.4.5 og 3.4.6
+^^^^^^^^^^^^^^
 
    (Reservert)
+
+.. _3.4.7:
 
 3.4.7 Merking av kolli som inneholder begrensede mengder
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.4.7.1
+.. _3.4.7.1:
+
+``3.4.7.1`` 
 
 Bortsett fra lufttransport, skal kolli som inneholde farlig gods i
 begrensede mengder være påført merket vist i figur 3.4.7.1.
@@ -91,17 +112,23 @@ bredde på linjen som former diamanten skal være 2 mm. For dimensjoner
 som ikke er angitt, skal alle karakteristika være omtrentlig
 proporsjonale til de som er vist.
 
-3.4.7.2
+.. _3.4.7.2:
+
+``3.4.7.2`` 
 
 Dersom størrelsen på kolliet gjør det nødvendig, så kan de minste ytre
 målene vist i figur 3.4.7.1 reduseres til ikke mindre enn 50 mm x 50 mm,
 forutsatt at merket forblir klart synlig. Den minste bredden på linjen
 som former diamanten kan reduseres til minimum 1 mm.
 
+.. _3.4.8:
+
 3.4.8 Merking av kolli som inneholder begrensede mengder i overensstemmelse med del 3, kapittel 4 av **ICAO Technical Instructions**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.4.8.1
+.. _3.4.8.1:
+
+``3.4.8.1`` 
 
 Kolli som inneholder farlig gods emballert i overensstemmelse med
 bestemmelsene i del 3, kapittel 4 av *ICAO Technical Instructions* kan
@@ -126,7 +153,9 @@ være plassert midt i merket og skal være klart synlig. For dimensjoner
 som ikke er angitt, skal alle karakteristika være omtrentlig
 proporsjonale til de som er vist.
 
-3.4.8.2
+.. _3.4.8.2:
+
+``3.4.8.2`` 
 
 Dersom størrelsen på kolliet gjør det nødvendig, så kan de minste ytre
 målene vist i figur 3.4.8.1 reduseres til ikke mindre enn 50 mm x 50 mm,
@@ -135,20 +164,28 @@ som former diamanten kan reduseres til minimum 1 mm. Symbolet «Y» skal
 fortsette å være i omtrentlig proporsjon med det som vises i figur
 3.4.8.1.
 
+.. _3.4.9:
+
 3.4.9
+^^^^^
 
 Kolli som inneholder farlig gods påført merket vist i 3.4.8 med eller
 uten supplerende faresedler og merker for lufttransport, skal anses å
 oppfylle gjeldende bestemmelser i avsnitt 3.4.1 samt avsnitt 3.4.2 til
 3.4.4, og trenger ikke påføres merket vist i 3.4.7.
 
+.. _3.4.10:
+
 3.4.10
+^^^^^^
 
 Kolli som inneholder farlig gods i begrensede mengder påført merket som
 er vist i 3.4.7, og som er i samsvar med bestemmelsene i *ICAO Technical
 Instructions*, inkludert alle nødvendige merker og faresedler angitt i
 del 5 og 6, skal anses å oppfylle gjeldende bestemmelser i avsnitt
 3.4.1, samt avsnitt 3.4.2 til 3.4.4.
+
+.. _3.4.11:
 
 3.4.11 Bruk av overpakninger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -171,7 +208,10 @@ Unntatt for flytransport, gjelder de øvrige bestemmelsene i 5.1.2.1 kun
 dersom annet farlig gods som ikke er pakket i begrensede mengder inngår
 i overpakningen, og da kun i forhold til dette andre farlige godset.
 
+.. _3.4.12:
+
 3.4.12
+^^^^^^
 
 Før forsendelse, skal avsendere av farlig gods emballert i begrensede
 mengder informere transportøren i en sporbar form om den totale
@@ -180,7 +220,10 @@ bruttovekten av slikt gods som skal forsendes.
 RID: Lastere av farlig gods emballert i begrensede mengder skal
 overholde bestemmelsene som gjelder merking i 3.4.13 til 3.4.15.
 
+.. _3.4.13:
+
 3.4.13
+^^^^^^
 
 a) ADR: Transportenheter med en maksimal masse på mer enn 12 tonn som
 transporterer farlig gods emballert i begrensede mengder, skal være
@@ -224,14 +267,20 @@ Dersom merkene som er påført storcontaineren ikke er synlig fra utsiden
 av den transporterende vognen, så skal de samme merkene påføres på begge
 sider av vognen.
 
+.. _3.4.14:
+
 3.4.14
+^^^^^^ 
 
 Merkingen spesifisert i 3.4.13 kan utelates, hvis den totale
 bruttovekten av kolliene som inneholder farlig gods emballert i
 begrensede mengder som transporteres ikke overstiger 8 tonn per
 transportenhet **(RID: per vogn eller storcontainer).**
 
+.. _3.4.15:
+
 3.4.15
+^^^^^^
 
 Merkene spesifisert i 3.4.13 skal være de samme som kreves i 3.4.7,
 bortsett fra at minstemålene skal være 250 mm × 250 mm. Disse merkene
