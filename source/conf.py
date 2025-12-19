@@ -62,7 +62,7 @@ html_theme_options = {
     "icon_links": [
     {
         "name": "18a",
-        "url": "_static/modulvogntog_snake.html",
+        "url": "/_static/modulvogntog_snake.html",
         "icon": "fa-solid fa-truck-front",
         "type": "fontawesome",
     },
