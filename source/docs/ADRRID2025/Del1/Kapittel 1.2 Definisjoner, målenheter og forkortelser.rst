@@ -1509,7 +1509,9 @@ med åpne lasteflater;
 1.2.2 Måleenheter
 ^^^^^^^^^^^^^^^^^
 
-1.2.2.1 Følgende måleenheter\ :sup:`a)` anvendes i ADR/RID:
+.. _1.2.2.1:
+
+``1.2.2.1`` Følgende måleenheter\ :sup:`a)` anvendes i ADR/RID:
 
 +------------------+--------------+----------------+------------------+
 | Måling av        | SI enhet     | Annen godtatt  | Omregningsfaktor |
@@ -1797,7 +1799,9 @@ foran måleenheten:
 **ANM:** 10\ :sup:`12` = 1 billion er FN-standard for tekster på fransk.
 Tilsvarende er 10\ :sup:`–12` = 1 billiondel.
 
-1.2.2.2
+.. _1.2.2.2:
+
+``1.2.2.2`` 
 
 Om ikke annet er uttrykkelig angitt, betyr «prosent» og tegnet «%» i
 ADR/RID:
@@ -1814,14 +1818,18 @@ samlede masse av blandingen av gasser;
 c) Ved blandinger av flytende gasser og oppløste gasser: masseprosenten
 i forhold til den samlete masse av blandingen.
 
-1.2.2.3
+.. _1.2.2.3:
+
+``1.2.2.3`` 
 
 Alle trykk som refererer seg til beholdere (som prøvetrykk, innvendig
 trykk, sikkerhetsventilenes åpningstrykk) er gitt som overtrykk (trykk
 over atmosfæretrykket). Et stoffs damptrykk er imidlertid alltid gitt
 som absolutt trykk.
 
-1.2.2.4
+.. _1.2.2.4:
+
+``1.2.2.4`` 
 
 Hvor ADR/RID spesifiserer en fyllingsgrad for beholdere, er denne alltid
 gitt med referanse til en stofftemperatur på 15 °C hvis ikke annen

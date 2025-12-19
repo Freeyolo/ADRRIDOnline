@@ -1,10 +1,16 @@
+.. _1.4:
+
 Kapittel 1.4 Aktørenes plikter
 ------------------------------
+
+.. _1.4.1:
 
 1.4.1 Alminnelige sikkerhetstiltak
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.4.1.1
+.. _1.4.1.1:
+
+``1.4.1.1`` 
 
 De som er aktører ved transport av farlig gods skal treffe tiltak som er
 hensiktsmessige i forhold til arten og omfanget av de faremomenter som
@@ -12,13 +18,17 @@ kan forutses, slik at skade på ting eller personer unngås og om
 nødvendig begrense skadevirkningene. I alle tilfelle skal de følge
 ADR/RID-bestemmelsene på sine områder.
 
-1.4.1.2
+.. _1.4.1.2:
+
+``1.4.1.2`` 
 
 Når det er umiddelbar risiko for at den offentlige sikkerhet kan bli
 truet, skal aktørene straks varsle redningstjenesten og gi de
 opplysninger denne trenger for å gripe inn.
 
-1.4.1.3
+.. _1.4.1.3:
+
+``1.4.1.3`` 
 
 ADR/RID kan fastsette nærmere de plikter som de forskjellige aktører
 skal ha.
@@ -38,6 +48,8 @@ den nasjonale lovgivning med hensyn til de juridiske konsekvenser
 angjeldende aktør er f.eks. en separat juridisk enhet, selververvende,
 arbeidsgiver eller arbeidstaker.
 
+.. _1.4.2:
+
 1.4.2 Hovedaktørenes plikter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -48,9 +60,13 @@ virksomheter.
 
 **ANM 2:** For radioaktivt materiale, se også 1.7.6.
 
-1.4.2.1 Avsender
+.. _1.4.2.1:
 
-1.4.2.1.1
+``1.4.2.1`` Avsender
+
+.. _1.4.2.1.1:
+
+``1.4.2.1.1`` 
 
 Avsender av farlig gods skal bare levere til transport forsendelser som
 er i samsvar med kravene i ADR/RID. I forhold til 1.4.1 skal avsenderen
@@ -91,7 +107,9 @@ trykket er tilstrekkelig redusert.
 for at den aktuelle holdetiden er bestemt eller, i tilfelle av tomme,
 ikke rengjorte tanker, sørge for at trykket er tilstrekkelig redusert.**
 
-1.4.2.1.2
+.. _1.4.2.1.2:
+
+``1.4.2.1.2`` 
 
 Dersom avsenderen gjør bruk av andre aktørers tjenester (pakker, laster,
 fyller etc.), skal han treffe de nødvendige tiltak for å sikre at
@@ -99,16 +117,22 @@ forsendelsen oppfyller kravene i ADR/RID. Han kan likevel stole på
 informasjon og data som han har mottatt fra andre aktører når det
 gjelder 1.4.2.1.1 (a), (b), (c) og (e).
 
-1.4.2.1.3
+.. _1.4.2.1.3:
+
+``1.4.2.1.3`` 
 
 Når avsenderen opptrer på vegne av en tredje part, skal sistnevnte
 skriftlig meddele avsenderen at det dreier seg om farlig gods og la ham
 få all informasjon og alle dokumenter som han trenger for å oppfylle
 sine forpliktelser.
 
-1.4.2.2 Transportør
+.. _1.4.2.2:
 
-1.4.2.2.1
+``1.4.2.2`` Transportør
+
+.. _1.4.2.2.1:
+
+``1.4.2.2.1`` 
 
 ADR: I forhold til 1.4.1, skal transportøren spesielt, når det er
 relevant:
@@ -165,7 +189,9 @@ Bestemmelsene i dette punktet kan anses oppfylt når Del 5 i IRS
 40471-3 [10]_ («Inspections of dangerous goods consignments») publisert
 av UIC anvendes.
 
-1.4.2.2.2
+.. _1.4.2.2.2:
+
+``1.4.2.2.2`` 
 
 Transportøren kan likevel stole på informasjon og data som han har
 mottatt fra andre aktører når det gjelder 1.4.2.2.1 (a), (b), **(RID:
@@ -173,13 +199,17 @@ mottatt fra andre aktører når det gjelder 1.4.2.2.1 (a), (b), **(RID:
 som er bekreftet i «container-/kjøretøystuingssertifikatet» gitt i
 samsvar med 5.4.2.
 
-1.4.2.2.3
+.. _1.4.2.2.3:
+
+``1.4.2.2.3`` 
 
 Dersom transportøren finner brudd på ADR/RID-bestemmelsene, i henhold
 til 1.4.2.2.1, skal han ikke videretransportere forsendelsen før saken
 er brakt i orden.
 
-1.4.2.2.4
+.. _1.4.2.2.4:
+
+``1.4.2.2.4`` 
 
 Dersom det under transporten oppdages brudd på bestemmelsene av en slik
 karakter at det kan gå ut over sikkerheten, skal forsendelsen holdes
@@ -199,7 +229,9 @@ farlige karakter, og at han ønsker å losse, destruere, eller
 uskadeliggjøre godset i samsvar med de spesielle rettsregler som gjelder
 forsendelseskontrakten.
 
-1.4.2.2.5
+.. _1.4.2.2.5:
+
+``1.4.2.2.5`` 
 
 RID: Transportøren skal forsikre seg om at den driftsansvarlige for
 jernbaneinfrastrukturen som brukes, til enhver tid under transporten er
@@ -209,7 +241,9 @@ opplysninger for at han skal kunne oppfylle bestemmelsene i 1.4.3.6 (b).
 **ANM:** Ordningen som benyttes for fremlegging av data skal fremgå av
 bestemmelsene for bruken av jernbaneinfrastrukturen.
 
-1.4.2.2.6
+.. _1.4.2.2.6:
+
+``1.4.2.2.6`` 
 
 ADR: Transportøren skal gi kjøretøyets mannskap de skriftlige
 instruksjonene som er beskrevet i ADR.
@@ -217,7 +251,9 @@ instruksjonene som er beskrevet i ADR.
 RID: Transportøren skal gi føreren de skriftlige instruksjonene som er
 beskrevet i 5.4.3.
 
-1.4.2.2.7
+.. _1.4.2.2.7:
+
+``1.4.2.2.7`` 
 
 RID: Transportøren skal informere føreren om det farlige godset om bord
 og hvor dette er plassert i toget før togets avgang.
@@ -227,33 +263,45 @@ vedleggene A, B og C i IRS 40472 («Breaking sheets, consist list for
 locomotive drivers and requirements for the exchange of data necessary
 to the operation of freight rail services ») benyttes [11]_.
 
-1.4.2.2.8
+.. _1.4.2.2.8:
+
+``1.4.2.2.8`` 
 
 RID: Transportøren skal forvisse seg om at informasjonen er tilgjengelig
 for vedlikeholdsansvarlig (ECM), enten direkte eller via
 tankvognoperatøren, som definert i Article 15 §3 i Vedlegg G i COTIF
 (ATMF) og i Vedlegg A i ATMF.
 
-1.4.2.3 Mottaker
+.. _1.4.2.3:
 
-1.4.2.3.1
+``1.4.2.3`` Mottaker
+
+.. _1.4.2.3.1:
+
+``1.4.2.3.1`` 
 
 Mottaker er pliktig til å akseptere godset uten opphold, utenom i
 tvingende tilfeller, og verifisere etter lossing at kravene i ADR/RID
 som gjelder ham er oppfylt.
 
-1.4.2.3.2
+.. _1.4.2.3.2:
+
+``1.4.2.3.2`` 
 
 Hvis, når det gjelder container, denne verifikasjonen avdekker brudd på
 bestemmelsene i ADR/RID, skal mottakeren returnere containeren til
 transportøren, bare etter at bruddene har blitt korrigert.
 
-1.4.2.3.3
+.. _1.4.2.3.3:
+
+``1.4.2.3.3`` 
 
 Hvis mottakeren gjør bruk av tjenestene til andre aktører (losser,
 rengjører, dekontamineringsanlegg, etc.) skal han iverksette tiltak for
 å sikre at kravene i 1.4.2.3.1 og 1.4.2.3.2 av ADR/RID har blitt
 overholdt.
+
+.. _1.4.3:
 
 1.4.3 De andre aktørenes plikter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -263,9 +311,13 @@ listen er ikke fullstendig. De andre aktørenes forpliktelser følger av
 1.4.1 ovenfor for så vidt som de vet eller burde vite at de utfører
 oppgaver som inngår i en transportoperasjon som er underlagt ADR/RID.
 
-1.4.3.1 Laster
+.. _1.4.3.1:
 
-1.4.3.1.1
+``1.4.3.1`` Laster
+
+.. _1.4.3.1.1:
+
+``1.4.3.1.1`` 
 
 I forhold til 1.4.1 har den som laster følgende spesielle forpliktelser:
 
@@ -296,12 +348,16 @@ og ta hensyn til gods som allerede befinner seg i kjøretøyet/vognen
 eller storcontaineren og til bestemmelsene om å holde matvarer og andre
 konsumvarer atskilt.
 
-1.4.3.1.2
+.. _1.4.3.1.2:
+
+``1.4.3.1.2`` 
 
 Lasteren kan likevel stole på informasjon og data som han har mottatt
 fra andre aktører når det gjelder 1.4.3.1.1 (a), (d) og (e).
 
-1.4.3.2 Pakker
+.. _1.4.3.2:
+
+``1.4.3.2`` Pakker
 
 I forhold til 1.4.1 skal pakkeren spesielt rette seg etter følgende:
 
@@ -311,7 +367,9 @@ og
 b) når han klargjør kolli for transport, bestemmelsene om merking og
 faresedler på kolli.
 
-1.4.3.3 Fyller
+.. _1.4.3.3:
+
+``1.4.3.3`` Fyller
 
 I forhold til 1.4.1 har den som fyller følgende spesielle forpliktelser:
 
@@ -365,7 +423,9 @@ tankvogner for væsker og gasser, er tilgjengelig på OTIF sin hjemmeside
 med væske og gass til å oppfylle sine forpliktelser når det gjelder
 sikkerhet, spesielt med tanke på tankvognens lekkasjetetthet.
 
-1.4.3.4 Tankcontaineroperatør/Multimodal tankoperatør
+.. _1.4.3.4:
+
+``1.4.3.4`` Tankcontaineroperatør/Multimodal tankoperatør
 
 I forhold til 1.4.1, skal tankcontaineroperatøren spesielt:
 
@@ -380,7 +440,9 @@ c) sørge for at det blir foretatt ekstraordinær kontroll når det kan
 tenkes at tank eller utstyr er blitt mindre sikker(t) som følge av
 reparasjon, ombygging eller uhell.
 
-1.4.3.5 Tankvognoperatør
+.. _1.4.3.5:
+
+``1.4.3.5`` Tankvognoperatør
 
 ADR: (Reservert)
 
@@ -403,7 +465,9 @@ e) sørge for at informasjonen er tilgjengelig for vedlikeholdsansvarlig
 (entity in charge of maintenance, ECM), som definert i Article 15 §3 i
 Vedlegg G i COTIF (ATMF) og i Vedlegg A i ATMF.
 
-1.4.3.6 Driftsansvarlig for jernbaneinfrastruktur
+.. _1.4.3.6:
+
+``1.4.3.6`` Driftsansvarlig for jernbaneinfrastruktur
 
 ADR: (Reservert)
 
@@ -435,9 +499,13 @@ for redningsinnsats.
 ANM: Ordningen som benyttes for fremlegging av data skal fremgå av
 bestemmelsene for bruken av jernbaneinfrastrukturen.
 
-1.4.3.7 Losser
+.. _1.4.3.7:
 
-1.4.3.7.1
+``1.4.3.7`` Losser
+
+.. _1.4.3.7.1:
+
+``1.4.3.7.1`` 
 
 I forhold til1.4.1, skal losser spesielt:
 
@@ -484,14 +552,17 @@ tankvogner for væsker og gasser, er tilgjengelig på OTIF sin hjemmeside
 med væske og gass til å oppfylle sine forpliktelser når det gjelder
 sikkerhet, spesielt med tanke på tankvognens lekkasjetetthet.
 
-1.4.3.7.2
+.. _1.4.3.7.2:
+
+``1.4.3.7.2`` 
 
 Hvis losser gjør bruk av andre aktørers tjenester (rengjøring,
 dekontaminering etc.) skal han ta nødvendige forholdsregler for å sikre
 at bestemmelsene i ADR/RID er fulgt.
 
-1.4.3.8 RID: Vedlikeholdsansvarlig (entity in charge of maintenance,
-ECM)
+.. _1.4.3.8:
+
+``1.4.3.8`` RID: Vedlikeholdsansvarlig (entity in charge of maintenance, ECM)
 
 I sammenheng med kapittel 1.4.1 skal vedlikeholdsansvarlig særlig sørge
 for at:

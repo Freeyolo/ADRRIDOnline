@@ -1,6 +1,8 @@
 Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods
 -------------------------------------------------------------------------------
 
+.. _1.3.1:
+
 1.3.1 Omfang og anvendelsesområde
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -20,18 +22,24 @@ av kjøretøymannskaper.
 
 **ANM 3:** Se også 1.7.2.5 angående opplæring for klasse 7.
 
+.. _1.3.2:
+
 1.3.2 Hvordan opplæringen skal foregå
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Opplæringen skal skje på følgende måte og være tilpasset vedkommendes
 ansvar og arbeidsoppgaver.
 
-1.3.2.1 Opplæring for alminnelig kjennskap
+.. _1.3.2.1:
+
+``1.3.2.1`` Opplæring for alminnelig kjennskap
 
 Personell skal være kjent med de generelle krav i bestemmelsene om
 transport av farlig gods.
 
-1.3.2.2 Opplæring for spesielle arbeidsoppgaver
+.. _1.3.2.2:
+
+``1.3.2.2`` Opplæring for spesielle arbeidsoppgaver
 
 Personell skal være opplært i de bestemmelsene om transport av farlig
 gods som svarer direkte til den enkeltes arbeidsoppgaver og ansvar.
@@ -60,7 +68,9 @@ opplært i forhold til sine arbeidsoppgaver.
 Personell skal være opplært i de tre kategorier emner som er listet i
 1.3.2.2.2, basert på gruppeinndelingen i 1.3.2.2.1.
 
-*1.3.2.2.1*
+.. _1.3.2.2.1:
+
+``1.3.2.2.1`` 
 
 RID: Følgende tabell viser den individuelle gruppeindelingen av
 personalet:
@@ -88,7 +98,9 @@ personalet:
 |      | infrastrukturoperatøren**     |                              |
 +------+-------------------------------+------------------------------+
 
-1.3.2.2.2
+.. _1.3.2.2.2:
+
+``1.3.2.2.2`` 
 
 RID: Den spesielle opplæringen skal dekke minst følgende områder:
 
@@ -122,7 +134,9 @@ RID: Den spesielle opplæringen skal dekke minst følgende områder:
 
 **– interne beredskapsplaner for skifteområder i samsvar med kapittel 1.11.**
 
-1.3.2.3 Sikkerhetsopplæring
+.. _1.3.2.3:
+
+``1.3.2.3`` Sikkerhetsopplæring
 
 Personell skal være opplært om risikoen og farene knyttet til farlig
 gods i forhold til hvor stor risiko det er for at uhell med farlig gods
@@ -131,10 +145,14 @@ skal gi skade eller at noen utsettes for fare.
 Opplæringen skal ta sikte på å gjøre personell kjent med hva som er
 sikker håndtering og hva som skal gjøres i en nødssituasjon.
 
-1.3.2.4
+.. _1.3.2.4:
+
+``1.3.2.4`` 
 
 Opplæringen skal regelmessig suppleres med oppdateringskurs for å ta
 hensyn til endringer i regelverket.
+
+.. _1.3.3:
 
 1.3.3 Dokumentasjon
 ^^^^^^^^^^^^^^^^^^^
