@@ -1,5 +1,9 @@
+.. _2.3:
+
 Kapittel 2.3 Testmetoder
 ------------------------
+
+.. _2.3.0:
 
 2.3.0 Generelt
 ^^^^^^^^^^^^^^
@@ -8,16 +12,22 @@ Med mindre noe annet er bestemt i kapittel 2.2 eller i dette kapitlet,
 skal det ved klassifisering av farlig gods benyttes de testmetodene som
 er beskrevet i UN Testmanualen.
 
+.. _2.3.1:
+
 2.3.1 Utsvettingstest for sprengstoff type A
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-^
-2.3.1.1
+
+.. _2.3.1.1:
+
+``2.3.1.1`` 
 
 Sprengstoffer Type A (UN 0081) skal, hvis de inneholder over 40 %
 flytende nitroester, i tillegg til de testene som er spesifisert i UN
 Testmanualen også tilfredsstille følgende utsvettingstest.
 
-2.3.1.2
+.. _2.3.1.2:
+
+``2.3.1.2`` 
 
 Apparatet for prøving av et sprengstoff med hensyn til utsvetting (fig.
 1 til 3) består av en hul bronsesylinder. Sylinderen, som er lukket i
@@ -33,7 +43,9 @@ Stemplet skal ha en diameter på 15,6 mm og være belastet med et lodd med
 masse 2 220 g, slik at trykket mot bunnen av sylinderen blir 120 kPa
 (1,20 bar).
 
-2.3.1.3
+.. _2.3.1.3:
+
+``2.3.1.3`` 
 
 En liten plugg av sprengstoffet med masse 5 til 8 g; 30 mm lang og 15 mm
 i diameter pakkes i flortynn gass og anbringes i sylinderen, hvorpå
@@ -41,7 +53,9 @@ stemplet og loddet settes på plass slik at sprengstoffet utsettes for et
 trykk på 120 kPa (1,20 bar). Derpå noteres tiden til de første tegn på
 oljeaktige dråper (nitroglyserol) kan observeres der hullene munner ut.
 
-2.3.1.4
+.. _2.3.1.4:
+
+``2.3.1.4`` 
 
 Sprengstoffet ansees tilfredsstillende om den tid det tar før de første
 tegn på oljeaktig utsvetting er mer enn fem minutter når testen er
@@ -51,10 +65,14 @@ Utsvettingstest for sprengstoff
 
 {{{IMG CLASS="«class imag»" REF="1845.jpg"/}}}
 
+.. _2.3.2:
+
 2.3.2 Tester for nitrocelluloseblandinger av klasse 1 og klasse 4.1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.2.1
+.. _2.3.2.1:
+
+``2.3.2.1`` 
 
 For å bestemme kriteriene for nitrocellulose skal Bergmann-Junk testen
 eller metylfiolettpapirtesten i testmanualen vedlegg 10 utføres (se
@@ -67,7 +85,9 @@ nitrocelluloseblandinger er høyere enn 180 °C eller tenntemperaturen til
 myknet nitrocellulose er høyere enn 170 °C, kan Bergmann-Junk testen
 eller metylfiolettpapirtesten utføres sikkert.
 
-2.3.2.2
+.. _2.3.2.2:
+
+``2.3.2.2`` 
 
 Før det foretas tester som beskrevet i 2.3.2.5, skal det stoffet som
 skal testes være tørret i minst 15 timer ved omgivelsestemperatur i en
@@ -76,20 +96,26 @@ testes, skal under tørringen være spredd i et tynt lag, og stoffer som
 hverken er i pulver- eller i fiberform skal først males, rives eller
 findeles. Trykket i eksikatoren skal holdes under 6,5 kPa (0,065 bar).
 
-2.3.2.3
+.. _2.3.2.3:
+
+``2.3.2.3`` 
 
 Myknet nitrocellulose skal, før tørring som omtalt i 2.3.2.2 ovenfor,
 fortørres i en godt ventilert ovn som holder 70°C til massetapet per 15
 minutter er mindre enn 0,3 % av den opprinnelige masse.
 
-2.3.2.4
+.. _2.3.2.4:
+
+``2.3.2.4`` 
 
 Lavnitrert nitrocellulose skal først fortørres som beskrevet i 2.3.2.3
 ovenfor; deretter skal tørringen fullføres ved at nitrocellulosen holdes
 i minst 15 timer i en eksikator med konsentrert svovelsyre som
 tørremiddel.
 
-2.3.2.5 Tenntemperatur (se 2.3.2.1)
+.. _2.3.2.5:
+
+``2.3.2.5`` Tenntemperatur (se 2.3.2.1)
 
 a) Tenntemperaturen bestemmes ved oppheting av 0,2 g stoff i et lukket
 glass prøverør, nedsenket i et smeltebad med Woods metall. Prøverøret
@@ -112,13 +138,18 @@ deflagrasjon eller detonasjon, noteres hver gang.
 c) Den laveste temperaturen som er notert i de tre prøvene, er
 tenntemperaturen.
 
+.. _2.3.3:
+
 2.3.3 Tester for brannfarlige væsker av klassene 3, 6.1 og 8
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.3.1 Bestemmelse av flammepunkt
+.. _2.3.3.1:
 
-2.3.3.1.1 De følgende metodene for å bestemme flammepunktet til
-brannfarlige væsker kan benyttes:
+``2.3.3.1`` Bestemmelse av flammepunkt
+
+.. _2.3.3.1.1:
+
+``2.3.3.1.1`` De følgende metodene for å bestemme flammepunktet til brannfarlige væsker kan benyttes:
 
 Internasjonale standarder:
 
@@ -173,7 +204,9 @@ RUS-113813, GSP, Moscow, M-49 Leninsky Prospect, 9:*
 
 GOST 12.1.044-84
 
-2.3.3.1.2
+.. _2.3.3.1.2:
+
+``2.3.3.1.2`` 
 
 Ved bestemmelse av flammepunktet for maling, lim og lignende viskøse
 produkter som inneholder løsningsmidler, må det bare benyttes apparater
@@ -188,7 +221,9 @@ c) International Standard ISO 1523:1983;
 
 d) Internasjonale Standarder EN ISO 13736 og EN ISO 2719, metode B
 
-2.3.3.1.3
+.. _2.3.3.1.3:
+
+``2.3.3.1.3`` 
 
 Standardene som er opplistet i 2.3.3.1.1 skal kun benyttes for
 flammepunktsområder som er spesifisert i standarden. Ved valg av
@@ -199,13 +234,17 @@ sikkerhetshensyn skal det benyttes små prøver på ca. 2 ml, ved testing
 av organiske peroksider og selvreaktive stoffer (også kjent som
 «energirike» stoffer), eller ved testing av giftige stoffer.
 
-2.3.3.1.4
+.. _2.3.3.1.4:
+
+``2.3.3.1.4`` 
 
 Når flammepunktet bestemt ved en ikke-likevektsmetode finnes å være 23
 ± 2 °C eller 60 ± 2 °C, skal det bekreftes for hvert temperaturområde
 med en likevektsmetode.
 
-2.3.3.1.5
+.. _2.3.3.1.5:
+
+``2.3.3.1.5`` 
 
 I tilfelle uenighet om klassifiseringen av en brannfarlig væske, skal
 det siffer som er foreslått av avsenderen godtas dersom en stikkprøve av
@@ -214,7 +253,9 @@ grenseverdiene (henholdsvis 23 °C og 60 °C) som er angitt i 2.2.3.1. Er
 forskjellen større enn 2 °C, skal det foretas en ny stikkprøve, og den
 laveste verdien fra stikkprøvene skal legges til grunn.
 
-2.3.3.2 Bestemmelse av begynnende kokepunkt
+.. _2.3.3.2:
+
+``2.3.3.2`` Bestemmelse av begynnende kokepunkt
 
 Følgende metoder for å bestemme det begynnende kokepunktet til
 brannfarlige væsker kan benyttes:
@@ -246,7 +287,9 @@ Andre akseptable metoder:
 MetodeA.2 beskrevet i Part A i vedlegget til kommisjonsforordning (EU)
 nr. 440/2008 [21]_.
 
-2.3.3.3 Metode for å bestemme peroksidinnhold
+.. _2.3.3.3:
+
+``2.3.3.3`` Metode for å bestemme peroksidinnhold
 
 Prosedyren for å bestemme peroksidinnholdet i en væske er:
 
@@ -263,13 +306,17 @@ gitt ved følgende formel:
 
 {{{IMG CLASS="«class imag»" REF="1846.jpg"/}}}
 
+.. _2.3.4:
+
 2.3.4 Test for å bestemme viskositeten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Følgende metode skal benyttes til bestemmelse av viskositeten for
 flytende, viskøse eller pastaformige stoffer og blandinger.
 
-2.3.4.1 Testapparat
+.. _2.3.4.1:
+
+``2.3.4.1`` Testapparat
 
 Penetrometer av vanlig handelskvalitet som svarer til ISO standard 2137:
 1985 med en styrestang på 47,5 ± 0,05 g (se tegningen); sikteskive av
@@ -277,7 +324,9 @@ duraluminium med koniske hull og masse 102,5 ± 0,05 g (se fig. 1);
 penetrasjonsbeholder med en innvendig diameter 72 mm til 80 mm til å ha
 prøven i.
 
-2.3.4.2 Testprosedyre
+.. _2.3.4.2:
+
+``2.3.4.2`` Testprosedyre
 
 Prøven helles ned i penetrasjonsbeholderen minst en halv time før
 målingen. Beholderen skal så lukkes hermetisk tett og stå urørt til
@@ -287,7 +336,9 @@ penetrometerbordet like før (høyst 2 min. før) testen utføres. Punktet S
 på sikteskiven bringes derpå i kontakt med væskeoverflaten og
 penetrasjonshastigheten måles.
 
-2.3.4.3 Evaluering av resultatene
+.. _2.3.4.3:
+
+``2.3.4.3`` Evaluering av resultatene
 
 Et stoff er pastaformig dersom penetrasjonen, som avleses på måleuret
 fra det øyeblikk sikteskivens sentrum S er brakt i kontakt med prøvens
@@ -314,6 +365,8 @@ Figur 1 – Penetrometer
 {{{IMG CLASS="«class PDF »" REF="figur2_3_4_3.pdf"/}}}
 
 {{{IMG CLASS="«class PDF »" REF="figur2_3_4_3.pdf"/}}}
+
+.. _2.3.5:
 
 2.3.5 Klassifisering av metallorganiske stoffer i klasse 4.2 og 4.3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -343,124 +396,6 @@ klasse 4.2 eller 4.3\ :sup:`b`
 
    *b) Testmetodene N.1 til N.5 finnes i Testmanualen, Del III, avsnitt
    33*
-
-.. [1]
-   Slik lovgivning er for eksempel kommisjonsvedtak 2000/532/EF av 3.mai
-   2000 om erstatning av vedtak 94/3EF om utarbeiding av en liste over
-   avfall i henhold til artikkel 1 bokstav a) i rådsdirektiv 75/442/EØF
-   om avfall og rådsvedtak 94/904/EF om utarbeidning av liste over
-   farlig avfall i henhold til artikkel 1 nr. 4 i rådsdirektiv
-   91/689/EØF om farlig avfall (Official Journal of the European
-   Communities No. L 226 of 6 September 2000, page 3), som endret og
-   direktiv 2008/98/EF fra europaparlamentet og rådet av 19 november
-   2008 om avfall med oppheving av visse direktiver (Official Journal of
-   the European Union No. L 312 of 22 November 2008, pages 3–30), som
-   endret.
-
-.. [2]
-   Denne tabellen inneholder liste over fyrverkeriklassifikasjoner som
-   kan benyttes når det ikke foreligger prøveresultater fra Testserie 6
-   (se 2.2.1.1.7.2).
-
-.. [3]
-   Bestemmelse av viskositeten: Hvis stoffet er ikke-newtonsk, eller
-   bestemmelse av viskositeten ved måling av gjennomstrømningen av andre
-   grunner er uegnet, skal et viskosimeter med variabel skjærhastighet
-   benyttes til måling av stoffets dynamiske viskositetskoeffisient ved
-   23°C ved forskjellige skjærhastigheter. De avleste verdiene skal
-   fremstilles grafisk som funksjon av skjærhastigheten og ekstrapoleres
-   til en skjærhastighet lik 0. Den dynamiske viskositeten som
-   fremkommer på denne måten, dividert med stoffets densitet, gir den
-   nominelle kinematiske viskositet ved skjærhastighet nær 0.
-
-.. [4]
-   Regulation (EC) No 1272/2008 of the European Parliament and of the
-   Council of 16 December 2008 on classification, labelling and
-   packaging of substances and mixtures, amending and repealing
-   Directive 67/548/EEC and 1999/45/EC; and amending Regulation (EC) No
-   1907/2006, published in the Official Journal of the European Union,
-   L 353, 31 December 2008, p 1–1355.
-
-.. [5]
-   Kommisjonsbeslutning 2000/532/EC av 3. mai 2000, som erstatter
-   Beslutning 94/3/EC som fastsetter liste over avfall som faller inn
-   under Artikkel 1(a) i Rådsdirektiv 75/442/EEC (erstattet av
-   Rådsdirektiv 2006/12/EC (Official Journal of the European Union NO.
-   L114 of 27 April 2006, side 9) om avfall og Rådsbeslutning 94/904/EC
-   som fastsetter liste over farlig avfall som faller inn under Artikkel
-   1(4) i Rådsdirektiv 91/689/EEC om farlig avfall (Official Journal of
-   the European Communities No. L 226 av 6.9.2000, side 3).
-
-.. [6]
-   Bestemmelser om transport av levende dyr finnes bl.a. i «Directive
-   91/628/EEC of 19 November 1991 on the protection of animals during
-   transport (Official Journal of the European Union NO. L 340 av
-   11.12.1991, page 17) og i «Recommendations of the Council of Europe
-   (Ministrial Committee) on the camage of certain animal species.
-
-.. [7]
-   For Th-natural er mornukliden Th-232, og for U-natural er mornukliden
-   U-238.
-
-.. [8]
-   OECD Guideline for the testing of chemicals No. 404 «Acute Dermal
-   Irritation/Corrosion» 2015.
-
-.. [9]
-   OECD Guideline for the testing of chemicals No. 435 «In Vitro
-   Membrane Barrier Test Method for Skin Corrosion» 2015.
-
-.. [10]
-   OECD Guideline for the testing of chemicals No. 431 «In Vitro Skin
-   Corrosion: reconstructed human epidermis (RHE) test method» 2016
-
-.. [11]
-   OECD Guideline for the testing of chemicals No. 430 «In Vitro Skin
-   Corrosion: Transcutaneous Electrical Resistance Test Method (TER)»
-   2015.
-
-.. [12]
-   OECD Guideline for the testing of chemicals No. 439 «In Vitro Skin
-   Irritation: Reconstructed Human Epidermis Test Method» 2015
-
-.. [13]
-   Dette gjelder ikke for stoffer som i tillegg til å forurense akvatisk
-   miljø også må vurderes mht. effekter på menneskelig helse etc.
-
-.. [14]
-   Dette kan finnes i Annex 10 i GHS.
-
-.. [15]
-   En spesiell veiledning for å tolke dataene er gitt i kapittel 4.1 og
-   Annex 9 i GHS.
-
-.. [16]
-   Se kapittel 4.1 og Annex 9, paragraf A9.4.2.2.3 i GHS.
-
-.. [17]
-   Spesiell veiledning er gitt i kapittel 4.1, paragraf 4.1.2.13 og
-   Annex 9, seksjon A9.6 i GHS
-
-.. [18]
-   Regulation (EC) No 1272/2008 of the European Parliament and of the
-   Council of 16 December 2008 on classification, labelling and
-   packaging of substances and mixtures, amending and repealing
-   Directive 67/548/EEC and 1999/45/EC; and amending Regulation (EC) No
-   1907/2006, published in the Official Journal of the European Union,
-   L 353, 31 December 2008, p 1–1355.
-
-.. [19]
-   Se del C i direktiv 2001/18/EF fra EU-parlamentet og Rådet om
-   utsetting i miljøet av genmodifiserte organismer og om oppheving av
-   rådsdirektiv 90/220/EØF (Official Journal of the European
-   Communities, No. L 106, of 17 April 2001, pp 8–14) og forordning (EF)
-   nr. 1829/2003 av EU-parlamentet og Rådet om genmodifiserte
-   næringsmidler og fôrvarer (Official Journal of the European Union,
-   No. L 268, of 18 October 2003, pp 1–23), som fastsetter
-   tillatelsesprosedyrene for den europeiske union.
-
-.. [20]
-   For UN 1845 karbondioksid i fast form (tørris), se 5.5.3.
 
 .. [21]
    Commission Regulation (EC) No 440/2008 of 30 May 2008 laying down

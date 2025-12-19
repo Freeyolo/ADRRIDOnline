@@ -8,9 +8,13 @@ Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser
 2.2.1 Klasse 1 Eksplosive stoffer og gjenstander
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.1.1 Kriterier
+.. _2.2.1.1:
 
-2.2.1.1.1 Klasse 1 omfatter:
+``2.2.1.1`` Kriterier
+
+.. _2.2.1.1.1:
+
+``2.2.1.1.1`` Klasse 1 omfatter:
 
 a) Eksplosive stoffer: faste eller flytende stoffer (eller
 stoffblandinger) som ved kjemiske reaksjoner kan utvikle gasser av slik
@@ -59,7 +63,9 @@ en virkning som skapes ved selvgående eksoterme kjemiske reaksjoner
 inklusive sjokk, sprengning, fragmentering, utkast, varme, lys, lyd,
 gass og røyk.
 
-2.2.1.1.2
+.. _2.2.1.1.2:
+
+``2.2.1.1.2`` 
 
 Alle stoffer eller gjenstander som har eller mistenkes å ha eksplosive
 egenskaper, skal vurderes med tanke på tilordning til klasse 1 i samsvar
@@ -71,7 +77,9 @@ for transport dersom det er tilordnet et navn eller en n.o.s-oppføring
 som er oppført i tabell A i kapittel 3.2 og som oppfyller kriteriene i
 UN Testmanualen.
 
-2.2.1.1.3
+.. _2.2.1.1.3:
+
+``2.2.1.1.3`` 
 
 Stoffer og gjenstander av klasse 1 skal tilordnes et UN-nummer og et
 navn eller en n.o.s.-oppføring som er oppført i tabell A i kapittel 3.2.
@@ -96,7 +104,9 @@ Dersom opprinnelseslandet ikke har tiltrådt ADR/RID, skal
 klassifiseringen og transportbetingelsene være godtatt av vedkommende
 myndighet i det første ADR/RID-landet forsendelsen kommer til.
 
-2.2.1.1.4
+.. _2.2.1.1.4:
+
+``2.2.1.1.4`` 
 
 Stoffer og gjenstander av klasse 1 skal være tilordnet en faregruppe i
 samsvar med 2.2.1.1.5 og til en forenlighetsgruppe i samsvar med
@@ -106,7 +116,9 @@ i 2.2.1.1.5. Forenlighetsgruppen skal bestemmes i henhold til
 definisjonene i 2.2.1.1.6. Klassifiseringskoden skal bestå av nummeret
 til faregruppen og bokstaven til forenlighetsgruppen.
 
-2.2.1.1.5 Definisjon av faregrupper
+.. _2.2.1.1.5:
+
+``2.2.1.1.5`` Definisjon av faregrupper
 
 1. Faregruppe 1.1 Stoffer og gjenstander som innebærer fare for
 masseeksplosjon (en masseeksplosjon er en eksplosjon som nærmest
@@ -145,7 +157,9 @@ tenning eller eksplosjonsoverføring.
 **ANM:** Faren forbundet med gjenstander av faregruppe 1.6 er begrenset
 til eksplosjon av en enkelt gjenstand.
 
-2.2.1.1.6 Definisjon av forenlighetsgrupper for stoffer og gjenstander
+.. _2.2.1.1.6:
+
+``2.2.1.1.6`` Definisjon av forenlighetsgrupper for stoffer og gjenstander
 
 A Primæreksplosiver
 
@@ -226,9 +240,13 @@ normale transportforhold.
 **ANM 5:** Gjenstander av forenlighetsgruppene C, D og E får
 samemballeres. Slike kolli skal tilordnes forenlighetsgruppe E.
 
-2.2.1.1.7 Klassifisering av fyrverkeri
+.. _2.2.1.1.7:
 
-2.2.1.1.7.1
+``2.2.1.1.7`` Klassifisering av fyrverkeri
+
+.. _2.2.1.1.7.1:
+
+``2.2.1.1.7.1`` 
 
 Fyrverkeri skal normalt tilordnes faregruppene 1.1, 1.2, 1.3 og 1.4 på
 bakgrunn av resultater fra prøving i henhold til Testserie 6 i UN
@@ -242,7 +260,9 @@ b) Siden omfanget av fyrverkeri er svært stort og tilgangen til
 prøvefasiliteter begrenset, kan tilordning til faregruppe også utføres i
 samsvar med prosedyren i 2.2.1.1.7.2.
 
-2.2.1.1.7.2
+.. _2.2.1.1.7.2:
+
+``2.2.1.1.7.2`` 
 
 Tilordning av fyrverkeri til UN-nr. 0333, 0334, 0335 eller 0336, og
 tilordning av gjenstander som blir brukt til teatereffekter og som
@@ -266,18 +286,24 @@ kolonne 4 i tabellen i 2.2.1.1.7.5 til faregrupper i kolonne 5 skal
 oversendes til FNs ekspertkomité for transport av farlig gods for
 informasjon.
 
-2.2.1.1.7.3
+.. _2.2.1.1.7.3:
+
+``2.2.1.1.7.3`` 
 
 Når fyrverkeri av mer enn én faregruppe er emballert i samme kolli skal
 de klassifiseres som tilhørende den mest farlige faregruppen dersom ikke
 prøveresultater fra gjennomføring av Testserie 6 viser noe annet.
 
-2.2.1.1.7.4
+.. _2.2.1.1.7.4:
+
+``2.2.1.1.7.4`` 
 
 Klassifiseringen vist i tabellen i 2.2.1.1.7.5 gjelder bare for
 gjenstander som er emballert i pappkasser (4G).
 
-2.2.1.1.7.5
+.. _2.2.1.1.7.5:
+
+``2.2.1.1.7.5`` 
 
 Klassifiseringstabell for fyrverkeri [2]_
 
@@ -915,9 +941,13 @@ benyttede morter.
 |        |              |                 | gjenstand        |       |
 +--------+--------------+-----------------+------------------+-------+
 
-2.2.1.1.8 Utelukkelse fra klasse 1
+.. _2.2.1.1.8:
 
-2.2.1.1.8.1
+``2.2.1.1.8`` Utelukkelse fra klasse 1
+
+.. _2.2.1.1.8.1:
+
+``2.2.1.1.8.1`` 
 
 En gjenstand eller et stoff kan utelukkes fra klasse 1 på bakgrunn av
 prøveresultater og definisjonen av klasse 1 ved godkjenning av
@@ -927,7 +957,9 @@ kontraherende stat, under forutsetning av at godkjenningen er gitt i
 samsvar med prosedyrene fastlagt i ADR, ADN, RID, IMDG-koden eller
 ICAO-TI.
 
-2.2.1.1.8.2
+.. _2.2.1.1.8.2:
+
+``2.2.1.1.8.2`` 
 
 Med godkjenning av vedkommende myndighet i samsvar med bestemmelsene i
 2.2.1.1.8.1 kan en gjenstand utelukkes fra klasse 1 dersom tre
@@ -970,24 +1002,34 @@ e) sløyfes.
 prøving av emballerte gjenstander dersom det antas at gjenstander
 emballert for transport kan utgjøre en større fare.
 
-2.2.1.1.9 Klassifikasjonsdokumentasjon
+.. _2.2.1.1.9:
 
-2.2.1.1.9.1
+``2.2.1.1.9`` Klassifikasjonsdokumentasjon
+
+.. _2.2.1.1.9.1:
+
+``2.2.1.1.9.1`` 
 
 En vedkommende myndighet som tilordner en gjenstand eller et stoff til
 klasse 1 skal skriftlig bekrefte klassifikasjonen til søker.
 
-2.2.1.1.9.2
+.. _2.2.1.1.9.2:
+
+``2.2.1.1.9.2`` 
 
 Et klassifikasjonsdokument fra vedkommende myndighet kan foreligge i
 enhver form og kan inneholde mer enn en side, forutsatt at sidene er
 fortløpende nummerert. Dokumentet skal ha en unik referanse.
 
-2.2.1.1.9.3
+.. _2.2.1.1.9.3:
+
+``2.2.1.1.9.3`` 
 
 Informasjonen skal være lett å identifisere, tydelig og varig.
 
-2.2.1.1.9.4
+.. _2.2.1.1.9.4:
+
+``2.2.1.1.9.4`` 
 
 Eksempler på informasjon som kan gis i klassifikasjonsdokumentet er som
 følger:
@@ -1050,9 +1092,13 @@ eksplosivene, farekommunikasjonen og internasjonal transport.
 o) Utløpsdato for klassifikasjonsdokumentet gis hvis vedkommende
 myndighet anser det hensiktsmessig.
 
-2.2.1.2 Stoffer og gjenstander som ikke får mottas for transport
+.. _2.2.1.2:
 
-2.2.1.2.1
+``2.2.1.2`` Stoffer og gjenstander som ikke får mottas for transport
+
+.. _2.2.1.2.1:
+
+``2.2.1.2.1`` 
 
 Eksplosivstoffer som er for følsomme i henhold til kriteriene i del I i
 UN Testmanualen, eller som kan være gjenstand for spontan reaksjon,
@@ -1060,7 +1106,9 @@ såvel som eksplosive stoffer og gjenstander som ikke kan tilordnes en
 betegnelse eller n.o.s. oppføring som er oppført i tabell A i kapittel
 3.2, skal ikke mottas for transport.
 
-2.2.1.2.2
+.. _2.2.1.2.2:
+
+``2.2.1.2.2`` 
 
 Gjenstander av forenlighetsgruppe K skal ikke mottas for transport
 (1.2K, UN 0020 og 1.3K, UN 0021).
@@ -1068,7 +1116,9 @@ Gjenstander av forenlighetsgruppe K skal ikke mottas for transport
 RID: Stoffer i forenlighetsgruppe A (1.1 A UN 0074, 0113, 0114, 0129,
 0130, 0135, 0224 og 0473) får ikke mottas for transport.
 
-2.2.1.3 Liste over samleoppføringer
+.. _2.2.1.3:
+
+``2.2.1.3`` Liste over samleoppføringer
 
 +-------------+-----+--------------------------------------------------+
 | Klassifi    | UN  | Navn på stoff eller gjenstand                    |
@@ -1224,7 +1274,7 @@ RID: Stoffer i forenlighetsgruppe A (1.1 A UN 0074, 0113, 0114, 0129,
 
 .. _2.2.1.4:
 
-2.2.1.4 Navneliste
+``2.2.1.4`` Navneliste
 
 **ANM 1:** Det er ikke meningen at betegnelsene i navnelisten skal
 erstatte testprosedyrene, og heller ikke erstatte fareklassifiseringen
@@ -2133,10 +2183,14 @@ Gjenstander som består av en liten eksplosiv ladning med
 initieringsmidler og stenger eller lenker. De bryter stengene eller
 lenkene for å frigi utstyret hurtig.
 
+.. _2.2.2:
+
 2.2.2 Klasse 2 Gasser
 ^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2.1 Kriterier
+.. _2.2.2.1:
+
+``2.2.2.1`` Kriterier
 
 2.2.2.1.1 Klasse 2 omfatter rene gasser, gassblandinger, blandinger av
 en eller flere gasser med ett eller flere andre stoffer samt gjenstander
@@ -2160,7 +2214,9 @@ slik som fyllingsgrad, påfyllingstrykk eller prøvetrykk.
 **ANM 3:** N.O.S.-oppføringene i 2.2.2.3 kan dekke både rene gasser og
 gassblandinger.
 
-2.2.2.1.2
+.. _2.2.2.1.2:
+
+``2.2.2.1.2`` 
 
 Stoffer og gjenstander av klasse 2 er inndelt på følgende måte:
 
@@ -2199,7 +2255,9 @@ flytende gass eller blandinger av slike gasser.
 adsorbert på et fast porøst stoff og hvor det indre trykk i beholderen
 er høyst 101.3 kPa ved 20 °C og høyst 300 kPa ved 50 °C.
 
-2.2.2.1.3
+.. _2.2.2.1.3:
+
+``2.2.2.1.3`` 
 
 Stoffer og gjenstander (unntatt aerosoler og kjemikalier under trykk) i
 klasse 2, er tilordnet en av følgende grupper i henhold til deres
@@ -2250,14 +2308,18 @@ til 3505), se 2.2.2.1.7.
 **ANM 3:** Etsende gasser regnes som giftige og er derfor plassert i
 gruppene TC, TFC eller TOC.
 
-2.2.2.1.4
+.. _2.2.2.1.4:
+
+``2.2.2.1.4`` 
 
 Dersom en blanding av klasse 2 som er oppført med navn i tabell A i
 kapittel 3.2 svarer til andre kriterier enn de som er nevnt i 2.2.2.1.2
 og 2.2.2.1.5, skal denne blandingen klassifiseres i henhold til
 kriteriene og tilordnes en n.o.s.-oppføring som passer.
 
-2.2.2.1.5
+.. _2.2.2.1.5:
+
+``2.2.2.1.5`` 
 
 Stoffer og gjenstander, unntatt aerosoler og kjemikalier under trykk, av
 klasse 2 som ikke er oppført med navn i tabell A i kapittel 3.2, skal
@@ -2367,7 +2429,9 @@ den laveste LC\ :sub:`50` for stoffer med lignende fysiologisk og
 kjemisk virkning, eller bestemmes ved testing dersom dette er eneste
 praktiske mulighet.
 
-2.2.2.1.6
+.. _2.2.2.1.6:
+
+``2.2.2.1.6`` 
 
 Aerosoler (UN 1950) er tilordnet en av følgende grupper i henhold til
 deres fareegenskaper:
@@ -2444,7 +2508,9 @@ c) Når kriteriene for flere av gruppene O, F, T og C er oppfylt,
 tilordnes gruppene CO, FC, TF, TC, TO, TFC eller TOC i henhold til det
 som er relevant.
 
-2.2.2.1.7 Kjemikalier under trykk
+.. _2.2.2.1.7:
+
+``2.2.2.1.7`` Kjemikalier under trykk
 
 Kjemikalier under trykk (UN 3500 til 3505) er tilordnet en av følgende
 grupper i henhold til deres fareegenskaper:
@@ -2520,9 +2586,13 @@ III.
 e) Når kriteriene for flere av gruppene F, T og C er oppfylt, tilordnes
 gruppene FC eller TF i henhold til det som er relevant.
 
-2.2.2.2 Gasser som ikke får mottas for transport
+.. _2.2.2.2:
 
-2.2.2.2.1
+``2.2.2.2`` Gasser som ikke får mottas for transport
+
+.. _2.2.2.2.1:
+
+``2.2.2.2.1`` 
 
 Kjemisk ustabile stoffer i klasse 2 skal ikke mottas for transport med
 mindre de nødvendige tiltak er truffet for å avverge enhver mulighet for
@@ -2540,7 +2610,9 @@ selvakselererende polymeriseringstemperatur (SAPT) på 50°C eller mindre,
 eller i en tank med en selvakselererende polymeriseringstemperatur
 (SAPT) på 45°C eller mindre) skal godset ikke tas imot for transport.
 
-2.2.2.2.2
+.. _2.2.2.2.2:
+
+``2.2.2.2.2`` 
 
 Følgende stoffer og blandinger er ikke tillatt transportert:
 
@@ -2566,7 +2638,9 @@ egenskaper (se 2.2.61 og 2.2.8).
 eller selvantennende i henhold til emballeringsbestemmelse P200 i
 4.1.4.1.
 
-2.2.2.3 Liste over samleoppføringer
+.. _2.2.2.3:
+
+``2.2.2.3`` Liste over samleoppføringer
 
 +---------+------+----------------------------------------------------+
 | **Komp  |      |                                                    |
@@ -2944,12 +3018,18 @@ eller selvantennende i henhold til emballeringsbestemmelse P200 i
 |         |      | N.O.S.                                             |
 +---------+------+----------------------------------------------------+
 
+.. _2.2.3:
+
 2.2.3 Klasse 3 Brannfarlige væsker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.3.1 Kriterier
+.. _2.2.3.1:
 
-2.2.3.1.1
+``2.2.3.1`` Kriterier
+
+.. _2.2.3.1.1:
+
+``2.2.3.1.1`` 
 
 Klasse 3 omfatter stoffer og gjenstander som inneholder stoffer av denne
 klassen som:
@@ -2999,7 +3079,9 @@ bekjempningsmidler og som er meget giftige, giftige eller svakt giftige
 og har flammepunkt 23 °C eller høyere, tilhører klasse 6.1 (se
 2.2.61.1).
 
-2.2.3.1.2
+.. _2.2.3.1.2:
+
+``2.2.3.1.2`` 
 
 Stoffer og gjenstander av klasse 3 er inndelt på følgende måte:
 
@@ -3026,7 +3108,9 @@ FTC Brannfarlige væsker, giftige, etsende
 
 D Flytende, desensiterte eksplosiver
 
-2.2.3.1.3
+.. _2.2.3.1.3:
+
+``2.2.3.1.3`` 
 
 Stoffer og gjenstander som er klassifisert i Klasse 3 er oppført i
 Tabell A i Kapittel 3.2. Stoffer som ikke er oppført i Tabell A i
@@ -3055,7 +3139,9 @@ fra hvor alvorlige tilleggsfaren(e) bedømmes å være; klassifiseringen og
 emballasjegruppen bestemmes da slik at en har overensstemmelse med
 fareprioriteringstabellen i 2.1.3.10.
 
-2.2.3.1.4
+.. _2.2.3.1.4:
+
+``2.2.3.1.4`` 
 
 Viskøse brannfarlige væsker som maling, emalje, lakk, lim og polish med
 flammepunkt lavere enn 23 °C kan tilordnes emballasjegruppe III i
@@ -3109,9 +3195,13 @@ Blandinger med flammepunkt under 23 °C som inneholder:
 tilhører klasse 1 (UN 0340 eller UN 0342) eller klasse 4.1 (UN 2555,
 2556 eller 2557).
 
-2.2.3.1.5 Viskøse væsker
+.. _2.2.3.1.5:
 
-2.2.3.1.5.1
+``2.2.3.1.5`` Viskøse væsker
+
+.. _2.2.3.1.5.1:
+
+``2.2.3.1.5.1`` 
 
 Viskøse væsker, bortsett fra som angitt i 2.2.3.1.5.2:
 
@@ -3139,7 +3229,9 @@ i. 60 sekunder; eller
 ii. 40 sekunder dersom den viskøse væsken inneholder høyst 60% av
 stoffer i klasse 3.
 
-2.2.3.1.5.2
+.. _2.2.3.1.5.2:
+
+``2.2.3.1.5.2`` 
 
 Viskøse væsker som også er miljøskadelige, men oppfyller alle andre
 kriterier i 2.2.3.1.5.1, er ikke underlagt noen andre
@@ -3149,7 +3241,9 @@ inneremballasje på 5 liter eller mindre, forutsatt at emballasjen
 oppfyller de alminnelige bestemmelsene i 4.1.1.1, 4.1.1.2 og 4.1.1.4 til
 4.1.1.8.
 
-2.2.3.1.6
+.. _2.2.3.1.6:
+
+``2.2.3.1.6`` 
 
 Dersom stoffer av klasse 3, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet som er oppført med navn
@@ -3160,7 +3254,9 @@ faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (som preparater
 og avfall), se også 2.1.3.
 
-2.2.3.1.7
+.. _2.2.3.1.7:
+
+``2.2.3.1.7`` 
 
 På bakgrunn av testprosedyrene i samsvar med 2.3.3.1 og 2.3.4 samt
 kriteriene fastsatt i 2.2.3.1.1, kan man også fastslå om en løsning
@@ -3168,9 +3264,13 @@ eller en blanding som er oppført med navn, eller som inneholder et stoff
 som er oppført med navn, er av en slik art at løsningen eller blandingen
 ikke omfattes av bestemmelsene for denne klassen (se også 2.1.3).
 
-2.2.3.2 Stoffer som ikke får mottas for transport
+.. _2.2.3.2:
 
-2.2.3.2.1
+``2.2.3.2`` Stoffer som ikke får mottas for transport
+
+.. _2.2.3.2.1:
+
+``2.2.3.2.1`` 
 
 Stoffer av klasse 3, som lett danner peroksider (noe som forekommer med
 etere og visse heterocykliske oksygenholdige forbindelser), får ikke
@@ -3178,7 +3278,9 @@ mottas for transport hvis deres innhold av peroksid, beregnet som
 hydrogenperoksid (H\ :sub:`2`\ O\ :sub:`2`) overstiger 0,3 %.
 Peroksidinnholdet skal bestemmes slik det er beskrevet i 2.3.3.3.
 
-2.2.3.2.2
+.. _2.2.3.2.2:
+
+``2.2.3.2.2`` 
 
 Kjemisk ustabile stoffer av klasse 3 får ikke mottas for transport hvis
 det ikke er tatt nødvendige skritt for å hindre farlig dekomponering
@@ -3194,13 +3296,17 @@ selvakselererende polymeriseringstemperatur (SAPT) på 50°C eller mindre,
 eller i en tank med en selvakselererende polymeriseringstemperatur
 (SAPT) på 45°C eller mindre) skal godset ikke tas imot for transport.
 
-2.2.3.2.3
+.. _2.2.3.2.3:
+
+``2.2.3.2.3`` 
 
 Eksplosiver i væskeform som er gjort ufølsomme, andre enn de som er
 oppført i tabell A i kapittel 3.2, får ikke mottas til transport som
 stoffer av klasse 3.
 
-2.2.3.3 Liste over samleoppføringer
+.. _2.2.3.3:
+
+``2.2.3.3`` Liste over samleoppføringer
 
 +--------+---+---+---------------------------------------------------+
 | Brannf |   | F | 1333 LIM inneholder brannfarlig væske             |
@@ -3503,12 +3609,18 @@ stoffer av klasse 3.
 |        |   |   |                                                   |
 +--------+---+---+---------------------------------------------------+
 
+.. _2.2.41:
+
 2.2.41 Klasse 4.1 Brannfarlige faste stoffer, selvreaktive stoffer, polymeriserende stoffer samt eksplosiver som er gjort ufølsomme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.41.1 Kriterier
+.. _2.2.41.1:
 
-2.2.41.1.1
+``2.2.41.1`` Kriterier
+
+.. _2.2.41.1.1:
+
+``2.2.41.1.1`` 
 
 Klasse 4.1 omfatter brannfarlige stoffer og gjenstander, eksplosiver som
 er gjort ufølsomme og som er faste stoffer i henhold til underavsnitt
@@ -3530,7 +3642,9 @@ til 2.2.41.1.8);
 
 - polymeriserende stoffer (se 2.2.41.1.20 og 2.2.41.1.21).
 
-2.2.41.1.2
+.. _2.2.41.1.2:
+
+``2.2.41.1.2`` 
 
 Stoffene og gjenstandene av klasse 4.1 er videre inndelt som følger:
 
@@ -3579,7 +3693,9 @@ Brannfarlige faste stoffer
 
 Definisjoner og egenskaper
 
-2.2.41.1.3
+.. _2.2.41.1.3:
+
+``2.2.41.1.3`` 
 
 Brannfarlige faste stoffer er lett antennelige faste stoffer og faste
 stoffer som kan forårsake brann som følge av friksjon.
@@ -3595,7 +3711,9 @@ Metallpulver er pulver av metaller eller metall-legeringer.
 
 Klassifisering
 
-2.2.41.1.4
+.. _2.2.41.1.4:
+
+``2.2.41.1.4`` 
 
 Stoffer og gjenstander som er klassifisert som brannfarlige faste
 stoffer av klasse 4.1, er oppført i tabell A i kapittel 3.2. Organiske
@@ -3609,7 +3727,9 @@ testing i samsvar med del III, underavsnitt 33.2 i UN Testmanualen, men
 det skal også tas hensyn til erfaring når dette tilsier en strengere
 tilordning.
 
-2.2.41.1.5
+.. _2.2.41.1.5:
+
+``2.2.41.1.5`` 
 
 Når stoffer som ikke er oppført med navn, tilordnes en av oppføringene
 som er oppført i underavsnitt 2.2.41.3 på grunnlag av testresultatene
@@ -3632,14 +3752,18 @@ Faste stoffer som kan forårsake brann som følge av friksjon, skal
 klassifiseres i klasse 4.1 analogt med eksisterende oppføringer (f.eks.
 fyrstikker) eller i samsvar med eventuell spesiell bestemmelse.
 
-2.2.41.1.6
+.. _2.2.41.1.6:
+
+``2.2.41.1.6`` 
 
 Testmetodene i henhold til UN Testmanualen, del III, underavsnitt 33.2
 samt kriteriene som er gitt i 2.2.41.1.4 og 2.2.41.1.5, kan også være
 grunnlag for å avgjøre om et navngitt stoff har slike egenskaper at det
 ikke omfattes av bestemmelsene for denne klassen.
 
-2.2.41.1.7
+.. _2.2.41.1.7:
+
+``2.2.41.1.7`` 
 
 Dersom stoffer av klasse 4.1, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet er oppført med i tabell
@@ -3651,7 +3775,9 @@ og avfall), se også 2.1.3.
 
 Tilordning til emballasjegrupper
 
-2.2.41.1.8
+.. _2.2.41.1.8:
+
+``2.2.41.1.8`` 
 
 Brannfarlige faste stoffer som er klassifisert under ulike oppføringer i
 tabell A i kapittel 3.2, skal tilordnes emballasjegruppene II eller III
@@ -3682,7 +3808,9 @@ Selvreaktive stoffer
 
 Definisjoner
 
-2.2.41.1.9
+.. _2.2.41.1.9:
+
+``2.2.41.1.9`` 
 
 Slik uttrykkene brukes i ADR/RID betyr selvreaktive stoffer termisk
 ustabile stoffer som kan være gjenstand for sterk eksotermisk
@@ -3735,7 +3863,9 @@ avsnitt 2.2.42.1.5 skulle tilsi klassifisering i klasse 4.2.
 
 Egenskaper
 
-2.2.41.1.10
+.. _2.2.41.1.10:
+
+``2.2.41.1.10`` 
 
 Dekomponering av selvreaktive stoffer kan initieres av varme, kontakt
 med katalytiske forurensninger (f.eks. syrer, tungmetallforbindelser,
@@ -3765,7 +3895,9 @@ og enkelte stoffblandinger kan ha lignende egenskaper.
 
 Klassifisering
 
-2.2.41.1.11
+.. _2.2.41.1.11:
+
+``2.2.41.1.11`` 
 
 Selvreaktive stoffer klassifiseres i syv typer i henhold til deres
 faregrad. Området spenner fra type A, som ikke får transporteres i den
@@ -3776,7 +3908,9 @@ emballasje. Prinsippene for klassifisering av stoffer samt
 klassifiseringsprosedyrene, metodene for testing og kriteriene er gitt i
 del II i UN Testmanualen.
 
-2.2.41.1.12
+.. _2.2.41.1.12:
+
+``2.2.41.1.12`` 
 
 Selvreaktive stoffer som allerede er klassifisert, og som allerede er
 tillatte for transport i emballasje er listet opp under 2.2.41.4; de som
@@ -3800,7 +3934,9 @@ Klassifiseringen av de selvreaktive stoffer som er oppført i 2.2.41.4,
 er basert på teknisk rene stoffer (unntatt der hvor det er spesifisert
 en lavere konsentrasjon enn 100 %).
 
-2.2.41.1.13
+.. _2.2.41.1.13:
+
+``2.2.41.1.13`` 
 
 Klassifisering av selvreaktive stoffer som ikke er oppført i 2.2.41.4,
 4.1.4.2, emballeringsbestemmelse IBC520 eller tankbestemmelse T23 for
@@ -3812,7 +3948,9 @@ opprinnelseslandet ikke har tiltrådt ADR/RID, skal klassifiseringen og
 transportbetingelsene være godtatt av vedkommende myndighet i det første
 ADR/RID-landet sendingen kommer til.
 
-2.2.41.1.14
+.. _2.2.41.1.14:
+
+``2.2.41.1.14`` 
 
 Aktivatorer, slik som sinkforbindelser, kan være tilsatt visse
 selvreaktive stoffer for å endre deres reaktivitet. Avhengig av såvel
@@ -3821,7 +3959,9 @@ termiske stabilitet og forandre stoffenes eksplosive egenskaper. Hvis
 noen av disse egenskapene er forandret, skal den nye sammensetningen
 vurderes på nytt i samsvar med klassifiseringsprosedyren.
 
-2.2.41.1.15
+.. _2.2.41.1.15:
+
+``2.2.41.1.15`` 
 
 Prøver av selvreaktive stoffer eller sammensetninger med selvreaktive
 stoffer som ikke er oppført i 2.2.41.4, som det ikke foreligger et
@@ -3845,7 +3985,9 @@ på jernbane.
 
 Nedsatt følsomhet
 
-2.2.41.1.16
+.. _2.2.41.1.16:
+
+``2.2.41.1.16`` 
 
 For å øke sikkerheten ved transport er selvreaktive stoffer ofte gjort
 mindre følsomme ved bruk av et fortynningsmiddel. Angivelse av
@@ -3866,12 +4008,16 @@ kontrolltemperaturen for det selvreaktive stoffet.
 
 ADR: Krav til temperaturkontroll
 
-2.2.41.1.17
+.. _2.2.41.1.17:
+
+``2.2.41.1.17`` 
 
 ADR: Selvreaktive stoffer med en SADT som ikke overstiger 55 °C, skal
 være underlagt temperaturkontroll under transport. Se 7.1.7.
 
-2.2.41.1.18
+.. _2.2.41.1.18:
+
+``2.2.41.1.18`` 
 
 Faste desensiterte eksplosiver er stoffer som er fuktet med vann eller
 alkohol eller er fortynnet med andre stoffer for å undertrykke deres
@@ -3880,7 +4026,9 @@ eksplosive egenskaper. Slike oppføringer i tabell A i kapittel 3.2 er UN
 1356, 1357, 1517, 1571, 2555, 2556, 2557, 2852, 2907, 3317, 3319, 3344,
 3364, 3365, 3366, 3367, 3368, 3369, 3370, 3376, 3380 og 3474.
 
-2.2.41.1.19
+.. _2.2.41.1.19:
+
+``2.2.41.1.19`` 
 
 Stoffer som:
 
@@ -3898,7 +4046,9 @@ Polymeriserende stoffer
 
 Definisjoner og egenskaper
 
-2.2.41.1.20
+.. _2.2.41.1.20:
+
+``2.2.41.1.20`` 
 
 Polymeriserende stoffer er stoffer som, uten stabilisering, er
 tilbøyelige til å gjennomgå en sterk eksoterm reaksjon som resulterer i
@@ -3920,7 +4070,9 @@ klassifiseres som et polymeriserende stoff i klasse 4.1.
 
 Krav til temperaturkontroll
 
-2.2.41.1.21
+.. _2.2.41.1.21:
+
+``2.2.41.1.21`` 
 
 ADR: Polymeriserende stoffer skal ha temperaturkontroll ved transport
 dersom deres selvakselererende polymeriseringstemperatur (SAPT) er:
@@ -3938,9 +4090,13 @@ bestemmelse 386 i kapittel 3.3.
 
 RID: (Reservert)
 
-2.2.41.2 Stoffer som ikke får mottas for transport
+.. _2.2.41.2:
 
-2.2.41.2.1
+``2.2.41.2`` Stoffer som ikke får mottas for transport
+
+.. _2.2.41.2.1:
+
+``2.2.41.2.1`` 
 
 Kjemisk ustabile stoffer av klasse 4.1 skal ikke mottas for transport
 med mindre det er truffet nødvendige tiltak for å hindre farlig
@@ -3948,13 +4104,17 @@ dekomponering eller polymerisasjon under transporten. I den hensikt skal
 det spesielt påses at beholderne ikke inneholder noe materiale som kan
 frembringe slike reaksjoner.
 
-2.2.41.2.2
+.. _2.2.41.2.2:
+
+``2.2.41.2.2`` 
 
 Brannfarlige faste stoffer, oksiderende, som er tilordnet UN 3097, skal
 ikke mottas for transport med mindre de oppfyller kravene for klasse 1
 (se også 2.1.3.7).
 
-2.2.41.2.3
+.. _2.2.41.2.3:
+
+``2.2.41.2.3`` 
 
 Følgende stoffer skal ikke mottas for transport:
 
@@ -4007,7 +4167,9 @@ N.O.S;
 UN 3534 POLYMERISERENDE STOFF, FLYTENDE, UNDER TEMPERATURKONTROLL,
 N.O.S.
 
-2.2.41.3 Liste over samleoppføringer
+.. _2.2.41.3:
+
+``2.2.41.3`` Liste over samleoppføringer
 
 +-----+-----+----+----+------------------------------------------------+
 |     |     |    |    | 3527 POLYESTERREPARASJONSSETT, fast            |
@@ -4439,8 +4601,9 @@ c) Metallhydrider som avgir brannfarlig gass ved kontakt med vann, er
 stoffer av klasse 4.3. Aluminiumborhydrid eller aluminiumborhydrid i
 tekniske innretninger er stoffer av klasse 4.2, UN 2870.
 
-2.2.41.4 Liste over nåværende tilordnede selvreaktive stoffer i
-emballasje
+.. _2.2.41.4:
+
+``2.2.41.4`` Liste over nåværende tilordnede selvreaktive stoffer i emballasje
 
 I kolonnen «Emballeringsmetode» refererer kodene «OP1» til «OP8» seg til
 emballeringsmetodene i 4.1.4.1, emballeringsbestemmelse P520 (se også
@@ -4779,12 +4942,18 @@ spesifiserte konsentrasjonsgrenser av (Z) isomeren.
 11. Den tekniske forbindelsen med de angitte konsentrasjonsgrenser kan
 inneholde opptil 12% vann og opp til 1% organiske forurensninger.
 
+.. _2.2.42:
+
 2.2.42 Klasse 4.2 Selvantennende stoffer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.42.1 Kriterier
+.. _2.2.42.1:
 
-2.2.42.1.1
+``2.2.42.1`` Kriterier
+
+.. _2.2.42.1.1:
+
+``2.2.42.1.1`` 
 
 Klasse 4.2 omfatter:
 
@@ -4799,7 +4968,9 @@ kan få temperaturstigning uten tilførsel av energi. Dette er stoffer som
 bare tar fyr når de forefinnes i større mengder (kilogram) og i løpet av
 lang tid (timer eller dager).
 
-2.2.42.1.2
+.. _2.2.42.1.2:
+
+``2.2.42.1.2`` 
 
 Stoffer og gjenstander av klasse 4.2 inndeles på følgende måte:
 
@@ -4849,7 +5020,9 @@ SC4 Uorganiske, etsende, faste
 
 Egenskaper
 
-2.2.42.1.3
+.. _2.2.42.1.3:
+
+``2.2.42.1.3`` 
 
 Selvoppheting av et stoff er en prosess hvor den gradvise reaksjonen
 mellom stoffet og oksygen (i luft) utvikler varme. Hvis raten på
@@ -4859,7 +5032,9 @@ og forbrenning.
 
 Klassifisering
 
-2.2.42.1.4
+.. _2.2.42.1.4:
+
+``2.2.42.1.4`` 
 
 Stoffer og gjenstander som er klassifisert i klasse 4.2, er oppført i
 tabell A i kapittel 3.2. Tilordning av stoffer og gjenstander som ikke
@@ -4873,7 +5048,9 @@ fra prøver utført i henhold til UN Testmanualen, del III, underavsnitt
 33.4, men det skal også tas hensyn til erfaring når dette tilsier en
 strengere tilordning.
 
-2.2.42.1.5
+.. _2.2.42.1.5:
+
+``2.2.42.1.5`` 
 
 Når stoffer som ikke er oppført med navn, tilordnes en av oppføringene
 som er oppført i 2.2.42.3 på grunnlag av testprosedyrene i henhold til
@@ -4916,7 +5093,9 @@ heller ikke får en temperaturstigning til over 160 °C innen 24 timer.
 klasse 4.2 eller 4.3 med tilleggsfarer som avhenger av stoffegenskapene,
 så er det i 2.3.5 gitt et eget flytdiagram for disse stoffene.
 
-2.2.42.1.6
+.. _2.2.42.1.6:
+
+``2.2.42.1.6`` 
 
 Dersom stoffer av klasse 4.2, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet som er oppført med navn
@@ -4926,7 +5105,9 @@ posisjonene som de tilhører på grunnlag av sin faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (som preparater
 og avfall), se også 2.1.3.
 
-2.2.42.1.7
+.. _2.2.42.1.7:
+
+``2.2.42.1.7`` 
 
 På bakgrunn av testprosedyrene i UN testmanualen, del III, underavsnitt
 33.4 og kriteriene fastsatt i 2.2.42.1.5 kan man også fastslå om en
@@ -4936,7 +5117,9 @@ blandingen ikke omfattes av bestemmelsene for denne klassen.
 
 Tilordning til emballasjegrupper
 
-2.2.42.1.8
+.. _2.2.42.1.8:
+
+``2.2.42.1.8`` 
 
 Stoffer og gjenstander som er klassifisert under de enkelte oppføringer
 i tabell A i kapittel 3.2, skal tilordnes emballasjegruppene I, II eller
@@ -4959,7 +5142,9 @@ prøve formet som en terning med side 10 cm, ved en prøvetemperatur på
 140 °C, observeres selvantennelse eller temperaturstigning til over 200
 °C innen 24 timer, skal tilordnes emballasjegruppe III;
 
-2.2.42.2 Stoffer som det ikke er tillatt å transportere
+.. _2.2.42.2:
+
+``2.2.42.2`` Stoffer som det ikke er tillatt å transportere
 
 Følgende stoffer får ikke mottas for transport:
 
@@ -4968,7 +5153,9 @@ Følgende stoffer får ikke mottas for transport:
 - Selvopphetende faste stoffer, oksiderende, tilordnet UN 3127, med
 mindre de oppfyller kravene for klasse 1 (se 2.1.3.7).
 
-2.2.42.3 Liste over samleoppføringer
+.. _2.2.42.3:
+
+``2.2.42.3`` Liste over samleoppføringer
 
 Selvantennende stoffer og gjenstander som inneholder slike stoffer.
 
@@ -5354,18 +5541,26 @@ i klasse 4.3.
 |      |      |   |   |                                             |
 +------+------+---+---+---------------------------------------------+
 
+.. _2.2.43:
+
 2.2.43 Klasse 4.3 Stoffer som utvikler brannfarlige gasser ved kontakt med vann
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.43.1 Kriterier
+.. _2.2.43.1:
 
-2.2.43.1.1
+``2.2.43.1`` Kriterier
+
+.. _2.2.43.1.1:
+
+``2.2.43.1.1`` 
 
 Klasse 4.3 omfatter stoffer som reagerer med vann slik at det utvikles
 brannfarlige gasser som sammen med luft kan danne eksplosive blandinger
 samt gjenstander som inneholder slike stoffer.
 
-2.2.43.1.2
+.. _2.2.43.1.2:
+
+``2.2.43.1.2`` 
 
 Stoffer og gjenstander av klasse 4.3 inndeles på følgende måte:
 
@@ -5409,7 +5604,9 @@ gasser, brannfarlige, etsende
 
 Egenskaper
 
-2.2.43.1.3
+.. _2.2.43.1.3:
+
+``2.2.43.1.3`` 
 
 Visse stoffer kan i kontakt med vann utvikle brannfarlige gasser som
 sammen med luft kan danne eksplosive blandinger. Slike blandinger
@@ -5422,7 +5619,9 @@ brannfarlige. Testmetoden skal ikke anvendes for selvantennende stoffer.
 
 Klassifisering
 
-2.2.43.1.4
+.. _2.2.43.1.4:
+
+``2.2.43.1.4`` 
 
 Stoffer og gjenstander som er klassifisert i klasse 4.3, er oppført i
 tabell A i kapittel 3.2. Tilordning av stoffer og gjenstander som ikke
@@ -5432,7 +5631,9 @@ skal foretas på grunnlag av testresultater i henhold til UN
 Testmanualen, del III, underavsnitt 33.5. Det skal også tas hensyn til
 erfaring når dette tilsier en strengere tilordning.
 
-2.2.43.1.5
+.. _2.2.43.1.5:
+
+``2.2.43.1.5`` 
 
 Når stoffer som ikke er oppført med navn, tilordnes en av oppføringene
 som er oppført i 2.2.43.3 på grunnlag av testprosedyrene i henhold til
@@ -5451,7 +5652,9 @@ hvert kilogram av det stoffet som skal testes.
 klasse 4.2 eller 4.3 med tilleggsfarer som avhenger av stoffegenskapene,
 så er det i 2.3.5 gitt et eget flytdiagram for disse stoffene.
 
-2.2.43.1.6
+.. _2.2.43.1.6:
+
+``2.2.43.1.6`` 
 
 Dersom stoffer av klasse 4.3, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet som er oppført med navn
@@ -5461,7 +5664,9 @@ oppføringene som de tilhører på grunnlag av sin faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (som preparater
 og avfall), se også 2.1.3.
 
-2.2.43.1.7
+.. _2.2.43.1.7:
+
+``2.2.43.1.7`` 
 
 På bakgrunn av testprosedyrene i samsvar med UN Testmanualen, del III,
 underavsnitt 33.5 og kriteriene i avsnitt 2.2.43.1.5 kan man også
@@ -5470,7 +5675,9 @@ det ikke omfattes av bestemmelsene for denne klassen.
 
 Tilordning til emballasjegrupper
 
-2.2.43.1.8
+.. _2.2.43.1.8:
+
+``2.2.43.1.8`` 
 
 Stoffer og gjenstander som er klassifisert under de forskjellige
 oppføringene i tabell A i kapittel 3.2 skal tilordnes emballasjegruppene
@@ -5493,13 +5700,17 @@ langsomt med vann ved romtemperatur, slik at den raskeste utviklingen av
 brannfarlig gass utgjør 1 liter eller mer pr. time for hvert kg stoff,
 og som ikke svarer til kriteriene for emballasjegruppe I eller II.
 
-2.2.43.2 Stoffer som ikke får mottas for transport
+.. _2.2.43.2:
+
+``2.2.43.2`` Stoffer som ikke får mottas for transport
 
 Vannreaktive, oksiderende faste stoffer som er tilordnet UN 3133 skal
 ikke mottas for transport med mindre de oppfyller kravene i klasse 1 (se
 også 2.1.3.7).
 
-2.2.43.3 Liste over samleoppføringer
+.. _2.2.43.3:
+
+``2.2.43.3`` Liste over samleoppføringer
 
 Stoffer som utvikler brannfarlige gasser ved kontakt med vann, og
 gjenstander som inneholder slike stoffer.
@@ -5765,19 +5976,27 @@ brannfarlige gasser ved kontakt med vann, er stoffer av klasse 3.
 Klorsilaner med flammepunkt 23 °C eller høyere som ikke utvikler
 brannfarlige gasser ved kontakt med vann, er stoffer av klasse 8.
 
+.. _2.2.51:
+
 2.2.51 Klasse 5.1 Oksiderende stoffer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.51.1 Kriterier
+.. _2.2.51.1:
 
-2.2.51.1.1
+``2.2.51.1`` Kriterier
+
+.. _2.2.51.1.1:
+
+``2.2.51.1.1`` 
 
 Klasse 5.1 omfatter stoffer, som, selv om de ikke nødvendigvis er
 brannfarlige selv, er i stand til å forårsake eller bidra til
 forbrenning av andre materialer og gjenstander som inneholder
 brannfarlige stoffer, hovedsakelig ved å avgi oksygen.
 
-2.2.51.1.2
+.. _2.2.51.1.2:
+
+``2.2.51.1.2`` 
 
 Stoffer av klasse 5.1 og gjenstander som inneholder slike stoffer, er
 inndelt på følgende måte:
@@ -5812,7 +6031,9 @@ OC2 Fast stoff
 
 OTC Oksiderende stoffer, giftige, etsende
 
-2.2.51.1.3
+.. _2.2.51.1.3:
+
+``2.2.51.1.3`` 
 
 Stoffer og gjenstander som er klassifisert i klasse 5.1 er oppført i
 tabell A i kapittel 3.2. Tilordning av stoffer som ikke er oppført med
@@ -5825,7 +6046,9 @@ i 2.2.51.2.2, punkt 13-14. Dersom testresultatene avviker fra det som er
 kjent fra erfaring, skal vurdering basert på erfaring tillegges vekt
 fremfor testresultatene.
 
-2.2.51.1.4
+.. _2.2.51.1.4:
+
+``2.2.51.1.4`` 
 
 Dersom stoffer av klasse 5.1, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet som er oppført med navn
@@ -5836,7 +6059,9 @@ faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (som preparater
 og avfall), se også avsnitt 2.1.3.
 
-2.2.51.1.5
+.. _2.2.51.1.5:
+
+``2.2.51.1.5`` 
 
 På grunnlag av testprosedyrene i UN Testmanualen, del III, avsnitt 34.4
 eller, for ammoniumnitrat basert gjødsel i fast form, avsnitt 39, og
@@ -5848,7 +6073,9 @@ Oksiderende faste stoffer
 
 Klassifisering
 
-2.2.51.1.6
+.. _2.2.51.1.6:
+
+``2.2.51.1.6`` 
 
 Når oksiderende faste stoffer som ikke er oppført med navn i tabell A i
 kapittel 3.2 tilordnes til den relevante oppføringen i 2.2.51.3 på
@@ -5868,14 +6095,18 @@ cellulose antennes eller brenner eller har gjennomsnittlig
 forbrenningstid som er lik eller kortere enn for en blanding av
 kalsiumperoksid og cellulose i forholdet 1:2 (etter masse).
 
-2.2.51.1.7
+.. _2.2.51.1.7:
+
+``2.2.51.1.7`` 
 
 Som unntak skal ammoniumnitrat basert gjødsel i fast form klassifiseres
 i henhold til prosedyren i UN Testmanualen, del III, avsnitt 39.
 
 Tilordning til emballasjegrupper
 
-2.2.51.1.8
+.. _2.2.51.1.8:
+
+``2.2.51.1.8`` 
 
 Oksiderende faste stoffer under de enkelte oppføringer i tabell A i
 kapittel 3.2 skal tilordnes emballasjegruppene I, II eller III på
@@ -5925,7 +6156,9 @@ Oksiderende væsker
 
 Klassifisering
 
-2.2.51.1.9
+.. _2.2.51.1.9:
+
+``2.2.51.1.9`` 
 
 Når oksiderende væsker som ikke er oppført med navn i tabell A i
 kapittel 3.2 tilordnes til den relevante oppføringen i 2.2.51.3 på
@@ -5940,7 +6173,9 @@ trykkøkning er lik eller mindre enn gjennomsnittet for en 1:1 blanding
 
 Tilordning til emballasjegrupper
 
-2.2.51.1.10
+.. _2.2.51.1.10:
+
+``2.2.51.1.10`` 
 
 Oksiderende væsker under de forskjellige oppføringene i tabell A i
 kapittel 3.2 skal tilordnes emballasjegruppene I, II eller III på
@@ -5966,9 +6201,13 @@ masse) med cellulose er lik eller mindre enn gjennomsnittet for en 1:1
 blanding (etter masse) av 65% salpetersyre og cellulose, og kriteriene
 for emballasjegruppe I og II ikke er oppfylt.
 
-2.2.51.2 Stoffer som ikke får mottas for transport
+.. _2.2.51.2:
 
-2.2.51.2.1
+``2.2.51.2`` Stoffer som ikke får mottas for transport
+
+.. _2.2.51.2.1:
+
+``2.2.51.2.1`` 
 
 Kjemisk ustabile stoffer av klasse 5.1 får ikke mottas for transport
 hvis det ikke er tatt nødvendige skritt for å hindre farlig spalting
@@ -5976,7 +6215,9 @@ eller polymerisasjon under transporten. I den hensikt skal det spesielt
 sørges for at beholderne og tankene ikke inneholder noe materiale som er
 i stand til å fremme slike reaksjoner.
 
-2.2.51.2.2
+.. _2.2.51.2.2:
+
+``2.2.51.2.2`` 
 
 Følgende stoffer og blandinger skal ikke mottas for transport:
 
@@ -6041,7 +6282,9 @@ opprinnelseslandet. Hvis dette landet ikke er ADR/RID kontraherende skal
 klassifikasjon og betingelser for transport godkjennes av første ADR/RID
 kontraherende land hvor forsendelsen ankommer.
 
-2.2.51.3 Liste over samleoppføringer
+.. _2.2.51.3:
+
+``2.2.51.3`` Liste over samleoppføringer
 
 +--------+---+---+---------------------------------------------------+
 | Oksid  |   | O | 3210 KLORATER, UORGANISKE, VANDIGE LØSNINGER,     |
@@ -6260,17 +6503,25 @@ kontraherende land hvor forsendelsen ankommer.
 |        |   |   |                                                   |
 +--------+---+---+---------------------------------------------------+
 
+.. _2.2.52:
+
 2.2.52 Klasse 5.2 Organiske peroksider
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.52.1 Kriterier
+.. _2.2.52.1:
 
-2.2.52.1.1
+``2.2.52.1`` Kriterier
+
+.. _2.2.52.1.1:
+
+``2.2.52.1.1`` 
 
 Klasse 5.2 omfatter organiske peroksider og sammensetninger med
 organiske peroksider.
 
-2.2.52.1.2
+.. _2.2.52.1.2:
+
+``2.2.52.1.2`` 
 
 Stoffer av klasse 5.2 er inndelt på følgende måte:
 
@@ -6281,7 +6532,9 @@ for jernbanetransport)**
 
 Definisjon
 
-2.2.52.1.3
+.. _2.2.52.1.3:
+
+``2.2.52.1.3`` 
 
 Organiske peroksider er organiske stoffer som inneholder den bivalente
 -O-O- strukturen og kan betraktes som derivater av hydrogenperoksid hvor
@@ -6289,7 +6542,9 @@ ett eller begge hydrogenatomer er erstattet av organiske radikaler.
 
 Egenskaper
 
-2.2.52.1.4
+.. _2.2.52.1.4:
+
+``2.2.52.1.4`` 
 
 Organiske peroksider har evne til eksoterm dekomponering ved normal
 eller forhøyet temperatur. Dekomponeringen kan utløses av varme, kontakt
@@ -6314,7 +6569,9 @@ ISO 3679: 1983.
 
 Klassifisering
 
-2.2.52.1.5
+.. _2.2.52.1.5:
+
+``2.2.52.1.5`` 
 
 Alle organiske peroksider skal betraktes som tilhørende klasse 5.2 med
 mindre sammensetningen inneholder:
@@ -6339,7 +6596,9 @@ c\ :sub:`i` = konsentrasjonen (masseprosent) av organisk peroksid i; og
 
 m\ :sub:`i` = molekylvekt for det organiske peroksidet i.
 
-2.2.52.1.6
+.. _2.2.52.1.6:
+
+``2.2.52.1.6`` 
 
 Organiske peroksider er klassifisert i syv typer i henhold til deres
 faregrad. Typene av organiske peroksider spenner fra type A, som ikke
@@ -6349,7 +6608,9 @@ til F har direkte sammenheng med største tillatte mengde i et kolli. Ved
 klassifisering av stoffer som ikke er oppført i 2.2.52.4 anvendes de
 prinsipper som er beskrevet i UN Testmanualen, del II.
 
-2.2.52.1.7
+.. _2.2.52.1.7:
+
+``2.2.52.1.7`` 
 
 Organiske peroksider som allerede er klassifisert og allerede er tillatt
 transportert i emballasje er listet opp under 2.2.52.4; de som allerede
@@ -6378,7 +6639,9 @@ selvakselererende dekomponeringstemperaturen (SADT) for blandingen
 bestemmes, (og for ADR om nødvendig også kontroll- og faretemperatur på
 grunnlag av denne SADT i samsvar med 7.1.7.3.6).
 
-2.2.52.1.8
+.. _2.2.52.1.8:
+
+``2.2.52.1.8`` 
 
 Klassifisering av organiske peroksider som ikke er oppført i 2.2.52.4,
 4.1.4.2, emballeringsbestemmelse IBC250 eller 4.2.5.2, multimodal
@@ -6389,7 +6652,9 @@ Dersom opprinnelseslandet ikke har tiltrådt ADR/RID, skal
 klassifiseringen og transportbetingelsene være godkjent av vedkommende
 myndighet i det første ADR/RID-landet forsendelsen kommer til.
 
-2.2.52.1.9
+.. _2.2.52.1.9:
+
+``2.2.52.1.9`` 
 
 Prøver av organiske peroksider eller sammensetninger med organiske
 peroksider som ikke er oppført i 2.2.52.4 og det heller ikke finnes et
@@ -6413,7 +6678,9 @@ jernbanetransport.
 
 Organiske peroksider som er gjort lite følsomme
 
-2.2.52.1.10
+.. _2.2.52.1.10:
+
+``2.2.52.1.10`` 
 
 For å gjøre transporten sikker, blir organiske peroksider i mange
 tilfelle tilsatt organiske væsker eller faste stoffer eller uorganiske
@@ -6423,7 +6690,9 @@ avrundet til nærmeste hele tall. Som hovedregel skal følsomheten være
 nedsatt på en slik måte at dersom det forekommer lekkasje, vil ikke
 konsentrasjonen av organisk peroksid kunne øke i farlig grad.
 
-2.2.52.1.11
+.. _2.2.52.1.11:
+
+``2.2.52.1.11`` 
 
 Om ikke annet er fastsatt for den enkelte sammensetning med organisk
 peroksid, skal følgende definisjon(er) gjelde for fortynningsmidler som
@@ -6443,7 +6712,9 @@ Fortynningsmiddel type B får benyttes til alle organiske peroksider for
 °C høyere enn kontrolltemperaturen for det organiske peroksidet i en 50
 kg emballasje.
 
-2.2.52.1.12
+.. _2.2.52.1.12:
+
+``2.2.52.1.12`` 
 
 Andre fortynningsmidler enn type A eller B kan tilsettes de
 sammensetningene med organiske peroksider som er oppført i 2.2.52.4,
@@ -6452,7 +6723,9 @@ eller B helt eller delvis av et annet fortynningsmiddel med andre
 egenskaper, skal sammensetningen med organisk peroksid vurderes på nytt
 etter den vanlige prosedyren for tilordning til klasse 5.2.
 
-2.2.52.1.13
+.. _2.2.52.1.13:
+
+``2.2.52.1.13`` 
 
 Vann får bare benyttes til å nedsette følsomheten for organiske
 peroksider som er oppført i 2.2.52.4, eller ved vedtak av vedkommende
@@ -6462,7 +6735,9 @@ sammensetninger med organiske peroksider som ikke er oppført i 2.2.52.4,
 får også tilsettes vann for å nedsette følsomheten dersom vilkårene i
 punkt 2.2.52.1.9 er oppfylt.
 
-2.2.52.1.14
+.. _2.2.52.1.14:
+
+``2.2.52.1.14`` 
 
 Organiske og uorganiske faste stoffer får benyttes til nedsettelse av
 følsomheten for organiske peroksider dersom de er forenlige. Væsker og
@@ -6472,7 +6747,9 @@ peroksid.
 
 ADR: Bestemmelser om temperaturkontroll
 
-2.2.52.1.15
+.. _2.2.52.1.15:
+
+``2.2.52.1.15`` 
 
 ADR: Følgende organiske peroksider skal være gjenstand for
 temperaturkontroll under transporten:
@@ -6491,14 +6768,18 @@ avsnitt 25.
 
 Se 7.1.7.
 
-2.2.52.1.16
+.. _2.2.52.1.16:
+
+``2.2.52.1.16`` 
 
 ADR: Kontroll- og faretemperatur er oppgitt i 2.2.52.4 når de skal
 anvendes. Under transporten får den virkelige temperatur være lavere enn
 kontrolltemperaturen, men må velges slik at farlig faseseparasjon
 unngås.
 
-2.2.52.2 Stoffer som ikke får mottas for transport
+.. _2.2.52.2:
+
+``2.2.52.2`` Stoffer som ikke får mottas for transport
 
 Organiske peroksider type A får ikke mottas for transport under
 bestemmelsene for klasse 5.2 (se UN Testmanualen, del II, avsnitt 20.4.3
@@ -6536,7 +6817,9 @@ UN 3119 ORGANISK PEROKSID TYPE F, FLYTENDE, UNDER TEMPERATURKONTROLL;
 
 UN 3120 ORGANISK PEROKSID TYPE F, I FAST FORM, UNDER TEMPERATURKONTROLL;
 
-2.2.52.3 Liste over samleoppføringer
+.. _2.2.52.3:
+
+``2.2.52.3`` Liste over samleoppføringer
 
 +--------+---+---+---------------------------------------------------+
 | Org    |   | P |    ORGANISK PEROKSID TYPE A, FLYTENDE{{{IMG       |
@@ -6642,7 +6925,9 @@ UN 3120 ORGANISK PEROKSID TYPE F, I FAST FORM, UNDER TEMPERATURKONTROLL;
 |        |   |   |                                                   |
 +--------+---+---+---------------------------------------------------+
 
-2.2.52.4 Liste over til nå tilordnede organiske peroksider i emballasje
+.. _2.2.52.4:
+
+``2.2.52.4`` Liste over til nå tilordnede organiske peroksider i emballasje
 
 I kolonnen «Emballeringsmetode» refererer kodene «OP1» til «OP8» seg til
 emballeringsmetodene i 4.1.4.1, emballeringsbestemmelse P520 (se også
@@ -8614,12 +8899,18 @@ over 56 %.
 34) Sum av fortynningsmiddel type A og vann ³ 55 %, og i tillegg
 metyletylketon
 
+.. _2.2.61:
+
 2.2.61 Klasse 6.1 Giftige stoffer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.61.1 Kriterier
+.. _2.2.61.1:
 
-2.2.61.1.1
+``2.2.61.1`` Kriterier
+
+.. _2.2.61.1.1:
+
+``2.2.61.1.1`` 
 
 Klasse 6.1 omfatter stoffer hvor erfaring har vist eller forsøk på dyr
 har gjort det sannsynlig at de i relativt små mengder vil kunne skade
@@ -8630,7 +8921,9 @@ huden eller svelging.
 **ANM:** Genetisk modifiserte mikroorganismer og organismer skal
 tilordnes denne klassen hvis de oppfyller kriteriene for denne klassen.
 
-2.2.61.1.2
+.. _2.2.61.1.2:
+
+``2.2.61.1.2`` 
 
 Stoffer og gjenstander av klasse 6.1 er inndelt på følgende måte:
 
@@ -8703,7 +8996,9 @@ utvikler brannfarlige gasser**
 
 Definisjoner
 
-2.2.61.1.3
+.. _2.2.61.1.3:
+
+``2.2.61.1.3`` 
 
 I ADR/RID betyr:
 
@@ -8736,7 +9031,9 @@ eller i ml/m\ :sup:`3` luft (ppm) for damper.
 
 Klassifisering og tilordning til emballasjegrupper
 
-2.2.61.1.4
+.. _2.2.61.1.4:
+
+``2.2.61.1.4`` 
 
 Stoffer av klasse 6.1 skal klassifiseres i tre emballasjegrupper i
 henhold til den grad av fare de representerer ved transport, som følger:
@@ -8747,7 +9044,9 @@ Emballasjegruppe II: giftige stoffer
 
 Emballasjegruppe III: svakt giftige stoffer.
 
-2.2.61.1.5
+.. _2.2.61.1.5:
+
+``2.2.61.1.5`` 
 
 Stoffer, blandinger, løsninger og gjenstander som er klassifisert i
 klasse 6.1 er oppført i tabell A i kapittel 3.2. Tilordning av stoffer,
@@ -8757,7 +9056,9 @@ til den relevante emballasjegruppen i henhold til bestemmelsene i
 kapittel 2.1, skal foretas i samsvar med følgende kriterier i 2.2.61.1.6
 til 2.2.61.1.11.
 
-2.2.61.1.6
+.. _2.2.61.1.6:
+
+``2.2.61.1.6`` 
 
 Ved vurdering av farene for forgiftning, skal det legges vekt på
 erfaringer fra ulykker hvor mennesker er blitt forgiftet. Det skal
@@ -8765,7 +9066,9 @@ videre tas hensyn til de enkelte stoffenes egenskaper, om de er flytende
 eller meget flyktige, om de lett kan bli opptatt gjennom huden samt
 spesielle biologiske virkninger.
 
-2.2.61.1.7
+.. _2.2.61.1.7:
+
+``2.2.61.1.7`` 
 
 Hvis man ikke kjenner til virkningen på mennesker, skal giftighetsgraden
 bestemmes på grunnlag av tilgjengelige resultater fra dyreforsøk ifølge
@@ -8793,13 +9096,17 @@ a) Stoffer til fremstilling av tåregass skal tilordnes emballasjegruppe
 II selv om deres giftighetsdata tilsvarer kriteriene for
 emballasjegruppe III.
 
-2.2.61.1.7.1
+.. _2.2.61.1.7.1:
+
+``2.2.61.1.7.1`` 
 
 Når et stoff viser forskjellig grad av giftighet ved ulike opptaksveier,
 skal klassifisering skje for den høyeste graden av giftighet som er
 vist.
 
-2.2.61.1.7.2
+.. _2.2.61.1.7.2:
+
+``2.2.61.1.7.2`` 
 
 Stoffer som svarer til kriteriene for klasse 8, og som har en giftighet
 ved innånding av støv og tåke (LC\ :sub:`50`) som tilsier
@@ -8808,7 +9115,9 @@ ved svelging eller hudopptak minst er i området for emballasjegruppe I
 eller II. Ellers skal klassifisering skje til klasse 8 om dette er
 riktig. (se 2.2.1.8.4.5).
 
-2.2.61.1.7.3
+.. _2.2.61.1.7.3:
+
+``2.2.61.1.7.3`` 
 
 Kriteriene for giftighet ved innånding av støv og tåke er basert på data
 for LC\ :sub:`50` ved 1 times eksponering, og slike opplysninger skal
@@ -8820,7 +9129,9 @@ likeverdig med LC\ :sub:`50` (1 time).
 
 Giftighet ved innånding av damper
 
-2.2.61.1.8
+.. _2.2.61.1.8:
+
+``2.2.61.1.8`` 
 
 Væsker som avgir giftige damper, skal klassifiseres i følgende grupper
 hvor «V» er konsentrasjonen av mettet damp (i ml/m\ :sup:`3` luft)
@@ -8869,12 +9180,16 @@ kan gi tilnærmede verdier.
 
 Væskeblandinger
 
-2.2.61.1.9
+.. _2.2.61.1.9:
+
+``2.2.61.1.9`` 
 
 Væskeblandinger som har giftvirkning ved innånding, skal tilordnes
 emballasjegrupper i henhold til følgende kriterier:
 
-2.2.61.1.9.1
+.. _2.2.61.1.9.1:
+
+``2.2.61.1.9.1`` 
 
 Dersom LC\ :sub:`50` er kjent for hvert av de giftige stoffene som
 utgjør blandingen, kan emballasjegruppen bestemmes på denne måten:
@@ -8913,7 +9228,9 @@ Emballasjegruppe III når R ³ 1/5 og LC\ :sub:`50` (blanding) £ 5.000
 ml/m\ :sup:`3`, hvis blandingen ikke oppfyller kriteriene for
 emballasjegruppe I eller II.
 
-2.2.61.1.9.2
+.. _2.2.61.1.9.2:
+
+``2.2.61.1.9.2`` 
 
 Dersom det ikke foreligger LC\ :sub:`50`-data for de giftige
 komponenter, kan blandingen tilordnes emballasjegruppe på grunnlag av
@@ -8921,7 +9238,9 @@ følgende forenklede test for giftighetsgrenseverdi. Når disse testene
 for grenseverdier anvendes, skal den mest restriktive gruppe velges og
 benyttes ved transport av blandingen.
 
-2.2.61.1.9.3
+.. _2.2.61.1.9.3:
+
+``2.2.61.1.9.3`` 
 
 En blanding tilordnes emballasjegruppe I bare når begge de følgende
 kriterier er oppfylt:
@@ -8940,7 +9259,9 @@ testatmosfæren i 1 time og observeres i 14 dager. Dersom fem eller flere
 av dyrene dør i løpet av 14 dagers perioden, skal blandingen antas å ha
 en flyktighet lik eller større enn 10 ganger blandingens LC\ :sub:`50`.
 
-2.2.61.1.9.4
+.. _2.2.61.1.9.4:
+
+``2.2.61.1.9.4`` 
 
 En blanding tilordnes emballasjegruppe II bare når begge de følgende
 kriterier er oppfylt, og blandingen ikke oppfyller kriteriene for
@@ -8960,7 +9281,9 @@ fem eller flere av dyrene dør i løpet av 14 dagers perioden, skal
 blandingen antas å ha en flyktighet lik eller større enn blandingens
 LC\ :sub:`50`.
 
-2.2.61.1.9.5
+.. _2.2.61.1.9.5:
+
+``2.2.61.1.9.5`` 
 
 En blanding tilordnes emballasjegruppe III bare når begge de følgende
 kriterier er oppfylt, og blandingen ikke oppfyller kriteriene for
@@ -8981,14 +9304,18 @@ ml/m\ :sup:`3`, antas blandingen å ha en flyktighet lik eller større enn
 Metoder for bestemmelse av blandingers giftighet ved svelging og
 hudkontakt
 
-2.2.61.1.10
+.. _2.2.61.1.10:
+
+``2.2.61.1.10`` 
 
 For klassifisering og tilordning av en blanding til riktig
 emballasjegruppe i klasse 6.1, i samsvar med giftighetskriteriene for
 svelging og hudkontakt (se 2.2.61.1.3 ovenfor), må blandingens akutte
 LD\ :sub:`50` bestemmes.
 
-2.2.61.1.10.1
+.. _2.2.61.1.10.1:
+
+``2.2.61.1.10.1`` 
 
 Dersom en blanding kun inneholder et aktivt stoff, og LD\ :sub:`50` for
 denne komponenten er kjent, kan man i mangel av data med hensyn til
@@ -8998,7 +9325,9 @@ hudkontakt med følgende metode:
 
 {{{IMG CLASS="«class imag»" REF="1852.jpg"/}}}
 
-2.2.61.1.10.2
+.. _2.2.61.1.10.2:
+
+``2.2.61.1.10.2`` 
 
 Dersom en blanding inneholder mer enn en aktiv komponent, er det tre
 mulige veier å gå for å bestemme blandingens LD\ :sub:`50` ved svelging
@@ -9031,7 +9360,9 @@ eller beskyttende virkninger.
 
 Klassifisering av bekjempningsmidler
 
-2.2.61.1.11
+.. _2.2.61.1.11:
+
+``2.2.61.1.11`` 
 
 Alle aktive stoffer som benyttes til bekjempelse av skadedyr og
 preparater fremstilt av slike stoffer, som har kjente verdier for
@@ -9041,7 +9372,9 @@ i 2.2.61.1.6 til 2.2.61.1.9. Stoffer og preparater med tilleggsfare skal
 klassifiseres i samsvar med fareprioriteringstabellen i 2.1.3.10 og
 tilordnes rett emballasjegruppe.
 
-2.2.61.1.11.1
+.. _2.2.61.1.11.1:
+
+``2.2.61.1.11.1`` 
 
 Dersom LD\ :sub:`50` -verdien ved svelging eller hudkontakt for et
 bekjempningspreparat ikke er kjent, men LD\ :sub:`50` -verdien for dets
@@ -9059,13 +9392,17 @@ dets klassifiseringssystem ikke anvendes for transportklassifisering
 eller tilordning til emballasjegrupper for bekjempningsmidler. Dette
 skal foretas i samsvar med bestemmelsene i ADR/RID.
 
-2.2.61.1.11.2
+.. _2.2.61.1.11.2:
+
+``2.2.61.1.11.2`` 
 
 Varenavn for bruk ved transport av bekjempningsmidlet skal velges på
 grunnlag av den aktive komponent, bekjempningsmidlets aggregattilstand
 samt eventuell tilleggsfare som kan foreligge (se 3.1.2).
 
-2.2.61.1.12
+.. _2.2.61.1.12:
+
+``2.2.61.1.12`` 
 
 Dersom stoffer av klasse 6.1, som følge av innblanding av andre stoffer,
 kommer i annen farekategori enn den som stoffet som er oppført med navn
@@ -9076,7 +9413,9 @@ faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (som preparater
 og avfall), se også 2.1.3.
 
-2.2.61.1.13
+.. _2.2.61.1.13:
+
+``2.2.61.1.13`` 
 
 På grunnlag av kriteriene i 2.2.61.1.6-2.2.61.1.11 kan det også fastslås
 om en løsning eller blanding som er oppført med navn, eller som
@@ -9084,16 +9423,22 @@ inneholder et stoff som er oppført med navn, har slike egenskaper at
 løsningen eller blandingen ikke er underlagt bestemmelsene for denne
 klassen.
 
-2.2.61.1.14
+.. _2.2.61.1.14:
+
+``2.2.61.1.14`` 
 
 Stoffer, løsninger og blandinger, unntatt stoffer og preparater til bruk
 ved bekjempelse av skadedyr, som ikke er klassifisert som akutt giftige
 kategori 1, 2 eller 3 etter forordning (EF) nr. 1272/2008 [4]_, kan
 anses som stoffer som ikke tilhører klasse 6.1.
 
-2.2.61.2 Stoffer som ikke får mottas for transport
+.. _2.2.61.2:
 
-2.2.61.2.1
+``2.2.61.2`` Stoffer som ikke får mottas for transport
+
+.. _2.2.61.2.1:
+
+``2.2.61.2.1`` 
 
 Kjemisk ustabile stoffer av klasse 6.1 får ikke mottas for transport
 hvis det ikke er tatt nødvendige forholdsregler for å hindre muligheten
@@ -9109,7 +9454,9 @@ selvakselererende polymeriseringstemperatur (SAPT) på 50°C eller mindre,
 eller i en tank med en selvakselererende polymeriseringstemperatur
 (SAPT) på 45°C eller mindre) skal godset ikke tas imot for transport.
 
-2.2.61.2.2
+.. _2.2.61.2.2:
+
+``2.2.61.2.2`` 
 
 Følgende stoffer og blandinger skal ikke mottas for transport:
 
@@ -9133,7 +9480,9 @@ RID: Følgende stoffer skal ikke mottas for transport på jernbane:
 
 - UN 0135 KVIKKSØLVFULMINAT, FUKTET.
 
-2.2.61.3 Liste over samleoppføringer
+.. _2.2.61.3:
+
+``2.2.61.3`` Liste over samleoppføringer
 
 Giftige stoffer uten tilleggsfare, og gjenstander som inneholder slike
 stoffer
@@ -10098,12 +10447,18 @@ m) Stoffer som er svakt giftige og svakt etsende, er stoffer av klasse 8
 n) Metallfosfider bekjempningsmidler tilordnet 1360, 1397, 1432, 1714,
 2011 og 2013, er stoffer av klasse 4.3.
 
+.. _2.2.62:
+
 2.2.62 Klasse 6.2 Infeksjonsfremmende stoffer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.62.1 Kriterier
+.. _2.2.62.1:
 
-2.2.62.1.1
+``2.2.62.1`` Kriterier
+
+.. _2.2.62.1.1:
+
+``2.2.62.1.1`` 
 
 Klasse 6.2 omfatter infeksjonsfremmende stoffer. Infeksjonsfremmende
 stoffer er stoffer hvor det er kjent, eller hvor det er rimelig å tro,
@@ -10123,7 +10478,9 @@ og ankommer.
 inneholder infeksjonsfremmende stoffer eller organismer, og heller ikke
 befinner seg i dem, tilhører klasse 6.1, UN 3172 eller 3462.
 
-2.2.62.1.2
+.. _2.2.62.1.2:
+
+``2.2.62.1.2`` 
 
 Stoffer av klasse 6.2 er inndelt på følgende måte:
 
@@ -10137,7 +10494,9 @@ I4 Biologiske stoffer
 
 Definisjoner
 
-2.2.62.1.3
+.. _2.2.62.1.3:
+
+``2.2.62.1.3`` 
 
 *«Biologiske produkter» er produkter som er fremstilt av levende
 organismer og som er fremstilt og distribuert* i samsvar med krav
@@ -10162,14 +10521,18 @@ blodkomponenter, hud og hudvæskeprøver samt kroppsdeler transportert for
 formål som forskning, diagnostisering, etterforskning,
 sykdomsbekjempning og -behandling.
 
-2.2.62.1.4
+.. _2.2.62.1.4:
+
+``2.2.62.1.4`` 
 
 Infeksjonsfremmende stoffer skal klassifiseres i klasse 6.2 og tilordnes
 UN 2814, UN 2900, UN 3291, UN 3373 eller 3549.
 
 Infeksjonsfremmende stoffer inndeles i følgende kategorier:
 
-2.2.62.1.4.1
+.. _2.2.62.1.4.1:
+
+``2.2.62.1.4.1`` 
 
 Kategori A: Et infeksjonsfremmende stoff som fraktes i en form som, ved
 eksponering, kan forårsake permanent handikap, livstruende eller dødelig
@@ -10373,7 +10736,9 @@ kursiv enten bakterier eller sopper.
 \* Kulturer beregnet for diagnostisk eller kliniske formål kan allikevel
 klassifiseres som infeksjonsfremmende stoffer i Kategori B
 
-2.2.62.1.4.2
+.. _2.2.62.1.4.2:
+
+``2.2.62.1.4.2`` 
 
 Kategori B: Et infeksjonsfremmende stoff som ikke tilfredsstiller
 kriteriene for å inkluderes i kategori A. Infeksjonsfremmende stoffer i
@@ -10381,22 +10746,30 @@ kategori B skal tilordnes UN 3373.
 
 **ANM:** Varenavnet til UN 3373 er «BIOLOGISK STOFF, KATEGORI B».
 
-2.2.62.1.5 Unntak
+.. _2.2.62.1.5:
 
-2.2.62.1.5.1
+``2.2.62.1.5`` Unntak
+
+.. _2.2.62.1.5.1:
+
+``2.2.62.1.5.1`` 
 
 Stoffer som ikke inneholder infeksjonsfremmende stoffer, eller stoffer
 som det er usannsynlig at vil forårsake sykdom hos mennesker eller dyr
 er ikke underlagt bestemmelsene i ADR/RID med mindre de tilfredsstiller
 kriteriene for å innlemmes i en annen klasse.
 
-2.2.62.1.5.2
+.. _2.2.62.1.5.2:
+
+``2.2.62.1.5.2`` 
 
 Stoffer som inneholder mikroorganismer som er ikke-patogene for
 mennesker og dyr er ikke underlagt ADR/RID med mindre de tilfredsstiller
 kriteriene for en annen klasse.
 
-2.2.62.1.5.3
+.. _2.2.62.1.5.3:
+
+``2.2.62.1.5.3`` 
 
 Stoffer hvor ethvert patogen er nøytralisert eller passivisert slik at
 de ikke lenger utgjør noen helsefare er ikke underlagt ADR/RID med
@@ -10405,24 +10778,32 @@ mindre de tilfredsstiller kriteriene for en annen klasse.
 **ANM:** Medisinsk utstyr som er tømt for fri væske oppfyller kravene i
 denne paragrafen og er ikke underlagt ADR/RID.
 
-2.2.62.1.5.4
+.. _2.2.62.1.5.4:
+
+``2.2.62.1.5.4`` 
 
 Stoffer hvor konsentrasjonen av patogener er på et nivå som normalt
 finnes i naturen (inkludert matvarer og vannprøver), og som ikke er
 ansett å utgjøre noen spesiell risiko for infeksjon er ikke underlagt
 ADR/RID med mindre de tilfredsstiller kriteriene for en annen klasse.
 
-2.2.62.1.5.5
+.. _2.2.62.1.5.5:
+
+``2.2.62.1.5.5`` 
 
 Inntørkede blodflekker, innsamlet ved å tilføre en dråpe blod på et
 absorberende materiale er ikke underlagt bestemmelsene i ADR/RID.
 
-2.2.62.1.5.6
+.. _2.2.62.1.5.6:
+
+``2.2.62.1.5.6`` 
 
 Prøver for påvisning av okkult blod (FOBT) er ikke underlagt
 bestemmelsene i ADR/RID.
 
-2.2.62.1.5.7
+.. _2.2.62.1.5.7:
+
+``2.2.62.1.5.7`` 
 
 Blod eller blodkomponenter som skal brukes til transfusjon eller til
 klargjøring av blodprodukter som skal brukes til transfusjon eller
@@ -10430,7 +10811,9 @@ transplantasjon og ethvert vev eller organ som skal transplanteres
 inkludert prøver tatt i forbindelse med slike formål, er ikke underlagt
 bestemmelsene i ADR/RID.
 
-2.2.62.1.5.8
+.. _2.2.62.1.5.8:
+
+``2.2.62.1.5.8`` 
 
 Prøver fra mennesker eller dyr (pasientprøver) hvor det er minimal
 sjanse for at det er patogener tilstede er ikke underlagt ADR/RID dersom
@@ -10479,7 +10862,9 @@ annen måte slik at det ikke kan oppstå kontakt dem imellom.
 **ANM 2:** For lufttransport skal emballasjer for prøver som er unntatt
 etter dette avsnitt tilfredsstille betingelsene i (a) til (c).
 
-2.2.62.1.5.9
+.. _2.2.62.1.5.9:
+
+``2.2.62.1.5.9`` 
 
 Med unntak av:
 
@@ -10512,11 +10897,15 @@ Emballasjen skal være merket med «BRUKT MEDISINSK INNRETNING» eller
 tilsvarende måte, med mindre merkingen av emballasjen fortsatt er
 synlig.
 
-2.2.62.1.6-8
+.. _2.2.62.1.6:
+
+``2.2.62.1.6-8`` 
 
 (Reservert)
 
-2.2.62.1.9 *Biologiske produkter*
+.. _2.2.62.1.9:
+
+``2.2.62.1.9`` *Biologiske produkter*
 
 Biologiske produkter inndeles i følgende grupper:
 
@@ -10537,15 +10926,21 @@ mikrobiologisk risiko i visse deler av verden. I slike tilfeller kan
 vedkommende myndighet kreve at disse biologiske produktene er i
 overensstemmelse med lokale krav, eller innføre andre restriksjoner.
 
-2.2.62.1.10 Genetisk modifiserte mikroorganismer og organismer
+.. _2.2.62.1.10:
+
+``2.2.62.1.10`` Genetisk modifiserte mikroorganismer og organismer
 
 Genetisk modifiserte mikroorganismer som ikke faller inn under
 definisjonen for infeksjonsfremmende stoffer skal klassifiseres i
 overensstemmelse med avsnitt 2.2.9.
 
-2.2.62.1.11 Medisinsk eller klinisk avfall
+.. _2.2.62.1.11:
 
-2.2.62.1.11.1
+``2.2.62.1.11`` Medisinsk eller klinisk avfall
+
+.. _2.2.62.1.11.1:
+
+``2.2.62.1.11.1`` 
 
 Medisinsk eller klinisk avfall som inneholder
 
@@ -10575,7 +10970,9 @@ Kommisjonsbestemmelse 2000/532/EC [5]_ med endringer, skal klassifiseres
 i samsvar med bestemmelsene i dette avsnitt, basert på medisinsk eller
 veterinær diagnose for pasienten eller dyret.
 
-2.2.62.1.11.2
+.. _2.2.62.1.11.2:
+
+``2.2.62.1.11.2`` 
 
 Medisinsk eller klinisk avfall, der det er grunn til å tro at det finnes
 en liten mulighet for at avfallet inneholder infeksjonsfremmende
@@ -10601,20 +10998,28 @@ infeksjoner under innsamling og tilintetgjøring) i henhold til listen
 vedlagt Kommisjonsbestemmelse 2000/532/EC [6]_ med endringer, underlagt
 ADR/RID.
 
-2.2.62.1.11.3
+.. _2.2.62.1.11.3:
+
+``2.2.62.1.11.3`` 
 
 Dekontaminert medisinsk eller klinisk avfall som tidligere inneholdt
 infeksjonsfremmende stoffer er ikke underlagt bestemmelsene i ADR/RID
 med mindre de tilfredsstiller kriteriene for å innlemmes i en annen
 klasse.
 
-2.2.62.1.11.4
+.. _2.2.62.1.11.4:
+
+``2.2.62.1.11.4`` 
 
 (Slettet)
 
-2.2.62.1.12 Infiserte dyr
+.. _2.2.62.1.12:
 
-2.2.62.1.12.1
+``2.2.62.1.12`` Infiserte dyr
+
+.. _2.2.62.1.12.1:
+
+``2.2.62.1.12.1`` 
 
 Med mindre et infeksjonsfremmende stoff ikke kan forsendes på noen annen
 måte, skal levende dyr ikke benyttes for forsendelse av slike stoffer.
@@ -10638,18 +11043,24 @@ Regulation (EC) No 1/2005 of 22 December 2004 on the protection of
 animals during transport (Official Journal of the European Community No
 L 3 of 5 January 2005) as amended.*
 
-2.2.62.1.12.2
+.. _2.2.62.1.12.2:
+
+``2.2.62.1.12.2`` 
 
 (Slettet)
 
-2.2.62.2 Stoffer som ikke får mottas for transport
+.. _2.2.62.2:
+
+``2.2.62.2`` Stoffer som ikke får mottas for transport
 
 Levende virveldyr eller virvelløse dyr skal ikke benyttes til transport
 av infeksjonsfremmende agens med mindre det er umulig å gjennomføre
 transporten på annen måte, eller med mindre transporten er godkjent av
 vedkommende myndighet (se 2.2.62.1.12.1).
 
-2.2.62.3 Liste over samleoppføringer
+.. _2.2.62.3:
+
+``2.2.62.3`` Liste over samleoppføringer
 
 +--------+---+---+---------------------------------------------------+
 |        |   |   |                                                   |
@@ -10694,18 +11105,26 @@ vedkommende myndighet (se 2.2.62.1.12.1).
 |        |   |   |                                                   |
 +--------+---+---+---------------------------------------------------+
 
+.. _2.2.7:
+
 2.2.7 Klasse 7 Radioaktivt materiale
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.7.1 Definisjoner
+.. _2.2.7.1:
 
-2.2.7.1.1
+``2.2.7.1`` Definisjoner
+
+.. _2.2.7.1.1:
+
+``2.2.7.1.1`` 
 
 Radioaktivt materiale er alt materiale som inneholder radionuklider hvor
 både konsentrasjonen av aktivitet og den samlede aktivitet i
 forsendelsen overstiger verdiene som er gitt i 2.2.7.2.2.1-2.2.7.2.2.6.
 
-2.2.7.1.2 Forurensning
+.. _2.2.7.1.2:
+
+``2.2.7.1.2`` Forurensning
 
 **Forurensning** betyr at det på en overflate finnes radioaktivt stoff i
 mengder som overstiger 0.4 Bq/cm\ :sup:`2` for beta- og gammaemittere
@@ -10717,7 +11136,9 @@ overflaten under rutinemessige transportforhold.
 
 **Fastsittende forurensning** er forurensning som ikke er løstsittende.
 
-2.2.7.1.3 Definisjoner og spesielle termer
+.. _2.2.7.1.3:
+
+``2.2.7.1.3`` Definisjoner og spesielle termer
 
 **A**\ :sub:`1` **og A**\ :sub:`2`
 
@@ -10804,11 +11225,17 @@ uran 238, og 0,72 % uran 235, regnet av massen).
 
 Det vil alltid forekomme en meget liten prosentdel av uran-234.
 
-2.2.7.2 Klassifisering
+.. _2.2.7.2:
 
-2.2.7.2.1 Generelle bestemmelser
+``2.2.7.2`` Klassifisering
 
-2.2.7.2.1.1
+.. _2.2.7.2.1:
+
+``2.2.7.2.1`` Generelle bestemmelser
+
+.. _2.2.7.2.1.1:
+
+``2.2.7.2.1.1`` 
 
 Radioaktivt materiale skal tilordnes et av UN-numrene spesifisert i
 tabell 2.2.7.2.1.1, i samsvar med 2.2.7.2.4 og 2.2.7.2.5, i tråd med
@@ -10944,9 +11371,13 @@ unntatt i henhold til 2.2.7.2.3.5.
 
 :sup:`c)` For UN 3507, se også spesiell bestemmelse 369 i kapittel 3.3.
 
-2.2.7.2.2 Bestemmelse av grunnleggende radionuklide verdier
+.. _2.2.7.2.2:
 
-2.2.7.2.2.1
+``2.2.7.2.2`` Bestemmelse av grunnleggende radionuklide verdier
+
+.. _2.2.7.2.2.1:
+
+``2.2.7.2.2.1`` 
 
 Følgende grunnleggende verdier for individuelle radionuklider er gitt i
 tabell 2.2.7.2.2.1:
@@ -12812,7 +13243,9 @@ spesifisert i (d) og (e) ovenfor.
 
 g) Disse verdiene gjelder bare ubestrålt uran.
 
-2.2.7.2.2.2
+.. _2.2.7.2.2.2:
+
+``2.2.7.2.2.2`` 
 
 For enkelte radionuklider:
 
@@ -12876,7 +13309,9 @@ GSR del 3.
 |                              |     | 5`  |             |             |
 +------------------------------+-----+-----+-------------+-------------+
 
-2.2.7.2.2.3
+.. _2.2.7.2.2.3:
+
+``2.2.7.2.2.3`` 
 
 Ved beregning av A\ :sub:`1` og A\ :sub:`2` for en radionuklide som ikke
 står i tabell 2.2.7.2.2.1; skal en enkelt radioaktiv spaltningskjede
@@ -12890,7 +13325,9 @@ halveringstid som er enten over 10 dager, eller lengre enn mornuklidens,
 skal mornukliden og slike datterprodukter ansees som blandinger av
 forskjellige nuklider.
 
-2.2.7.2.2.4
+.. _2.2.7.2.2.4:
+
+``2.2.7.2.2.4`` 
 
 For blandinger av radionuklider kan grunnleggende nuklideverdier som
 henvist til i 2.2.7.2.2.1 bestemmes som følger:
@@ -12912,7 +13349,9 @@ eller aktivitetskonsentrasjonsgrensen for unntatt materiale eller
 aktivitetsgrensen for en fritatt forsendelse når det dreier seg om en
 blanding.
 
-2.2.7.2.2.5
+.. _2.2.7.2.2.5:
+
+``2.2.7.2.2.5`` 
 
 Når identiteten er kjent for samtlige radionuklider, mens de
 individuelle aktiviteter ikke er kjent for enkelte av radionuklidene,
@@ -12923,21 +13362,31 @@ alfa-aktivitet og total beta/gamma-aktivitet, når disse er kjent, og
 benytte de laveste radionuklideverdier for henholdsvis alfaemitterne
 eller beta/ henholdsvis gammaemitterne.
 
-2.2.7.2.2.6
+.. _2.2.7.2.2.6:
+
+``2.2.7.2.2.6`` 
 
 For enkelt-radionuklider eller for blandinger av radionuklider som det
 ikke foreligger relevante data for, skal de data som er gitt i tabell
 2.2.7.2.2.2 benyttes.
 
-2.2.7.2.3 Bestemmelse av øvrige stoffkarakteristika
+.. _2.2.7.2.3:
 
-2.2.7.2.3.1 Materiale med lav spesifikk aktivitet (LSA)
+``2.2.7.2.3`` Bestemmelse av øvrige stoffkarakteristika
 
-2.2.7.2.3.1.1
+.. _2.2.7.2.3.1:
+
+``2.2.7.2.3.1`` Materiale med lav spesifikk aktivitet (LSA)
+
+.. _2.2.7.2.3.1.1:
+
+``2.2.7.2.3.1.1`` 
 
 (Reservert)
 
-2.2.7.2.3.1.2
+.. _2.2.7.2.3.1.2:
+
+``2.2.7.2.3.1.2`` 
 
 LSA-materiale skal tilhøre en av følgende tre grupper:
 
@@ -12980,9 +13429,13 @@ ii. den anslåtte middelverdi for det faste stoffets spesifikke
 aktivitet, når det ikke tas hensyn til eventuelt avskjermingsmateriale,
 ikke overskrider 2´10\ :sup:`-3` A\ :sub:`2` /g
 
-2.2.7.2.3.1.3 til 2.2.7.2.3.1.5 (Slettet)
+.. _2.2.7.2.3.1.3:
 
-2.2.7.2.3.2 Overflateforurenset gjenstand (SCO)
+``2.2.7.2.3.1.3-5`` (Slettet)
+
+.. _2.2.7.2.3.2:
+
+``2.2.7.2.3.2`` Overflateforurenset gjenstand (SCO)
 
 En overflateforurenset gjenstand klassifiseres i en av følgende tre
 grupper:
@@ -13050,9 +13503,13 @@ ikke overstiger 8 × 10\ :sup:`5` Bq/cm\ :sup:`2` for beta- og
 alfaemittere og lite giftige alfaemittere, eller 8 × 10\ :sup:`4`
 Bq/cm\ :sup:`2` for alle andre alfaemittere.
 
-2.2.7.2.3.3 Radioaktivt materiale av spesiell form
+.. _2.2.7.2.3.3:
 
-2.2.7.2.3.3.1
+``2.2.7.2.3.3`` Radioaktivt materiale av spesiell form
+
+.. _2.2.7.2.3.3.1:
+
+``2.2.7.2.3.3.1`` 
 
 Radioaktivt materiale av spesiell form skal ha minst en dimensjon som er
 ikke under 5 mm. Når en lukket kapsel utgjør en del av det spesielle
@@ -13060,7 +13517,9 @@ radioaktive materialet, skal kapselen være laget slik at den kun kan
 åpnes ved å ødelegge den. Konstruksjonen for radioaktivt materiale av
 spesiell form krever unilateral godkjenning.
 
-2.2.7.2.3.3.2
+.. _2.2.7.2.3.3.2:
+
+``2.2.7.2.3.3.2`` 
 
 Radioaktivt materiale av spesiell form skal være av en slik art eller
 være konstruert på en slik måte at dersom det utsettes for testene
@@ -13083,12 +13542,16 @@ Protection - Sealed Radioactive Sources Leakage Test Methods» ikke
 overskride de grenseverdiene som kommer til anvendelse og som godtas av
 vedkommende myndighet.
 
-2.2.7.2.3.3.3
+.. _2.2.7.2.3.3.3:
+
+``2.2.7.2.3.3.3`` 
 
 Det skal vises at kravene til ytelsene i 2.2.7.2.3.3.2 er oppfylt, slik
 det er beskrevet i 6.4.12.1 og 6.4.12.2.
 
-2.2.7.2.3.3.4
+.. _2.2.7.2.3.3.4:
+
+``2.2.7.2.3.3.4`` 
 
 Prøveobjekter som omfatter eller simulerer radioaktivt materiale av
 spesiell form, skal utsettes for støtprøve, slagprøve, bøyeprøve og
@@ -13099,7 +13562,9 @@ eller volumetrisk lekkasjetest på prøveobjektet med en metode som ikke
 er mindre følsom enn den som er beskrevet i 2.2.7.2.3.3.7 for fast stoff
 som ikke kan spres eller 2.2.7.2.3.3.8 for innkapslet materiale.
 
-2.2.7.2.3.3.5
+.. _2.2.7.2.3.3.5:
+
+``2.2.7.2.3.3.5`` 
 
 De relevante prøvemetodene er:
 
@@ -13132,7 +13597,9 @@ d) Varmeprøve: Prøveobjektet skal oppvarmes i luft til en temperatur på
 800° C og holdes på den temperaturen i en periode på minst 10 minutter
 og skal deretter få anledning til å kjøle ned.
 
-2.2.7.2.3.3.6
+.. _2.2.7.2.3.3.6:
+
+``2.2.7.2.3.3.6`` 
 
 Prøveobjekter som omfatter eller simulerer radioaktivt materiale i
 forseglet kapsel kan fritas fra:
@@ -13153,7 +13620,9 @@ alternativ utsettes for varmeprøve klasse 6 som beskrevet i ISO
 2919:2012 *«Radiation Protection - Sealed Radioactive Sources - General
 requirements and classification»*.
 
-2.2.7.2.3.3.7
+.. _2.2.7.2.3.3.7:
+
+``2.2.7.2.3.3.7`` 
 
 For prøveobjekter som omfatter eller simulerer materiale i fast form som
 ikke kan spres, skal det foretas utlutningsevaluering på følgende måte:
@@ -13179,7 +13648,9 @@ oppvarmes til (50 ± 5)° C og holdes på denne temperaturen i 4 timer.
 
 f) Deretter skal vannets aktivitet bestemmes.
 
-2.2.7.2.3.3.8
+.. _2.2.7.2.3.3.8:
+
+``2.2.7.2.3.3.8`` 
 
 For prøveobjekter som omfatter eller simulerer radioaktivt materiale i
 forseglet kapsel, skal det foretas enten en utlutningsevaluering eller
@@ -13206,9 +13677,13 @@ testene foreskrevet i ISO 9978:1992 *«Radiation Protection - Sealed
 radioactive sources Leakage test methods»* forutsatt at de er akseptable
 for vedkommende myndighet.
 
-2.2.7.2.3.4 Radioaktivt materiale med liten tendens til spredning
+.. _2.2.7.2.3.4:
 
-2.2.7.2.3.4.1
+``2.2.7.2.3.4`` Radioaktivt materiale med liten tendens til spredning
+
+.. _2.2.7.2.3.4.1:
+
+``2.2.7.2.3.4.1`` 
 
 Konstruksjonen for radioaktivt materiale med liten tendens til spredning
 forutsetter multilateral godkjenning. Radioaktivt materiale med liten
@@ -13229,7 +13704,9 @@ aktiviteten i vannet ikke overstige 100 A\ :sub:`2`. Når denne testen
 benyttes, skal en ta hensyn til e skadelige effektene spesifisert i (b)
 ovenfor.
 
-2.2.7.2.3.4.2
+.. _2.2.7.2.3.4.2:
+
+``2.2.7.2.3.4.2`` 
 
 Radioaktivt materiale med liten tendens til spredning skal testes som
 følger:
@@ -13242,7 +13719,9 @@ prøven gjennomgå utlutningstesten spesifisert i 2.2.7.2.3.4.3. Etter
 hver prøve skal det avgjøres hvorvidt de relevante kravene i 2.2.7.2.3.4
 er tilfredsstilt.
 
-2.2.7.2.3.4.3
+.. _2.2.7.2.3.4.3:
+
+``2.2.7.2.3.4.3`` 
 
 En prøve av fast stoff som er representativt for hele innholdet i
 kolliet skal holdes nedsenket i vann i 7 døgn ved omgivelsestemperatur.
@@ -13254,13 +13733,17 @@ og en største konduktivitet på 1 mS/m ved 20°C. Den totale aktiviteten
 til det frie vannvolumet skal måles etter den 7-dagers nedsenkingen av
 prøven.
 
-2.2.7.2.3.4.4
+.. _2.2.7.2.3.4.4:
+
+``2.2.7.2.3.4.4`` 
 
 At kravene til ytelsene er i overensstemmelse med standardene nevnt i
 2.2.7.2.3.4.1, 2.2.7.2.3.4.2 og 2.2.7.2.3.4.3 skal bestemmes som nevnt i
 6.4.12.1 og 6.4.12.2.
 
-2.2.7.2.3.5 Spaltbart materiale
+.. _2.2.7.2.3.5:
+
+``2.2.7.2.3.5`` Spaltbart materiale
 
 Spaltbart materiale og kolli som inneholder spaltbart materiale skal
 klassifiseres under den passende oppføringen som «SPALTBART» i henhold
@@ -13300,7 +13783,9 @@ ikke emballert i henhold til kravene fastsatt i 7.5.11 CV33 (4.3) (e);
 f) Et spaltbart materiale som oppfyller kravene i 7.5.11 CV33 (4.3) (b),
 2.2.7.2.3.6 og 5.1.5.2.1.
 
-2.2.7.2.3.6
+.. _2.2.7.2.3.6:
+
+``2.2.7.2.3.6`` 
 
 Spaltbare materialer unntatt fra klassifikasjon som «SPALTBART» etter
 2.2.7.2.3.5 (f) skal være subkritisk uten behov for kontroll av
@@ -13311,14 +13796,21 @@ a) Vilkårene angitt i 6.4.11.1 (a);
 b) Vilkårene i samsvar med vurderingsbestemmelsene i 6.4.11.12 (b) og
 6.4.11.13 (b) for kolli.
 
-2.2.7.2.4 Klassifisering av kolli eller uemballert stoff
+.. _2.2.7.2.4:
+
+``2.2.7.2.4`` Klassifisering av kolli eller uemballert stoff
 
 Mengden av radioaktivt materiale i et kolli skal ikke overstige de
 relevante grensene for kollitypen som er angitt nedenfor.
 
-2.2.7.2.4.1 Klassifisering av unntakskolli
+.. _2.2.7.2.4.1:
 
-*2.2.7.2.4.1.1*
+``2.2.7.2.4.1`` Klassifisering av unntakskolli
+
+
+.. _2.2.7.2.1.1:
+
+``*2.2.7.2.4.1.1*``
 
 Et kolli kan klassifiseres som unntakskolli hvis et av følgende vilkår
 er oppfylt:
@@ -13339,7 +13831,9 @@ eller
 e) Det inneholder mindre enn 0,1 kg uranheksafluorid som ikke overstiger
 aktivitetsgrensene spesifisert i kolonne (4) i tabell 2.2.7.2.4.1.2.
 
-2.2.7.2.4.1.2
+.. _2.2.7.2.4.1.2:
+
+``2.2.7.2.4.1.2`` 
 
 Et kolli som inneholder radioaktivt materiale kan klassifiseres som
 unntakskolli dersom doseraten på ethvert sted på den ytre overflaten
@@ -13385,7 +13879,9 @@ Tabell 2.2.7.2.4.1.2: Aktivitetsgrenser for unntakskolli
 
 a) For blandinger av radionuklider, se 2.2.7.2.2.4 til 2.2.7.2.2.6.
 
-2.2.7.2.4.1.3
+.. _2.2.7.2.4.1.3:
+
+``2.2.7.2.4.1.3`` 
 
 Radioaktivt materiale som er innesluttet, i eller inngår som bestanddel
 av, et instrument eller annet ferdig produkt, kan klassifiseres som UN
@@ -13427,7 +13923,9 @@ e) (reservert)
 f) hvis kolliet inneholder spaltbare materialer gjelder en av
 bestemmelsene i 2.2.7.2.3.5 a) til f).
 
-2.2.7.2.4.1.4
+.. _2.2.7.2.4.1.4:
+
+``2.2.7.2.4.1.4`` 
 
 Radioaktivt materiale i en annen form enn den som er beskrevet i
 2.2.7.2.4.1.3 og med en aktivitet som ikke overstiger grensene
@@ -13450,7 +13948,9 @@ innvendig overflate.; og
 c) hvis kolliet inneholder spaltbare materialer gjelder en av
 bestemmelsene i 2.2.7.2.3.5 a) til f).
 
-2.2.7.2.4.1.5
+.. _2.2.7.2.4.1.5:
+
+``2.2.7.2.4.1.5`` 
 
 Uranheksafluorid som ikke overstiger grensene spesifisert i kolonne 4 i
 tabell 2.2.7.2.4.1.2 kan klassifiseres under oppføring UN 3507
@@ -13461,7 +13961,9 @@ a) Massen av uranheksafluorid i hvert kolli er lavere enn 0,1 kg;
 
 b) Vilkårene i 2.2.7.2.4.5.2 og 2.2.7.2.4.1.4 (a) og (b) er oppfylt.
 
-2.2.7.2.4.1.6
+.. _2.2.7.2.4.1.6:
+
+``2.2.7.2.4.1.6`` 
 
 Et produkt produsert av naturlig uran, utarmet uran eller naturlig
 thorium og produkter hvor det eneste radioaktive materiale er ubestrålt
@@ -13471,7 +13973,9 @@ GJENSTANDER FREMSTILT AV NATURLIG URAN eller UTARMET URAN eller NATURLIG
 THORIUM, forutsatt at uranets eller thoriumets utvendige overflate er
 omsluttet av et inaktivt hylster av metall eller annet solid materiale.
 
-2.2.7.2.4.1.7
+.. _2.2.7.2.4.1.7:
+
+``2.2.7.2.4.1.7`` 
 
 Tom emballasje som har inneholdt radioaktivt materiale kan klassifiseres
 under UN 2908 RADIOAKTIVT MATERIALE, UNNTAKSKOLLI - TOM EMBALLASJE,
@@ -13498,20 +14002,25 @@ e) hvis emballasjen har inneholdt spaltbare materialer gjelder en av
 bestemmelsene i 2.2.7.2.3.5 a) til f) eller en av bestemmelsene for
 unntak i 2.2.7.1.3.
 
-2.2.7.2.4.2 Klassifisering av materiale med lav spesifikk aktivitet
-(LSA)
+.. _2.2.7.2.4.2:
+
+``2.2.7.2.4.2`` Klassifisering av materiale med lav spesifikk aktivitet (LSA)
 
 Radioaktivt materiale kan kun klassifiseres som LSA-materiale hvis
 definisjonen av LSA i 2.2.7.1.3 og betingelsene i 2.2.7.2.3.1, 4.1.9.2
 og 7.5.11 CV33 (2) er innfridd.
 
-2.2.7.2.4.3 Klassifisering av overflateforurensede gjenstander (SCO)
+.. _2.2.7.2.4.3:
+
+``2.2.7.2.4.3`` Klassifisering av overflateforurensede gjenstander (SCO)
 
 Radioaktivt materiale kan klassifiseres som SCO hvis definisjonen av SCO
 i 2.2.7.1.3 og betingelsene i 2.2.7.2.3.2, 4.1.9.2 og 7.5.11 CV33 (2) er
 innfridd.
 
-2.2.7.2.4.4 Klassifisering av kolli type A
+.. _2.2.7.2.4.4:
+
+``2.2.7.2.4.4`` Klassifisering av kolli type A
 
 Kolli som inneholder radioaktivt materiale kan klassifiseres som kolli
 type A dersom følgende betingelser er tilfredsstilt:
@@ -13541,9 +14050,13 @@ annet enn spesiell form;
 
 A\ :sub:`2` (j) er A\ :sub:`2` -verdien for radionukliden «j».
 
-2.2.7.2.4.5 Klassifisering av uranheksafluorid
+.. _2.2.7.2.4.5:
 
-2.2.7.2.4.5.1
+``2.2.7.2.4.5`` Klassifisering av uranheksafluorid
+
+.. _2.2.7.2.4.5.1:
+
+``2.2.7.2.4.5.1`` 
 
 Uranheksafluorid skal kun klassifiseres under:
 
@@ -13555,7 +14068,9 @@ unntatt spaltbart; eller
 c) UN 3507 RADIOAKTIVT MATERIALE, URANHEKSAFLUORID, UNNTAKSKOLLI mindre
 enn 0,1 kg per kolli, ikke spaltbart eller unntatt spaltbart.
 
-2.2.7.2.4.5.2
+.. _2.2.7.2.4.5.2:
+
+``2.2.7.2.4.5.2`` 
 
 Innholdet i et kolli som inneholder uranheksafluorid skal oppfylle
 følgende krav:
@@ -13573,30 +14088,44 @@ c) Uranheksafluorid skal være i fast form og det innvendige trykket i
 kolliet skal ikke være over atmosfæretrykket når det leveres for
 transport.
 
-2.2.7.2.4.6 Klassifisering av kolli type B(U) og B(M) eller type C
+.. _2.2.7.2.4.6:
 
-*2.2.7.2.4.6.1*
+``2.2.7.2.4.6`` Klassifisering av kolli type B(U) og B(M) eller type C
+
+.. _2.2.7.2.4.6.1:
+
+``*2.2.7.2.4.6.1*``
 
 Kolli som ikke er annerledes beskrevet i 2.2.7.2.4 (2.2.7.2.4.1 til
 2.2.7.2.4.5) skal klassifiseres i overensstemmelse med godkjenningsbevis
 utstedt av vedkommende myndighet i konstruksjonslandet.
 
-2.2.7.2.4.6.2
+.. _2.2.7.2.4.6.2:
+
+``2.2.7.2.4.6.2`` 
 
 Innholdet i kolli type B(U), type B(M) eller type C skal være i samsvar
 med spesifikasjoner i godkjenningssertifikat.
 
-2.2.7.2.5 Særordning:
+.. _2.2.7.2.5:
+
+``2.2.7.2.5`` Særordning:
 
 Radioaktivt materiale skal klassifiseres som transport under særordning
 når den er bestemt å transporteres i samsvar med 1.7.4.
 
+.. _2.2.8:
+
 2.2.8 Klasse 8 Etsende stoffer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.8.1 Definisjon, alminnelige bestemmelser og kriterier
+.. _2.2.8.1:
 
-2.2.8.1.1
+``2.2.8.1`` Definisjon, alminnelige bestemmelser og kriterier
+
+.. _2.2.8.1.1:
+
+``2.2.8.1.1`` 
 
 *Etsende stoffer* er stoffer som ved kjemisk reaksjon vil forårsake
 irreversibel skade på hud, eller i tilfelle lekkasje, vil skade eller
@@ -13605,23 +14134,31 @@ andre stoffer som bare danner etsende væske når vann er til stede, eller
 som avgir etsende damp eller tåke som følge av luftens naturlige
 fuktighet.
 
-2.2.8.1.2
+.. _2.2.8.1.2:
+
+``2.2.8.1.2`` 
 
 Generelle klassifiseringsbestemmelser er angitt i 2.2.8.1.4 for stoffer
 og blandinger som virker etsende på hud. Etsing på hud innebærer
 irreversibel hudskade, nærmere bestemt synlig nekrose gjennom overhuden
 og ned til lærhuden etter eksponering av et stoff eller blandinger.
 
-2.2.8.1.3
+.. _2.2.8.1.3:
+
+``2.2.8.1.3`` 
 
 Væsker og faste stoffer som er vurdert ikke etsende på hud men kan bli
 flytende under transport, skal bli vurdert for deres potensial til å
 forårsake korrosjon på visse metalloverflater i henhold til kriteriene i
 2.2.8.1.5.3 (c) (ii).
 
-2.2.8.1.4 Generelle klassifiseringsbestemmelser
+.. _2.2.8.1.4:
 
-2.2.8.1.4.1
+``2.2.8.1.4`` Generelle klassifiseringsbestemmelser
+
+.. _2.2.8.1.4.1:
+
+``2.2.8.1.4.1`` 
 
 C1-C11 Etsende stoffer uten tilleggsfare og gjenstander inneholdende
 slike stoffer
@@ -13691,7 +14228,9 @@ slike stoffer
 
    COT Etsende stoffer, oksiderende, giftige
 
-2.2.8.1.4.2
+.. _2.2.8.1.4.2:
+
+``2.2.8.1.4.2`` 
 
 Stoffer og blandinger i klasse 8 er inndelt i tre emballasjegrupper i
 henhold til faregrad under transport:
@@ -13702,21 +14241,27 @@ b) Emballasjegruppe II: Middels farlige stoffer og blandinger;
 
 c) Emballasjegruppe III: Mindre farlige stoffer og blandinger.
 
-2.2.8.1.4.3
+.. _2.2.8.1.4.3:
+
+``2.2.8.1.4.3`` 
 
 Stoffer har blitt tilordnet i tabell A i kapittel 3.2 til
 emballasjegrupper i klasse 8 på grunnlag av erfaring tatt i betraktning
 tilleggsfaktorer som innåndingsfare (se 2.2.8.1.4.5) og reaktivitet med
 vann (inkludert dannelse av farlige nedbrytningsprodukter).
 
-2.2.8.1.4.4
+.. _2.2.8.1.4.4:
+
+``2.2.8.1.4.4`` 
 
 Nye stoffer og blandinger kan tilordnes emballasjegruppe på grunnlag av
 tiden det tar å produsere irreversibel skade på friskt hudvev i henhold
 til kriteriene i 2.2.8.1.5. Alternativt kan 2.2.8.1.6 anvendes for
 blandinger.
 
-2.2.8.1.4.5
+.. _2.2.8.1.4.5:
+
+``2.2.8.1.4.5`` 
 
 Et stoff eller blanding som oppfyller kriteriene for klasse 8 med en
 innåndingsfare for støv og tåke (LC\ :sub:`50`) tilsvarende
@@ -13724,15 +14269,21 @@ emballasjegruppe I, men oral eller dermal giftighet tilsvarende
 emballasjegruppe III eller svakere, skal tilordnes klasse 8 (se
 2.2.61.1.7.2).
 
-2.2.8.1.5 Tilordning av stoffer og blandinger til emballasjegruppe
+.. _2.2.8.1.5:
 
-2.2.8.1.5.1
+``2.2.8.1.5`` Tilordning av stoffer og blandinger til emballasjegruppe
+
+.. _2.2.8.1.5.1:
+
+``2.2.8.1.5.1`` 
 
 Eksisterende data for mennesker og dyr, inkludert informasjon fra enkel
 eller gjentatt eksponering, skal vurderes først siden dette gir
 informasjon som er direkte relevant for virkninger på huden.
 
-2.2.8.1.5.2
+.. _2.2.8.1.5.2:
+
+``2.2.8.1.5.2`` 
 
 Ved tilordning til emballasjegrupper i henhold til 2.2.8.1.4.4 skal det
 tas hensyn til erfaring fra ulykker hvor mennesker har blitt eksponert.
@@ -13750,7 +14301,9 @@ blandingen er etsende, men testmetoden ikke gjør det mulig å skille
 mellom emballasjegrupper, skal det tilordnes emballasjegruppe I dersom
 ingen andre testresultater indikerer en annen emballasjegruppe.
 
-2.2.8.1.5.3
+.. _2.2.8.1.5.3:
+
+``2.2.8.1.5.3`` 
 
 Emballasjegrupper tilordnes etsende stoffer i henhold til følgende
 kriterier (se tabell 2.2.8.1.5.3):
@@ -13808,10 +14361,13 @@ Tabell 2.2.8.1.5.3 Oppsummerende tabell for kriteriene i 2.2.8.1.5.3
 |        |          |          | begge materialer.                   |
 +--------+----------+----------+-------------------------------------+
 
-2.2.8.1.6 Alternativ tilordningsmetode til emballasjegruppe for
-blandinger: Trinnvis tilnærming
+.. _2.2.8.1.6:
 
-2.2.8.1.6.1 Alminnelige bestemmelser
+``2.2.8.1.6`` Alternativ tilordningsmetode til emballasjegruppe for blandinger: Trinnvis tilnærming
+
+.. _2.2.8.1.6.1:
+
+``2.2.8.1.6.1`` Alminnelige bestemmelser
 
 For blandinger er det nødvendig å innhente informasjon som gjør det
 mulig å anvende kriteriene til klassifisering og tilordning av
@@ -13826,7 +14382,9 @@ av emballasjegruppe for etsende blandinger
 
 {{{IMG CLASS="«class PDF »" REF="Figur-2-2-8-1-6-1.pdf"/}}}
 
-2.2.8.1.6.2 Brobyggingsprinsipper
+.. _2.2.8.1.6.2:
+
+``2.2.8.1.6.2`` Brobyggingsprinsipper
 
 Hvis en blanding ikke har blitt testet for sitt potensial til etsing på
 hud, men det foreligger tilstrekkelig data for både de individuelle
@@ -13884,9 +14442,13 @@ etsing på hud og påvirker ikke potensialet for etsing på hud til B.
 Hvis blanding (A+B) eller (C+B) allerede er klassifisert på grunnlag av
 testdata kan den andre blandingen tilordnes samme emballasjegruppe.
 
-2.2.8.1.6.3 Utregningsmetode på grunnlag av stoffenes klassifikasjon
+.. _2.2.8.1.6.3:
 
-2.2.8.1.6.3.1
+``2.2.8.1.6.3`` Utregningsmetode på grunnlag av stoffenes klassifikasjon
+
+.. _2.2.8.1.6.3.1:
+
+``2.2.8.1.6.3.1`` 
 
 Når en blanding ikke har blitt testet for sitt potensiale for etsing på
 hud, og det heller ikke er tilgjengelig data om tilsvarende blandinger,
@@ -13898,14 +14460,18 @@ som gjør blandingen mer etsende enn summen av stoffene i den. Denne
 begrensningen gjelder bare hvis blandingen ville blitt tilordnet i
 gruppe II eller III.
 
-2.2.8.1.6.3.2
+.. _2.2.8.1.6.3.2:
+
+``2.2.8.1.6.3.2`` 
 
 Ved bruk av utregningsmetoden skal alle klasse 8 ingredienser tilstede i
 en konsentrasjon på ³ 1% tas i betraktning, eller < 1% hvis disse
 ingrediensene likevel er relevante for klassifiseringen av blandingen
 som etsende på hud.
 
-2.2.8.1.6.3.3
+.. _2.2.8.1.6.3.3:
+
+``2.2.8.1.6.3.3`` 
 
 For å avgjøre om en blanding som inneholder etsende stoffer skal bli
 vurdert som en etsende blanding og for å tilordne den til en
@@ -13915,14 +14481,18 @@ konsentrasjonsgrenser der 1% er brukt i første steg av evalueringen av
 stoffer i emballasjegruppe I, og der 5% er brukt i de øvrige respektive
 stegene.
 
-2.2.8.1.6.3.4
+.. _2.2.8.1.6.3.4:
+
+``2.2.8.1.6.3.4`` 
 
 Når en spesifikk konsentrasjonsgrense (SCL) er angitt for et stoff
 oppført i tabell A i kapittel 3.2 eller i en spesiell bestemmelse, skal
 denne grensen brukes i stedet for den generiske konsentrasjonsgrensen
 (GCL).
 
-2.2.8.1.6.3.5
+.. _2.2.8.1.6.3.5:
+
+``2.2.8.1.6.3.5`` 
 
 For dette formål skal utregningsformelen for hvert steg i
 utregningsmetoden tilpasses. Dette betyr at, hvis aktuelt, den generiske
@@ -14005,7 +14575,9 @@ Figur 2.2.8.1.6.3: Utregningsmetode
 
 {{{IMG CLASS="«class PDF »" REF="Figur-2-2-8-1-6-3.pdf"/}}}
 
-2.2.8.1.7
+.. _2.2.8.1.7:
+
+``2.2.8.1.7`` 
 
 Dersom stoffer av klasse 8, som følge av innblanding av andre stoffer,
 kommer i en farekategori forskjellig fra de som stoffene nevnt med navn
@@ -14016,7 +14588,9 @@ faktiske faregrad.
 **ANM:** For klassifisering av løsninger og blandinger (slike som
 preparater og avfall), se også 2.1.3.
 
-2.2.8.1.8
+.. _2.2.8.1.8:
+
+``2.2.8.1.8`` 
 
 På grunnlag av kriteriene i avsnitt 2.2.8.1.6 kan det også fastslås om
 en løsning eller blanding som er oppført med navn, eller som inneholder
@@ -14026,9 +14600,13 @@ eller blandingen ikke omfattes av bestemmelsene for denne klassen.
 **ANM:** UN 1910 kalsiumoksid og UN 2812 natriumaluminat, som begge er
 oppført i FNs regelverksmal, er ikke underlagt ADR/RID-bestemmelsene.
 
-2.2.8.2 Stoffer som ikke får mottas for transport
+.. _2.2.8.2:
 
-2.2.8.2.1
+``2.2.8.2`` Stoffer som ikke får mottas for transport
+
+.. _2.2.8.2.1:
+
+``2.2.8.2.1`` 
 
 Kjemisk ustabile stoffer av klasse 8 får ikke mottas for transport med
 mindre det er truffet nødvendige tiltak for å hindre farlig spalting
@@ -14043,7 +14621,9 @@ selvakselererende polymeriseringstemperatur (SAPT) på 50°C eller mindre,
 eller i en tank med en selvakselererende polymeriseringstemperatur
 (SAPT) på 45°C eller mindre) skal godset ikke tas imot for transport.**
 
-2.2.8.2.2 Følgende stoffer skal ikke mottas for transport:
+.. _2.2.8.2.2:
+
+``2.2.8.2.2`` Følgende stoffer skal ikke mottas for transport:
 
 - UN 1798 NITROSALTSYRE;
 
@@ -14057,7 +14637,9 @@ blandinger av perklorsyre med andre væsker enn vann.
 
 - Svoveltrioksid, minst 99,95% ren, ikke stabilisert (uten inhibitor).
 
-2.2.8.3 Liste over samleoppføringer
+.. _2.2.8.3:
+
+``2.2.8.3`` Liste over samleoppføringer
 
 Etsende stoffer uten tilleggsfare og gjenstander som inneholder slike
 stoffer
@@ -14796,17 +15378,25 @@ NATRIUMFLUORID, FAST, UN 2674 NATRIUMFLUOROSILIKAT, UN 2856
 FLUORSILIKATER, N.O.S., UN 3415 NATRIUMFLUORIDLØSNING og UN 3422
 KALIUMFLUORIDLØSNING er stoffer av klasse 6.1.
 
+.. _2.2.9:
+
 2.2.9 Klasse 9 Forskjellige farlige stoffer og gjenstander
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.9.1 Kriterier
+.. _2.2.9.1:
 
-2.2.9.1.1
+``2.2.9.1`` Kriterier
+
+.. _2.2.9.1.1:
+
+``2.2.9.1.1`` 
 
 Klasse 9 omfatter stoffer og gjenstander som under transport innebærer
 fare på en måte som ikke er dekket av andre klasser.
 
-2.2.9.1.2
+.. _2.2.9.1.2:
+
+``2.2.9.1.2`` 
 
 **Stoffer og gjenstander av klasse 9 er inndelt på følgende måte:**
 
@@ -14837,7 +15427,9 @@ M9-M10 Oppvarmede stoffer
 M11 Andre stoffer og gjenstander som innebærer fare under transport og
 som ikke svarer til definisjonene for en annen klasse.
 
-2.2.9.1.3
+.. _2.2.9.1.3:
+
+``2.2.9.1.3`` 
 
 Definisjoner og klassifisering
 
@@ -14848,14 +15440,18 @@ oppføringen i denne tabellen eller i underavsnitt 2.2.9.3, skal foretas
 i samsvar med 2.2.9.1.4 til 2.2.9.1.8, 2.2.9.1.10, 2.2.9.1.11,
 2.2.9.1.13 og 2.2.9.1.14 nedenfor.
 
-2.2.9.1.4
+.. _2.2.9.1.4:
+
+``2.2.9.1.4`` 
 
 Stoffer som er helseskadelige ved innånding i støvform
 
 Stoffer som er helseskadelige ved innånding i støvform, omfatter asbest
 og blandinger som inneholder asbest.
 
-2.2.9.1.5
+.. _2.2.9.1.5:
+
+``2.2.9.1.5`` 
 
 Stoffer og gjenstander som i tilfelle brann kan danne dioksiner
 
@@ -14868,18 +15464,24 @@ slike stoffer eller blandinger.
 **ANM:** Blandinger med innhold av PCB eller PCT som ikke overstiger 50
 mg/kg, er ikke underlagt ADR/RID-bestemmelsene.
 
-2.2.9.1.6
+.. _2.2.9.1.6:
+
+``2.2.9.1.6`` 
 
 Stoffer som avgir brannfarlig damp
 
 Stoffer som avgir brannfarlig damp, omfatter polymerer som inneholder
 brannfarlige væsker med flammepunkt høyst 55 °C.
 
-2.2.9.1.7
+.. _2.2.9.1.7:
+
+``2.2.9.1.7`` 
 
 Litiumbatterier og natriumionbatterier
 
-2.2.9.1.7.1
+.. _2.2.9.1.7.1:
+
+``2.2.9.1.7.1`` 
 
 Litiumbatterier
 
@@ -14976,7 +15578,9 @@ bekrefte samsvar.
 Litiumbatterier som tilfredsstiller kravene i SP 188 i kapittel 3.3 er
 ikke underlagt bestemmelsene i ADR/RID.
 
-2.2.9.1.7.2
+.. _2.2.9.1.7.2:
+
+``2.2.9.1.7.2`` 
 
 Natriumionbatterier
 
@@ -15028,7 +15632,9 @@ bekrefte samsvar.
 Natriumionbatterier er ikke underlagt kravene i ADR/RID når de oppfyller
 betingelsene i de spesielle be-stemmelsene 188 eller 400 i kapittel 3.3.
 
-2.2.9.1.8
+.. _2.2.9.1.8:
+
+``2.2.9.1.8`` 
 
 Livredningsmateriell
 
@@ -15036,16 +15642,23 @@ Livredningsmateriell omfatter livredningsmateriell og komponenter til
 motorkjøretøyer som svarer til definisjonene i spesiell bestemmelse 235
 eller 296 i kapittel 3.3.
 
-2.2.9.1.9
+.. _2.2.9.1.9:
+
+``2.2.9.1.9`` 
 
 (Slettet)
 
-2.2.9.1.10 Stoffer som forurenser akvatisk miljø: Miljøfarlige stoffer
-(akvatisk miljø)
+.. _2.2.9.1.10:
 
-2.2.9.1.10.1 Generelle definisjoner
+``2.2.9.1.10`` Stoffer som forurenser akvatisk miljø: Miljøfarlige stoffer (akvatisk miljø)
 
-2.2.9.1.10.1.1
+.. _2.2.9.1.10.1:
+
+``2.2.9.1.10.1`` Generelle definisjoner
+
+.. _2.2.9.1.10.1.1:
+
+``2.2.9.1.10.1.1`` 
 
 Miljøskadelige stoffer omfatter, inter alia (blant andre), væsker eller
 faste stoffer som forurenser akvatisk miljø, samt løsninger og
@@ -15059,7 +15672,9 @@ som oppstår under de anvendte produksjonsprosessene, men unntatt
 løsningsmidler som kan separeres uten å påvirke stabiliteten av stoffet,
 eller den kjemiske forbindelsen.
 
-2.2.9.1.10.1.2
+.. _2.2.9.1.10.1.2:
+
+``2.2.9.1.10.1.2`` 
 
 Det akvatiske miljøet kan tas i betraktning med utgangspunkt i de
 akvatiske organismene som lever i vannet, og det akvatiske økosystemet
@@ -15068,14 +15683,18 @@ fare er derfor den akvatiske giftigheten av stoffet eller blandingen,
 selv om denne basisen kan bli modifisert av ytterligere informasjon med
 hensyn til nedbrytnings- og bioakkumuleringsprosesser.
 
-2.2.9.1.10.1.3
+.. _2.2.9.1.10.1.3:
+
+``2.2.9.1.10.1.3`` 
 
 Selv om den følgende klassifiseringsprosedyren er ment å kunne anvendes
 på alle stoffer og blandinger, så er det erkjent at spesialveiledning er
 nødvendig i noen, f.eks de som involverer metaller eller lite løselige
 uorganiske blandinger [14]_.
 
-2.2.9.1.10.1.4
+.. _2.2.9.1.10.1.4:
+
+``2.2.9.1.10.1.4`` 
 
 Følgende definisjoner gjelder for akronymer og betegnelser brukt i dette
 avsnittet:
@@ -15109,9 +15728,13 @@ effekt sammenlignet med referansen;
 - OECD Test Guidelines: Testretningslinjer utgitt av Organisasjonen for
 økonomisk samarbeid og utvikling, OECD.
 
-2.2.9.1.10.2 Definisjoner og krav til data
+.. _2.2.9.1.10.2:
 
-2.2.9.1.10.2.1
+``2.2.9.1.10.2`` Definisjoner og krav til data
+
+.. _2.2.9.1.10.2.1:
+
+``2.2.9.1.10.2.1`` 
 
 Hovedelementene for klassifisering av miljøskadelig stoffer (i akvatisk
 miljø) er:
@@ -15124,7 +15747,9 @@ c) Potensial for, eller påvist bioakkumulering; og
 
 d) Nedbrytning (biotisk eller abiotisk) for organiske kjemikalier.
 
-2.2.9.1.10.2.2
+.. _2.2.9.1.10.2.2:
+
+``2.2.9.1.10.2.2`` 
 
 Mens data fra internasjonalt harmoniserte tester er å foretrekke, så kan
 i praksis også brukes data fra nasjonale metoder, når disse kan ansees
@@ -15136,7 +15761,9 @@ disse, etter prinsipper ihht. God laboratoriepraksis (GLP).
 Er ikke slike data tilgjengelige, skal klassifiseringen baseres på de
 beste tilgjengelige data.
 
-2.2.9.1.10.2.3
+.. _2.2.9.1.10.2.3:
+
+``2.2.9.1.10.2.3`` 
 
 *Akutt akvatisk giftighet* betyr den reelle evnen ett stoff har til å
 skade en organisme ved en kortsiktig akvatisk eksponering for dette
@@ -15155,7 +15782,9 @@ ansees å være surrogat for alle akvatiske organismer, og data for andre
 arter slik som *Lemna sp*. kan også vurderes brukt hvis testmetodologien
 er egnet.
 
-2.2.9.1.10.2.4
+.. _2.2.9.1.10.2.4:
+
+``2.2.9.1.10.2.4`` 
 
 *Kronisk akvatisk giftighet* betyr den reelle evnen et stoff har til å
 forårsake skadevirkninger på akvatiske organismer under akvatisk
@@ -15173,7 +15802,9 @@ kan aksepteres. Andre validerte og internasjonalt aksepterte tester kan
 også benyttes. «No Observed Effect Concentration» (NOECer) eller andre
 ekvivalente EC\ :sub:`x` skal benyttes.
 
-2.2.9.1.10.2.5
+.. _2.2.9.1.10.2.5:
+
+``2.2.9.1.10.2.5`` 
 
 Bioakkumulering betyr netto resultat av opptak, omsetning og eliminering
 av et stoff i en organisme via alle veier for eksponering (dvs. luft,
@@ -15187,7 +15818,9 @@ benytte en eksperimentelt bestemt biokonsentrasjonsfaktor (BCF), når en
 slik er tilgjengelig. BCF skal bestemmes i henhold til OECD Test
 Guideline 305.
 
-2.2.9.1.10.2.6
+.. _2.2.9.1.10.2.6:
+
+``2.2.9.1.10.2.6`` 
 
 *Nedbrytning* betyr dekomponeringen av organiske molekyler til mindre
 molekyler og med tiden til karbondioksid, vann og salter.
@@ -15231,9 +15864,13 @@ c) Hvis andre overbevisende vitenskapelige data er tilgjengelige som kan
 vise at stoffet kan nedbrytes (biotisk og/eller abiotisk) i akvatisk
 miljø til et 70 % nivå innen 28 dager.
 
-2.2.9.1.10.3 Kategorier og kriterier for klassifisering av stoffer
+.. _2.2.9.1.10.3:
 
-2.2.9.1.10.3.1
+``2.2.9.1.10.3`` Kategorier og kriterier for klassifisering av stoffer
+
+.. _2.2.9.1.10.3.1:
+
+``2.2.9.1.10.3.1`` 
 
 Stoffer skal klassifiseres som «miljøfarlige stoffer (akvatisk miljø)»
 hvis de tilfredsstiller kriterier for akutt 1, kronisk 1 eller kronisk
@@ -15390,7 +16027,9 @@ akvatiske miljø
 
 {{{IMG CLASS="«class PDF »" REF="Figur 2.2.9.1.10.3.1.pdf"/}}}
 
-2.2.9.1.10.3.2
+.. _2.2.9.1.10.3.2:
+
+``2.2.9.1.10.3.2`` 
 
 Klassifiseringsskjemaet i tabell 2.2.9.1.10.3.2 under oppsummerer
 klassifiseringskriteriene for stoffer.
@@ -15461,9 +16100,13 @@ eller for åpenbare tilfeller ekspertvurdering).
 EC\ :sub:`x` verdier i mg/l for fisk eller krepsdyr eller andre
 anerkjente mål for kronisk giftighet.
 
-2.2.9.1.10.4 Klassifiseringskategorier og -kriterier for blandinger
+.. _2.2.9.1.10.4:
 
-2.2.9.1.10.4.1
+``2.2.9.1.10.4`` Klassifiseringskategorier og -kriterier for blandinger
+
+.. _2.2.9.1.10.4.1:
+
+``2.2.9.1.10.4.1`` 
 
 Klassifiseringssystemet for blandinger dekker klassifiseringskategoriene
 som brukes for stoffer, det vil si kategoriene akutt 1og kronisk 1 og 2.
@@ -15479,7 +16122,9 @@ tilfeller med svært giftige ingredienser) at en ingrediens som er til
 stede i mindre enn 0,1 % fortsatt er relevant for at blandingen
 klassifiseres for fare for akvatisk miljø.
 
-2.2.9.1.10.4.2
+.. _2.2.9.1.10.4.2:
+
+``2.2.9.1.10.4.2`` 
 
 Framgangsmåten for å klassifisere akvatiske miljørisikoer er inndelt i
 trinn, og avhenger av typen tilgjengelig informasjon mht. blandingen
@@ -15500,12 +16145,16 @@ akutte eller langsiktige akvatiske miljørisikoen til blandinger
 
 {{{IMG CLASS="«class PDF »" REF="Figur_2-2-9-1-10-4-2.pdf"/}}}
 
-2.2.9.1.10.4.3
+.. _2.2.9.1.10.4.3:
+
+``2.2.9.1.10.4.3`` 
 
 Klassifisering av blandinger når data om giftighet er tilgjengelig for
 den komplette blandingen
 
-2.2.9.1.10.4.3.1
+.. _2.2.9.1.10.4.3.1:
+
+``2.2.9.1.10.4.3.1`` 
 
 Når blandingen som helhet har blitt prøvet for å bestemme dens akvatiske
 giftighet, skal denne informasjonen benyttes til å klassifisere
@@ -15516,7 +16165,9 @@ tilfredsstillende akutte eller kroniske data for blandingen som helhet
 mangler, skal «brobyggingsprinsipper» eller «addisjonsmetoden» anvendes
 (se 2.2.9.1.10.4.4 til 2.2.9.1.10.4.6).
 
-2.2.9.1.10.4.3.2
+.. _2.2.9.1.10.4.3.2:
+
+``2.2.9.1.10.4.3.2`` 
 
 Klassifiseringen av blandingers langsiktige fare krever
 tileggsinformasjon om nedbrytbarhet og i enkelte tilfeller
@@ -15525,7 +16176,9 @@ for blandinger som helhet. Prøver av nedbrytbarhet eller bioakkumulasjon
 utføres ikke for blandinger da de er vanskelige å fortolke, og slike
 prøver kan være relevante bare for separate stoffer.
 
-2.2.9.1.10.4.3.3
+.. _2.2.9.1.10.4.3.3:
+
+``2.2.9.1.10.4.3.3`` 
 
 Klassifisering for kategorien akutt 1
 
@@ -15543,7 +16196,9 @@ over vannløseligheten:
 
 Ikke nødvendig å klassifisere for akutt fare under ADR eller RID.
 
-2.2.9.1.10.4.3.4
+.. _2.2.9.1.10.4.3.4:
+
+``2.2.9.1.10.4.3.4`` 
 
 Klassifisering for kategoriene kronisk 1 og 2
 
@@ -15570,10 +16225,13 @@ over vannløseligheten:
 
 Ikke nødvendig å klassifisere for langsiktig fare under ADR eller RID.
 
-2.2.9.1.10.4.4 Klassifisering av blandinger når data om giftighet ikke
-er tilgjengelig for den komplette blandingen: brobyggingsprinsipper
+.. _2.2.9.1.10.4.4:
 
-2.2.9.1.10.4.4.1
+``2.2.9.1.10.4.4`` Klassifisering av blandinger når data om giftighet ikke er tilgjengelig for den komplette blandingen: brobyggingsprinsipper
+
+.. _2.2.9.1.10.4.4.1:
+
+``2.2.9.1.10.4.4.1`` 
 
 I de tilfeller der blandingen selv ikke har blitt testet for å bestemme
 dens miljøskadelighet, men det finnes tilstrekkelige data om de
@@ -15585,7 +16243,9 @@ klassifiseringsprosessen bruker tilgjengelige data i størst mulig grad
 mht. å karakterisere farene blandingen representerer, uten at det er
 behov for ytterligere testing i dyr.
 
-2.2.9.1.10.4.4.2 Fortynning
+.. _2.2.9.1.10.4.4.2:
+
+``2.2.9.1.10.4.4.2`` Fortynning
 
 Når en ny blanding dannes ved å fortynne en prøvet blanding eller stoff
 med ett fortynningsmiddel som har lik eller lavere akvatisk
@@ -15594,7 +16254,9 @@ som ikke forventes å påvirke de akvatiske farene ved de andre
 ingrediensene, så skal den resulterende blandingen klassifiseres som
 likeverdig den opprinnelig prøvede blandingen eller stoffet.
 
-2.2.9.1.10.4.4.3 Bruk av produktserier
+.. _2.2.9.1.10.4.4.3:
+
+``2.2.9.1.10.4.4.3`` Bruk av produktserier
 
 Den klassifisering mht. akvatisk risiko som er gitt til én testet
 produksjonsserie av en blanding skal antas å være i det vesentlige
@@ -15606,8 +16268,9 @@ risikoklassifiseringen av den uprøvde serien er blitt endret. Er det
 skjellig grunn til å tro det sistnevnte, er det nødvendig med en ny
 klassifisering.
 
-2.2.9.1.10.4.4.4 Konsentrasjonen av blandinger klassifisert i de mest
-alvorlige kategoriene (Kronisk 1 og Akutt 1)
+.. _2.2.9.1.10.4.4.4:
+
+``2.2.9.1.10.4.4.4`` Konsentrasjonen av blandinger klassifisert i de mest alvorlige kategoriene (Kronisk 1 og Akutt 1)
 
 Hvis en prøvet blanding er klassifisert som kronisk 1 og/eller akutt 1,
 og hvis konsentrasjonen av ingrediensene i blandingen i en slik blanding
@@ -15615,7 +16278,9 @@ blir økt ytterligere, så skal den mer konsentrerte uprøvde blandingen
 klassifiseres til samme kategori som den opprinnelige prøvede blandingen
 uten ytterligere testing.
 
-2.2.9.1.10.4.4.5 Interpolering innenfor en og samme giftighetskategori
+.. _2.2.9.1.10.4.4.5:
+
+``2.2.9.1.10.4.4.5`` Interpolering innenfor en og samme giftighetskategori
 
 For tre blandinger (A, B og C) med identiske ingredienser, hvor
 blandingene A og B har blitt prøvet og er i den samme kategorien av
@@ -15625,7 +16290,9 @@ toksikologisk aktive ingredienser som ligger mellom konsentrasjonene i
 blandingene A og B, så er blanding C antatt å være i samme kategori som
 A og B.
 
-2.2.9.1.10.4.4.6 Blandinger som i det vesentlige er identisk
+.. _2.2.9.1.10.4.4.6:
+
+``2.2.9.1.10.4.4.6`` Blandinger som i det vesentlige er identisk
 
 Gitt det følgende
 
@@ -15649,10 +16316,13 @@ påvirke den akvatiske giftigheten av B.
 Hvis blanding (i) eller (ii) allerede er klassifisert basert på data fra
 prøver, så kan den andre blandingen tilordnes den samme farekategorien.
 
-2.2.9.1.10.4.5 Klassifisering av blandinger når data om giftighet er
-tilgjengelig for alle ingredienser eller bare for noen av dem
+.. _2.2.9.1.10.4.5:
 
-2.2.9.1.10.4.5.1
+``2.2.9.1.10.4.5`` Klassifisering av blandinger når data om giftighet er tilgjengelig for alle ingredienser eller bare for noen av dem
+
+.. _2.2.9.1.10.4.5.1:
+
+``2.2.9.1.10.4.5.1`` 
 
 Klassifiseringen av en blanding skal baseres på addisjon av
 klassifisering av blandingens klassifiserte ingredienser. Prosentandelen
@@ -15660,7 +16330,9 @@ av ingrediensene som er klassifisert som «Akutt» eller «Kronisk» kan
 benyttes rett inn i addisjonsmetoden. Detaljer om addisjonsmetoden er
 beskrevet i 2.2.9.1.10.4.6.1 til 2.2.9.1.10.4.6.4.
 
-2.2.9.1.10.4.5.2
+.. _2.2.9.1.10.4.5.2:
+
+``2.2.9.1.10.4.5.2`` 
 
 Blandinger kan lages av en kombinasjon av både ingredienser som er
 klassifisert (som akutt 1 og/eller kronisk 1,2) og de som
@@ -15725,7 +16397,9 @@ overensstemmelse med kriteriet for raskt nedbrytbare stoffer (tabell
 2.2.9.1.10.3.1 (b) (ii)), som deretter brukes i anvendelse av
 addisjonsmetoden.
 
-2.2.9.1.10.4.5.3
+.. _2.2.9.1.10.4.5.3:
+
+``2.2.9.1.10.4.5.3`` 
 
 Ved anvendelse av addisjonsformelen for en del av blandingen foretrekkes
 det å kalkulere giftigheten av denne delen av blandingen ved at man for
@@ -15742,14 +16416,20 @@ brukes til å klassifisere denne delen av blandingen som Akutt 1 og/eller
 Kronisk 1 eller 2 ved å bruke de samme kriterier som beskrevet for
 stoffer.
 
-2.2.9.1.10.4.5.4
+.. _2.2.9.1.10.4.5.4:
+
+``2.2.9.1.10.4.5.4`` 
 
 Hvis en blanding er klassifisert på flere måter, skal den metode som gir
 de mest konservative resultater benyttes.
 
-2.2.9.1.10.4.6 Addisjonsmetoden
+.. _2.2.9.1.10.4.6:
 
-2.2.9.1.10.4.6.1 Klassifikasjonsprosedyre
+``2.2.9.1.10.4.6`` Addisjonsmetoden
+
+.. _2.2.9.1.10.4.6.1:
+
+``2.2.9.1.10.4.6.1`` Klassifikasjonsprosedyre
 
 Generelt vil en strengere klassifisering av blandinger ha forrang
 fremfor en mindre streng klassifisering, f.eks vil en klassifisering til
@@ -15759,9 +16439,13 @@ resultatet av klassifiseringen er Kronisk 1. En strengere klassifisering
 enn Kronisk 1 er ikke mulig; og det er derfor ikke nødvendig å
 videreføre klassifiseringsprosedyren.
 
-2.2.9.1.10.4.6.2 Klassifisering for kategori akutt 1.
+.. _2.2.9.1.10.4.6.2:
 
-2.2.9.1.10.4.6.2.1
+``2.2.9.1.10.4.6.2`` Klassifisering for kategori akutt 1.
+
+.. _2.2.9.1.10.4.6.2.1:
+
+``2.2.9.1.10.4.6.2.1`` 
 
 Først tas alle ingredienser som er klassifisert som akutt 1 i
 betraktning. Hvis summen av konsentrasjonen (i %) til disse
@@ -15770,7 +16454,9 @@ blandingen klassifiseres som akutt 1. Hvis resultatet av utregningene er
 at blandingen klassifiseres som akutt 1, er klassifiseringsprosedyren
 sluttført.
 
-2.2.9.1.10.4.6.2.2
+.. _2.2.9.1.10.4.6.2.2:
+
+``2.2.9.1.10.4.6.2.2`` 
 
 Klassifiseringen av blandinger for akutte farer basert på denne
 addisjonen av konsentrasjonene til klassifiserte ingredienser er
@@ -15789,9 +16475,13 @@ ingredienser
 
 a. For forklaring av faktoren M, se 2.2.9.1.10.4.6.4.
 
-2.2.9.1.10.4.6.3 Klassifisering for kategoriene kronisk 1 og 2
+.. _2.2.9.1.10.4.6.3:
 
-2.2.9.1.10.4.6.3.1
+``2.2.9.1.10.4.6.3`` Klassifisering for kategoriene kronisk 1 og 2
+
+.. _2.2.9.1.10.4.6.3.1:
+
+``2.2.9.1.10.4.6.3.1`` 
 
 Først, alle ingredienser klassifisert som kronisk 1 skal tas i
 betraktning. Hvis summen av konsentrasjonen (i %) til disse
@@ -15799,7 +16489,9 @@ ingrediensene er større eller lik 25 %, så skal blandingen klassifiseres
 som kronisk 1. Hvis resultatet av utregningene er at blandingen
 klassifiseres som kronisk1, er klassifiseringsprosedyren sluttført.
 
-2.2.9.1.10.4.6.3.2
+.. _2.2.9.1.10.4.6.3.2:
+
+``2.2.9.1.10.4.6.3.2`` 
 
 I de tilfeller der blandingen ikke er klassifisert som kronisk 1, skal
 det vurderes å klassifisere blandingen som Kronisk 2. En blanding skal
@@ -15810,7 +16502,9 @@ er større eller lik 25 %. Hvis resultatet av utregningen resulterer i at
 blandingen skal klassifiseres som kronisk 2, er klassifiseringsprosessen
 sluttført.
 
-2.2.9.1.10.4.6.3.3
+.. _2.2.9.1.10.4.6.3.3:
+
+``2.2.9.1.10.4.6.3.3`` 
 
 Klassifiseringen av blandinger for langsiktige farer basert på denne
 addisjonen av konsentrasjonene til klassifiserte ingredienser er
@@ -15831,7 +16525,9 @@ ingredienser
 
 a. For forklaring av faktoren M, se 2.2.9.1.10.4.6.4.
 
-2.2.9.1.10.4.6.4 Blandinger som inneholder meget giftige ingredienser
+.. _2.2.9.1.10.4.6.4:
+
+``2.2.9.1.10.4.6.4`` Blandinger som inneholder meget giftige ingredienser
 
 Akutt 1 eller Kronisk 1 ingredienser med akutt giftighet godt under 1
 mg/l og/eller kronisk giftighet godt under 0,1 mg/l (hvis ikke raskt
@@ -15905,8 +16601,9 @@ a. Ikke raskt nedbrytbar.
 
 b. raskt nedbrytbar.
 
-2.2.9.1.10.4.6.5 Klassifisering av blandinger som inneholder
-ingredienser det ikke finnes brukbar informasjon om
+.. _2.2.9.1.10.4.6.5:
+
+``2.2.9.1.10.4.6.5`` Klassifisering av blandinger som inneholder ingredienser det ikke finnes brukbar informasjon om
 
 I de tilfeller der det ikke foreligger brukbar informasjon om akutt
 og/eller kronisk akvatisk giftighet for en eller flere av de relevante
@@ -15914,7 +16611,9 @@ ingrediensene, er konklusjonen at blandingen ikke kan tilordnes endelige
 risikokategori(er). I slike situasjoner skal blandingen klassifiseres
 basert kun på de kjente ingrediensene.
 
-2.2.9.1.10.5
+.. _2.2.9.1.10.5:
+
+``2.2.9.1.10.5`` 
 
 Stoffer og blandinger klassifisert som miljøfarlig stoff (akvatisk
 miljø) på grunnlag av forordning (EF) nr 1272/2008 [18]_
@@ -15931,7 +16630,9 @@ b) Stoffet eller blandingen kan anses for ikke å være et miljøfarlig
 stoff (akvatisk miljø) hvis det ikke må tilordnes en slik kategori i
 henhold til nevnte forordning.
 
-2.2.9.1.10.6
+.. _2.2.9.1.10.6:
+
+``2.2.9.1.10.6`` 
 
 Tilordning av stoffer og blandinger klassifisert som miljøfarlige
 stoffer (akvatisk miljø) i henhold til bestemmelsene i 2.2.9.1.10.3,
@@ -15947,7 +16648,9 @@ UN nr. 3082 MILJØFARLIG STOFF, FLYTENDE, N.O.S:
 
 De skal tilordnes til emballasjegruppe III.
 
-2.2.9.1.11
+.. _2.2.9.1.11:
+
+``2.2.9.1.11`` 
 
 Genmodifiserte mikroorganismer eller organismer
 
@@ -15986,11 +16689,15 @@ transporten ikke kan foretas på noen annen måte. Levende genetisk
 modifiserte dyr skal transporteres på vilkår satt av vedkommende
 myndighet i opphavslandene og bestemmelseslandene.
 
-2.2.9.1.12
+.. _2.2.9.1.12:
+
+``2.2.9.1.12`` 
 
 (Slettet)
 
-2.2.9.1.13
+.. _2.2.9.1.13:
+
+``2.2.9.1.13`` 
 
 Oppvarmede Stoffer
 
@@ -16002,7 +16709,9 @@ transportert eller levert for transport ved eller over 240 ºC.
 **ANM:** Oppvarmede stoffer skal tilordnes klasse 9 bare dersom de ikke
 tilfredsstiller kriteriene for noen annen klasse.
 
-2.2.9.1.14
+.. _2.2.9.1.14:
+
+``2.2.9.1.14`` 
 
 Andre stoffer og gjenstander som innebærer fare under transport og som
 ikke svarer til definisjonene for en annen klasse.
@@ -16040,7 +16749,9 @@ UN 3334 VÆSKE SOM ER REGULERT I LUFTFART, N.O.S.,
 UN 3335 FAST STOFF SOM ER REGULERT I LUFTFART, N.O.S., oppført i FNs
 regelverksmal, er ikke underlagt ADR/RID-bestemmelsene.
 
-2.2.9.1.15
+.. _2.2.9.1.15:
+
+``2.2.9.1.15`` 
 
 Tilordning til emballasjegruppe
 
@@ -16052,7 +16763,9 @@ Emballasjegruppe II: stoffer som representerer middels fare;
 
 Emballasjegruppe III: stoffer som representerer lav fare.
 
-2.2.9.2 Stoffer som ikke får mottas for transport
+.. _2.2.9.2:
+
+``2.2.9.2`` Stoffer som ikke får mottas for transport
 
 Følgende stoffer og gjenstander skal ikke mottas for transport:
 
@@ -16064,7 +16777,9 @@ kapittel 3.3.
 kondensatorer og hydraulisk utstyr inneholdende stoffer tilordnet UN
 2315, 3151, 3152 eller 3432.
 
-2.2.9.3 Liste over oppføringer
+.. _2.2.9.3:
+
+``2.2.9.3`` Liste over oppføringer
 
 +----+----+---+---+--------------------------------------------------+
 | S  |    |   |   | | 2212 ASBEST, AMFIBOL                           |
@@ -16406,3 +17121,108 @@ kondensatorer og hydraulisk utstyr inneholdende stoffer tilordnet UN
 +----+----+---+---+--------------------------------------------------+
 |    |    |   |   |                                                  |
 +----+----+---+---+--------------------------------------------------+
+
+.. [2]
+   Denne tabellen inneholder liste over fyrverkeriklassifikasjoner som
+   kan benyttes når det ikke foreligger prøveresultater fra Testserie 6
+   (se 2.2.1.1.7.2).
+
+.. [3]
+   Bestemmelse av viskositeten: Hvis stoffet er ikke-newtonsk, eller
+   bestemmelse av viskositeten ved måling av gjennomstrømningen av andre
+   grunner er uegnet, skal et viskosimeter med variabel skjærhastighet
+   benyttes til måling av stoffets dynamiske viskositetskoeffisient ved
+   23°C ved forskjellige skjærhastigheter. De avleste verdiene skal
+   fremstilles grafisk som funksjon av skjærhastigheten og ekstrapoleres
+   til en skjærhastighet lik 0. Den dynamiske viskositeten som
+   fremkommer på denne måten, dividert med stoffets densitet, gir den
+   nominelle kinematiske viskositet ved skjærhastighet nær 0.
+
+.. [4]
+   Regulation (EC) No 1272/2008 of the European Parliament and of the
+   Council of 16 December 2008 on classification, labelling and
+   packaging of substances and mixtures, amending and repealing
+   Directive 67/548/EEC and 1999/45/EC; and amending Regulation (EC) No
+   1907/2006, published in the Official Journal of the European Union,
+   L 353, 31 December 2008, p 1–1355.
+
+.. [5]
+   Kommisjonsbeslutning 2000/532/EC av 3. mai 2000, som erstatter
+   Beslutning 94/3/EC som fastsetter liste over avfall som faller inn
+   under Artikkel 1(a) i Rådsdirektiv 75/442/EEC (erstattet av
+   Rådsdirektiv 2006/12/EC (Official Journal of the European Union NO.
+   L114 of 27 April 2006, side 9) om avfall og Rådsbeslutning 94/904/EC
+   som fastsetter liste over farlig avfall som faller inn under Artikkel
+   1(4) i Rådsdirektiv 91/689/EEC om farlig avfall (Official Journal of
+   the European Communities No. L 226 av 6.9.2000, side 3).
+
+.. [6]
+   Bestemmelser om transport av levende dyr finnes bl.a. i «Directive
+   91/628/EEC of 19 November 1991 on the protection of animals during
+   transport (Official Journal of the European Union NO. L 340 av
+   11.12.1991, page 17) og i «Recommendations of the Council of Europe
+   (Ministrial Committee) on the camage of certain animal species.
+
+.. [7]
+   For Th-natural er mornukliden Th-232, og for U-natural er mornukliden
+   U-238.
+
+.. [8]
+   OECD Guideline for the testing of chemicals No. 404 «Acute Dermal
+   Irritation/Corrosion» 2015.
+
+.. [9]
+   OECD Guideline for the testing of chemicals No. 435 «In Vitro
+   Membrane Barrier Test Method for Skin Corrosion» 2015.
+
+.. [10]
+   OECD Guideline for the testing of chemicals No. 431 «In Vitro Skin
+   Corrosion: reconstructed human epidermis (RHE) test method» 2016
+
+.. [11]
+   OECD Guideline for the testing of chemicals No. 430 «In Vitro Skin
+   Corrosion: Transcutaneous Electrical Resistance Test Method (TER)»
+   2015.
+
+.. [12]
+   OECD Guideline for the testing of chemicals No. 439 «In Vitro Skin
+   Irritation: Reconstructed Human Epidermis Test Method» 2015
+
+.. [13]
+   Dette gjelder ikke for stoffer som i tillegg til å forurense akvatisk
+   miljø også må vurderes mht. effekter på menneskelig helse etc.
+
+.. [14]
+   Dette kan finnes i Annex 10 i GHS.
+
+.. [15]
+   En spesiell veiledning for å tolke dataene er gitt i kapittel 4.1 og
+   Annex 9 i GHS.
+
+.. [16]
+   Se kapittel 4.1 og Annex 9, paragraf A9.4.2.2.3 i GHS.
+
+.. [17]
+   Spesiell veiledning er gitt i kapittel 4.1, paragraf 4.1.2.13 og
+   Annex 9, seksjon A9.6 i GHS
+
+.. [18]
+   Regulation (EC) No 1272/2008 of the European Parliament and of the
+   Council of 16 December 2008 on classification, labelling and
+   packaging of substances and mixtures, amending and repealing
+   Directive 67/548/EEC and 1999/45/EC; and amending Regulation (EC) No
+   1907/2006, published in the Official Journal of the European Union,
+   L 353, 31 December 2008, p 1–1355.
+
+.. [19]
+   Se del C i direktiv 2001/18/EF fra EU-parlamentet og Rådet om
+   utsetting i miljøet av genmodifiserte organismer og om oppheving av
+   rådsdirektiv 90/220/EØF (Official Journal of the European
+   Communities, No. L 106, of 17 April 2001, pp 8–14) og forordning (EF)
+   nr. 1829/2003 av EU-parlamentet og Rådet om genmodifiserte
+   næringsmidler og fôrvarer (Official Journal of the European Union,
+   No. L 268, of 18 October 2003, pp 1–23), som fastsetter
+   tillatelsesprosedyrene for den europeiske union.
+
+.. [20]
+   For UN 1845 karbondioksid i fast form (tørris), se 5.5.3.

@@ -1,10 +1,18 @@
+.. _2.1:
+
 Kapittel 2.1 Alminnelige bestemmelser
 -------------------------------------
+
+.. _2.1.1:
 
 2.1.1 Innledning
 ^^^^^^^^^^^^^^^^
 
-2.1.1.1
+
+
+.. _2.1.1.1:
+
+``2.1.1.1`` 
 
 Følgende klasser av farlig gods anvendes av ADR/RID:
 
@@ -35,7 +43,9 @@ Klasse 8 Etsende stoffer
 
 Klasse 9 Forskjellige farlige stoffer og gjenstander
 
-2.1.1.2
+.. _2.1.1.2:
+
+``2.1.1.2`` 
 
 Alle oppføringer som er oppført i de enkelte klassene, er tildelt et
 UN-nummer. Følgende typer oppføringer benyttes:
@@ -80,7 +90,7 @@ De oppføringene som er definert under B, C og D kalles samleoppføringer.
 
 .. _2.1.1.3:
 
-2.1.1.3
+``2.1.1.3`` 
 
 Når det gjelder emballering skal stoffer, med unntak av klasse 1, 2,
 5.2, 6.2, 7 og selvreaktive stoffer i klasse 4.1, tilordnes
@@ -100,10 +110,14 @@ Gjenstander skal ikke tilordnes noen emballasjegruppe. For
 emballeringsformål er eventuelle krav for et spesifikt utførelsesnivå
 anvist i den relevante emballeringsbestemmelsen.
 
+.. _2.1.2:
+
 2.1.2 Prinsipper for klassifisering
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.2.1
+.. _2.1.2.1:
+
+``2.1.2.1`` 
 
 Det farlige godset som omfattes av navnet på klassen er definert på
 grunnlag av godsets egenskaper i samsvar med underavsnitt 2.2.x.1 i den
@@ -114,7 +128,9 @@ farlig stoff eller en farlig gjenstand foretas i henhold til kriteriene
 for den klassen eller de klassene som svarer til tilleggsfaren(e), slik
 det er nevnt i angjeldende underavsnitt 2.2.x.1.
 
-2.1.2.2
+.. _2.1.2.2:
+
+``2.1.2.2`` 
 
 Alle oppføringer for farlig gods er oppført i tabell A i kapittel 3.2 i
 den numeriske rekkefølge på deres UN nummer. Denne tabellen inneholder
@@ -128,7 +144,9 @@ klassifikasjon i tabell A eller i henhold til vilkårene spesifisert i
 **ANM:** De samme oppføringer i alfabetisk rekkefølge finnes i tabell B
 i kapittel 3.2.
 
-2.1.2.3
+.. _2.1.2.3:
+
+``2.1.2.3`` 
 
 Et stoff kan inneholde tekniske urenheter (for eksempel slike som
 stammer fra produksjonsprosessen) eller tilsetningsstoffer for
@@ -138,12 +156,16 @@ i tabell A i kapittel 3.2, inneholdende tekniske urenheter eller
 tilsetningsstoffer for stabilitet eller andre formål som påvirker dets
 klassifisering skal regnes som en løsning eller blanding (se 2.1.3.3).
 
-2.1.2.4
+.. _2.1.2.4:
+
+``2.1.2.4`` 
 
 Farlig gods som er oppført eller definert i underavsnitt 2.2.x.2 i de
 enkelte klasser, får ikke mottas for transport.
 
-2.1.2.5
+.. _2.1.2.5:
+
+``2.1.2.5`` 
 
 Gods som ikke er oppført med navn, dvs. gods som ikke er oppført som
 enkelt oppføring i tabell A i kapittel 3.2 og heller ikke oppført eller
@@ -162,7 +184,9 @@ kan klassifiseres under oppføringer av typene B eller C i henhold til
 2.1.1.2, men ikke ellers, skal stoffet eller gjenstanden klassifiseres
 under en oppføring av typen D.
 
-2.1.2.6
+.. _2.1.2.6:
+
+``2.1.2.6`` 
 
 På grunnlag av testprosedyrene i kapittel 2.3, samt kriteriene gitt i
 underavsnittene 2.2.x.1 i klassene når det er spesifisert slik, kan det
@@ -171,7 +195,9 @@ oppført med navn i tabell A i kapittel 3.2, ikke svarer til kriteriene
 for den klassen. I så fall skal stoffet, løsningen eller blandingen
 betraktes som ikke hørende til den klassen.
 
-2.1.2.7
+.. _2.1.2.7:
+
+``2.1.2.7`` 
 
 Når det gjelder klassifisering, skal stoffer med smeltepunkt eller
 begynnende smeltepunkt på 20 °C eller lavere ved et trykk på 101.3 kPa
@@ -180,7 +206,9 @@ ikke lar seg bestemme, skal testes i henhold til ASTM D 4359-90 eller
 gjennomgå fluiditetstesten (penetrometertesten) som er foreskrevet i
 2.3.4.
 
-2.1.2.8
+.. _2.1.2.8:
+
+``2.1.2.8`` 
 
 En avsender som på grunnlag av testresultater har avdekket at et stoff
 oppført med navn i kolonne (2) i kapittel 3.2 oppfyller
@@ -214,10 +242,14 @@ vedkommende myndigheten trekke tilbake sin godkjenning.
 
 **ANM 3:** For transport i henhold til 2.1.2.8, se også 5.4.1.1.20.
 
+.. _2.1.3:
+
 2.1.3 Klassifisering av stoffer, inklusive løsninger og blandinger (som preparater og avfall) som ikke er oppført med navn.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.3.1
+.. _2.1.3.1:
+
+``2.1.3.1`` 
 
 Stoffer, inklusive løsninger og blandinger, som ikke er oppført med
 navn, skal klassifiseres i henhold til deres faregrad på grunnlag av
@@ -226,14 +258,18 @@ de farene som er forbundet med et stoff, skal fastslås på grunnlag av
 dets fysiske, kjemiske og fysiologiske egenskaper. Slike egenskaper skal
 også tas med i vurderingen når de fører til en strengere tilordning.
 
-2.1.3.2
+.. _2.1.3.2:
+
+``2.1.3.2`` 
 
 Et stoff som ikke er oppført med navn i tabell A i kapittel 3.2 og som
 innebærer en enkelt fare, skal klassifiseres i den relevante klassen
 under en samlebetegnelse som er oppført i underavsnitt 2.2.x.3 i den
 klassen.
 
-2.1.3.3
+.. _2.1.3.3:
+
+``2.1.3.3`` 
 
 En løsning eller blanding, som i henhold til klassifiseringskriteriene
 er underlagt ADR/RID, bestående av ett enkelt dominerende stoff nevnt
@@ -265,13 +301,17 @@ tilleggsfarer som løsningen eller blandingen representerer, bortsett fra
 når løsningen eller blandingen ikke oppfyller kriteriet for noen klasse,
 da er den ikke underlagt ADR/RID.
 
-2.1.3.4
+.. _2.1.3.4:
+
+``2.1.3.4`` 
 
 Løsninger og blandinger som inneholder et stoff som tilhører en av
 oppføringene nevnt i 2.1.3.4.1 eller 2.1.3.4.2 skal klassifiseres i
 samsvar med bestemmelsene i disse avsnittene.
 
-2.1.3.4.1
+.. _2.1.3.4.1:
+
+``2.1.3.4.1`` 
 
 Løsninger og blandinger som inneholder et av følgende navngitte stoffer,
 skal alltid klassifiseres under samme oppføring som det stoffet de
@@ -317,7 +357,9 @@ UN 1790 FLUSSYRE med over 85 % hydrogenfluorid;
 
 UN 2576 FOSFOROKSYBROMID, SMELTET
 
-2.1.3.4.2
+.. _2.1.3.4.2:
+
+``2.1.3.4.2`` 
 
 Løsninger og blandinger inneholdende stoffer tilordnet en av de følgende
 oppføringer i klasse 9:
@@ -345,7 +387,9 @@ emballasjegruppe III i klassene 3, 4.1, 4.2, 4.3, 5.1, 6.1 eller 8; og
 
 – de ikke har noen av de farlige egenskapene som er angitt i 2.1.3.5.3.
 
-2.1.3.4.3
+.. _2.1.3.4.3:
+
+``2.1.3.4.3`` 
 
 Brukte gjenstander, som f.eks transformatorer og kondensere, som
 inneholder en løsning eller blanding nevnt i 2.1.3.4.2, skal alltid
@@ -358,7 +402,9 @@ emballasjegruppe III i klasse 3, 4.1, 4.2, 4.3, 5.1, 6.1 eller 8; og
 b) de ikke har noen av de farlige egenskapene som angitt i 2.1.3.5.3 a)
 til g) og i).
 
-2.1.3.5
+.. _2.1.3.5:
+
+``2.1.3.5`` 
 
 Stoffer som ikke er oppført med navn i tabell A i kapittel 3.2 og som
 har mer enn en farlig egenskap samt løsninger og blandinger, som i
@@ -368,21 +414,27 @@ samleoppføring (se 2.1.2.5) og en emballasjegruppe i den klassen som
 svarer til deres farekarakteristikk. Slik klassifisering i henhold til
 farekarakteristikken skal foretas på følgende måte:
 
-2.1.3.5.1
+.. _2.1.3.5.1:
+
+``2.1.3.5.1`` 
 
 De fysiske og kjemiske kjennetegn og fysiologiske egenskaper skal
 bestemmes ved målinger eller beregninger, og stoffet, løsningen eller
 blandingen skal klassifiseres i henhold til de kriterier som finnes i
 underavsnitt 2.2.x.1 i de enkelte klasser.
 
-2.1.3.5.2
+.. _2.1.3.5.2:
+
+``2.1.3.5.2`` 
 
 Dersom slik bestemmelse ikke kan foretas uten uforholdsmessig kostnad
 eller arbeide (som for noen typer avfall), skal stoffet, løsningen eller
 blandingen klassifiseres i klassen til den komponenten som representerer
 den dominerende faren.
 
-2.1.3.5.3
+.. _2.1.3.5.3:
+
+``2.1.3.5.3`` 
 
 Hvis stoffets, løsningens eller blandingens farlige egenskaper kommer
 inn under mer enn en klasse eller stoffgruppe som er oppført nedenfor,
@@ -417,14 +469,18 @@ eller mindre, skal tilordnes klasse 8);
 
 i) Infeksjonsfremmende stoffer av klasse 6.2.
 
-2.1.3.5.4
+.. _2.1.3.5.4:
+
+``2.1.3.5.4`` 
 
 Hvis stoffets farlige egenskaper kommer inn under mer enn en klasse
 eller stoffgruppe som ikke er oppført i 2.1.3.5.3 ovenfor, skal stoffet
 klassifiseres etter samme prosedyre, men relevant klasse skal velges i
 henhold til tabellen over fareprioritering i 2.1.3.10.
 
-2.1.3.5.5
+.. _2.1.3.5.5:
+
+``2.1.3.5.5`` 
 
 Hvis stoffet som skal transporteres er et avfall med en sammensetning
 som ikke er helt kjent, så kan tilordningen til UN-nummer og
@@ -446,14 +502,18 @@ Denne framgangsmåten kan ikke benyttes for stoffer omtalt i 2.1.3.5.3,
 stoffer i klasse 4.3, stoffer for tilfeller nevnt i 2.1.3.7, eller
 stoffer som ikke tillates transportert i overensstemmelse med 2.2.x.2.
 
-2.1.3.6
+.. _2.1.3.6:
+
+``2.1.3.6`` 
 
 Det skal alltid velges den mest spesifikke samleoppføringen (se 2.1.2.5)
 som kan anvendes, dvs. at en generell n.o.s.-oppføring bare skal
 benyttes dersom det ikke er mulig å benytte en beskrivende oppføring
 eller en spesifikk n.o.s-oppføring.
 
-2.1.3.7
+.. _2.1.3.7:
+
+``2.1.3.7`` 
 
 Løsninger og blandinger av oksiderende stoffer eller stoffer med
 oksiderende tilleggsfare kan ha eksplosive egenskaper. I så fall skal de
@@ -461,7 +521,9 @@ ikke mottas for transport med mindre de oppfyller bestemmelsene for
 klasse 1. For ammoniumnitrat basert gjødsel i fast form, se også
 2.2.51.2.2, punkt 13–14 og UN Testmanualen, del III, avsnitt 39.
 
-2.1.3.8
+.. _2.1.3.8:
+
+``2.1.3.8`` 
 
 Stoffer i klassene 1 til 6.2, 8 og 9 (bortsett fra de som er tilordnet
 UN 3077 og 3082), som tilfredsstiller kriteriene i 2.2.9.1.10, er ansett
@@ -470,7 +532,9 @@ til 6.2, 8 og 9. Andre stoffer som ikke tilfredsstiller kriteriene for
 noen annen klasse eller noe annet stoff i klasse 9, bortsett fra de i
 2.2.9.1.10, skal tilordnes til UN 3077 og 3082 som relevant.
 
-2.1.3.9
+.. _2.1.3.9:
+
+``2.1.3.9`` 
 
 Avfall som ikke tilfredsstiller kriteriene for å klassifiseres i
 klassene 1 til 9 men som dekkes av *Basel-konvensjonen vedrørende
@@ -1024,10 +1088,14 @@ FASTE av klasse 9, (II).
 (PCB) av klasse 9, (II) skal klassifiseres under UN 1921 PROPYLENIMIN,
 INHIBERT av klasse 3.
 
+.. _2.1.4:
+
 2.1.4 Klassifisering av prøver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1.4.1
+.. _2.1.4.1:
+
+``2.1.4.1`` 
 
 Når det er usikkert hvilken klasse et stoff tilhører og det skal
 transporteres for videre testing, skal det midlertidig tilordnes
@@ -1050,7 +1118,9 @@ det benyttes en n.o.s.-betegnelse ved transport av prøven, behøver det
 ikke å tilføyes et teknisk navn etter varenavnet, slik det kreves i
 spesiell bestemmelse 274 i kapittel 3.3.
 
-2.1.4.2
+.. _2.1.4.2:
+
+``2.1.4.2`` 
 
 Prøvene av stoffet skal transporteres i samsvar med de bestemmelsene som
 gjelder for det varenavnet som det er midlertidig tildelt, forutsatt at:
@@ -1070,11 +1140,15 @@ over 2,5 kg pr. kolli; og
 
 e) Prøven ikke er emballert sammen med annet gods.
 
-2.1.4.3
+.. _2.1.4.3:
+
+``2.1.4.3`` 
 
 Prøver av energetiske stoffer for testformål
 
-2.1.4.3.1
+.. _2.1.4.3.1:
+
+``2.1.4.3.1`` 
 
 Prøver av organiske stoffer med funksjonelle grupper listet opp i
 tabellene A6.1 og/eller A6.3 i vedlegg 6 (Screening Procedures) i UN
@@ -1112,6 +1186,8 @@ e) Prøven er emballert i henhold til emballeringsbestemmelse P520 og
 spesiell emballeringsbestemmelse PP94 eller PP95 under 4.1.4.1, etter
 hva som er relevant.
 
+.. _2.1.5:
+
 2.1.5 Klassifisering av gjenstander som gjenstander som inneholder farlig gods, n.o.s.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1120,7 +1196,9 @@ farlig gods i begrensede mengder angitt i kolonne (7a) i tabell A i
 kapittel 3.2, kan UN 3363 og spesielle bestemmelser 301 og 672 i
 kapittel 3.3 benyttes.
 
-2.1.5.1
+.. _2.1.5.1:
+
+``2.1.5.1`` 
 
 Gjenstander som inneholder farlig gods kan klassifiseres som ellers
 angitt i ADR/RID under varenavnet for det farlige godset de inneholder
@@ -1133,7 +1211,9 @@ transportformål.
 
 En inneremballasje skal ikke anses som en gjenstand.
 
-2.1.5.2
+.. _2.1.5.2:
+
+``2.1.5.2`` 
 
 Slike gjenstander kan i tillegg inneholde celler og batterier. Celler og
 batterier basert på litiummetall, litiumion eller natriumion, som er
@@ -1147,19 +1227,25 @@ natriumion, og som er tilvirket i produksjonsserier på ikke mer enn 100
 celler eller batterier, er underlagt kravene i spesiell bestemmelse 310
 i kapittel 3.3.
 
-2.1.5.3
+.. _2.1.5.3:
+
+``2.1.5.3`` 
 
 Dette avsnittet gjelder ikke for gjenstander som allerede er tilordnet
 et mer spesifikt varenavn i tabell A i kapittel 3.2.
 
-2.1.5.4
+.. _2.1.5.4:
+
+``2.1.5.4`` 
 
 Dette avsnittet gjelder ikke for farlig gods i klasse 1, klasse 6.2,
 klasse 7 eller radioaktivt materiale i gjenstander. Likevel gjelder
 dette avsnittet gjenstander som inneholder eksplosiver som er utelukket
 fra klasse 1 i samsvar med 2.2.1.1.8.2.
 
-2.1.5.5
+.. _2.1.5.5:
+
+``2.1.5.5`` 
 
 Gjenstander som inneholder farlig gods skal tilordnes til den mest
 hensiktsmessige klassen på grunnlag av farene som finnes, når aktuelt,
@@ -1168,7 +1254,9 @@ gods i gjenstanden. Dersom gjenstanden inneholder farlig gods i klasse
 9, skal alt annet farlig gods i gjenstanden anses for å utgjøre en
 større fare.
 
-2.1.5.6
+.. _2.1.5.6:
+
+``2.1.5.6`` 
 
 Tilleggsfarer skal representere hovedfarene til annet farlig gods i
 artikkelen. Når bare en type farlig gods er til stede i gjenstanden skal
@@ -1176,6 +1264,8 @@ eventuelle tilleggsfarer kunne avleses i tabell A, kapittel 3.2 i
 kolonne 5. Hvis gjenstanden inneholder mer enn en komponent farlig gods
 og disse kan reagere farlig med hverandre under transport, skal hver
 komponent sikres separat (se 4.1.1.6).
+
+.. _2.1.6:
 
 2.1.6 Klassifisering av tømte, ikke rengjorte, kasserte emballasjer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1185,3 +1275,16 @@ deler av disse, som transporteres for avfallsdisponering eller
 materialgjenvinning, annet enn rekondisjonering, reparasjon,
 rutinemessig vedlikehold, renovering eller gjenbruk, kan tilordnes UN
 3509 hvis de oppfyller kravene for denne tilordning.
+
+.. [1]
+   Slik lovgivning er for eksempel kommisjonsvedtak 2000/532/EF av 3.mai
+   2000 om erstatning av vedtak 94/3EF om utarbeiding av en liste over
+   avfall i henhold til artikkel 1 bokstav a) i rådsdirektiv 75/442/EØF
+   om avfall og rådsvedtak 94/904/EF om utarbeidning av liste over
+   farlig avfall i henhold til artikkel 1 nr. 4 i rådsdirektiv
+   91/689/EØF om farlig avfall (Official Journal of the European
+   Communities No. L 226 of 6 September 2000, page 3), som endret og
+   direktiv 2008/98/EF fra europaparlamentet og rådet av 19 november
+   2008 om avfall med oppheving av visse direktiver (Official Journal of
+   the European Union No. L 312 of 22 November 2008, pages 3–30), som
+   endret.
