@@ -34,12 +34,12 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 
 - [x] Konvertere .docx til .rst med pandoc
 - [x] Separere .rst del i kapitler
-- [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
+- [x] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
-- [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
+- [x] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
 - [ ] Skille bestemmelser som gjelder ADR, RID og ADR/RID.
 
 ### Del 3
