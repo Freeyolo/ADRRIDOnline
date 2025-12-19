@@ -21,12 +21,16 @@ Nyheter fra 1. januar 2025
 Gjennomgående endringer
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-
 – Det kommer inn ny regulering av natriumionbatterier og gjenstander og kjøretøyer med slike batterier. UN 3292 (natriumbatterier) endres til å kun omfatte batterier som inneholder metallisk natrium og natriumlegeringer.
+
 – Referanser til standarder oppdateres til nyere versjoner av standardene.
+
 – Transport av smeltet aluminium blir særskilt regulert. Tidligere ble dette kun generisk regulert som oppvarmet stoff
+
 – Kjøretøyer drevet av batterier basert på litium eller natriumion reguleres som egne oppføringer på listen over farlig gods
+
 – Unntaket for småserier og prototyper av batterier skrives om, og det kommer en liste over hvilke batterikrav de ikke unntas fra. Det gjøres tydelig at disse batteriene også tillates å være innmontert i gjenstander, som da blir tilordnet særskilte emballeringskrav.
+
 – Avfall forurenset av fri asbest tillates transportert i bulk på bestemte vilkår.
 
 
