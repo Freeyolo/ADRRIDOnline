@@ -196,12 +196,7 @@ mengder, gjelder følgende:
 Med mindre merkingen representativt for alt farlig gods i en overpakning
 er synlig, skal overpakningen være
 
-a) merket med ordet «OVERPAKNING». Bokstavene i merket «OVERPAKNING»
-skal være minst 12 mm høye. Merkingen skal være på et offisielt språk i
-opprinnelseslandet og, hvis det språket ikke er engelsk, fransk eller
-tysk, også på engelsk, fransk eller tysk, dersom det ikke foreligger en
-avtale om annet mellom landene som transporten berører; og
-
+a) merket med ordet «OVERPAKNING». Bokstavene i merket «OVERPAKNING» skal være minst 12 mm høye. Merkingen skal være på et offisielt språk i opprinnelseslandet og, hvis det språket ikke er engelsk, fransk eller tysk, også på engelsk, fransk eller tysk, dersom det ikke foreligger en avtale om annet mellom landene som transporten berører; og
 b) påført merkene påkrevet i dette kapittelet.
 
 Unntatt for flytransport, gjelder de øvrige bestemmelsene i 5.1.2.1 kun
