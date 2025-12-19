@@ -25,6 +25,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [x] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [x] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -37,6 +38,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [x] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [x] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -49,6 +51,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [x] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [x] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -66,6 +69,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -78,6 +82,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -90,6 +95,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -102,6 +108,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -114,6 +121,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
@@ -126,6 +134,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 - [ ] Kontrollere at fotnoter er plassert korrekt i kapitlene
 - [ ] Kontrollere at tabeller har korrekt formatering
 - [ ] Kontrollere at matematiske formler / formatert tekst er korrekt
+- [ ] Kontrollere at lister er korrekt formatert
 - [ ] Opprette hyperlinker for alle overskrifter og avsnittsnummer (x.x.x.x)
 - [ ] Legge inn figurer
 - [ ] Legge inn hyperlinker "inline" der overskrifter og avsnittsnummer er referert i tekst
