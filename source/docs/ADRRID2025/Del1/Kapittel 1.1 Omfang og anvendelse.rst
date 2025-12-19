@@ -80,11 +80,11 @@ følger
 
    :ref:`1.1.3.1 <1.1.3.1>` Unntak knyttet til transportoperasjonens karakter
 
-   1.1.3.6 Unntak knyttet til mengde gods på en transportenhet
+   :ref:`1.1.3.6 <1.1.3.6>` Unntak knyttet til mengde gods på en transportenhet
 
-   1.1.4 Anvendelse av andre regelverk
+   :ref:`1.1.4 <1.1.4>` Anvendelse av andre regelverk
 
-   1.1.4.5 Transport annet enn vegtransport
+   :ref:`1.1.4.5 <1.1.4.5>` Transport annet enn vegtransport
 
    1.2 Definisjoner, måleenheter og forkortelser
 
@@ -489,7 +489,7 @@ mengde angitt i kolonne (3) i nedenstående tabell:
 | kate | klassifikasjonskode/gruppe eller UN-nr.        | en             |
 | gori |                                                | transport      |
 |      | (2)                                            | enhet\ :sup:`b`|
-| (1)  |                                                |/**vogn         |
+| (1)  |                                                | /**vogn        |
 |      |                                                | eller          |
 |      |                                                | stor           |
 |      |                                                | container**    |
