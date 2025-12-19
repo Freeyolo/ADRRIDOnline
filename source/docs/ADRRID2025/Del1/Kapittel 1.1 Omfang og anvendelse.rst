@@ -220,7 +220,9 @@ under ADR/RID.
 
    For radioaktivt materiale se også 1.7.1.4.
 
-1.1.3.2 Unntak som gjelder transport av gasser
+.. _1.1.3.2:
+
+``1.1.3.2`` Unntak som gjelder transport av gasser
 
 ADR-avtalens bestemmelser/RID gjelder ikke for transport av:
 
@@ -313,7 +315,9 @@ g) gass i baller som er beregnet for sportsbruk;
 
 h) (Slettet)
 
-1.1.3.3 Unntak som gjelder transport av flytende drivstoff
+.. _1.1.3.3:
+
+``1.1.3.3`` Unntak som gjelder transport av flytende drivstoff
 
 Bestemmelsene i ADR/Kravene i RID gjelder ikke ved transport av:
 
@@ -353,8 +357,9 @@ b) (Slettet)
 
 c) (Slettet)
 
-1.1.3.4 Unntak som er knyttet til spesielle bestemmelser eller som
-gjelder farlig gods pakket i begrensede eller unntatte mengder
+.. _1.1.3.4:
+
+``1.1.3.4`` Unntak som er knyttet til spesielle bestemmelser eller som gjelder farlig gods pakket i begrensede eller unntatte mengder
 
 **ANM:** For radioaktivt materiale se også 1.7.1.4.
 
@@ -400,7 +405,9 @@ ADR: Unntak i henhold til mengder transportert per transportenhet.
 
 RID: Samlede største tillatte mengde per vogn eller storcontainer.
 
-1.1.3.6.1
+.. _1.1.3.6.1:
+
+``1.1.3.6.1``
 
 ADR: For anvendelse av dette underavsnittet er farlig gods tilordnet
 transportkategoriene 0, 1, 2, 3, eller 4, som vist i kolonne (15) i
@@ -410,7 +417,9 @@ transportkategori «0». Tom, ikke rengjort emballasje som har inneholdt
 stoffer tilordnet en annen transportkategori enn «0», tilordnes
 transportkategori «4».
 
-1.1.3.6.2
+.. _1.1.3.6.2:
+
+``1.1.3.6.2``
 
 ADR: Når mengden av farlig gods som transporteres på en transportenhet
 ikke overstiger verdiene gitt i kolonne (3) i tabell 1.1.3.6.3 for en
@@ -461,7 +470,9 @@ S24 i kapittel 8.5;
 
 – Del 9.
 
-1.1.3.6.3
+.. _1.1.3.6.3:
+
+``1.1.3.6.3``
 
 ADR: Når det farlige godset som transporteres med transportenheten
 tilhører samme kategori, er største samlede mengde for en transportenhet
@@ -637,7 +648,9 @@ oppløste gasser, netto masse i kg;
 – For komprimerte gasser, adsorberte gasser og kjemikalier under trykk,
 vannkapasiteten til beholderen i liter.
 
-1.1.3.6.4
+.. _1.1.3.6.4:
+
+``1.1.3.6.4``
 
 Når farlig gods som tilhører forskjellige transportkategorier
 transporteres i samme transportenhet/jernbanevogn, skal summen av
@@ -655,15 +668,18 @@ med «3», og
 
 ikke overstige en beregnet verdi på «1000».
 
-1.1.3.6.5
+.. _1.1.3.6.5:
+
+``1.1.3.6.5``
 
 Farlig gods som er unntatt i henhold til 1.1.3.1 a) og d) til f),
 1.1.3.2 til 1.1.3.5, 1.1.3.7, **1.1.3.8 (RID)**, 1.1.3.9 og 1.1.3.10
 skal ikke tas med i beregningene ved anvendelse av disse
 unntaksbestemmelsene.
 
-1.1.3.7 Unntak som er knyttet til transport av systemer for lagring og
-produksjon av elektrisk energi
+.. _1.1.3.7:
+
+``1.1.3.7`` Unntak som er knyttet til transport av systemer for lagring og produksjon av elektrisk energi
 
 Bestemmelsene fastsatt i ADR/RID gjelder ikke for systemer for lagring
 og produksjon av elektrisk energi (for eksempel litiumbatterier,
@@ -682,7 +698,9 @@ eller lasterom, som kun er underlagt bestemmelsene i 5.5.4.
 
 c) (Slettet)
 
-1.1.3.8
+.. _1.1.3.8:
+
+``1.1.3.8``
 
 RID: Bruk av unntakene for transport av farlig gods som håndbagasje,
 registrert bagasje eller i eller på kjøretøyer
@@ -700,16 +718,18 @@ i eller på kjøretøyer gjelder unntakene i henhold til 1.1.3.1, 1.1.3.2
 
 ADR: (Reservert)
 
-1.1.3.9 Unntak knyttet til farlig gods benyttet som kjøle- eller
-kondisjoneringsmiddel under transport
+.. _1.1.3.9:
+
+``1.1.3.9`` Unntak knyttet til farlig gods benyttet som kjøle- eller kondisjoneringsmiddel under transport
 
 Farlig gods som bare er kvelende (fortynner eller fortrenger oksygenet i
 luften), når disse kun benyttes i transportenheter/jernbanevogner eller
 containere for kjøling eller kondisjonering, er bare underlagt
 bestemmelsene i 5.5.3.
 
-1.1.3.10 Unntak knyttet til transport av lyspærer som inneholder farlig
-gods
+.. _1.1.3.10:
+
+``1.1.3.10`` Unntak knyttet til transport av lyspærer som inneholder farlig gods
 
 Følgende lyspærer er ikke underlagt ADR/RID forutsatt at de ikke
 inneholder radioaktive materialer og ikke inneholder kvikksølv i mengder
@@ -757,9 +777,13 @@ eventuell knusing av lyspæren vil forbli inne i kolliet.
 1.1.4 Anvendelse av andre regelverk
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.4.1 Generelt
+.. _1.1.4.1:
 
-1.1.4.1.1
+``1.1.4.1`` Generelt
+
+.. _1.1.4.1.1:
+
+``1.1.4.1.1`` 
 
 RID: Internasjonal transport på en medlemsstats område kan være
 gjenstand for forskrifter eller forbud som er gitt i henhold til
@@ -767,10 +791,13 @@ artikkel 3 i vedlegg C av andre grunner enn hensynet til sikkerhet under
 transporten. Disse forskrifter eller forbud skal bekjentgjøres på
 hensiktsmessig måte.
 
-1.1.4.2 Transport i en transportkjede som omfatter sjøtransport eller
-lufttransport
+.. _1.1.4.2:
 
-1.1.4.2.1
+``1.1.4.2`` Transport i en transportkjede som omfatter sjøtransport eller lufttransport
+
+.. _1.1.4.2.1:
+
+``1.1.4.2.1`` 
 
 Kolli, containere, bulkcontainere, multimodale tanker, tankcontainere og
 MEGCer **(RID: og vogner som inneholder en komplett last bestående av
@@ -807,7 +834,9 @@ gods i henhold til gjeldende bestemmelser i IMDG-koden eller ICAO
 ANM (RID): For transport i henhold til 1.1.4.2.1, se også 5.4.1.1.7. For
 transport i containere se også 5.4.2.
 
-1.1.4.2.2
+.. _1.1.4.2.2:
+
+``1.1.4.2.2`` 
 
 ADR: Transportenheter bestående av et kjøretøy eller kjøretøyer som ikke
 transporterer containere, multimodale tanker, tankcontainere eller
@@ -817,7 +846,9 @@ kapittel 5.3 i IMDG-koden, skal aksepteres for transport i en
 transportkjede som inkluderer sjøtransport under forutsetning av at
 bestemmelsene om merking med oransje skilt i ADR 5.3.2 overholdes.
 
-1.1.4.2.3
+.. _1.1.4.2.3:
+
+``1.1.4.2.3`` 
 
 ADR: For transport i en transportkjede som involverer sjø- eller
 lufttransport, kan den informasjon som kreves i ADR 5.4.1 og 5.4.2,
@@ -831,18 +862,23 @@ den forskrevne plass.
 **ANM** (ADR): For transport i samsvar med 1.1.4.2.1, se også 5.4.1.1.7.
 For transport i containere, se 5.4.2.
 
-1.1.4.3 Bruk av IMO-type multimodale tanker som er godkjent for
-sjøtransport
+.. _1.1.4.3:
+
+``1.1.4.3`` Bruk av IMO-type multimodale tanker som er godkjent for sjøtransport
 
 IMO-type multimodale tanker (type 1, 2, 5 og 7) som ikke oppfyller kravene i kapittel 6.7 eller 6.8, men som er produsert og godkjent før 1. januar 2003 i samsvar med bestemmelsene i IMDG-koden, (endring 29-98), får fortsatt anvendes dersom de oppfyller de relevante krav til kontroll og prøving i IMDG-koden [1]_. I tillegg skal de oppfylle kravene som fremkommer av bestemmelsene som angis i kolonne (10) og (11) i tabell A i kapittel 3.2, og bestemmelsene i kapittel 4.2, i ADR/RID. Se også 4.2.0.1 i IMDG-koden.
 
-1.1.4.4
+.. _1.1.4.4:
+
+``1.1.4.4`` 
 
 ADR: (Reservert)
 
 RID: Piggybacktrafikk
 
-1.1.4.4.1
+.. _1.1.4.4.1:
+
+``1.1.4.4.1`` 
 
 **Farlig gods kan også transporteres i piggyback-trafikk, på følgende betingelser:**
 
@@ -871,10 +907,11 @@ krever temperaturkontroll;
 – svoveltrioksid i klasse 8, minst 99,95 % ren, uten inhibitor,
 transportert i tanker (UN-nr. 1829).
 
-1.1.4.4.2
+.. _1.1.4.4.2:
 
-**Faresedler, merker eller oransje skilt på vogner som transporterer
-kjøretøy for veg**
+``1.1.4.4.2`` 
+
+**Faresedler, merker eller oransje skilt på vogner som transporterer kjøretøy for veg**
 
 Det er ikke nødvendig å sette på faresedler, merker eller oransje skilt
 på transporterende vogner i følgende tilfeller:
@@ -886,9 +923,9 @@ b) når faresedler, merker eller oransje skilt ikke er krevet for
 kjøretøyet for veg (f.eks. i henhold til 1.1.3.6 eller ANM til 5.3.2.1.5
 i ADR).
 
-1.1.4.4.3
+.. _1.1.4.4.3:
 
-**Transport av tilhengere som transporterer kolli**
+``1.1.4.4.3`` **Transport av tilhengere som transporterer kolli**
 
 Dersom en tilhenger blir frakoblet fra sin trekkbil, skal det oransje
 skiltet i samsvar med 5.3.2 i ADR og merkingen i samsvar med kapittel
@@ -896,16 +933,19 @@ skiltet i samsvar med 5.3.2 i ADR og merkingen i samsvar med kapittel
 Imidlertid må ikke det oransje skiltet festes foran på tilhengeren
 dersom de tilhørende faresedlene er på begge sider av tilhengeren.
 
-1.1.4.4.4
+.. _1.1.4.4.4:
 
-**Gjentagelse av faresedler, merker eller oransje skilt på vogner som
-transporterer kjøretøy for veg**
+``1.1.4.4.4`` 
+
+**Gjentagelse av faresedler, merker eller oransje skilt på vogner som transporterer kjøretøy for veg**
 
 Dersom de monterte faresedler, merker eller oransje skilt i henhold til
 1.1.4.4.2 ikke er synlig fra utsiden av den transporterende vognen skal
 de festes på begge sider av den transporterende vognen.
 
-1.1.4.4.5
+.. _1.1.4.4.5:
+
+``1.1.4.4.5`` 
 
 **Informasjon i transportdokumentet**
 
@@ -922,13 +962,19 @@ oransje skilt med farenummer, skal farenummeret føres inn i
 transportdokumentet før bokstavene UN etterfulgt av UN-nummeret (se
 5.4.1.1.1(a)).**
 
-1.1.4.4.6
+.. _1.1.4.4.6:
+
+``1.1.4.4.6`` 
 
 De øvrige bestemmelsene i RID forblir upåvirket
 
-1.1.4.5 Transport annet enn veg/jernbanetransport
+.. _1.1.4.5:
 
-1.1.4.5.1
+``1.1.4.5`` Transport annet enn veg/jernbanetransport
+
+.. _1.1.4.5.1:
+
+``1.1.4.5.1`` 
 
 Dersom kjøretøy/vogn som benyttes til en transportoperasjon underlagt
 ADR/RID-bestemmelsene forflyttes over en del av reisen på annen måte enn
@@ -938,7 +984,9 @@ denne delen for den transportmåten som benyttes for å forflytte
 kjøretøyet/jernbanevognen, alene få anvendelse for denne delen av
 reisen.
 
-1.1.4.5.2
+.. _1.1.4.5.2:
+
+``1.1.4.5.2`` 
 
 ADR: I de tilfellene som er vist til i 1.1.4.5.1 ovenfor, kan de berørte
 kontraherende ADR-parter treffe avtale om å anvende ADR-bestemmelsene på
@@ -969,7 +1017,9 @@ Den medlemsstat som har tatt initiativet til slik avtale [2]_, skal gi
 melding om avtalen til hovedkontoret for internasjonal
 jernbanetransport, OCTI, som vil gjøre den kjent for medlemsstatene.
 
-1.1.4.5.3
+.. _1.1.4.5.3:
+
+``1.1.4.5.3`` 
 
 ADR: På samme måte skal en transportoperasjon som er underlagt ADR, i
 tilfelle den på hele eller del av vegstrekningen er underlagt
@@ -981,7 +1031,9 @@ gjelde på angjeldende strekning sammen med de ADR-bestemmelser som ikke
 er uforenlige med dem. Øvrige ADR-bestemmelser skal ikke gjelde på denne
 strekningen.
 
-1.1.4.6
+.. _1.1.4.6:
+
+``1.1.4.6`` 
 
 ADR: (reservert)
 
@@ -999,12 +1051,15 @@ foreskrevet i RID, i tillegg til språkene som er foreskrevet i RID, være
 på russisk eller kinesisk, med mindre en avtale inngått mellom landene
 som er berørt av transportoperasjonen bestemmer noe annet.
 
-1.1.4.7 Refyllbare trykkbeholdere godkjent av Amerikas Forente Staters
-«Department of Transportation»
+.. _1.1.4.7:
+
+``1.1.4.7`` Refyllbare trykkbeholdere godkjent av Amerikas Forente Staters «Department of Transportation»
 
 **ANM:** For transport i henhold til 1.1.4.7, se også 5.4.1.1.24.
 
-1.1.4.7.1 Import av gasser
+.. _1.1.4.7.1:
+
+``1.1.4.7.1`` Import av gasser
 
 Refyllbare trykkbeholdere, godkjent av Amerikas Forente Staters
 *Department of Transportation*, og konstruert og prøvet i samsvar med
@@ -1014,7 +1069,9 @@ transport i en transportkjede i henhold til 1.1.4.2, kan transporteres
 fra stedet for midlertidig oppbevaring i slutten av transportkjeden, til
 sluttbrukeren.
 
-1.1.4.7.2 Eksport av gasser og tomme, ikke rengjorte, trykkbeholdere
+.. _1.1.4.7.2:
+
+``1.1.4.7.2`` Eksport av gasser og tomme, ikke rengjorte, trykkbeholdere
 
 Refyllbare trykkbeholdere, godkjent av Amerikas Forente Staters
 *Department of Transportation*, og konstruert i samsvar med standarder
@@ -1036,7 +1093,9 @@ Trykkbeholdere skal ikke fylles etter at de har forfalt til periodisk
 kontroll, men kan transporteres etter utløp av tidsfristen for å
 gjennomføre kontroll, inkludert mellomliggende transportoperasjoner.
 
-1.1.5 Bruk av standarder
+.. _1.1.5:
+
+``1.1.5`` Bruk av standarder
 
 Hvor det kreves bruk av standarder, og det forekommer uoverensstemmelser
 mellom kravene i standarden og bestemmelsene i ADR/RID, gjelder
