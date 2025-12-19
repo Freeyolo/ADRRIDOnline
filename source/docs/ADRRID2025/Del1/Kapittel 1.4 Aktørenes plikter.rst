@@ -507,15 +507,13 @@ bestemmelsene for bruken av jernbaneinfrastrukturen.
 
 ``1.4.3.7.1`` 
 
-I forhold til1.4.1, skal losser spesielt:
+I forhold til 1.4.1, skal losser spesielt:
 
 a) ADR: forsikre seg om at riktig gods blir losset ved å sammenligne
 relevant informasjon i transportdokumentet med informasjon på
 emballasje, container, tank, MEMU, MEGC eller kjøretøy;
 
-RID: **forsikre seg om at riktig gods blir losset ved å sammenligne
-relevant informasjon i transportdokumentet med informasjon på
-emballasje, container, tank, MEGC eller jernbanevogn;**
+**RID: forsikre seg om at riktig gods blir losset ved å sammenligne relevant informasjon i transportdokumentet med informasjon på emballasje, container, tank, MEGC eller jernbanevogn;**
 
 b) før og under lossing kontrollere om kolli, tanken,
 kjøretøyet/jernbanevognen eller containeren har skade i en slik grad at
