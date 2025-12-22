@@ -10,3 +10,4 @@ ADR/RID 2025
    Del3/Del3_index
    Del4/Del4_index
    Del5/Del5_index
+   Del6/Del6_index
