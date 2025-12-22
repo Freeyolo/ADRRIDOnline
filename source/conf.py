@@ -66,7 +66,8 @@ html_theme_options = {
         "icon": "fa-solid fa-truck-front",
         "type": "fontawesome",
     },
-],   
+    ],
+    "show_nav_level": 0,
 }
 
 
