@@ -67,7 +67,6 @@ html_theme_options = {
         "type": "fontawesome",
     },
     ],
-    "show_nav_level": 0,
 }
 
 
