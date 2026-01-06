@@ -2318,14 +2318,17 @@ har LC\ :sub:`50` for akutt giftighet lik eller mindre enn 5000 ml
 Dersom det foreligger en gassblanding (inklusive damp av stoffer fra
 andre klasser), kan følgende formel benyttes:
 
-{{{IMG CLASS="«class imag»" REF="1843.jpg"/}}}
+.. math:: 
 
-hvor: f\ :sub:`i` = molfraksjonen for komponent «i» i blandingen.
+  \text{LC}_{50} \text{Giftig(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{i}}{T_{i}}}
 
-   T\ :sub:`i` = giftighetsindeksen for komponent «i» i blandingen.
+hvor: 
 
-T\ :sub:`i` tilsvarer verdien for LC\ :sub:`50` som finnes i P200 i
-4.1.4.1.
+:math:`f_{i}` = molfraksjonen for den etsende komponenten :math:`«ì»` i blandingen.
+
+:math:`T_{i}` = giftighetsindeksen for den etsende komponenten :math:`«ì»` i blandingen.
+
+:math:`T_{i}`  tilsvarer verdien for LC\ :sub:`50` som finnes i P200 i 4.1.4.1.
 
 Dersom det ikke er oppgitt noen verdi for LC\ :sub:`50` i P200 i
 4.1.4.1, skal det benyttes en verdi for LC\ :sub:`50` fra vitenskapelig
@@ -2351,7 +2354,7 @@ LC\ :sub:`50` er beregnet med formelen:
 
 .. math:: 
 
-  \text{LC}_{50}\text{Etsende(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{ci}}{T_{ci}}}
+  \text{LC}_{50} \text{Etsende(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{ci}}{T_{ci}}}
 
 hvor: 
 
@@ -6388,16 +6391,17 @@ mer enn 1 % men ikke over 7 % hydrogenperoksidinnhold
 **ANM:** Innholdet av tilgjengelig oksygen (%) i en sammensetning med
 organisk peroksid er gitt ved formelen:
 
-{{{IMG CLASS="«class imag»" REF="1914.jpg"/}}}
+.. math::
+
+  16 \times \sum{n_{i} \times c_{i} / m_{i}}
 
 hvor:
 
-n\ :sub:`i` = antallet peroksygengrupper pr. molekyl av organisk
-peroksid i;
+:math:`n_i` = antallet peroksygengrupper pr. molekyl av organisk peroksid :math:`i`;
 
-c\ :sub:`i` = konsentrasjonen (masseprosent) av organisk peroksid i; og
+:math:`c_i` = konsentrasjonen (masseprosent) av organisk peroksid :math:`i`; og
 
-m\ :sub:`i` = molekylvekt for det organiske peroksidet i.
+:math:`m_i` = molekylvekt for det organiske peroksidet :math:`i`.
 
 .. _2.2.52.1.6:
 
@@ -9146,15 +9150,16 @@ komponenter; eller
 
 b) Denne formelen kan benyttes:
 
-   {{{IMG CLASS="«class imag»" REF="1853.jpg"/}}}
+.. math::
+  \frac{C_A}{T_A} + \frac{C_B}{T_B} + \dots + \frac{C_Z}{T_Z} = \frac{100}{T_M}
 
 hvor:
 
-C = det prosentvise innhold av komponentene A, B, .... Z i blandingen
+:math:`C` = det prosentvise innhold av komponentene A, B, .... Z i blandingen
 
-T = LD\ :sub:`50` verdiene ved svelging for komponentene A, B, ... Z
+:math:`T` = LD\ :sub:`50` verdiene ved svelging for komponentene A, B, ... Z
 
-TM = LD\ :sub:`50` verdien ved svelging for blandingen.
+:math:`T_M` = LD\ :sub:`50` verdien ved svelging for blandingen.
 
 **ANM:** Denne formelen kan også benyttes for giftighet ved hudkontakt,
 forutsatt at de tilgjengelige data for alle komponentene er hentet fra
