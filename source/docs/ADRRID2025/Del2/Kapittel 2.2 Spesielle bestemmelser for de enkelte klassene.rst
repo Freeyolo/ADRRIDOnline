@@ -2818,7 +2818,7 @@ eller selvantennende i henhold til emballeringsbestemmelse P200 i
 +---------+------+----------------------------------------------------+
 
 +----------+------+---------------------------------------------------+
-| **Nedkjølte flytende gasser** |      |                              |                 
+| **Nedkjølte flytende gasser** |      |                              |
 +=========+======+====================================================+
 | Klassifiseringskode   | U    | Navn på stoff eller gjenstand        |
 |                       | N-nr |                                      |
