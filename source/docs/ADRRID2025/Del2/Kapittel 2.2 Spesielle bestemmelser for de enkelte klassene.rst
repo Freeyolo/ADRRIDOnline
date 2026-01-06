@@ -14190,7 +14190,7 @@ slike stoffer
   - CW1 Flytende
   - CW2 I fast form
 
--  CO Etsende stoffer, oksiderende
+- CO Etsende stoffer, oksiderende
 
   - CO1 Flytende
   - CO2 I fast form
