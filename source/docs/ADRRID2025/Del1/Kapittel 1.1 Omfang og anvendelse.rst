@@ -102,7 +102,7 @@ følger
 
    :ref:`1.10 <1.10>` Bestemmelser om sikring (security)
    
-   3.1 Generelt
+   :ref:`3.1 <3.1>` Generelt
 
    3.2 Tabell A kolonne (1), (2), (14), (15) og (19) (Anvendelse av    bestemmelsene i Del 8 og Del 9 på de individuelle stoffer eller    gjenstander).
 
