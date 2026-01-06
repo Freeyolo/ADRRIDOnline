@@ -110,34 +110,34 @@ følgende:
 a) Radioaktivt materiale som er en integrert del av transportmidlet;
 
 b) Radioaktivt materiale som forflyttes innenfor en virksomhet og er
-underlagt forsvarlige sikkerhetsbestemmelser som gjelder innen
-virksomheten, og forflytningen ikke berører offentlig veg eller
-jernbane;
+   underlagt forsvarlige sikkerhetsbestemmelser som gjelder innen
+   virksomheten, og forflytningen ikke berører offentlig veg eller
+   jernbane;
 
 c) Radioaktivt materiale som er inntransplantert i person eller levende
-dyr for diagnose eller behandling;
+   dyr for diagnose eller behandling;
 
 d) Radioaktivt materiale i eller på en person som skal transporteres for
-medisinsk behandling på grunn av at personen har blitt utsatt for
-tilfeldig eller forsettlig inntak av radioaktivt materiale eller
-forurensning;
+   medisinsk behandling på grunn av at personen har blitt utsatt for
+   tilfeldig eller forsettlig inntak av radioaktivt materiale eller
+   forurensning;
 
 e) Radioaktivt materiale i forbrukerprodukter, som er godkjent i henhold
-til gjeldende bestemmelser, etter at de er solgt til den endelige
-forbruker;
+   til gjeldende bestemmelser, etter at de er solgt til den endelige
+   forbruker;
 
 f) Naturlig materiale og malm, som inneholder naturlig forekommende
-radionuklider (som kan ha blitt prosessert), forutsatt at
-aktivitetskonsentrasjonen til materialet ikke overstiger 10 ganger de
-verdiene som spesifiseres i tabell 2.2.7.2.2.1, eller kalkulert i
-henhold til 2.2.7.2.2.2 (a) og 2.2.7.2.2.3 til 2.2.7.2.2.6. For naturlig
-materiale og malm som inneholder naturlig forekommende radionuklider som
-ikke er i sekulær likevekt skal kalkulasjonen av
-aktivitetskonsentrasjonen utføres i henhold til 2.2.7.2.2.4;
+   radionuklider (som kan ha blitt prosessert), forutsatt at
+   aktivitetskonsentrasjonen til materialet ikke overstiger 10 ganger de
+   verdiene som spesifiseres i tabell 2.2.7.2.2.1, eller kalkulert i
+   henhold til 2.2.7.2.2.2 (a) og 2.2.7.2.2.3 til 2.2.7.2.2.6. For naturlig
+   materiale og malm som inneholder naturlig forekommende radionuklider som
+   ikke er i sekulær likevekt skal kalkulasjonen av
+   aktivitetskonsentrasjonen utføres i henhold til 2.2.7.2.2.4;
 
 g) Ikke-radioaktive faste gjenstander, der radioaktive stoffer ikke
-forekommer på noen overflate i mengder som overstiger den grense som er
-gitt i definisjonen av «forurensning» i 2.2.7.1.2
+   forekommer på noen overflate i mengder som overstiger den grense som er
+   gitt i definisjonen av «forurensning» i 2.2.7.1.2
 
 .. _1.7.1.5:
 
@@ -153,8 +153,8 @@ spesifisert i 2.2.7.2.4.1, skal være underlagt kun disse følgende
 bestemmelsene i del 5 til 7:
 
 a) De relevante bestemmelsene spesifisert i 5.1.2.1, 5.1.3.2, 5.1.5.2.2,
-5.1.5.2.3, 5.1.5.4, 5.2.1.10, 5.4.1.2.5.1 f) i) og ii), 5.4.1.2.5.1 i),
-7.5.11 CV 33 (3.1), (4.3), (5.1 til 5.4) og (6); og
+   5.1.5.2.3, 5.1.5.4, 5.2.1.10, 5.4.1.2.5.1 f) i) og ii), 5.4.1.2.5.1 i),
+   7.5.11 CV 33 (3.1), (4.3), (5.1 til 5.4) og (6); og
 
 b) Kravene for unntakskolli som er spesifisert i 6.4.4.
 
@@ -216,11 +216,11 @@ For yrkesrelatert eksponering som følge av transportvirksomhet hvor den
 antatte effektive dose enten:
 
 a) sannsynligvis er mellom 1 mSv og 6 mSv i løpet av ett år, skal det
-være et program for anslått dosering basert på overvåking av
-arbeidsplassen eller individuell overvåking; eller
+   være et program for anslått dosering basert på overvåking av
+   arbeidsplassen eller individuell overvåking; eller
 
 b) sannsynligvis overstiger 6 mSv i løpet av ett år, skal det være
-individuell overvåking.
+   individuell overvåking.
 
 Når det foretas overvåking av arbeidsplassen eller individuell
 overvåking, skal det føres tilfredsstillende journal.
@@ -255,10 +255,10 @@ den vedkommende myndigheten. Tilvirker, avsender eller bruker skal være
 forberedt på:
 
 a) å tilrettelegge fasiliteter for inspeksjon ved tilvirkning og bruk;
-og
+   og
 
 b) å demonstrere overholdelse av ADR/RID for den vedkommende
-myndigheten.
+   myndigheten.
 
 Når vedkommende myndigheters godkjenning er påkrevet, skal slike
 godkjenninger ta i betraktning og være betinget av hensiktsmessigheten
@@ -322,30 +322,30 @@ I tilfelle overskridelse av enhver verdi i ADR/RID gjeldende for
 doserate eller forurensning,
 
 a) Skal avsender, transportør, mottaker og enhver virksomhet som er
-involvert under transporten og som kan bli påvirket, som hensiktsmessig,
-bli informert om overskridelsen av:
+   involvert under transporten og som kan bli påvirket, som hensiktsmessig,
+   bli informert om overskridelsen av:
 
-i. transportøren dersom overskridelsen oppdages under transporten; eller
+   i. transportøren dersom overskridelsen oppdages under transporten; eller
 
-ii. mottaker når overskridelsen først oppdages ved ankomst;
+   ii. mottaker når overskridelsen først oppdages ved ankomst;
 
 b) Den det angår av avsender, transportør eller mottaker skal:
 
-i. øyeblikkelig iverksette nødvendige tiltak for å begrense
-konsekvensene av overskridelsen;
+   i.    øyeblikkelig iverksette nødvendige tiltak for å begrense
+         konsekvensene av overskridelsen;
 
-ii. undersøke overskridelsen og dens årsak, omstendigheter og
-konsekvenser;
+   ii.   undersøke overskridelsen og dens årsak, omstendigheter og
+         konsekvenser;
 
-iii. gjennomføre nødvendige tiltak for å fjerne årsakene og
-omstendighetene som ledet til overskridelsen og sørge for å hindre
-gjentagelse av årsaker og forhold lignende de som førte til
-overskridelsen; og
+   iii.  gjennomføre nødvendige tiltak for å fjerne årsakene og
+         omstendighetene som ledet til overskridelsen og sørge for å hindre
+         gjentagelse av årsaker og forhold lignende de som førte til
+         overskridelsen; og
 
-iv. informere vedkommende myndighet(er) om årsaken til overskridelsen og
-de korrigerende og forebyggende tiltak som er eller vil bli gjennomført;
+   iv.   informere vedkommende myndighet(er) om årsaken til overskridelsen og
+         de korrigerende og forebyggende tiltak som er eller vil bli gjennomført;
 
 c) informasjon om overskridelsen skal gis til avsender og vedkommende
-myndighet(er) så snart som praktisk mulig. Dette skal dog gjøres
-øyeblikkelig dersom det har oppstått eller er i ferd med å oppstå en
-nødsituasjon med tanke på stråling.
+   myndighet(er) så snart som praktisk mulig. Dette skal dog gjøres
+   øyeblikkelig dersom det har oppstått eller er i ferd med å oppstå en
+   nødsituasjon med tanke på stråling.
