@@ -2174,37 +2174,26 @@ gassblandinger.
 
 Stoffer og gjenstander av klasse 2 er inndelt på følgende måte:
 
-1. *Komprimert gass:* en gass som, når den er emballert under trykk for
-transport, er fullstendig i gassfase ved -50 °C; denne kategorien
-omfatter alle gasser med kritisk temperatur lik eller lavere enn -50 °C;
+1. *Komprimert gass:* en gass som, når den er emballert under trykk for transport, er fullstendig i gassfase ved -50 °C; denne kategorien omfatter alle gasser med kritisk temperatur lik eller lavere enn -50 °C;
 
-2. *Flytende gass:* en gass som, når den er emballert under trykk for
-transport, er delvis flytende ved en temperatur på over -50 °C. Det
-skilles mellom:
+2. *Flytende gass:* en gass som, når den er emballert under trykk for transport, er delvis flytende ved en temperatur på over -50 °C. Det skilles mellom:
 
    - *Høyttrykks flytende gass*: en gass med en kritisk temperatur over -50 °C og høyst +65 °C
-   - *Lavtrykks flytende gass:* en gass med en kritisk temperatur over +65 °C
+   - *Lavtrykks flytende gass*: en gass med en kritisk temperatur over +65 °C
 
-3. *Nedkjølt, flytende gass:* gass som, når den er emballert for
-transport, er delvis flytende fordi den holder lav temperatur;
+3. *Nedkjølt, flytende gass:* gass som, når den er emballert for transport, er delvis flytende fordi den holder lav temperatur;
 
-4. *Oppløste gasser:* gass som, når den er emballert under trykk for
-transport, er oppløst i et flytende løsemiddel;
+4. *Oppløste gasser:* gass som, når den er emballert under trykk for transport, er oppløst i et flytende løsemiddel;
 
-5. Aerosolbeholdere og små gassbeholdere, som inneholder gass
-(engangsbeholdere med gass);
+5. Aerosolbeholdere og små gassbeholdere, som inneholder gass (engangsbeholdere med gass);
 
 6. Andre gjenstander som inneholder gass under trykk;
 
 7. Ikke-trykksatte gasser underlagt spesielle krav (gassprøver);
 
-8. Kjemikalier under trykk: væsker, pastaer eller pulver, trykksatt med
-et drivmiddel som omfattes av definisjonen av en komprimert eller
-flytende gass eller blandinger av slike gasser.
+8. Kjemikalier under trykk: væsker, pastaer eller pulver, trykksatt med et drivmiddel som omfattes av definisjonen av en komprimert eller flytende gass eller blandinger av slike gasser.
 
-9. Adsorbert gass: gass som når den er emballert for transport, er
-adsorbert på et fast porøst stoff og hvor det indre trykk i beholderen
-er høyst 101.3 kPa ved 20 °C og høyst 300 kPa ved 50 °C.
+9. Adsorbert gass: gass som når den er emballert for transport, er adsorbert på et fast porøst stoff og hvor det indre trykk i beholderen er høyst 101.3 kPa ved 20 °C og høyst 300 kPa ved 50 °C.
 
 .. _2.2.2.1.3:
 
@@ -2360,16 +2349,15 @@ slimhinner, eller når LC\ :sub:`50` for blandingens etsende komponenter
 er lik med eller lavere enn 5000 ml / m\ :sup:`3` (ppm) når
 LC\ :sub:`50` er beregnet med formelen:
 
-{{{IMG CLASS="«class imag»" REF="2129.jpg"/}}}
+:math:`\text{LC}_{50}\text{Etsende(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{ci}}{T_{ci}}}`
 
-hvor: f\ :sub:`ci` = molfraksjonen for den etsende komponenten «i» i
-blandingen.
+hvor: 
 
-   T\ :sub:`ci` = giftighetsindeksen for den etsende komponenten «i» i
-   blandingen.
+:math:`f_{ci}` = molfraksjonen for den etsende komponenten :math:`«ì»` i blandingen.
 
-T\ :sub:`ci` tilsvarer verdien for LC\ :sub:`50` som finnes i P200 i
-4.1.4.1.
+:math:`T_{ci}` = giftighetsindeksen for den etsende komponenten :math:`«ì»` i blandingen.
+
+:math:`T_{ci}`  tilsvarer verdien for LC\ :sub:`50` som finnes i P200 i 4.1.4.1.
 
 Dersom det ikke er oppgitt en verdi for LC\ :sub:`50` i P200 i 4.1.4.1,
 skal det benyttes en verdi for LC\ :sub:`50` fra vitenskapelig
