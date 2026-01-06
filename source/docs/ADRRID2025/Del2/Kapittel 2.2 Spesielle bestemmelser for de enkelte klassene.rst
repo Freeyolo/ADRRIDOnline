@@ -367,7 +367,7 @@ benyttede morter.
 |        | ordendrønn», |                 |                  |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.1G  |
-|        |              |                 | ³ 180 mm         |       |
+|        |              |                 | ≥ 180 mm         |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.1G  |
 |        |              |                 | < 180 mm med >   |       |
@@ -378,7 +378,7 @@ benyttede morter.
 |        |              |                 | knalleffekter    |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.3G  |
-|        |              |                 | < 180 mm med £   |       |
+|        |              |                 | < 180 mm med ≤   |       |
 |        |              |                 | 25 % «flash      |       |
 |        |              |                 | composition»,    |       |
 |        |              |                 | som løst pulver  |       |
@@ -386,9 +386,9 @@ benyttede morter.
 |        |              |                 | knalleffekter    |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.4G  |
-|        |              |                 | £ 50 mm, eller £ |       |
+|        |              |                 | ≤ 50 mm, eller ≤ |       |
 |        |              |                 | 60 g pyroteknisk |       |
-|        |              |                 | stoff, med £ 2 % |       |
+|        |              |                 | stoff, med ≤ 2 % |       |
 |        |              |                 | «flash           |       |
 |        |              |                 | composition»,    |       |
 |        |              |                 | som løst pulver  |       |
@@ -420,7 +420,7 @@ benyttede morter.
 |        |              | skytes ut fra.  |                  |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.1G  |
-|        |              |                 | ³ 180 mm         |       |
+|        |              |                 | ≥ 180 mm         |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.1G  |
 |        |              |                 | > 25 % «flash    |       |
@@ -434,17 +434,17 @@ benyttede morter.
 |        |              |                 | mm               |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Kulørte bomber:  | 1.3G  |
-|        |              |                 | £ 50 mm, eller   |       |
-|        |              |                 | £Ê60 g           |       |
+|        |              |                 | ≤ 50 mm, eller   |       |
+|        |              |                 | ≤Ê60 g           |       |
 |        |              |                 | pyroteknisk      |       |
 |        |              |                 | stoff, med       |       |
-|        |              |                 | £Ê25 % «flash    |       |
+|        |              |                 | ≤Ê25 % «flash    |       |
 |        |              |                 | composition»,    |       |
 |        |              |                 | som løst pulver  |       |
 |        |              |                 | og /eller        |       |
 |        |              |                 | knalleffekter    |       |
 +--------+--------------+-----------------+------------------+-------+
-|        | «Bomber i    | Gjenstand uten  | £ 120 mm         | 1.1G  |
+|        | «Bomber i    | Gjenstand uten  | ≤ 120 mm         | 1.1G  |
 |        | bombe»       | drivladning,    |                  |       |
 |        | (sfæriske)   | med             |                  |       |
 |        |              | forsinkerlunte  |                  |       |
@@ -465,14 +465,14 @@ benyttede morter.
 |        |              | og              |                  |       |
 |        |              | bristeladning,  |                  |       |
 |        |              | inneholdende    |                  |       |
-|        |              | knallbomber £   |                  |       |
+|        |              | knallbomber ≤   |                  |       |
 |        |              | 25 g «flash     |                  |       |
 |        |              | composition»    |                  |       |
 |        |              | per knallenhet, |                  |       |
-|        |              | med £ 33 %      |                  |       |
+|        |              | med ≤ 33 %      |                  |       |
 |        |              | «flash          |                  |       |
 |        |              | composition» og |                  |       |
-|        |              | ³ 60 % inert    |                  |       |
+|        |              | ≥ 60 % inert    |                  |       |
 |        |              | materiale, og   |                  |       |
 |        |              | konstruert for  |                  |       |
 |        |              | utskyting fra   |                  |       |
@@ -493,27 +493,27 @@ benyttede morter.
 |        |              | utskyting fra   |                  |       |
 |        |              | morter.         |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-| Luft   |              | Gjenstand uten  | > 200 mm og £    | 1.3G  |
+| Luft   |              | Gjenstand uten  | > 200 mm og ≤    | 1.3G  |
 | bombe, |              | drivladning,    | 300 mm           |       |
 | sf     |              | med             |                  |       |
 | æriske |              | forsinkerlunte  |                  |       |
 | eller  |              | og              |                  |       |
 | sylin  |              | bristeladning,  |                  |       |
 | driske |              | inneholdende    |                  |       |
-|        |              | kulørte bomber£ |                  |       |
+|        |              | kulørte bomber≤ |                  |       |
 |        |              | 70 mm og/eller  |                  |       |
 |        |              | pyrotekniske    |                  |       |
-|        |              | effekter, med £ |                  |       |
+|        |              | effekter, med ≤ |                  |       |
 |        |              | 25 % «flash     |                  |       |
 |        |              | composition» og |                  |       |
-|        |              | £ 60 %          |                  |       |
+|        |              | ≤ 60 %          |                  |       |
 |        |              | pyroteknisk     |                  |       |
 |        |              | stoff, og       |                  |       |
 |        |              | konstruert for  |                  |       |
 |        |              | utskyting fra   |                  |       |
 |        |              | morter.         |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              | Gjenstand med   | ³ 200 mm         | 1.3G  |
+|        |              | Gjenstand med   | ≥ 200 mm         | 1.3G  |
 |        |              | drivladning,    |                  |       |
 |        |              | med             |                  |       |
 |        |              | forsinkerlunte  |                  |       |
@@ -521,13 +521,13 @@ benyttede morter.
 |        |              | bristeladning,  |                  |       |
 |        |              | inneholdende    |                  |       |
 |        |              | kulørte bomber  |                  |       |
-|        |              | £ 70 mm         |                  |       |
+|        |              | ≤ 70 mm         |                  |       |
 |        |              | og/eller        |                  |       |
 |        |              | pyrotekniske    |                  |       |
-|        |              | effekter, med £ |                  |       |
+|        |              | effekter, med ≤ |                  |       |
 |        |              | 25 % «flash     |                  |       |
 |        |              | composition» og |                  |       |
-|        |              | £ 60 %          |                  |       |
+|        |              | ≤ 60 %          |                  |       |
 |        |              | pyroteknisk     |                  |       |
 |        |              | stoff, og       |                  |       |
 |        |              | konstruert for  |                  |       |
@@ -552,7 +552,7 @@ benyttede morter.
 |        |              | an              |                  |       |
 |        |              | tenningssteder. |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-| Ro     | «Exhibition  | Rør             | ³ 50 mm          | 1.1G  |
+| Ro     | «Exhibition  | Rør             | ≥ 50 mm          | 1.1G  |
 | merske | candle»,     | inneholdende en | innerdiameter,   |       |
 | lys    | «candle»,    | serie           | inneholdende     |       |
 |        | «bombettes»  | pyrotekniske    | «flash           |       |
@@ -565,39 +565,39 @@ benyttede morter.
 |        |              | ov              |                  |       |
 |        |              | erføringslunte. |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | ³ 50 mm          | 1.2G  |
+|        |              |                 | ≥ 50 mm          | 1.2G  |
 |        |              |                 | innerdiameter,   |       |
 |        |              |                 | uten «flash      |       |
 |        |              |                 | composition»     |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | < 50 mm          | 1.3G  |
 |        |              |                 | innerdiameter og |       |
-|        |              |                 | ³ 25 % «flash    |       |
+|        |              |                 | ≥ 25 % «flash    |       |
 |        |              |                 | composition»     |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | 30 mm            | 1.4G  |
 |        |              |                 | innerdiameter,   |       |
 |        |              |                 | hver pyroteknisk |       |
-|        |              |                 | enhet £ 25 g og  |       |
-|        |              |                 | £ 5 % «flash     |       |
+|        |              |                 | enhet ≤ 25 g og  |       |
+|        |              |                 | ≤ 5 % «flash     |       |
 |        |              |                 | composition»     |       |
 +--------+--------------+-----------------+------------------+-------+
-| «Effe  | Enkeltskudd  | Rør             | £ 30 mm          | 1.3G  |
+| «Effe  | Enkeltskudd  | Rør             | ≤ 30 mm          | 1.3G  |
 | ktrør» | romersk lys, | inneholdende en | innerdiameter,   |       |
 |        | liten        | pyroteknisk     | pyroteknisk      |       |
 |        | ferdigladet  | enhet bestående | enhet > 25 g,    |       |
 |        | morter       | av pyroteknisk  | eller > 5 % og   |       |
-|        |              | stoff,          | £Ê25 % «flash    |       |
+|        |              | stoff,          | ≤Ê25 % «flash    |       |
 |        |              | drivladning,    | composition»     |       |
 |        |              | med eller uten  |                  |       |
 |        |              | ov              |                  |       |
 |        |              | erføringslunte. |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 30 mm          | 1.4G  |
+|        |              |                 | ≤ 30 mm          | 1.4G  |
 |        |              |                 | innerdiameter,   |       |
 |        |              |                 | pyroteknisk      |       |
-|        |              |                 | enhet £ 25 g og  |       |
-|        |              |                 | £ 5 % «flash     |       |
+|        |              |                 | enhet ≤ 25 g og  |       |
+|        |              |                 | ≤ 5 % «flash     |       |
 |        |              |                 | composition»     |       |
 +--------+--------------+-----------------+------------------+-------+
 | Rakett | Snø          | Rør             | Kun effekter med | 1.1G  |
@@ -626,18 +626,18 @@ benyttede morter.
 |        |              |                 | > 20 g           | 1.3G  |
 |        |              |                 | pyroteknisk      |       |
 |        |              |                 | stoff og «flash  |       |
-|        |              |                 | composition» £   |       |
+|        |              |                 | composition» ≤   |       |
 |        |              |                 | 25 %             |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 20 g           | 1.4G  |
+|        |              |                 | ≤ 20 g           | 1.4G  |
 |        |              |                 | pyroteknisk      |       |
 |        |              |                 | stoff,           |       |
 |        |              |                 | svartkr          |       |
 |        |              |                 | uttbristeladning |       |
-|        |              |                 | og £ 0,13 g      |       |
+|        |              |                 | og ≤ 0,13 g      |       |
 |        |              |                 | «flash           |       |
 |        |              |                 | composition» per |       |
-|        |              |                 | knalleffekt og £ |       |
+|        |              |                 | knalleffekt og ≤ |       |
 |        |              |                 | 1 g totalt       |       |
 +--------+--------------+-----------------+------------------+-------+
 | Ild    | «Pot-a-feu», | Rør             | > 25 % «flash    | 1.1G  |
@@ -672,40 +672,40 @@ benyttede morter.
 |        |              | fungere som ett |                  |       |
 |        |              | effektrør.      |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | ³ 180 mm og £ 25 | 1.1G  |
+|        |              |                 | ≥ 180 mm og ≤ 25 | 1.1G  |
 |        |              |                 | % «flash         |       |
 |        |              |                 | composition» som |       |
 |        |              |                 | løst pulver      |       |
 |        |              |                 | og/eller         |       |
 |        |              |                 | knalleffekter    |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | < 180 mm og £ 25 | 1.3G  |
+|        |              |                 | < 180 mm og ≤ 25 | 1.3G  |
 |        |              |                 | % «flash         |       |
 |        |              |                 | composition» som |       |
 |        |              |                 | løst pulver      |       |
 |        |              |                 | og/eller         |       |
 |        |              |                 | knalleffekter    |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 150 g          | 1.4G  |
+|        |              |                 | ≤ 150 g          | 1.4G  |
 |        |              |                 | pyroteknisk      |       |
 |        |              |                 | stoff,           |       |
 |        |              |                 | inneholdende og  |       |
-|        |              |                 | £ 5 % «flash     |       |
+|        |              |                 | ≤ 5 % «flash     |       |
 |        |              |                 | composition» som |       |
 |        |              |                 | løst pulver      |       |
 |        |              |                 | og/eller         |       |
 |        |              |                 | knalleffekter.   |       |
 |        |              |                 | Hver enkelt      |       |
 |        |              |                 | pyroteknisk      |       |
-|        |              |                 | effekt £ 25 g,   |       |
+|        |              |                 | effekt ≤ 25 g,   |       |
 |        |              |                 | hver enkelt      |       |
 |        |              |                 | knalleffekt < 2  |       |
 |        |              |                 | g; hver enkelt   |       |
 |        |              |                 | hyleeffekt,      |       |
 |        |              |                 | dersom slike     |       |
-|        |              |                 | finnes, £ 3 g.   |       |
+|        |              |                 | finnes, ≤ 3 g.   |       |
 +--------+--------------+-----------------+------------------+-------+
-| Fo     | Vulkaner,    | Ikke-metallisk  | ³ 1 kg           | 1.3G  |
+| Fo     | Vulkaner,    | Ikke-metallisk  | ≥ 1 kg           | 1.3G  |
 | ntener | «Gerbs»,     | hylse           | pyroteknisk      |       |
 |        | lanser,      | inneholdende    | stoff            |       |
 |        | Bengalsk     | presset eller   |                  |       |
@@ -755,14 +755,14 @@ benyttede morter.
 |        |              | for antenning.  |                  |       |
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Perkloratbaserte | 1.4G  |
-|        |              |                 | stjerneskudd: £  |       |
+|        |              |                 | stjerneskudd: ≤  |       |
 |        |              |                 | 5 g per          |       |
-|        |              |                 | gjenstand og £   |       |
+|        |              |                 | gjenstand og ≤   |       |
 |        |              |                 | 10 gjenstander   |       |
 |        |              |                 | per forpakning;  |       |
 |        |              |                 |                  |       |
 |        |              |                 | Nitratbaserte    |       |
-|        |              |                 | stjerneskudd: £  |       |
+|        |              |                 | stjerneskudd: ≤  |       |
 |        |              |                 | 30 g per         |       |
 |        |              |                 | gjenstand        |       |
 +--------+--------------+-----------------+------------------+-------+
@@ -779,17 +779,17 @@ benyttede morter.
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 |                  | 1.4G  |
 |        |              |                 | Perkloratbaserte |       |
-|        |              |                 |   gjenstander: £ |       |
+|        |              |                 |   gjenstander: ≤ |       |
 |        |              |                 |   5 g per        |       |
 |        |              |                 |   gjenstand og   |       |
-|        |              |                 |   £ 10           |       |
+|        |              |                 |   ≤ 10           |       |
 |        |              |                 |   gjenstander    |       |
 |        |              |                 |   per            |       |
 |        |              |                 |   forpakning;    |       |
 |        |              |                 |                  |       |
 |        |              |                 |   Nitratbaserte  |       |
 |        |              |                 |   gjenstander:   |       |
-|        |              |                 |   £ 30 g per     |       |
+|        |              |                 |   ≤ 30 g per     |       |
 |        |              |                 |   gjenstand      |       |
 +--------+--------------+-----------------+------------------+-------+
 | Fyrv   | Bor          | Gjenstand       | Kasteknall og    | 1.4G  |
@@ -816,10 +816,10 @@ benyttede morter.
 | inner» | spinner»,    | hylse eller     | stoff per        |       |
 |        | helikopter,  | hylser          | gjenstand > 20   |       |
 |        | «chaser»,    | inneholdende    | g, inneholdende  |       |
-|        | snurrebasser | gass- eller     | £ 3 % «flash     |       |
+|        | snurrebasser | gass- eller     | ≤ 3 % «flash     |       |
 |        |              | gn              | composition» som |       |
 |        |              | istproduserende | knalleffekt,     |       |
-|        |              | pyroteknisk     | eller hylesats £ |       |
+|        |              | pyroteknisk     | eller hylesats ≤ |       |
 |        |              | stoff, med      | 5 g              |       |
 |        |              | eller uten      |                  |       |
 |        |              | lydeffekter,    |                  |       |
@@ -828,23 +828,23 @@ benyttede morter.
 +--------+--------------+-----------------+------------------+-------+
 |        |              |                 | Pyroteknisk      | 1.4G  |
 |        |              |                 | stoff per        |       |
-|        |              |                 | gjenstand £Ê20   |       |
+|        |              |                 | gjenstand ≤Ê20   |       |
 |        |              |                 | g, inneholdende  |       |
-|        |              |                 | £ 3 % «flash     |       |
+|        |              |                 | ≤ 3 % «flash     |       |
 |        |              |                 | composition» som |       |
 |        |              |                 | knalleffekt,     |       |
-|        |              |                 | eller hylesats £ |       |
+|        |              |                 | eller hylesats ≤ |       |
 |        |              |                 | 5 g              |       |
 +--------+--------------+-----------------+------------------+-------+
-| Hjul   | «Catherin    | Sammenstilling  | ³ 1 kg samlet    | 1.3G  |
+| Hjul   | «Catherin    | Sammenstilling  | ≥ 1 kg samlet    | 1.3G  |
 |        | Wheels»,     | omfattende      | mengde           |       |
 |        | «Saxon»      | drivenheter     | pyroteknisk      |       |
 |        |              | inneholdende    | stoff, uten      |       |
 |        |              | pyroteknisk     | knalleffekt,     |       |
 |        |              | stoff, utstyrt  | hver enkelt      |       |
 |        |              | med             | hyler (der slike |       |
-|        |              | festeanordning  | finnes) £ 25 g   |       |
-|        |              | som muliggjør   | og £Ê50 g        |       |
+|        |              | festeanordning  | finnes) ≤ 25 g   |       |
+|        |              | som muliggjør   | og ≤Ê50 g        |       |
 |        |              | rotasjon.       | hylersats per    |       |
 |        |              |                 | hjull            |       |
 +--------+--------------+-----------------+------------------+-------+
@@ -855,8 +855,8 @@ benyttede morter.
 |        |              |                 | knalleffekt,     |       |
 |        |              |                 | hver enkelt      |       |
 |        |              |                 | hyler (der slike |       |
-|        |              |                 | finnes) £ 5 g og |       |
-|        |              |                 | £Ê10 g hylersats |       |
+|        |              |                 | finnes) ≤ 5 g og |       |
+|        |              |                 | ≤Ê10 g hylersats |       |
 |        |              |                 | per hjul         |       |
 +--------+--------------+-----------------+------------------+-------+
 | Soler  | «Flying      | Hylser          | > 200 g samlet   | 1.3G  |
@@ -865,31 +865,31 @@ benyttede morter.
 |        | «Rising      | gnist-, flamme  | stoff eller > 60 |       |
 |        | Crown»       | og/eller        | g pyroteknisk    |       |
 |        |              | l               | stoff per        |       |
-|        |              | ydfrembringende | drivenhet, £ 3 % |       |
+|        |              | ydfrembringende | drivenhet, ≤ 3 % |       |
 |        |              | pyroteknisk     | «flash           |       |
 |        |              | stoff, festet   | composition» som |       |
 |        |              | til en          | knalleffekter,   |       |
 |        |              | støttering.     | hver enkelt      |       |
 |        |              |                 | hyler (der slike |       |
-|        |              |                 | finnes) £ 25 g   |       |
-|        |              |                 | og £ 50 g        |       |
+|        |              |                 | finnes) ≤ 25 g   |       |
+|        |              |                 | og ≤ 50 g        |       |
 |        |              |                 | hylersats per    |       |
 |        |              |                 | sol              |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 200 g samlet   | 1.4G  |
+|        |              |                 | ≤ 200 g samlet   | 1.4G  |
 |        |              |                 | mengde           |       |
 |        |              |                 | pyroteknisk      |       |
-|        |              |                 | stoff eller £ 60 |       |
+|        |              |                 | stoff eller ≤ 60 |       |
 |        |              |                 | g pyroteknisk    |       |
 |        |              |                 | stoff per        |       |
-|        |              |                 | driv-enhet, £ 3  |       |
+|        |              |                 | driv-enhet, ≤ 3  |       |
 |        |              |                 | % «flash         |       |
 |        |              |                 | composition» som |       |
 |        |              |                 | knalleffekter,   |       |
 |        |              |                 | hver enkelt      |       |
 |        |              |                 | hyler (der slike |       |
-|        |              |                 | finnes) £ 5 g og |       |
-|        |              |                 | £ 10 g hylersats |       |
+|        |              |                 | finnes) ≤ 5 g og |       |
+|        |              |                 | ≤ 10 g hylersats |       |
 |        |              |                 | per sol          |       |
 +--------+--------------+-----------------+------------------+-------+
 | Famili | «Display     | Forpakning      | Den farligste    |       |
@@ -907,10 +907,10 @@ benyttede morter.
 |        | assortement  |                 |                  |       |
 +--------+--------------+-----------------+------------------+-------+
 | Ki     | «Celebration | Sammenstilling  | Hver enkelt      | 1.4G  |
-| naputt | cracker»,    | av hylser       | hylse £ 140 mg   |       |
+| naputt | cracker»,    | av hylser       | hylse ≤ 140 mg   |       |
 |        | «celebration | (papir eller    | «flash           |       |
 |        | roll»,       | papp)           | composition»     |       |
-|        | «string      | sammensatt med  | eller £ 1 g      |       |
+|        | «string      | sammensatt med  | eller ≤ 1 g      |       |
 |        | cracker»     | en pyroteknisk  | svartkrutt       |       |
 |        |              | lunte. Hver     |                  |       |
 |        |              | enkelt hylse    |                  |       |
@@ -925,18 +925,18 @@ benyttede morter.
 |        | cracker»     | å frembringe    |                  |       |
 |        |              | knall.          |                  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 2 g «flash     | 1.3G  |
+|        |              |                 | ≤ 2 g «flash     | 1.3G  |
 |        |              |                 | composition» per |       |
-|        |              |                 | gjenstand og £   |       |
+|        |              |                 | gjenstand og ≤   |       |
 |        |              |                 | 10 g per         |       |
 |        |              |                 | inneremballasje  |       |
 +--------+--------------+-----------------+------------------+-------+
-|        |              |                 | £ 1 g «flash     | 1.4G  |
+|        |              |                 | ≤ 1 g «flash     | 1.4G  |
 |        |              |                 | composition» per |       |
-|        |              |                 | gjenstand og £   |       |
+|        |              |                 | gjenstand og ≤   |       |
 |        |              |                 | 10 g per         |       |
 |        |              |                 | inneremballasje  |       |
-|        |              |                 | eller £ 10 g     |       |
+|        |              |                 | eller ≤ 10 g     |       |
 |        |              |                 | svartkrutt per   |       |
 |        |              |                 | gjenstand        |       |
 +--------+--------------+-----------------+------------------+-------+
@@ -1120,157 +1120,111 @@ RID: Stoffer i forenlighetsgruppe A (1.1 A UN 0074, 0113, 0114, 0129,
 
 ``2.2.1.3`` Liste over samleoppføringer
 
-+-------------+-----+--------------------------------------------------+
-| Klassifi    | UN  | Navn på stoff eller gjenstand                    |
-| seringskode | nr. |                                                  |
-|             |     |                                                  |
-| (se         |     |                                                  |
-| 2.2.1.1.4)  |     |                                                  |
-+=============+=====+==================================================+
-| 1.1A        | 0   | EKSPLOSIVSTOFFER, N.O.S. (For RID, se 2.2.1.2.2) |
-|             | 473 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1B        | 0   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.     |
-|             | 461 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1C        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 474 |                                                  |
-|             |     | DRIVLADNING, FLYTENDE                            |
-|             | 0   |                                                  |
-|             | 497 | DRIVLADNING, FAST                                |
-|             |     |                                                  |
-|             | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 498 |                                                  |
-|             |     |                                                  |
-|             | 0   |                                                  |
-|             | 462 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1D        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 475 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 463 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1E        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 464 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1F        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 465 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1G        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 476 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.1L        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 357 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 354 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2B        | 0   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.     |
-|             | 382 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2C        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 466 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2D        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 467 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2E        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 468 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2F        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 469 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.2L        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 358 |                                                  |
-|             |     | INNRETNINGER, VANNAKTIVERTE                      |
-|             | 0   |                                                  |
-|             | 248 | med sprengladning, utstøterladning eller         |
-|             |     | drivladning                                      |
-|             | 0   |                                                  |
-|             | 355 | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-+-------------+-----+--------------------------------------------------+
-| 1.3C        | 0   | DEFLAGRERENDE METALLSALT AV AROMATISKE           |
-|             | 132 | NITRODERIVATER, N.O.S.                           |
-|             |     |                                                  |
-|             | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 477 |                                                  |
-|             |     | DRIVLADNING, FLYTENDE                            |
-|             | 0   |                                                  |
-|             | 495 | DRIVLADNING, FAST                                |
-|             |     |                                                  |
-|             | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 499 |                                                  |
-|             |     |                                                  |
-|             | 0   |                                                  |
-|             | 470 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.3G        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 478 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.3L        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 359 |                                                  |
-|             |     | INNRETNINGER, VANNAKTIVERTE                      |
-|             | 0   |                                                  |
-|             | 249 | med sprengladning, utstøterladning eller         |
-|             |     | drivladning                                      |
-|             | 0   |                                                  |
-|             | 356 | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4B        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 350 |                                                  |
-|             |     | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.     |
-|             | 0   |                                                  |
-|             | 383 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4C        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 479 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 351 | DRIVLADNING, FAST                                |
-|             |     |                                                  |
-|             | 0   |                                                  |
-|             | 501 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4D        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 480 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 352 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4E        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 471 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4F        | 0   | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 472 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4G        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 485 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 353 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.4S        | 0   | EKSPLOSIVSTOFFER, N.O.S.                         |
-|             | 481 |                                                  |
-|             |     | GJENSTANDER, EKSPLOSIVE, N.O.S.                  |
-|             | 0   |                                                  |
-|             | 349 | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.     |
-|             |     |                                                  |
-|             | 0   |                                                  |
-|             | 384 |                                                  |
-+-------------+-----+--------------------------------------------------+
-| 1.5D        | 0   | EKSPLOSIVE STOFFER, MEGET LITE FØLSOMME,         |
-|             | 482 | (STOFFER, EVI), N.O.S.                           |
-+-------------+-----+--------------------------------------------------+
-| 1.6N        | 0   | EKSPLOSIVE GJENSTANDER, EKSTREMT LITE FØLSOMME   |
-|             | 486 | (GJENSTANDER, EEI)                               |
-+-------------+-----+--------------------------------------------------+
-|             | 0   | EKSPLOSIVPRØVER annet enn initialeksplosiver     |
-|             | 190 |                                                  |
-|             |     | **ANM:** Faregruppe og forenlighetsgruppe skal   |
-|             |     | defineres slik vedkommende myndighet har bestemt |
-|             |     | og i samsvar med prinsippene i 2.2.1.1.4.        |
-+-------------+-----+--------------------------------------------------+
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Klassifiseringskode | UN nr. | Navn på stoff eller gjenstand                                                                                                             |
+|                     |        |                                                                                                                                           |
+| (se 2.2.1.1.4)      |        |                                                                                                                                           |
++=====================+========+===========================================================================================================================================+
+| 1.1A                | 0473   | EKSPLOSIVSTOFFER, N.O.S. (For RID, se 2.2.1.2.2)                                                                                          |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1B                | 0461   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.                                                                                              |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1C                | 0474   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0497   | DRIVLADNING, FLYTENDE                                                                                                                     |
+|                     |        |                                                                                                                                           |
+|                     | 0498   | DRIVLADNING, FAST                                                                                                                         |
+|                     |        |                                                                                                                                           |
+|                     | 0462   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1D                | 0475   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0463   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1E                | 0464   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1F                | 0465   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1G                | 0476   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.1L                | 0357   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0354   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2B                | 0382   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.                                                                                              |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2C                | 0466   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2D                | 0467   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2E                | 0468   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2F                | 0469   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2L                | 0358   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0248   | INNRETNINGER, VANNAKTIVERTE                                                                                                               |
+|                     |        |                                                                                                                                           |
+|                     | 0355   | med sprengladning, utstøterladning eller drivladning                                                                                      |
+|                     |        |                                                                                                                                           |
+|                     |        | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3C                | 0132   | DEFLAGRERENDE METALLSALT AV AROMATISKE NITRODERIVATER, N.O.S.                                                                             |
+|                     |        |                                                                                                                                           |
+|                     | 0477   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0495   | DRIVLADNING, FLYTENDE                                                                                                                     |
+|                     |        |                                                                                                                                           |
+|                     | 0499   | DRIVLADNING, FAST                                                                                                                         |
+|                     |        |                                                                                                                                           |
+|                     | 0470   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3G                | 0478   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3L                | 0359   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0249   | INNRETNINGER, VANNAKTIVERTE                                                                                                               |
+|                     |        |                                                                                                                                           |
+|                     | 0356   | med sprengladning, utstøterladning eller drivladning                                                                                      |
+|                     |        |                                                                                                                                           |
+|                     |        | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4B                | 0350   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
+|                     |        |                                                                                                                                           |
+|                     | 0383   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.                                                                                              |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4C                | 0479   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0351   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
+|                     |        |                                                                                                                                           |
+|                     | 0501   | DRIVLADNING, FAST                                                                                                                         |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4D                | 0480   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0352   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4E                | 0471   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4F                | 0472   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4G                | 0485   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0353   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4S                | 0481   | EKSPLOSIVSTOFFER, N.O.S.                                                                                                                  |
+|                     |        |                                                                                                                                           |
+|                     | 0349   | GJENSTANDER, EKSPLOSIVE, N.O.S.                                                                                                           |
+|                     |        |                                                                                                                                           |
+|                     | 0384   | KOMPONENTER FOR TENNKJEDE, EKSPLOSIV, N.O.S.                                                                                              |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5D                | 0482   | EKSPLOSIVE STOFFER, MEGET LITE FØLSOMME, (STOFFER, EVI), N.O.S.                                                                           |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6N                | 0486   | EKSPLOSIVE GJENSTANDER, EKSTREMT LITE FØLSOMME (GJENSTANDER, EEI)                                                                         |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 0190   | EKSPLOSIVPRØVER annet enn initialeksplosiver                                                                                              |
+|                     |        |                                                                                                                                           |
+|                     |        | **ANM:** Faregruppe og forenlighetsgruppe skal defineres slik vedkommende myndighet har bestemt og i samsvar med prinsippene i 2.2.1.1.4. |
++---------------------+--------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _2.2.1.4:
 
@@ -2228,11 +2182,8 @@ omfatter alle gasser med kritisk temperatur lik eller lavere enn -50 °C;
 transport, er delvis flytende ved en temperatur på over -50 °C. Det
 skilles mellom:
 
-*- Høyttrykks flytende gass*: en gass med en kritisk temperatur over -50
-°C og høyst +65 °C
-
-*- Lavtrykks flytende gass:* en gass med en kritisk temperatur over +65
-°C
+   - *Høyttrykks flytende gass*: en gass med en kritisk temperatur over -50 °C og høyst +65 °C
+   - *Lavtrykks flytende gass:* en gass med en kritisk temperatur over +65 °C
 
 3. *Nedkjølt, flytende gass:* gass som, når den er emballert for
 transport, er delvis flytende fordi den holder lav temperatur;
@@ -2642,180 +2593,111 @@ eller selvantennende i henhold til emballeringsbestemmelse P200 i
 
 ``2.2.2.3`` Liste over samleoppføringer
 
-+---------+------+----------------------------------------------------+
-| **Komp  |      |                                                    |
-| rimerte |      |                                                    |
-| g       |      |                                                    |
-| asser** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 1 A     | 1956 | KOMPRIMERT GASS, N.O.S.                            |
-+---------+------+----------------------------------------------------+
-| 1 O     | 3156 | KOMPRIMERT GASS, OKSIDERENDE, N.O.S.               |
-+---------+------+----------------------------------------------------+
-| 1 F     | 1964 | HYDROKARBON GASSBLANDING, KOMPRIMERT N.O.S.        |
-+---------+------+----------------------------------------------------+
-|         | 1954 | KOMPRIMERT GASS, BRANNFARLIG, N.O.S.               |
-+---------+------+----------------------------------------------------+
-| 1T      | 1955 | KOMPRIMERT GASS, GIFTIG, N.O.S.                    |
-+---------+------+----------------------------------------------------+
-| 1 TF    | 1953 | KOMPRIMERT GASS, GIFTIG, BRANNFARLIG, N.O.S.       |
-+---------+------+----------------------------------------------------+
-| 1 TC    | 3304 | KOMPRIMERT GASS, GIFTIG, ETSENDE, N.O.S.           |
-+---------+------+----------------------------------------------------+
-| 1 TO    | 3303 | KOMPRIMERT GASS, GIFTIG, OKSIDERENDE, N.O.S.       |
-+---------+------+----------------------------------------------------+
-| 1 TFC   | 3305 | KOMPRIMERT GASS, GIFTIG, BRANNFARLIG, ETSENDE,     |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
-| 1 TOC   | 3306 | KOMPRIMERT GASS, GIFTIG, OKSIDERENDE, ETSENDE,     |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
++------------------------+-------+-------------------------------------------------------+
+| **Komprimerte gasser** |       |                                                       |
++========================+=======+=======================================================+
+| Klassifiseringskode    | UN-nr | Navn på stoff eller gjenstand                         |
++------------------------+-------+-------------------------------------------------------+
+| 1 A                    | 1956  | KOMPRIMERT GASS, N.O.S.                               |
++------------------------+-------+-------------------------------------------------------+
+| 1 O                    | 3156  | KOMPRIMERT GASS, OKSIDERENDE, N.O.S.                  |
++------------------------+-------+-------------------------------------------------------+
+| 1 F                    | 1964  | HYDROKARBON GASSBLANDING, KOMPRIMERT N.O.S.           |
++------------------------+-------+-------------------------------------------------------+
+|                        | 1954  | KOMPRIMERT GASS, BRANNFARLIG, N.O.S.                  |
++------------------------+-------+-------------------------------------------------------+
+| 1T                     | 1955  | KOMPRIMERT GASS, GIFTIG, N.O.S.                       |
++------------------------+-------+-------------------------------------------------------+
+| 1 TF                   | 1953  | KOMPRIMERT GASS, GIFTIG, BRANNFARLIG, N.O.S.          |
++------------------------+-------+-------------------------------------------------------+
+| 1 TC                   | 3304  | KOMPRIMERT GASS, GIFTIG, ETSENDE, N.O.S.              |
++------------------------+-------+-------------------------------------------------------+
+| 1 TO                   | 3303  | KOMPRIMERT GASS, GIFTIG, OKSIDERENDE, N.O.S.          |
++------------------------+-------+-------------------------------------------------------+
+| 1 TFC                  | 3305  | KOMPRIMERT GASS, GIFTIG, BRANNFARLIG, ETSENDE, N.O.S. |
++------------------------+-------+-------------------------------------------------------+
+| 1 TOC                  | 3306  | KOMPRIMERT GASS, GIFTIG, OKSIDERENDE, ETSENDE, N.O.S. |
++------------------------+-------+-------------------------------------------------------+
 
-+---------+------+----------------------------------------------------+
-| **F     |      |                                                    |
-| lytende |      |                                                    |
-| g       |      |                                                    |
-| asser** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 2 A     | 1058 | FLYTENDE GASSER, ikke brannfarlige, trykktilsatt   |
-|         |      | med nitrogen, karbondioksid eller luft             |
-+---------+------+----------------------------------------------------+
-|         | 1078 | KJØLEMEDIUMGASS, N.O.S. slik som gassblandinger,   |
-|         |      | kjennetegnet med bokstaven R…, og som:             |
-|         |      |                                                    |
-|         |      | BLANDING F 1 har damptrykk ved 70 °C som ikke      |
-|         |      | overstiger 1,3 MPa (13 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn tettheten for            |
-|         |      | diklorfluormetan (1,30 kg/l);                      |
-|         |      |                                                    |
-|         |      | BLANDING F 2 har damptrykk ved 70 °C som ikke      |
-|         |      | overstiger 1,9 MPa (19 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn tettheten for            |
-|         |      | diklodifluormetan (1,21 kg/l);                     |
-|         |      |                                                    |
-|         |      | BLANDING F 3 har damptrykk ved 70 °C som ikke      |
-|         |      | overstiger 3 MPa (30 bar) og en tetthet ved 50 °C  |
-|         |      | som ikke er lavere enn tettheten for               |
-|         |      | klordifluormetan (1,09 kg/l);                      |
-|         |      |                                                    |
-|         |      | **ANM:** Triklorfluormetan (kjølemedium R 11),     |
-|         |      | 1,1,2-triklor-1,2,2-trifluoretan (kjølemedium R    |
-|         |      | 113), 1,1,1-triklor-2,2,2-trifluoretan             |
-|         |      | (kjølemedium R 113a), 1-klor-1,2,2-trifluoretan    |
-|         |      | (kjølemedium R 133) og 1-klor-1,1,2-trifluoretan   |
-|         |      | (kjølemedium R 133b) tilhører ikke klasse 2. De    |
-|         |      | kan likevel inngå som komponenter i blandingene F  |
-|         |      | 1 til F 3.                                         |
-+---------+------+----------------------------------------------------+
-|         | 1968 | INSEKTMIDDEL GASS, N.O.S.                          |
-+---------+------+----------------------------------------------------+
-|         | 3163 | FLYTENDE GASS, N.O.S.                              |
-+---------+------+----------------------------------------------------+
-| 2 O     | 3157 | FLYTENDE GASS, OKSIDERENDE N.O.S.                  |
-+---------+------+----------------------------------------------------+
-| 2 F     | 1010 | BUTADIENER, STABILISERT eller BLANDINGER AV        |
-|         |      | BUTADIENER OG HYDROKARBONER, STABILISERT, som      |
-|         |      | inneholder mer enn 20% butadiener                  |
-+---------+------+----------------------------------------------------+
-|         | 1060 | METYLACETYLEN OG PROPADIEN BLANDING, STABILISERT   |
-|         |      |                                                    |
-|         |      | slik som blandinger av metylacetylen og propadien  |
-|         |      | med hydrokarboner og som:                          |
-|         |      |                                                    |
-|         |      | BLANDING P1 inneholder høyst over 63 volumprosent  |
-|         |      | metylacetylen og propadien og høyst 24             |
-|         |      | volumprosent propan og propylen, mens andelen av   |
-|         |      | C4- mettede hydrokarboner er minst 14              |
-|         |      | volumprosent; og som                               |
-|         |      |                                                    |
-|         |      | BLANDING P2 inneholder høyst 48 volumprosent       |
-|         |      | metylacetylen og propadien og høyst 50             |
-|         |      | volumprosent propan og propylen, mens andelen av   |
-|         |      | C4- mettede hydrokarboner er minst 5 %             |
-|         |      | volumprosent, eller blandinger av propadien med 1  |
-|         |      | til 4 % metylacetylen                              |
-+---------+------+----------------------------------------------------+
-| 2 F     | 1965 | HYDROKARBON GASSBLANDING, FLYTENDE N.O.S.          |
-|         |      |                                                    |
-|         |      | som f.eks:                                         |
-|         |      |                                                    |
-|         |      | BLANDING A har damptrykk ved 70 °C som ikke        |
-|         |      | overstiger 1,1 MPa (11 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,525 kg/l;              |
-|         |      |                                                    |
-|         |      | BLANDING A01 har damptrykk ved 70 °C som ikke      |
-|         |      | overstiger 1,6 MPa (16 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,516 kg/l.;             |
-|         |      |                                                    |
-|         |      | BLANDING A02 har damptrykk ved 70 °C som ikke      |
-|         |      | overstiger 1,6 MPa (16 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn (0,505 kg/l);            |
-|         |      |                                                    |
-|         |      | BLANDING A0 har damptrykk ved 70 °C som ikke       |
-|         |      | overstiger 1,6 MPa (16 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,495 kg/l;              |
-|         |      |                                                    |
-|         |      | BLANDING A1 har damptrykk ved 70 °C som ikke       |
-|         |      | overstiger 2,1 MPa (21 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,485 kg/l;              |
-|         |      |                                                    |
-|         |      | BLANDING B1 har damptrykk ved 70 °C som ikke       |
-|         |      | overstiger 2,6 MPa (26 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,474 kg/l;              |
-|         |      |                                                    |
-|         |      | BLANDING B2 har damptrykk ved 70 °C som ikke       |
-|         |      | overstiger 2,6 MPa (26 bar) og en relativ tetthet  |
-|         |      | ved 50 °C som ikke er lavere enn 0,463 kg/l;       |
-|         |      |                                                    |
-|         |      | BLANDING B har damptrykk ved 70 °C som ikke        |
-|         |      | overstiger 2,6 MPa (26 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,450 kg/l;              |
-|         |      |                                                    |
-|         |      | BLANDING C har damptrykk ved 70 °C som ikke        |
-|         |      | overstiger 3,1 MPa (31 bar) og en tetthet ved 50   |
-|         |      | °C som ikke er lavere enn 0,440 kg/l;              |
-+---------+------+----------------------------------------------------+
-|         |      | **ANM 1:** Når det gjelder blandingene som er      |
-|         |      | nevnt foran, kan følgende vanlige handelsnavn      |
-|         |      | benyttes for blandingene A, A01, A02 og A0: BUTAN; |
-|         |      | for blanding C: PROPAN.                            |
-|         |      |                                                    |
-|         |      | **ANM 2:** UN 1075 PETROLEUMGASSER, FLYTENDE kan   |
-|         |      | benyttes som alternativ betegnelse for UN 1965     |
-|         |      | HYDROKARBONGASS BLANDING, FLYTENDE, N.O.S. ved     |
-|         |      | transport som går forut for eller følger etter     |
-|         |      | transport til sjøs eller i luften.                 |
-+---------+------+----------------------------------------------------+
-|         | 3354 | INSEKTMIDDEL GASS, BRANNFARLIG, N.O.S.             |
-+---------+------+----------------------------------------------------+
-|         | 3161 | FLYTENDE GASS, BRANNFARLIG, N.O.S.                 |
-+---------+------+----------------------------------------------------+
-| 2 T     | 1967 | INSEKTMIDDEL GASS, GIFTIG, N.O.S.                  |
-+---------+------+----------------------------------------------------+
-|         | 3162 | FLYTENDE GASS, GIFTIG, N.O.S.                      |
-+---------+------+----------------------------------------------------+
-| 2 TF    | 3355 | INSEKTMIDDEL GASS, GIFTIG, BRANNFARLIG, N.O.S.     |
-+---------+------+----------------------------------------------------+
-|         | 3160 | FLYTENDE GASS, GIFTIG, BRANNFARLIG, N.O.S.         |
-+---------+------+----------------------------------------------------+
-| 2 TC    | 3308 | FLYTENDE GASS, GIFTIG, ETSENDE, N.O.S.             |
-+---------+------+----------------------------------------------------+
-| 2 TO    | 3307 | FLYTENDE GASS, GIFTIG, OKSIDERENDE, N.O.S.         |
-+---------+------+----------------------------------------------------+
-| 2 TFC   | 3309 | FLYTENDE GASS, GIFTIG, BRANNFARLIG, ETSENDE,       |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
-| 2 TOC   | 3310 | FLYTENDE GASS, GIFTIG, OKSIDERENDE, ETSENDE,       |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Flytende gasser** |       |                                                                                                                                                                                                                                                                                                                                                     |
++=====================+=======+=====================================================================================================================================================================================================================================================================================================================================================+
+| Klassifiseringskode | UN-nr | Navn på stoff eller gjenstand                                                                                                                                                                                                                                                                                                                       |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 A                 | 1058  | FLYTENDE GASSER, ikke brannfarlige, trykktilsatt med nitrogen, karbondioksid eller luft                                                                                                                                                                                                                                                             |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 1078  | KJØLEMEDIUMGASS, N.O.S. slik som gassblandinger, kjennetegnet med bokstaven R…, og som:                                                                                                                                                                                                                                                             |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING F 1 har damptrykk ved 70 °C som ikke overstiger 1,3 MPa (13 bar) og en tetthet ved 50 °C som ikke er lavere enn tettheten for diklorfluormetan (1,30 kg/l);                                                                                                                                                                                |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING F 2 har damptrykk ved 70 °C som ikke overstiger 1,9 MPa (19 bar) og en tetthet ved 50 °C som ikke er lavere enn tettheten for diklodifluormetan (1,21 kg/l);                                                                                                                                                                               |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING F 3 har damptrykk ved 70 °C som ikke overstiger 3 MPa (30 bar) og en tetthet ved 50 °C som ikke er lavere enn tettheten for klordifluormetan (1,09 kg/l);                                                                                                                                                                                  |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | **ANM:** Triklorfluormetan (kjølemedium R 11), 1,1,2-triklor-1,2,2-trifluoretan (kjølemedium R 113), 1,1,1-triklor-2,2,2-trifluoretan (kjølemedium R 113a), 1-klor-1,2,2-trifluoretan (kjølemedium R 133) og 1-klor-1,1,2-trifluoretan (kjølemedium R 133b) tilhører ikke klasse 2. De kan likevel inngå som komponenter i blandingene F 1 til F 3. |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 1968  | INSEKTMIDDEL GASS, N.O.S.                                                                                                                                                                                                                                                                                                                           |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 3163  | FLYTENDE GASS, N.O.S.                                                                                                                                                                                                                                                                                                                               |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 O                 | 3157  | FLYTENDE GASS, OKSIDERENDE N.O.S.                                                                                                                                                                                                                                                                                                                   |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 F                 | 1010  | BUTADIENER, STABILISERT eller BLANDINGER AV BUTADIENER OG HYDROKARBONER, STABILISERT, som inneholder mer enn 20% butadiener                                                                                                                                                                                                                         |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 1060  | METYLACETYLEN OG PROPADIEN BLANDING, STABILISERT                                                                                                                                                                                                                                                                                                    |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | slik som blandinger av metylacetylen og propadien med hydrokarboner og som:                                                                                                                                                                                                                                                                         |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING P1 inneholder høyst over 63 volumprosent metylacetylen og propadien og høyst 24 volumprosent propan og propylen, mens andelen av C4- mettede hydrokarboner er minst 14 volumprosent; og som                                                                                                                                                |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING P2 inneholder høyst 48 volumprosent metylacetylen og propadien og høyst 50 volumprosent propan og propylen, mens andelen av C4- mettede hydrokarboner er minst 5 % volumprosent, eller blandinger av propadien med 1 til 4 % metylacetylen                                                                                                 |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 F                 | 1965  | HYDROKARBON GASSBLANDING, FLYTENDE N.O.S.                                                                                                                                                                                                                                                                                                           |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | som f.eks:                                                                                                                                                                                                                                                                                                                                          |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING A har damptrykk ved 70 °C som ikke overstiger 1,1 MPa (11 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,525 kg/l;                                                                                                                                                                                                                  |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING A01 har damptrykk ved 70 °C som ikke overstiger 1,6 MPa (16 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,516 kg/l.;                                                                                                                                                                                                               |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING A02 har damptrykk ved 70 °C som ikke overstiger 1,6 MPa (16 bar) og en tetthet ved 50 °C som ikke er lavere enn (0,505 kg/l);                                                                                                                                                                                                              |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING A0 har damptrykk ved 70 °C som ikke overstiger 1,6 MPa (16 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,495 kg/l;                                                                                                                                                                                                                 |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING A1 har damptrykk ved 70 °C som ikke overstiger 2,1 MPa (21 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,485 kg/l;                                                                                                                                                                                                                 |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING B1 har damptrykk ved 70 °C som ikke overstiger 2,6 MPa (26 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,474 kg/l;                                                                                                                                                                                                                 |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING B2 har damptrykk ved 70 °C som ikke overstiger 2,6 MPa (26 bar) og en relativ tetthet ved 50 °C som ikke er lavere enn 0,463 kg/l;                                                                                                                                                                                                         |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING B har damptrykk ved 70 °C som ikke overstiger 2,6 MPa (26 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,450 kg/l;                                                                                                                                                                                                                  |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | BLANDING C har damptrykk ved 70 °C som ikke overstiger 3,1 MPa (31 bar) og en tetthet ved 50 °C som ikke er lavere enn 0,440 kg/l;                                                                                                                                                                                                                  |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     |       | **ANM 1:** Når det gjelder blandingene som er nevnt foran, kan følgende vanlige handelsnavn benyttes for blandingene A, A01, A02 og A0: BUTAN; for blanding C: PROPAN.                                                                                                                                                                              |
+|                     |       |                                                                                                                                                                                                                                                                                                                                                     |
+|                     |       | **ANM 2:** UN 1075 PETROLEUMGASSER, FLYTENDE kan benyttes som alternativ betegnelse for UN 1965 HYDROKARBONGASS BLANDING, FLYTENDE, N.O.S. ved transport som går forut for eller følger etter transport til sjøs eller i luften.                                                                                                                    |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 3354  | INSEKTMIDDEL GASS, BRANNFARLIG, N.O.S.                                                                                                                                                                                                                                                                                                              |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 3161  | FLYTENDE GASS, BRANNFARLIG, N.O.S.                                                                                                                                                                                                                                                                                                                  |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 T                 | 1967  | INSEKTMIDDEL GASS, GIFTIG, N.O.S.                                                                                                                                                                                                                                                                                                                   |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 3162  | FLYTENDE GASS, GIFTIG, N.O.S.                                                                                                                                                                                                                                                                                                                       |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 TF                | 3355  | INSEKTMIDDEL GASS, GIFTIG, BRANNFARLIG, N.O.S.                                                                                                                                                                                                                                                                                                      |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                     | 3160  | FLYTENDE GASS, GIFTIG, BRANNFARLIG, N.O.S.                                                                                                                                                                                                                                                                                                          |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 TC                | 3308  | FLYTENDE GASS, GIFTIG, ETSENDE, N.O.S.                                                                                                                                                                                                                                                                                                              |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 TO                | 3307  | FLYTENDE GASS, GIFTIG, OKSIDERENDE, N.O.S.                                                                                                                                                                                                                                                                                                          |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 TFC               | 3309  | FLYTENDE GASS, GIFTIG, BRANNFARLIG, ETSENDE, N.O.S.                                                                                                                                                                                                                                                                                                 |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2 TOC               | 3310  | FLYTENDE GASS, GIFTIG, OKSIDERENDE, ETSENDE, N.O.S.                                                                                                                                                                                                                                                                                                 |
++---------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 **Nedkjølte flytende gasser**
@@ -2830,187 +2712,124 @@ eller selvantennende i henhold til emballeringsbestemmelse P200 i
 | 3 F                   | 3312   | GASS, NEDKJØLT FLYTENDE, BRANNFARLIG, N.O.S. |
 +-----------------------+--------+----------------------------------------------+
 
-+---------+------+----------------------------------------------------+
-| **O     |      |                                                    |
-| ppløste |      |                                                    |
-| g       |      |                                                    |
-| asser** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 4       |      | Bare stoffer som er oppført i tabell A i kapittel  |
-|         |      | 3.2 får mottas for transport.                      |
-+---------+------+----------------------------------------------------+
+**Oppløste gasser** 
 
-+----------+------+----------------------------------------------------+
-| **       |      |                                                    |
-| Aerosolb |      |                                                    |
-| eholdere |      |                                                    |
-| og små   |      |                                                    |
-| gassbeh  |      |                                                    |
-| oldere** |      |                                                    |
-+==========+======+====================================================+
-| Kla      | U    | Navn på stoff eller gjenstand                      |
-| ssifiser | N-nr |                                                    |
-| ingskode |      |                                                    |
-+----------+------+----------------------------------------------------+
-| 5        | 1950 | AEROSOLBEHOLDERE                                   |
-+----------+------+----------------------------------------------------+
-|          | 2037 | SMÅ GASSBEHOLDERE                                  |
-|          |      |                                                    |
-|          |      | (ENGANGSBEHOLDERE MED GASS) uten utløserventil,    |
-|          |      | engangs                                            |
-+----------+------+----------------------------------------------------+
++---------------------+-------+---------------------------------------------------------------------------------+
+| Klassifiseringskode | UN-nr | Navn på stoff eller gjenstand                                                   |
++=====================+=======+=================================================================================+
+| 4                   |       | Bare stoffer som er oppført i tabell A i kapittel 3.2 får mottas for transport. |
++---------------------+-------+---------------------------------------------------------------------------------+
 
-+---------+------+----------------------------------------------------+
-| **Andre |      |                                                    |
-| gjen    |      |                                                    |
-| stander |      |                                                    |
-| som     |      |                                                    |
-| inn     |      |                                                    |
-| eholder |      |                                                    |
-| gass    |      |                                                    |
-| under   |      |                                                    |
-| trykk** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 6A      | 2857 | KJØLEMASKINER som inneholder ikke-brannfarlige,    |
-|         |      | ikke-giftige gasser eller ammoniakkløsninger (UN   |
-|         |      | 2672)                                              |
-+---------+------+----------------------------------------------------+
-|         | 3164 | GJENSTANDER, PNEUMATISK TRYKKSATT (inneholder      |
-|         |      | ikke-brannfarlig gass) eller                       |
-+---------+------+----------------------------------------------------+
-|         | 3164 | GJENSTANDER, HYDRAULISK TRYKKSATT (inneholder      |
-|         |      | ikke-brannfarlig gass)                             |
-+---------+------+----------------------------------------------------+
-|         | 3538 | GJENSTANDER SOM INNEHOLDER IKKE-BRANNFARLIG,       |
-|         |      | IKKE-GIFTIG GASS, N.O.S.                           |
-+---------+------+----------------------------------------------------+
-| 6F      | 3150 | GJENSTANDER, SMÅ, FYLT MED HYDROKARBONDRIVGASS     |
-|         |      | eller                                              |
-+---------+------+----------------------------------------------------+
-|         | 3150 | HYDROKARBONGASS REFILLER FOR SMÅ GJENSTANDER, med  |
-|         |      | utløserventil                                      |
-+---------+------+----------------------------------------------------+
-|         | 3358 | KJØLEMASKINER, som inneholder brannfarlig,         |
-|         |      | ikke-giftig, flytende gass                         |
-+---------+------+----------------------------------------------------+
-|         | 3478 | BRENSELCELLEPATRONER, som inneholder brannfarlig   |
-|         |      | gass gjort flytende eller                          |
-+---------+------+----------------------------------------------------+
-|         | 3478 | BRENSELCELLEPATRONER I UTSTYR, som inneholder      |
-|         |      | brannfarlig gass gjort flytende eller              |
-+---------+------+----------------------------------------------------+
-|         | 3478 | BRENSELCELLEPATRONER PAKKET MED UTSTYR, som        |
-|         |      | inneholder brannfarlig gass gjort flytende         |
-+---------+------+----------------------------------------------------+
-|         | 3479 | BRENSELCELLEPATRONER, som inneholder hydrogen i    |
-|         |      | metallhydrid, eller                                |
-+---------+------+----------------------------------------------------+
-|         | 3479 | BRENSELCELLEPATRONER I UTSTYR; som inneholder      |
-|         |      | hydrogen i metallhybrid eller                      |
-+---------+------+----------------------------------------------------+
-|         | 3479 | BRENSELCELLEPATRONER PAKKET MED UTSTYR, som        |
-|         |      | inneholder hydrogen i metallhydrid                 |
-+---------+------+----------------------------------------------------+
-|         | 3529 | FORBRENNINGSMOTOR DREVET AV BRANNFARLIG GASS,      |
-|         |      | eller                                              |
-+---------+------+----------------------------------------------------+
-|         | 3529 | BRENSELCELLEMOTOR DREVET AV BRANNFARLIG GASS,      |
-|         |      | eller                                              |
-+---------+------+----------------------------------------------------+
-|         | 3529 | MASKINER MED FORBRENNINGSMOTOR DREVET AV           |
-|         |      | BRANNFARLIG GASS, eller                            |
-+---------+------+----------------------------------------------------+
-|         | 3529 | MASKINER MED BRENSELCELLER DREVET AV BRANNFARLIG   |
-|         |      | GASS                                               |
-+---------+------+----------------------------------------------------+
-|         | 3537 | GJENSTANDER SOM INNEHOLDER BRANNFARLIG GASS,       |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
-| 6T      | 3539 | GJENSTANDER SOM INNEHOLDER GIFTIG GASS, N.O.S.     |
-+---------+------+----------------------------------------------------+
+**Aerosolbeholdere og små gassbeholdere**
 
-+---------+------+----------------------------------------------------+
-| **Gassp |      |                                                    |
-| røver** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 7 F     | 3167 | GASSPRØVER, IKKE TRYKKSATT, BRANNFARLIG, N.O.S,    |
-|         |      | ikke nedkjølt                                      |
-|         |      | flytende                                           |
-+---------+------+----------------------------------------------------+
-| 7 T     | 3169 | GASSPRØVER, IKKE TRYKKSATT, GIFTIGE, N.O.S, ikke   |
-|         |      | nedkjølt flytende                                  |
-+---------+------+----------------------------------------------------+
-| 7 TF    | 3168 | GASSPRØVER, IKKE TRYKKSATT, GIFTIGE, BRANNFARLIG,  |
-|         |      | N.O.S, ikke nedkjølt flytende                      |
-+---------+------+----------------------------------------------------+
++-------------------------------------------+-------+---------------------------------------------------------+
+| Klassifiseringskode                       | UN-nr | Navn på stoff eller gjenstand                           |
++===========================================+=======+=========================================================+
+| 5                                         | 1950  | AEROSOLBEHOLDERE                                        |
++-------------------------------------------+-------+---------------------------------------------------------+
+|                                           | 2037  | SMÅ GASSBEHOLDERE                                       |
+|                                           |       |                                                         |
+|                                           |       | (ENGANGSBEHOLDERE MED GASS) uten utløserventil, engangs |
++-------------------------------------------+-------+---------------------------------------------------------+
 
-+---------+------+----------------------------------------------------+
-| **Kjem  |      |                                                    |
-| ikalier |      |                                                    |
-| under   |      |                                                    |
-| trykk** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 8A      | 3500 | KJEMIKALIE UNDER TRYKK, N.O.S.                     |
-+---------+------+----------------------------------------------------+
-| 8F      | 3501 | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, N.O.S.        |
-+---------+------+----------------------------------------------------+
-| 8T      | 3502 | KJEMIKALIE UNDER TRYKK, GIFTIG, N.O.S.             |
-+---------+------+----------------------------------------------------+
-| 8C      | 3503 | KJEMIKALIE UNDER TRYKK, ETSENDE, N.O.S.            |
-+---------+------+----------------------------------------------------+
-| 8TF     | 3504 | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, GIFTIG,       |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
-| 8FC     | 3505 | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, ETSENDE,      |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
+**Andre gjenstander som inneholder gass under trykk** 
 
-+---------+------+----------------------------------------------------+
-| **Ads   |      |                                                    |
-| orberte |      |                                                    |
-| g       |      |                                                    |
-| asser** |      |                                                    |
-+=========+======+====================================================+
-| Klass   | U    | Navn på stoff eller gjenstand                      |
-| ifiseri | N-nr |                                                    |
-| ngskode |      |                                                    |
-+---------+------+----------------------------------------------------+
-| 9A      | 3511 | ADSORBERT GASS, N.O.S.                             |
-+---------+------+----------------------------------------------------+
-| 9O      | 3513 | ADSORBERT GASS, OKSIDERENDE, N.O.S.                |
-+---------+------+----------------------------------------------------+
-| 9F      | 3510 | ADSORBERT GASS, BRANNFARLIG, N.O.S.                |
-+---------+------+----------------------------------------------------+
-| 9T      | 3512 | ADSORBERT GASS, GIFTIG, N.O.S.                     |
-+---------+------+----------------------------------------------------+
-| 9TF     | 3514 | ADSORBERT GASS, GIFTIG, BRANNFARLIG, N.O.S.        |
-+---------+------+----------------------------------------------------+
-| 9TC     | 3516 | ADSORBERT GASS, GIFTIG, ETSENDE, N.O.S.            |
-+---------+------+----------------------------------------------------+
-| 9TO     | 3515 | ADSORBERT GASS, GIFTIG, OKSIDERENDE, N.O.S.        |
-+---------+------+----------------------------------------------------+
-| 9TFC    | 3517 | ADSORBERT GASS, GIFTIG, BRANNFARLIG, ETSENDE,      |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
-| 9TOC    | 3518 | ADSORBERT GASS, GIFTIG, OKSIDERENDE, ETSENDE,      |
-|         |      | N.O.S.                                             |
-+---------+------+----------------------------------------------------+
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+| Klassifiseringskode                                   | UN-nr | Navn på stoff eller gjenstand                                                                          |
++=======================================================+=======+========================================================================================================+
+| 6A                                                    | 2857  | KJØLEMASKINER som inneholder ikke-brannfarlige, ikke-giftige gasser eller ammoniakkløsninger (UN 2672) |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3164  | GJENSTANDER, PNEUMATISK TRYKKSATT (inneholder ikke-brannfarlig gass) eller                             |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3164  | GJENSTANDER, HYDRAULISK TRYKKSATT (inneholder ikke-brannfarlig gass)                                   |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3538  | GJENSTANDER SOM INNEHOLDER IKKE-BRANNFARLIG, IKKE-GIFTIG GASS, N.O.S.                                  |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+| 6F                                                    | 3150  | GJENSTANDER, SMÅ, FYLT MED HYDROKARBONDRIVGASS eller                                                   |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3150  | HYDROKARBONGASS REFILLER FOR SMÅ GJENSTANDER, med utløserventil                                        |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3358  | KJØLEMASKINER, som inneholder brannfarlig, ikke-giftig, flytende gass                                  |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3478  | BRENSELCELLEPATRONER, som inneholder brannfarlig gass gjort flytende eller                             |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3478  | BRENSELCELLEPATRONER I UTSTYR, som inneholder brannfarlig gass gjort flytende eller                    |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3478  | BRENSELCELLEPATRONER PAKKET MED UTSTYR, som inneholder brannfarlig gass gjort flytende                 |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3479  | BRENSELCELLEPATRONER, som inneholder hydrogen i metallhydrid, eller                                    |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3479  | BRENSELCELLEPATRONER I UTSTYR; som inneholder hydrogen i metallhybrid eller                            |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3479  | BRENSELCELLEPATRONER PAKKET MED UTSTYR, som inneholder hydrogen i metallhydrid                         |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3529  | FORBRENNINGSMOTOR DREVET AV BRANNFARLIG GASS, eller                                                    |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3529  | BRENSELCELLEMOTOR DREVET AV BRANNFARLIG GASS, eller                                                    |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3529  | MASKINER MED FORBRENNINGSMOTOR DREVET AV BRANNFARLIG GASS, eller                                       |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3529  | MASKINER MED BRENSELCELLER DREVET AV BRANNFARLIG GASS                                                  |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+|                                                       | 3537  | GJENSTANDER SOM INNEHOLDER BRANNFARLIG GASS, N.O.S.                                                    |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+| 6T                                                    | 3539  | GJENSTANDER SOM INNEHOLDER GIFTIG GASS, N.O.S.                                                         |
++-------------------------------------------------------+-------+--------------------------------------------------------------------------------------------------------+
+
+**Gassprøver**    
+
++---------------------+-------+---------------------------------------------------------------------------------+
+| Klassifiseringskode | UN-nr | Navn på stoff eller gjenstand                                                   |
++=====================+=======+=================================================================================+
+| 7 F                 | 3167  | GASSPRØVER, IKKE TRYKKSATT, BRANNFARLIG, N.O.S, ikke nedkjølt                   |
+|                     |       | flytende                                                                        |
++---------------------+-------+---------------------------------------------------------------------------------+
+| 7 T                 | 3169  | GASSPRØVER, IKKE TRYKKSATT, GIFTIGE, N.O.S, ikke nedkjølt flytende              |
++---------------------+-------+---------------------------------------------------------------------------------+
+| 7 TF                | 3168  | GASSPRØVER, IKKE TRYKKSATT, GIFTIGE, BRANNFARLIG, N.O.S, ikke nedkjølt flytende |
++---------------------+-------+---------------------------------------------------------------------------------+
+
+**Kjemikalier under trykk** 
+
++-----------------------------+-------+------------------------------------------------------+
+| Klassifiseringskode         | UN-nr | Navn på stoff eller gjenstand                        |
++=============================+=======+======================================================+
+| 8A                          | 3500  | KJEMIKALIE UNDER TRYKK, N.O.S.                       |
++-----------------------------+-------+------------------------------------------------------+
+| 8F                          | 3501  | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, N.O.S.          |
++-----------------------------+-------+------------------------------------------------------+
+| 8T                          | 3502  | KJEMIKALIE UNDER TRYKK, GIFTIG, N.O.S.               |
++-----------------------------+-------+------------------------------------------------------+
+| 8C                          | 3503  | KJEMIKALIE UNDER TRYKK, ETSENDE, N.O.S.              |
++-----------------------------+-------+------------------------------------------------------+
+| 8TF                         | 3504  | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, GIFTIG, N.O.S.  |
++-----------------------------+-------+------------------------------------------------------+
+| 8FC                         | 3505  | KJEMIKALIE UNDER TRYKK, BRANNFARLIG, ETSENDE, N.O.S. |
++-----------------------------+-------+------------------------------------------------------+
+
+**Adsorberte gasser**
+
++-----------------------+-------+------------------------------------------------------+
+| Klassifiseringskode   | UN-nr | Navn på stoff eller gjenstand                        |
++=======================+=======+======================================================+
+| 9A                    | 3511  | ADSORBERT GASS, N.O.S.                               |
++-----------------------+-------+------------------------------------------------------+
+| 9O                    | 3513  | ADSORBERT GASS, OKSIDERENDE, N.O.S.                  |
++-----------------------+-------+------------------------------------------------------+
+| 9F                    | 3510  | ADSORBERT GASS, BRANNFARLIG, N.O.S.                  |
++-----------------------+-------+------------------------------------------------------+
+| 9T                    | 3512  | ADSORBERT GASS, GIFTIG, N.O.S.                       |
++-----------------------+-------+------------------------------------------------------+
+| 9TF                   | 3514  | ADSORBERT GASS, GIFTIG, BRANNFARLIG, N.O.S.          |
++-----------------------+-------+------------------------------------------------------+
+| 9TC                   | 3516  | ADSORBERT GASS, GIFTIG, ETSENDE, N.O.S.              |
++-----------------------+-------+------------------------------------------------------+
+| 9TO                   | 3515  | ADSORBERT GASS, GIFTIG, OKSIDERENDE, N.O.S.          |
++-----------------------+-------+------------------------------------------------------+
+| 9TFC                  | 3517  | ADSORBERT GASS, GIFTIG, BRANNFARLIG, ETSENDE, N.O.S. |
++-----------------------+-------+------------------------------------------------------+
+| 9TOC                  | 3518  | ADSORBERT GASS, GIFTIG, OKSIDERENDE, ETSENDE, N.O.S. |
++-----------------------+-------+------------------------------------------------------+
 
 .. _2.2.3:
 
@@ -3117,12 +2936,12 @@ emballasjegrupper:
 | Emballasjegruppe      | Flammepunkt (Closed  | Begynnende kokepunkt  |
 |                       | cup)                 |                       |
 +=======================+======================+=======================+
-| I                     | --                   | £ 35 :sup:`o`\ C      |
+| I                     | --                   | ≤ 35 :sup:`o`\ C      |
 +-----------------------+----------------------+-----------------------+
 | II\ :sup:`a)`         | < 23 :sup:`o`\ C     | > 35 :sup:`o`\ C      |
 +-----------------------+----------------------+-----------------------+
-| III\ :sup:`a)`        | ³ 23 :sup:`o`\ C og  | > 35 :sup:`o` C       |
-|                       | £ 60 :sup:`o`\ C     |                       |
+| III\ :sup:`a)`        | ≥ 23 :sup:`o`\ C og  | > 35 :sup:`o` C       |
+|                       | ≤ 60 :sup:`o`\ C     |                       |
 +-----------------------+----------------------+-----------------------+
 
 a) Se også 2.2.3.1.4.
@@ -3151,16 +2970,16 @@ tabell:
 | (ved skjærhastighet nær 0) | t           | (mm)       | closed-cup  |
 | mm\ :sup:`2` /s ved 23 °C  | i sekunder  |            | (°C)        |
 +============================+=============+============+=============+
-| 20 < n £ 80                | 20 < t £ 60 | 4          | over 17     |
+| 20 < n ≤ 80                | 20 < t ≤ 60 | 4          | over 17     |
 |                            |             |            |             |
-| 80 < n £ 135               | 60 < t £    | 4          | over 10     |
+| 80 < n ≤ 135               | 60 < t ≤    | 4          | over 10     |
 |                            | 100         |            |             |
-| 135 < n £ 220              |             | 6          | over 5      |
-|                            | 20 < t £ 32 |            |             |
-| 220 < n £ 300              |             | 6          | over -1     |
-|                            | 32 < t £ 44 |            |             |
-| 300 < n £ 700              |             | 6          | over -5     |
-|                            | 44 < t £    |            |             |
+| 135 < n ≤ 220              |             | 6          | over 5      |
+|                            | 20 < t ≤ 32 |            |             |
+| 220 < n ≤ 300              |             | 6          | over -1     |
+|                            | 32 < t ≤ 44 |            |             |
+| 300 < n ≤ 700              |             | 6          | over -5     |
+|                            | 44 < t ≤    |            |             |
 | 700 < n                    | 100         | 6          | -5 og       |
 |                            |             |            | lavere      |
 |                            | 100 < t     |            |             |
@@ -4127,7 +3946,7 @@ SVOVEL, SMELTET;
 
 **- Bariumazid med mindre enn 50 masseprosent vann;**
 
-**- Selvreaktive stoffer med SADT** £ **55 ºC, som derfor krever
+**- Selvreaktive stoffer med SADT** ≤ **55 ºC, som derfor krever
 temperaturkontroll:**
 
 UN 3231 SELVREAKTIV VÆSKE TYPE B, UNDER TEMPERATURKONTROLL;
@@ -4151,8 +3970,8 @@ UN 3239 SELVREAKTIV VÆSKE TYPE F, UNDER TEMPERATURKONTROLL;
 UN 3240 SELVREAKTIVT FAST STOFF TYPE F, UNDER TEMPERATURKONTROLL;
 
 - Polymeriserende stoffer i kolli eller IBCer med en selvakselererende
-polymeriseringstemperatur (SAPT) £ 50 °C og polymeriserende stoffer i
-tanker med en selvakselererende polymeriseringstemperatur (SAPT) £ 45 °C
+polymeriseringstemperatur (SAPT) ≤ 50 °C og polymeriserende stoffer i
+tanker med en selvakselererende polymeriseringstemperatur (SAPT) ≤ 45 °C
 og som dermed krever temperaturkontroll:
 
 UN 3533 POLYMERISERENDE STOFF, I FAST FORM, UNDER TEMPERATURKONTROLL,
@@ -4678,7 +4497,7 @@ klassifisering. Prosedyrene angitt i del II av UN testmanualen og i
 |                           |     |        |       |       | 3 |     |
 |                           |     |        |       |       | 4 |     |
 +---------------------------+-----+--------+-------+-------+---+-----+
-| 2,2'                      | £   | OP6    |       |       | 3 |     |
+| 2,2'                      | ≤   | OP6    |       |       | 3 |     |
 | ‑AZODI(ISOBUTYRONITRIL)   | 50% |        |       |       | 2 |     |
 | som vannbasert pasta      |     |        |       |       | 2 |     |
 |                           |     |        |       |       | 4 |     |
@@ -4759,7 +4578,7 @@ klassifisering. Prosedyrene angitt i del II av UN testmanualen og i
 |                           |     |        |       |       | 6 |     |
 +---------------------------+-----+--------+-------+-------+---+-----+
 | DIETYLENEGLYKOL BIS       | 88  | OP8    | -10   | 0     | 3 |     |
-| (ALLYL KARBONAT) +        | + £ |        |       |       | 2 |     |
+| (ALLYL KARBONAT) +        | + ≤ |        |       |       | 2 |     |
 | DI-                       | 12  |        |       |       | 3 |     |
 | ISOPROPYLPEROXYDIKARBONAT |     |        |       |       | 7 |     |
 +---------------------------+-----+--------+-------+-------+---+-----+
@@ -6748,13 +6567,13 @@ ADR: Bestemmelser om temperaturkontroll
 ADR: Følgende organiske peroksider skal være gjenstand for
 temperaturkontroll under transporten:
 
-- organiske peroksider type B og C med SADT £ 50 °C;
+- organiske peroksider type B og C med SADT ≤ 50 °C;
 
 - organiske peroksider type D som reagerer middels sterkt på oppheting
-når de er innesluttet og har SADT £ 50 °C eller som viser liten eller
-ingen effekt ved oppheting når de er innesluttet og har SADT £Ê45 °C; og
+når de er innesluttet og har SADT ≤ 50 °C eller som viser liten eller
+ingen effekt ved oppheting når de er innesluttet og har SADT ≤Ê45 °C; og
 
-- organiske peroksider type E og F med SADT £ 45 °C;
+- organiske peroksider type E og F med SADT ≤ 45 °C;
 
 **ANM:** Regler for å bestemme virkningen av oppheting i innesluttet
 tilstand er gitt i UN Testmanualen, del II, kapittel 20 og testserie E i
@@ -6782,7 +6601,7 @@ bestemmelsene for klasse 5.2 (se UN Testmanualen, del II, avsnitt 20.4.3
 RID: Følgende organiske peroksider som krever temperaturkontroll får
 ikke mottas for transport på jernbane:
 
-- organiske peroksider av typene B og C med en SADT £ 50 °C:
+- organiske peroksider av typene B og C med en SADT ≤ 50 °C:
 
 UN 3111 ORGANISK PEROKSID TYPE B, FLYTENDE, UNDER TEMPERATURKONTROLL;
 
@@ -6793,15 +6612,15 @@ UN 3113 ORGANISK PEROKSID TYPE C, FLYTENDE, UNDER TEMPERATURKONTROLL;
 UN 3114 ORGANISK PEROKSID TYPE C, I FAST FORM, UNDER TEMPERATURKONTROLL;
 
 - organiske peroksider av type D som ved oppvarming i lukket rom viser
-voldsom eller middels reaksjon og har en SADT £ 50 °C, eller som ved
-oppvarming i lukket rom viser svak eller ingen reaksjon og har en SADT £
+voldsom eller middels reaksjon og har en SADT ≤ 50 °C, eller som ved
+oppvarming i lukket rom viser svak eller ingen reaksjon og har en SADT ≤
 45 °C:
 
 UN 3115 ORGANISK PEROKSID TYPE D, FLYTENDE, UNDER TEMPERATURKONTROLL;
 
 UN 3116 ORGANISK PEROKSID TYPE D, I FAST FORM, UNDER TEMPERATURKONTROLL;
 
-- organiske peroksider av typene E og F med en SADT £ 45 °C:
+- organiske peroksider av typene E og F med en SADT ≤ 45 °C:
 
 UN 3117 ORGANISK PEROKSID TYPE E, FLYTENDE, UNDER TEMPERATURKONTROLL;
 
@@ -6967,20 +6786,20 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   | 1 |     |    |     |    |   |    |    |
 |             |      |   | ) |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ACETYLACE   | £ 42 | ³ |   |     | ³  | OP7 |    |   | 31 | 2) |
+| ACETYLACE   | ≤ 42 | ≥ |   |     | ≥  | OP7 |    |   | 31 | 2) |
 | TONPEROKSID |      | 4 |   |     | 8  |     |    |   | 05 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 35 | ³ |   |     | ³  | OP8 |    |   | 31 |    |
+|             | ≤ 35 | ≥ |   |     | ≥  | OP8 |    |   | 31 |    |
 |             |      | 5 |   |     | 8  |     |    |   | 07 |    |
 |             |      | 7 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   |   |     |    | OP7 |    |   | 31 | 2  |
+|             | ≤ 32 |   |   |     |    | OP7 |    |   | 31 | 2  |
 |             | som  |   |   |     |    |     |    |   | 06 | 0) |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ACETYLCYCLO | £ 82 |   |   |     | ³  | OP4 | -  | 0 | 31 | 3) |
+| ACETYLCYCLO | ≤ 82 |   |   |     | ≥  | OP4 | -  | 0 | 31 | 3) |
 | HEKSANSULFO |      |   |   |     | 12 |     | 10 |   | 12 |    |
 | NYLPEROKSID |      |   |   |     |    |     |    |   |    | ** |
 |             |      |   |   |     |    |     |    |   |    | RI |
@@ -6993,7 +6812,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   | ³ |     |    | OP7 | -  | 0 | 31 | ** |
+|             | ≤ 32 |   | ≥ |     |    | OP7 | -  | 0 | 31 | ** |
 |             |      |   | 6 |     |    |     | 10 |   | 15 | RI |
 |             |      |   | 8 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7004,18 +6823,18 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑AMYLHY | £ 88 | ³ |   |     | ³  | OP8 |    |   | 31 |    |
+| tert‑AMYLHY | ≤ 88 | ≥ |   |     | ≥  | OP8 |    |   | 31 |    |
 | DROPEROKSID |      | 6 |   |     | 6  |     |    |   | 07 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| t           | £ 62 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| t           | ≤ 62 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | ert-AMYLPER |      | 3 |   |     |    |     |    |   | 05 |    |
 | -OKSYACETAT |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| te          | £    |   |   |     |    | OP5 |    |   | 31 |    |
+| te          | ≤    |   |   |     |    | OP5 |    |   | 31 |    |
 | rt-AMYLPER- | 100  |   |   |     |    |     |    |   | 03 |    |
 | OKSYBENZOAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-AMYLP  | £    |   |   |     |    | OP7 | +  | + | 31 | ** |
+| tert-AMYLP  | ≤    |   |   |     |    | OP7 | +  | + | 31 | ** |
 | EROKSY-2-ET | 100  |   |   |     |    |     | 20 | 2 | 15 | RI |
 | YLHEKSANOAT |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7026,16 +6845,16 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-       | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| tert-       | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | AMYLPER-OKS | 100  |   |   |     |    |     |    |   | 05 |    |
 | Y-2-ETYLHEK |      |   |   |     |    |     |    |   |    |    |
 | SYLKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑AMYLPE | £ 77 | ³ |   |     |    | OP5 |    |   | 31 |    |
+| tert‑AMYLPE | ≤ 77 | ≥ |   |     |    | OP5 |    |   | 31 |    |
 | R-OKSYISORO |      | 2 |   |     |    |     |    |   | 03 |    |
 | PYLKARBONAT |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑A      | £ 77 |   | ³ |     |    | OP7 | 0  | + | 31 | ** |
+| tert‑A      | ≤ 77 |   | ≥ |     |    | OP7 | 0  | + | 31 | ** |
 | MYLPER-OKSY |      |   | 2 |     |    |     |    | 1 | 15 | RI |
 | NEODEKANOAT |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7046,7 +6865,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑A      | £ 47 | ³ |   |     |    | OP8 | 0  | + | 31 | ** |
+| tert‑A      | ≤ 47 | ≥ |   |     |    | OP8 | 0  | + | 31 | ** |
 | MYLPER-OKSY |      | 5 |   |     |    |     |    | 1 | 19 | RI |
 | NEODEKANOAT |      | 3 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7057,7 +6876,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| te          | £ 77 |   | ³ |     |    | OP5 | +  | + | 31 | ** |
+| te          | ≤ 77 |   | ≥ |     |    | OP5 | +  | + | 31 | ** |
 | rt-AMYLPER- |      |   | 2 |     |    |     | 10 | 1 | 13 | RI |
 | OKSYPIVALAT |      |   | 3 |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7068,7 +6887,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑AMY    | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| tert‑AMY    | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | LPER-OKSY‑3 | 100  |   |   |     |    |     |    |   | 01 |    |
 | ,5,5‑TRIMET |      |   |   |     |    |     |    |   |    |    |
 | YLHEKSANOAT |      |   |   |     |    |     |    |   |    |    |
@@ -7077,7 +6896,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | ert‑BUTYLKU | -    |   |   |     |    |     |    |   | 09 |    |
 | MYLPEROKSID | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 08 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
 | n‑BUTYL‑    | > 52 |   |   |     |    | OP5 |    |   | 31 |    |
@@ -7085,26 +6904,26 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | t‑BUTYLPERO | 100  |   |   |     |    |     |    |   |    |    |
 | KSY)VALERAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 08 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| t           | > 79 |   |   |     | ³  | OP5 |    |   | 31 | 1  |
+| t           | > 79 |   |   |     | ≥  | OP5 |    |   | 31 | 1  |
 | ert‑BUTYLHY | - 90 |   |   |     | 10 |     |    |   | 03 | 3) |
 | DROPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 80 | ³ |   |     |    | OP7 |    |   | 31 | 4) |
+|             | ≤ 80 | ≥ |   |     |    | OP7 |    |   | 31 | 4) |
 |             |      | 2 |   |     |    |     |    |   | 05 | 1  |
 |             |      | 0 |   |     |    |     |    |   |    | 3) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 79 |   |   |     | >  | OP8 |    |   | 31 | 1  |
+|             | ≤ 79 |   |   |     | >  | OP8 |    |   | 31 | 1  |
 |             |      |   |   |     | 14 |     |    |   | 07 | 3) |
 |             |      |   |   |     |    |     |    |   |    | 2  |
 |             |      |   |   |     |    |     |    |   |    | 3) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 |   |   |     | ³  | OP8 |    |   | 31 | 1  |
+|             | ≤ 72 |   |   |     | ≥  | OP8 |    |   | 31 | 1  |
 |             |      |   |   |     | 28 |     |    |   | 09 | 3) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| t           | < 82 |   |   |     | ³  | OP5 |    |   | 31 | 1  |
+| t           | < 82 |   |   |     | ≥  | OP5 |    |   | 31 | 1  |
 | ert‑BUTYLHY | +> 9 |   |   |     | 7  |     |    |   | 03 | 3) |
 | DROPEROKSID |      |   |   |     |    |     |    |   |    |    |
 | +           |      |   |   |     |    |     |    |   |    |    |
@@ -7116,27 +6935,27 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | BUTYLMONOPE | -    |   |   |     |    |     |    |   | 02 |    |
 | ROKSYMALEAT | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 | ³ |   |     |    | OP6 |    |   | 31 |    |
+|             | ≤ 52 | ≥ |   |     |    | OP6 |    |   | 31 |    |
 |             |      | 4 |   |     |    |     |    |   | 03 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 08 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 52 |   |   |     |    | OP8 |    |   | 31 |    |
 |             | som  |   |   |     |    |     |    |   | 08 |    |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| t           | > 52 | ³ |   |     |    | OP5 |    |   | 31 | 3) |
+| t           | > 52 | ≥ |   |     |    | OP5 |    |   | 31 | 3) |
 | ert‑BUTYLPE | - 77 | 2 |   |     |    |     |    |   | 01 |    |
 | ROKSYACETAT |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 32 | ³ |   |     |    | OP6 |    |   | 31 |    |
+|             | > 32 | ≥ |   |     |    | OP6 |    |   | 31 |    |
 |             | - 52 | 4 |   |     |    |     |    |   | 03 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 | ³ | ³ |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 32 | ≥ | ≥ |     |    | OP8 |    |   | 31 |    |
 |             |      |   | 6 |     |    |     |    |   | 09 |    |
 |             |      |   | 8 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -7144,22 +6963,22 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | rt‑BUTYLPER | -    |   |   |     |    |     |    |   | 03 |    |
 | OKSYBENZOAT | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 52 | ³ |   |     |    | OP7 |    |   | 31 |    |
+|             | > 52 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 |             | - 77 | 2 |   |     |    |     |    |   | 05 |    |
 |             |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-BU     | £ 52 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| tert-BU     | ≤ 52 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | TYLPEROKSYB |      | 4 |   |     |    |     |    |   | 05 |    |
 | UTYLFUMARAT |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ter         | £ 77 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| ter         | ≤ 77 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | t‑BUTYLPERO |      | 2 |   |     |    |     |    |   | 05 |    |
 | KSYCROTONAT |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑BU     | £    |   |   |     |    | OP5 | +  | + | 31 | ** |
+| tert‑BU     | ≤    |   |   |     |    | OP5 | +  | + | 31 | ** |
 | TYLPEROKSYD | 100  |   |   |     |    |     | 20 | 2 | 13 | RI |
 | IETYLACETAT |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7181,7 +7000,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 32 |   | ³ |     |    | OP8 | +  | + | 31 | ** |
+|             | > 32 |   | ≥ |     |    | OP8 | +  | + | 31 | ** |
 |             | - 52 |   | 4 |     |    |     | 30 | 3 | 17 | RI |
 |             |      |   | 8 |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7192,7 +7011,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 52 |   |   | ≥   |    | OP8 | +  | + | 31 | ** |
 |             |      |   |   | 48  |    |     | 20 | 2 | 18 | RI |
 |             |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7203,20 +7022,20 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   | ³ |     |    | OP8 | +  | + | 31 |    |
+|             | ≤ 32 |   | ≥ |     |    | OP8 | +  | + | 31 |    |
 |             |      |   | 6 |     |    |     | 40 | 4 | 19 |    |
 |             |      |   | 8 |     |    |     |    | 5 |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-BUTYLP | £ 12 | ³ |   | ³   |    | OP7 |    |   | 31 |    |
-| EROKSY-2-ET | + £  | 1 |   | 60  |    |     |    |   | 06 |    |
+| tert-BUTYLP | ≤ 12 | ≥ |   | ≥   |    | OP7 |    |   | 31 |    |
+| EROKSY-2-ET | + ≤  | 1 |   | 60  |    |     |    |   | 06 |    |
 | YLHEKSANOAT | 14   | 4 |   |     |    |     |    |   |    |    |
 | +           |      |   |   |     |    |     |    |   |    |    |
 | 2,2-DI-(t   |      |   |   |     |    |     |    |   |    |    |
 | ert-BUTYLPE |      |   |   |     |    |     |    |   |    |    |
 | ROKSY)BUTAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 31 |   | ³ |     |    | OP7 | +  | + | 31 | ** |
-|             | + £  |   | 3 |     |    |     | 35 | 4 | 15 | RI |
+|             | ≤ 31 |   | ≥ |     |    | OP7 | +  | + | 31 | ** |
+|             | + ≤  |   | 3 |     |    |     | 35 | 4 | 15 | RI |
 |             | 36   |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
 |             |      |   |   |     |    |     |    |   |    | ke |
@@ -7226,12 +7045,12 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-       | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| tert-       | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | BUTYLPEROKS | 100  |   |   |     |    |     |    |   | 05 |    |
 | Y-2-ETYLHEK |      |   |   |     |    |     |    |   |    |    |
 | SYLKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑       | > 52 |   | ³ |     |    | OP5 | +  | + | 31 | 3) |
+| tert‑       | > 52 |   | ≥ |     |    | OP5 | +  | + | 31 | 3) |
 | BUTYLPEROKS | - 77 |   | 2 |     |    |     | 15 | 2 | 11 |    |
 | YISOBUTYRAT |      |   | 3 |     |    |     |    | 0 |    | ** |
 |             |      |   |   |     |    |     |    |   |    | RI |
@@ -7244,7 +7063,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   | ³ |     |    | OP7 | +  | + | 31 | ** |
+|             | ≤ 52 |   | ≥ |     |    | OP7 | +  | + | 31 | ** |
 |             |      |   | 4 |     |    |     | 15 | 2 | 15 | RI |
 |             |      |   | 8 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7255,26 +7074,26 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| t           | £ 77 | ³ |   |     |    | OP5 |    |   | 31 |    |
+| t           | ≤ 77 | ≥ |   |     |    | OP5 |    |   | 31 |    |
 | ert‑BUTYLPE |      | 2 |   |     |    |     |    |   | 03 |    |
 | ROKSYISOPRO |      | 3 |   |     |    |     |    |   |    |    |
 | PYLKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 62 |   | ³ |     |    | OP7 |    |   | 31 |    |
+|             | ≤ 62 |   | ≥ |     |    | OP7 |    |   | 31 |    |
 |             |      |   | 3 |     |    |     |    |   | 05 |    |
 |             |      |   | 8 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1-          | £ 77 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| 1-          | ≤ 77 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | (2-tert-BUT |      | 2 |   |     |    |     |    |   | 05 |    |
 | YLPEROKSYIS |      | 3 |   |     |    |     |    |   |    |    |
 | OPROPYL)-3- |      |   |   |     |    |     |    |   |    |    |
 | ISOPRO      |      |   |   |     |    |     |    |   |    |    |
 | PENYLBENZEN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 42 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 58  |    |     |    |   | 08 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑BUTYL  | £    |   |   |     |    | OP5 |    |   | 31 |    |
+| tert‑BUTYL  | ≤    |   |   |     |    | OP5 |    |   | 31 |    |
 | PEROKSY‑2‑M | 100  |   |   |     |    |     |    |   | 03 |    |
 | ETYLBENZOAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -7289,7 +7108,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   | ³ |     |    | OP7 | 0  | + | 31 | ** |
+|             | ≤ 77 |   | ≥ |     |    | OP7 | 0  | + | 31 | ** |
 |             |      |   | 2 |     |    |     |    | 1 | 15 | RI |
 |             |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7300,7 +7119,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | 0  | + | 31 | ** |
+|             | ≤ 52 |   |   |     |    | OP8 | 0  | + | 31 | ** |
 |             | som  |   |   |     |    |     |    | 1 | 19 | RI |
 |             | st   |   |   |     |    |     |    | 0 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7311,7 +7130,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | 0  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | 0  | + | 31 | ** |
 |             | som  |   |   |     |    |     |    | 1 | 18 | RI |
 |             | st   |   |   |     |    |     |    | 0 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7324,7 +7143,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | fros |   |   |     |    |     |    |   |    |    |
 |             | set) |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 | ³ |   |     |    | OP8 | 0  | + | 31 | ** |
+|             | ≤ 32 | ≥ |   |     |    | OP8 | 0  | + | 31 | ** |
 |             |      | 6 |   |     |    |     |    | 1 | 19 | RI |
 |             |      | 8 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7335,7 +7154,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-BU     | £ 77 | ³ |   |     |    | OP7 | 0  | + | 31 | ** |
+| tert-BU     | ≤ 77 | ≥ |   |     |    | OP7 | 0  | + | 31 | ** |
 | TYLPEROKSYN |      | 2 |   |     |    |     |    | 1 | 15 | RI |
 | EOHEPTANOAT |      | 3 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7346,7 +7165,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | 0  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | 0  | + | 31 | ** |
 |             | som  |   |   |     |    |     |    | 1 | 17 | RI |
 |             | en   |   |   |     |    |     |    | 0 |    | D: |
 |             | st   |   |   |     |    |     |    |   |    | Ik |
@@ -7357,7 +7176,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | i    |   |   |     |    |     |    |   |    | tt |
 |             | vann |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| te          | > 67 | ³ |   |     |    | OP5 | 0  | + | 31 | ** |
+| te          | > 67 | ≥ |   |     |    | OP5 | 0  | + | 31 | ** |
 | rt‑BUTYLPER | - 77 | 2 |   |     |    |     |    | 1 | 13 | RI |
 | OKSYPIVALAT |      | 3 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7368,7 +7187,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 27 |   | ³ |     |    | OP7 | 0  | + | 31 | ** |
+|             | > 27 |   | ≥ |     |    | OP7 | 0  | + | 31 | ** |
 |             | - 67 |   | 3 |     |    |     |    | 1 | 15 | RI |
 |             |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7379,7 +7198,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 27 |   | ³ |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 27 |   | ≥ |     |    | OP8 | +  | + | 31 | ** |
 |             |      |   | 7 |     |    |     | 30 | 3 | 19 | RI |
 |             |      |   | 3 |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7390,7 +7209,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑BUTYL  | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| tert‑BUTYL  | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | PEROKSYSTEA | 100  |   |   |     |    |     |    |   | 06 |    |
 | RYLKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -7399,34 +7218,34 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | 5,5‑TRIMETY | 100  |   |   |     |    |     |    |   |    |    |
 | LHEKSA-NOAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   | ³ |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 32 |   | ≥ |     |    | OP8 |    |   | 31 |    |
 |             |      |   | 6 |     |    |     |    |   | 09 |    |
 |             |      |   | 8 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| '' (i       | £ 37 |   | ³ |     |    | M   | +  | + | 31 |    |
+| '' (i       | ≤ 37 |   | ≥ |     |    | M   | +  | + | 31 |    |
 | tanker)     |      |   | 6 |     |    |     | 35 | 4 | 19 |    |
 |             |      |   | 3 |     |    |     |    | 0 |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3           | > 57 |   |   | ³   |    | OP1 |    |   | 31 | 3) |
+| 3           | > 57 |   |   | ≥   |    | OP1 |    |   | 31 | 3) |
 | ‑KLORPEROK- | - 86 |   |   | 14  |    |     |    |   | 02 |    |
 | SYBENZOSYRE |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 57 |   |   | ³ 3 | ³  | OP7 |    |   | 31 |    |
+|             | ≤ 57 |   |   | ≥ 3 | ≥  | OP7 |    |   | 31 |    |
 |             |      |   |   |     | 40 |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   |   | ³ 6 | ³  | OP7 |    |   | 31 |    |
+|             | ≤ 77 |   |   | ≥ 6 | ≥  | OP7 |    |   | 31 |    |
 |             |      |   |   |     | 17 |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| KUMYLHY     | > 90 | £ |   |     |    | OP8 |    |   | 31 | 1  |
+| KUMYLHY     | > 90 | ≤ |   |     |    | OP8 |    |   | 31 | 1  |
 | DROPEROKSID | - 98 | 1 |   |     |    |     |    |   | 07 | 3) |
 |             |      | 0 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 90 | ³ |   |     |    | OP8 |    |   | 31 | 1  |
+|             | ≤ 90 | ≥ |   |     |    | OP8 |    |   | 31 | 1  |
 |             |      | 1 |   |     |    |     |    |   | 09 | 3) |
 |             |      | 0 |   |     |    |     |    |   |    | 1  |
 |             |      |   |   |     |    |     |    |   |    | 8) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| KU          | £ 87 | ³ |   |     |    | OP7 | -  | 0 | 31 | ** |
+| KU          | ≤ 87 | ≥ |   |     |    | OP7 | -  | 0 | 31 | ** |
 | MYLPEROKSYN |      | 2 |   |     |    |     | 10 |   | 15 | RI |
 | EODEKA-NOAT |      | 3 |   |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7437,7 +7256,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   | ³ |     |    | OP7 | -  | 0 | 31 | ** |
+|             | ≤ 77 |   | ≥ |     |    | OP7 | -  | 0 | 31 | ** |
 |             |      |   | 2 |     |    |     | 10 |   | 15 | RI |
 |             |      |   | 3 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7448,7 +7267,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | -  | 0 | 31 | ** |
+|             | ≤ 52 |   |   |     |    | OP8 | -  | 0 | 31 | ** |
 |             | som  |   |   |     |    |     | 10 |   | 19 | RI |
 |             | st   |   |   |     |    |     |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7459,7 +7278,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| KUM         | £ 77 | ³ |   |     |    | OP7 | -  | 0 | 31 | ** |
+| KUM         | ≤ 77 | ≥ |   |     |    | OP7 | -  | 0 | 31 | ** |
 | YLPEROKSYNE |      | 2 |   |     |    |     | 10 |   | 15 | RI |
 | OHEPTA-NOAT |      | 3 |   |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7470,7 +7289,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| KUMYLPER    | £ 77 |   | ³ |     |    | OP7 | -5 | + | 31 | ** |
+| KUMYLPER    | ≤ 77 |   | ≥ |     |    | OP7 | -5 | + | 31 | ** |
 | OKSYPIVALAT |      |   | 2 |     |    |     |    | 5 | 15 | RI |
 |             |      |   | 3 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7481,25 +7300,25 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| CYC         | £ 91 |   |   |     | ³  | OP6 |    |   | 31 | 1  |
+| CYC         | ≤ 91 |   |   |     | ≥  | OP6 |    |   | 31 | 1  |
 | LOHEKSANONP |      |   |   |     | 9  |     |    |   | 04 | 3) |
 | EROKSID(ER) |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 | ³ |   |     |    | OP7 |    |   | 31 | 5) |
+|             | ≤ 72 | ≥ |   |     |    | OP7 |    |   | 31 | 5) |
 |             |      | 2 |   |     |    |     |    |   | 05 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 |   |   |     |    | OP7 |    |   | 31 | 5) |
+|             | ≤ 72 |   |   |     |    | OP7 |    |   | 31 | 5) |
 |             | som  |   |   |     |    |     |    |   | 06 | 2  |
 |             | p    |   |   |     |    |     |    |   |    | 0) |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 32 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 68  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIA         | £ 57 |   | ³ |     | ³  | OP7 | +  | + | 31 | 6) |
+| DIA         | ≤ 57 |   | ≥ |     | ≥  | OP7 | +  | + | 31 | 6) |
 | CETONALKOHO |      |   | 2 |     | 8  |     | 40 | 4 | 15 |    |
 | LPEROKSIDER |      |   | 6 |     |    |     |    | 5 |    | ** |
 |             |      |   |   |     |    |     |    |   |    | RI |
@@ -7512,7 +7331,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIACE       | £ 27 |   | ³ |     |    | OP7 | +  | + | 31 | 7) |
+| DIACE       | ≤ 27 |   | ≥ |     |    | OP7 | +  | + | 31 | 7) |
 | TYLPEROKSID |      |   | 7 |     |    |     | 20 | 2 | 15 | 1  |
 |             |      |   | 3 |     |    |     |    | 5 |    | 3) |
 |             |      |   |   |     |    |     |    |   |    |    |
@@ -7527,25 +7346,25 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑tert‑A   | £    |   |   |     |    | OP8 |    |   | 31 |    |
+| DI‑tert‑A   | ≤    |   |   |     |    | OP8 |    |   | 31 |    |
 | MYLPEROKSID | 100  |   |   |     |    |     |    |   | 07 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1         | £ 82 | ³ |   |     |    | OP6 |    |   | 31 |    |
+| 1,1         | ≤ 82 | ≥ |   |     |    | OP6 |    |   | 31 |    |
 | -DI-(tert-A |      | 1 |   |     |    |     |    |   | 03 |    |
 | MYLPEROKSY) |      | 8 |   |     |    |     |    |   |    |    |
 | CYCLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIBENZ      | > 52 |   |   | £   |    | OP2 |    |   | 31 | 3) |
+| DIBENZ      | > 52 |   |   | ≤   |    | OP2 |    |   | 31 | 3) |
 | OYLPEROKSID | -    |   |   | 48  |    |     |    |   | 02 |    |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 77 |   |   |     | ³  | OP4 |    |   | 31 | 3) |
+|             | > 77 |   |   |     | ≥  | OP4 |    |   | 31 | 3) |
 |             | - 94 |   |   |     | 6  |     |    |   | 02 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   |   |     | ³  | OP6 |    |   | 31 |    |
+|             | ≤ 77 |   |   |     | ≥  | OP6 |    |   | 31 |    |
 |             |      |   |   |     | 23 |     |    |   | 04 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 62 |   |   | ³   | ³  | OP7 |    |   | 31 |    |
+|             | ≤ 62 |   |   | ≥   | ≥  | OP7 |    |   | 31 |    |
 |             |      |   |   | 28  | 10 |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
 |             | >52  |   |   |     |    | OP7 |    |   | 31 | 2  |
@@ -7554,29 +7373,29 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 35 |   |   | ³   |    | OP7 |    |   | 31 |    |
+|             | > 35 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 |             | - 52 |   |   | 48  |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 36 | ³ |   |     | £  | OP8 |    |   | 31 |    |
+|             | > 36 | ≥ |   |     | ≤  | OP8 |    |   | 31 |    |
 |             | - 42 | 1 |   |     | 40 |     |    |   | 07 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £    |   |   |     | ³  | OP8 |    |   | 31 |    |
+|             | ≤    |   |   |     | ≥  | OP8 |    |   | 31 |    |
 |             | 56,5 |   |   |     | 15 |     |    |   | 08 |    |
 |             | som  |   |   |     |    |     |    |   |    |    |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 |    |   | 31 | 2  |
+|             | ≤ 52 |   |   |     |    | OP8 |    |   | 31 | 2  |
 |             | som  |   |   |     |    |     |    |   | 08 | 0) |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 | ³ |   |     | ³  | OP8 |    |   | 31 |    |
+|             | ≤ 42 | ≥ |   |     | ≥  | OP8 |    |   | 31 |    |
 |             |      | 3 |   |     | 13 |     |    |   | 09 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 42 |   |   |     |    | OP8 |    |   | 31 |    |
 |             | som  |   |   |     |    |     |    |   | 09 |    |
 |             | st   |   |   |     |    |     |    |   |    |    |
 |             | abil |   |   |     |    |     |    |   |    |    |
@@ -7586,12 +7405,12 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | i    |   |   |     |    |     |    |   |    |    |
 |             | vann |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 35 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 35 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 65  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑(4‑      | £    |   |   |     |    | OP6 | +  | + | 31 | ** |
+| DI‑(4‑      | ≤    |   |   |     |    | OP6 | +  | + | 31 | ** |
 | tert‑BUTYLC | 100  |   |   |     |    |     | 30 | 3 | 14 | RI |
 | YCLOHEKSYL) |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7602,7 +7421,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 35 | 4 | 18 | RI |
 |             | p    |   |   |     |    |     |    | 0 |    | D: |
 |             | asta |   |   |     |    |     |    |   |    | Ik |
@@ -7613,7 +7432,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 30 | 3 | 19 | RI |
 |             | st   |   |   |     |    |     |    | 5 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7628,19 +7447,19 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | TYLPEROKSID | -    |   |   |     |    |     |    |   | 07 |    |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   | ³ |     |    | OP8 |    |   | 31 | 2  |
+|             | ≤ 52 |   | ≥ |     |    | OP8 |    |   | 31 | 2  |
 |             |      |   | 4 |     |    |     |    |   | 09 | 5) |
 |             |      |   | 8 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑t        | £ 52 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| DI‑t        | ≤ 52 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | ert‑BUTYLPE |      | 4 |   |     |    |     |    |   | 05 |    |
 | ROKSYAZELAT |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,2‑DI‑(t   | £ 52 | ³ |   |     |    | OP6 |    |   | 31 |    |
+| 2,2‑DI‑(t   | ≤ 52 | ≥ |   |     |    | OP6 |    |   | 31 |    |
 | ert‑BUTYLPE |      | 4 |   |     |    |     |    |   | 03 |    |
 | ROKSY)BUTAN |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,6-DI-(ter | £ 72 | ³ |   |     |    | OP5 |    |   | 31 |    |
+| 1,6-DI-(ter | ≤ 72 | ≥ |   |     |    | OP5 |    |   | 31 |    |
 | t-BUTYLPERO |      | 2 |   |     |    |     |    |   | 03 |    |
 | KSYKARBONYL |      | 8 |   |     |    |     |    |   |    |    |
 | OKSY)HEKSAN |      |   |   |     |    |     |    |   |    |    |
@@ -7650,36 +7469,36 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | TYLPEROKSY) | 100  |   |   |     |    |     |    |   |    |    |
 | SYKLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 |   | ³ |     |    | OP5 |    |   | 31 | 3  |
+|             | ≤ 72 |   | ≥ |     |    | OP5 |    |   | 31 | 3  |
 |             |      |   | 2 |     |    |     |    |   | 03 | 0) |
 |             |      |   | 8 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 52 | ³ |   |     |    | OP5 |    |   | 31 |    |
+|             | > 52 | ≥ |   |     |    | OP5 |    |   | 31 |    |
 |             | -    | 2 |   |     |    |     |    |   | 03 |    |
 |             | 100  | 0 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 42 | ³ |   |     |    | OP7 |    |   | 31 |    |
+|             | > 42 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 |             | - 52 | 4 |   |     |    |     |    |   | 05 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 | ³ |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 42 | ≥ |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      | 1 |   | 45  |    |     |    |   | 06 |    |
 |             |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 | ³ |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 42 | ≥ |   |     |    | OP8 |    |   | 31 |    |
 |             |      | 5 |   |     |    |     |    |   | 09 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 27 | ³ |   |     |    | OP8 |    |   | 31 | 2  |
+|             | ≤ 27 | ≥ |   |     |    | OP8 |    |   | 31 | 2  |
 |             |      | 2 |   |     |    |     |    |   | 07 | 1) |
 |             |      | 5 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 13 | ³ | ³ |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 13 | ≥ | ≥ |     |    | OP8 |    |   | 31 |    |
 |             |      | 1 | 7 |     |    |     |    |   | 09 |    |
 |             |      | 3 | 4 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1‑        | £ 43 | ³ |   |     |    | OP7 |    |   | 31 |    |
-| DI‑(tert‑BU | + £  | 4 |   |     |    |     |    |   | 05 |    |
+| 1,1‑        | ≤ 43 | ≥ |   |     |    | OP7 |    |   | 31 |    |
+| DI‑(tert‑BU | + ≤  | 4 |   |     |    |     |    |   | 05 |    |
 | TYLPEROKSY) | 16   | 1 |   |     |    |     |    |   |    |    |
 | SYKLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 | +           |      |   |   |     |    |     |    |   |    |    |
@@ -7687,7 +7506,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | EROKSY-2-ET |      |   |   |     |    |     |    |   |    |    |
 | YLHAKSANOAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| D           | > 27 |   | ³ |     |    | OP7 | -  | - | 31 | ** |
+| D           | > 27 |   | ≥ |     |    | OP7 | -  | - | 31 | ** |
 | I‑n‑BUTYLPE | - 52 |   | 4 |     |    |     | 15 | 5 | 15 | RI |
 | ROKSYDIKAR- |      |   | 8 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7698,7 +7517,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 27 |   | ³ |     |    | OP8 | -  | 0 | 31 | ** |
+|             | ≤ 27 |   | ≥ |     |    | OP8 | -  | 0 | 31 | ** |
 |             |      |   | 7 |     |    |     | 10 |   | 17 | RI |
 |             |      |   | 3 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7709,7 +7528,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | -  | - | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | -  | - | 31 | ** |
 |             | som  |   |   |     |    |     | 15 | 5 | 18 | RI |
 |             | st   |   |   |     |    |     |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7733,7 +7552,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   | ³ |     |    | OP7 | -  | - | 31 | ** |
+|             | ≤ 52 |   | ≥ |     |    | OP7 | -  | - | 31 | ** |
 |             |      |   | 4 |     |    |     | 15 | 5 | 15 | RI |
 |             |      |   | 8 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7744,35 +7563,35 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI-(        | > 42 |   |   | £   |    | OP7 |    |   | 31 |    |
+| DI-(        | > 42 |   |   | ≤   |    | OP7 |    |   | 31 |    |
 | tert-BUTYLP | -    |   |   | 57  |    |     |    |   | 06 |    |
 | EROKSYISOPR | 100  |   |   |     |    |     |    |   |    |    |
 | OPYL)BENZEN |      |   |   |     |    |     |    |   |    |    |
 | (ER)        |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 42 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 58  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑(tert‑BU | > 42 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| DI‑(tert‑BU | > 42 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | TYLPEROKSY) | - 52 | 4 |   |     |    |     |    |   | 05 |    |
 | FTALAT      |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP7 |    |   | 31 | 2  |
+|             | ≤ 52 |   |   |     |    | OP7 |    |   | 31 | 2  |
 |             | som  |   |   |     |    |     |    |   | 06 | 0) |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 | ³ |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 42 | ≥ |   |     |    | OP8 |    |   | 31 |    |
 |             |      | 5 |   |     |    |     |    |   | 07 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,2‑DI‑(te  | £ 52 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| 2,2‑DI‑(te  | ≤ 52 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | rt‑BUTYLPER |      | 4 |   |     |    |     |    |   | 05 |    |
 | OKSY)PROPAN |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 | ³ |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 42 | ≥ |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      | 1 |   | 45  |    |     |    |   | 06 |    |
 |             |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -7782,30 +7601,30 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | ,5‑TRIMETYL |      |   |   |     |    |     |    |   |    |    |
 | CYCLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 90 |   | ³ |     |    | OP5 |    |   | 31 | 3  |
+|             | ≤ 90 |   | ≥ |     |    | OP5 |    |   | 31 | 3  |
 |             |      |   | 1 |     |    |     |    |   | 03 | 0) |
 |             |      |   | 0 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 57 | ³ |   |     |    | OP5 |    |   | 31 |    |
+|             | > 57 | ≥ |   |     |    | OP5 |    |   | 31 |    |
 |             | - 90 | 1 |   |     |    |     |    |   | 03 |    |
 |             |      | 0 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   | ³ |     |    | OP5 |    |   | 31 |    |
+|             | ≤ 77 |   | ≥ |     |    | OP5 |    |   | 31 |    |
 |             |      |   | 2 |     |    |     |    |   | 03 |    |
 |             |      |   | 3 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 57 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 57 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 43  |    |     |    |   | 10 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 57 | ³ |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 57 | ≥ |   |     |    | OP8 |    |   | 31 |    |
 |             |      | 4 |   |     |    |     |    |   | 07 |    |
 |             |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 | ³ | ³ |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 32 | ≥ | ≥ |     |    | OP8 |    |   | 31 |    |
 |             |      | 2 | 4 |     |    |     |    |   | 07 |    |
 |             |      | 6 | 2 |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI          | £    |   |   |     |    | OP8 | +  | + | 31 | ** |
+| DI          | ≤    |   |   |     |    | OP8 | +  | + | 31 | ** |
 | CETYLPEROKS | 100  |   |   |     |    |     | 30 | 3 | 20 | RI |
 | YDIKARBONAT |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7816,7 +7635,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 30 | 3 | 19 | RI |
 |             | st   |   |   |     |    |     |    | 5 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7827,25 +7646,25 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI          | £ 77 |   |   |     | ³  | OP5 |    |   | 31 | 3) |
+| DI          | ≤ 77 |   |   |     | ≥  | OP5 |    |   | 31 | 3) |
 | ‑4‑KLORBENZ |      |   |   |     | 23 |     |    |   | 02 |    |
 | OYLPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP7 |    |   | 31 | 2  |
+|             | ≤ 52 |   |   |     |    | OP7 |    |   | 31 | 2  |
 |             | som  |   |   |     |    |     |    |   | 06 | 0) |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 32 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 68  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIKU        | > 52 |   |   | £   |    | OP8 |    |   | 31 | 1  |
+| DIKU        | > 52 |   |   | ≤   |    | OP8 |    |   | 31 | 1  |
 | MYLPEROKSID | -    |   |   | 57  |    |     |    |   | 10 | 2) |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 52 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 48  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
@@ -7863,7 +7682,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 91 |   |   |     | ³  | OP5 | +  | + | 31 | ** |
+|             | ≤ 91 |   |   |     | ≥  | OP5 | +  | + | 31 | ** |
 |             |      |   |   |     | 9  |     | 10 | 1 | 14 | RI |
 |             |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7874,7 +7693,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 15 | 2 | 19 | RI |
 |             | en   |   |   |     |    |     |    | 0 |    | D: |
 |             | st   |   |   |     |    |     |    |   |    | Ik |
@@ -7885,7 +7704,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | i    |   |   |     |    |     |    |   |    | tt |
 |             | vann |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIDEKANOYL- | £    |   |   |     |    | OP6 | +  | + | 31 | ** |
+| DIDEKANOYL- | ≤    |   |   |     |    | OP6 | +  | + | 31 | ** |
 |             | 100  |   |   |     |    |     | 30 | 3 | 14 | RI |
 | PEROKSID    |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7896,21 +7715,21 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,2         | £ 42 |   |   | ³   |    | OP7 |    |   | 31 |    |
+| 2,2         | ≤ 42 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 | ‑DI‑(4,4‑DI |      |   |   | 58  |    |     |    |   | 06 |    |
 | (tert‑BU    |      |   |   |     |    |     |    |   |    |    |
 | TYLPEROKSY) |      |   |   |     |    |     |    |   |    |    |
 | CYCLOHEK    |      |   |   |     |    |     |    |   |    |    |
 | SYL)‑PROPAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 22 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 22 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 78  |    |     |    |   | 07 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑2,4      | £ 77 |   |   |     | ³  | OP5 |    |   | 31 | 3) |
+| DI‑2,4      | ≤ 77 |   |   |     | ≥  | OP5 |    |   | 31 | 3) |
 | ‑DIKLORBENZ |      |   |   |     | 23 |     |    |   | 02 |    |
 | OYLPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 20 | 2 | 18 | RI |
 |             | p    |   |   |     |    |     |    | 5 |    | D: |
 |             | asta |   |   |     |    |     |    |   |    | Ik |
@@ -7921,7 +7740,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP5 |    |   | 31 |    |
+|             | ≤ 52 |   |   |     |    | OP5 |    |   | 31 |    |
 |             | som  |   |   |     |    |     |    |   | 04 |    |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
@@ -7930,7 +7749,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | ikon |   |   |     |    |     |    |   |    |    |
 |             | olje |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI-(2-      | £ 52 |   |   | ³   |    | OP7 | -  | 0 | 31 | ** |
+| DI-(2-      | ≤ 52 |   |   | ≥   |    | OP7 | -  | 0 | 31 | ** |
 | ETOKSYETYL) |      |   |   | 48  |    |     | 10 |   | 15 | RI |
 | PEROKSY     |      |   |   |     |    |     |    |   |    | D: |
 | -DIKARBONAT |      |   |   |     |    |     |    |   |    | Ik |
@@ -7952,7 +7771,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   | ³ |     |    | OP7 | -  | - | 31 | ** |
+|             | ≤ 77 |   | ≥ |     |    | OP7 | -  | - | 31 | ** |
 |             |      |   | 2 |     |    |     | 15 | 5 | 15 | RI |
 |             |      |   | 3 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -7963,7 +7782,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 62 |   |   |     |    | OP8 | -  | - | 31 | ** |
+|             | ≤ 62 |   |   |     |    | OP8 | -  | - | 31 | ** |
 |             | som  |   |   |     |    |     | 15 | 5 | 19 | RI |
 |             | st   |   |   |     |    |     |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7974,7 +7793,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | -  | - | 31 | ** |
+|             | ≤ 52 |   |   |     |    | OP8 | -  | - | 31 | ** |
 |             | som  |   |   |     |    |     | 15 | 5 | 20 | RI |
 |             | st   |   |   |     |    |     |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -7987,16 +7806,16 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | fros |   |   |     |    |     |    |   |    |    |
 |             | set) |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,2         | £ 27 |   |   | ³   |    | OP5 |    |   | 31 | 3) |
+| 2,2         | ≤ 27 |   |   | ≥   |    | OP5 |    |   | 31 | 3) |
 | ‑DIHYDROPE- |      |   |   | 73  |    |     |    |   | 02 |    |
 | ROKSYPROPAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI          | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| DI          | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | ‑(1‑HYDROK- | 100  |   |   |     |    |     |    |   | 06 |    |
 | SYCYCLOHEKS |      |   |   |     |    |     |    |   |    |    |
 | YL)PEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIISOBUTY   | > 32 |   | ³ |     |    | OP5 | -  | - | 31 | 3) |
+| DIISOBUTY   | > 32 |   | ≥ |     |    | OP5 | -  | - | 31 | 3) |
 | RYLPEROKSID | - 52 |   | 4 |     |    |     | 20 | 1 | 11 |    |
 |             |      |   | 8 |     |    |     |    | 0 |    | ** |
 |             |      |   |   |     |    |     |    |   |    | RI |
@@ -8009,7 +7828,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | -  | - | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | -  | - | 31 | ** |
 |             | (som |   |   |     |    |     | 20 | 1 | 19 | RI |
 |             | st   |   |   |     |    |     |    | 0 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8020,7 +7839,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | v    |   |   |     |    |     |    |   |    | tt |
 |             | ann) |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 |   | ³ |     |    | OP7 | -  | - | 31 | ** |
+|             | ≤ 32 |   | ≥ |     |    | OP7 | -  | - | 31 | ** |
 |             |      |   | 6 |     |    |     | 20 | 1 | 15 | RI |
 |             |      |   | 8 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8031,7 +7850,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI-ISOPROPY | £ 82 | ³ |   |     | ³  | OP7 |    |   | 31 | 2  |
+| DI-ISOPROPY | ≤ 82 | ≥ |   |     | ≥  | OP7 |    |   | 31 | 2  |
 | LBENZENDIHY |      | 5 |   |     | 5  |     |    |   | 06 | 4) |
 | DROPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -8048,7 +7867,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   | ³ |     |    | OP7 | -  | - | 31 | ** |
+|             | ≤ 52 |   | ≥ |     |    | OP7 | -  | - | 31 | ** |
 |             |      |   | 4 |     |    |     | 20 | 1 | 15 | RI |
 |             |      |   | 8 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8059,7 +7878,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 32 | ³ |   |     |    | OP7 | -  | - | 31 | ** |
+|             | ≤ 32 | ≥ |   |     |    | OP7 | -  | - | 31 | ** |
 |             |      | 6 |   |     |    |     | 15 | 5 | 15 | RI |
 |             |      | 8 |   |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8070,10 +7889,10 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DILAUR      | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| DILAUR      | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | OYLPEROKSID | 100  |   |   |     |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DILAUR      | £ 42 |   |   |     |    | OP8 |    |   | 31 |    |
+| DILAUR      | ≤ 42 |   |   |     |    | OP8 |    |   | 31 |    |
 | OYLPEROKSID | som  |   |   |     |    |     |    |   | 09 |    |
 |             | st   |   |   |     |    |     |    |   |    |    |
 |             | abil |   |   |     |    |     |    |   |    |    |
@@ -8083,7 +7902,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | i    |   |   |     |    |     |    |   |    |    |
 |             | vann |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI-         | £ 52 |   | ³ |     |    | OP7 | -5 | + | 31 | ** |
+| DI-         | ≤ 52 |   | ≥ |     |    | OP7 | -5 | + | 31 | ** |
 | (3-METOKSYB |      |   | 4 |     |    |     |    | 5 | 15 | RI |
 | UTYL)PEROKS |      |   | 8 |     |    |     |    |   |    | D: |
 | YDIKARBONAT |      |   |   |     |    |     |    |   |    | Ik |
@@ -8094,7 +7913,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑(2       | £ 87 |   |   |     | ³  | OP5 | +  | + | 31 | 3) |
+| DI‑(2       | ≤ 87 |   |   |     | ≥  | OP5 | +  | + | 31 | 3) |
 | ‑METYLBENZO |      |   |   |     | 13 |     | 30 | 3 | 12 |    |
 | YL)PEROKSID |      |   |   |     |    |     |    | 5 |    | ** |
 |             |      |   |   |     |    |     |    |   |    | RI |
@@ -8107,10 +7926,10 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑(3‑      | £ 20 |   | ³ |     |    | OP7 | +  | + | 31 | ** |
-| METYLBENZOY | + £  |   | 5 |     |    |     | 35 | 4 | 15 | RI |
+| DI‑(3‑      | ≤ 20 |   | ≥ |     |    | OP7 | +  | + | 31 | ** |
+| METYLBENZOY | + ≤  |   | 5 |     |    |     | 35 | 4 | 15 | RI |
 | L)PEROKSID+ | 18 + |   | 8 |     |    |     |    | 0 |    | D: |
-|             | £ 4  |   |   |     |    |     |    |   |    | Ik |
+|             | ≤ 4  |   |   |     |    |     |    |   |    | Ik |
 | | BENZOYL   |      |   |   |     |    |     |    |   |    | ke |
 | | (3-       |      |   |   |     |    |     |    |   |    | t  |
 | METYLBENZOY |      |   |   |     |    |     |    |   |    | il |
@@ -8120,7 +7939,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    |    |
 | PEROKSID    |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑(4       | £ 52 |   |   |     |    | OP7 |    |   | 31 |    |
+| DI‑(4       | ≤ 52 |   |   |     |    | OP7 |    |   | 31 |    |
 | ‑METYLBENZO | som  |   |   |     |    |     |    |   | 06 |    |
 | YL)PEROKSID | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
@@ -8134,10 +7953,10 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | (BENZOYLPER | 100  |   |   |     |    |     |    |   |    |    |
 | OKSY)HEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 82 |   |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 82 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      |   |   | 18  |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 82 |   |   |     | ³  | OP5 |    |   | 31 |    |
+|             | ≤ 82 |   |   |     | ≥  | OP5 |    |   | 31 |    |
 |             |      |   |   |     | 18 |     |    |   | 04 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
 | 2,5‑DIME    | > 90 |   |   |     |    | OP5 |    |   | 31 |    |
@@ -8147,41 +7966,41 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | rt‑BUTYLPER |      |   |   |     |    |     |    |   |    |    |
 | OKSY)HEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | > 52 | ³ |   |     |    | OP7 |    |   | 31 |    |
+|             | > 52 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 |             | - 90 | 1 |   |     |    |     |    |   | 05 |    |
 |             |      | 0 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 47 |   |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 47 |   |   |     |    | OP8 |    |   | 31 |    |
 |             | som  |   |   |     |    |     |    |   | 08 |    |
 |             | p    |   |   |     |    |     |    |   |    |    |
 |             | asta |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 | ³ |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 52 | ≥ |   |     |    | OP8 |    |   | 31 |    |
 |             |      | 4 |   |     |    |     |    |   | 09 |    |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   |   | ³   |    | OP8 |    |   | 31 |    |
+|             | ≤ 77 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 |             |      |   |   | 23  |    |     |    |   | 08 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 22 |   |   | £   |    |     |    |   | U  | (2 |
+|             | ≤ 22 |   |   | ≤   |    |     |    |   | U  | (2 |
 |             |      |   |   | 78  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,5-DIME    | > 52 | ³ |   |     |    | OP5 |    |   | 31 | 2  |
+| 2,5-DIME    | > 52 | ≥ |   |     |    | OP5 |    |   | 31 | 2  |
 | TYL-2,5-DI- | - 86 | 1 |   |     |    |     |    |   | 03 | 6) |
 | (te         |      | 4 |   |     |    |     |    |   |    |    |
 | rt‑BUTYLPER |      |   |   |     |    |     |    |   |    |    |
 | OKSY)HEKSYN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
 |             | > 86 |   |   |     |    | OP5 |    |   | 31 | 3) |
 |             | -    |   |   |     |    |     |    |   | 01 |    |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,5‑DIME    | £    |   |   |     |    | OP5 | +  | + | 31 | ** |
+| 2,5‑DIME    | ≤    |   |   |     |    | OP5 | +  | + | 31 | ** |
 | TYL‑2,5‑DI‑ | 100  |   |   |     |    |     | 20 | 2 | 13 | RI |
 |             |      |   |   |     |    |     |    | 5 |    | D: |
 | (2‑ETYLH    |      |   |   |     |    |     |    |   |    | Ik |
@@ -8192,12 +8011,12 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,5‑        | £ 82 |   |   |     | ³  | OP6 |    |   | 31 |    |
+| 2,5‑        | ≤ 82 |   |   |     | ≥  | OP6 |    |   | 31 |    |
 | DIMETYL‑2,5 |      |   |   |     | 18 |     |    |   | 04 |    |
 | ‑DIHYDROPER |      |   |   |     |    |     |    |   |    |    |
 | OKSY-HEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,5‑        | £ 77 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| 2,5‑        | ≤ 77 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | DIMETYL‑2,5 |      | 2 |   |     |    |     |    |   | 05 |    |
 | ‑DI‑(3,5,5‑ |      | 3 |   |     |    |     |    |   |    |    |
 |             |      |   |   |     |    |     |    |   |    |    |
@@ -8205,7 +8024,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | EKSANOYLPER |      |   |   |     |    |     |    |   |    |    |
 | OKSY)HEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1           | £ 52 | ³ |   |     |    | OP8 | 0  | + | 31 | ** |
+| 1           | ≤ 52 | ≥ |   |     |    | OP8 | 0  | + | 31 | ** |
 | ,1-DIMETYL- |      | 4 |   |     |    |     |    | 1 | 17 | RI |
 | 3-HYDROKSY- |      | 8 |   |     |    |     |    | 0 |    | D: |
 | BUTYL-      |      |   |   |     |    |     |    |   |    | Ik |
@@ -8216,7 +8035,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIMYRISTYL- | £    |   |   |     |    | OP7 | +  | + | 31 | ** |
+| DIMYRISTYL- | ≤    |   |   |     |    | OP7 | +  | + | 31 | ** |
 | PEROKSY-    | 100  |   |   |     |    |     | 20 | 2 | 16 | RI |
 | DIKARBONAT  |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8227,7 +8046,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 42 |   |   |     |    | OP8 | +  | + | 31 | ** |
 |             | som  |   |   |     |    |     | 20 | 2 | 19 | RI |
 |             | st   |   |   |     |    |     |    | 5 |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8238,7 +8057,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| D           | £ 52 | ³ |   |     |    | OP7 | -  | 0 | 31 | ** |
+| D           | ≤ 52 | ≥ |   |     |    | OP7 | -  | 0 | 31 | ** |
 | I-(2-NEODEK |      | 4 |   |     |    |     | 10 |   | 15 | RI |
 | ANOYLPEROKS |      | 8 |   |     |    |     |    |   |    | D: |
 | YISOPROPYL) |      |   |   |     |    |     |    |   |    | Ik |
@@ -8249,7 +8068,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑n‑NONA-N | £    |   |   |     |    | OP7 | 0  | + | 31 | ** |
+| DI‑n‑NONA-N | ≤    |   |   |     |    | OP7 | 0  | + | 31 | ** |
 | OYLPEROKSID | 100  |   |   |     |    |     |    | 1 | 16 | RI |
 |             |      |   |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8271,7 +8090,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 13 |   |   | ³   |    |     |    |   | U  | 2  |
+|             | ≤ 13 |   |   | ≥   |    |     |    |   | U  | 2  |
 |             |      |   |   | 87  |    |     |    |   | nn | 9) |
 |             |      |   |   |     |    |     |    |   | ta |    |
 |             |      |   |   |     |    |     |    |   | tt |    |
@@ -8281,10 +8100,10 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | PEROKS      | 100  |   |   |     |    |     |    |   |    |    |
 | YDIKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 85 |   |   |     | ³  | OP7 |    |   | 31 |    |
+|             | ≤ 85 |   |   |     | ≥  | OP7 |    |   | 31 |    |
 |             |      |   |   |     | 15 |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DIPROPION   | £ 27 |   | ³ |     |    | OP8 | +  | + | 31 | ** |
+| DIPROPION   | ≤ 27 |   | ≥ |     |    | OP8 | +  | + | 31 | ** |
 | YL-PEROKSID |      |   | 7 |     |    |     | 15 | 2 | 17 | RI |
 |             |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8295,7 +8114,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑n‑PRO    | £    |   |   |     |    | OP3 | -  | - | 31 | ** |
+| DI‑n‑PRO    | ≤    |   |   |     |    | OP3 | -  | - | 31 | ** |
 | PYLPE-ROKSY | 100  |   |   |     |    |     | 25 | 1 | 13 | RI |
 | DIKAR-BONAT |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8306,7 +8125,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 |   | ³ |     |    | OP5 | -  | - | 31 | ** |
+|             | ≤ 77 |   | ≥ |     |    | OP5 | -  | - | 31 | ** |
 |             |      |   | 2 |     |    |     | 20 | 1 | 13 | RI |
 |             |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8321,7 +8140,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | YREPROKSID. | -    |   |   |     |    |     |    |   | 02 | 1  |
 |             | 100  |   |   |     |    |     |    |   |    | 7) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 |   |   |     | ³  | OP7 | +  | + | 31 | ** |
+|             | ≤ 72 |   |   |     | ≥  | OP7 | +  | + | 31 | ** |
 |             |      |   |   |     | 28 |     | 10 | 1 | 16 | RI |
 |             |      |   |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8332,7 +8151,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑         | > 52 | ³ |   |     |    | OP7 | 0  | + | 31 | ** |
+| DI‑         | > 52 | ≥ |   |     |    | OP7 | 0  | + | 31 | ** |
 | (3,5,5‑TRIM | - 82 | 1 |   |     |    |     |    | 1 | 15 | RI |
 | ETYLHEKSANO |      | 8 |   |     |    |     |    | 0 |    | D: |
 | YL)PEROKSID |      |   |   |     |    |     |    |   |    | Ik |
@@ -8343,7 +8162,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | >38  | ³ |   |     |    | OP8 | +  | + | 31 | ** |
+|             | >38  | ≥ |   |     |    | OP8 | +  | + | 31 | ** |
 |             | - 52 | 4 |   |     |    |     | 10 | 1 | 19 | RI |
 |             |      | 8 |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8354,7 +8173,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI‑         | £ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
+| DI‑         | ≤ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
 | (3,5,5‑TRIM | som  |   |   |     |    |     | 10 | 1 | 19 | RI |
 | ETYLHEKSANO | st   |   |   |     |    |     |    | 5 |    | D: |
 | YL)PEROKSID | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8365,7 +8184,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 38 | ³ |   |     |    | OP8 | +  | + | 31 | ** |
+|             | ≤ 38 | ≥ |   |     |    | OP8 | +  | + | 31 | ** |
 |             |      | 6 |   |     |    |     | 20 | 2 | 19 | RI |
 |             |      | 2 |   |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8376,7 +8195,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ETYL        | £ 67 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| ETYL        | ≤ 67 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | 3,3‑DI‑(te  |      | 3 |   |     |    |     |    |   | 05 |    |
 | rt‑AMYLPERO |      | 3 |   |     |    |     |    |   |    |    |
 | KSY)BUTYRAT |      |   |   |     |    |     |    |   |    |    |
@@ -8386,14 +8205,14 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | t‑BUTYLPERO | 100  |   |   |     |    |     |    |   |    |    |
 | KSY)BUTYRAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 77 | ³ |   |     |    | OP7 |    |   | 31 |    |
+|             | ≤ 77 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 |             |      | 2 |   |     |    |     |    |   | 05 |    |
 |             |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   | ³   |    | OP7 |    |   | 31 |    |
+|             | ≤ 52 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 |             |      |   |   | 48  |    |     |    |   | 06 |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1-(2-ETYL   | £ 52 | ³ | ³ |     |    | OP7 | -  | - | 31 | ** |
+| 1-(2-ETYL   | ≤ 52 | ≥ | ≥ |     |    | OP7 | -  | - | 31 | ** |
 | HEK-SANOYLP |      | 4 | 1 |     |    |     | 20 | 1 | 15 | RI |
 | EROXY)-1-3- |      | 5 | 0 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8404,7 +8223,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert‑HE     | £ 71 | ³ |   |     |    | OP7 | 0  | + | 31 | ** |
+| tert‑HE     | ≤ 71 | ≥ |   |     |    | OP7 | 0  | + | 31 | ** |
 | KSYLPEROKSY |      | 2 |   |     |    |     |    | 1 | 15 | RI |
 | NEODEKANOAT |      | 9 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8415,7 +8234,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ter         | £ 72 |   | ³ |     |    | OP7 | +  | + | 31 | ** |
+| ter         | ≤ 72 |   | ≥ |     |    | OP7 | +  | + | 31 | ** |
 | t‑HEKSYLPER |      |   | 2 |     |    |     | 10 | 1 | 15 | RI |
 | OKSYPIVALAT |      |   | 8 |     |    |     |    | 5 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8426,7 +8245,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | +  | + | 31 |    |
+|             | ≤ 52 |   |   |     |    | OP8 | +  | + | 31 |    |
 |             | som  |   |   |     |    |     | 15 | 2 | 17 |    |
 |             | st   |   |   |     |    |     |    | 0 |    |    |
 |             | abil |   |   |     |    |     |    |   |    |    |
@@ -8436,7 +8255,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | i    |   |   |     |    |     |    |   |    |    |
 |             | vann |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3-H         | £ 77 | ³ |   |     |    | OP7 | -5 | + | 31 | ** |
+| 3-H         | ≤ 77 | ≥ |   |     |    | OP7 | -5 | + | 31 | ** |
 | YDROKSY-1,1 |      | 2 |   |     |    |     |    | 5 | 15 | RI |
 | -DIMETYLBUT |      | 3 |   |     |    |     |    |   |    | D: |
 | YL-PEROKSY- |      |   |   |     |    |     |    |   |    | Ik |
@@ -8447,7 +8266,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 | ³ |   |     |    | OP8 | -5 | + | 31 | ** |
+|             | ≤ 52 | ≥ |   |     |    | OP8 | -5 | + | 31 | ** |
 |             |      | 4 |   |     |    |     |    | 5 | 17 | RI |
 |             |      | 8 |   |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8458,7 +8277,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | OP8 | -5 | + | 31 | ** |
+|             | ≤ 52 |   |   |     |    | OP8 | -5 | + | 31 | ** |
 |             | som  |   |   |     |    |     |    | 5 | 19 | RI |
 |             | st   |   |   |     |    |     |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8469,22 +8288,22 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ISOPROPYL   | £ 32 | ³ |   |     |    | OP7 | -  | - | 31 | ** |
-| sec-        | + £  | 3 |   |     |    |     | 20 | 1 | 15 | RI |
+| ISOPROPYL   | ≤ 32 | ≥ |   |     |    | OP7 | -  | - | 31 | ** |
+| sec-        | + ≤  | 3 |   |     |    |     | 20 | 1 | 15 | RI |
 | BUTYLPEROKS | 15 - | 8 |   |     |    |     |    | 0 |    | D: |
 | YDIKARBONAT | 18   |   |   |     |    |     |    |   |    | Ik |
 |             |      |   |   |     |    |     |    |   |    | ke |
-| +DI‑sec‑B   | + £  |   |   |     |    |     |    |   |    | t  |
+| +DI‑sec‑B   | + ≤  |   |   |     |    |     |    |   |    | t  |
 | UTYL-PEROKS | 12 - |   |   |     |    |     |    |   |    | il |
 | YDIKARBONAT | 15   |   |   |     |    |     |    |   |    | la |
 | +DI-ISOP    |      |   |   |     |    |     |    |   |    | tt |
 | ROPYLPEROKS |      |   |   |     |    |     |    |   |    | ** |
 | YDIKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ISOPROPYL   | £ 52 |   |   |     |    | OP5 | -  | - | 31 | 3) |
-| sec-        | + £  |   |   |     |    |     | 20 | 1 | 11 |    |
+| ISOPROPYL   | ≤ 52 |   |   |     |    | OP5 | -  | - | 31 | 3) |
+| sec-        | + ≤  |   |   |     |    |     | 20 | 1 | 11 |    |
 | BUTYLPEROKS | 28 + |   |   |     |    |     |    | 0 |    | ** |
-| YDIKARBONAT | £ 22 |   |   |     |    |     |    |   |    | RI |
+| YDIKARBONAT | ≤ 22 |   |   |     |    |     |    |   |    | RI |
 |             |      |   |   |     |    |     |    |   |    | D: |
 | +D          |      |   |   |     |    |     |    |   |    | Ik |
 | I‑sec‑BUTYL |      |   |   |     |    |     |    |   |    | ke |
@@ -8496,7 +8315,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | ROPYLPEROKS |      |   |   |     |    |     |    |   |    |    |
 | YDIKARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ISOPR       | £ 72 | ³ |   |     |    | OP8 |    |   | 31 | 1  |
+| ISOPR       | ≤ 72 | ≥ |   |     |    | OP8 |    |   | 31 | 1  |
 | OPYLKUMYLHY |      | 2 |   |     |    |     |    |   | 09 | 3) |
 | DROPEROKSID |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -8504,11 +8323,11 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | DROPEROKSID | -    |   |   |     |    |     |    |   | 05 | 3) |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 72 | ³ |   |     |    | OP8 |    |   | 31 | 2  |
+|             | ≤ 72 | ≥ |   |     |    | OP8 |    |   | 31 | 2  |
 |             |      | 2 |   |     |    |     |    |   | 09 | 7) |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| METYLCYC    | £ 67 |   | ³ |     |    | OP7 | +  | + | 31 | ** |
+| METYLCYC    | ≤ 67 |   | ≥ |     |    | OP7 | +  | + | 31 | ** |
 | LOHEKSANONP |      |   | 3 |     |    |     | 35 | 4 | 15 | RI |
 | E-ROXID(ER) |      |   | 3 |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8519,27 +8338,27 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| METY        | se   | ³ |   |     | ³  | OP8 |    |   | 31 | 3  |
+| METY        | se   | ≥ |   |     | ≥  | OP8 |    |   | 31 | 3  |
 | LETYLKETONP | mer  | 4 |   |     | 9  |     |    |   | 05 | 3) |
 | EROKSID(ER) | knad | 1 |   |     |    |     |    |   |    | 3  |
 |             | 33)  |   |   |     |    |     |    |   |    | 4) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | se   | ³ |   |     |    | OP5 |    |   | 31 | 3) |
+|             | se   | ≥ |   |     |    | OP5 |    |   | 31 | 3) |
 |             | mer  | 4 |   |     |    |     |    |   | 01 | 8) |
 |             | knad | 8 |   |     |    |     |    |   |    | 1  |
 |             | 8)   |   |   |     |    |     |    |   |    | 3) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | se   | ³ |   |     |    | OP7 |    |   | 31 | 9) |
+|             | se   | ≥ |   |     |    | OP7 |    |   | 31 | 9) |
 |             | mer  | 5 |   |     |    |     |    |   | 05 |    |
 |             | knad | 5 |   |     |    |     |    |   |    |    |
 |             | 9)   |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | se   | ³ |   |     |    | OP8 |    |   | 31 | 1  |
+|             | se   | ≥ |   |     |    | OP8 |    |   | 31 | 1  |
 |             | mer  | 6 |   |     |    |     |    |   | 07 | 0) |
 |             | knad | 0 |   |     |    |     |    |   |    |    |
 |             | 10)  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| METYLISO    | £ 62 | ³ |   |     |    | OP7 |    |   | 31 | 2  |
+| METYLISO    | ≤ 62 | ≥ |   |     |    | OP7 |    |   | 31 | 2  |
 | BUTYLKETONP |      | 1 |   |     |    |     |    |   | 05 | 2) |
 | EROKSID(ER) |      | 9 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -8580,28 +8399,28 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| PEROKS      | £ 43 |   |   |     |    | OP7 |    |   | 31 | 1  |
+| PEROKS      | ≤ 43 |   |   |     |    | OP7 |    |   | 31 | 1  |
 | YEDIKKSYRE, |      |   |   |     |    |     |    |   | 05 | 3) |
 | TYPE D,     |      |   |   |     |    |     |    |   |    | 1  |
 | stabilisert |      |   |   |     |    |     |    |   |    | 4) |
 |             |      |   |   |     |    |     |    |   |    | 1  |
 |             |      |   |   |     |    |     |    |   |    | 9) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| PEROKSY-    | £ 43 |   |   |     |    | OP8 |    |   | 31 | 1  |
+| PEROKSY-    | ≤ 43 |   |   |     |    | OP8 |    |   | 31 | 1  |
 | EDIKKSYRE,  |      |   |   |     |    |     |    |   | 07 | 3) |
 | TYPE E,     |      |   |   |     |    |     |    |   |    | 1  |
 | stabilisert |      |   |   |     |    |     |    |   |    | 5) |
 |             |      |   |   |     |    |     |    |   |    | 1  |
 |             |      |   |   |     |    |     |    |   |    | 9) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| PEROKSY-    | £ 43 |   |   |     |    | OP8 |    |   | 31 | 1  |
+| PEROKSY-    | ≤ 43 |   |   |     |    | OP8 |    |   | 31 | 1  |
 | EDIKKSYRE,  |      |   |   |     |    |     |    |   | 09 | 3) |
 | TYPE F,     |      |   |   |     |    |     |    |   |    | 1  |
 | stabilisert |      |   |   |     |    |     |    |   |    | 6) |
 |             |      |   |   |     |    |     |    |   |    | 1  |
 |             |      |   |   |     |    |     |    |   |    | 9) |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| PEROKS      | £    |   |   |     |    | OP8 | +  | + | 31 | ** |
+| PEROKS      | ≤    |   |   |     |    | OP8 | +  | + | 31 | ** |
 | YLAURINSYRE | 100  |   |   |     |    |     | 35 | 4 | 18 | RI |
 |             |      |   |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8612,7 +8431,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1-FENYLETYL | £ 38 |   |   | ³   |    | OP8 |    |   | 31 |    |
+| 1-FENYLETYL | ≤ 38 |   |   | ≥   |    | OP8 |    |   | 31 |    |
 | HY          |      |   |   | 62  |    |     |    |   | 09 |    |
 | DROPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
@@ -8620,23 +8439,23 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | DROPEROKSID | -    |   |   |     |    |     |    |   | 05 | 3) |
 |             | 100  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 56 | ³ |   |     |    | OP8 |    |   | 31 |    |
+|             | ≤ 56 | ≥ |   |     |    | OP8 |    |   | 31 |    |
 |             |      | 4 |   |     |    |     |    |   | 09 |    |
 |             |      | 4 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| POLYETE     | £ 52 |   | ³ |     |    | OP8 |    |   | 31 |    |
+| POLYETE     | ≤ 52 |   | ≥ |     |    | OP8 |    |   | 31 |    |
 | R-POLY-tert |      |   | 2 |     |    |     |    |   | 07 |    |
 | -BUTYLPEROK |      |   | 3 |     |    |     |    |   |    |    |
 | SY-KARBONAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,          | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| 1,          | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | 1,3,3‑TETRA | 100  |   |   |     |    |     |    |   | 05 |    |
 | METYLBUTYL- |      |   |   |     |    |     |    |   |    |    |
 |             |      |   |   |     |    |     |    |   |    |    |
 | HY          |      |   |   |     |    |     |    |   |    |    |
 | DROPEROKSID |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1           | £    |   |   |     |    | OP7 | +  | + | 31 | ** |
+| 1           | ≤    |   |   |     |    | OP7 | +  | + | 31 | ** |
 | ,1,3,3‑TETR | 100  |   |   |     |    |     | 20 | 2 | 15 | RI |
 | A-METYLBUTY |      |   |   |     |    |     |    | 5 |    | D: |
 | L-PEROKSY‑2 |      |   |   |     |    |     |    |   |    | Ik |
@@ -8647,7 +8466,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1,3,3-    | £ 72 |   | ³ |     |    | OP7 | -5 | + | 31 | ** |
+| 1,1,3,3-    | ≤ 72 |   | ≥ |     |    | OP7 | -5 | + | 31 | ** |
 | TETRA       |      |   | 2 |     |    |     |    | 5 | 15 | RI |
 | -METYLBUTYL |      |   | 8 |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8658,7 +8477,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 52 |   |   |     |    | O   | -5 | + | 31 | ** |
+|             | ≤ 52 |   |   |     |    | O   | -5 | + | 31 | ** |
 |             | som  |   |   |     |    | P8, |    | 5 | 19 | RI |
 |             | st   |   |   |     |    | N   |    |   |    | D: |
 |             | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8669,7 +8488,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1,3,3‑TET | £ 77 | ³ |   |     |    | OP7 | 0  | + | 31 | ** |
+| 1,1,3,3‑TET | ≤ 77 | ≥ |   |     |    | OP7 | 0  | + | 31 | ** |
 | RA-METYLBUT |      | 2 |   |     |    |     |    | 1 | 15 | RI |
 | YL-PEROKSY- |      | 3 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8680,18 +8499,18 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3,6,9       | £ 42 | ³ |   |     |    | OP7 |    |   | 31 | 2  |
+| 3,6,9       | ≤ 42 | ≥ |   |     |    | OP7 |    |   | 31 | 2  |
 | -TRIETYL-3, |      | 5 |   |     |    |     |    |   | 05 | 8) |
 | 6,9-TRIMETY |      | 8 |   |     |    |     |    |   |    |    |
 |             |      |   |   |     |    |     |    |   |    |    |
 | -1,4,7-TR   |      |   |   |     |    |     |    |   |    |    |
 | IPEROKSONAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-|             | £ 17 | ³ |   | ³   |    | OP8 |    |   | 31 | 2  |
+|             | ≤ 17 | ≥ |   | ≥   |    | OP8 |    |   | 31 | 2  |
 |             |      | 1 |   | 65  |    |     |    |   | 10 | 8) |
 |             |      | 8 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-AMYL   | £ 47 | ³ |   |     |    | OP8 | 0  | + | 31 | ** |
+| tert-AMYL   | ≤ 47 | ≥ |   |     |    | OP8 | 0  | + | 31 | ** |
 | PEROKSI     |      | 5 |   |     |    |     |    | 1 | 19 | RI |
 | NEODEKANOAT |      | 3 |   |     |    |     |    | 0 |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8702,13 +8521,13 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| tert-BYTUL- | £ 42 |   |   | ³   |    | OP7 |    |   | 31 |    |
+| tert-BYTUL- | ≤ 42 |   |   | ≥   |    | OP7 |    |   | 31 |    |
 | PEROKSI     |      |   |   | 58  |    |     |    |   | 06 |    |
 | 3           |      |   |   |     |    |     |    |   |    |    |
 | ,5,5-TRIMET |      |   |   |     |    |     |    |   |    |    |
 | YLHEKSANOAT |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| CUMYL       | £ 87 | ³ |   |     |    | OP7 | -  | 0 | 31 | ** |
+| CUMYL       | ≤ 87 | ≥ |   |     |    | OP7 | -  | 0 | 31 | ** |
 | PEROXI      |      | 1 |   |     |    |     | 10 |   | 15 | RI |
 | NEODEKANOAT |      | 3 |   |     |    |     |    |   |    | D: |
 |             |      |   |   |     |    |     |    |   |    | Ik |
@@ -8719,27 +8538,27 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 2,2-DI-(t   | £ 57 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| 2,2-DI-(t   | ≤ 57 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | ert-AMYLPER |      | 4 |   |     |    |     |    |   | 05 |    |
 | OKSI)-BUTAN |      | 3 |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1-D       | £ 72 |   | ³ |     |    | OP5 |    |   | 31 | 3  |
+| 1,1-D       | ≤ 72 |   | ≥ |     |    | OP5 |    |   | 31 | 3  |
 | I-(tert-BUT |      |   | 2 |     |    |     |    |   | 03 | 0) |
 | YLPEROKSI)- |      |   | 8 |     |    |     |    |   |    |    |
 | CYKLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1.1-        | £ 43 | ³ |   |     |    | OP7 |    |   | 31 |    |
+| 1.1-        | ≤ 43 | ≥ |   |     |    | OP7 |    |   | 31 |    |
 | DI-(tert-BU | +    | 4 |   |     |    |     |    |   | 05 |    |
 | TYLPEROXI)- |      | 1 |   |     |    |     |    |   |    |    |
-| CYKLOHEKSAN | £ 16 |   |   |     |    |     |    |   |    |    |
+| CYKLOHEKSAN | ≤ 16 |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 1,1-DI-(    | £ 90 | ³ |   |     |    | OP5 |    |   | 31 | 3  |
+| 1,1-DI-(    | ≤ 90 | ≥ |   |     |    | OP5 |    |   | 31 | 3  |
 | tert-BUTYLP |      | 1 |   |     |    |     |    |   | 03 | 0) |
 | EROKSI)-3,3 |      | 0 |   |     |    |     |    |   |    |    |
 | ,5-TRIMETYL |      |   |   |     |    |     |    |   |    |    |
 | CYKLOHEKSAN |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| DI-2,4-DIK  | £ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
+| DI-2,4-DIK  | ≤ 52 |   |   |     |    | OP8 | +  | + | 31 | ** |
 | LOROBENZOYL |      |   |   |     |    |     | 20 | 2 | 18 | RI |
 | PEROKSID    | som  |   |   |     |    |     |    | 5 |    | D: |
 |             | p    |   |   |     |    |     |    |   |    | Ik |
@@ -8750,7 +8569,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3-HYD       | £ 77 | ³ |   |     |    | OP7 | -5 | + | 31 | ** |
+| 3-HYD       | ≤ 77 | ≥ |   |     |    | OP7 | -5 | + | 31 | ** |
 | ROKSI-1,1-D |      | 2 |   |     |    |     |    | 5 | 15 | RI |
 | IMETYLBUTYL |      | 3 |   |     |    |     |    |   |    | D: |
 | PEROKSY     |      |   |   |     |    |     |    |   |    | Ik |
@@ -8761,7 +8580,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3-HYD       | £ 52 |   |   |     |    | OP8 | -5 | + | 31 | ** |
+| 3-HYD       | ≤ 52 |   |   |     |    | OP8 | -5 | + | 31 | ** |
 | ROKSI-1,1-D | som  |   |   |     |    |     |    | 5 | 19 | RI |
 | IMETYLBUTYL | st   |   |   |     |    |     |    |   |    | D: |
 | PEROKSY     | abil |   |   |     |    |     |    |   |    | Ik |
@@ -8772,7 +8591,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             | vann |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3-HYD       | £ 52 | ³ |   |     |    | OP8 | -5 | + | 31 | ** |
+| 3-HYD       | ≤ 52 | ≥ |   |     |    | OP8 | -5 | + | 31 | ** |
 | ROKSI-1,1-D |      | 4 |   |     |    |     |    | 5 | 17 | RI |
 | IMETYLBUTYL |      | 8 |   |     |    |     |    |   |    | D: |
 | PEROKSY     |      |   |   |     |    |     |    |   |    | Ik |
@@ -8783,7 +8602,7 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 |             |      |   |   |     |    |     |    |   |    | tt |
 |             |      |   |   |     |    |     |    |   |    | ** |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| ([3R-       | £    |   |   |     |    | OP7 |    |   | 31 |    |
+| ([3R-       | ≤    |   |   |     |    | OP7 |    |   | 31 |    |
 | (3R,5aS,6S, | 100  |   |   |     |    |     |    |   | 06 |    |
 | 8aS9R,      |      |   |   |     |    |     |    |   |    |    |
 | 10R,12S,    |      |   |   |     |    |     |    |   |    |    |
@@ -8797,12 +8616,12 @@ for ADR med de samme kontroll- og faretemperaturene, hvis relevant).
 | -j]-1,2-BEN |      |   |   |     |    |     |    |   |    |    |
 | ZODIOXEPIN) |      |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| METYL       | Se   | ³ |   |     |    | OP8 |    |   | 31 | 3  |
+| METYL       | Se   | ≥ |   |     |    | OP8 |    |   | 31 | 3  |
 | ISOPROPYL   | mer  | 7 |   |     |    |     |    |   | 09 | 1) |
 | KETONP      | knad | 0 |   |     |    |     |    |   |    |    |
 | EROKSID(ER) | 31)  |   |   |     |    |     |    |   |    |    |
 +-------------+------+---+---+-----+----+-----+----+---+----+----+
-| 3,3,        | £    |   |   |     |    | OP8 |    |   | 31 |    |
+| 3,3,        | ≤    |   |   |     |    | OP8 |    |   | 31 |    |
 | 5,7,7-PENTA | 100  |   |   |     |    |     |    |   | 07 |    |
 | METYL-1,2,4 |      |   |   |     |    |     |    |   |    |    |
 | -TRIOKSEPAN |      |   |   |     |    |     |    |   |    |    |
@@ -8814,24 +8633,24 @@ Merknader (jf. siste kolonne i 2.2.52.4):
 type A. Kokepunktet til fortynningsmiddel type B skal være minst
 60\ :sup:`o`\ C høyere enn SADT til det organiske peroksidet.
 
-2) Tilgjengelig oksygen £ 4.7%.
+2) Tilgjengelig oksygen ≤ 4.7%.
 
 3) Fareseddel «EKSPLOSIV» for tilleggsfare kreves (Fareseddel nr. 1, se
 5.2.2.2.2).
 
 4) Fortynningsmiddelet kan erstattes av di-tert-butylperoksid.
 
-5) Tilgjengelig oksygen £ 9%.
+5) Tilgjengelig oksygen ≤ 9%.
 
-6) Med £ 9% hydrogenperoksid; tilgjengelig oksygen £ 10%.
+6) Med ≤ 9% hydrogenperoksid; tilgjengelig oksygen ≤ 10%.
 
 7) Bare tillatt i liten emballasje som ikke er av metall.
 
-8) Tilgjengelig oksygen > 10% og £ 10,7%, med eller uten vann.
+8) Tilgjengelig oksygen > 10% og ≤ 10,7%, med eller uten vann.
 
-9) Tilgjengelig oksygen £ 10%, med eller uten vann.
+9) Tilgjengelig oksygen ≤ 10%, med eller uten vann.
 
-10) Tilgjengelig oksygen £ 8,2%, med eller uten vann.
+10) Tilgjengelig oksygen ≤ 8,2%, med eller uten vann.
 
 11) Se 2.2.52.1.9.
 
@@ -8860,15 +8679,15 @@ konsentrasjoner under 80 %. (Fareseddel nr. 8, se 5.2.2.2.2)
 
 20) Med fortynningsmiddel type A, med eller uten vann.
 
-21) Med ³ 25 masseprosent fortynningsmiddel type A, og i tillegg
+21) Med ≥ 25 masseprosent fortynningsmiddel type A, og i tillegg
 etylbenzen.
 
-22) Med ³ 19% masseprosent fortynningsmiddel type A, og i tillegg
+22) Med ≥ 19% masseprosent fortynningsmiddel type A, og i tillegg
 metylisobutylketon.
 
 23) Med < 6% di-tert-butylperoksid.
 
-24) Med £ 8% 1-isopropylhydroperoksy-4-isopropylhydroksybenzen.
+24) Med ≤ 8% 1-isopropylhydroperoksy-4-isopropylhydroksybenzen.
 
 25) Fortynningsmiddel type B med kokepunkt > 110 °C.
 
@@ -8877,20 +8696,20 @@ metylisobutylketon.
 27) Fareseddel «ETSENDE» for tilleggsfare kreves for konsentrasjoner
 over 56 %.
 
-28) Tilgjengelig aktivt oksygen £ 7.6% i fortynningsmiddel type A med
+28) Tilgjengelig aktivt oksygen ≤ 7.6% i fortynningsmiddel type A med
 95% fordampningstap i temperaturområdet 200-260 °C.
 
 29) Ikke underlagt bestemmelsene for klasse 5.2 i ADR/RID.
 
 30) Fortynningsmiddel type B med kokepunkt > 130 °C
 
-31) Med £ 6.7 % aktivt oksygen
+31) Med ≤ 6.7 % aktivt oksygen
 
-32) Aktivt £ oksygen 4.15 %
+32) Aktivt ≤ oksygen 4.15 %
 
-33) Tilgjengelig oksygen £10 %
+33) Tilgjengelig oksygen ≤10 %
 
-34) Sum av fortynningsmiddel type A og vann ³ 55 %, og i tillegg
+34) Sum av fortynningsmiddel type A og vann ≥ 55 %, og i tillegg
 metyletylketon
 
 .. _2.2.61:
@@ -9076,12 +8895,12 @@ nedenstående tabell:
 |           |       | \ :sub:`50` |                | (mg/l)          |
 |           |       | (mg/kg)     |                |                 |
 +===========+=======+=============+================+=================+
-| Meget     | I     | £ 5         | £ 50           | £ 0,2           |
+| Meget     | I     | ≤ 5         | ≤ 50           | ≤ 0,2           |
 | giftig    |       |             |                |                 |
 +-----------+-------+-------------+----------------+-----------------+
-| Giftig    | II    | > 5 og £ 50 | > 50 £ 200     | > 0,2 og £ 2    |
+| Giftig    | II    | > 5 og ≤ 50 | > 50 ≤ 200     | > 0,2 og ≤ 2    |
 +-----------+-------+-------------+----------------+-----------------+
-| Svakt     | III   | > 50 £ 300  | > 200 og £     | > 2 og £ 4      |
+| Svakt     | III   | > 50 ≤ 300  | > 200 og ≤     | > 2 og ≤ 4      |
 | giftig    | :sup  |             | 1000           |                 |
 |           | :`a)` |             |                |                 |
 +-----------+-------+-------------+----------------+-----------------+
@@ -9135,15 +8954,15 @@ hvor «V» er konsentrasjonen av mettet damp (i ml/m\ :sup:`3` luft)
 |           | Emba         |                                          |
 |           | llasjegruppe |                                          |
 +===========+==============+==========================================+
-| Meget     | I            | Hvor V ³ 10 LC\ :sub:`50` og             |
-| giftig    |              | LC\ :sub:`50` £ 1 000 ml/m\ :sup:`3`     |
+| Meget     | I            | Hvor V ≥ 10 LC\ :sub:`50` og             |
+| giftig    |              | LC\ :sub:`50` ≤ 1 000 ml/m\ :sup:`3`     |
 +-----------+--------------+------------------------------------------+
-| Giftig    | II           | Hvor V ³ LC\ :sub:`50` og LC\ :sub:`50`  |
-|           |              | £ 3 000 ml/m\ :sup:`3` og kriteriene for |
+| Giftig    | II           | Hvor V ≥ LC\ :sub:`50` og LC\ :sub:`50`  |
+|           |              | ≤ 3 000 ml/m\ :sup:`3` og kriteriene for |
 |           |              | emballasjegruppe I ikke er oppfylt       |
 +-----------+--------------+------------------------------------------+
-| Svakt     | III          | Hvor V ³ 1/5 LC\ :sub:`50` og            |
-| giftig    | :sup:`a)`    | LC\ :sub:`50` £ 5.000 ml/m\ :sup:`3` og  |
+| Svakt     | III          | Hvor V ≥ 1/5 LC\ :sub:`50` og            |
+| giftig    | :sup:`a)`    | LC\ :sub:`50` ≤ 5.000 ml/m\ :sup:`3` og  |
 |           |              | kriteriene for emballasjegruppe I og II  |
 |           |              | ikke er oppfylt                          |
 +-----------+--------------+------------------------------------------+
@@ -9211,14 +9030,14 @@ c) beregning av forholdet mellom flyktighet og LC\ :sub:`50`:
 d) de beregnede verdiene for LC\ :sub:`50` (blanding) og R benyttes så
 til bestemmelse av emballasjegruppe for blandingen:
 
-Emballasjegruppe I når R ³ 10 og LC\ :sub:`50` (blanding) £ 1 000
+Emballasjegruppe I når R ≥ 10 og LC\ :sub:`50` (blanding) ≤ 1 000
 ml/m\ :sup:`3`
 
-Emballasjegruppe II når R ³ 1 og LC\ :sub:`50` (blanding) £ 3 000
+Emballasjegruppe II når R ≥ 1 og LC\ :sub:`50` (blanding) ≤ 3 000
 ml/m\ :sup:`3`, hvis blandingen ikke oppfyller kriteriene for
 emballasjegruppe I
 
-Emballasjegruppe III når R ³ 1/5 og LC\ :sub:`50` (blanding) £ 5.000
+Emballasjegruppe III når R ≥ 1/5 og LC\ :sub:`50` (blanding) ≤ 5.000
 ml/m\ :sup:`3`, hvis blandingen ikke oppfyller kriteriene for
 emballasjegruppe I eller II.
 
@@ -13677,13 +13496,13 @@ Tabell 2.2.8.1.5.3 Oppsummerende tabell for kriteriene i 2.2.8.1.5.3
 | sje-gr | gs-tid** | eriode** |                                     |
 | uppe** |          |          |                                     |
 +========+==========+==========+=====================================+
-| I      | £ 3 min. | £ 60     | Irreversibel skade på friskt hudvev |
+| I      | ≤ 3 min. | ≤ 60     | Irreversibel skade på friskt hudvev |
 |        |          | min.     |                                     |
 +--------+----------+----------+-------------------------------------+
-| II     | > 3 min. | £ 14 d   | Irreversibel skade på friskt hudvev |
-|        | £ 1 t    |          |                                     |
+| II     | > 3 min. | ≤ 14 d   | Irreversibel skade på friskt hudvev |
+|        | ≤ 1 t    |          |                                     |
 +--------+----------+----------+-------------------------------------+
-| III    | > 1 t £  | £ 14 d   | Irreversibel skade på friskt hudvev |
+| III    | > 1 t ≤  | ≤ 14 d   | Irreversibel skade på friskt hudvev |
 |        | 4 t      |          |                                     |
 +--------+----------+----------+-------------------------------------+
 | III    | -        | -        | Korrosjonshastighet på overflater   |
@@ -13797,7 +13616,7 @@ gruppe II eller III.
 ``2.2.8.1.6.3.2`` 
 
 Ved bruk av utregningsmetoden skal alle klasse 8 ingredienser tilstede i
-en konsentrasjon på ³ 1% tas i betraktning, eller < 1% hvis disse
+en konsentrasjon på ≥ 1% tas i betraktning, eller < 1% hvis disse
 ingrediensene likevel er relevante for klassifiseringen av blandingen
 som etsende på hud.
 
@@ -13845,7 +13664,7 @@ GCL = generisk konsentrasjonsgrense
 SCL\ :sub:`i` = spesifikk konsentrasjonsgrense tilordnet stoff i
 
 Kriteriet for en emballasjegruppe er oppfylt når resultatet av
-utregningen er ³ 1. De generiske konsentrasjonsgrensene som skal brukes
+utregningen er ≥ 1. De generiske konsentrasjonsgrensene som skal brukes
 i evalueringen i hvert steg i utregningsmetoden er angitt i figur
 2.2.8.1.6.3.
 
@@ -15165,7 +14984,7 @@ indikere at en rask bionedbrytning vil skje i de fleste miljøer. Dette
 er ferskvannstester og derfor er bruk av resultatene fra OECD Test
 Guideline 306, som er mer anvendbare for marine miljøer, også inkludert.
 Hvor slike data ikke er tilgjengelige, kan et BOD(5 dager)/COD forhold
-på ³ 0,5 ansees å indikere at rask bionedbrytning finner sted.
+på ≥ 0,5 ansees å indikere at rask bionedbrytning finner sted.
 
 Abiotisk nedbrytning slik som hydrolyse; både biotisk og abiotisk
 primærnedbrytning, bionedbrytning i ikke-akvatiske medier og påvist rask
@@ -15190,7 +15009,7 @@ sløyfes og vurderingen av bestått/ikke bestått foretas etter 28
 dager [16]_.
 
 b) I tilfeller der bare data for BOD og COD er tilgjengelig, når
-forholdet BOD5/COD ³ 0,5; eller
+forholdet BOD5/COD ≥ 0,5; eller
 
 c) Hvis andre overbevisende vitenskapelige data er tilgjengelige som kan
 vise at stoffet kan nedbrytes (biotisk og/eller abiotisk) i akvatisk
@@ -15218,13 +15037,13 @@ akvatisk miljø *(se ANM 1)*
 +---------------------------------------------------+------------------+
 | **Kategori akutt 1:** *(se ANM 2)*                |                  |
 +===================================================+==================+
-| 96 t LC\ :sub:`50` (for fisk)                     | £ 1 mg/l         |
+| 96 t LC\ :sub:`50` (for fisk)                     | ≤ 1 mg/l         |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| 48 t EC\ :sub:`50` (for krepsdyr)                 | £ 1 mg/l         |
+| 48 t EC\ :sub:`50` (for krepsdyr)                 | ≤ 1 mg/l         |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| 72 eller 96 t ErC\ :sub:`50` (for alger eller     | £ 1 mg/l *(se    |
+| 72 eller 96 t ErC\ :sub:`50` (for alger eller     | ≤ 1 mg/l *(se    |
 | andre akvatiske planter)                          | ANM 3)*          |
 +---------------------------------------------------+------------------+
 
@@ -15236,24 +15055,24 @@ tilfredsstillende data for kronisk giftighet
 +---------------------------------------------------+------------------+
 | **Kategori kronisk 1:** *(se ANM 2)*              |                  |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | ≤ 0,1 mg/l       |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | ≤ 0,1 mg/l       |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | ≤ 0,1 mg/l       |
 | andre akvatiske planter)                          |                  |
 +---------------------------------------------------+------------------+
 | **Kategori kronisk 2:**                           |                  |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | £ 1 mg/l         |
+| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | ≤ 1 mg/l         |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | £ 1 mg/l         |
+| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | ≤ 1 mg/l         |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | £ 1 mg/l         |
+| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | ≤ 1 mg/l         |
 | andre akvatiske planter)                          |                  |
 +---------------------------------------------------+------------------+
 
@@ -15263,24 +15082,24 @@ for kronisk giftighet
 +---------------------------------------------------+------------------+
 | **Kategori kronisk 1:** *(se ANM 2)*              |                  |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | £ 0,01 mg/l      |
+| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | ≤ 0,01 mg/l      |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | £ 0,01 mg/l      |
+| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | ≤ 0,01 mg/l      |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | £ 0,01 mg/l      |
+| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | ≤ 0,01 mg/l      |
 | andre akvatiske planter)                          |                  |
 +---------------------------------------------------+------------------+
 | **Kategori kronisk 2:**                           |                  |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for fisk)        | ≤ 0,1 mg/l       |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for krepsdyr)    | ≤ 0,1 mg/l       |
 |                                                   | og/eller         |
 +---------------------------------------------------+------------------+
-| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | £ 0,1 mg/l       |
+| Kronisk NOEC eller EC\ :sub:`x` (for alger eller  | ≤ 0,1 mg/l       |
 | andre akvatiske planter)                          |                  |
 +---------------------------------------------------+------------------+
 
@@ -15290,33 +15109,33 @@ tilgjengelig
 +--------------------------------------------+-------------------------+
 | **Kategori kronisk 1:** *(se ANM 2)*       |                         |
 +--------------------------------------------+-------------------------+
-| 96 t LC\ :sub:`50` (for fisk)              | £ 1 mg/l og/eller       |
+| 96 t LC\ :sub:`50` (for fisk)              | ≤ 1 mg/l og/eller       |
 +--------------------------------------------+-------------------------+
-| 48 t EC\ :sub:`50` (for krepsdyr)          | £ 1 mg/l og/eller       |
+| 48 t EC\ :sub:`50` (for krepsdyr)          | ≤ 1 mg/l og/eller       |
 +--------------------------------------------+-------------------------+
-| 72 eller 96 t ErC\ :sub:`50` (for alger    | £ 1 mg/l *(se ANM 3)*   |
+| 72 eller 96 t ErC\ :sub:`50` (for alger    | ≤ 1 mg/l *(se ANM 3)*   |
 | eller andre akvatiske planter)             |                         |
 +--------------------------------------------+-------------------------+
 | og stoffet er ikke raskt nedbrytbart       |                         |
-| og/eller BCF bestemt ved forsøk ³ 500      |                         |
+| og/eller BCF bestemt ved forsøk ≥ 500      |                         |
 | (eller, hvis fraværende, log K\ :sub:`ow`  |                         |
-| ³ 4) (se ANM 4 og 5).                      |                         |
+| ≥ 4) (se ANM 4 og 5).                      |                         |
 +--------------------------------------------+-------------------------+
 | **Kategori kronisk 2:**                    |                         |
 +--------------------------------------------+-------------------------+
-| 96 t LC\ :sub:`50` (for fisk)              | >1 men £ 10 mg/l        |
+| 96 t LC\ :sub:`50` (for fisk)              | >1 men ≤ 10 mg/l        |
 |                                            | og/eller                |
 +--------------------------------------------+-------------------------+
-| 48 t EC\ :sub:`50` (for krepsdyr)          | >1 men £ 10 mg/l        |
+| 48 t EC\ :sub:`50` (for krepsdyr)          | >1 men ≤ 10 mg/l        |
 |                                            | og/eller                |
 +--------------------------------------------+-------------------------+
-| 72 eller 96 t ErC\ :sub:`50` (for alger    | >1 men £ 10 mg/l *(se   |
+| 72 eller 96 t ErC\ :sub:`50` (for alger    | >1 men ≤ 10 mg/l *(se   |
 | eller andre akvatiske planter)             | ANM 3)*                 |
 +--------------------------------------------+-------------------------+
 | og stoffet er ikke raskt nedbrytbart       |                         |
-| og/eller BCF bestemt ved forsøk ³ 500      |                         |
+| og/eller BCF bestemt ved forsøk ≥ 500      |                         |
 | (eller, hvis fraværende, log K\ :sub:`ow`  |                         |
-| ³ 4) (se ANM 4 og 5).                      |                         |
+| ≥ 4) (se ANM 4 og 5).                      |                         |
 +--------------------------------------------+-------------------------+
 
 **ANM 1:** Organismene fisk, krepsdyr og alger inngår i forsøk som
@@ -15347,8 +15166,8 @@ nedbrytning. Når ingen anvendelige data om nedbrytbarhet er
 tilgjengelig, fastslåtte eller beregnede data, skal stoffet ansees som
 ikke raskt nedbrytbart.
 
-**ANM 5:** Potensialet for bioakkumulering, basert på en BCF ³ 500
-fastslått ved prøver eller, hvis fraværende, en log K\ :sub:`ow` ³ 4
+**ANM 5:** Potensialet for bioakkumulering, basert på en BCF ≥ 500
+fastslått ved prøver eller, hvis fraværende, en log K\ :sub:`ow` ≥ 4
 forutsatt at log K\ :sub:`ow` er en egnet deskriptor for
 bioakkumulasjonspotensialet til stoffet. Målte log K\ :sub:`ow` verdier
 har forrang over beregnede verdier og målte BCF verdier har forrang over
@@ -15394,25 +15213,25 @@ for det akvatiske miljø
 | Kategori: | kronisk 1**      | kronisk 1**     | 1**                 |
 | akutt 1** |                  |                 |                     |
 +-----------+------------------+-----------------+---------------------+
-| L(E)C\    | NOEC eller       | NOEC eller      | L(E)C\ :sub:`50` £  |
-| :sub:`50` | EC\ :sub:`x` £   | EC\ :sub:`x` £  | 1,00 og fravær av   |
-| £ 1,00    | 0,1              | 0,01            | rask nedbrytbarhet  |
-|           |                  |                 | og/eller BCF ³ 500  |
+| L(E)C\    | NOEC eller       | NOEC eller      | L(E)C\ :sub:`50` ≤  |
+| :sub:`50` | EC\ :sub:`x` ≤   | EC\ :sub:`x` ≤  | 1,00 og fravær av   |
+| ≤ 1,00    | 0,1              | 0,01            | rask nedbrytbarhet  |
+|           |                  |                 | og/eller BCF ≥ 500  |
 |           |                  |                 | eller, hvis         |
 |           |                  |                 | fraværende log      |
-|           |                  |                 | K\ :sub:`ow` ³ 4    |
+|           |                  |                 | K\ :sub:`ow` ≥ 4    |
 +-----------+------------------+-----------------+---------------------+
 |           | **Kategori:      | **Kategori:     | **Kategori: kronisk |
 |           | kronisk 2**      | kronisk 2**     | 2**                 |
 +-----------+------------------+-----------------+---------------------+
 |           | 0,1< NOEC eller  | 0,01< NOEC      | 1,00 <              |
-|           | EC\ :sub:`x` £ 1 | eller           | L(E)C\ :sub:`50` £  |
-|           |                  | EC\ :sub:`x` £  | 10,0 og fravær av   |
+|           | EC\ :sub:`x` ≤ 1 | eller           | L(E)C\ :sub:`50` ≤  |
+|           |                  | EC\ :sub:`x` ≤  | 10,0 og fravær av   |
 |           |                  | 0,1             | rask nedbrytbarhet  |
-|           |                  |                 | og/eller BCF ³ 500  |
+|           |                  |                 | og/eller BCF ≥ 500  |
 |           |                  |                 | eller, hvis         |
 |           |                  |                 | fraværende log      |
-|           |                  |                 | K\ :sub:`ow` ³ 4    |
+|           |                  |                 | K\ :sub:`ow` ≥ 4    |
 +-----------+------------------+-----------------+---------------------+
 
 **ANM 1:** Akutt giftighetsområde basert på L(E)C\ :sub:`50` verdier i
@@ -15516,7 +15335,7 @@ Klassifisering for kategorien akutt 1
 
 a) Når det er tilfredsstillende prøvedata for akutt giftighet
 (LC\ :sub:`50` eller EC\ :sub:`50`) tilgjengelig for blandingen som
-helhet som viser at L(E)C\ :sub:`50` £ 1 mg/l:
+helhet som viser at L(E)C\ :sub:`50` ≤ 1 mg/l:
 
 Klassifiser blandingen som akutt 1 i henhold til tabell 2.2.9.1.10.3.1
 (a);
@@ -15536,7 +15355,7 @@ Klassifisering for kategoriene kronisk 1 og 2
 
 a) Når det er tilfredsstillende data for kronisk giftighet (EC\ :sub:`x`
 eller NOEC) tilgjengelig for blandingen som helhet som viser at
-EC\ :sub:`x` eller NOEC av den prøvede blandingen £ 1 mg/l:
+EC\ :sub:`x` eller NOEC av den prøvede blandingen ≤ 1 mg/l:
 
 i. klassifiser blandingen som kronisk 1 eller 2 i henhold til tabell
 2.2.9.1.10.3.1 (b) (ii) (raskt nedbrytbare) hvis den tilgjengelige
@@ -15802,7 +15621,7 @@ ingredienser
 | Summen av konsentrasjonene (i %) av       | Blanding klassifisert    |
 | ingredienser klassifisert som:            | som:                     |
 +===========================================+==========================+
-| akutt 1 \* M\ :sup:`a` ³ 25%              | akutt 1                  |
+| akutt 1 \* M\ :sup:`a` ≥ 25%              | akutt 1                  |
 +-------------------------------------------+--------------------------+
 
 a. For forklaring av faktoren M, se 2.2.9.1.10.4.6.4.
@@ -15850,9 +15669,9 @@ ingredienser
 | Summen av konsentrasjonene (i %) til      | Blandingen klassifisert  |
 | ingredienser klassifisert som:            | som:                     |
 +===========================================+==========================+
-| kronisk 1 x M\ :sup:`a` ³ 25%             | kronisk 1                |
+| kronisk 1 x M\ :sup:`a` ≥ 25%             | kronisk 1                |
 +-------------------------------------------+--------------------------+
-| (M x10 x kronisk 1) + kronisk 2 ³ 25%     | kronisk 2                |
+| (M x10 x kronisk 1) + kronisk 2 ≥ 25%     | kronisk 2                |
 +-------------------------------------------+--------------------------+
 
 a. For forklaring av faktoren M, se 2.2.9.1.10.4.6.4.
@@ -15899,30 +15718,30 @@ ingredienser i blandinger
 |                 |      |                  | **ingr     | **ingr     |
 |                 |      |                  | edienser** | edienser** |
 +-----------------+------+------------------+------------+------------+
-| 0.1 <           | 1    | 0.01 < NOEC £    | 1          | -          |
+| 0.1 <           | 1    | 0.01 < NOEC ≤    | 1          | -          |
 | L               |      | 0.1              |            |            |
 | (E)C\ :sub:`50` |      |                  |            |            |
-| £ 1             |      |                  |            |            |
+| ≤ 1             |      |                  |            |            |
 +-----------------+------+------------------+------------+------------+
-| 0.01 <          | 10   | 0.001 < NOEC £   | 10         | 1          |
+| 0.01 <          | 10   | 0.001 < NOEC ≤   | 10         | 1          |
 | L               |      | 0.01             |            |            |
 | (E)C\ :sub:`50` |      |                  |            |            |
-| £ 0.1           |      |                  |            |            |
+| ≤ 0.1           |      |                  |            |            |
 +-----------------+------+------------------+------------+------------+
-| 0.001 <         | 100  | 0.0001 < NOEC£   | 100        | 10         |
+| 0.001 <         | 100  | 0.0001 < NOEC≤   | 100        | 10         |
 | L               |      | 0.001            |            |            |
 | (E)C\ :sub:`50` |      |                  |            |            |
-| £ 0.01          |      |                  |            |            |
+| ≤ 0.01          |      |                  |            |            |
 +-----------------+------+------------------+------------+------------+
-| 0.0001 <        | 1    | 0.00001 < NOEC £ | 1 000      | 100        |
+| 0.0001 <        | 1    | 0.00001 < NOEC ≤ | 1 000      | 100        |
 | L               | 000  | 0.0001           |            |            |
 | (E)C\ :sub:`50` |      |                  |            |            |
-| £ 0.001         |      |                  |            |            |
+| ≤ 0.001         |      |                  |            |            |
 +-----------------+------+------------------+------------+------------+
 | 0.00001 <       | 10   | 0.000001 < NOEC  | 10 000     | 1000       |
-| L               | 000  | £ 0.00001        |            |            |
+| L               | 000  | ≤ 0.00001        |            |            |
 | (E)C\ :sub:`50` |      |                  |            |            |
-| £ 0.0001        |      |                  |            |            |
+| ≤ 0.0001        |      |                  |            |            |
 +-----------------+------+------------------+------------+------------+
 | (fortsett i     |      | (fortsett i      |            |            |
 | intervaller med |      | intervaller med  |            |            |
