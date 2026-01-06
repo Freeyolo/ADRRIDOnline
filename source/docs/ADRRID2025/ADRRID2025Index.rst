@@ -1,5 +1,5 @@
 ADR/RID 2025
-==============================
+============
 
 .. toctree::
    :maxdepth: 2
@@ -11,3 +11,4 @@ ADR/RID 2025
    Del4/Del4_index
    Del5/Del5_index
    Del6/Del6_index
+   Del7/Del7_index
