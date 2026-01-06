@@ -28,29 +28,29 @@ kapittel 2, avsnitt 1 nummeret «4.2.1».
 
 ``1.1.2.1`` ADR: Slik uttrykkene er brukt i ADR-avtalens artikkel 2, angir bilag A:
 
-   a) farlig gods som ikke tillates transportert internasjonalt;
+a) farlig gods som ikke tillates transportert internasjonalt;
 
-   b) farlig gods som tillates transportert internasjonalt og de vilkår (og unntak) som gjelder, spesielt når det gjelder:
+b) farlig gods som tillates transportert internasjonalt og de vilkår (og unntak) som gjelder, spesielt når det gjelder:
 
-      - klassifisering av gods, inklusive klassifiseringskriterier og relevante testmetoder;
-      - bruk av emballasje (inklusive samemballering);
-      - bruk av tanker (inklusive fylling);
-      - klargjøring for forsendelse (inklusive merking og faresedler på kolli og faresedler på transportmidlene såvel som dokumentasjon og opplysninger som skal fremlegges);
-      - bestemmelser om utførelse, testing og godkjenning av emballasje og tanker;
-      - bruken av transportmidler (inklusive lasting, samlasting og lossing).
+   - klassifisering av gods, inklusive klassifiseringskriterier og relevante testmetoder;
+   - bruk av emballasje (inklusive samemballering);
+   - bruk av tanker (inklusive fylling);
+   - klargjøring for forsendelse (inklusive merking og faresedler på kolli og faresedler på transportmidlene såvel som dokumentasjon og opplysninger som skal fremlegges);
+   - bestemmelser om utførelse, testing og godkjenning av emballasje og tanker;
+   - bruken av transportmidler (inklusive lasting, samlasting og lossing).
 
 **RID: For formålet med artikkel 1 i vedlegg C, fastsetter RID:**
 
-   a) farlig gods som ikke tillates transportert internasjonalt;
+a) farlig gods som ikke tillates transportert internasjonalt;
 
-   b) farlig gods som tillates transportert internasjonalt og de vilkår (inklusive unntak) som gjelder for dette godset, spesielt med hensyn til:
+b) farlig gods som tillates transportert internasjonalt og de vilkår (inklusive unntak) som gjelder for dette godset, spesielt med hensyn til:
 
-      - tilordning (klassifisering) av gods, inklusive kriterier for tilordning og relevante testmetoder;
-      - bruk av emballasje (inklusive samemballering)
-      - bruk av tanker (inklusive fylling);
-      - klargjøring for forsendelse (inklusive merking og faresedler på kolli og faresedler på transportmidlene såvel som dokumentasjon og opplysninger som skal fremlegges);
-      - bestemmelser om utførelse, testing og godkjenning av emballasje og tanker;
-      - bruken av transportmidler (inklusive lasting, samlasting og lossing).
+   - tilordning (klassifisering) av gods, inklusive kriterier for tilordning og relevante testmetoder;
+   - bruk av emballasje (inklusive samemballering)
+   - bruk av tanker (inklusive fylling);
+   - klargjøring for forsendelse (inklusive merking og faresedler på kolli og faresedler på transportmidlene såvel som dokumentasjon og opplysninger som skal fremlegges);
+   - bestemmelser om utførelse, testing og godkjenning av emballasje og tanker;
+   - bruken av transportmidler (inklusive lasting, samlasting og lossing).
 
 **RID: For transport i henhold til RID gjelder i tillegg til vedlegg C, de andre relevante bestemmelsene i vedleggene til COTIF, spesielt de i vedlegg B for transport i henhold til en transportkontrakt.**
 
@@ -107,8 +107,8 @@ bestemmelser om kjøretøyer for transport av farlig gods som er tillatt å
 transportere med hensyn til hvordan de skal være bygget og utstyrt, samt
 bestemmelser om bruk:
 
-   - bestemmelser som gjelder kjøretøymannskaper, utstyr, drift og dokumentasjon
-   - bestemmelser om hvordan kjøretøyer skal være bygget og godkjent.
+- bestemmelser som gjelder kjøretøymannskaper, utstyr, drift og dokumentasjon
+- bestemmelser om hvordan kjøretøyer skal være bygget og godkjent.
 
 RID: For transport av håndbagasje, registrert bagasje eller i eller på
 kjøretøyer i henhold til artikkel 5 § 1 b) i vedlegg C gjelder bare
@@ -142,35 +142,35 @@ kontraherende stater selv.
 
 ADR-avtalens bestemmelser/RID gjelder ikke for:
 
-   a) |
+a) |
 
-      i) transport av farlig gods som foretas av privatpersoner når godset er
-      emballert for detaljsalg og er beregnet for deres personlige bruk eller
-      bruk i husholdningen, eller for deres fritids- eller sportsaktiviteter
-      forutsatt at det er truffet tiltak for å hindre lekkasje av det farlige
-      godset under normale transportforhold. Når dette godset er brannfarlige
-      væsker i refyllbare beholdere fylt av eller for en privatperson, skal
-      det totale innhold ikke overskride 60 liter pr beholder og for ADR 240
-      liter pr transportenhet. Farlig gods i mellomstore bulkcontainere
-      (IBCer), storemballasje eller tanker er ikke ansett som pakket for
-      detaljsalg;
+   i) transport av farlig gods som foretas av privatpersoner når godset er
+   emballert for detaljsalg og er beregnet for deres personlige bruk eller
+   bruk i husholdningen, eller for deres fritids- eller sportsaktiviteter
+   forutsatt at det er truffet tiltak for å hindre lekkasje av det farlige
+   godset under normale transportforhold. Når dette godset er brannfarlige
+   væsker i refyllbare beholdere fylt av eller for en privatperson, skal
+   det totale innhold ikke overskride 60 liter pr beholder og for ADR 240
+   liter pr transportenhet. Farlig gods i mellomstore bulkcontainere
+   (IBCer), storemballasje eller tanker er ikke ansett som pakket for
+   detaljsalg;
 
-      ii) transport av farlig gods som foretas av privatpersoner innenfor
-      grensene definert i pkt. a) (i) beregnet i utgangspunktet for deres
-      personlige bruk eller bruk i husholdningen eller for fritids- eller
-      sportsaktiviteter, og som transporteres som avfall, inkludert tilfellene
-      der dette farlige godset ikke lenger er emballert i den opprinnelige
-      emballasjen for detaljsalg, forutsatt at det er truffet tiltak for å
-      hindre lekkasje under normale transportforhold;
+   ii) transport av farlig gods som foretas av privatpersoner innenfor
+   grensene definert i pkt. a) (i) beregnet i utgangspunktet for deres
+   personlige bruk eller bruk i husholdningen eller for fritids- eller
+   sportsaktiviteter, og som transporteres som avfall, inkludert tilfellene
+   der dette farlige godset ikke lenger er emballert i den opprinnelige
+   emballasjen for detaljsalg, forutsatt at det er truffet tiltak for å
+   hindre lekkasje under normale transportforhold;
 
-   b) (Slettet)
+b) (Slettet)
 
-   c) transport som utføres av foretak som ledd i deres hovedvirksomhet, slik som utkjøring til eller retur fra bygg- og anleggsområder eller som er knyttet til undersøkelser, reparasjoner og vedlikehold, når mengden pr. emballasje, inkludert mellomstore bulkcontainere (IBCer) og storemballasje, ikke overstiger 450 liter og for ADR innenfor de maksimale mengder som er angitt i 1.1.3.6 og for RID innenfor de maksimale mengder i 1.1.3.6.3. Det skal treffes tiltak for å hindre lekkasje av det farlige godset under normale transportforhold. Disse unntakene gjelder ikke for klasse 7. Transport som utføres av slike foretak for tilførsel, eller for ekstern eller intern distribusjon, omfattes ikke av dette unntaket;
+c) transport som utføres av foretak som ledd i deres hovedvirksomhet, slik som utkjøring til eller retur fra bygg- og anleggsområder eller som er knyttet til undersøkelser, reparasjoner og vedlikehold, når mengden pr. emballasje, inkludert mellomstore bulkcontainere (IBCer) og storemballasje, ikke overstiger 450 liter og for ADR innenfor de maksimale mengder som er angitt i 1.1.3.6 og for RID innenfor de maksimale mengder i 1.1.3.6.3. Det skal treffes tiltak for å hindre lekkasje av det farlige godset under normale transportforhold. Disse unntakene gjelder ikke for klasse 7. Transport som utføres av slike foretak for tilførsel, eller for ekstern eller intern distribusjon, omfattes ikke av dette unntaket;
 
-   d) ADR: Transport som foretas av vedkommende myndighet for redningstjeneste, eller under deres ledelse, for så vidt som slik transport er nødvendig i forbindelse med redningsoppdraget, spesielt transport som utføres:
+d) ADR: Transport som foretas av vedkommende myndighet for redningstjeneste, eller under deres ledelse, for så vidt som slik transport er nødvendig i forbindelse med redningsoppdraget, spesielt transport som utføres:
 
-      - av bergingskjøretøyer ved transport av kjøretøyer som har vært innblandet i ulykker eller utsatt for havari, og som inneholder farlig gods; eller
-      - i samband med opprenskning og sikring av det farlige godset som har vært involvert i et uhell eller en ulykke, og for å transportere det til nærmeste passende sikre sted;
+   - av bergingskjøretøyer ved transport av kjøretøyer som har vært innblandet i ulykker eller utsatt for havari, og som inneholder farlig gods; eller
+   - i samband med opprenskning og sikring av det farlige godset som har vært involvert i et uhell eller en ulykke, og for å transportere det til nærmeste passende sikre sted;
 
 RID: Transport som foretas av vedkommende myndighet for redningstjeneste
 eller under deres ledelse i forbindelse med redningsoppdrag. Dette
@@ -178,19 +178,19 @@ gjelder spesielt transport som gjennomføres i samband med opprenskning
 og sikring av det farlige godset som har vært involvert i uhellet og for
 å transportere det til nærmeste hensiktsmessige sikre sted;
 
-   e) transport i nødsituasjoner når formålet er å redde menneskeliv eller
-      beskytte miljøet forutsatt at alle forholdsregler er tatt for å sikre at
-      transporten blir utført fullstendig sikkert;
+e) transport i nødsituasjoner når formålet er å redde menneskeliv eller
+   beskytte miljøet forutsatt at alle forholdsregler er tatt for å sikre at
+   transporten blir utført fullstendig sikkert;
 
-   f) transport av tomme, ikke rengjorte stasjonære tanker som har
-      inneholdt gasser av klasse 2, gruppe A, O eller F, stoffer av klasse 3
-      eller 9 i emballasjegruppe II eller III, eller bekjempningsmidler av
-      klasse 6.1 tilhørende emballasjegruppe II eller III under følgende
-      forutsetninger:
+f) transport av tomme, ikke rengjorte stasjonære tanker som har
+   inneholdt gasser av klasse 2, gruppe A, O eller F, stoffer av klasse 3
+   eller 9 i emballasjegruppe II eller III, eller bekjempningsmidler av
+   klasse 6.1 tilhørende emballasjegruppe II eller III under følgende
+   forutsetninger:
 
-      - alle åpninger, med unntak av trykkavlastningsventiler når slike er montert, skal være hermetisk lukket;
-      - nødvendige tiltak er tatt for å hindre lekkasje under normale transportforhold;
-      - lasten er fiksert i vugger, sprinkelkasser eller andre håndteringsinnretninger eller til kjøretøyet/vognen eller containeren på en slik måte at de ikke kan løsne eller flytte på seg under normale transportforhold.
+   - alle åpninger, med unntak av trykkavlastningsventiler når slike er montert, skal være hermetisk lukket;
+   - nødvendige tiltak er tatt for å hindre lekkasje under normale transportforhold;
+   - lasten er fiksert i vugger, sprinkelkasser eller andre håndteringsinnretninger eller til kjøretøyet/vognen eller containeren på en slik måte at de ikke kan løsne eller flytte på seg under normale transportforhold.
 
 Dette unntaket gjelder ikke stasjonære tanker som har inneholdt
 desensiterte eksplosiver eller stoffer som ikke er tillatt transportert
