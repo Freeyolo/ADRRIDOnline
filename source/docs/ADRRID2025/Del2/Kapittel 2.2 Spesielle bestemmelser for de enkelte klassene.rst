@@ -14157,70 +14157,53 @@ forårsake korrosjon på visse metalloverflater i henhold til kriteriene i
 C1-C11 Etsende stoffer uten tilleggsfare og gjenstander inneholdende
 slike stoffer
 
-   C1-C4 Sure stoffer
+- C1-C4 Sure stoffer
 
-   C1 Uorganiske væsker
+  - C1 Uorganiske væsker
+  - C2 Uorganiske faste stoffer
+  - C3 Organiske væsker
+  - C4 Organiske faste stoffer
 
-   C2 Uorganiske faste stoffer
+- C5-C8 Basiske stoffer
 
-   C3 Organiske væsker
+  - C5 Uorganiske væsker
+  - C6 Uorganiske faste stoffer
+  - C7 Organiske væsker
+  - C8 Organiske faste stoffer
 
-   C4 Organiske faste stoffer
+- C9-C11 Andre etsende stoffer
 
-   C5-C8 Basiske stoffer
+  - C9 Flytende
+  - C10 I fast form
+  - C11 Gjenstander
 
-   C5 Uorganiske væsker
+- CF Etsende stoffer, brannfarlige
 
-   C6 Uorganiske faste stoffer
+  - CF1 Flytende
+  - CF2 I fast form
+  - CS Etsende stoffer, selvantennende
+  - CS1 Flytende
+  - CS2 I fast form
 
-   C7 Organiske væsker
+- CW Etsende stoffer som utvikler brannfarlige gasser i kontakt med vann
 
-   C8 Organiske faste stoffer
+  - CW1 Flytende
+  - CW2 I fast form
 
-   C9-C11 Andre etsende stoffer
+-  CO Etsende stoffer, oksiderende
 
-   C9 Flytende
+  - CO1 Flytende
+  - CO2 I fast form
 
-   C10 I fast form
+- CT Etsende stoffer, giftige og gjenstander inneholdende slike stoffer
 
-   C11 Gjenstander
+  - CT1 Flytende
+  - CT2 I fast form
+  - CT3 Gjenstander
 
-   CF Etsende stoffer, brannfarlige
+- CFT Etsende stoffer, brannfarlige, flytende, giftige
 
-   CF1 Flytende
-
-   CF2 I fast form
-
-   CS Etsende stoffer, selvantennende
-
-   CS1 Flytende
-
-   CS2 I fast form
-
-   CW Etsende stoffer som utvikler brannfarlige gasser i kontakt med
-   vann
-
-   CW1 Flytende
-
-   CW2 I fast form
-
-   CO Etsende stoffer, oksiderende
-
-   CO1 Flytende
-
-   CO2 I fast form
-
-   CT Etsende stoffer, giftige og gjenstander inneholdende slike stoffer
-
-   CT1 Flytende
-
-   CT2 I fast form
-
-   CT3 Gjenstander
-
-   CFT Etsende stoffer, brannfarlige, flytende, giftige
-
-   COT Etsende stoffer, oksiderende, giftige
+- COT Etsende stoffer, oksiderende, giftige
 
 .. _2.2.8.1.4.2:
 
