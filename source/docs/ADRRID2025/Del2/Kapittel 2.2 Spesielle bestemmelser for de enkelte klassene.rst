@@ -2349,7 +2349,9 @@ slimhinner, eller når LC\ :sub:`50` for blandingens etsende komponenter
 er lik med eller lavere enn 5000 ml / m\ :sup:`3` (ppm) når
 LC\ :sub:`50` er beregnet med formelen:
 
-:math:`\text{LC}_{50}\text{Etsende(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{ci}}{T_{ci}}}`
+.. math:: 
+
+  \text{LC}_{50}\text{Etsende(blanding)} = \frac{1}{\displaystyle \sum_{i=1}^{n} \frac{f_{ci}}{T_{ci}}}
 
 hvor: 
 
