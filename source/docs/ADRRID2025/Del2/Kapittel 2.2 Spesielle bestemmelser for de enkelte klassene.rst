@@ -9151,6 +9151,7 @@ komponenter; eller
 b) Denne formelen kan benyttes:
 
 .. math::
+
   \frac{C_A}{T_A} + \frac{C_B}{T_B} + \dots + \frac{C_Z}{T_Z} = \frac{100}{T_M}
 
 hvor:
