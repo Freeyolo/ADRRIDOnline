@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('#TabellA').DataTable({
+        autoWidth: false,
         paging: true,
         searching: true,
         ordering: false,
