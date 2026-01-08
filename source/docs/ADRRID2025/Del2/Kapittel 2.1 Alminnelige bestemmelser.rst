@@ -17,30 +17,18 @@ Kapittel 2.1 Alminnelige bestemmelser
 Følgende klasser av farlig gods anvendes av ADR/RID:
 
 Klasse 1 Eksplosive stoffer og gjenstander
-
 Klasse 2 Gasser
-
 Klasse 3 Brannfarlige væsker
-
 Klasse 4.1 Brannfarlige faste stoffer, selvreaktive stoffer,
 polymeriserende stoffer og faste eksplosivstoffer som er gjort ufølsomme
-
 Klasse 4.2 Selvantennende stoffer
-
 Klasse 4.3 Stoffer som utvikler brannfarlige gasser i kontakt med vann
-
 Klasse 5.1 Oksiderende stoffer
-
 Klasse 5.2 Organiske peroksider
-
 Klasse 6.1 Giftige stoffer
-
 Klasse 6.2 Infeksjonsfremmende stoffer
-
 Klasse 7 Radioaktivt materiale
-
 Klasse 8 Etsende stoffer
-
 Klasse 9 Forskjellige farlige stoffer og gjenstander
 
 .. _2.1.1.2:
@@ -53,38 +41,31 @@ UN-nummer. Følgende typer oppføringer benyttes:
 A. Enkeltoppføring for klart definerte stoffer eller gjenstander,
 inklusive oppføringer for stoffer som dekker flere isomerer, f. eks:
 
-UN 1090 ACETON
-
-UN 1104 AMYLACETATER
-
-UN 1194 ETYLNITRITTLØSNING
+   UN 1090 ACETON
+   UN 1104 AMYLACETATER
+   UN 1194 ETYLNITRITTLØSNING
 
 B. Beskrivende oppføringer for en klart definert gruppe av stoffer eller
 gjenstander, som ikke er n.o.s-oppføringer, f.eks:
 
-UN 1133 LIM
-
-UN 1266 PARFYMEPRODUKTER
-
-UN 2757 KARBAMAT BEKJEMPNINGSMIDDEL, FAST, GIFTIG
-
-UN 3101 ORGANISK PEROKSID TYPE B, FLYTENDE
+   UN 1133 LIM
+   UN 1266 PARFYMEPRODUKTER
+   UN 2757 KARBAMAT BEKJEMPNINGSMIDDEL, FAST, GIFTIG
+   UN 3101 ORGANISK PEROKSID TYPE B, FLYTENDE
 
 C. Spesifikke n.o.s-oppføringer som dekker en gruppe stoffer eller
 gjenstander med bestemte kjemiske eller tekniske egenskaper som ikke er
 betegnet på annen måte, f.eks:
 
-UN 1477 NITRATER, UORGANISKE, N.O.S.
-
-UN 1987 ALKOHOLER, N.O.S.
+   UN 1477 NITRATER, UORGANISKE, N.O.S.
+   UN 1987 ALKOHOLER, N.O.S.
 
 D. Alminnelige n.o.s.-oppføringer som dekker en gruppe stoffer eller
 gjenstander som har en eller flere farlige egenskaper, som ikke er
 betegnet på annen måte, f.eks:
 
-UN 1325 BRANNFARLIG FAST STOFF, ORGANISK, N.O.S.
-
-UN 1993 BRANNFARLIG VÆSKE, N.O.S.
+   UN 1325 BRANNFARLIG FAST STOFF, ORGANISK, N.O.S.
+   UN 1993 BRANNFARLIG VÆSKE, N.O.S.
 
 De oppføringene som er definert under B, C og D kalles samleoppføringer.
 
