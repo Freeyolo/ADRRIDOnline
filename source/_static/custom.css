@@ -1,5 +1,5 @@
 div.admonition.admonition-rid {
-  border-color: hsl(245deg 27.3% 17.3%);
+  border-color: rgb(34, 32, 56);
 }
 
 div.admonition.admonition-rid > .admonition-title {
@@ -8,6 +8,6 @@ div.admonition.admonition-rid > .admonition-title {
 }
 
 div.admonition.admonition-rid > .admonition-title::after {
-  color: hsl(245deg 27.3% 17.3%);
+  color: rgb(34, 32, 56);
   content: "\f238"; /* fa-solid fa-train */
 }
