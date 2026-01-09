@@ -11,7 +11,8 @@ definisjoner.
 
 I ADR/RID har følgende uttrykk den betydningen som er angitt:
 
-*A*
+A
+"
 
 *«Aerosol og aerosolbeholder»* betyr en gjenstand som består av enhver
 engangsbeholder av metall, glass eller plast, som oppfyller kravene i
@@ -54,7 +55,8 @@ eller på vegne av en tredje part. Dersom transporten utføres i henhold
 til en transportkontrakt, er avsenderen den som er avsender i henhold
 til denne kontrakten;
 
-*B*
+B
+"
 
 *«Batterikjøretøy»* (ADR) er et kjøretøy med elementer som er innbyrdes
 forbundet med et samlerør og fast montert til dette kjøretøyet. Følgende
