@@ -11,7 +11,7 @@ Kapittel 1.2 Definisjoner, måleenheter og forkortelser
 **ANM:** Denne delen inneholder alle generelle og spesielle
 definisjoner.
 
-:ref:`A <1.2.1A>` :ref:`B <1.2.1B>` :ref:`C <1.2.1C>`
+:ref:`A <1.2.1A>` :ref:`B <1.2.1B>` :ref:`C <1.2.1C>` :ref:`D <1.2.1D>` :ref:`E <1.2.1E>` :ref:`F <1.2.1F>` :ref:`G <1.2.1G>` :ref:`H <1.2.1H>` :ref:`I <1.2.1I>` :ref:`J <1.2.1J>` :ref:`K <1.2.1K>` :ref:`L <1.2.1L>` :ref:`M <1.2.1M>` :ref:`N <1.2.1N>` :ref:`O <1.2.1O>` :ref:`P <1.2.1P>` :ref:`Q <1.2.1Q>` :ref:`R <1.2.1R>` :ref:`S <1.2.1S>` :ref:`T <1.2.1T>` :ref:`U <1.2.1U>` :ref:`V <1.2.1V>` :ref:`Y <1.2.1Y>` :ref:`Å <1.2.1AA>` 
 
 I ADR/RID har følgende uttrykk den betydningen som er angitt:
 
