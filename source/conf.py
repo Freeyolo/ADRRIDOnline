@@ -79,7 +79,8 @@ html_js_files = [
 ]
 
 html_css_files = [
-    "https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css",  # DataTables CSS
+    "https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css", # DataTables CSS
+    "custom.css",
 ]
 
 

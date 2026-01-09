@@ -1,0 +1,13 @@
+div.admonition.admonition-rid {
+  border-color: hsl(245deg 27.3% 17.3%);
+}
+
+div.admonition.admonition-rid > .admonition-title {
+  background-color: hsl(60deg 100% 14%);
+  color: white;
+}
+
+div.admonition.admonition-rid > .admonition-title::after {
+  color: hsl(245deg 27.3% 17.3%);
+  content: "\f238"; /* fa-solid fa-train */
+}
