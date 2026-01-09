@@ -3,13 +3,19 @@
 Kapittel 1.2 Definisjoner, måleenheter og forkortelser
 ======================================================
 
+.. _1.2.1:
+
 1.2.1 Definisjoner
 ^^^^^^^^^^^^^^^^^^
 
 **ANM:** Denne delen inneholder alle generelle og spesielle
 definisjoner.
 
+:ref:`A <1.2.1A>` :ref:`B <1.2.1B>` :ref:`C <1.2.1C>`
+
 I ADR/RID har følgende uttrykk den betydningen som er angitt:
+
+.. _1.2.1A:
 
 A
 "
@@ -54,6 +60,8 @@ hensikt å opprettholde kritikalitetssikkerhet;
 eller på vegne av en tredje part. Dersom transporten utføres i henhold
 til en transportkontrakt, er avsenderen den som er avsender i henhold
 til denne kontrakten;
+
+.. _1.2.1B:
 
 B
 "
@@ -169,7 +177,10 @@ inntrengning av regn eller vannsprut;
 kapasitet som ikke overstiger 15 m\ :sup:`3` og som inkluderer fôringer,
 håndteringsinnretninger og serviceutstyr.
 
+.. _1.2.1C:
+
 C
+"
 
 *«CNG- komprimert naturgass»* betyr komprimert gass som består av
 naturgass med høyt metaninnhold tilordnet UN-nr. 1971;
@@ -234,7 +245,10 @@ plattform-container;
 tankcontainere eller kjøretøyer, likevel kan containere brukes som
 emballasje for transport av radioaktivt materiale.
 
+.. _1.2.1D:
+
 D
+"
 
 *«Deteksjonssystem for stråling»* betyr et apparat som inneholder
 strålingsdetektorer som komponenter;
@@ -273,7 +287,11 @@ strukturelt utstyr, f.eks. for håndtering.
 brennstoff eller gass direkte og ikke bruker spillvarme fra kjøretøyets
 fremdriftsmotor;
 
+
+.. _1.2.1E:
+
 E
+"
 
 *«EF-direktiv» (ADR)* er bestemmelser som er vedtatt av vedkommende
 institusjoner i Det europeiske fellesskap og som er bindende for de
@@ -317,7 +335,10 @@ en ventil;
 
 *«Engangs trykkbeholder med gass»* se *«Aerosolbeholder»;*
 
-*F*
+.. _1.2.1F:
+
+F
+"
 
 *«Faretemperatur»* er den temperaturen hvor det skal iverksettes
 nødprosedyrer i tilfelle temperaturen ikke lenger lar seg kontrollere;
@@ -418,7 +439,10 @@ til en væske eller et fast stoff som blir introdusert i en beholder ved
 15 ºC og volumet til denne beholderen når den er klar for bruk (engelsk
 ADR/RID: «degree of filling»).
 
+.. _1.2.1G:
+
 G
+"
 
 *«Gass»* er et stoff som:
 
@@ -518,7 +542,10 @@ opprinnelseslandet ikke har tiltrådt ADR/RID, skal godkjenningen
 stadfestes av vedkommende myndighet i en ADR/RID-kontraherende stat (se
 6.4.22.8);
 
+.. _1.2.1H:
+
 H
+"
 
 *«Hermetisk lukket tank»* er en tank som:
 
@@ -590,7 +617,10 @@ inneslutningssystemet i løpet av et år under temperaturforhold og
 solbestråling svarende til omgivelsene når det ikke er lufting, utvendig
 kjøling fra et hjelpesystem eller regulering under transporten.
 
+.. _1.2.1I:
+
 I
+"
 
 *«IAEA Regulations for the Safe Transport of Radioactive Material»*
 betyr en av de følgende utgavene av disse bestemmelsene:
@@ -652,7 +682,10 @@ det sammensatte system av de komponenter i emballasjen som konstruktøren
 har spesifisert for å holde det radioaktive materiale innesluttet under
 transporten;
 
+.. _1.2.1J:
+
 J
+"
 
 **«Jernbaneinfrastruktur»** (RID) betyr de jernbanespor og fast utstyr
 som er nødvendig for forflytning av jernbanetrafikk og
@@ -662,7 +695,10 @@ transportsikkerhet;
 
 **«Jernbanetankvogn»**, se **«Tankvogn»** (RID)
 
+.. _1.2.1K:
+
 K
+"
 
 *«Kanne»* er en emballasje av metall eller plast som har rektangulært
 eller mangekantet tverrsnitt og en eller flere åpninger;
@@ -778,7 +814,10 @@ inspeksjonsrutiner som en organisasjon eller institusjon anvender med
 sikte på å etablere tillit til at sikkerhetsbestemmelsene i ADR blir
 fulgt i praksis;
 
+.. _1.2.1L:
+
 L
+"
 
 *«Lasteenhet»* *(Cargo transport unit)* er et kjøretøy **for veg**, en
 vogn, en container, en tank container, multimodal tank eller en MEGC;
@@ -852,7 +891,10 @@ kan håndteres når den er tom.
 spesielle utstyret på en jernbanevogn men som bare kan fjernes fra denne
 etter demontering av dens festeanordninger;
 
-*M*
+.. _1.2.1M:
+
+M
+"
 
 *«Manual of Tests and Criteria (UN Testmanualen)»* betyr den åttende
 reviderte utgaven av publikasjonen fra de Forente Nasjoner med denne
@@ -936,7 +978,10 @@ kapasitet på over 450 liter;
 «\ *Multimodal tankoperatør*\ » se *«Tankcontainer/multimodal
 tankoperatør»*;
 
+.. _1.2.1N:
+
 N
+"
 
 *«Netto eksplosivmasse (NEM)»* (*Net explosive mass*) betyr den totale
 masse av de eksplosive stoffene, uten emballasje, hylse etc. (*Netto
@@ -959,7 +1004,10 @@ Et slikt instrument kan inneholde gass i en hermetisk forseglet
 elektronrør omformer som konverterer nøytronståling til et målbart
 elektrisk signal;
 
+.. _1.2.1O:
+
 O
+"
 
 *«Offshore bulkcontainer»* er en bulkcontainer spesielt konstruert til
 gjentatt bruk for transport til, fra og mellom offshore installasjoner.
@@ -987,7 +1035,10 @@ sveiset indre gassflaskeskall av stål som er overstøpt med en ikke
 avtagbar beskyttelseskappe laget av celleplast på stålgassflaskeskallets
 ytre overflate.
 
-*P*
+.. _1.2.1P:
+
+P
+"
 
 *«Pakker»* er enhver virksomhet som pakker farlig gods i emballasje,
 inklusive storemballasje og mellomstore bulkcontainere (IBCer) og, om
@@ -1021,7 +1072,10 @@ førstegangs- og periodisk kontroll (se også *«Beregningstrykk»*,
 *«Påfyllingstrykk»* er det største trykk som faktisk oppstår i tanken
 når den fylles under trykk (se også *«Beregningstrykk», «Tømmingstrykk»,«Høyeste arbeidstrykk (overtrykk)» og «Prøvetrykk»)*;
 
-*R*
+.. _1.2.1R:
+
+R
+"
 
 *«Radioaktivt innhold»* for transport av radioaktivt materiale, er det
 radioaktive materialet medregnet alt forurenset eller aktivert fast
@@ -1141,7 +1195,10 @@ beskrives i spesifikasjonen for denne type IBC (f.eks. reparasjon av ben
 eller løfteanordninger) under forutsetning av at slik reparasjon ikke
 innvirker på selve beholderens funksjon.
 
+.. _1.2.1S:
+
 S
+"
 
 *«Samleposisjon»* er en posisjon som omfatter en definert gruppe av
 stoffer eller gjenstander (se 2.1.1.2, B, C og D);
@@ -1292,7 +1349,10 @@ N/mm\ :sup:`2` og 440 N/mm\ :sup:`2`;
 eller komposittkonstruksjon, med vannvolum over 150 liter, men ikke over
 3000 liter;
 
+.. _1.2.1T:
+
 T
+"
 
 *«Tank»* er et tankskall med tilhørende driftsutstyr og strukturelt
 utstyr. Når betegnelsen tank brukes alene, menes en tankcontainer,
@@ -1426,7 +1486,10 @@ definisjonene for fat eller kanner;
 den tømmes under trykk (se også *«Beregningstrykk», «Påfyllingstrykk»,
 «Høyeste arbeidstrykk (overtrykk)» og «Prøvetrykk»);*
 
+.. _1.2.1U:
+
 U
+"
 
 *«UN-nummer»* er det firesifrede identifikasjonsnummeret som stoffet
 eller gjenstanden har i FNs regelverksmal;
@@ -1435,7 +1498,10 @@ eller gjenstanden har i FNs regelverksmal;
 eller ramme som er festet til selve sekken eller dannet av en
 forlengelse av materialet i denne;
 
+.. _1.2.1V:
+
 V
+"
 
 *«Vakuumventil»* er en fjærbelastet innretning som automatisk trer i
 funksjon ved trykk og som har til formål å beskytte tanken mot
@@ -1487,7 +1553,11 @@ flytende tilstand»:
 
 – Faste stoffer som leveres for transport i smeltet tilstand.
 
+
+.. _1.2.1Y:
+
 Y
+"
 
 *«Ytteremballasje»* er den utvendige beskyttelsen på kompositt
 emballasje eller sammensatt emballasje sammen med eventuelle
@@ -1495,7 +1565,10 @@ absorberende og støtdempende materialer og eventuelle andre komponenter
 som er nødvendige for å inneslutte og beskytte innerbeholdere eller
 inneremballasje;
 
+.. _1.2.1AA:
+
 Å
+"
 
 *«Åpen beholder for nedkjølt gass»* er en termisk isolert beholder for
 nedkjølt flytende gass som holdes på atmosfærisk trykk ved kontinuerlig
@@ -1510,6 +1583,8 @@ overbygning, eller bare er forsynt med sidelemmer og baklem;
 **«Åpen vogn»** (RID) er en vogn med eller uten sidelemmer og baklemmer,
 med åpne lasteflater;
 
+.. _1.2.2:
+
 1.2.2 Måleenheter
 ^^^^^^^^^^^^^^^^^
 
@@ -1517,193 +1592,113 @@ med åpne lasteflater;
 
 ``1.2.2.1`` Følgende måleenheter\ :sup:`a)` anvendes i ADR/RID:
 
-+------------------+--------------+----------------+------------------+
-| Måling av        | SI enhet     | Annen godtatt  | Omregningsfaktor |
-|                  | :sup:`b)`    | enhet          |                  |
-+==================+==============+================+==================+
-| Lengde           | m (meter)    | –              | –                |
-+------------------+--------------+----------------+------------------+
-| Flate            | m\ :sup:`2`  | –              | –                |
-|                  | (k           |                |                  |
-|                  | vadratmeter) |                |                  |
-+------------------+--------------+----------------+------------------+
-| Volum            | m\ :sup:`3`  | l :sup:`c)`    | 1l =             |
-|                  | (            | (liter)        | 10\ :sup:`–3`    |
-|                  | kubikkmeter) |                | m\ :sup:`3`      |
-+------------------+--------------+----------------+------------------+
-| Tid              | s (sekund)   | min. (minutt)  | 1 min. = 60 s    |
-|                  |              |                |                  |
-|                  |              | h (time)       | 1 h = 3 600 s    |
-|                  |              |                |                  |
-|                  |              | d (dag)        | 1 d = 86 400 s   |
-+------------------+--------------+----------------+------------------+
-| Masse            | kg           | g (gram)       | 1g =             |
-|                  | (kilogram)   |                | 10\ :sup:`–3` kg |
-|                  |              | t (tonn)       |                  |
-|                  |              |                | 1 t =            |
-|                  |              |                | 10\ :sup:`3` kg  |
-+------------------+--------------+----------------+------------------+
-| Tetthet/densitet | kg           | kg/l           | 1 kg/l =         |
-|                  | /m\ :sup:`3` |                | 10\ :sup:`3`     |
-|                  |              |                | kg/m\ :sup:`3`   |
-+------------------+--------------+----------------+------------------+
-| Temperatur       | K (kelvin)   | °C (grad       | 0 °C = 273.15 K  |
-|                  |              | Celsius)       |                  |
-+------------------+--------------+----------------+------------------+
-| Temp             | K (kelvin)   | °C (grad       | 1 °C = 1 K       |
-| eraturdifferanse |              | Celsius)       |                  |
-+------------------+--------------+----------------+------------------+
-| Kraft            | N (newton)   | –              | 1 N = 1          |
-|                  |              |                | kg.m/s\ :sup:`2` |
-+------------------+--------------+----------------+------------------+
-| Trykk            | Pa (pascal)  | bar (bar)      | 1 Pa = 1         |
-|                  |              |                | N/m\ :sup:`2`    |
-|                  |              |                |                  |
-|                  |              |                | 1 bar =          |
-|                  |              |                | 10\ :sup:`5` Pa  |
-+------------------+--------------+----------------+------------------+
-| Materialspenning | N            | N/mm\ :sup:`2` | 1 N/mm\ :sup:`2` |
-|                  | /m\ :sup:`2` |                | = 1 MPa          |
-+------------------+--------------+----------------+------------------+
-| Arbeid           |              | kWh            | 1 kWh = 3.6 MJ   |
-|                  |              | (kilowattime)  |                  |
-+------------------+--------------+----------------+------------------+
-| Energi           | J (joule)    |                | 1 J = 1 N.m = 1  |
-|                  |              |                | W.s              |
-+------------------+--------------+----------------+------------------+
-| Varmemengde      |              | eV             | 1 eV =           |
-|                  |              | (elektronvolt) | 0.1602x1         |
-|                  |              |                | 0\ :sup:`–18`\ J |
-+------------------+--------------+----------------+------------------+
-| Effekt           | W (watt)     | –              | 1 W = 1 J/s = 1  |
-|                  |              |                | N.m/s            |
-+------------------+--------------+----------------+------------------+
-| Elektrisk        | Ω (ohm)      | –              | 1 Ω = 1 kg · m²  |
-| motstand         |              |                | · s\ :sup:`–3` · |
-|                  |              |                | A\ :sup:`–`\ ²   |
-+------------------+--------------+----------------+------------------+
-| Kinematisk       | m            | mm\ :sup:`2`/s | 1 mm\ :sup:`2`/s |
-| viskositet       | \ :sup:`2`/s |                | = 10\ :sup:`–6`  |
-|                  |              |                | m\ :sup:`2`/s    |
-+------------------+--------------+----------------+------------------+
-| Dynamisk         | Pa.s         | mPa.s          | 1 mPa.s =        |
-| viskositet       |              |                | 10\ :sup:`–3`    |
-|                  |              |                | Pa.s             |
-+------------------+--------------+----------------+------------------+
-| Aktivitet        | Bq           |                |                  |
-|                  | (becquerel)  |                |                  |
-+------------------+--------------+----------------+------------------+
-| Doseekvivalent   | Sv (sievert) |                |                  |
-+------------------+--------------+----------------+------------------+
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Måling av             | SI enhet :sup:`b)`         | Annen godtatt enhet | Omregningsfaktor                                |
++=======================+============================+=====================+=================================================+
+| Lengde                | m (meter)                  | –                   | –                                               |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Flate                 | m\ :sup:`2` (kvadratmeter) | –                   | –                                               |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Volum                 | m\ :sup:`3` (kubikkmeter)  | l :sup:`c)` (liter) | 1l = 10\ :sup:`–3` m\ :sup:`3`                  |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Tid                   | s (sekund)                 | min. (minutt)       | 1 min. = 60 s                                   |
+|                       |                            |                     |                                                 |
+|                       |                            | h (time)            | 1 h = 3 600 s                                   |
+|                       |                            |                     |                                                 |
+|                       |                            | d (dag)             | 1 d = 86 400 s                                  |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Masse                 | kg (kilogram)              | g (gram)            | 1g = 10\ :sup:`–3` kg                           |
+|                       |                            |                     |                                                 |
+|                       |                            | t (tonn)            | 1 t = 10\ :sup:`3` kg                           |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Tetthet/densitet      | kg/m\ :sup:`3`             | kg/l                | 1 kg/l = 10\ :sup:`3` kg/m\ :sup:`3`            |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Temperatur            | K (kelvin)                 | °C (grad Celsius)   | 0 °C = 273.15 K                                 |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Temperaturdifferanse  | K (kelvin)                 | °C (grad Celsius)   | 1 °C = 1 K                                      |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Kraft                 | N (newton)                 | –                   | 1 N = 1 kg.m/s\ :sup:`2`                        |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Trykk                 | Pa (pascal)                | bar (bar)           | 1 Pa = 1 N/m\ :sup:`2`                          |
+|                       |                            |                     |                                                 |
+|                       |                            |                     | 1 bar = 10\ :sup:`5` Pa                         |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Materialspenning      | N/m\ :sup:`2`              | N/mm\ :sup:`2`      | 1 N/mm\ :sup:`2` = 1 MPa                        |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Arbeid                |                            | kWh (kilowattime)   | 1 kWh = 3.6 MJ                                  |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Energi                | J (joule)                  |                     | 1 J = 1 N.m = 1 W.s                             |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Varmemengde           |                            | eV (elektronvolt)   | 1 eV = 0.1602x10\ :sup:`–18`\ J                 |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Effekt                | W (watt)                   | –                   | 1 W = 1 J/s = 1 N.m/s                           |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Elektrisk motstand    | Ω (ohm)                    | –                   | 1 Ω = 1 kg · m² · s\ :sup:`–3` · A\ :sup:`–`\ ² |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Kinematisk viskositet | m\ :sup:`2`/s              | mm\ :sup:`2`/s      | 1 mm\ :sup:`2`/s = 10\ :sup:`–6` m\ :sup:`2`/s  |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Dynamisk viskositet   | Pa.s                       | mPa.s               | 1 mPa.s = 10\ :sup:`–3` Pa.s                    |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Aktivitet             | Bq (becquerel)             |                     |                                                 |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
+| Doseekvivalent        | Sv (sievert)               |                     |                                                 |
++-----------------------+----------------------------+---------------------+-------------------------------------------------+
 
-a) Følgende avrundede verdier kan benyttes for omregning fra tidligere
-benyttede enheter til SI-enheter:
+a) Følgende avrundede verdier kan benyttes for omregning fra tidligere benyttede enheter til SI-enheter:
 
-+-----------------------------------+----------------------------------+
-| Kraft                             | Materialspenning                 |
-+-----------------------------------+----------------------------------+
-| 1 kg = 9.807 N                    | 1 kg/mm2 = 9.807 N/mm\ :sup:`2`  |
-+-----------------------------------+----------------------------------+
-| 1 N = 0.102 kg                    | 1 N/mm\ :sup:`2` = 0.102         |
-|                                   | kg/mm\ :sup:`2`                  |
-+-----------------------------------+----------------------------------+
 
-+-------+----------------+----------------+----------------+----------+
-| Trykk |                |                |                |          |
-+=======+================+================+================+==========+
-| 1 Pa  | =              | =              | = 1.02 x       | = 0.75 x |
-|       | 1N/m\ :sup:`2` | 10\ :sup:`–5`  | 10\ :sup:`–5`  | 10\ :    |
-|       |                | bar            | k              | sup:`–2` |
-|       |                |                | g/cm\ :sup:`2` | torr     |
-+-------+----------------+----------------+----------------+----------+
-| 1 bar | = 10\ :sup:`5` | = 1.02         | = 750 torr     |          |
-|       | Pa             | k              |                |          |
-|       |                | g/cm\ :sup:`2` |                |          |
-+-------+----------------+----------------+----------------+----------+
-| 1     | = 9.807 x      | = 0.9807 bar   | = 736 torr     |          |
-| kg/cm | 10\ :sup:`4`   |                |                |          |
-| \ :su | Pa             |                |                |          |
-| p:`2` |                |                |                |          |
-+-------+----------------+----------------+----------------+----------+
-| 1     | = 1.33 x       | = 1.33 x       | = 1.36 x       |          |
-| torr  | 10\ :sup:`2`   | 10\ :sup:`–3`  | 10\ :sup:`–3`  |          |
-|       | Pa             | bar            | k              |          |
-|       |                |                | g/cm\ :sup:`2` |          |
-+-------+----------------+----------------+----------------+----------+
++-----------------------------------+------------------------------------------+
+| Kraft                             | Materialspenning                         |
++-----------------------------------+------------------------------------------+
+| 1 kg = 9.807 N                    | 1 kg/mm2 = 9.807 N/mm\ :sup:`2`          |
++-----------------------------------+------------------------------------------+
+| 1 N = 0.102 kg                    | 1 N/mm\ :sup:`2` = 0.102 kg/mm\ :sup:`2` |
++-----------------------------------+------------------------------------------+
++-------------------+---------------------------+----------------------------+----------------------------------------+-----------------------------+
+| Trykk             |                           |                            |                                        |                             |
++===================+===========================+============================+========================================+=============================+
+| 1 Pa              | = 1N/m\ :sup:`2`          | = 10\ :sup:`–5` bar        | = 1.02 x 10\ :sup:`–5` kg/cm\ :sup:`2` | = 0.75 x 10\ :sup:`–2` torr |
++-------------------+---------------------------+----------------------------+----------------------------------------+-----------------------------+
+| 1 bar             | = 10\ :sup:`5` Pa         | = 1.02 kg/cm\ :sup:`2`     | = 750 torr                             |                             |
++-------------------+---------------------------+----------------------------+----------------------------------------+-----------------------------+
+| 1 kg/cm\ :sup:`2` | = 9.807 x 10\ :sup:`4` Pa | = 0.9807 bar               | = 736 torr                             |                             |
++-------------------+---------------------------+----------------------------+----------------------------------------+-----------------------------+
+| 1 torr            | = 1.33 x 10\ :sup:`2` Pa  | = 1.33 x 10\ :sup:`–3` bar | = 1.36 x 10\ :sup:`–3` kg/cm\ :sup:`2` |                             |
++-------------------+---------------------------+----------------------------+----------------------------------------+-----------------------------+
 
-+-------+----------------+----------------+----------------+----------+
-| En    |                |                |                |          |
-| ergi, |                |                |                |          |
-| arb   |                |                |                |          |
-| eide, |                |                |                |          |
-| v     |                |                |                |          |
-| armem |                |                |                |          |
-| engde |                |                |                |          |
-+=======+================+================+================+==========+
-| 1 J   | = 1 Nm         | = 0.278 x      | = 0.102 kgm    | = 0.239  |
-|       |                | 10\ :sup:`–6`  |                | x        |
-|       |                | kWh            |                | 10\ :    |
-|       |                |                |                | sup:`–3` |
-|       |                |                |                | kcal     |
-+-------+----------------+----------------+----------------+----------+
-| 1 kWh | = 3.6 x        | = 367 x        | = 860 kcal     |          |
-|       | 10\ :sup:`6` J | 10\ :sup:`3`   |                |          |
-|       |                | kgm            |                |          |
-+-------+----------------+----------------+----------------+----------+
-| 1 kgm | = 9.807 J      | = 2.72 x       | = 2.34 x       |          |
-|       |                | 10\ :sup:`–6`  | 10\ :sup:`–3`  |          |
-|       |                | kWh            | kcal           |          |
-+-------+----------------+----------------+----------------+----------+
-| 1     | = 4.19 x       | = 1.16 x       | = 427 kgm      |          |
-| kcal  | 10\ :sup:`3` J | 10\ :sup:`–3`  |                |          |
-|       |                | kWh            |                |          |
-+-------+----------------+----------------+----------------+----------+
-|       |                |                |                |          |
-+-------+----------------+----------------+----------------+----------+
++------------------------------+-------------------------+-----------------------------+-----------------------------+------------------------------+
+| Energi, arbeide, varmemengde |                         |                             |                             |                              |
++==============================+=========================+=============================+=============================+==============================+
+| 1 J                          | = 1 Nm                  | = 0.278 x 10\ :sup:`–6` kWh | = 0.102 kgm                 | = 0.239 x 10\ :sup:`–3` kcal |
++------------------------------+-------------------------+-----------------------------+-----------------------------+------------------------------+
+| 1 kWh                        | = 3.6 x 10\ :sup:`6` J  | = 367 x 10\ :sup:`3` kgm    | = 860 kcal                  |                              |
++------------------------------+-------------------------+-----------------------------+-----------------------------+------------------------------+
+| 1 kgm                        | = 9.807 J               | = 2.72 x 10\ :sup:`–6` kWh  | = 2.34 x 10\ :sup:`–3` kcal |                              |
++------------------------------+-------------------------+-----------------------------+-----------------------------+------------------------------+
+| 1 kcal                       | = 4.19 x 10\ :sup:`3` J | = 1.16 x 10\ :sup:`–3` kWh  | = 427 kgm                   |                              |
++------------------------------+-------------------------+-----------------------------+-----------------------------+------------------------------+
 
-+------+--------------+------------------------+------+--------------+
-| Ef   |              |                        | Ki   |              |
-| fekt |              |                        | nema |              |
-|      |              |                        | tisk |              |
-|      |              |                        | vi   |              |
-|      |              |                        | skos |              |
-|      |              |                        | itet |              |
-+======+==============+========================+======+==============+
-| 1 W  | = 0.102      | = 0.86 kcal/h          | 1    | =            |
-|      | kgm/s        |                        | m\   | 10\ :sup:`4` |
-|      |              |                        | :sup | St (Stokes)  |
-|      |              |                        | :`2` |              |
-|      |              |                        | /s   |              |
-+------+--------------+------------------------+------+--------------+
-| 1    | = 9.807 W    | = 8.43 kcal/h          | 1 St | =            |
-| k    |              |                        |      | 1            |
-| gm/s |              |                        |      | 0\ :sup:`–4` |
-|      |              |                        |      | m2 /s        |
-+------+--------------+------------------------+------+--------------+
-| 1    | = 1.16 W     | = 0.119 kgm/s          |      |              |
-| kc   |              |                        |      |              |
-| al/h |              |                        |      |              |
-+------+--------------+------------------------+------+--------------+
 
-+-----------+--------------+-------------------+----------------------+
-| Dynamisk  |              |                   |                      |
-| v         |              |                   |                      |
-| iskositet |              |                   |                      |
-+===========+==============+===================+======================+
-| 1 Pa.s    | = 1          | = 10 P (poise)    | = 0.102              |
-|           | Ns           |                   | kgs/m\ :sup:`2`      |
-|           | /m\ :sup:`2` |                   |                      |
-+-----------+--------------+-------------------+----------------------+
-| 1 P       | = 0.1 Pa.s   | = 0.1             | = 1.02 x             |
-|           |              | Ns/m\ :sup:`2`    | 10\ :sup:`–2`        |
-|           |              |                   | kgs/m\ :sup:`2`      |
-+-----------+--------------+-------------------+----------------------+
-| 1         | = 9.807 Pa.s | = 9.807           | = 98.07 P            |
-| kgs/m\    |              | Ns/m\ :sup:`2`    |                      |
-| :sup:`2`  |              |                   |                      |
-+-----------+--------------+-------------------+----------------------+
-|           |              |                   |                      |
-+-----------+--------------+-------------------+----------------------+
++----------+---------------+------------------------+-----------------------+---------------------------+
+| Effekt   |               |                        | Kinematisk viskositet |                           |
++==========+===============+========================+=======================+===========================+
+| 1 W      | = 0.102 kgm/s | = 0.86 kcal/h          | 1 m\ :sup:`2` /s      | =10\ :sup:`4` St (Stokes) |
++----------+---------------+------------------------+-----------------------+---------------------------+
+| 1 kgm/s  | = 9.807 W     | = 8.43 kcal/h          | 1 St                  | = 10\ :sup:`–4` m2 /s     |
++----------+---------------+------------------------+-----------------------+---------------------------+
+| 1 kcal/h | = 1.16 W      | = 0.119 kgm/s          |                       |                           |
++----------+---------------+------------------------+-----------------------+---------------------------+
+
++---------------------+--------------------+------------------------+----------------------------------------+
+| Dynamisk viskositet |                    |                        |                                        |
++=====================+====================+========================+========================================+
+| 1 Pa.s              | = 1 Ns/m\ :sup:`2` | = 10 P (poise)         | = 0.102 kgs/m\ :sup:`2`                |
++---------------------+--------------------+------------------------+----------------------------------------+
+| 1 P                 | = 0.1 Pa.s         | = 0.1 Ns/m\ :sup:`2`   | = 1.02 x 10\ :sup:`–2` kgs/m\ :sup:`2` |
++---------------------+--------------------+------------------------+----------------------------------------+
+| 1 kgs/m\ :sup:`2`   | = 9.807 Pa.s       | = 9.807 Ns/m\ :sup:`2` | = 98.07 P                              |
++---------------------+--------------------+------------------------+----------------------------------------+
+
 
 b) The International System of Units (SI) is the result of decisions
 taken at the General Conference on Weights and Measures (Address:
@@ -1716,89 +1711,42 @@ Tierpotenser, positive og negative, av en enhet, kan dannes ved hjelp av
 prefikser eller symboler, som har følgende betydning når de plasseres
 foran måleenheten:
 
-+---------------------------+-------+------------+---------+---------+
-| Faktor                    |       |            | Prefiks | Symbol  |
-+===========================+=======+============+=========+=========+
-| 1 000 000 000 000 000 000 | =     | trillion   | exa     | E       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `18`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 1 000 000 000 000 000     | =     | billiard   | peta    | P       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `15`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 1 000 000 000 000         | =     | billion    | tera    | T       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `12`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 1 000 000 000             | =     | milliard   | giga    | G       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `9`   |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 1 000 000                 | =     | million    | mega    | M       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `6`   |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 1 000                     | =     | tusen      | kilo    | k       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `3`   |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 100                       | =     | hundre     | hecto   | h       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `2`   |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 10                        | =     | ti         | deca    | da      |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `1`   |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.1                       | =     | tidel      | deci    | d       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–1`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.01                      | =     | hundredel  | centi   | c       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–2`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.001                     | =     | tusendel   | milli   | m       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–3`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.000 001                 | =     | milliondel | micro   | m       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–6`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.000 000 001             | =     | m          | nano    | n       |
-|                           | 10\   | illiarddel |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–9`  |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.000 000 000 001         | =     | billiondel | pico    | p       |
-|                           | 10\   |            |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–12` |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.000 000 000 000 001     | =     | b          | femto   | f       |
-|                           | 10\   | illiarddel |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–15` |            |         |         |
-+---------------------------+-------+------------+---------+---------+
-| 0.000 000 000 000 000 001 | =     | t          | atto    | a       |
-|                           | 10\   | rilliondel |         |         |
-|                           | :sup: |            |         |         |
-|                           | `–18` |            |         |         |
-+---------------------------+-------+------------+---------+---------+
+
++---------------------------+------------------+-------------+---------+---------+
+| Faktor                    |                  |             | Prefiks | Symbol  |
++===========================+==================+=============+=========+=========+
+| 1 000 000 000 000 000 000 | = 10\ :sup:`18`  | trillion    | exa     | E       |
++---------------------------+------------------+-------------+---------+---------+
+| 1 000 000 000 000 000     | = 10\ :sup:`15`  | billiard    | peta    | P       |
++---------------------------+------------------+-------------+---------+---------+
+| 1 000 000 000 000         | = 10\ :sup:`12`  | billion     | tera    | T       |
++---------------------------+------------------+-------------+---------+---------+
+| 1 000 000 000             | = 10\ :sup:`9`   | milliard    | giga    | G       |
++---------------------------+------------------+-------------+---------+---------+
+| 1 000 000                 | = 10\ :sup:`6`   | million     | mega    | M       |
++---------------------------+------------------+-------------+---------+---------+
+| 1 000                     | = 10\ :sup:`3`   | tusen       | kilo    | k       |
++---------------------------+------------------+-------------+---------+---------+
+| 100                       | = 10\ :sup:`2`   | hundre      | hecto   | h       |
++---------------------------+------------------+-------------+---------+---------+
+| 10                        | = 10\ :sup:`1`   | ti          | deca    | da      |
++---------------------------+------------------+-------------+---------+---------+
+| 0.1                       | = 10\ :sup:`–1`  | tidel       | deci    | d       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.01                      | = 10\ :sup:`–2`  | hundredel   | centi   | c       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.001                     | = 10\ :sup:`–3`  | tusendel    | milli   | m       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.000 001                 | = 10\ :sup:`–6`  | milliondel  | micro   | m       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.000 000 001             | = 10\ :sup:`–9`  | milliarddel | nano    | n       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.000 000 000 001         | = 10\ :sup:`–12` | billiondel  | pico    | p       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.000 000 000 000 001     | = 10\ :sup:`–15` | billiarddel | femto   | f       |
++---------------------------+------------------+-------------+---------+---------+
+| 0.000 000 000 000 000 001 | = 10\ :sup:`–18` | trilliondel | atto    | a       |
++---------------------------+------------------+-------------+---------+---------+
 
 **ANM:** 10\ :sup:`12` = 1 billion er FN-standard for tekster på fransk.
 Tilsvarende er 10\ :sup:`–12` = 1 billiondel.
@@ -1839,13 +1787,18 @@ Hvor ADR/RID spesifiserer en fyllingsgrad for beholdere, er denne alltid
 gitt med referanse til en stofftemperatur på 15 °C hvis ikke annen
 temperatur er angitt.
 
+.. _1.2.3:
+
 1.2.3 Liste over forkortelser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 I ADR/RID er forkortelser, akronymer og forkortede betegnelser på
 regelverk, brukt med følgende betydning:
 
-*A*
+.. _1.2.3A:
+
+A
+"
 
 *«ADN»*\ \* betyr «European Agreement concerning the International
 Carriage of Dangerous Goods by Inland Waterways»;
@@ -1858,7 +1811,10 @@ statene som er involvert i transportoperasjonen
 International, 100 Barr Harbour Drive, PO Box C700, West Conshohocken,
 PA, 19428-2959, United States of America), www.astm.org;
 
-*C*
+.. _1.2.3C:
+
+C
+"
 
 *«CGA»* står for *Compressed Gas Association*, 8484 Westpark Drive,
 Suite 220, McLean, Virginia 22102, United States of America),
@@ -1879,7 +1835,10 @@ International Maritime Organization (IMO),* London;
 
 *«CSI»* betyr kritikalitetssikkerhetsindeks (se 1.2.1),
 
-*E*
+.. _1.2.3E:
+
+E
+"
 
 *«ECM»* (RID) betyr vedlikeholdsansvarlig (se 1.2.1);
 
@@ -1890,16 +1849,25 @@ l’Astronomie, 1210 Brussels (Belgium), www.eiga.eu;
 Committee for Standardization (CEN)*\ (CEN, Avenue Marnix 17, B-1000
 Brussel, Belgium), www.cen.eu;
 
-*F*
+.. _1.2.3F:
+
+F
+"
 
 *«FRP»* betyr fiberarmert plast (se 1.2.1);
 
+.. _1.2.3G:
+
 G
+"
 
 *«GHS»* betyr *Globally Harmonized System of Classification and
 Labelling of Chemicals* (se 1.2.1);
 
+.. _1.2.3I:
+
 I
+"
 
 *«IAEA»* betyr *the International Atomic Energy Agency* (Det
 internasjonale atomenergibyrået), P.O. Box 100, 1400 Vienna, Austria,
@@ -1919,7 +1887,10 @@ Embankment, London SE1 7SR, United Kingdom), www.imo.org;
 *International Organization for Standardization*, 1, rue de Varambé,
 1204 Geneva 20, Switzerland, www.iso.org;
 
+.. _1.2.3L:
+
 L
+"
 
 *«LNG»* betyr flytende naturgass (se 1.2.1);
 
@@ -1928,24 +1899,36 @@ L
 *«LSA»* (materiale) betyr materiale med lav spesifikk aktivitet (se
 2.2.7.1.3);
 
+.. _1.2.3M:
+
 M
+"
 
 *«MEGC»* betyr *multielement gasscontainer (se 1.2.1)*;
 
 «MEMU» (ADR) betyr mobil enhet for tilvirkning av eksplosiver (se 1.2.1)
 
+.. _1.2.3N:
+
 N
+"
 
 *«N.O.S.»* betyr oppføring (posisjon) ikke spesifisert andre steder (se
 1.2.1);
 
+.. _1.2.3O:
+
 O
+"
 
 **«OTIF»**\  [8]_ (RID) betyr **the Intergovernmental Organisation for
 International Carriage by Rail,** Gryphenhübelieg 30, 3006 Bern,
 Switzerland, www.otif.org;
 
+.. _1.2.3R:
+
 R
+"
 
 «RID» (ADR) står for Regulations concerning the International Carriage
 of Dangerous Goods by Rail (Reglement for internasjonal transport av
@@ -1953,7 +1936,10 @@ farlig gods på jernbane) (Vedlegg C til COTIF (Convention concerning
 international carriage by rail – Konvensjonen om internasjonal
 jernbanetrafikk));
 
+.. _1.2.3S:
+
 S
+"
 
 *«SADT»* betyr selvakselererende dekomponeringstemperatur (se 1.2.1);
 
@@ -1968,11 +1954,17 @@ Transport by Rail of the Organisation for Cooperation between Railways**
 **«SMGS vedlegg 2»** (RID) betyr bestemmelser for transport av farlig
 gods som vedlegg 2 til SMGS;
 
+.. _1.2.3T:
+
 T
+"
 
 *«TI»* betyr transportindeks (se 1.2.1);
 
+.. _1.2.3U:
+
 U
+"
 
 *«UIC»*\ :sup:`†` betyr *the International Union of Railways*, 16 rue
 Jean Rey, 75015 Paris, France, www.uic.org;
