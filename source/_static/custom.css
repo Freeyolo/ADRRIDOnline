@@ -3,11 +3,11 @@ div.admonition.admonition-rid {
 }
 
 div.admonition.admonition-rid > .admonition-title {
-  background-color: hsl(60deg 100% 14%);
+  background-color: rgb(34, 32, 56);
   color: white;
 }
 
 div.admonition.admonition-rid > .admonition-title::after {
-  color: rgb(34, 32, 56);
+  color: rgb(237, 239, 249);
   content: "\f238"; /* fa-solid fa-train */
 }
