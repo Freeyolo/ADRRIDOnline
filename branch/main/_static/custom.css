@@ -1,0 +1,13 @@
+div.admonition.admonition-rid {
+  border-color: rgb(34, 32, 56);
+}
+
+div.admonition.admonition-rid > .admonition-title {
+  background-color: rgb(34, 32, 56);
+  color: white;
+}
+
+div.admonition.admonition-rid > .admonition-title::after {
+  color: rgb(237, 239, 249);
+  content: "\f238"; /* fa-solid fa-train */
+}
