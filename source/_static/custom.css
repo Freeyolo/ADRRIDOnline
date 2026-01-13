@@ -18,7 +18,7 @@ div.admonition.admonition-adr {
 
 div.admonition.admonition-adr > .admonition-title {
   background-color: rgb(207, 212, 239);
-  color: white;
+  color: rgb(34, 32, 56);
 }
 
 div.admonition.admonition-adr > .admonition-title::after {
