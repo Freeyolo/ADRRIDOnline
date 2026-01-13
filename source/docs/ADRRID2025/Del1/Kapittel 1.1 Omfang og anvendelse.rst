@@ -203,10 +203,7 @@ Dette unntaket gjelder ikke stasjonære tanker som har inneholdt
 desensiterte eksplosiver eller stoffer som ikke er tillatt transportert
 under ADR/RID.
 
-.. admonition:: RID:
-   :class: admonition-rid
-
-   For radioaktivt materiale se også :ref:`1.7.1.4 <1.7.1.4>`.
+**ANM:** For radioaktivt materiale se også :ref:`1.7.1.4 <1.7.1.4>`.
 
 .. _1.1.3.2:
 
