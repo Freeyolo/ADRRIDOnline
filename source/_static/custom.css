@@ -11,3 +11,17 @@ div.admonition.admonition-rid > .admonition-title::after {
   color: rgb(237, 239, 249);
   content: "\f238"; /* fa-solid fa-train */
 }
+
+div.admonition.admonition-adr {
+  border-color: rgb(207, 212, 239);
+}
+
+div.admonition.admonition-adr > .admonition-title {
+  background-color: rgb(207, 212, 239);
+  color: white;
+}
+
+div.admonition.admonition-adr > .admonition-title::after {
+  color: rgb(237, 239, 249);
+  content: "\f0d1"; /* fa-solid fa-truck */
+}

@@ -8,14 +8,21 @@ Kapittel 1.1 Omfang og anvendelse
 1.1.1 Struktur
 ^^^^^^^^^^^^^^
 
-ADR: Bilagene A og B til ADR er gruppert i ni deler. Bilag A består av
-delene 1 til 7 og bilag B av delene 8 og 9. Hver del er videre inndelt i
-kapitler og hvert kapittel i avsnitt og underavsnitt (se
-innholdstabellen). For hver av delene er dens nummer tatt med, sammen
-med nummer for kapittel, avsnitt og underavsnitt, f.eks. får Del 4,
-kapittel 2, avsnitt 1 nummeret «4.2.1».
+.. admonition:: ADR:
+   :class: admonition-adr
 
-**RID: RID er gruppert i syv deler. Hver del utgjør ett kapittel, og alle kapitlene er inndelt i avsnitt og underavsnitt (se innholdstabellen).**
+   ADR: Bilagene A og B til ADR er gruppert i ni deler. Bilag A består av
+   delene 1 til 7 og bilag B av delene 8 og 9. Hver del er videre inndelt i
+   kapitler og hvert kapittel i avsnitt og underavsnitt (se
+   innholdstabellen). For hver av delene er dens nummer tatt med, sammen
+   med nummer for kapittel, avsnitt og underavsnitt, f.eks. får Del 4,
+   kapittel 2, avsnitt 1 nummeret «4.2.1».
+
+.. admonition:: RID:
+   :class: admonition-rid
+
+   RID er gruppert i syv deler. Hver del utgjør ett kapittel, og alle kapitlene er inndelt i avsnitt og underavsnitt (se innholdstabellen).
+
 
 **Innen hver del inngår delens nummer i kapitlenes, avsnittenes og underavsnittenes nummer, f.eks. får Del 4, kapittel 2, avsnitt 1 nummeret «4.2.1».**
 
