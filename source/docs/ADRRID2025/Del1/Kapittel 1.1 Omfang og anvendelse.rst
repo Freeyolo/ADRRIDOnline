@@ -11,7 +11,7 @@ Kapittel 1.1 Omfang og anvendelse
 .. admonition:: ADR:
    :class: admonition-adr
 
-   ADR: Bilagene A og B til ADR er gruppert i ni deler. Bilag A består av
+   Bilagene A og B til ADR er gruppert i ni deler. Bilag A består av
    delene 1 til 7 og bilag B av delene 8 og 9. Hver del er videre inndelt i
    kapitler og hvert kapittel i avsnitt og underavsnitt (se
    innholdstabellen). For hver av delene er dens nummer tatt med, sammen
