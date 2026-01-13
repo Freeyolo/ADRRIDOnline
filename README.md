@@ -15,6 +15,7 @@ Boken benytter bold-tekst for RID og en annen font for ADR. Mulig [Sphinx-admoni
 
 - [ ] Låne DSB sitt css-style sheet og gjenbruke farger og layout-elementer
 - [ ] /(optional) Bruke latex-to-pdf og generere PDF av produktet. 
+- [ ] /(optional) Bruke Lovdata API for forskriftstekst
 
 
 
