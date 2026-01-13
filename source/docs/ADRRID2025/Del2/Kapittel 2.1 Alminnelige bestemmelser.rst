@@ -16,31 +16,19 @@ Kapittel 2.1 Alminnelige bestemmelser
 
 Følgende klasser av farlig gods anvendes av ADR/RID:
 
-Klasse 1 Eksplosive stoffer og gjenstander
-
-Klasse 2 Gasser
-
-Klasse 3 Brannfarlige væsker
-
-Klasse 4.1 Brannfarlige faste stoffer, selvreaktive stoffer, polymeriserende stoffer og faste eksplosivstoffer som er gjort ufølsomme
-
-Klasse 4.2 Selvantennende stoffer
-
-Klasse 4.3 Stoffer som utvikler brannfarlige gasser i kontakt med vann
-
-Klasse 5.1 Oksiderende stoffer
-
-Klasse 5.2 Organiske peroksider
-
-Klasse 6.1 Giftige stoffer
-
-Klasse 6.2 Infeksjonsfremmende stoffer
-
-Klasse 7 Radioaktivt materiale
-
-Klasse 8 Etsende stoffer
-
-Klasse 9 Forskjellige farlige stoffer og gjenstander
+:Klasse 1: Eksplosive stoffer og gjenstander
+:Klasse 2: Gasser
+:Klasse 3: Brannfarlige væsker
+:Klasse 4.1: Brannfarlige faste stoffer, selvreaktive stoffer, polymeriserende stoffer og faste eksplosivstoffer som er gjort ufølsomme
+:Klasse 4.2: Selvantennende stoffer
+:Klasse 4.3: Stoffer som utvikler brannfarlige gasser i kontakt med vann
+:Klasse 5.1: Oksiderende stoffer
+:Klasse 5.2: Organiske peroksider
+:Klasse 6.1: Giftige stoffer
+:Klasse 6.2: Infeksjonsfremmende stoffer
+:Klasse 7: Radioaktivt materiale
+:Klasse 8: Etsende stoffer
+:Klasse 9: Forskjellige farlige stoffer og gjenstander
 
 .. _2.1.1.2:
 
