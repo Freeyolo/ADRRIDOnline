@@ -22,6 +22,6 @@ div.admonition.admonition-adr > .admonition-title {
 }
 
 div.admonition.admonition-adr > .admonition-title::after {
-  color: rgb(237, 239, 249);
+  color: rgb(34, 32, 56);
   content: "\f0d1"; /* fa-solid fa-truck */
 }
