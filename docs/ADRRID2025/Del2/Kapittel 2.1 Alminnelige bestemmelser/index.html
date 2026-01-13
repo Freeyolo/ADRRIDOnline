@@ -1,0 +1,2461 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 2.1 Alminnelige bestemmelser &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del2/Kapittel 2.1 Alminnelige bestemmelser';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser" href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/" />
+    <link rel="prev" title="Del 2 Klassifisering" href="../Del2_index/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del2_index/">Del 2 Klassifisering</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del2_index/" class="nav-link">Del 2 Klassifisering</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 2.1 Alminnelige bestemmelser</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-2-1-alminnelige-bestemmelser">
+<span id="id1"></span><h1>Kapittel 2.1 Alminnelige bestemmelser<a class="headerlink" href="#kapittel-2-1-alminnelige-bestemmelser" title="Link to this heading">#</a></h1>
+<section id="innledning">
+<span id="id2"></span><h2>2.1.1 Innledning<a class="headerlink" href="#innledning" title="Link to this heading">#</a></h2>
+<p id="id3"><code class="docutils literal notranslate"><span class="pre">2.1.1.1</span></code></p>
+<p>Følgende klasser av farlig gods anvendes av ADR/RID:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Klasse 1<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Eksplosive stoffer og gjenstander</p>
+</dd>
+<dt class="field-even">Klasse 2<span class="colon">:</span></dt>
+<dd class="field-even"><p>Gasser</p>
+</dd>
+<dt class="field-odd">Klasse 3<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Brannfarlige væsker</p>
+</dd>
+<dt class="field-even">Klasse 4.1<span class="colon">:</span></dt>
+<dd class="field-even"><p>Brannfarlige faste stoffer, selvreaktive stoffer, polymeriserende stoffer og faste eksplosivstoffer som er gjort ufølsomme</p>
+</dd>
+<dt class="field-odd">Klasse 4.2<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Selvantennende stoffer</p>
+</dd>
+<dt class="field-even">Klasse 4.3<span class="colon">:</span></dt>
+<dd class="field-even"><p>Stoffer som utvikler brannfarlige gasser i kontakt med vann</p>
+</dd>
+<dt class="field-odd">Klasse 5.1<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Oksiderende stoffer</p>
+</dd>
+<dt class="field-even">Klasse 5.2<span class="colon">:</span></dt>
+<dd class="field-even"><p>Organiske peroksider</p>
+</dd>
+<dt class="field-odd">Klasse 6.1<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Giftige stoffer</p>
+</dd>
+<dt class="field-even">Klasse 6.2<span class="colon">:</span></dt>
+<dd class="field-even"><p>Infeksjonsfremmende stoffer</p>
+</dd>
+<dt class="field-odd">Klasse 7<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Radioaktivt materiale</p>
+</dd>
+<dt class="field-even">Klasse 8<span class="colon">:</span></dt>
+<dd class="field-even"><p>Etsende stoffer</p>
+</dd>
+<dt class="field-odd">Klasse 9<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Forskjellige farlige stoffer og gjenstander</p>
+</dd>
+</dl>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">2.1.1.2</span></code></p>
+<p>Alle oppføringer som er oppført i de enkelte klassene, er tildelt et
+UN-nummer. Følgende typer oppføringer benyttes:</p>
+<p>A. Enkeltoppføring for klart definerte stoffer eller gjenstander,
+inklusive oppføringer for stoffer som dekker flere isomerer, f. eks:</p>
+<blockquote>
+<div><p>UN 1090 ACETON</p>
+<p>UN 1104 AMYLACETATER</p>
+<p>UN 1194 ETYLNITRITTLØSNING</p>
+</div></blockquote>
+<p>B. Beskrivende oppføringer for en klart definert gruppe av stoffer eller
+gjenstander, som ikke er n.o.s-oppføringer, f.eks:</p>
+<blockquote>
+<div><p>UN 1133 LIM</p>
+<p>UN 1266 PARFYMEPRODUKTER</p>
+<p>UN 2757 KARBAMAT BEKJEMPNINGSMIDDEL, FAST, GIFTIG</p>
+<p>UN 3101 ORGANISK PEROKSID TYPE B, FLYTENDE</p>
+</div></blockquote>
+<p>C. Spesifikke n.o.s-oppføringer som dekker en gruppe stoffer eller
+gjenstander med bestemte kjemiske eller tekniske egenskaper som ikke er
+betegnet på annen måte, f.eks:</p>
+<blockquote>
+<div><p>UN 1477 NITRATER, UORGANISKE, N.O.S.</p>
+<p>UN 1987 ALKOHOLER, N.O.S.</p>
+</div></blockquote>
+<p>D. Alminnelige n.o.s.-oppføringer som dekker en gruppe stoffer eller
+gjenstander som har en eller flere farlige egenskaper, som ikke er
+betegnet på annen måte, f.eks:</p>
+<blockquote>
+<div><p>UN 1325 BRANNFARLIG FAST STOFF, ORGANISK, N.O.S.</p>
+<p>UN 1993 BRANNFARLIG VÆSKE, N.O.S.</p>
+</div></blockquote>
+<p>De oppføringene som er definert under B, C og D kalles samleoppføringer.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">2.1.1.3</span></code></p>
+<p>Når det gjelder emballering skal stoffer, med unntak av klasse 1, 2,
+5.2, 6.2, 7 og selvreaktive stoffer i klasse 4.1, tilordnes
+emballasjegrupper i henhold til deres faregrad:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<tbody>
+<tr class="row-odd"><td><p>Emballasjegruppe I:</p></td>
+<td><p>Meget farlige stoffer</p></td>
+</tr>
+<tr class="row-even"><td><p>Emballasjegruppe II:</p></td>
+<td><p>Middels farlige stoffer</p></td>
+</tr>
+<tr class="row-odd"><td><p>Emballasjegruppe III:</p></td>
+<td><p>Mindre farlige stoffer</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Emballasjegruppen(e) for stoffene er angitt i tabell A i kapittel 3.2.</p>
+<p>Gjenstander skal ikke tilordnes noen emballasjegruppe. For
+emballeringsformål er eventuelle krav for et spesifikt utførelsesnivå
+anvist i den relevante emballeringsbestemmelsen.</p>
+</section>
+<section id="prinsipper-for-klassifisering">
+<span id="id6"></span><h2>2.1.2 Prinsipper for klassifisering<a class="headerlink" href="#prinsipper-for-klassifisering" title="Link to this heading">#</a></h2>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">2.1.2.1</span></code></p>
+<p>Det farlige godset som omfattes av navnet på klassen er definert på
+grunnlag av godsets egenskaper i samsvar med underavsnitt 2.2.x.1 i den
+relevante klassen. Tilordning av farlig gods til klasse og
+emballasjegruppe skjer i henhold til kriteriene som finnes i samme
+underavsnitt 2.2.x.1. Tilordning av en eller flere tilleggsfarer til et
+farlig stoff eller en farlig gjenstand foretas i henhold til kriteriene
+for den klassen eller de klassene som svarer til tilleggsfaren(e), slik
+det er nevnt i angjeldende underavsnitt 2.2.x.1.</p>
+<p id="id8"><code class="docutils literal notranslate"><span class="pre">2.1.2.2</span></code></p>
+<p>Alle oppføringer for farlig gods er oppført i tabell A i kapittel 3.2 i
+den numeriske rekkefølge på deres UN nummer. Denne tabellen inneholder
+relevante opplysninger om det oppførte godset, slik som navn, klasse,
+emballasjegruppe(r), faresedler som skal brukes samt bestemmelser om
+emballering og transport. Stoffene som er oppført ved navn i kolonne (2)
+i tabell A i kapittel 3.2 skal transporteres i henhold til deres
+klassifikasjon i tabell A eller i henhold til vilkårene spesifisert i
+2.1.2.8.</p>
+<p><strong>ANM:</strong> De samme oppføringer i alfabetisk rekkefølge finnes i tabell B
+i kapittel 3.2.</p>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">2.1.2.3</span></code></p>
+<p>Et stoff kan inneholde tekniske urenheter (for eksempel slike som
+stammer fra produksjonsprosessen) eller tilsetningsstoffer for
+stabilitet eller andre formål som ikke påvirker stoffets klassifisering.
+Men, et stoff nevnt ved navn, det vil si oppført med en enkelt oppføring
+i tabell A i kapittel 3.2, inneholdende tekniske urenheter eller
+tilsetningsstoffer for stabilitet eller andre formål som påvirker dets
+klassifisering skal regnes som en løsning eller blanding (se 2.1.3.3).</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">2.1.2.4</span></code></p>
+<p>Farlig gods som er oppført eller definert i underavsnitt 2.2.x.2 i de
+enkelte klasser, får ikke mottas for transport.</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">2.1.2.5</span></code></p>
+<p>Gods som ikke er oppført med navn, dvs. gods som ikke er oppført som
+enkelt oppføring i tabell A i kapittel 3.2 og heller ikke oppført eller
+definert i noen av de ovenfor nevnte underavsnittene 2.2.x.2, skal
+tilordnes den relevante klassen i samsvar med prosedyren i avsnitt
+2.1.3. I tillegg skal eventuell tilleggsfare samt emballasjegruppe
+bestemmes. Når klassen, eventuell tilleggsfare samt emballasjegruppen er
+fastslått, skal det relevante UN-nummeret bestemmes. Beslutningstrærne i
+underavsnittene 2.2.x.3 (liste over samleoppføringer) bakerst i de
+enkelte klassene gir de relevante parametere for valg av relevant
+samleoppføring (UN-nummer). I alle tilfelle skal den samleoppføring
+velges som mest spesifikt dekker egenskapene til stoffet eller
+gjenstanden i samsvar med hierarkiet som fremgår av 2.1.1.2 ved
+henholdsvis bokstavene B, C, og D. Dersom stoffet eller gjenstanden ikke
+kan klassifiseres under oppføringer av typene B eller C i henhold til
+2.1.1.2, men ikke ellers, skal stoffet eller gjenstanden klassifiseres
+under en oppføring av typen D.</p>
+<p id="id12"><code class="docutils literal notranslate"><span class="pre">2.1.2.6</span></code></p>
+<p>På grunnlag av testprosedyrene i kapittel 2.3, samt kriteriene gitt i
+underavsnittene 2.2.x.1 i klassene når det er spesifisert slik, kan det
+fastslås at et stoff, en løsning eller en blanding av en bestemt klasse,
+oppført med navn i tabell A i kapittel 3.2, ikke svarer til kriteriene
+for den klassen. I så fall skal stoffet, løsningen eller blandingen
+betraktes som ikke hørende til den klassen.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">2.1.2.7</span></code></p>
+<p>Når det gjelder klassifisering, skal stoffer med smeltepunkt eller
+begynnende smeltepunkt på 20 °C eller lavere ved et trykk på 101.3 kPa
+betraktes som væsker. Et viskøst stoff hvor et spesifikt smeltepunkt
+ikke lar seg bestemme, skal testes i henhold til ASTM D 4359-90 eller
+gjennomgå fluiditetstesten (penetrometertesten) som er foreskrevet i
+2.3.4.</p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">2.1.2.8</span></code></p>
+<p>En avsender som på grunnlag av testresultater har avdekket at et stoff
+oppført med navn i kolonne (2) i kapittel 3.2 oppfyller
+klassifikasjonskriterier for en klasse som ikke er oppført i kolonne
+(3a) eller (5) i tabell A i kapittel 3.2, kan med godkjenning fra
+vedkommende myndighet tilordne stoffet:</p>
+<p>– til den mest hensiktsmessige samleoppføringen oppført i avsnittene
+2.2.x.3 som gjenspeiler alle farer; eller</p>
+<p>– til det samme UN-nummeret og navnet, men med ekstra farekommunikasjon
+som er nødvendig for å gjenspeile tilleggsfaren(e) (dokumentasjon,
+fareseddel, stor fareseddel) gitt at stoffet fremdeles tilhører samme
+klasse og at alle øvrige transportbetingelser (f.eks. begrensede
+mengder, emballasje- og tankbestemmelser) som normalt vil gjelde for
+stoffer med kombinerte farer er de samme som gjelder for det oppførte
+stoffet.</p>
+<p><strong>ANM 1:</strong> Vedkommende myndighet som gir sin godkjenning kan være
+vedkommende myndighet i en ADR/RID-kontraherende part, som også kan
+anerkjenne en godkjenning fra en vedkommende myndighet i et land som
+ikke er en ADR/RID-kontraherende part, under forutsetning av at denne
+godkjenningen er gitt i henhold til gjeldende krav i RID, ADR, ADN,
+IMDG-koden eller ICAOs tekniske instruksjoner.</p>
+<p><strong>ANM 2:</strong> Når en vedkommende myndighet gir en slik godkjenning bør den
+informere FNs ekspertkomité for transport av farlig gods, og levere et
+relevant forslag om endring av listen over farlig gods i FNs
+regelverksmal. Skulle den foreslåtte endringen bli avvist, bør den
+vedkommende myndigheten trekke tilbake sin godkjenning.</p>
+<p><strong>ANM 3:</strong> For transport i henhold til 2.1.2.8, se også 5.4.1.1.20.</p>
+</section>
+<section id="klassifisering-av-stoffer-inklusive-losninger-og-blandinger-som-preparater-og-avfall-som-ikke-er-oppfort-med-navn">
+<span id="id15"></span><h2>2.1.3 Klassifisering av stoffer, inklusive løsninger og blandinger (som preparater og avfall) som ikke er oppført med navn.<a class="headerlink" href="#klassifisering-av-stoffer-inklusive-losninger-og-blandinger-som-preparater-og-avfall-som-ikke-er-oppfort-med-navn" title="Link to this heading">#</a></h2>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">2.1.3.1</span></code></p>
+<p>Stoffer, inklusive løsninger og blandinger, som ikke er oppført med
+navn, skal klassifiseres i henhold til deres faregrad på grunnlag av
+kriteriene i underavsnitt 2.2.x.1 i de enkelte klassene. Den faren eller
+de farene som er forbundet med et stoff, skal fastslås på grunnlag av
+dets fysiske, kjemiske og fysiologiske egenskaper. Slike egenskaper skal
+også tas med i vurderingen når de fører til en strengere tilordning.</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">2.1.3.2</span></code></p>
+<p>Et stoff som ikke er oppført med navn i tabell A i kapittel 3.2 og som
+innebærer en enkelt fare, skal klassifiseres i den relevante klassen
+under en samlebetegnelse som er oppført i underavsnitt 2.2.x.3 i den
+klassen.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">2.1.3.3</span></code></p>
+<p>En løsning eller blanding, som i henhold til klassifiseringskriteriene
+er underlagt ADR/RID, bestående av ett enkelt dominerende stoff nevnt
+ved navn i tabell A i kapittel 3.2 og ett eller flere stoffer som ikke
+er underlagt ADR/RID eller spor av et eller flere stoffer nevnt ved navn
+i tabell A i kapittel 3.2, skal tilordnes UN nummeret og varenavnet til
+det dominerende stoffet nevnt ved navn i tabell A i kapittel 3.2 hvis
+ikke:</p>
+<p>a) Løsningen eller blandingen er nevnt ved navn i tabell A i kapittel
+3.2;</p>
+<p>b) Navnet og beskrivelsen av stoffet nevnt i tabell A i kapittel 3.2
+indikerer spesielt at det gjelder kun rent stoff;</p>
+<p>c) Klassen, klassifiseringskoden, emballasjegruppen, eller den fysiske
+tilstanden til løsningen eller blandingen er forskjellig fra den til
+stoffet som er nevnt ved navn i tabell A i kapittel 3.2; eller</p>
+<p>d) Farene og egenskapene til løsningen eller blandingen gjør det
+nødvendig å bruke tiltak i nødsituasjoner som er forskjellige fra de som
+kreves for stoffet som er nevnt ved navn i tabell A i kapittel 3.2.</p>
+<p>Ved disse unntakstilfellene, bortsett fra det som er beskrevet i (a),
+skal løsningen eller blandingen klassifiseres som et stoff som ikke er
+nevnt ved navn i den relevante klassen under en samleoppføring oppført i
+underavsnitt 2.2.x.3 for klassen hvor det tas hensyn til eventuelle
+tilleggsfarer som løsningen eller blandingen representerer, bortsett fra
+når løsningen eller blandingen ikke oppfyller kriteriet for noen klasse,
+da er den ikke underlagt ADR/RID.</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">2.1.3.4</span></code></p>
+<p>Løsninger og blandinger som inneholder et stoff som tilhører en av
+oppføringene nevnt i 2.1.3.4.1 eller 2.1.3.4.2 skal klassifiseres i
+samsvar med bestemmelsene i disse avsnittene.</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">2.1.3.4.1</span></code></p>
+<p>Løsninger og blandinger som inneholder et av følgende navngitte stoffer,
+skal alltid klassifiseres under samme oppføring som det stoffet de
+inneholder, forutsatt at de ikke har slike farlige egenskaper som er
+beskrevet i 2.1.3.5.3.</p>
+<p>– Klasse 3</p>
+<p>UN 1921 PROPYLENIMIN, STABILISERT;</p>
+<p>UN 3064 UN 3064 NITROGLYSEROL, ALKOHOLLØSNING med mer enn 1 %, men ikke
+mer enn 5 % nitroglyserol</p>
+<p>– Klasse 6.1</p>
+<p>UN 1051 HYDROGENCYANID, STABILISERT, som inneholder under 3 % vann;</p>
+<p>UN 1185 ETYLENIMIN, INHIBERT;</p>
+<p>UN 1259 NIKKELKARBONYL;</p>
+<p>UN 1613 HYDROGENCYANID, VANNLØSNING (BLÅSYRE), med ikke over 20 %
+hydrogencyanid;</p>
+<p>UN 1614 HYDROGENCYANID, STABILISERT, som inneholder høyst 3 % vann og er
+absorbert i porøst, inert materiale;</p>
+<p>UN 1994 JERNPENTAKARBONYL;</p>
+<p>UN 2480 METYLISOCYANAT;</p>
+<p>UN 2481 ETYLISOCYANAT;</p>
+<p>UN 3294 HYDROGENCYANID, ALKOHOLLØSNING, med høyst 45 % hydrogencyanid</p>
+<p>– Klasse 8</p>
+<p>UN 1052 HYDROGENFLUORID, VANNFRI;</p>
+<p>UN 1744 BROM eller UN 1744 BROMLØSNING;</p>
+<p>UN 1790 FLUSSYRE med over 85 % hydrogenfluorid;</p>
+<p>UN 2576 FOSFOROKSYBROMID, SMELTET</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">2.1.3.4.2</span></code></p>
+<p>Løsninger og blandinger inneholdende stoffer tilordnet en av de følgende
+oppføringer i klasse 9:</p>
+<p>UN 2315 POLYKLORERTE BIFENYLER, FLYTENDE;</p>
+<p>UN 3151 POLYHALOGENERTE BIFENYLER, FLYTENDE;</p>
+<p>UN 3151 HALOGENERTE MONOMETYLDIFENYLMETANER, FLYTENDE;</p>
+<p>UN 3151 POLYHALOGENERTE TERFENYLER, FLYTENDE;</p>
+<p>UN 3152 POLYHALOGENERTE BIFENYLER, I FAST FORM;</p>
+<p>UN 3152 HALOGENERTE MONOMETYLDIFENYLMETANER, I FAST FORM;</p>
+<p>UN 3152 POLYHALOGENERTE TERFENYLER, I FAST FORM; eller</p>
+<p>UN 3432 POLYKLORERTE BIFENYLER, I FAST FORM</p>
+<p>skal alltid klassifiseres under samme oppføring i klasse 9 forutsatt at:</p>
+<p>– de ikke inneholder andre farlige bestanddeler enn slike i
+emballasjegruppe III i klassene 3, 4.1, 4.2, 4.3, 5.1, 6.1 eller 8; og</p>
+<p>– de ikke har noen av de farlige egenskapene som er angitt i 2.1.3.5.3.</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">2.1.3.4.3</span></code></p>
+<p>Brukte gjenstander, som f.eks transformatorer og kondensere, som
+inneholder en løsning eller blanding nevnt i 2.1.3.4.2, skal alltid
+klassifiseres under samme oppføring i klasse 9 forutsatt at:</p>
+<p>a) de ikke inneholder andre farlige bestanddeler enn polyhalogenerte
+dibenzodioksiner og dibenzofuraner i klasse 6.1 eller bestanddeler i
+emballasjegruppe III i klasse 3, 4.1, 4.2, 4.3, 5.1, 6.1 eller 8; og</p>
+<p>b) de ikke har noen av de farlige egenskapene som angitt i 2.1.3.5.3 a)
+til g) og i).</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">2.1.3.5</span></code></p>
+<p>Stoffer som ikke er oppført med navn i tabell A i kapittel 3.2 og som
+har mer enn en farlig egenskap samt løsninger og blandinger, som i
+henhold til klassifiseringskriteriene er underlagt ADR/RID, og som
+inneholder flere farlige stoffer, skal klassifiseres under en
+samleoppføring (se 2.1.2.5) og en emballasjegruppe i den klassen som
+svarer til deres farekarakteristikk. Slik klassifisering i henhold til
+farekarakteristikken skal foretas på følgende måte:</p>
+<p id="id24"><code class="docutils literal notranslate"><span class="pre">2.1.3.5.1</span></code></p>
+<p>De fysiske og kjemiske kjennetegn og fysiologiske egenskaper skal
+bestemmes ved målinger eller beregninger, og stoffet, løsningen eller
+blandingen skal klassifiseres i henhold til de kriterier som finnes i
+underavsnitt 2.2.x.1 i de enkelte klasser.</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">2.1.3.5.2</span></code></p>
+<p>Dersom slik bestemmelse ikke kan foretas uten uforholdsmessig kostnad
+eller arbeide (som for noen typer avfall), skal stoffet, løsningen eller
+blandingen klassifiseres i klassen til den komponenten som representerer
+den dominerende faren.</p>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">2.1.3.5.3</span></code></p>
+<p>Hvis stoffets, løsningens eller blandingens farlige egenskaper kommer
+inn under mer enn en klasse eller stoffgruppe som er oppført nedenfor,
+skal stoffet, blandingen eller løsningen klassifiseres i den klassen
+eller stoffgruppen som står for den dominerende fare basert på følgende
+rekkefølge:</p>
+<p>a) Materiale av klasse 7 (unntatt radioaktivt materiale i unntakskolli
+hvor de andre farlige egenskaper er utslagsgivende og som, med unntak av
+UN 3507 URANHEKSAFLUORID, RADIOAKTIVT MATERIALE, UNNTAKSKOLLI, er
+underlagt spesiell bestemmelse 290 i kapittel 3.3);</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Stoffer av klasse 1;</p></li>
+<li><p>Stoffer av klasse 2;</p></li>
+<li><p>Flytende eksplosivstoffer som er gjort ufølsomme, av klasse 3;</p></li>
+</ol>
+<p>e) Selvreaktive stoffer, samt faste eksplosivstoffer som er gjort
+ufølsomme, av klasse 4.1;</p>
+<ol class="loweralpha simple" start="6">
+<li><p>Selvantennende stoffer av klasse 4.2;</p></li>
+<li><p>Stoffer av klasse 5.2;</p></li>
+</ol>
+<p>h) Stoffer av klasse 6.1 som på grunnlag av deres giftighet ved
+innånding skal klassifiseres i emballasjegruppe I (stoffer som oppfyller
+kriteriene for klasse 8 og har giftighet ved innånding av støv og tåke
+(LC<sub>50</sub>) som svarer til emballasjegruppe I og giftighet ved
+inntak gjennom munn eller hud som bare svarer til emballasjegruppe III
+eller mindre, skal tilordnes klasse 8);</p>
+<ol class="lowerroman simple">
+<li><p>Infeksjonsfremmende stoffer av klasse 6.2.</p></li>
+</ol>
+<p id="id27"><code class="docutils literal notranslate"><span class="pre">2.1.3.5.4</span></code></p>
+<p>Hvis stoffets farlige egenskaper kommer inn under mer enn en klasse
+eller stoffgruppe som ikke er oppført i 2.1.3.5.3 ovenfor, skal stoffet
+klassifiseres etter samme prosedyre, men relevant klasse skal velges i
+henhold til tabellen over fareprioritering i 2.1.3.10.</p>
+<p id="id28"><code class="docutils literal notranslate"><span class="pre">2.1.3.5.5</span></code></p>
+<p>Hvis stoffet som skal transporteres er et avfall med en sammensetning
+som ikke er helt kjent, så kan tilordningen til UN-nummer og
+emballasjegruppe baseres på avsenderens kjennskap til stoffet; også
+basert på alle de tekniske og sikkerhetsdata som kreves av gjeldende
+sikkerhets- og miljølovgivning <a class="footnote-reference brackets" href="#id47" id="id29" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+<p>I tvilstilfeller skal man velge det høyeste sikkerhetsnivå.</p>
+<p>Hvis det imidlertid, basert på kunnskaper om sammensetningen av
+avfallet, og de fysiske og kjemiske egenskapene til de identifiserte
+stoffbestanddelene, er mulig å påvise at egenskapene til avfallet ikke
+overensstemmer med egenskapene til emballasjegruppe I, så kan avfallet
+klassifiseres i den mest passende n.o.s.-oppføring i emballasjegruppe
+II. Dersom det er kjent at avfallet kun har miljøskadelige egenskaper,
+kan det tilordnes emballasjegruppe III under UN nr. 3077 eller 3082.</p>
+<p>Denne framgangsmåten kan ikke benyttes for stoffer omtalt i 2.1.3.5.3,
+stoffer i klasse 4.3, stoffer for tilfeller nevnt i 2.1.3.7, eller
+stoffer som ikke tillates transportert i overensstemmelse med 2.2.x.2.</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">2.1.3.6</span></code></p>
+<p>Det skal alltid velges den mest spesifikke samleoppføringen (se 2.1.2.5)
+som kan anvendes, dvs. at en generell n.o.s.-oppføring bare skal
+benyttes dersom det ikke er mulig å benytte en beskrivende oppføring
+eller en spesifikk n.o.s-oppføring.</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">2.1.3.7</span></code></p>
+<p>Løsninger og blandinger av oksiderende stoffer eller stoffer med
+oksiderende tilleggsfare kan ha eksplosive egenskaper. I så fall skal de
+ikke mottas for transport med mindre de oppfyller bestemmelsene for
+klasse 1. For ammoniumnitrat basert gjødsel i fast form, se også
+2.2.51.2.2, punkt 13–14 og UN Testmanualen, del III, avsnitt 39.</p>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">2.1.3.8</span></code></p>
+<p>Stoffer i klassene 1 til 6.2, 8 og 9 (bortsett fra de som er tilordnet
+UN 3077 og 3082), som tilfredsstiller kriteriene i 2.2.9.1.10, er ansett
+for å være miljøfarlige stoffer i tillegg til sine farer fra klassene 1
+til 6.2, 8 og 9. Andre stoffer som ikke tilfredsstiller kriteriene for
+noen annen klasse eller noe annet stoff i klasse 9, bortsett fra de i
+2.2.9.1.10, skal tilordnes til UN 3077 og 3082 som relevant.</p>
+<p id="id33"><code class="docutils literal notranslate"><span class="pre">2.1.3.9</span></code></p>
+<p>Avfall som ikke tilfredsstiller kriteriene for å klassifiseres i
+klassene 1 til 9 men som dekkes av <em>Basel-konvensjonen vedrørende
+kontroll med transport av farlig avfall,</em> kan transporteres under UN
+3077 og UN 3082.</p>
+<p><strong>2.1.3.10</strong> Tabell over fareprioritering</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>K
+l
+a
+s
+s
+e
+o
+g
+e
+m
+b
+a
+l
+l
+a
+s
+j
+e
+g
+r
+u
+p
+p
+e</p></th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>I
+I
+I</p></th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>I
+I
+I</p></th>
+<th class="head"><p>I</p></th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>I
+I
+I</p></th>
+<th class="head"><p>I</p></th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>I
+I
+I</p></th>
+<th class="head"><p>I</p>
+<p>D
+E
+R
+M
+A
+L</p>
+</th>
+<th class="head"><p>I</p>
+<p>O
+R
+A
+L</p>
+</th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>6.
+1,
+I
+II</p></th>
+<th class="head"><p>I</p></th>
+<th class="head"><p>I
+I</p></th>
+<th class="head"><p>I
+I
+I</p></th>
+<th class="head"><p>9</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+3
+,
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>3,
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+3
+,
+I
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>3,
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I
+I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>1
+3
+,
+I
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>2
+3
+,
+I
+I
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+3
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+3
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+I
+3
+,
+I
+I
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>3,
+I
+II
+:s
+up
+:`
+a`</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p></td>
+<td></td>
+<td></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+6
+.
+1
+,</p>
+<p>I
+I</p>
+</td>
+<td><p>S
+OL
+L
+IQ</p>
+<p>4.
+1,
+II
+6.
+1,
+II</p>
+</td>
+<td><p>I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+8
+,
+I
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+8
+,
+I
+I</p>
+</td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>S
+OL
+L
+IQ</p>
+<p>4.
+1,
+I
+II
+6.
+1,
+I
+II</p>
+</td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+I
+8
+,
+I
+I
+I</p>
+</td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>4.
+2,
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>4.
+2,
+I
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>4.
+3,
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>4.
+3,
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>4.
+3,
+I
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>5.
+1,
+I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>5.
+1,
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>5.
+1,
+I
+II</p></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I</p>
+<p>D
+E
+R
+M
+A
+L</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+8
+,
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-even"><td><p>I</p>
+<p>O
+R
+A
+L</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+8
+,
+I</p>
+</td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p>
+<p>I
+N
+H
+A
+L</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+8
+,
+I</p>
+</td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I</p>
+<p>D
+E
+R
+M
+A
+L</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+8
+,
+I</p>
+</td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+8
+,
+I
+I</p>
+</td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I</p>
+<p>O
+R
+A
+L</p>
+</td>
+<td></td>
+<td></td>
+<td><p>S
+O
+L
+=
+F
+a
+s
+t
+e
+s
+t
+o
+f
+f
+e
+r
+o
+g
+b
+l
+a
+n
+d
+i
+n
+g
+e
+r</p>
+<p>L
+I
+Q
+=
+F
+l
+y
+t
+e
+n
+d
+e
+s
+t
+o
+f
+f
+e
+r
+,
+v
+æ
+s
+k
+e
+r
+,
+l
+ø
+s
+n
+i
+n
+g
+e
+r
+o
+g
+b
+l
+a
+n
+d
+i
+n
+g
+e
+r</p>
+<p>D
+E
+R
+M
+A
+L
+=
+G
+i
+f
+t
+i
+g
+h
+e
+t
+v
+e
+d
+o
+p
+p
+t
+a
+k
+g
+j
+e
+n
+n
+o
+m
+h
+u
+d
+e
+n</p>
+<p>O
+R
+A
+L
+=
+G
+i
+f
+t
+i
+g
+h
+e
+t
+v
+e
+d
+s
+v
+e
+l
+g
+i
+n
+g</p>
+<p>I
+N
+H
+A
+L
+=
+G
+i
+f
+t
+i
+g
+h
+e
+t
+v
+e
+d
+i
+n
+n
+å
+n
+d
+n
+i
+n
+g</p>
+<p>:
+s
+u
+p
+:
+`
+a
+`
+</p>
+<ul class="simple">
+<li></li>
+</ul>
+<p>K
+l
+a
+s
+s
+e
+6
+.
+1
+f
+o
+r
+b
+e
+k
+j
+e
+m
+p
+n
+i
+n
+g
+s
+m
+i
+d
+l
+e
+r
+*</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>S
+O
+L
+L
+I
+Q</p>
+<p>I
+I
+8
+,
+I
+I</p>
+</td>
+<td><p>I
+I</p></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+<td><p>I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I</p></td>
+</tr>
+<tr class="row-even"><td><p>I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I
+I</p></td>
+</tr>
+<tr class="row-odd"><td><p>I
+I
+I</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>I
+I
+I</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ANM 1:</strong> Eksempler som forklarer bruken av tabellen</p>
+<p><strong>Klassifisering av et enkelt stoff</strong></p>
+<p>Beskrivelse av det stoffet som skal klassifiseres:</p>
+<p>– Et amin som ikke er oppført med navn og som svarer til kriteriene for
+klasse 3, emballasjegruppe II samt kriteriene for klasse 8,
+emballasjegruppe I.</p>
+<p><strong>Prosedyre:</strong></p>
+<p>– Skjæringspunktet for rad 3 II med kolonne 8 I gir 8 I.</p>
+<p>Dette aminet skal derfor klassifiseres i klasse 8 under:</p>
+<p>UN 2734 AMINER, FLYTENDE, ETSENDE, BRANNFARLGE, N.O.S. eller UN 2734
+POLYAMINER, FLYTENDE, ETSENDE, BRANNFARLGE, N.O.S. emballasjegruppe I.</p>
+<p><strong>Klassifisering av en blanding</strong></p>
+<p>Beskrivelse av den blandingen som skal klassifiseres:</p>
+<p>– Blanding som består av brannfarlig væske, klassifisert i klasse 3 og
+emballasjegruppe III, et giftig stoff av klasse 6.1 og emballasjegruppe
+II samt et etsende stoff av klasse 8 og emballasjegruppe I.</p>
+<p><strong>Prosedyre:</strong></p>
+<p>– Skjæringspunktet for rad 3 III med kolonne 6.1 II gir 6.1 II.</p>
+<p>– Skjæringspunktet for rad 6.1 II med kolonne 8 I gir 8 I LIQ.</p>
+<p>Denne blandingen som ikke er nærmere definert skal derfor klassifiseres
+i klasse 8 under:</p>
+<p>UN 2922 ETSENDE VÆSKE, GIFTIG, N.O.S. emballasjegruppe I.</p>
+<p><strong>ANM 2:</strong> Eksempler på klassifisering av blandinger og løsninger i en
+klasse og en emballasjegruppe:</p>
+<p>– En løsning av fenol av klasse 6.1, (II) i benzen av klasse 3, (II)
+skal klassifiseres i klasse 3, (II). Denne løsningen skal klassifiseres
+under UN 1992 BRANNFARLIG VÆSKE, GIFTIG, N.O.S, klasse 3, (II) på grunn
+av fenolens giftige karakter.</p>
+<p>– En blanding i fast form av natriumarsenat av klasse 6.1, (II) og
+natriumhydroksid av klasse 8, (II) skal klassifiseres under UN 3290
+GIFTIG FAST STOFF, ETSENDE, UORGANISK N.O.S av klasse 6.1, (II).</p>
+<p>– En løsning av rå eller raffinert naftalen av klasse 4.1, (III) i
+bensin av klasse 3, (II) skal klassifiseres under UN 3295 HYDROKARBONER,
+FLYTENDE, N.O.S. av klasse 3, (II).</p>
+<p>– En blanding av hydrokarboner av klasse 3, (III) og polyklorerte
+bifenyler (PCB) av klasse 9, (II) skal klassifiseres under UN 2315
+POLYKLORERTE BIFENYLER, VÆSKE, eller UN 3432 POLYKLORERTE BIFENYLER,
+FASTE av klasse 9, (II).</p>
+<p>– En blanding av propylenimin av klasse 3 og polyklorerte bifenyler
+(PCB) av klasse 9, (II) skal klassifiseres under UN 1921 PROPYLENIMIN,
+INHIBERT av klasse 3.</p>
+</section>
+<section id="klassifisering-av-prover">
+<span id="id34"></span><h2>2.1.4 Klassifisering av prøver<a class="headerlink" href="#klassifisering-av-prover" title="Link to this heading">#</a></h2>
+<p id="id35"><code class="docutils literal notranslate"><span class="pre">2.1.4.1</span></code></p>
+<p>Når det er usikkert hvilken klasse et stoff tilhører og det skal
+transporteres for videre testing, skal det midlertidig tilordnes
+varenavn og UN nummer på grunnlag av avsenderens kunnskaper om stoffet
+samt anvendelse av:</p>
+<ol class="loweralpha simple">
+<li><p>klassifiseringskriteriene i kapittel 2.2; og</p></li>
+<li><p>bestemmelsene i dette kapitlet.</p></li>
+</ol>
+<p>Den strengest mulige emballasjegruppen for det valgte varenavnet skal
+anvendes.</p>
+<p>Når denne bestemmelsen er brukt, skal ordet «PRØVE» tilføyes etter
+varenavnet (f.eks. BRANNFARLIG VÆSKE, N.O.S., PRØVE). I visse tilfelle,
+hvor det foreligger et spesifikt varenavn for en prøve av et stoff som
+antas å svare til visse klassifiseringskriterier (f.eks. UN 3167 GASS
+PRØVE, IKKE UNDER TRYKK, BRANNFARLIG), skal dette varenavnet brukes. Når
+det benyttes en n.o.s.-betegnelse ved transport av prøven, behøver det
+ikke å tilføyes et teknisk navn etter varenavnet, slik det kreves i
+spesiell bestemmelse 274 i kapittel 3.3.</p>
+<p id="id36"><code class="docutils literal notranslate"><span class="pre">2.1.4.2</span></code></p>
+<p>Prøvene av stoffet skal transporteres i samsvar med de bestemmelsene som
+gjelder for det varenavnet som det er midlertidig tildelt, forutsatt at:</p>
+<p>a) Stoffet antas å ikke være et stoff som er forbudt å transportere i
+henhold til avsnittene 2.2.x.2 i kapittel 2.2 eller kapittel 3.2;</p>
+<p>b) Stoffet antas å ikke være et stoff som svarer til kriteriene for
+klasse 1 og heller ikke infeksjonsfremmende stoff eller radioaktivt
+materiale;</p>
+<p>c) Stoffet er i samsvar med henholdsvis 2.2.41.1.15 eller 2.2.52.1.9
+dersom det er et selvreaktivt stoff eller et organisk peroksid;</p>
+<p>d) Prøven transporteres i en sammensatt emballasje med netto masse ikke
+over 2,5 kg pr. kolli; og</p>
+<ol class="loweralpha simple" start="5">
+<li><p>Prøven ikke er emballert sammen med annet gods.</p></li>
+</ol>
+<p id="id37"><code class="docutils literal notranslate"><span class="pre">2.1.4.3</span></code></p>
+<p>Prøver av energetiske stoffer for testformål</p>
+<p id="id38"><code class="docutils literal notranslate"><span class="pre">2.1.4.3.1</span></code></p>
+<p>Prøver av organiske stoffer med funksjonelle grupper listet opp i
+tabellene A6.1 og/eller A6.3 i vedlegg 6 (Screening Procedures) i UN
+Testmanualen kan transporteres som UN 3224 (SELVREAKTIVT FAST STOFF TYPE
+C) eller UN 3223 (SELVREAKTIV VÆSKE TYPE C), som relevant, i klasse 4.1
+forutsatt at:</p>
+<ol class="loweralpha simple">
+<li><p>Prøvene ikke inneholder noen:</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>Kjente eksplosiver;</p></li>
+<li><p>Stoffer som viser eksplosive effekter under testing;</p></li>
+</ol>
+<p>iii. Forbindelser designet med hensikt for å produsere en eksplosiv
+eller pyroteknisk virkning; eller</p>
+<p>iv. Bestanddeler bestående av syntetiske utgangsstoffer for tiltenkte
+eksplosiver;</p>
+<p>b) For blandinger, komplekser eller salter av uorganiske oksiderende
+stoffer i klasse 5.1 med organiske komponenter, er konsentrasjonen av de
+uorganiske oksiderende stoffene:</p>
+<p>i. Mindre enn 15 vektprosent hvis tilordnet emballasjegruppe I (høy
+faregrad) eller II (middels faregrad); eller</p>
+<p>ii. Mindre enn 30 vektprosent hvis tilordnet emballasjegruppe III (lav
+faregrad);</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Tilgjengelig informasjon ikke muliggjør en mer presis klassifikasjon;</p></li>
+<li><p>Prøven er ikke emballert sammen med annet gods; og</p></li>
+</ol>
+<p>e) Prøven er emballert i henhold til emballeringsbestemmelse P520 og
+spesiell emballeringsbestemmelse PP94 eller PP95 under 4.1.4.1, etter
+hva som er relevant.</p>
+</section>
+<section id="klassifisering-av-gjenstander-som-gjenstander-som-inneholder-farlig-gods-n-o-s">
+<span id="id39"></span><h2>2.1.5 Klassifisering av gjenstander som gjenstander som inneholder farlig gods, n.o.s.<a class="headerlink" href="#klassifisering-av-gjenstander-som-gjenstander-som-inneholder-farlig-gods-n-o-s" title="Link to this heading">#</a></h2>
+<p><strong>ANM:</strong> For gjenstander som ikke har et varenavn og som bare inneholder
+farlig gods i begrensede mengder angitt i kolonne (7a) i tabell A i
+kapittel 3.2, kan UN 3363 og spesielle bestemmelser 301 og 672 i
+kapittel 3.3 benyttes.</p>
+<p id="id40"><code class="docutils literal notranslate"><span class="pre">2.1.5.1</span></code></p>
+<p>Gjenstander som inneholder farlig gods kan klassifiseres som ellers
+angitt i ADR/RID under varenavnet for det farlige godset de inneholder
+eller i henhold til dette avsnittet.</p>
+<p>I dette avsnittet betyr «gjenstand» maskiner, apparat eller annet utstyr
+med integrert farlig gods (eller rester av dette), og hvor det farlige
+godset er nødvendig for funksjonen og ikke kan fjernes for
+transportformål.</p>
+<p>En inneremballasje skal ikke anses som en gjenstand.</p>
+<p id="id41"><code class="docutils literal notranslate"><span class="pre">2.1.5.2</span></code></p>
+<p>Slike gjenstander kan i tillegg inneholde celler og batterier. Celler og
+batterier basert på litiummetall, litiumion eller natriumion, som er
+integrerte i gjenstanden, skal være av en type som har bevist at den
+oppfyller prøve-kravene i <em>Manual of Tests and Criteria</em>, del III,
+underavsnitt 38.3. Gjenstander som inneholder pre-produksjonsprototyper
+av celler og batterier basert på litiummetall, litiumion eller
+natriumion, og som blir transportert for prøving, eller gjenstander som
+inneholder celler og batterier basert på litiummetall, litiumion eller
+natriumion, og som er tilvirket i produksjonsserier på ikke mer enn 100
+celler eller batterier, er underlagt kravene i spesiell bestemmelse 310
+i kapittel 3.3.</p>
+<p id="id42"><code class="docutils literal notranslate"><span class="pre">2.1.5.3</span></code></p>
+<p>Dette avsnittet gjelder ikke for gjenstander som allerede er tilordnet
+et mer spesifikt varenavn i tabell A i kapittel 3.2.</p>
+<p id="id43"><code class="docutils literal notranslate"><span class="pre">2.1.5.4</span></code></p>
+<p>Dette avsnittet gjelder ikke for farlig gods i klasse 1, klasse 6.2,
+klasse 7 eller radioaktivt materiale i gjenstander. Likevel gjelder
+dette avsnittet gjenstander som inneholder eksplosiver som er utelukket
+fra klasse 1 i samsvar med 2.2.1.1.8.2.</p>
+<p id="id44"><code class="docutils literal notranslate"><span class="pre">2.1.5.5</span></code></p>
+<p>Gjenstander som inneholder farlig gods skal tilordnes til den mest
+hensiktsmessige klassen på grunnlag av farene som finnes, når aktuelt,
+ved bruk av tabellen over fareprioritering i 2.1.3.10 for hvert farlig
+gods i gjenstanden. Dersom gjenstanden inneholder farlig gods i klasse
+9, skal alt annet farlig gods i gjenstanden anses for å utgjøre en
+større fare.</p>
+<p id="id45"><code class="docutils literal notranslate"><span class="pre">2.1.5.6</span></code></p>
+<p>Tilleggsfarer skal representere hovedfarene til annet farlig gods i
+artikkelen. Når bare en type farlig gods er til stede i gjenstanden skal
+eventuelle tilleggsfarer kunne avleses i tabell A, kapittel 3.2 i
+kolonne 5. Hvis gjenstanden inneholder mer enn en komponent farlig gods
+og disse kan reagere farlig med hverandre under transport, skal hver
+komponent sikres separat (se 4.1.1.6).</p>
+</section>
+<section id="klassifisering-av-tomte-ikke-rengjorte-kasserte-emballasjer">
+<span id="id46"></span><h2>2.1.6 Klassifisering av tømte, ikke rengjorte, kasserte emballasjer<a class="headerlink" href="#klassifisering-av-tomte-ikke-rengjorte-kasserte-emballasjer" title="Link to this heading">#</a></h2>
+<p>Tømte, ikke-rengjorte emballasjer, storemballasjer eller IBC, eller
+deler av disse, som transporteres for avfallsdisponering eller
+materialgjenvinning, annet enn rekondisjonering, reparasjon,
+rutinemessig vedlikehold, renovering eller gjenbruk, kan tilordnes UN
+3509 hvis de oppfyller kravene for denne tilordning.</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id47" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id29">1</a><span class="fn-bracket">]</span></span>
+<p>Slik lovgivning er for eksempel kommisjonsvedtak 2000/532/EF av 3.mai
+2000 om erstatning av vedtak 94/3EF om utarbeiding av en liste over
+avfall i henhold til artikkel 1 bokstav a) i rådsdirektiv 75/442/EØF
+om avfall og rådsvedtak 94/904/EF om utarbeidning av liste over
+farlig avfall i henhold til artikkel 1 nr. 4 i rådsdirektiv
+91/689/EØF om farlig avfall (Official Journal of the European
+Communities No. L 226 of 6 September 2000, page 3), som endret og
+direktiv 2008/98/EF fra europaparlamentet og rådet av 19 november
+2008 om avfall med oppheving av visse direktiver (Official Journal of
+the European Union No. L 312 of 22 November 2008, pages 3–30), som
+endret.</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Del2_index/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Del 2 Klassifisering</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#innledning">2.1.1 Innledning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prinsipper-for-klassifisering">2.1.2 Prinsipper for klassifisering</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassifisering-av-stoffer-inklusive-losninger-og-blandinger-som-preparater-og-avfall-som-ikke-er-oppfort-med-navn">2.1.3 Klassifisering av stoffer, inklusive løsninger og blandinger (som preparater og avfall) som ikke er oppført med navn.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassifisering-av-prover">2.1.4 Klassifisering av prøver</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassifisering-av-gjenstander-som-gjenstander-som-inneholder-farlig-gods-n-o-s">2.1.5 Klassifisering av gjenstander som gjenstander som inneholder farlig gods, n.o.s.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassifisering-av-tomte-ikke-rengjorte-kasserte-emballasjer">2.1.6 Klassifisering av tømte, ikke rengjorte, kasserte emballasjer</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del2/Kapittel 2.1 Alminnelige bestemmelser.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

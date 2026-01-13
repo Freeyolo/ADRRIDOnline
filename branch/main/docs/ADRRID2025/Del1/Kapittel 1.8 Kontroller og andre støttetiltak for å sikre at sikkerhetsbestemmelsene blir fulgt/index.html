@@ -1,0 +1,2048 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter" href="../Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/" />
+    <link rel="prev" title="Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale" href="../Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del1_index/">Del 1 Alminnelige bestemmelser</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del1_index/" class="nav-link">Del 1 Alminnelige bestemmelser</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-1-8-kontroller-og-andre-stottetiltak-for-a-sikre-at-sikkerhetsbestemmelsene-blir-fulgt">
+<span id="id1"></span><h1>Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt<a class="headerlink" href="#kapittel-1-8-kontroller-og-andre-stottetiltak-for-a-sikre-at-sikkerhetsbestemmelsene-blir-fulgt" title="Link to this heading">#</a></h1>
+<section id="administrative-kontroller-av-farlig-gods">
+<span id="id2"></span><h2>1.8.1 Administrative kontroller av farlig gods<a class="headerlink" href="#administrative-kontroller-av-farlig-gods" title="Link to this heading">#</a></h2>
+<p id="id3"><code class="docutils literal notranslate"><span class="pre">1.8.1.1</span></code></p>
+<p>Vedkommende myndigheter hos de kontraherende parter kan når som helst
+foreta stikkprøver på sitt nasjonale område for å fastslå om
+bestemmelsene om transport av farlig gods, inkludert kravene i 1.10.1.5
+angående sikringstiltak, er fulgt.</p>
+<p>Slike stikkprøver skal dog foretas på en måte som ikke utsetter
+personer, eiendom eller miljøet for fare og uten vesentlig forstyrrelse
+av trafikken.</p>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">1.8.1.2</span></code></p>
+<p>De som er aktører ved transport av farlig gods (kapittel 1.4) skal
+straks, ut fra de forpliktelser som de er pålagt, stille til disposisjon
+for vedkommende myndigheter og deres representanter nødvendig
+informasjon for gjennomføring av stikkprøvene.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">1.8.1.3</span></code></p>
+<p>De vedkommende myndigheter kan også, for å gjennomføre kontroller på
+området til de virksomheter som er aktører ved transport av farlig gods
+(kapittel 1.4), foreta inspeksjoner, studere de nødvendige dokumenter og
+ta med seg prøver av farlig gods eller emballasje for undersøkelse,
+forutsatt at dette ikke går ut over sikkerheten. Aktørene ved transport
+av farlig gods (kapittel 1.4) skal også gjøre kjøretøyene/vognene eller
+deler av kjøretøyene/vognene og utstyr og installasjoner tilgjengelige,
+slik at de kan bli kontrollert, såfremt dette er mulig og rimelig. Om de
+finner det nødvendig, kan de utpeke en person fra virksomheten til å
+ledsage representanten for vedkommende myndighet.</p>
+<p id="id6"><code class="docutils literal notranslate"><span class="pre">1.8.1.4</span></code></p>
+<p>Dersom vedkommende myndigheter konstaterer at ADR/RID-kravene ikke er
+oppfylt, kan de forby en sending eller avbryte en transportoperasjon
+inntil de mangler som ble konstatert, er rettet, eller de kan kreve at
+andre hensiktsmessige tiltak blir satt i verk. Det kan nedlegges
+transportforbud på stedet, eller transporten kan dirigeres til et sted
+myndighetene anviser av sikkerhetshensyn. Slike tiltak skal ikke være
+årsak til vesentlig forstyrrelse av trafikken.</p>
+</section>
+<section id="gjensidig-administrativ-stotte">
+<span id="id7"></span><h2>1.8.2 Gjensidig administrativ støtte<a class="headerlink" href="#gjensidig-administrativ-stotte" title="Link to this heading">#</a></h2>
+<p id="id8"><code class="docutils literal notranslate"><span class="pre">1.8.2.1</span></code></p>
+<p>De vedkommende myndigheter skal gi gjensidig administrativ støtte til
+gjennomføringen av ADR/RID.</p>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">1.8.2.2</span></code></p>
+<p>Når en kontraherende part har grunnlag for å konstatere at en virksomhet
+som har hovedkontor på en annen kontraherende parts område, begår meget
+alvorlige eller gjentatte overtredelser og derved reduserer sikkerheten
+ved transport av farlig gods på den førstnevnte partens område, skal
+denne underrette den andre parten om disse overtredelsene. Vedkommende
+myndigheter hos den kontraherende part på hvis område de meget alvorlige
+eller gjentatte overtredelser ble konstatert, kan anmode vedkommende
+myndigheter hos den kontraherende part på hvis område virksomheten har
+sitt hovedkontor om å treffe egnede tiltak overfor den (dem) som har
+begått overtredelsene. Det er ikke tillatt å formidle personopplysninger
+med mindre dette er nødvendig for strafferettslig oppfølging av meget
+alvorlige eller gjentatte overtredelser.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">1.8.2.3</span></code></p>
+<p>De myndigheter som får slik underretning, skal informere myndighetene
+hos den kontraherende part på hvis område det ble konstatert
+overtredelser om de skritt som, om nødvendig, er tatt overfor
+virksomheten.</p>
+</section>
+<section id="sikkerhetsradgiver">
+<span id="id11"></span><h2>1.8.3 Sikkerhetsrådgiver<a class="headerlink" href="#sikkerhetsradgiver" title="Link to this heading">#</a></h2>
+<p id="id12"><code class="docutils literal notranslate"><span class="pre">1.8.3.1</span></code></p>
+<p>Enhver virksomhet, hvorav aktiviteter omfatter forsendelse eller
+transport av farlig gods på vei/<strong>jernbane</strong>, eller emballering,
+lasting, fylling eller lossing i den forbindelse, skal utpeke en eller
+flere sikkerhetsrådgivere for transport av farlig gods som skal ha
+ansvar for å medvirke til å forebygge risiko for personer, materielle
+verdier og miljøet som er knyttet til slike aktiviteter.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">1.8.3.2</span></code></p>
+<p>Vedkommende myndigheter hos de kontraherende parter kan beslutte at
+disse kravene ikke skal gjelde for virksomheter:</p>
+<ol class="loweralpha simple">
+<li><p>(Reservert)</p></li>
+</ol>
+<p>b) hvis aktiviteter dreier seg om mengder på en enkelt transportenhet
+som ikke overstiger de mengdene nevnt i 1.1.3.6, 1.7.1.4 og i kapitlene
+3.3, 3.4 og 3.5, eller</p>
+<p>c) hvis hoved aktiviteter eller sekundære aktiviteter ikke er
+forsendelse, transport eller tilhørende pakking, fylling, lasting eller
+lossing av farlig gods, men som fra tid til annen foretar innenlands
+forsendelse, transport eller tilhørende pakking, fylling, lasting eller
+lossing av farlig gods som utgjør liten fare eller forurensningsrisiko.</p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">1.8.3.3</span></code></p>
+<p>Rådgiverens hovedoppgave skal være, under ansvar av virksomhetens leder,
+å ta i bruk alle egnede midler og treffe alle egnede tiltak, innenfor
+rammen av det som er relevante aktiviteter for virksomheten, for å legge
+til rette for at disse aktivitetene blir utført i samsvar med relevante
+bestemmelser og på mest mulig sikker måte.</p>
+<p>Med hensyn til virksomhetens aktiviteter, har rådgiveren følgende
+spesielle plikter:</p>
+<p>– kontrollere at bestemmelsene om transport av farlig gods blir fulgt;</p>
+<p>– gi virksomheten råd om transport av farlig gods;</p>
+<p>– utarbeide årsrapport til virksomhetens ledelse, om virksomhetens
+aktiviteter med hensyn til farlig gods. Disse årsrapportene skal
+oppbevares i fem år og gjøres tilgjengelig for de nasjonale myndighetene
+på forespørsel.</p>
+<p>Rådgiverens plikter omfatter også kontroll av praksis og rutiner på
+følgende områder i forbindelse med de relevante aktiviteter hos
+virksomheten:</p>
+<p>– rutinene for å oppfylle kravene med hensyn til identifikasjon av de
+farlige stoffer som transporteres;</p>
+<p>– virksomhetens praksis med hensyn til å ta i betraktning eventuelle
+spesielle krav som er knyttet til det farlige godset som skal
+transporteres når transportmidler skal anskaffes;</p>
+<p>– rutinene for kontroll av utstyr som benyttes i forbindelse med
+transport, pakking, fylling, lasting eller lossing av farlig gods;</p>
+<p>– hensiktsmessig opplæring av virksomhetens ansatte, inkludert om
+endringene i regelverket, samt registrering av denne opplæringen;</p>
+<p>– iverksettelsen av egnede prosedyrer for nødsituasjoner ved enhver
+ulykke eller hendelse som kan påvirke sikkerheten under transport,
+pakking, fylling, lasting eller lossing av farlig gods;</p>
+<p>– foreta undersøkelser og, når det er påkrevet, utarbeide rapporter om
+alvorlige ulykker, uforutsette hendelser eller alvorlige overtredelser
+av bestemmelsene under forsendelse, transport, pakking, fylling, lasting
+eller lossing av farlig gods;</p>
+<p>– iverksettelse av egnede tiltak for å hindre gjentagelse av ulykker,
+uforutsette hendelser eller alvorlige overtredelser av bestemmelsene;</p>
+<p>– hvordan det tas hensyn til bestemmelsene om transport av farlig gods
+når det velges og gjøres bruk av underleverandører eller tredjeparter;</p>
+<p>– hvordan det følges opp at ansatte som er involvert i transport,
+pakking, fylling, lasting eller lossing av farlig gods, har detaljerte
+rutiner og instrukser;</p>
+<p>– innføring av tiltak for å øke bevisstheten om risikoen forbundet med
+transport, pakking, fylling, lasting og lossing av farlig gods;</p>
+<p>– iverksettelse av rutiner for å sikre at dokumenter og sikkerhetsutstyr
+som skal følge transporten, befinner seg på kjøretøyet/toget og er i
+samsvar med bestemmelsene;</p>
+<p>– iverksettelse av rutiner for å sikre at bestemmelsene om pakking,
+fylling, lasting og lossing blir fulgt;</p>
+<p>– tilstedeværelse av sikringsplan omtalt i 1.10.3.2.</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">1.8.3.4</span></code></p>
+<p>Rådgiveren kan også være virksomhetens leder, en person med andre
+plikter i virksomheten eller en person som ikke er direkte ansatt i
+vedkommende virksomhet, forutsatt at denne personen er i stand til å
+utføre rådgiverens plikter.</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">1.8.3.5</span></code></p>
+<p>Alle virksomheter som dette gjelder for, skal på anmodning navngi
+rådgiveren overfor vedkommende myndighet eller det organ som den
+kontraherende part har utpekt for dette formålet.</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">1.8.3.6</span></code></p>
+<p>Når en ulykke under transport, pakking, fylling, lasting eller lossing
+foretatt av virksomheten får konsekvenser for personer, materielle
+verdier eller miljøet, eller er årsak til skade på materielle verdier
+eller miljøet, skal rådgiveren etter å ha samlet all relevant
+informasjon utarbeide en ulykkesrapport til virksomhetens ledelse eller
+eventuelt til den lokale offentlige myndighet. Denne rapporten erstatter
+ikke en eventuell rapport som virksomhetens ledelse måtte være pålagt å
+avgi under annen internasjonal eller nasjonal lovgivning.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">1.8.3.7</span></code></p>
+<p>En rådgiver skal ha et bevis som er gyldig for
+vegtransport/jernbanetransport. Beviset skal være utstedt av vedkommende
+myndighet eller av det organ som den enkelte kontraherende part har
+utpekt for dette formålet.</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">1.8.3.8</span></code></p>
+<p>For å få et slikt bevis, må kandidaten gjennomgå opplæring og bestå en
+eksamen som er godkjent av vedkommende myndighet hos den kontraherende
+part.</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">1.8.3.9</span></code></p>
+<p>Hovedformålet med opplæringen skal være å gi kandidatene tilstrekkelige
+kunnskaper om de farer som er forbundet med transport, pakking, fylling,
+lasting eller lossing av farlig gods, om gjeldende lover, forskrifter og
+administrative bestemmelser og om de pliktene som er oppført i 1.8.3.3.</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">1.8.3.10</span></code></p>
+<p>Eksamen skal være organisert av vedkommende myndighet eller av et
+eksamensorgan som er oppnevnt av vedkommende myndighet. Eksamensorganet
+skal ikke drive opplæring for sikkerhetsrådgivereksamen.</p>
+<p>Eksamensorganet skal være skriftlig oppnevnt. Godkjenningen kan være
+tidsbegrenset og skal bygge på følgende kriterier:</p>
+<p>– eksamensorganets kompetanse;</p>
+<p>– spesifikasjonene til den formen for eksamen som eksamensorganet
+foreslår, inkludert, om nødvendig, infrastruktur og organisering av
+elektronisk eksamen i samsvar med 8.2.2.7.1.8 dersom slike skal utføres;</p>
+<p>– forholdsregler som skal sikre at eksamen er upartisk;</p>
+<p>– at eksamensorganet er uavhengig av alle fysiske eller juridisk
+personer som har sikkerhetsrådgivere i sin tjeneste.</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">1.8.3.11</span></code></p>
+<p>Formålet med eksamen er å fastslå om kandidaten har tilstrekkelig
+kunnskaper for å utføre de plikter som påhviler en sikkerhetsrådgiver og
+som er opplistet i 1.8.3.3, slik at det beviset som er omtalt i
+underavsnitt 1.8.3.7 kan utstedes. Den skal minst omfatte følgende
+emner:</p>
+<p>a) Kunnskap om de konsekvenser som kan bli følgen av en ulykke med
+farlig gods og om de viktigste årsakene til ulykker;</p>
+<p>b) Bestemmelser i nasjonal lovgivning og internasjonale konvensjoner og
+ataler, spesielt med hensyn til:</p>
+<p>– klassifisering av farlig gods (fremgangsmåte ved klassifisering av
+løsninger og blandinger; hvordan varelistene er ordnet, klasser av
+farlig gods og prinsipper for klassifisering, arten av farlig gods som
+transporteres, det farlige godsets fysiske, kjemiske og toksikologiske
+egenskaper);</p>
+<p>– alminnelige emballeringsbestemmelser og bestemmelser om tanker (typer,
+kodemerking, utførelse, første gangs og periodisk kontroll og prøving);</p>
+<p>– merking og faresedler samt bruk av oransjefargede skilter, (merking og
+faresedler på kolli samt anbringelse og fjerning av store faresedler og
+oransjefargede skilter på containere og kjøretøyer/vogner);</p>
+<p>– innholdet i transportdokumentet (opplysninger som kreves),</p>
+<p>– forsendelsesmåte og restriksjoner for forsendelse/spedisjon (komplett
+last, transport i bulk, transport i mellomstore bulkcontainere,
+transport i containere, transport i tanker);</p>
+<p>– transport av passasjerer;</p>
+<p>– forbud og forsiktighetsregler i forbindelse med samlasting;</p>
+<p>– atskillelse av gods;</p>
+<p>– begrensning av transportert mengde og unntaksmengder;</p>
+<p>– håndtering og stuing (pakking, fylling (fyllingsgrad), lasting og
+lossing, stuing og atskillelse);</p>
+<p>– rengjøring og/eller avgassing før pakking, fylling, lasting og etter
+lossing;</p>
+<p>– mannskaper, opplæring;</p>
+<p>– ADR: kjøretøydokumenter (transportdokumenter, skriftlige
+instruksjoner, godkjennelsesattest for kjøretøy, kompetansebevis for
+fører, kopier av eventuelle avvik, andre dokumenter);</p>
+<p>– RID: dokumenter som skal være om bord (transportdokumenter, skriftlige
+instruksjoner, kopier av bestemmelser om fravik, andre dokumenter);</p>
+<p>– skriftlige instruksjoner (oppfølging av instruksjonene og verneutstyr
+for mannskapet);</p>
+<p>– ADR: krav om tilsyn, (parkering);</p>
+<p>– ADR: trafikkbestemmelser og restriksjoner;</p>
+<p>– utslipp av forurensende stoffer under drift eller som følge av uhell;</p>
+<p>– bestemmelser om transportutstyr.</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">1.8.3.12</span></code> <strong>Eksamen</strong></p>
+<p id="id24"><code class="docutils literal notranslate"><span class="pre">1.8.3.12.1</span></code></p>
+<p>Eksamen skal bestå av en skriftlig eksamen som kan suppleres med muntlig
+eksaminasjon.</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">1.8.3.12.2</span></code></p>
+<p>Vedkommende myndighet eller den instans som er utpekt som
+eksamensadministrator skal holde tilsyn med hver eksamen. Mulig
+manipulering og juks skal forhindres så langt det lar seg gjøre.
+Kandidatens identitet skal stadfestes. Bruk av dokumenter utenom
+internasjonale og nasjonale bestemmelser er ikke tillatt. Alle
+eksamensdokumenter skal registreres og lagres som utskrift eller
+elektronisk i form av en fil.</p>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">1.8.3.12.3</span></code></p>
+<p>Elektroniske medier kan bare benyttes dersom de er framskaffet av
+eksamensorganet. Kandidaten skal ikke kunne legge inn ytterligere
+informasjon på de utleverte elektroniske mediene, det skal kun være
+mulig for kandidaten å besvare de stilte spørsmål.</p>
+<p id="id27"><code class="docutils literal notranslate"><span class="pre">1.8.3.12.4</span></code></p>
+<p>Den skriftlige prøven skal bestå av to deler:</p>
+<p>a) Kandidatene skal få utlevert et spørreskjema. Det skal inneholde
+minst 20 åpne spørsmål som minst skal dekke de emnene som er nevnt i
+listen i 1.8.3.11. Det er likevel anledning til å benytte
+flervalgsspørsmål. I så fall teller to flervalgsspørsmål som ett åpent
+spørsmål. Blant emnene skal det legges særlig vekt på følgende:</p>
+<p>– alminnelige forebyggende tiltak og sikkerhetstiltak;</p>
+<p>– klassifisering av farlig gods;</p>
+<p>– alminnelige emballeringsbestemmelser, medregnet tanker,
+tankcontainere, tankkjøretøyer/vogner etc.;</p>
+<p>– faremerker, faresedler og skilting;</p>
+<p>– opplysninger i transportdokumentet;</p>
+<p>– håndtering og stuing;</p>
+<p>– mannskaper, opplæring;</p>
+<p>– ADR: kjøretøydokumenter og transportgodkjenninger;</p>
+<p>– RID: dokumenter som skal medfølge og transportdokumenter;</p>
+<p>– skriftlige instruksjoner;</p>
+<p>– bestemmelser som gjelder transportutstyr.</p>
+<p>b) Kandidatene skal løse en «case» oppgave som gjenspeiler de plikter en
+rådgiver har og som er beskrevet i 1.8.3.3, for å vise at de har de
+nødvendige kvalifikasjoner for å utføre en rådgivers oppgaver.</p>
+<p id="id28"><code class="docutils literal notranslate"><span class="pre">1.8.3.12.5</span></code></p>
+<p>Skriftlig eksamen kan gjennomføres, helt eller delvis, som en
+elektronisk eksamen, hvor svarene registreres og evalueres ved bruk av
+elektronisk databehandling (EDB), forutsatt at følgende vilkår er
+oppfylt;</p>
+<p>a) Maskinvaren og programvaren skal være kontrollert og akseptert av
+vedkommende myndighet eller eksamensadministrator utpekt av vedkommende
+myndighet;</p>
+<p>b) Den tekniske funksjonen til utstyret skal være forsvarlig sikret. Det
+skal være ordninger for om og hvordan eksamen kan fortsette i tilfelle
+feil på utstyr og applikasjoner<em>.</em> Ingen hjelpemidler skal være
+tilgjengelig på det elektroniske utstyret (for eksempel elektronisk
+søkefunksjon), utstyret som tilbys i henhold til 1.8.3.12.3 skal ikke
+tillate at kandidaten kan kommunisere med noe annet utstyr i løpet av
+eksamineringen;</p>
+<p>c) Endelig levering fra hver kandidat skal registreres. Fastsettelse av
+resultatene skal være transparente;</p>
+<p id="id29"><code class="docutils literal notranslate"><span class="pre">1.8.3.13</span></code></p>
+<p>De kontraherende parter kan beslutte at kandidater som har til hensikt å
+arbeide for virksomheter som spesialiserer seg på visse typer farlig
+gods, bare behøver å bli stilt spørsmål om de stoffene som har med deres
+aktiviteter å gjøre. Det dreier seg om følgende typer gods:</p>
+<p>– Klasse 1,</p>
+<p>– Klasse 2,</p>
+<p>– Klasse 7,</p>
+<p>– Klasse 3, 4.1, 4.2, 4.3, 5.1, 5.2, 6.1, 6.2, 8 og 9.</p>
+<p>– UN nr. 1202, 1203 og 1223, 3475 og flydrivstoff klassifisert som UN
+1268 eller UN 1863.</p>
+<p>Det beviset som er foreskrevet i 1.8.3.7, skal klart vise at det bare er
+gyldig for den(de) typen(-e) av det farlige godset som er omtalt i dette
+underavsnittet og som kandidaten er eksaminert i på de vilkår som er
+definert i 1.8.3.12.</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">1.8.3.14</span></code></p>
+<p>Vedkommende myndighet eller eksamensorganet skal føre en fortløpende
+liste over de spørsmål som har vært benyttet ved prøven.</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">1.8.3.15</span></code></p>
+<p>Det beviset som er foreskrevet i 1.8.3.7, skal være utformet som vist i
+1.8.3.18, og det skal godtas av alle kontraherende parter.</p>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">1.8.3.16</span></code> Varighet og fornying av bevis</p>
+<p id="id33"><code class="docutils literal notranslate"><span class="pre">1.8.3.16.1</span></code></p>
+<p>Beviset skal være gyldig i fem år. Bevisets gyldighetstid skal forlenges
+for fem år ad gangen når innehaveren har bestått en eksamen i løpet av
+det siste året før utløp. Slik eksamen skal være godkjent av vedkommende
+myndighet.</p>
+<p id="id34"><code class="docutils literal notranslate"><span class="pre">1.8.3.16.2</span></code></p>
+<p>Hensikten med eksaminasjonen er å sikre at innehaveren av beviset har
+tilstrekkelig kunnskap for å utføre de plikter som er fastsatt i
+1.8.3.3. Den nødvendige kunnskap er omtalt i 1.8.3.11(b), og skal
+inkludere endringene i regelverkene innført etter at beviset sist ble
+utstedt. Eksamen skal være organisert på samme måte som beskrevet i
+1.8.3.10 og 1.8.3.12 til 1.8.3.14. Det er ikke nødvendig med
+«case»-oppgave som omtalt i 1.8.3.12.4 (b).</p>
+<p id="id35"><code class="docutils literal notranslate"><span class="pre">1.8.3.17</span></code></p>
+<p>(Slettet)</p>
+<p id="id36"><code class="docutils literal notranslate"><span class="pre">1.8.3.18</span></code> Eksempel på bevis</p>
+<p><strong>Bevis for opplæring som sikkerhetsrådgiver for transport av farlig gods</strong></p>
+<section id="bevis-nr">
+<h3>Bevis nr:<a class="headerlink" href="#bevis-nr" title="Link to this heading">#</a></h3>
+</section>
+<section id="kjennetegnet-til-den-staten-som-har-utstedt-beviset">
+<h3>Kjennetegnet til den staten som har utstedt beviset:<a class="headerlink" href="#kjennetegnet-til-den-staten-som-har-utstedt-beviset" title="Link to this heading">#</a></h3>
+</section>
+<section id="etternavn">
+<h3>Etternavn:<a class="headerlink" href="#etternavn" title="Link to this heading">#</a></h3>
+</section>
+<section id="fornavn">
+<h3>Fornavn:<a class="headerlink" href="#fornavn" title="Link to this heading">#</a></h3>
+</section>
+<section id="fodselsdato-og-sted">
+<h3>Fødselsdato og sted:<a class="headerlink" href="#fodselsdato-og-sted" title="Link to this heading">#</a></h3>
+</section>
+<section id="nasjonalitet">
+<h3>Nasjonalitet:<a class="headerlink" href="#nasjonalitet" title="Link to this heading">#</a></h3>
+</section>
+<section id="innehaverens-underskrift">
+<h3>Innehaverens underskrift:<a class="headerlink" href="#innehaverens-underskrift" title="Link to this heading">#</a></h3>
+<div class="line-block">
+<div class="line">Gyldig til ………………. for virksomheter som transporterer
+farlig gods og for virksomheter</div>
+<div class="line">som foretar forsendelse, pakking, fylling, lasting og lossing i den
+forbindelse:</div>
+</div>
+<p>☐ på veg ☐ på jernbane ☐ på innlands vannvei</p>
+</section>
+<section id="utstedt-av">
+<h3>Utstedt av:<a class="headerlink" href="#utstedt-av" title="Link to this heading">#</a></h3>
+</section>
+<section id="dato-underskrift">
+<h3>Dato: ………………………………………… Underskrift:<a class="headerlink" href="#dato-underskrift" title="Link to this heading">#</a></h3>
+<p id="id37"><code class="docutils literal notranslate"><span class="pre">1.8.3.19</span></code> Utvidelse av bevis</p>
+<p>Om en rådgiver utvider bevisets omfang innenfor perioden det er gyldig
+ved å møte kravene i 1.8.3.16.2, skal det nye bevisets gyldighetstid
+forbli som i forrige bevis.</p>
+</section>
+</section>
+<section id="liste-over-vedkommende-myndigheter-og-instanser-de-har-utpekt">
+<span id="id38"></span><h2>1.8.4 Liste over vedkommende myndigheter og instanser de har utpekt<a class="headerlink" href="#liste-over-vedkommende-myndigheter-og-instanser-de-har-utpekt" title="Link to this heading">#</a></h2>
+<p>De kontraherende parter skal informere sekretariatet ved De Forente
+Nasjoners kommisjon for Europa/OCTI-sekretariatet om adressene til de
+myndigheter som i henhold til den nasjonale lovgivning har kompetanse
+ved iverksettelse av ADR/RID, og til de instanser som disse myndigheter
+har utpekt, idet det for hvert enkelt tilfelle vises til de relevante
+ADR/RID-bestemmelser og oppgis de adresser hvor relevante henvendelser
+skal rettes.</p>
+<p>Sekretariatet ved FNs økonomiske kommisjon for Europa/OCTI-sekretariatet
+skal utarbeide en liste på grunnlag av den mottatte informasjon og skal
+holde den a jour. Det skal sende denne listen og endringer til listen
+til de kontraherende parter.</p>
+</section>
+<section id="melding-om-hendelser-hvor-farlig-gods-er-involvert">
+<span id="id39"></span><h2>1.8.5 Melding om hendelser hvor farlig gods er involvert<a class="headerlink" href="#melding-om-hendelser-hvor-farlig-gods-er-involvert" title="Link to this heading">#</a></h2>
+<p id="id40"><code class="docutils literal notranslate"><span class="pre">1.8.5.1</span></code></p>
+<p>Dersom en alvorlig ulykke, uhell eller uforutsett hendelse finner sted
+ved lasting, fylling, transport eller lossing av farlig gods på en
+kontraherende parts område, skal henholdsvis ADR: laster, fyller,
+transportør og mottaker/ <strong>RID: laster, fyller, transportør, losser,
+mottaker eller, hvis anledningen krever det, driftsansvarlig for
+jernbaneinfrastruktur,</strong> sørge for at det settes opp og sendes en
+rapport i en slik form som beskrevet i 1.8.5.4 til vedkommende myndighet
+hos angjeldende kontraherende part senest en måned etter hendelsen.</p>
+<p id="id41"><code class="docutils literal notranslate"><span class="pre">1.8.5.2</span></code></p>
+<p>Denne kontraherende part skal så, om nødvendig, sette opp en rapport til
+sekretariatet ved de forente nasjoners kommisjon for
+Europa/OCTI-sekretariatet slik at dette kan informere de andre
+kontraherende parter.</p>
+<p id="id42"><code class="docutils literal notranslate"><span class="pre">1.8.5.3</span></code></p>
+<p>En hendelse som ifølge 1.8.5.1 skal rapporteres skal anses inntruffet
+dersom farlig gods har lekket ut eller om det var overhengende fare for
+tap av farlig gods, personskade, skade på materiell eller miljø eller
+dersom myndighetene var involvert og en eller flere av følgende
+kriterier ble oppfylt:</p>
+<p>Med personskade menes en hendelse der død eller skade på person
+inntreffer og der dette er direkte forbundet med det farlige godset som
+ble transportert, og at denne skaden</p>
+<ol class="loweralpha simple">
+<li><p>medfører intensiv medisinsk behandling, eller</p></li>
+<li><p>medfører sykehusopphold i minst en dag, eller</p></li>
+<li><p>resulterer i arbeidsuførhet i minst tre påfølgende dager.</p></li>
+</ol>
+<p>Tap av farlig gods betyr at produktet har lekket ut</p>
+<p>a) fra en transport av transportkategori 0 eller 1 i mengder på 50 kg /
+50 liter eller mer,</p>
+<p>b) fra en transport av transportkategori 2 i mengder på 333 kg / 333
+liter eller mer, og</p>
+<p>c) fra en transport av transportkategori 3 eller 4 i mengder på 1000 kg
+/ 1000 liter eller mer.</p>
+<p>Kriteriene for slikt produktutslipp får også gyldighet dersom det var
+overhengende fare for utslipp av farlig gods i de mengder som er nevnt
+ovenfor. Som en regel kan det antas at slikt tap vil kunne oppstå,
+dersom det foreligger strukturell skade, beholderen ikke lenger er egnet
+for videre transport, eller om det av annen årsak ikke lenger kan antas
+at transporten kan fortsette med tilstrekkelig grad av sikkerhet (f.eks.
+dersom tanker eller beholdere har kommet løs og ut av stilling og
+således ikke lenger er tilstrekkelig festet, en tank som har veltet
+eller ved en brann i umiddelbar nærhet).</p>
+<p>Dersom farlig gods av klasse 6.2 er involvert i uhell, skal dette alltid
+rapporteres, uten hensyn til hvilke mengder som eventuelt har lekket ut.</p>
+<p>I hendelser som involverer radioaktivt materiale, er kriteriene for
+utslipp av produkt:</p>
+<ol class="loweralpha simple">
+<li><p>Enhver lekkasje av radioaktivt materiale;</p></li>
+</ol>
+<p>b) Eksponering som fører til brudd på sikkerhetsgrensene for beskyttelse
+av personell og allmennheten mot ioniserende stråling <em>(«Radiation
+Protection and Safety of Radiation Sources: International Basic Safety
+Standards», IAEA Safety Standards Series No. GSR Part 3, IAEA, Vienna
+(2014))</em>; eller</p>
+<p>c) Når det er grunn til å anta at det har oppstått en betydelig
+svekkelse i emballasjens sikkerhetsfunksjon (tetthet, evne til å holde
+på stoffet, mekanisk beskyttelse, skjerming eller temperaturisolering)
+som kan ha gjort kolliet uegnet for videre transport uten ny
+tilleggsbeskyttelse.</p>
+<p><strong>ANM:</strong> Se spesifikasjoner for ikke leverbar forsendelse i 7.5.11 CV33
+(6).</p>
+<p>Materiell eller miljømessig skade er oppstått når lekkasje av farlig
+gods, uansett mengde, fører til skade som antas å være større enn
+tilsvarende 50.000 EURO. Skade på materiell som er direkte involvert i
+transporten av det farlige godset skal ikke regnes med i denne
+sammenheng.</p>
+<p>Myndighetenes engasjement betyr det direkte engasjement av myndigheter
+eller redningsorganisasjoner i løpet av hendelsen med farlig gods og
+evakuering av personer eller stengning av trafikkårer
+(veier/gater/jernbane) i minst tre timer som følge av faren som har
+oppstått med det farlige godset.</p>
+<p>Om nødvendig, kan vedkommende myndighet forlange all relevant
+informasjon.</p>
+<p id="id43"><code class="docutils literal notranslate"><span class="pre">1.8.5.4</span></code> Rapportmal for uhell ved transport av farlig gods</p>
+<p>{{{IMG CLASS=»«class PDF »» REF=»1.8.5.4-Rapportmal-side01.pdf»/}}}</p>
+<p>{{{IMG CLASS=»«class PDF »» REF=»1.8.5.4-Rapportmal-side02.pdf»/}}}</p>
+<p>{{{IMG CLASS=»«class PDF »» REF=»1.8.5.4-Rapportmal-side03.pdf»/}}}</p>
+<p>Hvis nødvendig kan vedkommende myndighet be om ytterligere relevant
+dokumentasjon.</p>
+</section>
+<section id="administrativ-regulering-av-aktivitetene-som-beskrives-i-1-8-7-og-1-8-8">
+<span id="id44"></span><h2>1.8.6 Administrativ regulering av aktivitetene som beskrives i 1.8.7 og 1.8.8<a class="headerlink" href="#administrativ-regulering-av-aktivitetene-som-beskrives-i-1-8-7-og-1-8-8" title="Link to this heading">#</a></h2>
+<p><strong>ANM 1:</strong> I dette avsnittet betyr begrepene nedenfor følgende:</p>
+<p>– «godkjent kontrollorgan» er et kontrollorgan som er godkjent av
+vedkommende myndighet til å utføre ulike aktiviteter i henhold til
+1.8.6.1; og</p>
+<p>– «anerkjent kontrollorgan» er et godkjent kontrollorgan som er
+anerkjent av en annen vedkommende myndighet.</p>
+<p><strong>ANM 2:</strong> Et kontrollorgan kan utpekes av vedkommende myndighet til å
+opptre som vedkommende myndighet (se definisjonen av vedkommende
+myndighet i 1.2.1).</p>
+<p id="id45"><code class="docutils literal notranslate"><span class="pre">1.8.6.1</span></code> Generelle bestemmelser</p>
+<p>Vedkommende myndighet hos en kontraherende part til ADR/RID kan
+godkjenne kontrollorganer for følgende aktiviteter: samsvarsvurderinger,
+periodiske kontroller, mellomliggende kontroller, ekstraordinære
+kontroller, verifikasjoner før ibruktagelse, samt autorisasjon og
+overvåkning av internorgan som anvendt i kapittel 6.2 og 6.8.</p>
+<p id="id46"><code class="docutils literal notranslate"><span class="pre">1.8.6.2</span></code> Forpliktelser for vedkommende myndighet</p>
+<p id="id47"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.1</span></code></p>
+<p>Når vedkommende myndighet godkjenner et kontrollorgan til å utføre
+aktivitetene som angis i 1.8.6.1, skal akkrediteringen til
+kontrollorganet være i henhold til kravene for type A i EN ISO/IEC
+17020:2012 (unntatt avsnitt 8.1.3).</p>
+<p>Når vedkommende myndighet godkjenner et kontrollorgan til å utføre
+periodiske kontroller av trykkbeholdere i samsvar med kapittel 6.2, skal
+akkrediteringen til kontrollorganet være i henhold til kravene for type
+A eller type B i EN ISO/IEC 17020:2012 (unntatt avsnitt 8.1.3).</p>
+<p>Akkrediteringen skal klart dekke aktivitetene i godkjenningen.</p>
+<p>I de tilfeller vedkommende myndighet utfører oppgavene til
+kontrollorganet selv, skal vedkommende myndighet oppfylle bestemmelsene
+i 1.8.6.3. Når en vedkommende myndighet utpeker et kontrollorgan til å
+fungere som vedkommende myndighet, skal imidlertid det utpekte organet
+være akkreditert i henhold til standarden EN ISO/IEC 17020:2012 (unntatt
+avsnitt 8.1.3) type A.</p>
+<p id="id48"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.2</span></code> Godkjenning av kontrollorgan</p>
+<p id="id49"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.2.1</span></code></p>
+<p>Type A kontrollorganer skal være etablert i henhold til nasjonal
+lovgivning og skal være en juridisk person i den kontraherende part til
+ADR/RID der søknaden om godkjenning fremmes.</p>
+<p>Type B kontrollorganer skal være etablert i henhold til nasjonal
+lovgivning og skal være en del av en juridisk person som leverer gass i
+den kontraherende part til ADR/RID der søknaden om godkjenning fremmes.</p>
+<p id="id50"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.2.2</span></code></p>
+<p>Vedkommende myndighet skal sikre at kontrollorganet alltid oppfyller
+vilkårene i sin godkjennelse og skal trekke tilbake godkjennelsen dersom
+disse vilkårene ikke er oppfylt. Derimot, i tilfelle suspensjon av
+akkrediteringen, er godkjennelsen bare suspendert i suspensjonsperioden
+for akkrediteringen.</p>
+<p id="id51"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.2.3</span></code></p>
+<p>Et kontrollorgan som starter en ny aktivitet, kan bli midlertidig
+godkjent. Før midlertidig godkjennelse gis, skal vedkommende myndighet
+forsikre seg om at kontrollorganet oppfyller kravene i 1.8.6.3.1.
+Kontrollorganet skal akkrediteres i henhold til EN ISO/IEC 17020:2012
+(unntatt avsnitt 8.1.3) i løpet av sitt første driftsår for å kunne
+fortsette denne nye virksomheten.</p>
+<p id="id52"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.3</span></code> Overvåkning av kontrollorgan</p>
+<p id="id53"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.3.1</span></code></p>
+<p>Uansett hvor aktivitetene til et kontrollorgan utføres, skal vedkommende
+myndighet som godkjente dette kontrollorganet sørge for overvåkning av
+kontrollorganets aktiviteter, inkludert overvåkning på stedet.
+Vedkommende myndighet skal inndra eller begrense godkjennelsen som er
+gitt dersom det godkjente organet ikke lenger er i overensstemmelse med
+godkjenningen gitt, kravene i 1.8.6.3.1, eller ikke følger prosedyrene
+beskrevet i ADR/RID-bestemmelsene.</p>
+<p><strong>ANM:</strong> Kontrollorganets overvåkning av underleverandører som omtalt i
+1.8.6.3.3 skal også inngå i overvåkningen av kontrollorganet.</p>
+<p id="id54"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.3.2</span></code></p>
+<p>Hvis godkjennelsen til kontrollorganet er inndratt eller begrenset,
+eller dersom kontrollorganet har stanset aktiviteten, skal vedkommende
+myndighet ta de nødvendige grep for å sikre at saksdokumentene enten
+behandles av et annet kontrollorgan eller holdes tilgjengelig.</p>
+<p id="id55"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.4</span></code> Informasjonsplikt</p>
+<p id="id56"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.4.1</span></code></p>
+<p>Kontraherende parter til ADR/RID skal offentliggjøre deres nasjonale
+prosedyrer for vurdering, godkjennelse og overvåkning av kontrollorgan
+og eventuelle endringer i denne informasjonen.</p>
+<p id="id57"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.4.2</span></code></p>
+<p>Vedkommende myndighet hos den kontraherende parten til ADR/RID skal
+publisere en oppdatert liste over alle kontrollorgan denne har godkjent,
+inkludert kontrollorgan som er midlertidig godkjent som omtalt i
+1.8.6.2.2.3. Denne listen skal minst inneholde følgende informasjon:</p>
+<ol class="loweralpha simple">
+<li><p>Kontrollorganets navn, adresse(r) til kontrollorganets kontor(er);</p></li>
+<li><p>Omfanget av aktiviteter som kontrollorganet er godkjent for;</p></li>
+</ol>
+<p>c) Bekreftelse på at kontrollorganet er akkreditert i henhold til EN
+ISO/IEC 17020:2012 (unntatt avsnitt 8.1.3) av det nasjonale
+akkrediteringsorganet og at akkrediteringen dekker omfanget av
+aktiviteter kontrollorganet er godkjent for;</p>
+<p>d) Merket eller stempelet, som spesifisert i kapittel 6.2 og 6.8, til
+kontrollorganet og merket til alle internorganer kontrollorganet har
+autorisert.</p>
+<p>En referanse til denne listen skal finnes på nettstedet til
+sekretariatet for UNECE/<strong>OTIF</strong>.</p>
+<p id="id58"><code class="docutils literal notranslate"><span class="pre">1.8.6.2.4.3</span></code></p>
+<p>Et kontrollorgan godkjent av en vedkommende myndighet kan bli anerkjent
+av en annen vedkommende myndighet.</p>
+<p>Hvis en vedkommende myndighet ønsker å ta i bruk tjenestene til et
+kontrollorgan som allerede er godkjent av en annen vedkommende myndighet
+til å utføre aktiviteter på sine vegne knyttet til samsvarsvurderinger
+og kontroller, skal denne myndigheten legge til dette kontrollorganet på
+listen omtalt i 1.8.6.2.4.2, og oppgi omfanget av aktiviteter
+anerkjennelsen gjelder for samt hvilken vedkommende myndighet som har
+godkjent kontrollorganet, og informere sekretariatet i UNECE/OTIF.
+Dersom godkjennelsen trekkes tilbake eller suspenderes, så er ikke
+anerkjennelsen lenger gyldig.</p>
+<p><strong>ANM:</strong> I denne sammenheng skal avtaler om gjensidig anerkjennelse
+mellom kontraherende parter til ADR/RID respekteres.</p>
+<p id="id59"><code class="docutils literal notranslate"><span class="pre">1.8.6.3</span></code> Kontrollorganers forpliktelser</p>
+<p id="id60"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.1</span></code> Alminnelige bestemmelser</p>
+<p>Kontrollorganet skal:</p>
+<p>a) Ha en stab med en organisasjonsstruktur, kvalifisert, opplært,
+kompetent og faglært til å utføre sine faglige oppgaver på en
+tilfredsstillende måte;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Ha tilgang på hensiktsmessige og tilfredsstillende lokaler og utstyr;</p></li>
+</ol>
+<p>c) Opptre på en upartisk måte, og være fri for påvirkning som kan hindre
+dem i å opptre på en slik måte;</p>
+<p>d) Sørge for konfidensialitet angående forretningsaktiviteter og andre
+forhold hos produsenten og andre organer som det vil være av
+konkurransemessig betydning å hemmeligholde;</p>
+<p>e) Opprettholde et klart skille mellom kontrollorganfunksjoner og andre
+urelaterte aktiviteter;</p>
+<p>f) Inneha et dokumentert kvalitetssystem tilsvarende det som er oppgitt
+i EN ISO/IEC 17020:2012 (unntatt avsnitt 8.1.3);</p>
+<p>g) Sørge for at prøver og inspeksjoner spesifisert i relevant standard
+og i ADR/RID blir gjennomført;</p>
+<p>h) Opprettholde et effektivt og hensiktsmessig rapport- og dokumentarkiv
+i henhold til 1.8.7 og 1.8.8;</p>
+<p>i) Være fri fra kommersielt eller økonomisk press og ikke knytte
+avlønning av personell til antall kontroller utført eller resultatene av
+disse;</p>
+<p>j) Ha en ansvarsforsikring som dekker risikoen i forhold til de utførte
+aktivitetene;</p>
+<p><strong>ANM:</strong> Dette er ikke nødvendig om den kontraherende parten til ADR/RID
+påtar seg ansvaret i henhold til nasjonal lovgivning.</p>
+<ol class="loweralpha simple" start="11">
+<li><p>Ha person(er) ansvarlig(e) for gjennomføringen av kontrollene som:</p></li>
+</ol>
+<p>i. Ikke er direkte involvert i konstruksjon, produksjon, leveranse,
+installasjon, kjøp, eierforhold, bruk eller vedlikehold av produktet
+(trykkbeholdere, tanker, batterikjøretøy/batterivogner eller MEGC) som
+skal kontrolleres;</p>
+<p>ii. Har fått opplæring i alle forhold ved aktiviteter relatert til de
+som kontrollorganet er godkjent for;</p>
+<p>iii. Ha tilstrekkelig kunnskap, tekniske ferdigheter og forståelse av
+gjeldene krav i gjeldene standarder og i de relevante bestemmelsene i
+del 4 og del 6;</p>
+<p>iv. Ha evnen til å utarbeide sertifikater, dokumentasjon og rapporter
+som viser at vurderingene er utført;</p>
+<p>v. Ivaretar profesjonell diskresjon med hensyn til informasjon ervervet
+ved utførte oppgaver, eller når dette kreves av nasjonal lovgivning,
+unntatt i forhold til den vedkommende myndigheten i den kontraherende
+parten til ADR/RID hvor aktiviteten utføres. Ved forespørsel fra andre
+kontrollorgan kan informasjonen deles i den grad det er nødvendig for
+gjennomføringen av kontroller og prøving.</p>
+<p>Kravene ovenfor anses å være oppfylt ved akkreditering i henhold til
+standard EN ISO/IEC 17020:2012 (unntatt avsnitt 8.1.3).</p>
+<p id="id61"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.2</span></code> Operasjonelle plikter</p>
+<p id="id62"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.2.1</span></code></p>
+<p>Vedkommende myndighet eller kontrollorganet skal utføre
+samsvarsvurderinger, periodiske kontroller, mellomliggende kontroller,
+ekstraordinære kontroller og verifikasjon før ibruktagelse på en
+forholdsmessig måte og unngå unødige belastninger. Vedkommende myndighet
+eller kontrollorgan skal, når de utfører sine aktiviteter, ta hensyn til
+de involverte foretakenes størrelse, bransjetype og selskapsstruktur,
+teknologiens kompleksitet og karakter av serieproduksjon.</p>
+<p id="id63"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.2.2</span></code></p>
+<p>Vedkommende myndighet eller kontrollorganet skal respektere graden av
+nøyaktighet og beskyttelsesnivået som kreves for å oppfylle de gjeldene
+bestemmelsene i del 4 og 6 som er relevante.</p>
+<p id="id64"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.2.3</span></code></p>
+<p>Hvis en vedkommende myndighet eller et kontrollorgan finner at kravene
+som stilles i del 4 eller 6 ikke er oppfylt av produsenten, skal den
+kreve at produsenten iverksetter egnede korrigerende tiltak og ikke
+utstede typegodkjenningssertifikat eller sertifikat fra
+førstegangskontroll og prøve før de egnede korrigerende tiltakene er
+gjennomført.</p>
+<p id="id65"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3</span></code> Delegering av kontrolloppgaver</p>
+<p><strong>ANM:</strong> Følgende bestemmelser gjelder bare for type A kontrollorganer.
+Type B kontrollorganer har ikke lov til å delegere aktivitetene de er
+godkjent for. For internorgan, se 1.8.7.7.2.</p>
+<p id="id66"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3.1</span></code></p>
+<p>Hvis et kontrollorgan gjør bruk av tjenester fra en underleverandører
+til å utføre spesielle oppgaver i forbindelse med sin aktivitet, skal
+underleverandøren vurderes og overvåkes av kontrollorganet eller
+akkrediteres separat. Ved separat akkreditering skal underleverandøren
+være behørig akkreditert i henhold til standard EN ISO/IEC 17025:2017
+(unntatt avsnitt 8.1.3) eller EN ISO/IEC 17020:2012 (unntatt avsnitt
+8.1.3) som ett uavhengig og upartisk prøvelaboratorium eller
+kontrollorgan for å kunne utføre prøveoppgaver i overensstemmelse med
+sin akkreditering. Kontrollorganet skal sikre at denne underleverandøren
+oppfyller kravene fastsatt for de oppgavene den er tildelt med samme
+kompetanse- og sikkerhetsnivå som fastsatt for kontrollorganer (se
+1.8.6.3.1), og kontrollorganet skal overvåke det. Kontrollorganet skal
+informere vedkommende myndighet om de ovennevnte ordninger.</p>
+<p id="id67"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3.2</span></code></p>
+<p>Kontrollorganet skal ta fullt ansvar for oppgavene som utføres av slike
+underleverandører uansett hvor de utfører oppgavene.</p>
+<p id="id68"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3.3</span></code></p>
+<p>En type A kontrollorgan kan for hver aktivitet bare delegere deler av
+aktiviteten. I alle tilfeller skal vurderingen og utstedelse av
+sertifikater gjøres av selve kontrollorganet.</p>
+<p id="id69"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3.4</span></code></p>
+<p>Aktiviteter skal ikke delegeres uten samtykke fra produsenten, eieren
+eller brukeren.</p>
+<p id="id70"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.3.5</span></code></p>
+<p>Kontrollorganet skal oppbevare den relevante dokumentasjonen som gjelder
+vurderingen av kvalifikasjoner og utført arbeid av ovennevnte
+underleverandører, til rådighet for vedkommende myndighet.</p>
+<p id="id71"><code class="docutils literal notranslate"><span class="pre">1.8.6.3.4</span></code> Informasjonsplikter</p>
+<p>Ethvert kontrollorgan skal informere den vedkommende myndighet som har
+godkjent det, om følgende:</p>
+<p>a) Ethvert avslag, restriksjon, suspensjon eller tilbaketrekking av
+typegodkjenningssertifikat, unntatt når bestemmelsene i 1.8.7.2.2.2
+gjelder;</p>
+<p>b) Enhver omstendighet som påvirker omfanget og betingelsene for
+godkjenningen som er gitt av vedkommende myndighet;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Ethvert avslag på kontrollsertifikater;</p></li>
+</ol>
+<p>d) Enhver forespørsel om informasjon vedrørende utførte aktiviteter
+mottatt fra vedkommende myndigheter som overvåker samsvar etter dette
+avsnittet;</p>
+<p>e) På forespørsel, alle aktiviteter som er utført i henhold til omfanget
+av deres godkjenning, inkludert delegerte oppgaver.</p>
+<p>f) Enhver autorisasjon av, eller suspensjon eller tilbaketrekking av et
+internorgan;</p>
+</section>
+<section id="prosedyrer-for-samsvarsvurdering-utstedelse-av-typegodkjenningssertifikat-og-kontroller">
+<span id="id72"></span><h2>1.8.7 Prosedyrer for samsvarsvurdering, utstedelse av typegodkjenningssertifikat og kontroller<a class="headerlink" href="#prosedyrer-for-samsvarsvurdering-utstedelse-av-typegodkjenningssertifikat-og-kontroller" title="Link to this heading">#</a></h2>
+<p><strong>ANM 1:</strong> I dette avsnittet betyr «relevant organ» et organ som angitt
+i kapittel 6.2 og 6.8.</p>
+<p><strong>ANM 2:</strong> I dette avsnittet betyr «produsent» det foretaket som er
+ansvarlig overfor vedkommende myndighet for samtlige deler i
+samsvarsvurderingen og for å sikre konstruksjonens samsvar, og som
+fremgår med navn og merke i godkjenningene og i merkingen. Det er ikke
+avgjørende at foretaket er direkte involvert i alle deler av
+fremstillingen av produktet (se 1.8.7.1.5) som er gjenstand for
+samsvarsvurderingen.</p>
+<p id="id73"><code class="docutils literal notranslate"><span class="pre">1.8.7.1</span></code> Generelle bestemmelser</p>
+<p id="id74"><code class="docutils literal notranslate"><span class="pre">1.8.7.1.1</span></code></p>
+<p>Prosedyrene i avsnitt 1.8.7 skal gjøres gjeldende i samsvar med kapittel
+6.2 og 6.8.</p>
+<p>Hvis vedkommende myndighet utfører oppgavene selv, skal vedkommende
+myndighet oppfylle bestemmelsene i dette avsnittet.</p>
+<p id="id75"><code class="docutils literal notranslate"><span class="pre">1.8.7.1.2</span></code></p>
+<p>Enhver søknad om</p>
+<ol class="loweralpha simple">
+<li><p>Typeprøving i henhold til 1.8.7.2.1;</p></li>
+<li><p>Utstedelse av typegodkjenningssertifikat i henhold til 1.8.7.2.2;</p></li>
+<li><p>Overvåkning av produksjon i henhold til 1.8.7.3; eller</p></li>
+<li><p>Førstegangskontroll og prøving i henhold til 1.8.7.4</p></li>
+</ol>
+<p>skal fremsettes av produsenten til en vedkommende myndighet eller til et
+kontrollorgan, etter hva som er relevant, i overensstemmelse med
+kapittel 6.2 og 6.8.</p>
+<p>Enhver søknad om</p>
+<ol class="loweralpha simple" start="5">
+<li><p>Verifikasjon før ibruktagelse i henhold til 1.8.7.5; eller</p></li>
+</ol>
+<p>f) Periodisk kontroll, mellomliggende kontroll og ekstraordinær kontroll
+i henhold til 1.8.7.6</p>
+<p>skal fremsettes av eieren eller dens utnevnte representant, eller av
+brukeren eller dens utnevnte representant, til en vedkommende myndighet
+eller et kontrollorgan.</p>
+<p>Når internorgan er godkjent for c), d), eller f), er det ikke nødvendig
+å fremsette søknad for c), d) eller f).</p>
+<p id="id76"><code class="docutils literal notranslate"><span class="pre">1.8.7.1.3</span></code></p>
+<p>Søknaden må inkludere:</p>
+<ol class="loweralpha simple">
+<li><p>søkerens navn og adresse i henhold til 1.8.7.1.2;</p></li>
+</ol>
+<p>b) en skriftlig erklæring om at samme søknad ikke er fremsatt til en
+annen vedkommende myndighet eller kontrollorgan;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>relevant teknisk dokumentasjon beskrevet i punkt 1.8.7.8;</p></li>
+</ol>
+<p>d) en erklæring som gir, for samsvarsvurdering og kontrollformål,
+vedkommende myndighet eller kontrollorganet, etter hva som er relevant,
+adgang til lokalene for produksjon, kontroll, prøving og oppbevaring,
+samt tilgang til all informasjon som er nødvendig for å få oppgavene
+utført.</p>
+<p id="id77"><code class="docutils literal notranslate"><span class="pre">1.8.7.1.4</span></code></p>
+<p>Når produsenten eller et foretak med prøvingssted tillates å opprette et
+internorgan i henhold til 6.2.2.12, 6.2.3.6.1, 6.8.1.5.3 b) eller
+6.8.1.5.4 b), skal de på en tilfredsstillende måte overfor
+kontrollorganet vise at internorganet kan utføre kontroller og prøver i
+overensstemmelse med 1.8.7.</p>
+<p id="id78"><code class="docutils literal notranslate"><span class="pre">1.8.7.1.5</span></code></p>
+<p>Typegodkjenningssertifikat, kontrollsertifikater og rapporter til
+produktene (trykkbeholdere, tanker, driftsutstyr og sammenstillingen av
+elementene, strukturelt utstyr og driftsutstyr for
+batterikjøretøy/batterivogner eller MEGCer), inkludert teknisk
+dokumentasjon, skal oppbevares:</p>
+<p>a) av produsenten i en periode på minimum 20 år fra typegodkjenningens
+utløpsdato;</p>
+<p>b) av utstedende vedkommende myndighet eller kontrollorgan i en periode
+på minimum 20 år fra utstedelsesdato;</p>
+<p>c) av eieren eller brukeren i en periode på minimum 15 måneder etter at
+produktet er tatt ut av bruk.</p>
+<p id="id79"><code class="docutils literal notranslate"><span class="pre">1.8.7.2</span></code> Typeprøving og utstedelse av typegodkjenningssertifikat</p>
+<p id="id80"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.1</span></code> Typeprøving</p>
+<p id="id81"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.1.1</span></code></p>
+<p>Produsenten skal:</p>
+<p>a) for trykkbeholdere, stille til rådighet for kontrollorganet et
+representativt utvalg av den planlagte produksjonen. Kontrollorganet kan
+be om flere eksemplarer hvis påkrevd av prøveprogrammet;</p>
+<p>b) for tanker, batterikjøretøy/batterivogner og MEGCer, gi tilgang til
+prototypen for typeprøving;</p>
+<p>c) for driftsutstyr, stille til rådighet for kontrollorganet et
+representativt utvalg av den planlagte produksjonen. Kontrollorganet kan
+be om flere eksemplarer hvis påkrevd av prøveprogrammet.</p>
+<p><strong>ANM:</strong> Resultatene fra vurderinger og prøvinger i henhold til andre
+regelverk eller standarder kan tas i betraktning.</p>
+<p id="id82"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.1.2</span></code></p>
+<p>Kontrollorganet skal:</p>
+<p>a) Undersøke den tekniske dokumentasjonen spesifisert i 1.8.7.8.1 for å
+forsikre seg om at designet er i henhold til de relevante bestemmelser i
+ADR/RID, og at prototypen eller prototypeserien har blitt produsert i
+samsvar med den tekniske dokumentasjonen og er representativ for
+designet;</p>
+<p>b) Gjennomføre undersøkelsene og prøvingene, eller gjennomføre
+undersøkelsene og verifisere prøveforholdene og bevitne prøvingene på
+stedet, som spesifisert i ADR/RID, inkludert de relevante standardene,
+for å avgjøre at bestemmelsene er fulgt, og at produsentens anvendte
+prosedyrer tilfredsstiller kravene;</p>
+<p>c) Kontrollere materialsertifikatene utstedt av materialprodusenten(e)
+mot de relevante bestemmelsene i ADR/RID;</p>
+<p>d) Hvis relevant, godkjenne prosedyrene for permanent sammenføyning av
+deler eller kontrollere at delene tidligere er godkjente, og verifisere
+at personellet som utfører de permanente sammenføyningene og de
+ikke-ødeleggende prøvingene, er kvalifiserte og godkjente;</p>
+<p>e) Avtale med produsenten hvilke steder undersøkelsene og nødvendige
+prøvinger skal gjennomføres.</p>
+<p>Kontrollorganet skal utstede en typeprøvingsrapport til produsenten.</p>
+<p id="id83"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.2</span></code> Utstedelse av typegodkjenningssertifikat</p>
+<p>Typegodkjenninger bekrefter konstruksjonen til produkter i
+gyldighetstiden for godkjennelsen.</p>
+<p id="id84"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.2.1</span></code></p>
+<p>Der hvor typen tilfredsstiller alle krav skal vedkommende myndighet
+eller kontrollorganet utstede et typegodkjenningssertifikat til
+produsenten i samsvar med kapittel 6.2 og 6.8.</p>
+<p>Dette sertifikatet skal inneholde:</p>
+<ol class="loweralpha simple">
+<li><p>navn og adresse på utstederen;</p></li>
+</ol>
+<p>b) informasjon om den vedkommende myndigheten som sertifikatet ble
+utstedt under;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>navn og adresse på produsenten;</p></li>
+</ol>
+<p>d) en referanse til den versjonen av ADR/RID og standarder som er brukt
+under typeprøvingen;</p>
+<ol class="loweralpha simple" start="5">
+<li><p>eventuelle krav som typeprøvingen resulterer i;</p></li>
+</ol>
+<p>f) data som finnes i dokumentene for typeprøvingen i henhold til
+1.8.7.8.1, nødvendige for identifikasjon av typen og varianter, som
+definert i relevante standarder. Dokumentene, eller en liste som
+identifiserer dokumentene, som inneholder dataene skal inkluderes i
+eller vedlegges sertifikatet;</p>
+<ol class="loweralpha simple" start="7">
+<li><p>referansen til typeprøvingsrapporten(e);</p></li>
+<li><p>typegodkjenningens maksimale gyldighetstid; og</p></li>
+<li><p>eventuelle spesifikke krav i henhold til kapittel 6.2 og 6.8.</p></li>
+</ol>
+<p id="id85"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.2.2</span></code></p>
+<p>Typegodkjenningen skal maksimalt være gyldig i 10 år. Hvis aktuelle
+tekniske krav i ADR/RID endrer seg i løpet av den perioden slik at den
+godkjente typen ikke lenger er i samsvar med kravene, så er
+typegodkjenningen ikke lengre gyldig. Hvis dato for tilbaketrekking i
+kolonne 3 i tabellene i 6.2.2.1 og 6.2.2.3 eller kolonne 5 i tabellene i
+6.2.4.1, 6.8.2.6.1 og 6.8.3.6 er innenfor denne perioden er
+typegodkjenningen heller ikke gyldig lenger, og skal da tilbaketrekkes
+av vedkommende myndighet eller kontrollorganet som utstedte
+typegodkjenningssertifikatet.</p>
+<p><strong>ANM:</strong> For siste dato for tilbaketrekking av eksisterende
+typegodkjenninger, se kolonne 5 i tabellene i 6.2.4.1 og 6.8.2.6.1 eller
+6.8.3.6, etter hva som er relevant.</p>
+<p>Hvis en typegodkjenning har gått ut på dato eller er trukket tilbake, er
+det ikke tillatt å produsere produkter i henhold til den
+typegodkjenningen.</p>
+<p><strong>ANM:</strong> De relevante bestemmelsene vedrørende bruk, periodisk kontroll
+og mellomliggende kontroll av produkter som inngår i en typegodkjenning
+som er utgått eller trukket tilbake, gjelder fortsatt for produktene som
+er produsert i samsvar med denne typegodkjenningen før den utgikk eller
+ble trukket tilbake, hvis de fortsatt er tillatt brukt.</p>
+<p>Typegodkjenninger kan fornyes på grunnlag av en ny typeprøving.
+Resultater fra de tidligere typeprøvingene skal tas i betraktning i de
+tilfeller disse prøvene fortsatt er i samsvar med kravene i ADR/RID,
+inkludert de standardene som gjelder på tidspunktet for fornyelsen.
+Fornyelse er ikke tillatt etter at en typegodkjenning er trukket
+tilbake.</p>
+<p><strong>ANM:</strong> Typeprøving ved fornyelse kan gjøres av et annet kontrollorgan
+enn det som utstedte den originale typeprøvingsrapporten.</p>
+<p>Midlertidige endringer av en eksisterende typegodkjenning (eksempelvis
+som for trykkbeholdere mindre endringer slik som tillegg av andre
+størrelser eller volum som ikke påvirker samsvar, eller for tanker se
+6.8.2.3.3) kan ikke forlenge eller modifisere den opprinnelige
+gyldigheten for sertifikatet.</p>
+<p id="id86"><code class="docutils literal notranslate"><span class="pre">1.8.7.2.2.3</span></code></p>
+<p>Ved modifisering av et produkt med gyldig, utgått eller tilbaketrukket
+typegodkjenning, skal relevant typeprøving, prøving, kontroll og
+godkjenning begrenses til de deler av produktet som er modifisert.</p>
+<p>Modifiseringen skal utføres i samsvar med gjeldende bestemmelser i
+ADR/RID ved tidspunktet for modifiseringen. For alle deler av produktet
+som ikke påvirkes av modifiseringen, vil dokumentasjonen fra den
+opprinnelige typegodkjenningen fortsatt være gyldig.</p>
+<p>En modifisering kan gjelde en eller flere produkter som omfattes av
+samme typegodkjenning.</p>
+<p>Når det modifiserte produktet oppfyller alle gjeldene bestemmelser skal
+et supplerende godkjenningssertifikat for modifiseringen utstedes til
+eieren eller brukeren av vedkommende myndighet eller kontrollorganet i
+en kontraherende part til ADR/RID, i samsvar med kapittel 6.2 og 6.8.
+For tanker, batterikjøretøy/batterivogn eller MEGCer, skal en kopi inngå
+som en del av tankloggen.</p>
+<p id="id87"><code class="docutils literal notranslate"><span class="pre">1.8.7.3</span></code> Overvåkning av produksjon</p>
+<p id="id88"><code class="docutils literal notranslate"><span class="pre">1.8.7.3.1</span></code></p>
+<p>Produsenten skal ta alle nødvendige forholdsregler for å forsikre seg om
+at produksjonsprosessen er i overensstemmelse med de gjeldende
+bestemmelsene i ADR/RID og typegodkjenningssertifikatet, den tekniske
+dokumentasjonen i henhold til 1.8.7.8.3 og rapporter.</p>
+<p id="id89"><code class="docutils literal notranslate"><span class="pre">1.8.7.3.2</span></code></p>
+<p>Produksjonsprosessen skal underlegges overvåkning av det relevante
+organet.</p>
+<p>Relevant organ skal:</p>
+<p>a) Verifisere samsvar med den tekniske dokumentasjonen angitt i
+1.8.7.8.3 og med de gjeldende bestemmelsene i ADR/RID og i
+typegodkjenningssertifikatet og rapporter;</p>
+<p>b) Verifisere at produksjonsprosessen tilvirker produkter i samsvar med
+kravene og tilhørende dokumentasjon;</p>
+<p>c) Verifisere sporbarheten for materialer og kontrollere
+materialsertifikatene mot spesifikasjonene;</p>
+<p>d) Hvis relevant, verifisere at personellet som utfører de permanente
+sammenføyningene og de ikke-ødeleggende prøvingene, er kvalifiserte og
+godkjente;</p>
+<p>e) Avtale med produsenten hvilke steder undersøkelsene og nødvendige
+prøvinger skal gjennomføres;</p>
+<p>f) Skriftlig dokumentere resultatene fra sin overvåkning av
+produksjonen.</p>
+<p id="id90"><code class="docutils literal notranslate"><span class="pre">1.8.7.4</span></code> Førstegangskontroll og prøvinger</p>
+<p id="id91"><code class="docutils literal notranslate"><span class="pre">1.8.7.4.1</span></code></p>
+<p>Produsenten skal:</p>
+<ol class="loweralpha simple">
+<li><p>Påføre merking spesifisert i ADR/RID; og</p></li>
+</ol>
+<p>b) Forsyne relevant organ med teknisk dokumentasjon spesifisert i
+1.8.7.8.4.</p>
+<p id="id92"><code class="docutils literal notranslate"><span class="pre">1.8.7.4.2</span></code></p>
+<p>Det relevante organet skal:</p>
+<p>a) Gjennomføre undersøkelsene og prøvingene, eller gjennomføre
+undersøkelsene og verifisere prøveforholdene og bevitne prøvingene på
+stedet, for å verifisere at produktet er produsert i henhold til
+typegodkjenningen og de relevante bestemmelsene;</p>
+<p>b) Kontrollere sertifikatene fra produsentene av driftsutstyr mot
+driftsutstyret;</p>
+<p>c) Utstede en rapport fra førstegangskontroll og prøving relatert til de
+enkelte prøvinger og verifikasjoner som er utført, og den verifiserte
+tekniske dokumentasjonen;</p>
+<p>d) Utstede et sertifikat fra førstegangskontroll og prøving og påføre
+sitt registrerte merke dersom produksjonen tilfredsstiller kravene; og</p>
+<p>e) Sjekke om typegodkjenningen fortsatt er gyldig etter at relevante
+krav i ADR/RID (inkludert refererte standarder) som er relevant for
+typegodkjenningen har blitt endret. Om typegodkjenningen ikke lengre er
+gyldig skal relevant organ utstede en kontrollrapport som viser avslag,
+og informere vedkommende myndighet eller kontrollorganet som ustedte
+typegodkjenningssertifikatet.</p>
+<p>Sertifikatet i d) og rapporten i c) kan omfatte et antall av produkter
+av samme type (gruppesertifikat eller rapport).</p>
+<p id="id93"><code class="docutils literal notranslate"><span class="pre">1.8.7.4.3</span></code></p>
+<p>Sertifikatet i 1.8.7.4.2 d) skal som et minimum inneholde:</p>
+<p>a) Navn og adresse på kontrollorganet og navn og adresse på
+internorganet, der det er aktuelt;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Navn og adresse på produsenten;</p></li>
+<li><p>Stedet hvor førstegangskontrollen er gjennomført;</p></li>
+</ol>
+<p>d) En referanse til den versjonen av ADR/RID og standardene som ble
+brukt ved førstegangskontroll og prøving;</p>
+<ol class="loweralpha simple" start="5">
+<li><p>Resultatene fra kontrollen og prøvingene;</p></li>
+</ol>
+<p>f) Nødvendige data for identifikasjon av de kontrollerte produkter, som
+et minimum serienummer, eller for ikke refyllbare beholdere, «batch»
+nummer;</p>
+<ol class="loweralpha simple" start="7">
+<li><p>Typegodkjenningsnummer; og</p></li>
+</ol>
+<p>h) Referansen til sertifikatet for autorisasjon av internorganet, der
+det er aktuelt.</p>
+<p id="id94"><code class="docutils literal notranslate"><span class="pre">1.8.7.5</span></code> Verifikasjon før ibruktagelse</p>
+<p id="id95"><code class="docutils literal notranslate"><span class="pre">1.8.7.5.1</span></code></p>
+<p>Hvis en verifikasjon før ibruktagelse kreves av vedkommende myndighet i
+henhold til 6.8.1.5.5, skal eieren eller brukeren engasjere ett enkelt
+kontrollorgan til å foreta verifikasjon før ibruktagelse og gi dette
+organet typegodkjenningssertifikatet og den tekniske dokumentasjonen som
+er angitt i 1.8.7.8.4.</p>
+<p id="id96"><code class="docutils literal notranslate"><span class="pre">1.8.7.5.2</span></code></p>
+<p>Kontrollorganet skal gjennomgå dokumentasjonen og:</p>
+<ol class="loweralpha simple">
+<li><p>Gjennomføre utvendige undersøkelser (f.eks merking, tilstand);</p></li>
+<li><p>Verifisere samsvar med typegodkjenningssertifikatet;</p></li>
+</ol>
+<p>c) Verifisere gyldigheten på godkjennelsene fra kontrollorganene som
+utførte de tidligere kontrollene og prøvingene;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Verifisere at overgangsbestemmelsene i 1.6.3 eller 1.6.4 er oppfylt.</p></li>
+</ol>
+<p id="id97"><code class="docutils literal notranslate"><span class="pre">1.8.7.5.3</span></code></p>
+<p>Kontrollorganet skal utstede en rapport fra gjennomført verifikasjon før
+ibruktagelse som inneholder resultatene fra vurderingen. Eieren eller
+brukeren skal kunne legge fram denne rapporten på forespørsel fra den
+vedkommende myndigheten som krevde verifikasjon før ibruktagelse, og til
+det kontrollorganet eller de kontrollorganene som er ansvarlig for
+påfølgende kontroller og prøvinger.</p>
+<p>Dersom verifikasjon før ibruktagelse underkjennes, skal avvikene rettes
+opp og en ny verifikasjon før ibruktagelse godkjennes før tankes tas i
+bruk.</p>
+<p>Kontrollorganet som er ansvarlig for verifikasjonen før ibruktagelse
+skal, uten forsinkelser, informere vedkommende myndighet om eventuelle
+avslag <a class="footnote-reference brackets" href="#id140" id="id98" role="doc-noteref"><span class="fn-bracket">[</span>24<span class="fn-bracket">]</span></a>.</p>
+<p id="id99"><code class="docutils literal notranslate"><span class="pre">1.8.7.6</span></code> Periodisk kontroll, mellomliggende kontroll og ekstraordinær kontroll</p>
+<p id="id100"><code class="docutils literal notranslate"><span class="pre">1.8.7.6.1</span></code></p>
+<p>Det relevante organet skal:</p>
+<ol class="loweralpha simple">
+<li><p>Gjennomføre identifikasjon og verifisere samsvar med dokumentasjonen;</p></li>
+</ol>
+<p>b) Gjennomføre kontrollene og prøvingene, eller gjennomføre kontrollene
+og verifisere prøveforholdene og bevitne prøvingene for å forsikre at
+kravene er tilfredsstilt;</p>
+<p>c) Utstede rapporter og sertifikater, ut fra hva som er relevant, om
+resultatene av kontrollene og prøvingene som eventuelt dekker et antall
+produkter; og</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Forsikre at de påkrevde merker er påført.</p></li>
+</ol>
+<p id="id101"><code class="docutils literal notranslate"><span class="pre">1.8.7.6.2</span></code></p>
+<p>Rapporter fra periodiske kontroller og prøvinger av trykkbeholdere skal
+oppbevares av eieren eller brukeren minst frem til neste periodiske
+kontroll.</p>
+<p><strong>ANM:</strong> For tanker, se bestemmelser for tanklogger i 4.3.2.1.7.</p>
+<p id="id102"><code class="docutils literal notranslate"><span class="pre">1.8.7.7</span></code> Autorisasjon og overvåkning av internorgan</p>
+<p id="id103"><code class="docutils literal notranslate"><span class="pre">1.8.7.7.1</span></code></p>
+<p>Når et internorgan benyttes i henhold til 6.2.2.12, 6.2.3.6.1, 6.8.1.5.3
+b) eller 6.8.1.5.4 b) skal produsenten eller prøvingsstedet:</p>
+<p>a) Implementere et kvalitetssystem for internorganet, inkludert tekniske
+prosedyrer, for kontroll og prøvinger beskrevet i 1.8.7.8.6 og som er
+underlagt overvåkning;</p>
+<p>b) Oppfylle forpliktelsene som fremkommer fra det godkjente
+kvalitetssystemet, samt forsikre seg om at systemet forblir
+tilfredsstillende og effektivt, særlig;</p>
+<ol class="lowerroman simple">
+<li><p>Utnevne opplært og kompetent personell til internorganet; og</p></li>
+</ol>
+<p>ii. Påføre kontrollorganet sitt registreringsmerke eller stempel, som
+beskrevet i kapittel 6.2 og 6.8, og merket til internorganet hvor det er
+aktuelt, på produktet for å sikre sporbarhet.</p>
+<p id="id104"><code class="docutils literal notranslate"><span class="pre">1.8.7.7.2</span></code></p>
+<p>Kontrollorganet skal gjennomføre en førstegangsrevisjon på hvert sted.
+Hvis denne er tilfredsstillende, skal kontrollorganet informere
+vedkommende myndighet om autorisasjonen av internorganet, og utstede et
+sertifikat for autorisasjon for en periode som ikke overstiger tre år.
+Følgende bestemmelser skal være oppfylt:</p>
+<p>a) Revisjonen skal gjennomføres på hvert sted for å bekrefte at
+kontrollene og prøvingene som gjennomføres er i samsvar med kravene i
+ADR/RID;</p>
+<p>b) Kontrollorganet kan autorisere internorganet til å påføre
+registreringsmerket eller stempelet, som angitt i kapittel 6.2 og 6.8,
+til kontrollorganet på hvert godkjente produkt;</p>
+<p>c) Autorisasjonen kan bli fornyet etter en tilfredsstillende revisjon på
+hvert sted utført siste år før perioden utløper. Den nye
+gyldighetsperioden skal begynne fra datoen for utløpet av gjeldende
+autorisasjon;</p>
+<p>d) Inspektørene fra kontrollorganet som utfører revisjonen skal være
+kvalifiserte til å gjennomføre vurderingen av produktet som dekkes av
+kvalitetssystemet og til å vurdere selve kvalitetssystemet; og</p>
+<p>e) Internorganet skal være engasjert i aktiviteter med en hyppighet som
+sikrer nødvendig kompetansenivå.</p>
+<p>Internorganet kan, kun i spesielle tilfeller, sette ut deler av sin
+aktivitet til underleverandør(er) dersom dette er godkjent av det
+kontrollorganet som internorganet er autorisert av. Underleverandøren
+skal i tillegg være akkreditert i henhold til EN/ISO IEC 17025:2017
+(unntatt avsnitt 8.1.3) eller EN ISO/IEC 17020:2012 (unntatt avsnitt
+8.1.3) som et uavhengig og upartisk prøvelaboratorium eller
+kontrollorgan for å kunne utføre oppgaver knyttet til prøving i samsvar
+med dens akkreditering.</p>
+<p id="id105"><code class="docutils literal notranslate"><span class="pre">1.8.7.7.3</span></code></p>
+<p>Sertifikatet for autorisasjon skal som et minimum inneholde:</p>
+<ol class="loweralpha simple">
+<li><p>Navn og adresse til kontrollorganet;</p></li>
+</ol>
+<p>b) Navn og adresse til produsenten eller prøvingssted og adressene til
+alle lokasjoner for internorganet;</p>
+<p>c) En referanse til utgaven av ADR/RID som er lagt til grunn for
+godkjennelsen av internorganet og standarder eller anerkjente tekniske
+koder i henhold til 6.2.5 som anvendes ved førstegangskontroll og
+prøving eller periodiske kontroller;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Referansen til rapporten fra førstegangsrevisjonen;</p></li>
+</ol>
+<p>e) Om nødvendig, ytterligere informasjon for å definere omfanget av
+oppgavene til internorganet (f.eks typegodkjenninger til produktene for
+førstegangskontroll og prøving);</p>
+<ol class="loweralpha simple" start="6">
+<li><p>Merket til internorganet, hvis aktuelt; og</p></li>
+<li><p>Utløpsdato</p></li>
+</ol>
+<p id="id106"><code class="docutils literal notranslate"><span class="pre">1.8.7.7.4</span></code></p>
+<p>Kontrollorganet skal utføre periodiske revisjoner på hvert sted i
+autorisasjonsperioden for å sikre at internorganet opprettholder og
+bruker kvalitetssystemet, inkludert de tekniske prosedyrene. Følgende
+bestemmelser skal oppfylles:</p>
+<ol class="loweralpha simple">
+<li><p>Revisjonene skal gjennomføres minst hver 6.måned;</p></li>
+</ol>
+<p>b) Kontrollorganet kan kreve tilleggsbesøk, opplæring, tekniske
+endringer, modifikasjon av kvalitetssystemet, begrense eller forby de
+kontroller og prøvinger som utføres av internorganet;</p>
+<p>c) Kontrollorganet skal vurdere alle endringer i kvalitetssystemet, og
+avgjøre om det modifiserte kvalitetssystemet fortsatt tilfredsstiller
+kravene fra førstegangsrevisjonen eller om en full revurdering er
+påkrevet;</p>
+<p>d) Inspektørene fra kontrollorganet som utfører revisjonen skal være
+kvalifiserte til å gjennomføre samsvarsvurderingen av produktet som
+dekkes av kvalitetssystemet og til å vurdere selve kvalitetssystemet; og</p>
+<p>e) Kontrollorganet skal gi produsenten eller prøvingsstedet, ut fra hva
+som er aktuelt, og internorganet en revisjonsrapport og, hvis prøvinger
+har blitt utført, en prøverapport.</p>
+<p id="id107"><code class="docutils literal notranslate"><span class="pre">1.8.7.7.5</span></code></p>
+<p>I de tilfeller hvor det ikke er samsvar med relevante bestemmelser, skal
+kontrollorganet forsikre at korrektive tiltak iverksettes. Hvis
+korrektive tiltak ikke er iverksatt i tide, skal kontrollorganet
+suspendere eller inndra tillatelsen internorganet har til å utføre sin
+aktivitet. Varselet om suspensjon eller inndragning skal videresendes
+til vedkommende myndighet. En rapport skal oversendes til produsenten
+eller prøvingsstedet, ut fra hva som er relevant, og til internorganet
+med detaljert begrunnelse for beslutningen kontrollorganet har tatt.</p>
+<p id="id108"><code class="docutils literal notranslate"><span class="pre">1.8.7.8</span></code> Dokumenter</p>
+<p>Den tekniske dokumentasjonen skal muliggjøre en vurdering om samsvar med
+relevante krav.</p>
+<p id="id109"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.1</span></code> Dokumenter for typeprøving</p>
+<p>Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
+relevant:</p>
+<p>a) En liste over standarder brukt i forbindelse med design og
+produksjon;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>En beskrivelse av typen inkludert alle variasjoner;</p></li>
+</ol>
+<p>c) Bestemmelsene i henhold til relevant kolonne i tabell A i kapittel
+3.2 eller, for dedikerte produkter, en liste over farlig gods som skal
+transporteres;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Tegninger som viser sammenstilling av produktet;</p></li>
+</ol>
+<p>e) Detaljerte tegninger, inkludert dimensjonene brukt for beregningene,
+av produktet, driftsutstyret, strukturelt utstyr, og merkingen som er
+nødvendig for å verifisere samsvar;</p>
+<ol class="loweralpha simple" start="6">
+<li><p>Beregningsnotater, resultatene og konklusjoner;</p></li>
+</ol>
+<p>g) Liste over driftsutstyret med relevant tekniske data og informasjon
+om sikkerhetsanordninger inkludert beregning av avlastingskapasitet hvis
+relevant;</p>
+<p>h) Liste over materiale påkrevd i produksjonsstandarder for hver del,
+del av del, innvendig foring, driftsutstyr og strukturelt utstyr, og de
+korresponderende materialspesifikasjonene eller den korresponderende
+samsvarserklæringen til ADR/RID;</p>
+<ol class="lowerroman simple">
+<li><p>Den godkjente kvalifikasjonen av permanente sammenføyningsprosesser;</p></li>
+</ol>
+<ol class="loweralpha simple" start="10">
+<li><p>Beskrivelse av varmebehandlingsprosessen(e); og</p></li>
+</ol>
+<p>k) Prosedyrer, beskrivelser og protokoller for alle relevante prøver
+listet i standarder eller ADR/RID, for typegodkjenningen og for
+produksjonen.</p>
+<p id="id110"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.2</span></code> Dokumenter for utstedelse av typegodkjenningssertifikat</p>
+<p>Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
+relevant:</p>
+<p>a) En liste over standardene benyttet i forbindelse med design og
+produksjon;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Beskrivelse av typen, inkludert aller variasjoner;</p></li>
+</ol>
+<p>c) Bestemmelsene i henhold til relevant kolonne i tabell A i kapittel
+3.2 eller, for dedikerte produkter, en liste over farlig gods som skal
+transporteres;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Tegninger som viser sammenstilling av produktet;</p></li>
+</ol>
+<p>e) En liste over materialene som er i direkte kontakt med det farlige
+godset</p>
+<ol class="loweralpha simple" start="6">
+<li><p>En liste over driftsutstyret</p></li>
+<li><p>Typeprøvingsrapporten; og</p></li>
+</ol>
+<p>h) Ytterligere dokumenter som er omtalt under 1.8.7.8.1 på forespørsel
+fra vedkommende myndighet eller kontrollorgan.</p>
+<p id="id111"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.3</span></code> Dokumenter for overvåkning av produksjon</p>
+<p>Produsenten skal gjøre følgende tilgjengelig, ut fra hva som er
+relevant:</p>
+<ol class="loweralpha simple">
+<li><p>Dokumentene listet i 1.8.7.8.1 og 1.8.7.8.2;</p></li>
+<li><p>En kopi av typegodkjenningssertifikatet;</p></li>
+<li><p>Produksjonsprosedyrene inkludert prøvingsprosedyrer;</p></li>
+<li><p>Produksjonsrapportene;</p></li>
+</ol>
+<p>e) Godkjent kvalifikasjoner for operatørene som utfører permanente
+sammenføyninger;</p>
+<p>f) Godkjente kvalifikasjoner for operatørene som utfører
+ikke-ødeleggende prøving;</p>
+<ol class="loweralpha simple" start="7">
+<li><p>Rapportene fra de ødeleggende og ikke-ødeleggende prøvinger;</p></li>
+<li><p>Varmebehandlingsdata; og</p></li>
+<li><p>Kalibreringsdata.</p></li>
+</ol>
+<p id="id112"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.4</span></code> Dokumenter for førstegangskontroll og prøving, og for verifikasjon før ibruktagelse</p>
+<p>Produsenten skal for førstegangskontroll og prøving, og eieren eller
+bruker skal for verifikasjon før ibruktagelse, gjøre følgende
+tilgjengelig, ut fra hva som er relevant</p>
+<ol class="loweralpha simple">
+<li><p>Dokumentene listet i 1.8.7.8.1, 1.8.7.8.2 og 1.8.7.8.3;</p></li>
+</ol>
+<p>b) Materialsertifikatene for produktet og alle deler, inkludert
+driftsutstyret.</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Samsvarssertifikatene for driftsutstyret; og</p></li>
+</ol>
+<p>d) En samsvarserklæring, inkludert beskrivelse av produktet og alle
+variasjoner utviklet fra typegodkjenningen.</p>
+<p id="id113"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.5</span></code> Dokumenter for periodisk kontroll, mellomliggende kontroll og ekstraordinær kontroll</p>
+<p>Eieren eller brukeren, eller dens autoriserte representant, skal gjøre
+tilgjengelig, ut fra hva som er relevant:</p>
+<p>a) For trykkbeholdere, dokumentene som spesifiserer spesielle krav, når
+dette kreves av standardene for produksjon, periodisk kontroll og
+prøving;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>For tanker;</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>tankloggen; og</p></li>
+</ol>
+<p>ii. relevante dokumenter beskrevet i 1.8.7.8.1 til 1.8.7.8.4 på
+forespørsel fra kontrollorganet.</p>
+<p id="id114"><code class="docutils literal notranslate"><span class="pre">1.8.7.8.6</span></code> Dokumenter for overvåkning av internorgan</p>
+<p>Internorganet skal gjøre tilgjengelig dokumentasjon vedrørende
+kvalitetssystemet, ut fra hva som er relevant:</p>
+<ol class="loweralpha simple">
+<li><p>Organisasjonsstrukturen, og ansvarsfordeling;</p></li>
+</ol>
+<p>b) Relevante kontroller og prøvinger, kvalitetskontroll,
+kvalitetssikring og prosessbeskrivelser, og de systematiske tiltak som
+vil bli brukt;</p>
+<p>c) Kvalitetsrapporter, som kontrollrapporter og prøvingsdata,
+kalibreringsdata og sertifikater;</p>
+<p>d) Ledelsens gjennomgang for å sikre effektiv bruk av kvalitetssystemet
+som følge av stedlige revisjoner i henhold til 1.8.7.7;</p>
+<ol class="loweralpha simple" start="5">
+<li><p>Prosedyrebeskrivelser på hvordan kunde- og forskriftskrav oppfylles;</p></li>
+<li><p>Prosessbeskrivelser for dokumentkontroll og revisjon av disse;</p></li>
+</ol>
+<p>g) Prosedyrebeskrivelse for håndtering av produkter som ikke er i
+samsvar; og</p>
+<p>h) Opplæringsprogrammer og kvalifiseringsprosedyrer for personell
+involvert.</p>
+<p id="id115"><code class="docutils literal notranslate"><span class="pre">1.8.7.9</span></code> Produkter produsert, godkjent, kontrollert og prøvet i henhold til standardene</p>
+<p>Bestemmelsene i 1.8.7.7 skal betraktes som overholdt hvis følgende
+relevante standarder er fulgt:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Gjeldende
+avsnitt og
+paragraf</strong></p></th>
+<th class="head"><p><strong>Re
+feranse</strong></p></th>
+<th class="head"><p><strong>Dokumenttittel</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1.8.7.7.1 til
+1.8.7.7.4</p></td>
+<td><p>EN
+1
+2972:2018</p></td>
+<td><p>Tanks for transport of dangerous
+goods. Testing, inspection, and
+marking of metallic tanks</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="prosedyre-for-samsvarsvurdering-av-sma-gassbeholdere">
+<span id="id116"></span><h2>1.8.8 Prosedyre for samsvarsvurdering av små gassbeholdere<a class="headerlink" href="#prosedyre-for-samsvarsvurdering-av-sma-gassbeholdere" title="Link to this heading">#</a></h2>
+<p>Ved samsvarsvurdering av små gassbeholdere skal en av følgende
+prosedyrer brukes:</p>
+<p>a) Prosedyrene i avsnitt 1.8.7 for ikke-UN trykkbeholdere, med unntak av
+1.8.7.6; eller</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Prosedyrene i avsnitt 1.8.8.1 til 1.8.8.7</p></li>
+</ol>
+<p id="id117"><code class="docutils literal notranslate"><span class="pre">1.8.8.1</span></code> Generelle bestemmelser</p>
+<p id="id118"><code class="docutils literal notranslate"><span class="pre">1.8.8.1.1</span></code></p>
+<p>Overvåkningen av produksjon skal utføres av et Xa-organ og testene som
+kreves i 6.2.6 skal utføres av enten et Xa-organ eller et internorgan
+som er autorisert av et Xa-organ; for definisjon av Xa-organ og
+internorgan se definisjonene i 6.2.3.6.1. Samsvarsvurdering skal utføres
+av vedkommende myndighet, dens delegerte eller godkjente
+inspeksjonsorgan i en kontraherende ADR/RID-part.</p>
+<p id="id119"><code class="docutils literal notranslate"><span class="pre">1.8.8.1.2</span></code></p>
+<p>Ved anvendelse av 1.8.8 skal søkeren demonstrere, forsikre og erklære
+sitt fullstendig ansvar for samsvar av små gassbeholdere med kravene i
+6.2.6 og alle andre relevante krav i ADR/RID.</p>
+<p id="id120"><code class="docutils literal notranslate"><span class="pre">1.8.8.1.3</span></code></p>
+<p>Søkeren skal</p>
+<p>a) Utføre design typetesting av hver type små gassbeholdere (inkludert
+materialer som blir brukt og varianter av typen, for eksempel volum,
+trykk, tegninger og lukke- og åpneinnretninger) i henhold til 1.8.8.2;</p>
+<p>b) Anvende et godkjent kvalitetssystem for konstruksjon, produksjon,
+inspeksjon og testing i henhold til 1.8.8.3;</p>
+<p>c) Anvende et godkjent testprogram i henhold til 1.8.8.4 for testkravene
+i 6.2.6;</p>
+<p>d) Søke om godkjenning av sitt kvalitetssystem for overvåkning av
+produksjon og testing til et Xa-organ etter eget valg i en
+medlemsstat/kontraherende part; hvis søkeren ikke er etablert i en
+medlemsstat/kontraherende part skal han søke til et Xa-organ i en
+medlemsstat/kontraherende part før første transport i en
+medlemsstat/kontraherende part;</p>
+<p>e) Hvis en liten gassbeholder blir sluttmontert, av en underleverandør,
+av deler fra en eller flere underleverandører, skal søkeren utarbeide
+skriftlige anvisninger for hvordan den skal monteres og fylles slik at
+kravene i hans typegodkjenningssertifikat blir oppfylt.</p>
+<p id="id121"><code class="docutils literal notranslate"><span class="pre">1.8.8.1.4</span></code></p>
+<p>Dersom søkeren og underleverandører sammenstiller og/eller fyller
+engangsbeholdere for gass i henhold til instruksjoner fra søkeren kan
+dokumenter samsvar med kravene til Xa-organ i henhold til kravene i
+1.8.7.7 unntatt 1.8.7.7.1 (b) (ii) og 1.8.7.7.2 (b), kan de etablere et
+internorgan som kan utføre deler eller alle inspeksjonene og prøvene som
+er spesifisert i 6.2.6.</p>
+<p id="id122"><code class="docutils literal notranslate"><span class="pre">1.8.8.2</span></code> Designtype prøving</p>
+<p id="id123"><code class="docutils literal notranslate"><span class="pre">1.8.8.2.1</span></code></p>
+<p>Søkeren skal utarbeide teknisk dokumentasjon for hver type
+engangsbeholder for gass, inkludert de tekniske standardene som er
+brukt. Hvis han velger å bruke en standard som ikke er referert i 6.2.6
+skal han legge den brukte standarden til den tekniske dokumentasjonen.</p>
+<p id="id124"><code class="docutils literal notranslate"><span class="pre">1.8.8.2.2</span></code></p>
+<p>Søkeren skal oppbevare teknisk dokumentasjon sammen med prøver av den
+typen og ha den tilgjengelig for Xa-organet i hele produksjonsperioden
+og minimum 5 år etter siste produksjon av engangsbeholderen for gass i
+henhold til typegodkjenningssertifikatet.</p>
+<p id="id125"><code class="docutils literal notranslate"><span class="pre">1.8.8.2.3</span></code></p>
+<p>Søkeren skal etter nøye gjennomgang utstede et
+typegodkjenningssertifikat som skal være gyldig i maksimalt 10 år og
+legge det til dokumentasjonen. Det sertifikatet autoriserer han til å
+produsere engangsbeholdere for gass i den perioden.</p>
+<p id="id126"><code class="docutils literal notranslate"><span class="pre">1.8.8.2.4</span></code></p>
+<p>Hvis de tekniske kravene i ADR/RID (inkludert refererte standarder) blir
+endret i den perioden slik at designtypen ikke lenger er i henhold til
+de kravene skal søkeren trekke tilbake sitt typegodkjenningssertifikat
+og informere Xa-organet.</p>
+<p id="id127"><code class="docutils literal notranslate"><span class="pre">1.8.8.2.5</span></code></p>
+<p>Søkeren kan etter nøye og komplett gjennomgang utstede sertifikatet for
+en ny periode på maksimalt 10 år.</p>
+<p id="id128"><code class="docutils literal notranslate"><span class="pre">1.8.8.3</span></code> Overvåkning av produksjonen</p>
+<p id="id129"><code class="docutils literal notranslate"><span class="pre">1.8.8.3.1</span></code></p>
+<p>Prosedyrene for designtype gjennomgang såvel som produksjonsprosessen
+skal underlegges overvåkning av Xa-organet for å sikre at søkerens
+typegodkjenning og produktet blir produsert in henhold til betingelsene
+i typegodkjenningssertifikatet og relevante bestemmelser i ADR/RID. Hvis
+1.8.8.1.3 (e) kommer til anvendelse skal sammenstillings og fylleforetak
+være inkludert i de prosedyrene.</p>
+<p id="id130"><code class="docutils literal notranslate"><span class="pre">1.8.8.3.2</span></code></p>
+<p>Søkeren skal ta nødvendige forholdsregler for å sikre at
+produksjonsprosessen samsvarer med relevante krav i ADR/RID og hans
+typegodkjenningssertifikat med vedlegg. Hvis 1.8.8.1.3 (e) kommer til
+anvendelse skal sammenstillings og fylleforetak være inkludert i de
+prosedyrene.</p>
+<p id="id131"><code class="docutils literal notranslate"><span class="pre">1.8.8.3.3</span></code></p>
+<p>Xa-organet skal:</p>
+<p>a) verifisere overensstemmelse med typegodkjenningssertifikatet til
+søkeren og samsvar med den typen engangsbeholderen for gass med den
+tekniske dokumentasjon som er spesifisert i 1.8.8.2</p>
+<p>b) verifisere at produksjonsprosessen av produkter er i samsvar med
+kravene og dokumentasjonen som gjelder det, dersom engangsbeholderen for
+gass blir sluttmontert, av en underleverandør, av deler fra en eller
+flere underleverandører, skal Xa-organet også verifisere at
+engangsbeholderen for gass er i fullt samsvar med alle krav etter
+sluttmontering og fylling og at prosedyrene til søkeren er korrekt
+anvendt;</p>
+<p>c) verifisere at personell som foretar permanente sammenføyning av deler
+og foretar testene er kvalifiserte og godkjente;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>dokumentere resultatet av sin overvåkning.</p></li>
+</ol>
+<p id="id132"><code class="docutils literal notranslate"><span class="pre">1.8.8.3.4</span></code></p>
+<p>Hvis funnene til Xa-organet viser avvik fra typegodkjenningssertifikatet
+til søkeren eller produksjonsprosessen, skal det kreve korrektive tiltak
+eller trekke tilbake sertifikatet fra søkeren.</p>
+<p id="id133"><code class="docutils literal notranslate"><span class="pre">1.8.8.4</span></code> Tetthetsprøve</p>
+<p id="id134"><code class="docutils literal notranslate"><span class="pre">1.8.8.4.1</span></code></p>
+<p>Søkeren og foretak som sluttmonterer og fyller engangsbeholder for gass
+i henhold til prosedyrene til søkeren skal:</p>
+<ol class="loweralpha simple">
+<li><p>utføre testene som kreves i 6.2.6;</p></li>
+<li><p>dokumentere resultatene;</p></li>
+</ol>
+<p>c) bare utstede samsvarssertifikat for engangsbeholder for gass som er i
+full overensstemmelse med kravene i designtypegodkjenningen og relevante
+krav i ADR/RID og som har klart testene i 6.2.6;</p>
+<p>d) oppbevare dokumentasjonen som er spesifisert i 1.8.8.7 i
+produksjonsperioden og etterpå i minimum 5 år fra siste dato for
+produksjon av engangsbeholder for gass som hører til en typegodkjenning
+for uregelmessige inspeksjoner av Xa-organet;</p>
+<p>e) påføre varig og tydelig merking på engangsbeholder for gass, som
+identifiserer type engangsbeholder for gass, søkeren og dato for
+produksjon eller batch-nr, men dersom det er begrenset plass til
+komplett merking på engangsbeholderen for gass på en «tag» som er festet
+til beholderen eller plassere «taggen» i en inneremballasje til
+beholderen.</p>
+<p id="id135"><code class="docutils literal notranslate"><span class="pre">1.8.8.4.2</span></code></p>
+<p>Xa-organet skal:</p>
+<p>a) utføre nødvendige prøver og tester med tilfeldige intervall, minst
+kort tid etter hver start av produksjonen av en type engangsbeholder for
+gass og deretter minst hvert tredje år, for å sikre at prosedyrene for
+konstruksjonstestingen til søkeren så vel som produksjon og testing av
+produktet blir utført i henhold til designtypesertifikatet og relevante
+krav;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>sjekke sertifikatene som søkeren har levert;</p></li>
+</ol>
+<p>c) utføre testene som kreves i 6.2.6 eller godkjenne testprogrammet og
+internorganets måte å utføre tester.</p>
+<p id="id136"><code class="docutils literal notranslate"><span class="pre">1.8.8.4.3</span></code></p>
+<p>Sertifikatet skal minimum inneholde:</p>
+<p>a) navnet og adressen til søkeren, og dersom de er forskjellig,
+underleverandør(er) som utfører sluttmontasje i henhold til skriftlige
+prosedyrer fra søkeren</p>
+<p>b) en referanse til versjonen av ADR/RID og standard(er) som er brukt
+ved produksjon og tester;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>resultatet av prøver og tester;</p></li>
+<li><p>data for merking som kreves i 1.8.8.4.1 (e).</p></li>
+</ol>
+<p id="id137"><code class="docutils literal notranslate"><span class="pre">1.8.8.5</span></code> (Reservert)</p>
+<p id="id138"><code class="docutils literal notranslate"><span class="pre">1.8.8.6</span></code> Overvåkning av internorgans arbeid</p>
+<p>Når en søker eller underleverandør sammenstiller eller fyller
+engangsbeholder for gass og har etablert et internorgan, skal kravene i
+1.8.7.7 unntatt 1.8.7.7.1 (b) (ii) og 1.8.7.7.2. (b) anvendes.
+Underleverandør som sammenstiller eller fyller engangsbeholder for gass
+skal følge relevante krav som gjelder for søkeren.</p>
+<p id="id139"><code class="docutils literal notranslate"><span class="pre">1.8.8.7</span></code> Dokumenter</p>
+<p>Kravene i 1.8.7.8.1, 1.8.7.8.2, 1.8.7.8.3, 1.8.7.8.4 og 1.8.7.8.6
+gjelder.</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id140" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id98">24</a><span class="fn-bracket">]</span></span>
+<p><strong>RID: I et slik tilfelle skal vedkommende myndighet også informere den nasjonale sikkerhetsmyndigheten (NSA) i den berørte kontraherende staten til RID, som også er en medlemsstat i den Europeiske Unionen, med sikte på å evaluere oppfølgingstiltak som skal tas av NSA i henhold til artikkel 26 i direktiv (EU) 2016/797 om manglende oppfyllelse av grunnleggende krav for kjøretøy og kjøretøytyper og artikkel 7(4) i gjennomføringsforordning (EU) 2018/545 om utveksling av informasjon i tilknytning til tekniske eller driftsmessige forhold som kan være relevante for utstedelse av en typetillatelse for kjøretøyer og/eller tillatelse til å binge kjøretøyer i omsetning. I kontraherende stater til RID som også er kontraherende stater til ATMF, men ikke medlemsstater i Europeisk Union, skal vedkommende myndighet også informere vedkommende myndighet i betydning av artikkel 5 i ATMF’s enhetlige rettsregler, med hensikt å evaluere behovet for oppfølgingstiltak, særlig i henhold til artikkel 10a i ATMF’s enhetlige rettsregler om manglende overholdelse av kjøretøyer eller kjøretøytyper og, der det er aktuelt, i henhold til artikkel 8a i APTU enhetlige rettsregler dersom det forventes mangler i UTP.</strong></p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#administrative-kontroller-av-farlig-gods">1.8.1 Administrative kontroller av farlig gods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gjensidig-administrativ-stotte">1.8.2 Gjensidig administrativ støtte</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sikkerhetsradgiver">1.8.3 Sikkerhetsrådgiver</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bevis-nr">Bevis nr:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kjennetegnet-til-den-staten-som-har-utstedt-beviset">Kjennetegnet til den staten som har utstedt beviset:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#etternavn">Etternavn:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fornavn">Fornavn:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fodselsdato-og-sted">Fødselsdato og sted:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nasjonalitet">Nasjonalitet:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#innehaverens-underskrift">Innehaverens underskrift:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utstedt-av">Utstedt av:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dato-underskrift">Dato: ………………………………………… Underskrift:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#liste-over-vedkommende-myndigheter-og-instanser-de-har-utpekt">1.8.4 Liste over vedkommende myndigheter og instanser de har utpekt</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#melding-om-hendelser-hvor-farlig-gods-er-involvert">1.8.5 Melding om hendelser hvor farlig gods er involvert</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#administrativ-regulering-av-aktivitetene-som-beskrives-i-1-8-7-og-1-8-8">1.8.6 Administrativ regulering av aktivitetene som beskrives i 1.8.7 og 1.8.8</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prosedyrer-for-samsvarsvurdering-utstedelse-av-typegodkjenningssertifikat-og-kontroller">1.8.7 Prosedyrer for samsvarsvurdering, utstedelse av typegodkjenningssertifikat og kontroller</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prosedyre-for-samsvarsvurdering-av-sma-gassbeholdere">1.8.8 Prosedyre for samsvarsvurdering av små gassbeholdere</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

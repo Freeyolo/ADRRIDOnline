@@ -1,0 +1,1644 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 9.2 Bestemmelser om kjøretøyers utførelse" href="../Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/" />
+    <link rel="prev" title="Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer" href="../Del9_index/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del9_index/" class="nav-link">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-9-1-omfang-definisjoner-og-krav-for-godkjenning-av-kjoretoyer">
+<span id="id1"></span><h1>Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer<a class="headerlink" href="#kapittel-9-1-omfang-definisjoner-og-krav-for-godkjenning-av-kjoretoyer" title="Link to this heading">#</a></h1>
+<section id="omfang-og-definisjoner">
+<span id="id2"></span><h2>9.1.1 Omfang og definisjoner<a class="headerlink" href="#omfang-og-definisjoner" title="Link to this heading">#</a></h2>
+<p id="id3"><code class="docutils literal notranslate"><span class="pre">9.1.1.1</span></code> Omfang</p>
+<p>Bestemmelsene i Del 9 gjelder for kjøretøyer av kategoriene N og O som
+definert til Consolidated Resolution on the Construction of Vehicles
+(R.E.3) <a class="footnote-reference brackets" href="#id19" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>, og som er beregnet for transport av farlig gods.</p>
+<p>Disse bestemmelsene gjelder kjøretøy med hensyn til deres konstruksjon,
+type godkjenning, ADR godkjenning og årlig teknisk kontroll.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">9.1.1.2</span></code> Definisjoner</p>
+<p>I del 9 betyr:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<tbody>
+<tr class="row-odd"><td><p><strong>Kj
+øretøy</strong></p></td>
+<td><p>ethvert kjøretøy, enten det er komplett, ikke ferdigstilt
+eller ferdigstilt, som er beregnet for vegtransport av
+farlig gods;</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>EX/II
+eller
+EX/III
+kj
+øretøy</strong></p></td>
+<td><p>et kjøretøy beregnet for transport av eksplosive stoffer
+og gjenstander (Klasse 1);</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>FL kjøretøy:</strong></p>
+<p>a) et kjøretøy beregnet for transport av væsker med flammepunkt som ikke
+er høyere enn 60 °C [med unntak for dieselolje som er i samsvar med
+standarden EN 590:2013 + A1:2017, gassolje og fyringsolje (lett) –
+UN-nr. 1202 – med flammepunkt som spesifisert i standarden EN 590:2013 +
+A1:2017] i faste tanker eller løstanker med volum over 1 m<sup>3</sup>
+eller i tankcontainere eller multimodale tanker med individuelt volum på
+over 3 m<sup>3</sup>; eller</p>
+<p>b) et kjøretøy beregnet for transport av brannfarlige gasser i faste
+tanker eller løstanker med volum over 1 m<sup>3</sup>, eller i
+tankcontainere, multimodale tanker eller MEGCer med individuelt volum på
+over 3 m<sup>3</sup>; eller</p>
+<p>c) et batterikjøretøy med en total kapasitet større enn 1 m<sup>3</sup>
+som er beregnet for transport av brannfarlige gasser; eller</p>
+<p>d) et kjøretøy beregnet for transport av hydrogenperoksid, stabilisert
+eller hydrogenperoksid, vannløsning stabilisert med mer enn 60%
+hydrogenperoksid (Klasse 5.1, UN nr. 2015), i faste tanker eller
+løstanker med kapasitet over 1 m<sup>3</sup> eller i tankcontainere eller
+multimodale tanker med individuell kapasitet over 3 m<sup>3</sup>;</p>
+<p><strong>AT kjøretøy:</strong></p>
+<p>a) et kjøretøy som ikke er av typene EX/III eller FL kjøretøy eller en
+MEMU, og som er beregnet for transport av farlig gods i faste tanker
+eller løstanker med volum over 1 m<sup>3</sup> eller i tankcontainere,
+multimodale tanker eller MEGCer med individuelt volum over 3
+m<sup>3</sup>; eller</p>
+<p>b) et batterikjøretøy med totalt volum over 1 m<sup>3</sup> som ikke er et
+FL kjøretøy;</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<tbody>
+<tr class="row-odd"><td><p><strong>MEMU</strong></p></td>
+<td><p>et kjøretøy som tilsvarer definisjonen av MEMU i
+1.2.1;</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Komplett
+kjøretøy:</strong></p></td>
+<td><p>ethvert kjøretøy hvor det ikke er behov for
+påbygging (f.eks. innebygde varebiler, eller åpne
+lastebiler, trekkbiler, tilhengere – ferdigstilt
+fra fabrikk);</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Ikke
+ferdigstilt
+kjøretøy</strong></p></td>
+<td><p>ethvert kjøretøy som må ferdigstilles i minst et
+videre steg (f.eks. understell med førerhus,
+tilhengerunderstell);</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Ferdigstilt
+kjøretøy</strong></p></td>
+<td><p>ethvert kjøretøy som er et resultat av en trinnvis
+oppbygging (f.eks. understell eller understell med
+førerhus som utstyres med et påbygg);</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Typegodkjent
+kjøretøy</strong></p></td>
+<td><p>ethvert kjøretøy som har blitt godkjent i henhold
+til FN-regulativ nr. 105 <a class="footnote-reference brackets" href="#id20" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>;</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>ADR
+godkjenning:</strong></p></td>
+<td><p>godkjenning av vedkommende myndighet i en
+kontraherende stat som bekrefter at et enkelt
+kjøretøy som er beregnet for transport av farlig
+gods tilfredsstiller de relevante tekniske
+bestemmelsene i denne delen som et EX/II, EX/III,
+FL eller AT kjøretøy eller som en MEMU.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="godkjenning-av-ex-ii-ex-iii-fl-at-og-memu-kjoretoy">
+<span id="id7"></span><h2>9.1.2 Godkjenning av EX/II, EX/III, FL, AT og MEMU kjøretøy<a class="headerlink" href="#godkjenning-av-ex-ii-ex-iii-fl-at-og-memu-kjoretoy" title="Link to this heading">#</a></h2>
+<p><strong>ANM:</strong> Det kreves ikke spesielle godkjenningsattester for andre
+kjøretøyer enn typene EX/II, EX/III, FL, AT og MEMU, bortsett fra slike
+som kreves av de alminnelige sikkerhetsbestemmelsene gjeldene for
+kjøretøyer i opprinnelseslandet.</p>
+<p id="id8"><code class="docutils literal notranslate"><span class="pre">9.1.2.1</span></code> Generelt</p>
+<p>EX/II, EX/III, FL og AT kjøretøyer og MEMUer skal tilfredsstille de
+relevante kravene i denne delen.</p>
+<p>Alle komplette eller ferdigstilte kjøretøy skal gjennomgå en første
+kontroll av vedkommende myndighet i henhold til de administrative
+bestemmelsene i dette kapittelet for å sikre overensstemmelse med de
+relevante tekniske bestemmelsene i kapittel 9.2 til 9.8.</p>
+<p>Vedkommende myndighet kan avstå fra første gangs kontroll av trekkvogner
+for semitrailer som er typegodkjent i henhold til 9.1.2.2, dersom
+kjøretøyfabrikanten, den som formelt er oppnevnt som representant for
+fabrikanten eller et organ som er godkjent av vedkommende myndighet har
+utstedt en erklæring om samsvar med kravene i kapittel 9.2.</p>
+<p>Kjøretøyets samsvar skal dokumenteres ved utstedelse av en
+godkjenningsattest i henhold til 9.1.3.</p>
+<p>Dersom det kreves at et kjøretøy skal utstyres med tilleggsbrems skal
+fabrikanten av kjøretøyet eller dennes formelt anerkjente representant,
+utstede en erklæring om samsvar med de relevante bestemmelsene i vedlegg
+5 til FN-regulativ nr. 13 <a class="footnote-reference brackets" href="#id21" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>. Denne erklæringen skal fremlegges ved
+første tekniske kontroll.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">9.1.2.2</span></code> Krav til typegodkjente kjøretøyer</p>
+<p>På anmodning fra kjøretøyfabrikanten eller den som formelt er oppnevnt
+som representant for fabrikanten, kan kjøretøy underlagt ADR godkjenning
+i henhold til 9.1.2.1, bli typegodkjent av vedkommende myndighet.
+Relevante tekniske krav i kapittel 9.2 skal anses å være oppfylt dersom
+typegodkjenningssertifikatet er blitt utstedt av en kompetent myndighet
+i henhold til FN-regulativ nr. 105<sup>1</sup>, dersom de tekniske kravene
+i det nevnte regulativ tilsvarer kravene i kapittel 9.2 i denne del og
+det ikke er gjort noen endringer på kjøretøyet som har virkning for
+typegodkjenningens gyldighet. Når det gjelder MEMU kan
+typegodkjenningsmerket i henhold til FN-regulativ nr. 105 identifisere
+kjøretøyet som enten MEMU eller EX/III kjøretøy. MEMU trenger kun å
+identifiseres som MEMU på godkjenningsattesten utgitt i henhold til
+bestemmelsene i 9.1.3.</p>
+<p>Denne typegodkjenningen, utstedt av en kontraherende part, skal
+aksepteres av de andre kontraherende partene som bekreftelse på samsvar
+for kjøretøyet når et enkelt kjøretøy fremstilles for ADR-godkjenning.</p>
+<p>Ved inspeksjonen for ADR godkjenning skal bare de deler av et ikke
+komplett, typegodkjent kjøretøy som har blitt oppbygd eller modifisert i
+påbyggingsprosessen bli inspisert i henhold til de kravene i kapittel
+9.2 som gjelder.</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">9.1.2.3</span></code> Årlig teknisk kontroll</p>
+<p>Kjøretøyer av typene EX/II, EX/III, FL, AT og MEMU skal være gjenstand
+for årlig teknisk kontroll i registreringslandet for å sikre at de
+oppfyller de relevante bestemmelsene i denne delen samt
+kjøretøyforskriften (om bremser, lys o.s.v.) som gjelder i
+registreringslandet.</p>
+<p>Kjøretøyets samsvar skal dokumenteres enten ved forlengelse av
+gyldigheten på godkjenningsattesten eller ved at det utstedes en ny
+godkjenningsattest i henhold til 9.1.3.</p>
+</section>
+<section id="godkjenningsattest">
+<span id="id12"></span><h2>9.1.3 Godkjenningsattest<a class="headerlink" href="#godkjenningsattest" title="Link to this heading">#</a></h2>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">9.1.3.1</span></code></p>
+<p>Kjøretøy av type EX/II, EX/III, FL, AT og MEMU som fremstilles til
+kontroll eller har en samsvarserklæring i henhold til kravene i 9.1.2.1
+i kapittel 9.2 og fyller kravene i del 9 kan få utstedt
+godkjenningsattest <a class="footnote-reference brackets" href="#id22" id="id14" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> av vedkommende myndighet i registreringslandet.</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">9.1.3.2</span></code></p>
+<p>En godkjenningsattest utstedt av vedkommende myndighet i en
+kontraherende stat for et kjøretøy registrert i denne staten skal, så
+lenge gyldighetsdatoen ikke er overskredet, bli akseptert av de andre
+kontraherende statene.</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">9.1.3.3</span></code></p>
+<p>Godkjenningsattesten skal ha samme utforming som modellen som er
+gjengitt i 9.1.3.5. Dens dimensjoner skal være 210 mm x 297 mm (format
+A4). Både forsiden og baksiden kan brukes. Fargen skal være hvit med en
+diagonal rosa stripe.</p>
+<p>Den kan ha tilleggssikkerhet i form av hologram, UV-merking,
+guillochering eller strekkode.</p>
+<p>Avtaleparter som har innført tilleggsikkerhet i godkjenningsattestene
+skal gi UNECE-sekretariatet et eksem-pel på den nasjonale modellen for
+attesten utstedt i henhold til dette avsnittet. Avtaleparter skal også
+gi for-klarende merknader som gjør det mulig å verifisere sertifikaters
+samsvar med de innsendte eksemplene. Sekretariatet skal gjøre denne
+informasjonen tilgjengelig på sitt nettsted. Den skal utstedes på
+språket eller et av språkene i utstedelseslandet. Hvis det språket ikke
+er engelsk, fransk eller tysk skal tittelen på godkjenningsattesten og
+alle merknader under punkt 11 også skrives på engelsk, fransk eller
+tysk.</p>
+<p>Godkjenningsattesten for slamsuger skal inneholde følgende merknad:
+«Slamsuger».</p>
+<p>Godkjenningsattesten for FL eller EX/III kjøretøyer i samsvar med
+kravene i 9.7.9 skal inneholde følgende merknad under punkt 11:
+«Kjøretøy i samsvar med 9.7.9 i ADR».</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">9.1.3.4</span></code></p>
+<p>En godkjenningsattest skal være gyldig i høyst 1 år etter den tekniske
+kontrollen som gikk forut for utstedelsen av godkjenningsattesten. Dog
+skal neste godkjenningsperiode gjelde fra siste normale utløpsdato hvis
+den tekniske kontrollen foretas innen 1 måned før eller etter denne.</p>
+<p>Kjøretøyet skal ikke benyttes til transport av farlig gods etter den
+normale utløpsdatoen før kjøretøyet har en gyldig godkjenningsattest.</p>
+<p>Disse bestemmelsene innebærer likevel ikke at tankkontroller skal
+utføres oftere enn det som er fastsatt i kapittel 6.8, 6.10 eller 6.13.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">9.1.3.5</span></code> Modell for godkjenningsattest for kjøretøy som transporterer farlig gods</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>**
+GOD
+KJE
+NNI
+NGS
+ATT
+EST
+FOR
+K
+JØR
+ETØ
+YER
+SOM
+T
+RAN
+SPO
+RTE
+RER
+VI
+SSE
+F
+ARL
+IGE
+G
+ODS
+SLA
+G**</p></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>At
+tes
+ten
+bek
+ref
+ter
+at
+k
+jør
+etø
+yet
+som
+er
+bes
+kre
+vet
+ned
+enf
+or,
+opp
+fyl
+ler
+de
+bet
+ing
+els
+ene
+som
+a
+vta
+len
+om
+i
+nte
+rna
+sjo
+nal
+veg
+tra
+nsp
+ort
+av
+far
+lig
+g
+ods
+(A
+DR)
+set
+ter
+for
+å
+ku
+nne
+god
+tas
+til
+veg
+tra
+nsp
+ort
+av
+far
+lig
+go
+ds.</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>1.
+Att
+est
+nr.</p></td>
+<td><p>2.
+Kjøretøy
+fabrikat</p></td>
+<td><p>3.
+K
+jøretøyets
+underst
+ellsnummer</p></td>
+<td></td>
+<td><p>4. Registreringsnummer
+(om dette finnes)</p></td>
+</tr>
+<tr class="row-even"><td><p>5.
+N
+avn
+og
+for
+ret
+nin
+gsa
+dre
+sse
+for
+tra
+nsp
+ort
+ør,
+dri
+fts
+ans
+var
+lig
+el
+ler
+e
+ier</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>6.
+Be
+skr
+ive
+lse
+av
+kj
+øre
+tøy
+et</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>1</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>7.
+Kj
+øre
+tøy
+t
+ype
+i
+h
+enh
+old
+til
+9.
+1.1
+.2.
+av
+A
+DR</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>2</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>EX
+/II</p></td>
+<td><p>EX/III</p></td>
+<td><p>FL</p></td>
+<td><p>AT</p></td>
+<td><p>MEMU</p></td>
+</tr>
+<tr class="row-even"><td><p>8.
+Ti
+lle
+ggs
+bre
+ms</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>3</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+052
+.EP
+S»/
+}}}</p>
+<p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+061
+.EP
+S»/
+}}}</p>
+</td>
+<td><p>Ikke
+aktuell</p>
+<p>Effekt
+iviteten
+b
+eskrevet
+i
+9.
+2.3.1.2.
+av ADR
+er
+tilst
+rekkelig
+for en
+total
+masse av
+transpor
+tenheten
+på
+__
+___t<sup>4</sup></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>9.
+Be
+skr
+ive
+lse
+av
+tan
+k(e
+r)-
+/
+b
+att
+eri
+kj
+øre
+tøy
+(om
+de
+tte
+fi
+nne
+s);</p>
+<p>9.1
+Tan
+kfa
+bri
+kat</p>
+<p>9.2
+God
+kje
+nni
+ngs
+num
+mer
+for
+t
+ank
+/
+b
+att
+eri
+k
+jør
+etø
+yet</p>
+<p>9.3
+T
+ank
+ens
+se
+rie
+num
+mer
+/
+Id
+ent
+ifi
+kas
+jon
+av
+ele
+men
+ter
+i
+bat
+ter
+ikj
+øre
+tøy</p>
+<p>9.4
+P
+rod
+uks
+jon
+sår</p>
+<p>9.5
+Ta
+nkk
+ode
+i
+h
+enh
+old
+til
+4
+.3.
+3.1
+el
+ler
+4
+.3.
+4.1
+i
+ADR</p>
+<p>9.6
+Spe
+sie
+lle
+bes
+tem
+mel
+ser
+TC
+og
+TE
+i
+h
+enh
+old
+til
+6.
+8.4
+i
+ADR
+(
+der
+som
+an
+git
+t)</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>6</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>10.
+Go
+dkj
+ent
+for
+fø
+lge
+nde
+far
+lig
+g
+ods</p>
+<p>K
+jør
+etø
+yet
+opp
+fyl
+ler
+bet
+ing
+els
+ene
+for
+tra
+nsp
+ort
+av
+far
+lig
+g
+ods
+i
+f
+orh
+old
+til
+kj
+øre
+tøy
+ets
+t
+ype
+(r)
+som
+ang
+itt
+i
+7.</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>1
+0.1
+I
+ti
+lfe
+lle
+EX
+/II
+el
+ler
+EX/
+III
+kjø
+ret
+øy</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>3</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+077
+.EP
+S»/
+}}}</p>
+<p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+089
+.EP
+S»/
+}}}</p>
+</td>
+<td><p>Gods av
+klasse 1
+i
+nkludert
+fo
+renlighe
+tsgruppe
+J</p>
+<p>Gods av
+klasse 1
+unntatt
+fo
+renlighe
+tsgruppe
+J</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>1
+0.2
+I
+ti
+lfe
+lle
+ta
+nk-
+/
+b
+att
+eri
+kjø
+ret
+øy</p>
+<blockquote>
+<div><p>:s</p>
+</div></blockquote>
+<p>up:
+<cite>3</cite></p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+104
+.EP
+S»/
+}}}</p>
+<p>{{{
+IMG
+C
+LAS
+S=»
+«cl
+ass
+WMF
+»»
+REF
+=»I
+mag
+e16
+118
+.EP
+S»/
+}}}</p>
+</td>
+<td><p>bare
+stoffer
+som er
+tillatt
+i
+henhold
+til
+t
+ankkoden
+og
+ev
+entuelle
+s
+pesielle
+best
+emmelser
+som
+angitt i
+punkt 9
+er
+tillatt
+transp
+ortert<sup>5</sup></p>
+<p>eller</p>
+<div class="line-block">
+<div class="line">bare</div>
+</div>
+<blockquote>
+<div><p>følgene</p>
+<p>stoffer</p>
+</div></blockquote>
+<dl class="simple">
+<dt>(klasse,</dt><dd><p>UN-nr.
+og om
+n</p>
+</dd>
+</dl>
+<p>ødvendig</p>
+<p>emballas
+jegruppe</p>
+<blockquote>
+<div><p>og
+v</p>
+</div></blockquote>
+<dl>
+<dt>arenavn)</dt><dd><blockquote>
+<div><p>er</p>
+</div></blockquote>
+<p>tillatt</p>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line">trans</div>
+</div>
+<p>portert.</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Kun
+s
+tof
+fer
+som
+i
+kke
+kan
+ød
+ele
+gge
+el
+ler
+r
+eag
+ere
+far
+lig
+med
+tan
+ksk
+all
+et,
+p
+akn
+ing
+er,
+uts
+tyr
+og
+eve
+ntu
+elt
+inn
+ven
+dig
+bel
+egg
+ti
+lla
+tes
+t
+ran
+spo
+rte
+rt.</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>11.
+A
+nme
+rkn
+ing
+er:</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>12.
+Gyl
+dig
+til</p></td>
+<td></td>
+<td><p>Utsteders
+stempel</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Sted,
+Dato,
+u
+nderskrift</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>1. I henhold til definisjoner for motordrevne kjøretøyer og tilhengere
+av kategori N og O som definert i Konsolidert resolusjon for
+konstruksjon av kjøretøyer (R.E.3), eller i direktiv 2007/46/EC.</p>
+<ol class="arabic simple" start="2">
+<li><p>Stryk ut det som ikke passer.</p></li>
+<li><p>Marker det som passer.</p></li>
+</ol>
+<p>4. Noter passende verdi. En verdi på 44T vil ikke begrense
+«registrering/maks. tillatt masse ved bruk» slik som omtalt i
+registreringsdokumentet (ene).</p>
+<p>5. Stoffer knyttet til tankkode spesifisert i punkt 9 eller til annen
+tankkode i henhold til hierarkiet i 4.3.3.1.2 eller 4.3.4.1.2, under
+hensyntagen til spesielle betingelser, dersom det finnes slike.</p>
+<ol class="arabic simple" start="6">
+<li><p>Ikke obligatorisk når godkjente stoffer er listet opp i punkt 10.2.</p></li>
+</ol>
+<div class="pst-scrollable-table-container"><table class="table">
+<tbody>
+<tr class="row-odd"><td><p>13. Utvidelse
+av
+gyl
+dighetsdatoen</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Gyldigheten
+utvidet til</p></td>
+<td><p>Utsteders stempel, sted, dato og signatur</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ANM:</strong> Attesten skal returneres den utstedende institusjon når
+kjøretøyet blir tatt ut av tjeneste; hvis kjøretøyet er overført annen
+transportør, driftsansvarlig eller eier enn den som er angitt i punkt 5;
+når attestens gyldighet er utløpt og hvis det er skjedd betydelig
+endring i en eller flere av kjøretøyets vesentlige egenskaper.</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id19" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">1</a><span class="fn-bracket">]</span></span>
+<p>United Nations document ECE/TRANS/WP.29/78/Rev.3</p>
+</aside>
+<aside class="footnote brackets" id="id20" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">2</a><span class="fn-bracket">]</span></span>
+<p>UN Regulation No.105 (Uniform provisions concerning the approval of
+vehicles intended for the carriage of dangerous goods with regard to
+their specific constructional features)</p>
+</aside>
+<aside class="footnote brackets" id="id21" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">3</a><span class="fn-bracket">]</span></span>
+<p>UN Regulation No. 13 (Uniform provisions concerning the approval of
+vehicles of categories M, N and O with regard to braking).</p>
+</aside>
+<aside class="footnote brackets" id="id22" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id14">4</a><span class="fn-bracket">]</span></span>
+<p>Veiledning for utfylling av godkjenningsattesten kan konsulteres på
+nettstedet til sekretariatet for De Forente Nasjoners Økonomiske
+Kommisjon for Europa.
+(<a class="reference external" href="https://unece.org/guidelines-telematics-application-standards-construction-and-approval-vehicles-calculation-risks">https://unece.org/guidelines-telematics-application-standards-construction-and-approval-vehicles-calculation-risks</a>).</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Del9_index/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#omfang-og-definisjoner">9.1.1 Omfang og definisjoner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#godkjenning-av-ex-ii-ex-iii-fl-at-og-memu-kjoretoy">9.1.2 Godkjenning av EX/II, EX/III, FL, AT og MEMU kjøretøy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#godkjenningsattest">9.1.3 Godkjenningsattest</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

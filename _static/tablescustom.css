@@ -1,0 +1,62 @@
+/* General content width settings */
+.bd-main .bd-content .bd-article-container {
+    max-width: 100%; /* Default is 60em */
+}
+
+.bd-page-width {
+    max-width: 100% !important; /* Center content; default is 88em */
+}
+
+/* Apply styles to the interactive table */
+.interactive-table {
+    border-collapse: collapse; /* Merge adjacent borders */
+    width: 100%; /* Make the table fill its container */
+    white-space: normal; /* Allow wrapping */
+    word-wrap: break-word;
+    table-layout: fixed; /* Consistent column widths */
+    font-size: 12px; /* Adjust font size */
+}
+
+/* Style table headers */
+.interactive-table th {
+    border: 1px solid #ddd; /* Add borders to headers */
+    background-color: #f4f4f4; /* Light background for headers */
+    text-align: center; /* Align text to the center */
+}
+
+/* Style table rows */
+.interactive-table td {
+    border: 1px solid #ddd; /* Add borders to cells */
+}
+
+/* Add banded rows */
+.interactive-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+.interactive-table tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Highlight rows on hover */
+.interactive-table tr:hover {
+    background-color: #dcdcdc; /* Light gray on hover */
+}
+
+/* Column-specific styles */
+.col-un { width: 15px; }
+.col-description { width: 200px; }
+.col-class { width: 25px; }
+.col-classification { width: 23px; }
+.col-packaging-group { width: 23px; }
+.col-labels { width: 34px; }
+.col-special-rules { width: 30px; }
+.col-limited-quantities { width: 42px; }
+.col-packaging { width: 120px; }
+.col-multimodal { width: 70px; }
+.col-adr-tank { width: 60px; }
+.col-vehicle { width: 30px; }
+.col-category { width: 30px; }
+.col-transport-rules { width: 140px; }
+.col-express { width: 23px; }
+.col-danger-number { width: 23px; }

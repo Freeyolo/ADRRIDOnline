@@ -1,0 +1,878 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 2.3 Testmetoder &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del2/Kapittel 2.3 Testmetoder';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde" href="../../Del3/Del3_index/" />
+    <link rel="prev" title="Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser" href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del2_index/">Del 2 Klassifisering</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del2_index/" class="nav-link">Del 2 Klassifisering</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 2.3 Testmetoder</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-2-3-testmetoder">
+<span id="id1"></span><h1>Kapittel 2.3 Testmetoder<a class="headerlink" href="#kapittel-2-3-testmetoder" title="Link to this heading">#</a></h1>
+<section id="generelt">
+<span id="id2"></span><h2>2.3.0 Generelt<a class="headerlink" href="#generelt" title="Link to this heading">#</a></h2>
+<p>Med mindre noe annet er bestemt i kapittel 2.2 eller i dette kapitlet,
+skal det ved klassifisering av farlig gods benyttes de testmetodene som
+er beskrevet i UN Testmanualen.</p>
+</section>
+<section id="utsvettingstest-for-sprengstoff-type-a">
+<span id="id3"></span><h2>2.3.1 Utsvettingstest for sprengstoff type A<a class="headerlink" href="#utsvettingstest-for-sprengstoff-type-a" title="Link to this heading">#</a></h2>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">2.3.1.1</span></code></p>
+<p>Sprengstoffer Type A (UN 0081) skal, hvis de inneholder over 40 %
+flytende nitroester, i tillegg til de testene som er spesifisert i UN
+Testmanualen også tilfredsstille følgende utsvettingstest.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">2.3.1.2</span></code></p>
+<p>Apparatet for prøving av et sprengstoff med hensyn til utsvetting (fig.
+1 til 3) består av en hul bronsesylinder. Sylinderen, som er lukket i
+den ene enden med en plate av samme metall, skal ha innvendig diameter
+15,7 mm og være 40 mm dyp.</p>
+<p>Den skal ha 20 hull med 0,5 mm diameter (4 rekker à 5 huller) rundt
+omkretsen. Et bronsestempel som har et sylindrisk parti på 48 mm og en
+total lengde på 52 mm skal kunne bevege seg inn i sylinderen som skal
+være plassert vertikalt.</p>
+<p>Stemplet skal ha en diameter på 15,6 mm og være belastet med et lodd med
+masse 2 220 g, slik at trykket mot bunnen av sylinderen blir 120 kPa
+(1,20 bar).</p>
+<p id="id6"><code class="docutils literal notranslate"><span class="pre">2.3.1.3</span></code></p>
+<p>En liten plugg av sprengstoffet med masse 5 til 8 g; 30 mm lang og 15 mm
+i diameter pakkes i flortynn gass og anbringes i sylinderen, hvorpå
+stemplet og loddet settes på plass slik at sprengstoffet utsettes for et
+trykk på 120 kPa (1,20 bar). Derpå noteres tiden til de første tegn på
+oljeaktige dråper (nitroglyserol) kan observeres der hullene munner ut.</p>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">2.3.1.4</span></code></p>
+<p>Sprengstoffet ansees tilfredsstillende om den tid det tar før de første
+tegn på oljeaktig utsvetting er mer enn fem minutter når testen er
+utført ved en temperatur på 15°C til 25°C.</p>
+<p>Utsvettingstest for sprengstoff</p>
+<p>{{{IMG CLASS=»«class imag»» REF=»1845.jpg»/}}}</p>
+</section>
+<section id="tester-for-nitrocelluloseblandinger-av-klasse-1-og-klasse-4-1">
+<span id="id8"></span><h2>2.3.2 Tester for nitrocelluloseblandinger av klasse 1 og klasse 4.1<a class="headerlink" href="#tester-for-nitrocelluloseblandinger-av-klasse-1-og-klasse-4-1" title="Link to this heading">#</a></h2>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">2.3.2.1</span></code></p>
+<p>For å bestemme kriteriene for nitrocellulose skal Bergmann-Junk testen
+eller metylfiolettpapirtesten i testmanualen vedlegg 10 utføres (se
+kapittel 3.3, spesiell bestemmelse 393 og 394). Dersom det er tvil om
+hvorvidt tenntemperaturen til nitrocellulose i Bergmann-Junk testen er
+betraktelig høyere enn 132 °C eller høyere enn 134,5 °C i
+metylfiolettpapirtesten, skal testen for tenntemperatur i 2.3.2.5
+gjennomføres før disse testene utføres. Dersom tenntemperaturen for
+nitrocelluloseblandinger er høyere enn 180 °C eller tenntemperaturen til
+myknet nitrocellulose er høyere enn 170 °C, kan Bergmann-Junk testen
+eller metylfiolettpapirtesten utføres sikkert.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">2.3.2.2</span></code></p>
+<p>Før det foretas tester som beskrevet i 2.3.2.5, skal det stoffet som
+skal testes være tørret i minst 15 timer ved omgivelsestemperatur i en
+vakuumeksikator med smeltet og granulert kalsiumklorid. Stoffet som skal
+testes, skal under tørringen være spredd i et tynt lag, og stoffer som
+hverken er i pulver- eller i fiberform skal først males, rives eller
+findeles. Trykket i eksikatoren skal holdes under 6,5 kPa (0,065 bar).</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">2.3.2.3</span></code></p>
+<p>Myknet nitrocellulose skal, før tørring som omtalt i 2.3.2.2 ovenfor,
+fortørres i en godt ventilert ovn som holder 70°C til massetapet per 15
+minutter er mindre enn 0,3 % av den opprinnelige masse.</p>
+<p id="id12"><code class="docutils literal notranslate"><span class="pre">2.3.2.4</span></code></p>
+<p>Lavnitrert nitrocellulose skal først fortørres som beskrevet i 2.3.2.3
+ovenfor; deretter skal tørringen fullføres ved at nitrocellulosen holdes
+i minst 15 timer i en eksikator med konsentrert svovelsyre som
+tørremiddel.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">2.3.2.5</span></code> Tenntemperatur (se 2.3.2.1)</p>
+<p>a) Tenntemperaturen bestemmes ved oppheting av 0,2 g stoff i et lukket
+glass prøverør, nedsenket i et smeltebad med Woods metall. Prøverøret
+plasseres i badet når dette har nådd en temperatur på 100 °C.
+Temperaturen i badet økes derpå jevnt stigende med 5 °C i minuttet.
+Prøverørene skal ha følgende dimensjoner:</p>
+<p>lengde 125 mm</p>
+<p>innvendig diameter 15 mm</p>
+<p>veggtykkelse 0,5 mm</p>
+<p>og skal være neddykket til en dybde på 20 mm</p>
+<p>b) Testen skal gjentas tre ganger, og den temperaturen hvor prøven
+antennes i form av en langsom forbrenning, hurtig forbrenning,
+deflagrasjon eller detonasjon, noteres hver gang.</p>
+<p>c) Den laveste temperaturen som er notert i de tre prøvene, er
+tenntemperaturen.</p>
+</section>
+<section id="tester-for-brannfarlige-vaesker-av-klassene-3-6-1-og-8">
+<span id="id14"></span><h2>2.3.3 Tester for brannfarlige væsker av klassene 3, 6.1 og 8<a class="headerlink" href="#tester-for-brannfarlige-vaesker-av-klassene-3-6-1-og-8" title="Link to this heading">#</a></h2>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">2.3.3.1</span></code> Bestemmelse av flammepunkt</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">2.3.3.1.1</span></code> De følgende metodene for å bestemme flammepunktet til brannfarlige væsker kan benyttes:</p>
+<p>Internasjonale standarder:</p>
+<p>ISO 1516 (Determination of flash/no flash – Closed cup equilibrium
+method)</p>
+<p>ISO 1523 (Determination of flash point – Closed cup equilibrium method)</p>
+<p>ISO 2719 (Determination of flash point – Pensky-Martens closed cup
+method)</p>
+<p>ISO 13736 (Determination of flash point – Abel closed-cup method)</p>
+<p>ISO 3679 (Determination of flash point – Rapid equilibrium closed cup
+method)</p>
+<p>ISO 3680 (Determination of flash/no flash – Rapid equilibrium closed cup
+method)</p>
+<p>Nasjonale standarder:</p>
+<p><em>American Society for Testing Materials International, 100 Barr Harbor
+Drive, PO Box C700, West Conshohocken, Pennsylvania, USA 19428-2959:</em></p>
+<p>ASTM D3828-07a, Standard Test Methods for Flash Point by Small Scale
+Closed Cup Tester</p>
+<p>ASTM D56-05, Standard Test Method for Flash Point by Tag Closed Cup
+Tester</p>
+<p>ASTM D3278-96(2004)e1, Standard Test Methods for Flash Point of Liquids
+by Small Scale Closed-Cup Apparatus</p>
+<p>ASTM D93-08, Standard Test Methods for Flash Point by Pensky-Martens
+Closed Cup Tester</p>
+<p><em>Association française de normalisation, AFNOR, 11, rue de Pressensé,
+F-93571 La Plaine Saint-Denis Cedex:</em></p>
+<p>Fransk standard NF M 07–019</p>
+<p>Franske standarder NF M 07–011 / NF T 30–050 / NF T 66–009</p>
+<p>Fransk standard NF M 07–036</p>
+<p><em>Deutsches Institut für Normung, Burggrafenstr. 6, D-10787 Berlin:</em></p>
+<p>Standard DIN 51755 (flammepunkt under 65 °C)</p>
+<p><em>State Committee of the Council of Ministers for Standardization,
+RUS-113813, GSP, Moscow, M-49 Leninsky Prospect, 9:</em></p>
+<p>GOST 12.1.044-84</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">2.3.3.1.2</span></code></p>
+<p>Ved bestemmelse av flammepunktet for maling, lim og lignende viskøse
+produkter som inneholder løsningsmidler, må det bare benyttes apparater
+og metoder som er egnet for bestemmelse av flammepunkt for viskøse
+væsker i samsvar med følgende standarder:</p>
+<ol class="loweralpha simple">
+<li><p>International Standard ISO 3679:1983;</p></li>
+<li><p>International Standard ISO 3680:1983;</p></li>
+<li><p>International Standard ISO 1523:1983;</p></li>
+<li><p>Internasjonale Standarder EN ISO 13736 og EN ISO 2719, metode B</p></li>
+</ol>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">2.3.3.1.3</span></code></p>
+<p>Standardene som er opplistet i 2.3.3.1.1 skal kun benyttes for
+flammepunktsområder som er spesifisert i standarden. Ved valg av
+standard skal man ta i betraktning muligheten for kjemisk reaksjon
+mellom prøven og prøvekammeret. Apparatet skal plasseres på et sted der
+det ikke er trekk, forutsatt at sikkerheten er ivaretatt. Ut i fra
+sikkerhetshensyn skal det benyttes små prøver på ca. 2 ml, ved testing
+av organiske peroksider og selvreaktive stoffer (også kjent som
+«energirike» stoffer), eller ved testing av giftige stoffer.</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">2.3.3.1.4</span></code></p>
+<p>Når flammepunktet bestemt ved en ikke-likevektsmetode finnes å være 23
+± 2 °C eller 60 ± 2 °C, skal det bekreftes for hvert temperaturområde
+med en likevektsmetode.</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">2.3.3.1.5</span></code></p>
+<p>I tilfelle uenighet om klassifiseringen av en brannfarlig væske, skal
+det siffer som er foreslått av avsenderen godtas dersom en stikkprøve av
+flammepunktet gir et resultat som ikke avviker mer enn 2 °C fra
+grenseverdiene (henholdsvis 23 °C og 60 °C) som er angitt i 2.2.3.1. Er
+forskjellen større enn 2 °C, skal det foretas en ny stikkprøve, og den
+laveste verdien fra stikkprøvene skal legges til grunn.</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">2.3.3.2</span></code> Bestemmelse av begynnende kokepunkt</p>
+<p>Følgende metoder for å bestemme det begynnende kokepunktet til
+brannfarlige væsker kan benyttes:</p>
+<p>Internasjonale standarder:</p>
+<p>ISO 3924 (Petroleum products – Determination of boiling range
+distribution – Gas chromatography method)</p>
+<p>ISO 4626 (Volatile organic liquids – Determination of boiling range of
+organic solvents used as raw materials)</p>
+<p>ISO 3405 (Petroleum products – Determination of distillation
+characteristics at atmospheric pressure)</p>
+<p>Nasjonale standarder:</p>
+<p><em>American Society for Testing Materials International, 100 Barr Harbor
+Drive, PO Box C700, West Conshohocken, Pennsylvania, USA 19428-2959:</em></p>
+<p>ASTM D86-07a, Standard Test Method for Distillation of Petroleum
+Products at Atmospheric Pressure</p>
+<p>ASTM D1078-05, Standard Test Method for Distillation Range of Volatile
+Organic Liquids</p>
+<p>Andre akseptable metoder:</p>
+<p>MetodeA.2 beskrevet i Part A i vedlegget til kommisjonsforordning (EU)
+nr. 440/2008 <a class="footnote-reference brackets" href="#id29" id="id22" role="doc-noteref"><span class="fn-bracket">[</span>21<span class="fn-bracket">]</span></a>.</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">2.3.3.3</span></code> Metode for å bestemme peroksidinnhold</p>
+<p>Prosedyren for å bestemme peroksidinnholdet i en væske er:</p>
+<p>En mengde p (ca. 5 g, innveid til nærmeste 0,01g) av væsken som skal
+titreres anbringes i en erlenmeyerkolbe; 20 cm edikksyreanhydrid og ca.
+1 g fast kaliumjodid i pulverform tilsettes. Kolben rystes, og etter 10
+minutter varmes den opp i 3 minutter til ca. 60 °C. Etter avkjøling i 5
+minutter, tilsettes 25 cm vann. Deretter skal kolben stå i en halv time,
+før det frie jod titreres med en 0,1 N løsning av natriumtiosulfat uten
+tilsetning av indikator. Fullstendig reaksjon tilkjennegis ved at all
+farge forsvinner. Dersom n er anvendt mengde tiosulfat i cm, er
+prosentandelen av peroksid, (kalkulert som H<sub>2</sub> O<sub>2</sub> )
+gitt ved følgende formel:</p>
+<p>{{{IMG CLASS=»«class imag»» REF=»1846.jpg»/}}}</p>
+</section>
+<section id="test-for-a-bestemme-viskositeten">
+<span id="id24"></span><h2>2.3.4 Test for å bestemme viskositeten<a class="headerlink" href="#test-for-a-bestemme-viskositeten" title="Link to this heading">#</a></h2>
+<p>Følgende metode skal benyttes til bestemmelse av viskositeten for
+flytende, viskøse eller pastaformige stoffer og blandinger.</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">2.3.4.1</span></code> Testapparat</p>
+<p>Penetrometer av vanlig handelskvalitet som svarer til ISO standard 2137:
+1985 med en styrestang på 47,5 ± 0,05 g (se tegningen); sikteskive av
+duraluminium med koniske hull og masse 102,5 ± 0,05 g (se fig. 1);
+penetrasjonsbeholder med en innvendig diameter 72 mm til 80 mm til å ha
+prøven i.</p>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">2.3.4.2</span></code> Testprosedyre</p>
+<p>Prøven helles ned i penetrasjonsbeholderen minst en halv time før
+målingen. Beholderen skal så lukkes hermetisk tett og stå urørt til
+målingen foretas. Prøven opphetes i den hermetisk lukkede
+penetrasjonsbeholderen til 35 °C ± 0,5 °C og anbringes på
+penetrometerbordet like før (høyst 2 min. før) testen utføres. Punktet S
+på sikteskiven bringes derpå i kontakt med væskeoverflaten og
+penetrasjonshastigheten måles.</p>
+<p id="id27"><code class="docutils literal notranslate"><span class="pre">2.3.4.3</span></code> Evaluering av resultatene</p>
+<p>Et stoff er pastaformig dersom penetrasjonen, som avleses på måleuret
+fra det øyeblikk sikteskivens sentrum S er brakt i kontakt med prøvens
+overflate, er:</p>
+<p>a) mindre enn 15,0 mm ± 0,3 mm etter en belastningstid på 5 s ± 0,1 s,
+eller</p>
+<p>b) større enn 15,0 mm ± 0,3 mm, etter en belastningstid på 5 s ± 0,1 s,
+men den videre penetrasjon etter ytterligere 55 s ±0,5 s er mindre enn
+5,0 mm ± 0,5 mm.</p>
+<p><strong>ANM:</strong> I de tilfeller hvor prøvevæsken har et flytepunkt, er det ofte
+umulig å oppnå en stabil, plan overflate i penetrasjonsbeholderen og å
+fastslå med tilfredsstillende nøyaktighet den første berøring med
+sikteskivens punkt S. Videre kan sikteskivens bevegelse i de første
+sekunder forårsake en elastisk deformasjon av overflaten for visse
+prøver, og i de første sekunder simulere en dypere penetrasjon for visse
+prøver. I alle slike tilfeller kan det være riktig å foreta den
+vurderingen som er nevnt i avsnitt b) ovenfor.</p>
+<p>Figur 1 – Penetrometer</p>
+<p>{{{IMG CLASS=»«class PDF »» REF=»figur2_3_4_3.pdf»/}}}</p>
+<p>{{{IMG CLASS=»«class PDF »» REF=»figur2_3_4_3.pdf»/}}}</p>
+</section>
+<section id="klassifisering-av-metallorganiske-stoffer-i-klasse-4-2-og-4-3">
+<span id="id28"></span><h2>2.3.5 Klassifisering av metallorganiske stoffer i klasse 4.2 og 4.3<a class="headerlink" href="#klassifisering-av-metallorganiske-stoffer-i-klasse-4-2-og-4-3" title="Link to this heading">#</a></h2>
+<p>Metallorganiske stoffer kan, avhengig av deres egenskaper som bestemt i
+samsvar med testene N1 til N5 i UN Testmanualen, del III, avsnitt 33,
+klassifiseres i klasse 4.2 eller 4.3, i samsvar med flytskjemaet i figur
+2.3.6.</p>
+<p><strong>ANM 1:</strong> Avhengig av andre egenskaper ved stoffene, og av
+fareprioriteringstabellen (se 2.1.3.10), kan det være nødvendig å
+klassifisere metallorganiske stoffer i andre klasser.</p>
+<p><strong>ANM 2:</strong> Brannfarlige løsninger som inneholder metallorganiske
+blandinger i konsentrasjoner som ikke kan gjennomgå spontan forbrenning,
+eller som i kontakt med vann ikke avgir brannfarlige gasser i farlige
+mengder, er stoffer i klasse 3.</p>
+<p>Figur 2.3.5: Flytdiagram for klassifisering av metallorganiske stoffer i
+klasse 4.2 eller 4.3<sup>b</sup></p>
+<p><sup>{{{IMG CLASS=»«class imag»» REF=»2121.jpg»/}}}</sup></p>
+<blockquote>
+<div><p><em>a) Hvis anvendelig og testing er relevant når man legger reaktivitet
+til grunn, skal man vurdere klasse 6.1- og 8-egenskaper i samsvar med
+fareprioriteringstabell 2.1.3.10</em></p>
+<p><em>b) Testmetodene N.1 til N.5 finnes i Testmanualen, Del III, avsnitt
+33</em></p>
+</div></blockquote>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id29" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id22">21</a><span class="fn-bracket">]</span></span>
+<p>Commission Regulation (EC) No 440/2008 of 30 May 2008 laying down
+test methods pursuant to Regulation (EC) No 1907/2006 of the European
+Parliament and of the Council on the Registration, Evaluation,
+Authorisation and Restriction of Chemicals (REACH) (Official Journal
+of the European Union, No. L 142 of 31.05.2008, p.1–739).</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../Del3/Del3_index/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generelt">2.3.0 Generelt</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utsvettingstest-for-sprengstoff-type-a">2.3.1 Utsvettingstest for sprengstoff type A</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tester-for-nitrocelluloseblandinger-av-klasse-1-og-klasse-4-1">2.3.2 Tester for nitrocelluloseblandinger av klasse 1 og klasse 4.1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tester-for-brannfarlige-vaesker-av-klassene-3-6-1-og-8">2.3.3 Tester for brannfarlige væsker av klassene 3, 6.1 og 8</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test-for-a-bestemme-viskositeten">2.3.4 Test for å bestemme viskositeten</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassifisering-av-metallorganiske-stoffer-i-klasse-4-2-og-4-3">2.3.5 Klassifisering av metallorganiske stoffer i klasse 4.2 og 4.3</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del2/Kapittel 2.3 Testmetoder.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

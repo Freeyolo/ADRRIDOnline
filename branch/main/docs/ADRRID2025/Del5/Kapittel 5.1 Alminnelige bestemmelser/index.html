@@ -1,0 +1,1455 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 5.1 Alminnelige bestemmelser &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del5/Kapittel 5.1 Alminnelige bestemmelser';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 5.2 Merking og faresedler" href="../Kapittel 5.2 Merking og faresedler/" />
+    <link rel="prev" title="Del 5 Klargjøring for forsendelse" href="../Del5_index/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del5_index/">Del 5 Klargjøring for forsendelse</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del5_index/" class="nav-link">Del 5 Klargjøring for forsendelse</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 5.1 Alminnelige bestemmelser</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-5-1-alminnelige-bestemmelser">
+<span id="id1"></span><h1>Kapittel 5.1 Alminnelige bestemmelser<a class="headerlink" href="#kapittel-5-1-alminnelige-bestemmelser" title="Link to this heading">#</a></h1>
+<section id="anvendelse-og-alminnelige-bestemmelser">
+<span id="id2"></span><h2>5.1.1 Anvendelse og alminnelige bestemmelser<a class="headerlink" href="#anvendelse-og-alminnelige-bestemmelser" title="Link to this heading">#</a></h2>
+<p>Denne delen inneholder bestemmelser for forsendelser av farlig gods med
+hensyn til merking, faresedler og dokumentasjon, samt godkjenning av
+forsendelser og forhåndsmelding der det kreves.</p>
+</section>
+<section id="bruk-av-overpakninger">
+<span id="id3"></span><h2>5.1.2 Bruk av overpakninger<a class="headerlink" href="#bruk-av-overpakninger" title="Link to this heading">#</a></h2>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">5.1.2.1</span></code></p>
+<p>a) Med mindre merker og faresedler påkrevet i kapittel 5.2, unntatt
+5.2.1.3 til 5.2.1.6, 5.2.1.7.2 til 5.2.1.7.8 og 5.2.1.10, representative
+for alt farlig gods i overpakningen er synlige, skal overpakningen være:</p>
+<p>i. merket med ordet «OVERPAKNING». Bokstavene i merket «OVERPAKNING»
+skal være minst 12 mm høye. Merkingen skal være på et offisielt språk i
+opprinnelseslandet og, hvis det språket ikke er engelsk, fransk eller
+tysk, også på engelsk, fransk eller tysk, dersom det ikke foreligger en
+avtale om annet mellom landene som transporten berører; og</p>
+<p>ii. merket med faresedler, UN-nummer og andre merker som påkrevet i
+kapittel 5.2, unntatt 5.2.1.3 til 5.2.1.6, 5.2.1.7.2 til 5.2.1.7.8 og
+5.2.1.10, for hver type farlig gods som overpakningen inneholder. Hvert
+aktuelle merke eller fareseddel trenger kun påføres én gang.</p>
+<p>Merking av overpakninger som inneholder radioaktivt materiale skal være
+i samsvar med 5.2.2.1.11.</p>
+<p>b) Orienteringspiler som vist i 5.2.1.10 skal vises på to motsatte sider
+av overpakninger som inneholder kolli som skal merkes i henhold til
+5.2.1.10.1, dersom ikke kollienes merking fortsatt er synlig.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">5.1.2.2</span></code></p>
+<p>Hvert enkelt kolli med farlig gods som befinner seg i en overpakning,
+skal være i samsvar med alle de ADR/RID-bestemmelsene som får
+anvendelse. Overpakningen skal ikke på noen måte hindre at de enkelte
+emballasjer virker etter sin hensikt.</p>
+<p id="id6"><code class="docutils literal notranslate"><span class="pre">5.1.2.3</span></code></p>
+<p>Hvert kolli som er merket med orienteringspiler som beskrevet i
+5.2.1.10, og som er pakket i en overpakning eller storsekk skal
+plasseres i henhold til merkingen.</p>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">5.1.2.4</span></code></p>
+<p>Samlasteforbudene gjelder også slike overpakninger.</p>
+</section>
+<section id="tom-ikke-rengjort-emballasje-inklusive-ibcer-og-storemballasje-tanker-memuer-kjoretoyer-vogner-og-containere-for-transport-i-bulk">
+<span id="id8"></span><h2>5.1.3 Tom, ikke rengjort, emballasje (inklusive IBCer og storemballasje), tanker, MEMUer, kjøretøyer/vogner og containere for transport i bulk<a class="headerlink" href="#tom-ikke-rengjort-emballasje-inklusive-ibcer-og-storemballasje-tanker-memuer-kjoretoyer-vogner-og-containere-for-transport-i-bulk" title="Link to this heading">#</a></h2>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">5.1.3.1</span></code></p>
+<p>ADR: Tomme, ikke rengjorte, emballasjer (inklusive IBCer og
+storemballasjer), tanker (inkludert tankkjøretøyer, batterikjøretøyer,
+løstanker, multimodale tanker, tankcontainere, MEGCer), MEMUer,
+kjøretøyer og containere for transport i bulk som har inneholdt farlig
+gods av andre klasser enn klasse 7, skal ha merking og faresedler som om
+de hadde vært fulle.</p>
+<p>RID: Tomme emballasjer (inklusive IBCer og storemballasjer), tanker
+(inkludert tankvogner, batterivogner, løstanker, multimodale tanker,
+tankcontainere, MEGCer), vogner og containere for transport i bulk, som
+har inneholdt farlig gods av andre klasser enn klasse 7, ikke rengjorte,
+gassfrie eller dekontaminerte, skal ha merking og faresedler som om de
+hadde vært fulle.</p>
+<p><strong>ANM:</strong> Når det gjelder dokumentasjon, se kapittel 5.4.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">5.1.3.2</span></code></p>
+<p>Containere, tanker og IBCer, i tillegg til andre emballasjer og
+overpakninger som har vært benyttet til transport av radioaktivt
+materiale skal ikke benyttes for lagring eller transport av annet gods
+med mindre de er dekontaminert til et nivå lavere enn 0.4
+Bq/cm<sup>2</sup> for beta- og gammaemittere samt lite giftige
+alfaemittere og 0.04 Bq/cm<sup>2</sup> for alle andre alfaemittere.</p>
+</section>
+<section id="samemballering">
+<span id="id11"></span><h2>5.1.4 Samemballering<a class="headerlink" href="#samemballering" title="Link to this heading">#</a></h2>
+<p>Når to eller flere farlige godsslag er emballert i samme
+ytteremballasje, skal kolliet ha merking og faresedler slik det kreves
+for hvert av stoffene eller gjenstandene. Dersom samme fareseddel kreves
+for forskjellige godsslag, er det tilstrekkelig at fareseddelen er
+påført en gang.</p>
+</section>
+<section id="alminnelige-bestemmelser-for-klasse-7">
+<span id="id12"></span><h2>5.1.5 Alminnelige bestemmelser for klasse 7<a class="headerlink" href="#alminnelige-bestemmelser-for-klasse-7" title="Link to this heading">#</a></h2>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">5.1.5.1</span></code> Godkjenning av forsendelser samt meldeplikt</p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">5.1.5.1.1</span></code> Generelt</p>
+<p>I tillegg til godkjenning av kollikonstruksjonen som beskrevet i
+kapittel 6.4, kreves også i visse tilfeller multilateral godkjenning for
+forsendelsen (5.1.5.1.2 og 5.1.5.1.3). I noen tilfeller er det også
+nødvendig å gi melding om en forsendelse til vedkommende myndigheter
+(5.1.5.1.4).</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">5.1.5.1.2</span></code> Godkjenning av forsendelser</p>
+<p>Multilateral godkjenning kreves for:</p>
+<p>a) forsendelse av kolli type B(M) som ikke er i samsvar med
+bestemmelsene i 6.4.7.5 eller konstruert for å gjøre kontrollert
+intermittent lufting mulig;</p>
+<p>b) forsendelse av kolli type B(M) som inneholder radioaktivt materiale
+med en aktivitet som overstiger den laveste av henholdsvis 3000
+A<sub>1</sub> eller 3000 A<sub>2</sub>, eller 1000 TBq;</p>
+<p>c) Transport av kolli som inneholder spaltbart materiale hvis summen av
+kritikalitetsindeksene for kolliene på et enkelt kjøretøy eller i en
+container overstiger 50; og</p>
+<ol class="loweralpha simple" start="4">
+<li><p>(Reservert)</p></li>
+<li><p>forsendelse av SCO-III.</p></li>
+</ol>
+<p>dog kan en vedkommende myndighet ved særskilt bestemmelse i
+konstruksjonsgodkjenningen tillate transport inn i eller gjennom sitt
+land uten godkjenning av forsendelsen (se 5.1.5.2.1).</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">5.1.5.1.3</span></code> Godkjenning av forsendelse ved særordning</p>
+<p>En vedkommende myndighet kan godkjenne betingelser som gjør at
+forsendelser som ikke tilfredsstiller alle relevante ADR/RID-krav, får
+transporteres under særordning (se 1.7.4).</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">5.1.5.1.4</span></code> Meldeplikt</p>
+<p>Melding skal gis til kompetente myndigheter som følger:</p>
+<p>a) Før første gangs forsendelse av et kolli hvor godkjenning fra
+kompetent myndighet kreves, skal avsenderen påse at kopier av samtlige
+sertifikater fra kompetente myndigheter som gjelder dette kollis
+konstruksjon, er forelagt vedkommende myndighet i opprinnelseslandet for
+transporten og vedkommende myndighet i hvert av landene som forsendelsen
+skal gå gjennom eller inn i. Det kreves ikke at avsenderen skal avvente
+bekreftelse fra vedkommende myndighet, og vedkommende myndighet er
+heller ikke forpliktet til å bekrefte at sertifikatet er mottatt;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>For hver av følgende typer forsendelse:</p></li>
+</ol>
+<p>i. Type C kolli som inneholder radioaktivt materiale med en aktivitet
+som overstiger den laveste av henholdsvis 3000 A<sub>1</sub> eller 3000
+A<sub>2</sub>, eller 1000 TBq;</p>
+<p>ii. Type B(U) kolli som inneholder radioaktivt materiale med en
+aktivitet som overstiger den laveste av henholdsvis 3000 A<sub>1</sub>
+eller 3000 A<sub>2</sub>, eller 1000 TBq;</p>
+<ol class="lowerroman simple" start="3">
+<li><p>Type B(M) kolli;</p></li>
+<li><p>Forsendelse under særordning.</p></li>
+</ol>
+<p>Avsenderen skal gi melding til vedkommende myndighet i forsendelsens
+opprinnelsesland og til vedkommende myndighet i hvert av landene
+forsendelsen skal transporteres gjennom eller inn i. Denne meldingen
+skal være mottatt av alle vedkommende myndigheter før forsendelsen
+starter, og helst 7 dager på forhånd;</p>
+<p>c) Avsenderen trenger ikke å sende særskilt melding dersom de nødvendige
+opplysninger var tatt med i søknaden om godkjenning av forsendelsen (se
+6.4.23.2);</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Meldingen om forsendelsen skal inneholde:</p></li>
+</ol>
+<p>i. tilstrekkelig opplysninger til å gjøre det mulig å identifisere
+kolliet eller kolliene, inklusive alle relevante sertifikatnummer og
+identifikasjonsmerker;</p>
+<p>ii. opplysning om dato for forsendelse, antatt dato for ankomst samt
+foreslått transportrute;</p>
+<p>iii. betegnelsen på det(de) radioaktive materiale(ne) eller
+radionuklidene;</p>
+<p>iv. beskrivelse av det radioaktive materialets fysiske og kjemiske form,
+eller om det er radioaktivt materiale av spesiell form eller radioaktivt
+materiale med liten tendens til spredning; og</p>
+<p>v. det radioaktive innholdets maksimale aktivitet under transporten,
+angitt i becquerel (Bq) med tilhørende SI-prefiks symbol (se 1.2.2.1).
+For spaltbart materiale, får det spaltbare materialets masse (eller for
+hver spaltbare nuklide for blandinger, når aktuelt) i gram (g), eller
+multipla av gram, benyttes istedenfor aktivitet.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">5.1.5.2</span></code> Sertifikater utstedt av vedkommende myndighet</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">5.1.5.2.1</span></code></p>
+<p>Sertifikater utstedt av vedkommende myndighet kreves for følgende:</p>
+<ol class="loweralpha simple">
+<li><p>Konstruksjonen når det gjelder</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>radioaktivt materiale av spesiell form;</p></li>
+<li><p>radioaktivt materiale med liten tendens til spredning;</p></li>
+<li><p>spaltbare materialer unntatt ifølge 2.2.7.2.3.5 (f)</p></li>
+<li><p>kolli som inneholder 0,1 kg eller mer uranheksafluorid;</p></li>
+</ol>
+<p>v. kolli som inneholder spaltbart materiale med mindre de er unntatt
+ifølge 2.2.7.2.3.5, 6.4.11.2 eller 6.4.11.3;</p>
+<ol class="lowerroman simple" start="6">
+<li><p>Kolli type B(U) og kolli type B(M);</p></li>
+<li><p>Kolli type C;</p></li>
+</ol>
+<ol class="loweralpha simple" start="2">
+<li><p>Særordninger;</p></li>
+<li><p>Visse forsendelser (se 5.1.5.1.2).</p></li>
+</ol>
+<p>d) Bestemmelse av de grunnleggende verdiene for radionuklider som det
+refereres til i 2.2.7.2.2.1 for individuelle radionuklider som ikke er
+oppgitt i tabell 2.2.7.2.2.1 (se 2.2.7.2.2.2 (a));</p>
+<p>e) Alternative aktivitetsgrenser for en fritatt forsendelse av
+instrumenter eller gjenstander (se 2.2.7.2.2.2 (b)).</p>
+<p>Sertifikatene skal bekrefte at de bestemmelsene som kommer til
+anvendelse, er oppfylt, og for konstruksjonsgodkjenning skal det
+tilordnes et identifikasjonsmerke.</p>
+<p>Sertifikatene for godkjenning av kollikonstruksjon og forsendelsen kan
+være kombinert i ett sertifikat.</p>
+<p>Sertifikatene og søknader om slike sertifikater skal være i samsvar med
+bestemmelsene i 6.4.23.</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">5.1.5.2.2</span></code></p>
+<p>Avsenderen skal være i besittelse av kopi av samtlige av de sertifikater
+som kommer til anvendelse.</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">5.1.5.2.3</span></code></p>
+<p>For kollikonstruksjoner hvor det ikke kreves godkjenning fra vedkommende
+myndighet, skal avsenderen på anmodning fremlegge dokumentasjon for at
+kollikonstruksjonen er i samsvar med alle relevante bestemmelser for
+vedkommende myndighet til kontroll.</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">5.1.5.3</span></code> Bestemmelse av transportindeks (TI) og kritikalitetssikkerhetsindeks (CSI)</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">5.1.5.3.1</span></code></p>
+<p>Transportindeksen (TI) for et kolli, en overpakning eller en container,
+eller for uemballert LSA-I, SCO-I eller SCO-III skal være det tallet som
+fremkommer på følgende måte:</p>
+<p>a) Bestem den høyeste doseraten i millisievert pr. time (mSv/h) i en
+avstand på 1 m fra den ytre overflate på kolliet, overpakningen,
+containeren eller uemballert LSA-I og SCO-I eller SCO-III. Denne verdien
+skal multipliseres med 100. For uran- og thoriummalmer og deres
+konsentrater kan den høyeste doseraten hvor som helst i en avstand av 1
+m fra lastens ytre overflate antas å være:</p>
+<p>– 0.4 mSv/h for malmer og fysisk tilvirkede konsentrater av uran og
+thorium,</p>
+<p>– 0.3 mSv/h for kjemiske konsentrater av thorium</p>
+<p>– 0.02 mSv/h for kjemiske konsentrater av uran, andre enn
+uranheksafluorid;</p>
+<p>b) For tanker, containere og uemballert LSA-I, SCO-I og SCO-III, skal
+verdiene bestemt i trinn (a) ovenfor, multipliseres med den relevante
+faktor fra Tabell 5.1.5.3.1;</p>
+<p>c) Tallene som er oppnådd i trinn (a) og (b) ovenfor, avrundes opp til
+første desimal (d.v.s. 1,13 blir 1,2), bortsett fra at en verdi på 0,05
+eller mindre kan ansees som null, og dette tallet er TI-verdien.</p>
+<p><strong>Tabell 5.1.5.3.1 Multiplikasjonsfaktorer for tanker, containere og
+uemballert LSA-I, SCO-I og SCO-III</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Lastens størrelsea)</strong></p></th>
+<th class="head"><p><strong>Multiplikasjonsfaktor</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>lastens størrelse £ 1 m<sup>2</sup></p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>1 m<sup>2</sup> &lt;lastens størrelse £ 5
+m<sup>2</sup></p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>5 m<sup>2</sup> &lt;lastens størrelse £ 20
+m<sup>2</sup></p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>20 m<sup>2</sup> &lt;lastens størrelse</p></td>
+<td><p>10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>a)</strong> Største tverrsnittsareal av den lasten som måles.</p>
+<p id="id24"><code class="docutils literal notranslate"><span class="pre">5.1.5.3.2</span></code></p>
+<p>TI for hver rigide overpakning, container eller kjøretøy/vogn skal
+fastsettes som summen av TIene for samtlige kolli som overpakningen,
+containeren, eller kjøretøyet inneholder. For en forsendelse fra en
+enkelt avsender kan avsenderen bestemme TI ved direkte målingen av
+doseraten.</p>
+<p>TI for en overpakning som ikke er rigid skal fastsettes som summen av
+TIene for alle kolliene i overpakningen.</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">5.1.5.3.3</span></code></p>
+<p>Kritikalitetssikkerhetsindeksen for enhver overpakning eller container
+skal bestemmes som summen av CSIene for samtlige kolli som forsendelsen
+omfatter. Den samme prosedyre skal følges for å bestemme totalsummen av
+CSIene i en forsendelse eller ombord på et kjøretøy.</p>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">5.1.5.3.4</span></code></p>
+<p>Kolli, overpakninger og containere skal tilordnes til en av kategoriene
+I HVIT, II GUL eller III GUL i henhold til de betingelsene som er
+spesifisert i tabell 5.1.5.3.4 samt følgende bestemmelser:</p>
+<p>a) For et kolli, en overpakning eller en container skal det tas hensyn
+til både transportindeks og doseraten på overflaten når riktig kategori
+skal bestemmes. Når TI svarer til betingelsene for en kategori, men
+doseraten på overflaten svarer til betingelsene for en annen kategori,
+skal kolliet, overpakningen eller containeren tilordnes den høyeste av
+disse kategoriene. I denne forbindelse skal kategori I-HVIT betraktes
+som den laveste av kategoriene;</p>
+<p>b) TI skal bestemmes ved å følge prosedyrene som er spesifisert i
+5.1.5.3.1 og 5.1.5.3.2;</p>
+<p>c) Dersom doseraten på overflaten overstiger 2 m Sv/h, skal kolliet
+eller overpakningen transporteres under eksklusiv bruk (komplett last)
+og i samsvar med bestemmelsene i 7.5.11, CV33 (1.3) og (3.5) (a);</p>
+<p>d) Kolli som transporteres under særordning, skal tilordnes kategori III
+GUL, unntatt når de kommer inn under bestemmelsene i 5.1.5.3.5.</p>
+<p>e) En overpakning eller container inneholdende kolli som transporteres
+under særordning, skal tilordnes kategori III GUL, unntatt når de kommer
+inn under bestemmelsene i 5.1.5.3.5.</p>
+<p><strong>Tabell 5.1.5.3.4 Kategorier av kolli, overpakninger og containere</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Betingelser</strong></p></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Transportindeks
+(TI)</strong></p></td>
+<td><p><strong>Høyeste doserate på ethvert sted på
+ytre overflate</strong></p></td>
+<td><p><strong>Ka
+tegori</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>0 <a class="footnote-reference brackets" href="#id35" id="id27" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p></td>
+<td><p>Ikke over 0.005 m Sv/h</p></td>
+<td><p>I-HVIT</p></td>
+</tr>
+<tr class="row-even"><td><p>Over 0, men ikke
+over 1<sup>a</sup></p></td>
+<td><p>Over 0.005 m Sv/h, men ikke over 0.5
+m Sv/h</p></td>
+<td><p>II-GUL</p></td>
+</tr>
+<tr class="row-odd"><td><p>Over 1, men ikke
+over 10</p></td>
+<td><p>Over 0.5 m Sv/h, men ikke over 2 m
+Sv/h</p></td>
+<td><p>III-GUL</p></td>
+</tr>
+<tr class="row-even"><td><p>Over 10</p></td>
+<td><p>Over 2 m Sv/h, men ikke over 10 m
+Sv/h</p></td>
+<td><p>III-
+GUL <a class="footnote-reference brackets" href="#id36" id="id28" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p id="id29"><code class="docutils literal notranslate"><span class="pre">5.1.5.3.5</span></code></p>
+<p>I alle tilfeller av internasjonal transport av kolli, som krever
+vedkommende myndighets godkjenning av konstruksjon eller forsendelse, og
+som det kreves ulik typegodkjenning i ulike land vedrørende transporten
+skal kategoriseringen være i henhold til sertifikatet fra
+opprinnelseslandet.</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">5.1.5.4</span></code> Spesielle bestemmelser for unntakskolli med radioaktive materialer i klasse 7</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">5.1.5.4.1</span></code></p>
+<p>Unntakskolli med radioaktive materialer i klasse 7 skal være leselig og
+varig merket på utsiden av kolliet med:</p>
+<ol class="loweralpha simple">
+<li><p>UN-nummeret med bokstavene «UN» foran;</p></li>
+<li><p>En identifikasjon av enten avsender eller mottaker, eller begge; og</p></li>
+<li><p>Tillatt maksimum brutto masse dersom den overstiger 50 kg.</p></li>
+</ol>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">5.1.5.4.2</span></code></p>
+<p>Dokumentasjonskravene i kapittel 5.4 gjelder ikke for unntakskolli med
+radioaktivt materiale i klasse 7, bortsett fra at:</p>
+<p>a) UN-nummeret med bokstavene «UN» foran og navn og adresse til avsender
+og mottaker og, hvis relevant, identifikasjonsmerket til alle
+godkjenningssertifikater utstedt av vedkommende myndighet (se
+5.4.1.2.5.1 (g)) skal fremkomme i et transportdokument som for eksempel
+sjøfraktbrev, flyfraktbrev, veifraktbrev (CRM) eller jernbanefraktbrev
+(CIM);</p>
+<p>b) Hvis relevante, skal bestemmelsene i 5.4.1.2.5.1 (g), 5.4.1.2.5.3 og
+5.4.1.2.5.4 gjelde;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Bestemmelsene i 5.4.2 og 5.4.4 skal gjelde.</p></li>
+</ol>
+<p id="id33"><code class="docutils literal notranslate"><span class="pre">5.1.5.4.3</span></code></p>
+<p>Bestemmelsene i 5.2.1.7.8 og 5.2.2.1.11.5 skal gjelde hvis relevante.</p>
+<p id="id34"><code class="docutils literal notranslate"><span class="pre">5.1.5.5</span></code> Sammendrag av bestemmelser om godkjenning og forhåndsmelding</p>
+<p><strong>ANM 1:</strong> Før en forsendelse hvor det er krav om godkjenning av
+konstruksjonen fra vedkommende myndighet ekspederes første gang, skal
+avsenderen sørge for at kopi av godkjenningssertifikatet er forelagt
+vedkommende myndighet i hvert av landene på transportruten (se 5.1.5.1.4
+(a)).</p>
+<p><strong>ANM 2:</strong> Meldeplikt foreligger dersom innholdet overstiger 3 x
+10<sup>3</sup> A<sub>1</sub>, eller 3 x 10<sup>3</sup> A<sub>2</sub>, eller 1000
+TBq; (se 5.1.5.1.4 b)).</p>
+<p><strong>ANM 3:</strong> Multilateral godkjenning kreves dersom innholdet overstiger 3
+x 10<sup>3</sup> A<sub>1</sub>, eller 3 x 10<sup>3</sup> A<sub>2</sub>, eller
+1000 TBq; eller hvis det er mulighet for intermittent lufting (se
+5.1.5.1).</p>
+<p><strong>ANM 4:</strong> Se bestemmelsene om godkjenning av materiale og
+forhåndsmelding for det kolliet som kommer til anvendelse ved transport
+av dette materialet.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Emne</p></th>
+<th class="head"><p>UN-nr.</p></th>
+<th class="head"><p>G
+odkje
+nning
+k
+reves
+fra
+v
+edkom
+mende
+mynd
+ighet
+i</p></th>
+<th class="head"></th>
+<th class="head"><p>Avsenderen
+skal gi
+melding til
+vedkommende
+myndighet i
+opprin
+nelseslandet
+<sup>a)</sup> og
+landene
+underveis
+før hver
+forsendelse</p></th>
+<th class="head"><p>Ref
+eranse</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>Op
+prinn
+elses
+l
+andet</p></td>
+<td><p>Land
+unde
+rveis
+:sup
+:<cite>a)</cite></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Beregning av
+A<sub>1</sub>- og
+A</p>
+<blockquote>
+<div><p><sub>2</sub>-verdier</p>
+</div></blockquote>
+<p>for radionuklider
+som ikke står i
+listen</p>
+</td>
+<td><p>–</p></td>
+<td><p>Ja</p></td>
+<td><p>Ja</p></td>
+<td><p>Nei</p></td>
+<td><p>2.2.7
+.2.2.2
+(a),
+5.1
+.5.2.1
+(d)</p></td>
+</tr>
+<tr class="row-even"><td><p>Unntakskolli</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2908,
+2909,
+2910,
+2911</p></td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>–––</p></td>
+</tr>
+<tr class="row-odd"><td><p>LSA materiale
+<sup>b)</sup> og SCO
+<sup>b)</sup>
+Industrielle
+kolli type 1, 2
+eller 3, ikke
+spaltbare og
+unntatt spaltbare</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2912,
+2913,
+3321,
+3322</p></td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>–––</p></td>
+</tr>
+<tr class="row-even"><td><p>Kolli type A
+<sup>b)</sup>, ikke
+spaltbare og
+unntatt spaltbare</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2915,
+3332</p></td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>––</p></td>
+</tr>
+<tr class="row-odd"><td><p>Kolli type B(U)
+<sup>b)</sup>, ikke
+spaltbare og
+unntatt spaltbare</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2916</p></td>
+<td><p>Ja</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Se Anm. 1</p>
+<p>Se Anm. 2</p>
+</td>
+<td><p>5.1
+.5.1.4
+b),
+5.1
+.5.2.1
+a),
+6.
+4.22.2</p></td>
+</tr>
+<tr class="row-even"><td><p>Kolli type B(M)
+<sup>b)</sup>, ikke
+spaltbare og
+unntatt spaltbare</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2917</p></td>
+<td><p>Ja</p>
+<p>Se
+Anm.
+3</p>
+</td>
+<td><p>Ja</p>
+<p>Se
+Anm.
+3</p>
+</td>
+<td><p>Nei</p>
+<p>Ja</p>
+</td>
+<td><p>5.1
+.5.1.4
+b),
+5.1
+.5.2.1
+a),</p>
+<p>5.1.
+5.1.2,
+6.4
+.22.3.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Kolli type C
+<sup>b)</sup>, ikke
+spaltbare og
+unntatt spaltbare</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>3323</p></td>
+<td><p>Ja</p>
+<p>Nei</p>
+</td>
+<td><p>Nei</p>
+<p>Nei</p>
+</td>
+<td><p>Se Anm. 1</p>
+<p>Se Anm. 2</p>
+</td>
+<td><p>5.1
+.5.1.4
+b),
+5.1
+.5.2.1
+a),
+6.
+4.22.2</p></td>
+</tr>
+<tr class="row-even"><td><p>Kolli for
+spaltbart
+materiale</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse sum
+for
+kritikalitetss
+ikkerhetsindekser
+ikke over 50</p>
+<p>sum for
+kritikalitetss
+ikkerhetsindekser
+større enn 50</p>
+</td>
+<td><p>2977,
+3324,
+3325,
+3326,
+3327,
+3328,
+3329,
+3330,
+3331,
+3333</p></td>
+<td><p>Ja
+:sup
+:<cite>c)</cite></p>
+<p>Nei
+:sup
+:<cite>d)</cite></p>
+<p>Ja</p>
+</td>
+<td><p>Ja
+:sup
+:<cite>c)</cite></p>
+<p>Nei
+:sup
+:<cite>d)</cite></p>
+<p>Ja</p>
+</td>
+<td><p>Nei</p>
+<p>Se Anm. 2</p>
+<p>Se Anm. 2</p>
+</td>
+<td><p>5.1
+.5.2.1
+a),
+5.1.
+5.1.2,
+6.
+4.22.4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Radioaktivt
+materiale av
+spesiell form;</p>
+<p>– konstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>–</p>
+<p>Se
+Anm. 4</p>
+</td>
+<td><p>Ja</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se Anm. 4</p>
+</td>
+<td><p>1.
+6.6.4,
+5.1.5.
+2.1a),
+6.4
+.22.5.</p></td>
+</tr>
+<tr class="row-even"><td><p>Radioaktivt
+materiale med
+liten tendens til
+spredning;</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>–</p>
+<p>Se
+Anm. 4</p>
+</td>
+<td><p>Ja</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se Anm. 4</p>
+</td>
+<td><p>5.1
+.5.2.1
+a),
+6.
+4.22.5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Kolli som
+inneholder 0,1 kg
+eller mer
+uranheksafluorid;</p>
+<p>–
+kollikonstruksjon</p>
+<p>– forsendelse</p>
+</td>
+<td><p>–</p>
+<p>Se
+Anm. 4</p>
+</td>
+<td><p>Ja</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se
+Anm.
+4</p>
+</td>
+<td><p>Nei</p>
+<p>Se Anm. 4</p>
+</td>
+<td><p>5.1
+.5.2.1
+a),
+6.
+4.22.1</p></td>
+</tr>
+<tr class="row-even"><td><p>Særordning</p>
+<p>– forsendelse</p>
+</td>
+<td><p>2919,
+3331</p></td>
+<td><p>Ja</p></td>
+<td><p>Ja</p></td>
+<td><p>Ja</p></td>
+<td><p>1.
+7.4.2,</p>
+<p>5.1
+.5.2.1
+b),
+5.1
+.5.1.4
+b)</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Godkjente
+ko
+llikonstruksjoner
+i henhold til
+over
+gangsbestemmelser</p></td>
+<td><p>–</p></td>
+<td><p>Se
+1.6.6</p></td>
+<td><p>Se
+1.6.6</p></td>
+<td><p>Se Anm. 1</p></td>
+<td><p>1.
+6.6.2,
+5.1
+.5.1.4
+b),
+5.1
+.5.2.1
+a),
+5.1.
+5.1.2,
+6.
+4.22.9</p></td>
+</tr>
+<tr class="row-even"><td><p>Alternative
+aktivitetsgrenser
+for en fritatt
+forsendelse av
+instrumenter
+eller gjenstander</p></td>
+<td><p>–</p></td>
+<td><p>Ja</p></td>
+<td><p>Ja</p></td>
+<td><p>Nei</p></td>
+<td><p>5.1
+.5.2.1
+(e),
+6.
+4.22.7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spaltbart
+materiale unntatt
+i samsvar med
+2.2.7.2.3.5 (f)</p></td>
+<td><p>–</p></td>
+<td><p>Ja</p></td>
+<td><p>Ja</p></td>
+<td><p>Nei</p></td>
+<td><p>5.1
+.5.2.1
+(a)
+(iii),
+6.
+4.22.6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="loweralpha simple">
+<li><p>Land som forsendelsen transporteres gjennom eller inn i.</p></li>
+</ol>
+<p>b) Dersom det radioaktive innholdet er spaltbart materiale som ikke er
+unntatt fra bestemmelsene for kolli som inneholder spaltbart materiale,
+kommer bestemmelsene for spaltbart materiale til anvendelse, se 6.4.11.</p>
+<p>c) Konstruksjon av kolli for spaltbart materiale kan også være underlagt
+krav om godkjenning i henhold til en annen av henvisningene i tabellen.</p>
+<p>d) Forsendelser kan likevel være underlagt krav om godkjenning i henhold
+til en annen av henvisningene i tabellen.</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id35" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id27">1</a><span class="fn-bracket">]</span></span>
+<p>Hvis den målte TI ikke er over 0,05 settes den funne verdi lik null i
+samsvar med 5.1.5.3.1 (c).</p>
+</aside>
+<aside class="footnote brackets" id="id36" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id28">2</a><span class="fn-bracket">]</span></span>
+<p>Skal også transporteres under eksklusiv bruk (komplett last) unntatt
+for containere (se tabell D i 7.5.11 CV33/CW33 (3.3)).</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Del5_index/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Del 5 Klargjøring for forsendelse</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 5.2 Merking og faresedler/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 5.2 Merking og faresedler</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#anvendelse-og-alminnelige-bestemmelser">5.1.1 Anvendelse og alminnelige bestemmelser</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bruk-av-overpakninger">5.1.2 Bruk av overpakninger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tom-ikke-rengjort-emballasje-inklusive-ibcer-og-storemballasje-tanker-memuer-kjoretoyer-vogner-og-containere-for-transport-i-bulk">5.1.3 Tom, ikke rengjort, emballasje (inklusive IBCer og storemballasje), tanker, MEMUer, kjøretøyer/vogner og containere for transport i bulk</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#samemballering">5.1.4 Samemballering</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alminnelige-bestemmelser-for-klasse-7">5.1.5 Alminnelige bestemmelser for klasse 7</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del5/Kapittel 5.1 Alminnelige bestemmelser.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,1048 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del6/Kapittel 6.11 bestemmelser om bulkcontainere';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)" href="../Kapittel 6.12 ADR bestemmelser om MEMUer/" />
+    <link rel="prev" title="Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere" href="../Kapittel 6.10 Bestemmelser om slamsugere/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del6_index/" class="nav-link">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-6-11-bestemmelser-om-design-konstruksjon-kontroll-og-proving-av-bulkcontainere">
+<span id="id1"></span><h1>Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere<a class="headerlink" href="#kapittel-6-11-bestemmelser-om-design-konstruksjon-kontroll-og-proving-av-bulkcontainere" title="Link to this heading">#</a></h1>
+<section id="reservert">
+<span id="id2"></span><h2>6.11.1 <em>Reservert</em><a class="headerlink" href="#reservert" title="Link to this heading">#</a></h2>
+</section>
+<section id="anvendelse-og-generelle-krav">
+<span id="id3"></span><h2>6.11.2 Anvendelse og generelle krav<a class="headerlink" href="#anvendelse-og-generelle-krav" title="Link to this heading">#</a></h2>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">6.11.2.1</span></code></p>
+<p>Bulkcontainere og deres service- og struktur utstyr skal være designet
+og konstruert for å motstå, uten tap av innhold, det innvendige trykket
+av innholdet og påkjenningene fra normal håndtering og transport.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">6.11.2.2</span></code></p>
+<p>Hvis det er montert utslippsventil skal det være mulig å sikre den i
+stengt posisjon og hele utslippssystemet skal være tilstrekkelig
+beskyttet mot skade. Ventiler som betjenes med hevarm skal være mulig å
+sikre mot utilsiktet åpning og det skal fremgå tydelig om ventilen er
+åpen eller stengt.</p>
+<p id="id6"><code class="docutils literal notranslate"><span class="pre">6.11.2.3</span></code></p>
+<p><strong>Koder for bestemmelse av type bulkcontainer.</strong></p>
+<p>Følgende tabell viser kodene som skal brukes ved bestemmelse av type
+bulk container.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Typer av bulkcontainere</strong></p></th>
+<th class="head"><p><strong>Kode</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Presenningsdekket bulkcontainer</p></td>
+<td><p>BK1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Lukket bulkcontainer</p></td>
+<td><p>BK 2</p></td>
+</tr>
+<tr class="row-even"><td><p>Fleksibel bulkcontainer</p></td>
+<td><p>BK 3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">6.11.2.4</span></code></p>
+<p>Vedkommende myndighet kan, ved å ta hensyn til den tekniske utvikling,
+vurdere alternative løsninger som gir minst like god sikkerhet som
+bestemmelsene i denne delen.</p>
+</section>
+<section id="bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-containere-som-tilfredsstiller-csc-og-skal-brukes-som-bk1-eller-bk2-bulkcontainere">
+<span id="id8"></span><h2>6.11.3 Bestemmelser for design, konstruksjon, kontroll og prøving av containere som tilfredsstiller CSC og skal brukes som BK1 eller BK2 bulkcontainere<a class="headerlink" href="#bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-containere-som-tilfredsstiller-csc-og-skal-brukes-som-bk1-eller-bk2-bulkcontainere" title="Link to this heading">#</a></h2>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">6.11.3.1</span></code> Krav til design og konstruksjon.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">6.11.3.1.1</span></code></p>
+<p>Hovedbestemmelsene for design og konstruksjon i denne delen ansees å
+være oppfylt dersom bulkcontaineren samsvarer med kravene i ISO
+1496-4:1991 «Serie 1 Freightcontainers- Spesification and testing – Part
+4 Non Pressurized containers for dry bulk», samt at containeren er
+støvtett.</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">6.11.3.1.2</span></code></p>
+<p>Containere som er konstruert og testet in henhold til ISO 1496-1:1990
+«Series 1 Freight containers- Spesification and testing – Part 1:
+General cargo containers for general purposes», skal utstyres med utstyr
+som, inkludert innfestningen til containeren, er konstruert for å styrke
+endeveggene og øke den langsgående styrken som er nødvendig for å klare
+relevante krav i ISO 1496-4:1991.</p>
+<p id="id12"><code class="docutils literal notranslate"><span class="pre">6.11.3.1.3</span></code></p>
+<p>Bulkcontainere skal være støvtette. Belegg som eventuelt brukes for å
+gjøre containeren støvtett skal være av et passende materiale. Styrken
+på belegget og konstruksjonen av belegget skal være passende for
+containerens kapasitet og dens tiltenkte bruk. Forbindelser og tetninger
+av belegget skal motstå trykk og påvirkninger som kan tenkes å oppstå
+under normale forhold ved håndtering og transport. For ventilerte
+bulkcontainere må ikke belegget ødelegge funksjonen av
+ventileringsutstyr.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">6.11.3.1.4</span></code></p>
+<p>Håndteringsutstyret på bulkcontainere som er beregnet på å tømmes ved
+tilting skal være i stand til å motstå den totale masse i tiltretningen.</p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">6.11.3.1.5</span></code></p>
+<p>Ethvert avtagbart tak eller side eller endevegg eller takseksjon skal
+være utstyrt med låseinnretninger som det er mulig å se om er åpne eller
+stengte fra bakkenivå.</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">6.11.3.2</span></code> Serviceutstyr</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">6.11.3.2.1</span></code></p>
+<p>Fylle- og tømmeinnretninger skal være slik konstruert og utført at de er
+beskyttet mot bli revet av eller ødelagt under håndtering og transport.
+Det skal være mulig å sikre fylle og tømme innretningene mot utilsiktet
+åpning. Åpen og stengt posisjon, samt stengeretningen skal fremgå
+tydelig.</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">6.11.3.2.2</span></code></p>
+<p>Skjøter og åpninger skal være arrangert slik at det ikke oppstår skader
+ved håndtering, fylling eller tømming av bulkcontaineren.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">6.11.3.2.3</span></code></p>
+<p>Der hvor det er nødvendig med ventilering skal bulkcontainere utstyres
+med lufting, enten naturlig, for eksempel ved åpninger eller aktive
+elementer for eksempel vifter. Ventilasjonen skal være konstruert slik
+at det ikke blir undertrykk inne i containeren. Ventilasjonselementer på
+bulkcontainere beregnet for brannfarlige stoffer eller stoffer som avgir
+brannfarlige gasser eller damper skal være slik konstruert at de ikke
+blir en tennkilde.</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">6.11.3.3</span></code> Inspeksjon og testing</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">6.11.3.3.1</span></code></p>
+<p>Containere som brukes, vedlikeholdes og tilfredsstiller kravene til
+bulkcontainere som er gitt i denne delen skal testes og godkjennes i
+samsvar med CSC.</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">6.11.3.3.2</span></code></p>
+<p>Containere brukt og godkjent som bulkcontainere skal testes periodisk i
+henhold til CSC.</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">6.11.3.4</span></code> Merking</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">6.11.3.4.1</span></code></p>
+<p>Containere som brukes som bulkcontainere skal ha godkjenningsskilt i
+henhold til CSC.</p>
+</section>
+<section id="krav-til-design-konstruksjon-og-godkjenning-av-bk1-eller-bk2-bulkcontainere-som-ikke-er-i-henhold-til-csc">
+<span id="id24"></span><h2>6.11.4 Krav til design, konstruksjon og godkjenning av BK1- eller BK2-bulkcontainere som ikke er i henhold til CSC<a class="headerlink" href="#krav-til-design-konstruksjon-og-godkjenning-av-bk1-eller-bk2-bulkcontainere-som-ikke-er-i-henhold-til-csc" title="Link to this heading">#</a></h2>
+<p><strong>ANM:</strong> Når containere som tilfredsstiller kravene i denne delen blir
+brukt til transport av fast stoff i bulk, skal følgende stå i
+transportdokumentet:</p>
+<p><em>Bulkcontainer BK(x)</em> <a class="footnote-reference brackets" href="#id87" id="id25" role="doc-noteref"><span class="fn-bracket">[</span>59<span class="fn-bracket">]</span></a> <em>godkjent av vedkommende myndighet i
+…..». (se 5.4.1.1.17)</em></p>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">6.11.4.1</span></code></p>
+<p>Bulkcontainere som dekkes av denne delen inkluderer avfallscontainere,
+offshorebulkcontainere, bulkbeholdere, flak, trauformede containere,
+rullecontainere, og lasterom i kjøretøy.</p>
+<p><strong>ANM:</strong> Disse bulkcontainere omfatter også containere som er i henhold
+til IRS 50591 <em>(Roller units for horizontal transhipment – Technical
+conditions governing their use in international traffic)</em> <a class="footnote-reference brackets" href="#id88" id="id27" role="doc-noteref"><span class="fn-bracket">[</span>60<span class="fn-bracket">]</span></a> og IRS
+50592 <em>(Intermodal Transport Units (other than semi-trailers) for
+vertical transhipment and suitable for carriage on wagons – Minimum
+requirements)</em> <a class="footnote-reference brackets" href="#id89" id="id28" role="doc-noteref"><span class="fn-bracket">[</span>61<span class="fn-bracket">]</span></a> utgitt av UIC som omtalt i 7.1.3, som ikke
+tilfredsstiller CSC.</p>
+<p id="id29"><code class="docutils literal notranslate"><span class="pre">6.11.4.2</span></code></p>
+<p>Disse bulkcontainere skal designes og konstrueres slik at de er sterke
+nok til å motstå slagene og belastningene som normalt oppstår ved
+transport inkludert, dersom aktuelt, flytting mellom ulike
+transportmidler.</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">6.11.4.3</span></code></p>
+<p>(Reservert)</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">6.11.4.4</span></code></p>
+<p>Disse bulk containere skal godkjennes av vedkommende myndighet og
+godkjenningen skal inkludere koden som er tildelt containeren i henhold
+til 6.11.2.3 og aktuelle krav til inspeksjon og prøving.</p>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">6.11.4.5</span></code></p>
+<p>Dersom det er nødvendig med et belegg for å holde på det farlige godset
+skal belegget tilfredsstille kravene i 6.11.3.1.3.</p>
+</section>
+<section id="bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-bk3-fleksible-bulkcontainere">
+<span id="id33"></span><h2>6.11.5 Bestemmelser for design, konstruksjon, kontroll og prøving av BK3 fleksible bulkcontainere<a class="headerlink" href="#bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-bk3-fleksible-bulkcontainere" title="Link to this heading">#</a></h2>
+<p id="id34"><code class="docutils literal notranslate"><span class="pre">6.11.5.1</span></code> Krav til design og konstruksjon</p>
+<p id="id35"><code class="docutils literal notranslate"><span class="pre">6.11.5.1.1</span></code></p>
+<p>Fleksible bulkcontainere skal være støvtette.</p>
+<p id="id36"><code class="docutils literal notranslate"><span class="pre">6.11.5.1.2</span></code></p>
+<p>Fleksible bulkcontainere skal være fullstendig lukket for å hindre tap
+av innhold.</p>
+<p id="id37"><code class="docutils literal notranslate"><span class="pre">6.11.5.1.3</span></code></p>
+<p>Fleksible bulkcontainere skal være vanntette.</p>
+<p id="id38"><code class="docutils literal notranslate"><span class="pre">6.11.5.1.4</span></code></p>
+<p>Deler av den fleksible bulkcontaineren som er i direkte kontakt med det
+farlig godset:</p>
+<ol class="loweralpha simple">
+<li><p>skal ikke påvirkes eller bli merkbart svekket av det farlige godset;</p></li>
+</ol>
+<p>b) skal ikke forårsake farlig reaksjon, f.eks ved å virke som
+katalysator eller reagere med det farlige godset; og</p>
+<p>c) skal ikke tillate permeasjon av det farlige godset som kan utgjøre en
+fare under normale transportforhold.</p>
+<p id="id39"><code class="docutils literal notranslate"><span class="pre">6.11.5.2</span></code> Driftsutstyr og håndteringsanordninger</p>
+<p id="id40"><code class="docutils literal notranslate"><span class="pre">6.11.5.2.1</span></code></p>
+<p>Fylle- og tømmeinnretninger skal være utformet slik at de er beskyttet
+mot ødeleggelse under transport og håndtering. Fylle og tømme
+innretningene skal være sikret mot utilsiktet åpning.</p>
+<p id="id41"><code class="docutils literal notranslate"><span class="pre">6.11.5.2.2</span></code></p>
+<p>Stropper på den fleksible bulkcontaineren, hvis montert, skal tåle trykk
+og dynamiske krefter som kan oppstå ved normale forhold under transport
+og håndtering.</p>
+<p id="id42"><code class="docutils literal notranslate"><span class="pre">6.11.5.2.3</span></code></p>
+<p>Håndteringsanordningene skal være tilstrekkelig solide for å tåle
+gjentatt bruk.</p>
+<p id="id43"><code class="docutils literal notranslate"><span class="pre">6.11.5.3</span></code> Kontroll og prøving</p>
+<p id="id44"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.1</span></code></p>
+<p>Konstruksjonstypen for hver fleksibel bulkcontainer skal prøves slik det
+er bestemt i 6.11.5 i samsvar med prosedyrer fastsatt av vedkommende
+myndighet som tillater tildelingen av merket og skal godkjennes av denne
+vedkommende myndigheten.</p>
+<p id="id45"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.2</span></code></p>
+<p>Prøvene skal også gjentas etter hver modifikasjon av konstruksjonstypen
+som endrer konstruksjon, materiale eller måten en fleksibel
+bulkcontainer fremstilles på.</p>
+<p id="id46"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.3</span></code></p>
+<p>Prøvene skal utføres på fleksible bulkcontainere klargjort som for
+transport. Fleksible bulkcontainere skal fylles til den største masse
+hvor de kan bli brukt og innholdet skal fordeles jevnt. Stoffene som
+skal transporteres i den fleksible bulkcontaineren kan erstattes med
+andre stoffer, bortsett fra hvor dette vil ugyldiggjøre
+prøveresultatene. Når annet stoff benyttes skal det ha samme fysikalske
+egenskaper (masse, kornstørrelse osv) som det stoffet som skal
+transporteres. Det er tillatt å benytte tilleggsvekt, som poser med
+blyhagl, for å oppnå den nødvendige totale massen av den fleksible
+bulkcontaineren så lenge dette er plassert slik at testresultatene ikke
+påvirkes.</p>
+<p id="id47"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.4</span></code></p>
+<p>Fleksible bulkcontainere skal være produsert og prøvet under et
+kvalitetssikringsprogram som tilfredsstiller vedkommende myndighet for å
+sikre at fleksible bulkcontainere oppfyller kravene i dette kapittelet.</p>
+<p id="id48"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5</span></code> Fallprøve</p>
+<p id="id49"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere ved prøving av
+konstruksjonstype.</p>
+<p id="id50"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5.2</span></code> Klargjøring for prøving</p>
+<p>Den fleksible bulkcontaineren skal fylles til sin største tillatte
+bruttomasse.</p>
+<p id="id51"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5.3</span></code> Prøvemetode</p>
+<p>Den fleksible bulkcontaineren skal slippes mot en ikke-sviktende og
+horisontal anslagsflate. Anslagsflaten skal være:</p>
+<ol class="loweralpha simple">
+<li><p>integrert og tilstrekkelig massiv slik at den ikke forskyves;</p></li>
+</ol>
+<p>b) plan med overflate som er fri for lokale defekter som kan påvirke
+prøveresultatene;</p>
+<p>c) stiv nok slik at den ikke deformeres under prøveforholdene og ikke
+kan skades under prøvingen; og</p>
+<p>d) tilstrekkelig stor for å sikre at den fleksible bulkcontaineren som
+skal prøves faller helt og holdent på flaten.</p>
+<p>Etter fallet skal den fleksible bulkcontaineren føres tilbake til
+oppreist stilling.</p>
+<p id="id52"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5.4</span></code> Fallhøyden skal være:</p>
+<p>Emballasjegruppe III: 0,8 m</p>
+<p id="id53"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.5.5</span></code> Kriterier for godkjent prøve</p>
+<p>a) Det skal ikke forekomme tap av innhold. Et minimalt utslipp, fra
+f.eks lukkeinnretninger eller sydde sømmer, ved anslag skal ikke anses å
+være en svikt av den fleksible bulkcontaineren så lenge det ikke oppstår
+ytterligere lekkasje etter at bulkcontaineren har blitt ført tilbake til
+oppreist stilling.</p>
+<p>b) Det skal ikke være noen skade som gjør den fleksible bulkcontaineren
+uforsvarlig å transportere for gjenvinning eller for avhending.</p>
+<p id="id54"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.6</span></code> Løft fra toppen</p>
+<p id="id55"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.6.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere ved prøving av
+konstruksjonstype.</p>
+<p id="id56"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.6.2</span></code> Klargjøring for prøven</p>
+<p>Fleksible bulkcontainere skal fylles til seks ganger maksimal netto
+masse, med innholdet jevnt fordelt.</p>
+<p id="id57"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.6.3</span></code> Prøvemetode</p>
+<p>Fleksible bulkcontainere skal løftes på den måten de er konstruert for
+til de går klar av gulvet og holdes i denne stillingen i en periode på
+fem minutter.</p>
+<p id="id58"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.6.4</span></code> Kriterier for godkjent prøve</p>
+<p>Det skal ikke være noen skade på den fleksible bulkcontaineren eller
+dens løfteanordninger som gjør den fleksible bulkcontaineren uforsvarlig
+å transportere eller håndtere, og ikke forekomme tap av innhold.</p>
+<p id="id59"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7</span></code> Velteprøve</p>
+<p id="id60"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere ved prøving av
+konstruksjonstype.</p>
+<p id="id61"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7.2</span></code> Klargjøring for prøving</p>
+<p>Den fleksible bulkcontaineren skal fylles til sin største tillatte
+bruttomasse.</p>
+<p id="id62"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7.3</span></code> Prøvemetode</p>
+<p>Den fleksible bulkcontaineren skal veltes ned på hvilken som helst del
+av toppen ved å løfte den siden som er lengst fra den kanten den skal
+falle på en uelastisk og horisontal anslagsflate. Anslagsflaten skal
+være:</p>
+<ol class="loweralpha simple">
+<li><p>integrert og tilstrekkelig massiv slik at den ikke forskyves;</p></li>
+</ol>
+<p>b) plan med overflate som er fri for lokale defekter som kan påvirke
+prøveresultatene;</p>
+<p>c) stiv nok slik at den ikke deformeres under prøveforholdene og ikke
+kan skades under prøvingen; og</p>
+<p>d) tilstrekkelig stor for å sikre at den fleksible bulkcontaineren som
+skal prøves faller helt og holdent på flaten.</p>
+<p id="id63"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7.4</span></code></p>
+<p>For alle fleksible bulkcontainere er veltehøyden spesifisert som følger:</p>
+<p>Emballasjegruppe III: 0,8 m</p>
+<p id="id64"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.7.5</span></code> Kriterium for godkjent prøve</p>
+<p>Det skal ikke forekomme tap av innhold. Et minimalt utslipp, fra f.eks
+lukkeinnretninger eller sydde sømmer, ved anslag skal ikke anses å være
+en svikt av den fleksible bulkcontaineren så lenge det ikke oppstår
+ytterligere lekkasje.</p>
+<p id="id65"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.8</span></code> Opprettingsprøve</p>
+<p id="id66"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.8.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere konstruert for å bli løftet fra
+toppen eller siden, ved prøving av konstruksjonstype.</p>
+<p id="id67"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.8.2</span></code> Klargjøring for prøving</p>
+<p>Den fleksible bulkcontaineren skal fylles til ikke mindre enn 95% av sin
+kapasitet og til dens største tillatte bruttomasse.</p>
+<p id="id68"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.8.3</span></code> Prøvemetode</p>
+<p>Den fleksible bulkcontaineren, liggende på siden, skal løftes med en
+hastighet på minst 0,1 m/s til oppreist stilling, til den går klar av
+gulvet, med ikke mer enn halvparten av løfteanordningene.</p>
+<p id="id69"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.8.4</span></code> Kriterium for godkjent prøve</p>
+<p>Det skal ikke være noen skade på den fleksible bulkcontaineren eller
+dens løfteanordninger som gjør den fleksible bulkcontaineren uforsvarlig
+å transportere eller håndtere.</p>
+<p id="id70"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.9</span></code> Riveprøve</p>
+<p id="id71"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.9.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere ved prøving av
+konstruksjonstype.</p>
+<p id="id72"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.9.2</span></code> Klargjøring for prøve</p>
+<p>Den fleksible bulkcontaineren skal fylles til sin største tillatte
+bruttomasse.</p>
+<p id="id73"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.9.3</span></code> Prøvemetode</p>
+<p>Med den fleksible bulkcontaineren stående på bakken, gjøres et snitt på
+300 mm fullstendig gjennom alle lagene i den fleksible bulkcontaineren
+på en sidevegg som er bred. Snittet skal gjøres i 45 ° vinkel til den
+fleksible bulkcontainerens hovedakse, midt mellom bunnen og innholdets
+toppoverflate. Den fleksible bulkcontaineren skal deretter utsettes for
+en jevn fordelt tilleggslast tilsvarende to ganger største tillatte
+bruttomasse. Lasten skal være på i minst femten minutter. En fleksibel
+bulkcontainer som er konstruert for å bli løftet fra toppen eller siden
+skal, etter fjerning av tilleggslasten, løftes til den går klar av
+gulvet og holdes i denne stillingen over en periode på femten minutter.</p>
+<p id="id74"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.9.4</span></code> Kriterium for godkjent prøve</p>
+<p>Snittet skal ikke forlenges med mer enn 25% av sin opprinnelige lengde.</p>
+<p id="id75"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.10</span></code> Stableprøve</p>
+<p id="id76"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.10.1</span></code> Prøven gjelder</p>
+<p>For alle typer fleksible bulkcontainere ved prøving av
+konstruksjonstype.</p>
+<p id="id77"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.10.2</span></code> Klargjøring for prøve</p>
+<p>Den fleksible bulkcontaineren skal fylles til sin største tillatte
+bruttomasse.</p>
+<p id="id78"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.10.3</span></code> Prøvemetode</p>
+<p>Den fleksible bulkcontaineren skal utsettes for en kraft påført
+toppflaten som er fire ganger lastekapasiteten den er konstruert for i
+24 timer.</p>
+<p id="id79"><code class="docutils literal notranslate"><span class="pre">6.11.5.3.10.4</span></code> Kriterium for godkjent prøve</p>
+<p>Det skal ikke forekomme tap av innhold under prøven eller etter lasten
+er fjernet.</p>
+<p id="id80"><code class="docutils literal notranslate"><span class="pre">6.11.5.4</span></code> Prøverapport</p>
+<p id="id81"><code class="docutils literal notranslate"><span class="pre">6.11.5.4.1</span></code></p>
+<p>En prøverapport som minst inneholder følgende opplysninger skal
+utarbeides og være tilgjengelig for brukerne av den fleksible
+bulkcontaineren:</p>
+<ol class="arabic simple">
+<li><p>Prøveinstansens navn og adresse;</p></li>
+<li><p>Søkerens navn og adresse (hvor dette er relevant);</p></li>
+<li><p>Entydig identifikasjon av prøverapporten;</p></li>
+<li><p>Prøverapportens dato;</p></li>
+<li><p>Produsenten av den fleksible bulkcontaineren;</p></li>
+</ol>
+<p>6. Beskrivelse av den fleksible bulkcontaineren sin konstruksjonstype
+(f.eks dimensjoner, materialer, lukkeinnretninger, veggtykkele etc.)
+og/eller fotografier;</p>
+<ol class="arabic simple" start="7">
+<li><p>Største kapasitet/største tillatte bruttomasse</p></li>
+</ol>
+<p>8. Beskrivelse av prøveinnholdet, f.eks partikkelstørrelse for faste
+stoffer;</p>
+<ol class="arabic simple" start="9">
+<li><p>Beskrivelse av prøvene og resultatene;</p></li>
+</ol>
+<p>10. Prøverapporten skal være undertegnet med navn og stilling til den
+som har signert.</p>
+<p id="id82"><code class="docutils literal notranslate"><span class="pre">6.11.5.4.2</span></code></p>
+<p>Prøverapporten skal inneholde en bekreftelse på at den fleksible
+bulkcontaineren klargjort som for transport ble prøvet i samsvar med de
+relevante bestemmelsene i dette kapittelet og at bruk av andre
+inneslutningsmetoder eller komponenter kan medføre at rapporten er
+ugyldig. En kopi av prøverapporten skal være tilgjengelig for
+vedkommende myndighet.</p>
+<p id="id83"><code class="docutils literal notranslate"><span class="pre">6.11.5.5</span></code> Merking</p>
+<p id="id84"><code class="docutils literal notranslate"><span class="pre">6.11.5.5.1</span></code></p>
+<p>Hver fleksible bulkcontainer som er fremstilt og ment for bruk i samsvar
+med bestemmelsene i ADR/RID skal ha merker som er varig, lesbare og
+plassert på et sted slik at de er lett synlig. Bokstaver, tall og
+symboler skal være minst 24 mm høye og skal vise:</p>
+<ol class="loweralpha simple">
+<li><p>De forente nasjoners emballasjesymbol;</p></li>
+</ol>
+<p>{{{IMG CLASS=»«class imag»» REF=»1815.jpg»/}}}</p>
+<p>Dette symbolet skal ikke brukes til noe annet formål enn å sertifisere
+at en emballasje, fleksibel bulkcontainer, multimodal tank eller MEGC
+oppfyller de relevante bestemmelsene i kapittel 6.1, 6.2, 6.3, 6.5, 6.6,
+6.7 eller 6.11;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Koden BK3;</p></li>
+</ol>
+<p>c) En stor bokstav som angir emballasjegruppen(e) som kontruksjonstypen
+har blitt godkjent for: Z bare for emballasjegruppe III;</p>
+<ol class="loweralpha simple" start="4">
+<li><p>Produksjonsmåned og år (de to siste sifrene);</p></li>
+</ol>
+<p>e) Bokstaven(e) som identifiserer den staten som godkjenner tildelingen
+av merket, angitt med nasjonalitetskjennemerket for motorkjøretøy i
+internasjonal vegtrafikk <a class="footnote-reference brackets" href="#id90" id="id85" role="doc-noteref"><span class="fn-bracket">[</span>62<span class="fn-bracket">]</span></a></p>
+<p>f) Navnet eller symbolet til produsenten samt annen identifikasjon av
+den fleksible bulkcontaineren som vedkommende myndighet har spesifisert;</p>
+<ol class="loweralpha simple" start="7">
+<li><p>Last ved stableprøve i kg;</p></li>
+<li><p>Største tillatte bruttomasse i kg.</p></li>
+</ol>
+<p>i) Merkingen skal påføres i den rekkefølgen som er vist i (a) til (h);
+hver merking, som kreves i disse punktene, skal være klart adskilt, for
+eksempel med en skråstrek eller mellomrom og presenteres på en slik måte
+at alle delene av merkingen er lett identifiserbare.</p>
+<p id="id86"><code class="docutils literal notranslate"><span class="pre">6.11.5.5.2</span></code> Eksempel på merking</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<tbody>
+<tr class="row-odd"><td><p>{{{IMG CLASS=»«class
+imag»»
+REF=»1815.jpg»/}}}</p></td>
+<td><p>BK3/Z/11 09
+RUS/NTT/MK-14-10
+56000/14000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id87" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id25">59</a><span class="fn-bracket">]</span></span>
+<ol class="loweralpha simple" start="24">
+<li><p>skal erstattes med «1» eller «2» etter hva som er aktuelt.</p></li>
+</ol>
+</aside>
+<aside class="footnote brackets" id="id88" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id27">60</a><span class="fn-bracket">]</span></span>
+<p>1. utgave av IRS (International Railway Solution) gjeldene fra og med
+1. juni 2020.</p>
+</aside>
+<aside class="footnote brackets" id="id89" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id28">61</a><span class="fn-bracket">]</span></span>
+<p>3.utgave av IRS (International Railway Solution) gjeldene fra og med
+1. desember 2023.</p>
+</aside>
+<aside class="footnote brackets" id="id90" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id85">62</a><span class="fn-bracket">]</span></span>
+<p>Registreringslandet sitt nasjonalitetskjennemerke som blir brukt på
+motorkjøretøy og tilhengere i internasjonal vegtrafikk, for eksempel
+i samsvar med Genèvekonvensjonen om vegtrafikk av 1949 eller
+Wienkonvensjonen om vegtrafikk av 1968.</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Kapittel 6.10 Bestemmelser om slamsugere/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 6.12 ADR bestemmelser om MEMUer/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reservert">6.11.1 <em>Reservert</em></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#anvendelse-og-generelle-krav">6.11.2 Anvendelse og generelle krav</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-containere-som-tilfredsstiller-csc-og-skal-brukes-som-bk1-eller-bk2-bulkcontainere">6.11.3 Bestemmelser for design, konstruksjon, kontroll og prøving av containere som tilfredsstiller CSC og skal brukes som BK1 eller BK2 bulkcontainere</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#krav-til-design-konstruksjon-og-godkjenning-av-bk1-eller-bk2-bulkcontainere-som-ikke-er-i-henhold-til-csc">6.11.4 Krav til design, konstruksjon og godkjenning av BK1- eller BK2-bulkcontainere som ikke er i henhold til CSC</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bestemmelser-for-design-konstruksjon-kontroll-og-proving-av-bk3-fleksible-bulkcontainere">6.11.5 Bestemmelser for design, konstruksjon, kontroll og prøving av BK3 fleksible bulkcontainere</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del6/Kapittel 6.11 bestemmelser om bulkcontainere.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,3406 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 5.4 Dokumentasjon &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del5/Kapittel 5.4 Dokumentasjon';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 5.5 Spesielle bestemmelser" href="../Kapittel 5.5 Spesielle bestemmelser/" />
+    <link rel="prev" title="Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer" href="../Kapittel 5.3 Store faresedler/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del5_index/">Del 5 Klargjøring for forsendelse</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del7/Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.1 Alminnelige bestemmelser/">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del7/Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del5_index/" class="nav-link">Del 5 Klargjøring for forsendelse</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 5.4 Dokumentasjon</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-5-4-dokumentasjon">
+<span id="id1"></span><h1>Kapittel 5.4 Dokumentasjon<a class="headerlink" href="#kapittel-5-4-dokumentasjon" title="Link to this heading">#</a></h1>
+<section id="generelt">
+<span id="id2"></span><h2>5.4.0 Generelt<a class="headerlink" href="#generelt" title="Link to this heading">#</a></h2>
+<p id="id3"><code class="docutils literal notranslate"><span class="pre">5.4.0.1</span></code></p>
+<p>Dersom ikke annet er bestemt skal all transport av gods som er underlagt
+ADR/RID, i den utstrekning det er relevant, være ledsaget av den
+dokumentasjonen som er foreskrevet i dette kapitlet.</p>
+<p><strong>ANM:</strong> ADR: Se 8.1.2 vedrørende dokumentasjon som skal medbringes på
+transportenheter.</p>
+<p>RID: Informasjonen som er foreskrevet i dette kapittelet knyttet til det
+farlige godset som transporteres, skal være tilgjengelig under transport
+på en slik måte at godset per vogn og vognen kan identifiseres i
+dokumentasjonen.</p>
+<p>Videre, der farlig gods fraktes i storcontainere, tankcontainere,
+multimodale tanker eller kjøretøyer for veg, skal disse også
+identifiseres i transportdokumentet, og informasjonen knyttet til godset
+skal gis per storcontainer, tankcontainer, multimodale tank eller
+kjøretøy for veg, etter hva som er relevant.</p>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">5.4.0.2</span></code></p>
+<p>Elektronisk databehandling (EDB) eller elektronisk utveksling av data
+(EDI = electronic data interchange) for å lette eller erstatte
+papirdokumentasjon er tillatt, forutsatt at rutinene for innhenting,
+lagring og behandling av elektroniske data tilfredsstiller de juridiske
+krav med hensyn til gyldigheten og tilgjengeligheten av data under
+transporten på en måte som minst er likeverdig med papirdokumentasjon.</p>
+<p>ADR: Informasjonen som er foreskrevet i dette kapittelet knyttet til det
+farlige godset som transporteres, skal være tilgjengelig under transport
+på en slik måte at godset per kjøretøy og kjøretøyet kan identifiseres i
+dokumentasjonen.</p>
+<p id="id5"><code class="docutils literal notranslate"><span class="pre">5.4.0.3</span></code></p>
+<p>Når informasjonen om det farlige godset blir gitt til transportøren ved
+EDP eller EDI skal avsenderen være i stand til å gi transportøren
+informasjonen i den rekkefølgen som er krevet i dette kapittelet.</p>
+</section>
+<section id="transportdokument-for-farlig-gods-og-opplysninger-i-den-forbindelse">
+<span id="id6"></span><h2>5.4.1 Transportdokument for farlig gods og opplysninger i den forbindelse<a class="headerlink" href="#transportdokument-for-farlig-gods-og-opplysninger-i-den-forbindelse" title="Link to this heading">#</a></h2>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">5.4.1.1</span></code> Alminnelige opplysninger som skal finnes i transportdokumentet</p>
+<p id="id8"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.1</span></code></p>
+<p>Transportdokumentet/dokumentene skal inneholde følgende opplysninger for
+hvert farlig stoff eller farlig gjenstand som leveres til transport:</p>
+<ol class="loweralpha simple">
+<li><p>Bokstavene UN, etterfulgt av UN-nummeret.</p></li>
+</ol>
+<p>b) Varenavnet supplert med, når påkrevet (se 3.1.2.8.1) den tekniske
+betegnelsen i parentes (se 3.1.2.8.1.1) som bestemt i samsvar med 3.1.2;</p>
+<div class="line-block">
+<div class="line">c) – For stoffer eller gjenstander tilhørende klasse 1:
+Klassifiseringskoden som finnes i kolonne (3b) i</div>
+<div class="line">Tabell A i kapittel 3.2.</div>
+</div>
+<p>Når det i kolonne (5) i Tabell A i kapittel 3.2 framkommer faresedler
+med andre nummer enn 1, 1.4, 1.5 eller 1.6 (for RID også 13 og 15), skal
+disse faresedlers nummer i parentes skrives etter klassifiseringskoden;</p>
+<p>– For radioaktivt materiale i klasse 7: Klassenummeret «7».</p>
+<p><strong>ANM:</strong> For radioaktivt materiale med tilleggsfare se også spesiell
+bestemmelse 172 i kapittel 3.3.</p>
+<p>– For batterier med UN-numre 3090, 3091, 3480, 3481, 3551 og 3552 samt
+for batteridrevne kjøretøyer med UN-nummer 3556, 3557 og 3558:
+Klassenummeret «9».</p>
+<p>– For andre stoffer og gjenstander: Nummeret på fareseddelen, <strong>(for
+RID: med unntak av 13)</strong> slik det framkommer i kolonne (5) i Tabell A i
+kapittel 3.2 eller som kreves i henhold til en spesiell bestemmelse som
+det refereres til i kolonne 6. Når mer enn ett fareseddelnummer er
+oppgitt i Tabell A, skal nummeret på de etterfølgende faresedlene føres
+opp i parentes. For stoffer og gjenstander der det i kolonne (5) i
+tabell A i kapittel 3.2 ikke er gitt faresedler, skal deres klasse i
+henhold til kolonne (3a) angis isteden.</p>
+<p>d) Stoffets eller gjenstandens emballasjegruppe dersom denne er
+tilordnet. Emballasjegruppen kan ha bokstavene PG foran (f.eks. PG II),
+eller initialene som svarer til ordene «Packing Group» på et språk brukt
+i henhold til 5.4.1.4.1;</p>
+<p><strong>ANM:</strong> For radioaktivt materiale klasse 7 med tilleggsfare, se
+spesiell bestemmelse 172 (b) i kapittel 3.3.</p>
+<p>e) Antall og beskrivelse av kolli når aktuelt; UN-emballasje koder kan
+bare brukes som tillegg til beskrivelsen av kolliet (for eksempel 1
+kasse (4G));</p>
+<p><strong>ANM:</strong> Det er ikke påkrevet å oppgi antall, type og kapasitet for hver
+enkelt inneremballasje inne i en ytteremballasje på en sammensatt
+emballasje.</p>
+<p>RID: se også CIM Article 7 § 1 (h) og (i)</p>
+<p>f) Den samlede mengde av hver type farlig gods med eget UN-nr., varenavn
+og eventuelt emballasjegruppe (angitt som volum eller brutto masse,
+eventuelt som netto masse);</p>
+<p><strong>ANM 1:</strong> ADR: Når man har til hensikt å anvende 1.1.3.6, skal den
+samlede mengde og beregnede verdi av farlig gods i hver
+transportkategori angis i transportdokumentet i samsvar med
+bestemmelsene i 1.1.3.6.3 og 1.1.3.6.4.</p>
+<p><strong>ANM 2:</strong> For farlig gods i maskiner eller utstyr spesifisert i dette
+vedlegg, skal den angitte mengde være det totale innholdet av farlig
+gods, oppgitt i kilogram eller liter avhengig av hva som er
+hensiktsmessig.</p>
+<ol class="loweralpha simple" start="7">
+<li><p>Avsenderens navn og adresse;</p></li>
+</ol>
+<p>RID: se også CIM Article 7 § 1 (b)</p>
+<ol class="loweralpha simple" start="8">
+<li><p>Mottakeren/mottakernes navn og adresse;</p></li>
+</ol>
+<p>ADR: Dersom det farlige godset skal leveres til flere mottakere som ikke
+er kjent ved begynnelsen av transporten kan navn og adresse erstattes av
+«Detaljdistribusjon» etter avtale med vedkommende myndighet i landene
+som omfattes av transporten.</p>
+<p>RID: se også CIM Article 7 § 1 (g)</p>
+<p>i) Eventuell erklæring som kreves i henhold til bestemmelsene i en
+særavtale;</p>
+<p>j) <strong>RID:</strong> Når det er krav om merking i henhold til 5.3.2.1, skal
+farenummeret også påføres foran bokstavene «UN» foran UN-nummeret (se
+bokstav a)). Dette gjelder også ved komplett last av kolli som alle
+inneholder samme stoff eller gjenstand, merket i henhold til 5.3.2.1.</p>
+<p>k) ADR: For transport som innebærer passering gjennom tunneler med
+restriksjoner for transport av farlig gods, tunnelrestriksjonskoden som
+er gitt i kolonne (15) i tabell A i kapittel 3.2, med store bokstaver
+iparentes, eller angivelsen (-), eller som spesifisert i en særordning i
+samsvar med 1.7.4.2.</p>
+<p>ADR: De enkelte opplysningene kan påføres på valgfritt sted og i valgfri
+rekkefølge i transportdokumentet, bortsett fra at (a), (b), (c), (d) og
+(k) skal stå i rekkefølgen (a), (b), (c), (d), (k) uten annen
+informasjon innimellom; f.eks:</p>
+<p>«UN 1098 ALLYLALKOHOL, 6.1 (3), I, (C/D)» eller</p>
+<p>«UN 1098 ALLYLALKOHOL, 6.1 (3), PG I, (C/D)».</p>
+<p>RID: De enkelte opplysningene kan påføres på valgfritt sted og i valgfri
+rekkefølge i transportdokumentet, bortsett fra at (a), (b), (c), (d)
+skal stå i rekkefølgen (a), (b), (c), (d), uten annen informasjon
+innimellom; f.eks:</p>
+<p>«UN 1098 ALLYLALKOHOL, 6.1 (3), I» eller «UN 1098 ALLYLALKOHOL, 6.1 (3),
+PG I»</p>
+<p>RID: Når bestemmelsene i 5.3.2.1 kommer til anvendelse skal
+opplysningene i (a), (b), (c), (d) og (j) oppføreres i følgende
+rekkefølge: (j), (a), (b), (c), (d) uten annen informasjon innimellom;
+f.eks:</p>
+<p>«663, UN 1098 ALLYLALKOHOL, 6.1 (3), I» eller «663, UN 1098
+ALLYLALKOHOL, 6.1 (3), PG I»</p>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.2</span></code></p>
+<p>De opplysningene som kreves i transportdokumentet, skal være lesbare.</p>
+<p>Selv om de elementene som utgjør varenavnet i tabell A i kapittel 3.2 er
+oppført med store bokstaver, er det valgfritt om man vil skrive
+varenavnet med små eller store bokstaver i transportdokumentet, unntatt
+opplysninger i henhold til bestemmelsene i 5.4.1.1.1 (k).</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.3</span></code> Spesielle bestemmelser for avfall</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.3.1</span></code></p>
+<p>Dersom det skjer transport av avfall som inneholder farlig gods (annet
+enn radioaktivt avfall), skal ordet «AVFALL» skrives foran varenavnet
+såfremt dette ordet ikke er del av varenavnet, f.eks:</p>
+<p>«UN 1230 AVFALL METANOL, 3 (6.1), II (D/E) <a class="footnote-reference brackets" href="#id87" id="id12" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>», eller</p>
+<p>«UN 1230 AVFALL METANOL, 3 (6.1), PG II (D/E)<sup>1</sup>», eller</p>
+<p>«UN 1993 AVFALL BRANNFARLIGE VÆSKE, N.O.S., (toluen og etylalkohol), 3,
+II (D/E)¹», eller</p>
+<p>«UN 1993 AVFALL BRANNFARLIGE VÆSKE, N.O.S., (toluen og etylalkohol), 3,
+PG II (D/E)¹».</p>
+<p>RID: eller når en merking i henhold til 5.3.2.1 er foreskrevet:</p>
+<p>«336, UN 1230 AVFALL METANOL, 3 (6.1), II», eller</p>
+<p>«336, UN 1230 AVFALL METANOL, 3 (6.1), PG II».</p>
+<p>Hvis bestemmelsene for avfall som beskrevet i 2.1.3.5.5 kommer til
+anvendelse, skal følgende tekst tilføres beskrivelsen av det farlige
+godset som pålagt i 5.4.1.1.1 (a) til (d) og (k):</p>
+<p>AVFALL i henhold til 2.1.3.5.5 (for eksempel «UN 3264 ETSENDE VÆSKE,
+SUR, UORGANISK, N.O.S., 8, II (E)¹, AVFALL i henhold til 2.1.3.5.5»)</p>
+<p>Dersom bestemmelsen for avfall i 2.1.3.5.5 anvendes, trenger ikke den
+tekniske betegnelsen som foreskrevet i kapittel 3.3, spesiell
+bestemmelse 274, å tilføyes.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.3.2</span></code></p>
+<p>Dersom det ikke er mulig å bestemme nøyaktig mengde avfall ved
+lastetidspunktet, kan mengden, ifølge 5.4.1.1.1 f), estimeres under
+følgende forutsetninger:</p>
+<p>a) For kolli, skal en liste over kolli, inkludert type og nominell
+kapasitet, legges til i transportdokumentet.</p>
+<p>b) For containere er estimatet basert på deres nominelle volum og annen
+tilgjengelig informasjon (for eksempel avfallstype, gjennomsnittlig
+tetthet, fyllingsgrad)</p>
+<p>c) For slamsugere er estimatet begrunnet (for eksempel ved hjelp av et
+overslag fra avsender eller av kjøretøyutstyret).</p>
+<p>Slikt estimat av mengde er ikke tillatt for:</p>
+<p>– Unntak hvor nøyaktig mengde er avgjørende (for eksempel 1.1.3.6)</p>
+<p>– Avfall som inneholder stoffer nevnt i 2.1.3.5.3 (med unntak av UN 3291
+klinisk avfall, uspesifisert, n.o.s eller (bio) medisinsk avfall n.o.s
+eller regulert medisinsk avfall, n.o.s i emballasje i samsvar med
+emballeringsbestemmelse P621) eller stoffer i klasse 4.3;</p>
+<p>– Andre tanker enn slamsugere.</p>
+<p>Transportdokumentet skal inneholde følgende erklæring:</p>
+<p>«MENGDE ESTIMERT I HENHOLD TIL 5.4.1.1.3.2»</p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.3.3</span></code></p>
+<p>Spesielle bestemmelser for transport av avfall i inneremballasjer pakket
+sammen i en ytteremballasje</p>
+<p>For transport i samsvar med 4.1.1.5.3 skal transportdokumentet inneholde
+følgende erklæring:</p>
+<p>«TRANSPORT I SAMSVAR MED 4.1.1.5.3».</p>
+<p>Erklæringen beskrevet i 5.4.1.1.3.2 er ikke nødvendig i tillegg.</p>
+<p>For eksempel:</p>
+<p>«UN 1993 AVFALL BRANNFARLIG VÆSKE, N.O.S., 3, III, (E); TRANSPORT I
+SAMSVAR MED 4.1.1.5.3».</p>
+<p>Opplysninger i transportdokumentet i samsvar med 5.4.1.1 skal være
+basert på den oppføringen eller de oppføringene som er bestemt for
+ytteremballasjen i samsvar med 4.1.1.5.3 d). Den tekniske betegnelsen,
+som foreskrevet i kapittel 3.3, spesiell bestemmelse 274, trenger ikke
+tilføyes.»</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.4</span></code> Spesielle bestemmelser for avfall som er forurenset med fri asbest (UN nr. 2212 og 2590)</p>
+<p>Når spesiell bestemmelse 678 i kapittel 3.3 anvendes, skal
+transportdokumentet inneholde følgende erklæ-ring:»</p>
+<p>TRANSPORT UNDER SPESIELL BESTEMMELSE 678»</p>
+<p>Beskrivelsen av avfall som transporteres i samsvar med spesiell
+bestemmelse 678 b) i kapittel 3.3 skal legges til beskrivelsen av det
+farlige godset som kreves etter 5.4.1.1.1 a) til d) og ADR: k)/<strong>RID:
+j)</strong>. Transportdokumentet skal vedlegges følgende dokumenter:</p>
+<p>a) En kopi av det tekniske databladet for den type containerbag som er
+benyttet, påført produsentens eller distributørens brevlogo, med
+angivelse av emballasjens dimensjoner og dens største masse.</p>
+<p>b) En kopi av losseprosedyren i samsvar med spesiell bestemmelse CV38 i
+7.5.11, hvis aktuelt.</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.5</span></code> Spesielle bestemmelser for redningsemballasje, inkludert store redningsemballasjer og redningstrykkbeholdere</p>
+<p>Når farlig gods transporteres i redningsemballasje i henhold til
+4.1.1.19, inkludert stor redningsemballasje, emballasje med stor
+størrelse eller storemballasje med egnet type og styrkegrad for å kunne
+benyttes som redningsemballasje, skal ordet <strong>«REDNINGSEMBALLASJE»</strong>
+tilføyes etter beskrivelsen av godset i transportdokumentet.</p>
+<p>Når farlig gods transporteres i redningstrykkbeholder i henhold til
+4.1.1.20, skal ordene <strong>«REDNINGSTRYKKBEHOLDER»</strong> tilføyes etter
+beskrivelsen av godset i transportdokumentet.</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6</span></code> Spesielle bestemmelser for tomt utstyr med rester av farlig gods</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.1</span></code></p>
+<p>For tomt utstyr, ikke rengjort, som inneholder rester av farlig gods
+annet enn klasse 7 skal beskrivelsen i transportdokumentet skal ordene
+«TOM IKKE RENGJORT» eller «RESTER, SISTE INNHOLD» stå foran eller etter
+informasjon om siste last som beskrevet i 5.4.1.1.1.(a) til (d) og (k).
+Bestemmelsene i 5.4.1.1.1 (f) gjelder ikke.</p>
+<p id="id19"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.2</span></code></p>
+<p>Den spesielle bestemmelsen i 5.4.1.1.6.1 kan erstattes av bestemmelsene
+i 5.4.1.1.6.2.1, 5.4.1.1.6.2.2 eller 5.4.1.1.6.2.3, hvis det passer.</p>
+<p id="id20"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.2.1</span></code></p>
+<p>For ikke rengjort emballasje med rester av farlig gods annet enn klasse
+7 og for tomme, ikke rengjorte gassbeholdere med volum ikke over 1000
+liter kan informasjonen i 5.4.1.1.1. (a), (b), (c), (d) og (f) <strong>og
+(j)</strong> erstattes av <strong>«TOMT KOLLI», «TOM BEHOLDER», «TOM IBC» eller «TOM
+STOREMBALLASJE»</strong> etterfulgt av informasjon om siste last som beskrevet
+i 5.4.1.1.1 (c)</p>
+<p>Se følgende eksempel: <strong>«TOMT KOLLI, 6.1 (3)»</strong></p>
+<p>I tillegg, for slike tilfeller:</p>
+<p>a) Dersom det farlige godset sist lastet er gass i klasse 2 kan
+informasjonen som kreves i 5.4.1.1.1 (c) erstattes av nummeret på
+klassen, det vil si «2».</p>
+<p>b) Dersom det farlige godset sist lastet er gods i klasse 3, 4.1, 4.2,
+4.3, 5.1, 5.2, 6.1, 8 eller 9, kan opplysningene om godset sist lastet,
+som foreskrevet i 5.4.1.1.1 (c), erstattes med ordene «MED RESTER AV
+[…]», etterfulgt av klasse(ne) og tilleggsfare(r) tilsvarende de ulike
+restene i nummerert rekkefølge.</p>
+<p>Eksempel: Tomme, ikke rengjort emballasjer som har inneholdt gods i
+klasse 3 transportert sammen med tomme, ikke rengjorte emballasjer som
+har inneholdt gods i klasse 8 med en tilleggsfare i klasse 6.1, kan
+oppføres i transportdokumentet som:</p>
+<p>«TOMME EMBALLASJER, MED RESTER AV 3, 6.1, 8».</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.2.2</span></code></p>
+<p>For tomt utstyr med rester av farlig gods, annet enn emballasje, ikke
+rengjort, som inneholder rester av farlig gods, annet enn klasse 7 og
+for tomme, ikke rengjorte gassbeholdere med volum over 1000 liter, skal
+beskrivelsen i transportdokumentet være henholdsvis «<strong>TOMT
+TANKKJØRETØY</strong>», «<strong>TOM TANKVOGN</strong>», «<strong>TOM LØSTANK</strong>»,
+«<strong>TOM TANKCONTAINER</strong>», «<strong>TOM MULTIMODAL TANK</strong>», «<strong>TOMT
+BATTERIKJØRETØY</strong>», «<strong>TOM BATTERIVOGN</strong>», «<strong>TOM MEGC</strong>»,
+«<strong>TOM MEMU</strong>», «<strong>TOMT KJØRETØY</strong>», «<strong>TOM VOGN</strong>»,
+«<strong>TOM CONTAINER</strong>» eller «<strong>TOM BEHOLDER</strong>», etterfulgt der det
+er egnet av ordene «SISTE LAST». Bestemmelsene i 5.4.1.1.1 f) gjelder
+dessuten ikke.</p>
+<p>ADR: Se følgende eksempel:</p>
+<p>«TOMT TANKKJØRETØY, SISTE LAST: UN 1098 ALLYLALKOHOL, 6.1 (3), I (C/D)»
+eller</p>
+<p>«TOMT TANKKJØRETØY, SISTE LAST: UN 1098 ALLYLALKOHOL, 6.1 (3), PG I,
+(C/D)»</p>
+<p><strong>RID: Se følgende eksempel:</strong></p>
+<p>«TOM TANKVOGN, SISTE LAST: 663 UN 1098 ALLYLALKOHOL, 6.1 (3), I» eller</p>
+<p>«TOM TANKVOGN, SISTE LAST: 663 UN 1098 ALLYLALKOHOL, 6.1 (3), PG I»</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.2.3</span></code></p>
+<p>ADR: Når tomt utstyr, ikke rengjort, som inneholder rester av farlig
+gods annet enn klasse 7 blir returnert til avsender kan
+transportdokumentet som ble laget for den opprinnelige transporten
+brukes. I slike tilfeller skal indikasjonen av opprinnelig kvantum
+fjernes (viskes, overstrykes eller fjernes på annen måte) og erstattes
+av ordene <strong>«TOM, IKKE RENGJORT RETUR»</strong></p>
+<p>RID: Reservert</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.3</span></code></p>
+<p>a) Dersom tomme, ikke rengjorte tanker, batterikjøretøyer, batterivogner
+og MEGCer transporteres til nærmeste, egnede sted hvor rengjøring eller
+reparasjon kan foretas i samsvar med bestemmelsene i 4.3.2.4.3 skal
+følgende tekst tilføyes i transportdokumentet: «Transport i henhold til
+4.3.2.4.3»</p>
+<p>b) Dersom tomme, ikke rengjorte vegkjøretøyer, vogner og containere som
+transporteres til nærmeste, egnede sted hvor rengjøring eller reparasjon
+kan foretas i samsvar med bestemmelsene i 7.5.8.1 skal følgende tekst
+tilføyes i transportdokumentet: <strong>«Transport i henhold til 7.5.8.1»</strong></p>
+<p id="id24"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.6.4</span></code></p>
+<p>Ved transport i faste tanker (tankkjøretøyer, tankvogner), løstanker,
+batterikjøretøyer, tankcontainere, og MEGCer i samsvar med bestemmelsene
+i 4.3.2.4.4, så skal følgende tekst anføres i transportdokumentet:
+<strong>«Transport i henhold til 4.3.2.4.4»</strong>.</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.7</span></code> Spesielle bestemmelser for transport i en transportkjede som omfatter transport til sjøs eller i luften <a class="footnote-reference brackets" href="#id88" id="id26" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a></p>
+<p>For transport i henhold til 1.1.4.2.1, skal transportdokumentet
+inneholde følgende erklæring: <strong>«Transporteres i henhold til
+1.1.4.2.1».</strong></p>
+<p id="id27"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.8</span></code> «Reservert»</p>
+<p id="id28"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.9</span></code> Spesielle bestemmelser for piggybacktrafikk</p>
+<p>RID: For informasjon i transportdokumentet, se 1.1.4.4.5.</p>
+<p id="id29"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.10</span></code> (slettet)</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.11</span></code> Spesielle bestemmelser for transport av IBCer, tanker, batterikjøretøyer/batterivogner, multimodale tanker og MEGCer etter utløpsdato for siste periodiske prøve eller kontroll</p>
+<p>For transport i samsvar med 4.1.2.2 (b), 4.3.2.3.7 (b), 6.7.2.19.6.1
+(b), 6.7.3.15.6.1 (b) eller 6.7.4.14.6.1 (b) skal følgende erklæring
+inkluderes i transportdokumentet:</p>
+<p>«TRANSPORT I SAMSVAR MED 4.1.2.2 (b)»,</p>
+<p>«TRANSPORT I SAMSVAR MED 4.3.2.3.7 (b)»,</p>
+<p>«TRANSPORT I SAMSVAR MED 6.7.2.19.6.1 (b)»,</p>
+<p>«TRANSPORT I SAMSVAR MED 6.7.3.15.6.1 (b)», eller</p>
+<p>«TRANSPORT I SAMSVAR MED 6.7.4.14.6.1 (b)», avhengig av hva som er
+gjeldende.</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.12</span></code> Spesielle bestemmelser for transport i henhold til overgangsbestemmelser</p>
+<p>RID: For transport i samsvar med 1.6.1.1, skal transportdokumentet
+inneholde følgende erklæring:</p>
+<p>«TRANSPORT I HENHOLD TIL RID-BESTEMMELSER SOM VAR GYLDIGE FØR 1. JANUAR
+2025».</p>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.13</span></code> Spesielle bestemmelse for transport i tankkjøretøy med flere tankrom eller transportenheter med flere tanker</p>
+<p>ADR: Når man avviker fra 5.3.2.1.2 og benytter forenklet merking i
+samsvar med 5.3.2.1.3 av tankkjøretøy med flere tankrom eller en
+transportenhet med flere tanker, skal det spesifiseres i
+transportdokumentet hvilket stoff den enkelte tank eller det enkelte
+tankrom inneholder.</p>
+<p id="id33"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.14</span></code> Spesielle bestemmelser for transport av oppvarmede stoffer</p>
+<p>Dersom varenavnet til et stoff som transporteres eller er ønsket
+transportert i flytende form ved en temperatur lik eller høyere enn 100
+ºC, eller i fast form ved en temperatur lik eller høyere enn 240 ºC ikke
+tydelig angir at dette er ved høy temperatur (f.eks. ved å bruke ord som
+«SMELTET» eller «OPPVARMET» som en del av varenavnet), skal ordet «VARM»
+føres opp umiddelbart foran varenavnet</p>
+<p id="id34"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.15</span></code></p>
+<p>ADR: Spesielle bestemmelse for transport av stabiliserte og
+temperaturkontrollerte stoffer</p>
+<p>ADR: Med mindre det ikke allerede er en del av varenavnet, skal ordet
+«STABILISERT» legges til varenavnet dersom stoffet er stabilisert, og
+ordet «TEMPERATURKONTROLLERT» skal legges til varenavnet dersom stoffet
+er stabilisert ved temperaturkontroll eller ved kombinasjon av kjemisk
+stabilisering og temperatur kontroll (se også: 3.1.2.6).</p>
+<p>ADR: Hvis ordet «TEMPERATURKONTROLLERT» er en del av varenavnet (se også
+3.1.2.6), når stabilisering skjer ved temperaturkontroll, skal kontroll-
+og faretemperaturene (se 7.1.7) angis i transportdokumentet på følgende
+måte:</p>
+<p>ADR: «Kontrolltemperatur:…….ºC Faregrense, temperatur:……..ºC»</p>
+<p>RID: Spesielle bestemmelser for transport av stoffer stabilisert ved
+kjemisk stabilisering</p>
+<p>Med mindre det allerede er en del av varenavnet skal ordet «STABILISERT»
+legges til varenavnet dersom stabiliseringen kun er utført med kjemisk
+stabilisering (se 3.1.2.6).</p>
+<p id="id35"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.16</span></code> (Slettet)</p>
+<p id="id36"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.17</span></code> Spesielle bestemmelser for transport av faste stoffer i bulkcontainere i samsvar med 6.11.4</p>
+<p>Når faste stoffer transporteres i bulkcontainere i samsvar med 6.11.4
+skal følgende erklæring vises i transportdokumentet (se anmerkning i
+begynnelsen av 6.11.4.):</p>
+<p>«Bulkcontainer BK(x) <a class="footnote-reference brackets" href="#id89" id="id37" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a> godkjent av vedkommende
+myndighet……………..».</p>
+<p id="id38"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.18</span></code> Spesielle bestemmelser for transport av miljøfarlige stoffer (vannforurensende)</p>
+<p>Når et stoff som tilhører klassene 1 til 9 oppfyller
+klassifiseringskriteriene i 2.2.9.1.10 skal transportdokumentet ha
+påskriften «MILJØFARLIG» eller «MARINE POLLUTANT/MILJØFARLIG». Denne
+bestemmelsen gjelder ikke for UN-nr. 3077 og 3082 eller for unntakene
+som er listet i 5.2.1.8.1.</p>
+<p>Uttrykket «MARINE POLLUTANT» (i henhold til 5.4.1.4.3 i IMDG-koden) er
+tillatt for transporter som inkluderer en sjøtransport.</p>
+<p id="id39"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.19</span></code> Spesielle bestemmelser for transport av kasserte, tomme, ikke rengjorte emballasjer (UN3509)</p>
+<p>For emballasjer som er kasserte, tomme og ikke rengjorte, skal
+varenavnet spesifisert i 5.4.1.1.1 (b) tilføres ordene «(MED RESTER AV
+[…])» fulgt av klasse(n) og tilleggsfare(ne) som svarer til restene, i
+nummerert rekkefølge. 5.4.1.1.1 (f) gjelder dessuten ikke.</p>
+<p>Eksempel: For emballasjer som er kasserte, tomme, ikke rengjorte og har
+inneholdt gods av klasse 4.1 pakket sammen med emballasjer som er
+kasserte, tomme, ikke rengjorte og har inneholdt gods av klasse 3 med en
+klasse 6.1 tilleggsfare, skal refereres til i transportdokumentet som:</p>
+<p>«UN 3509 EMBALLASJER, KASSERTE, TOMME, IKKE RENGJORTE (MED RESTER AV 3,
+4.1, 6.1), 9.</p>
+<p id="id40"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.20</span></code> Spesielle bestemmelser for transport av stoffer klassifisert i samsvar med 2.1.2.8</p>
+<p>For transport i samsvar med 2.1.2.8 skal transportdokumentet inneholde
+følgende erklæring: «Klassifisert i samsvar med 2.1.2.8».</p>
+<p id="id41"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.21</span></code> Informasjon som kreves i særskilte tilfeller i samsvar med andre deler av ADR/RID</p>
+<p>Når ytterligere informasjon er nødvendig i henhold til bestemmelser i
+kapittel 3.3, 3.5, 4.1, 4.2, 4.3 og 5.5, skal denne informasjonen angis
+i transportdokumentet.</p>
+<p id="id42"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.22</span></code> (reservert)</p>
+<p id="id43"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.23</span></code> Spesielle bestemmelser for transport av stoffer som transporteres i smeltet tilstand</p>
+<p>Når et stoff, som er fast ifølge definisjonen i 1.2.1, er levert til
+transport i en smeltet tilstand, skal det kvalifiserte ordet
+«<strong>SMELTET</strong>» legges til som en del av varenavnet, med mindre det
+allerede er en del av varenavnet (se 2.1.2.5)</p>
+<p id="id44"><code class="docutils literal notranslate"><span class="pre">5.4.1.1.24</span></code> Spesielle bestemmelser for refyllbare trykkbeholdere autorisert av «The United States of America Department of Transportation»</p>
+<p>For transport i henhold til 1.1.4.7, skal følgende angis i
+transportdokumentet:</p>
+<p>«TRANSPORT I HENHOLD TIL 1.1.4.7.1» eller</p>
+<p>«TRANSPORT I HENHOLD TIL 1.1.4.7.2», etter hva som er aktuelt.</p>
+<p id="id45"><code class="docutils literal notranslate"><span class="pre">5.4.1.2</span></code> Tilleggsopplysninger eller spesielle opplysninger som kreves for visse klasser</p>
+<p id="id46"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.1</span></code> Spesielle bestemmelser for klasse 1</p>
+<p>a) Transportdokumentet skal gi opplysninger om, i tillegg til kravene i
+5.4.1.1.1(f):</p>
+<p>– den totale nettomassen, i kg, av eksplosivinnhold <a class="footnote-reference brackets" href="#id90" id="id47" role="doc-noteref"><span class="fn-bracket">[</span>8<span class="fn-bracket">]</span></a> for hvert stoff
+eller hver gjenstand som er angitt med ulike UN-nr;</p>
+<p>– den totale nettomassen, i kg, av eksplosivinnhold for alle stoffer og
+gjenstander som omfattes av transportdokumentet.</p>
+<p>b) Ved samemballering av to forskjellige godsslag, skal beskrivelsen av
+godset i transportdokumentet omfatte UN-nr. og navn slik det står med
+store bokstaver i kolonne (1) og (2) i tabell A i kapittel 3.2 for begge
+stoffene eller gjenstandene. Dersom det er flere enn to forskjellige
+godsslag i samme kolli i samsvar med bestemmelsene om samemballering i
+4.1.10 spesiell bestemmelse MP1, MP2 og MP20 til MP24, skal beskrivelsen
+av godset i transportdokumentet angi UN-nr. for samtlige stoffer og
+gjenstander som kolliet inneholder på denne måten: <strong>«Gods av UN-nr.
+…»</strong></p>
+<p>c) Ved transport av stoffer og gjenstander som er tilordnet en
+n.o.s-posisjon, eller til posisjonen 0190 EKSPLOSIVPRØVER, eller som er
+emballert i samsvar med emballeringsbestemmelse P101 i 4.1.4.1, skal
+kopi av tillatelsen fra vedkommende myndighet med transportbetingelsene
+være vedheftet transportdokumentet. Denne skal være på et offisielt
+språk i avsenderlandet og dessuten, om dette ikke er engelsk, fransk
+eller tysk <strong>(RID: eller italiensk)</strong>, på engelsk, fransk eller tysk
+<strong>(RID: eller italiensk)</strong> med mindre annet er avtalt mellom de landene
+som berøres av transporten;</p>
+<p>d) Dersom kolli som inneholder stoffer og gjenstander av
+forenlighetsgruppene B og D samlastes i samme kjøretøy/vogn i samsvar
+med bestemmelsene i 7.5.2.2, skal en kopi av godkjenningssertifikatet
+for det beskyttende rom i henhold til 7.5.2.2, fotnote 1/ være vedheftet
+transportdokumentet. Det skal være på et offisielt språk i
+avsenderlandet, og hvis det språket ikke er engelsk, fransk eller tysk
+<strong>(RID: eller italiensk)</strong>, også på engelsk, fransk eller tysk <strong>(RID:
+eller italiensk)</strong> dersom det ikke foreligger en avtale om annet mellom
+landene som transporten forgår i.</p>
+<p>e) Når eksplosive stoffer eller gjenstander transporteres i emballasje i
+samsvar med emballeringsbestemmelse P101, skal transportdokumentet ha
+teksten «Emballasje godkjent av vedkommende myndighet i (<strong>RID:
+angivelse av staten (nasjonalitetsmerket brukt på kjøretøyer i
+internasjonal vegtrafikk</strong> <a class="footnote-reference brackets" href="#id91" id="id48" role="doc-noteref"><span class="fn-bracket">[</span>9<span class="fn-bracket">]</span></a><strong>)…»</strong> (se 4.1.4.1,
+emballeringsbestemmelse P101).</p>
+<ol class="loweralpha simple" start="6">
+<li><p>(ADR: Reservert)</p></li>
+</ol>
+<p>RID: Ved militære forsendelser i betydningen av 1.5.2 får de
+betegnelsene som er foreskrevet av vedkommende militære myndighet,
+benyttes istedenfor betegnelsene i henhold til kapittel 3.2, tabell A.</p>
+<p>Ved militære forsendelser som er underlagt avvikende bestemmelser i
+henhold til 5.2.1.5, 5.2.2.1.8 og 5.3.1.1.2 samt 7.2.4, spesiell
+bestemmelse W2, skal det angis i transportdokumentet: «MILITÆR
+FORSENDELSE»</p>
+<p>g) Når fyrverkeri med UN numrene 0333, 0334, 0335, 0336 og 0337
+transporteres, skal transportdokumentet ha teksten «Klassifisering av
+fyrverkeri av vedkommende myndighet i XX med fyrverkeri referanse
+XX/YYZZZZ».</p>
+<p>Klassifiseringsgodkjenningssertifikatet trenger ikke følge transporten
+men skal gjøres tilgjengelig, av avsenderen til transportøren eller
+vedkommende myndigheter for kontrollformål.
+Klassifiseringsgodkjenningssertifikatet eller en kopi av det skal være
+på et offisielt språk i avsenderlandet og også hvis det språket ikke er
+tysk, engelsk eller fransk <strong>(RID: eller italiensk)</strong> også på tysk,
+engelsk eller fransk <strong>(RID: eller italiensk)</strong>.</p>
+<p><strong>ANM 1:</strong> Godsets handelsnavn eller tekniske betegnelse kan føres opp i
+tillegg til varenavnet i transportdokumentet.</p>
+<p><strong>ANM 2:</strong> Klassifiseringsreferansen(e) skal bestå av den ADR/RID-stat
+som klassifiseringskoden i henhold til spesiell bestemmelse 645 i 3.3.1
+ble godkjent av, angitt ved nasjonalitetsmerket brukt på kjøretøyer i
+internasjonal vegtrafikk (XX) <a class="footnote-reference brackets" href="#id92" id="id49" role="doc-noteref"><span class="fn-bracket">[</span>10<span class="fn-bracket">]</span></a>, vedkommende myndighets
+identifikasjon (YY) og et unikt referanseserienummer (ZZZZ). Eksempel på
+slik klassifiseringsreferanse:</p>
+<p>GB/HSE123456</p>
+<p>D/BAM1234</p>
+<p id="id50"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.2</span></code> Tilleggsbestemmelser for klasse 2</p>
+<p>a) Ved transport av blandinger (se 2.2.2.1.1) i tanker (løstanker, faste
+tanker, tankcontainere, multimodale tanker eller elementer av
+batterikjøretøyer/-vogner eller av MEGCer) skal sammensetningen av
+blandingen i prosent av volumet eller av massen være oppgitt.
+Bestanddeler under 1 % behøver ikke oppgis (se også 3.1.2.8.1.2)
+Sammensetningen av blandingen trenger ikke oppgis dersom den tekniske
+betegnelsen i spesiell bestemmelse 581, 582 eller 583 er brukt som
+tillegg til varenavnet;</p>
+<p>b) Ved transport av gassflasker, sylindre, trykkfat, beholdere for
+dypkjølte gasser og gassflaskebatterier, under vilkårene i 4.1.6.10,
+skal følgende tekst tas inn i transportdokumentet:</p>
+<p>«Transporteres i henhold til 4.1.6.10».</p>
+<ol class="loweralpha simple" start="3">
+<li><p>ADR (Reservert)</p></li>
+</ol>
+<p>RID: Ved transport av tankvogner som er fylt uten å være rengjort, skal
+godsets masse angis i transportdokumentet som summen av den påfylte
+massen pluss restlasten, som da vil tilsvare den fulle tankvognens
+samlede masse minus den angitte egenmassen. I tillegg kan bemerkningen
+«PÅFYLT MASSE … KG» påføres.</p>
+<p>d) For tankcontainere (<strong>RID: og tankvogner</strong>) eller multimodale tanker
+som transporterer nedkjølte, flytende gasser skal avsenderen oppgi
+datoen for når den aktuelle holdetiden utløper i transportdokumentet, i
+følgende format:</p>
+<p>«Aktuell holdetid utløper: ….. (DD/MM/YYYY)»</p>
+<p>ADR: Denne bestemmelsen gjelder ikke når beregningen av den aktuelle
+holdetiden utelates i samsvar med 4.2.3.7.1 eller 4.3.3.5.</p>
+<p>e) For transport av UN 1012, skal transportdokumentet inneholde navn på
+den spesifikke transporterte gassen (se spesiell bestemmelse 398 i kap.
+3.3) i parentes etter varenavnet.</p>
+<p id="id51"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3</span></code> Tilleggsbestemmelser for selvreaktive stoffer og polymeriserende stoffer av klasse 4.1 samt organiske peroksider av klasse 5.2</p>
+<p id="id52"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3.1</span></code></p>
+<p>RID: (Reservert)</p>
+<p>ADR: For selvreaktive stoffer eller polymeriserende stoffer av klasse
+4.1 og for organiske peroksider av klasse 5.2 hvor det kreves
+temperaturkontroll under transporten (for selvreaktive stoffer se
+2.2.41.1.17; for polymeriserende stoffer se 2.2.41.1.21, for organiske
+peroksider se 2.2.52.1.15), skal kontrolltemperatur og faretemperatur
+være oppgitt i transportdokumentet på følgende måte:</p>
+<p><a href="#id53"><span class="problematic" id="id54">**</span></a>«Kontrolltemperatur: …. °C       Faretemperatur: …. <a href="#id55"><span class="problematic" id="id56">**</span></a>°C</p>
+<p id="id57"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3.2</span></code></p>
+<p>Når vedkommende myndighet har gitt tillatelse til at fareseddel nr. 1
+ikke benyttes for visse selvreaktive stoffer av klasse 4.1 og visse
+organiske peroksider av klasse 5.2 i en spesiell emballasje (se
+5.2.2.1.9), skal transportdokumentet inneholde en erklæring om dette på
+følgende måte:</p>
+<p><strong>«Fareseddel nr. 1 kreves ikke».</strong></p>
+<p id="id58"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3.3</span></code></p>
+<p>Når organiske peroksider og selvreaktive stoffer transporteres under
+betingelser hvor det forutsettes godkjenning (for organiske peroksider
+se 2.2.52.1.8, 4.1.7.2.2 og spesielle bestemmelser TA2 i 6.8.4; for
+selvreaktive stoffer se 2.2.41.1.13 og 4.1.7.2.2, skal
+transportdokumentet inneholde en erklæring om dette, f.eks: <strong>«Transport
+i henhold til 2.2.52.1.8».</strong></p>
+<p>En kopi av godkjenningssertifikatet med vilkår for transporten skal
+festes til transportdokumentet. Godkjenningssertifikatet skal være på et
+offisielt språk i avsenderlandet, og hvis det språket ikke er engelsk,
+fransk eller tysk <strong>(RID: eller italiensk)</strong>, også på engelsk, fransk
+eller tysk <strong>(RID: eller italiensk)</strong> dersom det ikke foreligger en
+avtale om annet mellom landene som transporten forgår i.</p>
+<p id="id59"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3.4</span></code></p>
+<p>Når en prøve av et organisk peroksid (se 2.2.52.1.8) eller et
+selvreaktivt stoff (se 2.2.41.1.15) blir transportert, skal det opplyses
+om dette i transportdokumentet, f.eks.</p>
+<p><strong>«Transport i henhold til 2.2.52.1.9»</strong>.</p>
+<p id="id60"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.3.5</span></code></p>
+<p>Ved transport av selvreaktive stoffer type G (se UN Testmanualen, del
+II, avsnitt 20.4.2(g)) kan følgende erklæring påføres
+transportdokumentet:</p>
+<p><strong>«Ikke selvreaktivt stoff av klasse 4.1».</strong></p>
+<p>Ved transport av organiske peroksider type G (se UN Testmanualen, del
+II, avsnitt 20.4.2(g)) kan følgende erklæring påføres
+transportdokumentet:</p>
+<p><strong>«Ikke stoff av klasse 5.2».</strong></p>
+<p id="id61"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.4</span></code> Tilleggsbestemmelser for klasse 6.2</p>
+<p>I tillegg til informasjonen om mottaker (se 5.4.1.1.1 (h)) skal navn og
+telefonnummer til ansvarlig person oppgis.</p>
+<p id="id62"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.5</span></code> Tilleggsbestemmelser for klasse 7</p>
+<p id="id63"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.5.1</span></code></p>
+<p>For hver forsendelse av materiale av klasse 7 skal følgende informasjon
+inkluderes i transportdokumentet ettersom det er relevant, og i den
+gitte rekkefølge og umiddelbart etter den påkrevde informasjonen under
+5.4.1.1.1 (a) til (c) og (k):</p>
+<p>a) Navnet eller symbolet for hver radionuklide eller, for blandinger av
+radionuklider, en egnet generell betegnelse eller en liste over de
+nuklider som er underlagt de mest restriktive bestemmelser;</p>
+<p>b) En beskrivelse av materialets fysiske og kjemiske form, eller en
+merknad om at materialet er radioaktivt materiale i spesiell form eller
+radioaktivt materiale med liten tendens til spredning. En beskrivende,
+kjemisk betegnelse kan aksepteres som kjemisk form. For radioaktivt
+materiale med tilleggsfare, se underavsnitt c) i spesiell bestemmelse
+172 i kapittel 3.3.</p>
+<p>c) Det radioaktive innholdets maksimale aktivitet under transporten,
+angitt i becquerel (Bq) med tilhørende SI-prefiks symbol (se 1.2.2.1).
+For spaltbart materiale, kan det spaltbare materialets masse (eller for
+hver spaltbare nuklide for blandinger, når aktuelt) i gram (g), eller
+hensiktsmessige multipla av gram, benyttes istedenfor aktivitet;</p>
+<p>d) Kolliets, overpakningens eller containerens kategori, som fastsatt
+etter 5.1.5.3.4, dvs. IHVIT, IIGUL, IIIGUL;</p>
+<p>e) TI som fastsatt etter 5.1.5.3.1 og 5.1.5.3.2 (unntatt for kategori
+I-HVIT);</p>
+<ol class="loweralpha simple" start="6">
+<li><p>For spaltbare materialer:</p></li>
+</ol>
+<p>i) Fraktet i henhold til ett av unntakene i 2.2.7.2.3.5 (a) til (f),
+referanse til dette underavsnittet;</p>
+<p>ii) Fraktet i henhold til 2.2.7.2.3.5 (c) til (e), den totale massen av
+spaltbare nuklider;</p>
+<p>iii) Pakket i et kolli der en av 6.4.11.2 (a) til (c) eller 6.4.11.3
+gjelder, referanse til dette underavsnittet;</p>
+<ol class="lowerroman simple" start="4">
+<li><p>Kritikalitetssikkerhetsindeksen, hvor det gjelder;</p></li>
+</ol>
+<p>g) Identifikasjonsmerket til alle godkjenningssertifikater utstedt av
+vedkommende myndighet (radioaktivt materiale i spesiell form,
+radioaktivt materiale med liten tendens til spredning, spaltbare
+materialer unntatt i henhold til 2.2.7.2.3.5 (f), særordning,
+kollikonstruksjon eller forsendelse) som gjelder forsendelsen;</p>
+<p>h) For forsendelser av mer enn ett kolli skal den informasjonen som
+kreves i 5.4.1.1.1 og i (a) til (g) over gis for hvert kolli. For kolli
+i en overpakning, container eller kjøretøy/vogn skal det gis detaljerte
+opplysninger om innholdet i hvert av kolliene i overpakningen,
+containeren eller kjøretøyet/vognen samt, når det er aktuelt, i hver av
+overpakningene, containerne eller kjøretøyene/vognene. Dersom kolli skal
+tas ut av overpakningen, containeren eller kjøretøyet/vognen på et sted
+for lossing underveis, skal det sørges for at korrekte
+transportdokumenter framskaffes;</p>
+<p>i) Når det kreves at forsendelsen skal skje som komplett last,
+opplysningen «FORSENDELSE SOM KOMPLETT LAST», og</p>
+<p>j) For LSA-II og LSA-III, SCO-I, SCO-II og SCO-III stoffer, den samlede
+aktivitet for forsendelsen som multiplum av A<sub>2</sub>. For radioaktivt
+materiale hvor verdien A<sub>2</sub> er ubegrenset, skal faktoren
+A<sub>2</sub> være 0.</p>
+<p id="id64"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.5.2</span></code></p>
+<p>Avsenderen skal gi informasjon i transportdokumentet om eventuelle
+tiltak som det er nødvendig at transportøren treffer. Den skal gis på de
+språk som avsenderen eller de berørte myndigheter finner nødvendig og
+skal minst inneholde følgende opplysninger:</p>
+<p>a) Supplerende krav med hensyn til lasting, stuing, transport,
+håndtering og lossing av kolli, overpakning eller container, inklusive
+eventuelle spesielle bestemmelser om stuing for forsvarlig bortledning
+av varme (se bestemmelse CV33 (3.2) i 7.5.11), eller en erklæring om at
+det ikke er behov for slike krav;</p>
+<p>b) Restriksjoner med hensyn til transportmåte eller kjøretøy/vogn samt
+eventuelle nødvendige instruksjoner angående kjøreruten.</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Egnede nødsforanstaltninger for forsendelsen.</p></li>
+</ol>
+<p id="id65"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.5.3</span></code></p>
+<p>Ved all internasjonal transport av kolli som trenger vedkommende
+myndighets godkjenning av konstruksjon eller forsendelse, og hvor ulike
+godkjenningstyper gjelder i de ulike landene som er berørt av
+transporten, skal UN-nummeret og varenavnet som kreves i 5.4.1.1.1 være
+i overensstemmelse med sertifikatet i opprinnelseslandet for
+konstruksjonen.</p>
+<p id="id66"><code class="docutils literal notranslate"><span class="pre">5.4.1.2.5.4</span></code></p>
+<p>Det er ikke nødvendig at de relevante sertifikater som er utstedt av
+vedkommende myndighet følger forsendelsen. De skal stilles til
+disposisjon for transportøren(e) av avsenderen før lasting og lossing.</p>
+<p id="id67"><code class="docutils literal notranslate"><span class="pre">5.4.1.3</span></code> Reservert</p>
+<p id="id68"><code class="docutils literal notranslate"><span class="pre">5.4.1.4</span></code> Skjema og språk</p>
+<p id="id69"><code class="docutils literal notranslate"><span class="pre">5.4.1.4.1</span></code></p>
+<p>ADR: Dokumentet med informasjon i henhold til 5.4.1.1 og 5.4.1.2 kan
+være det samme dokumentet som allerede kreves for en annen
+transportmåte. Når det er flere mottakere kan, for at det skal være
+mulig å skaffe seg oversikt over arten og mengden som til enhver tid
+transporteres, mottakernes navn og adresser samt de mengder som er
+levert, noteres i andre dokumenter som skal brukes eller i eventuelle
+andre dokumenter som er obligatoriske i henhold til andre spesielle
+bestemmelser og som skal befinne seg ombord på kjøretøyet.</p>
+<p>ADR: Opplysningene som skal tas inn i dokumentet skal være skrevet på et
+offisielt språk i avsenderlandet og, hvis dette ikke er engelsk, fransk
+eller tysk; også på engelsk, fransk eller tysk, med mindre eventuelle
+internasjonale vegtrafikkavtaler eller avtaler inngått mellom de land
+som berøres av transporten fastsetter noe annet.</p>
+<p>RID: Transportdokumentet skal fylles ut i ett eller flere språk, der ett
+av språkene skal være fransk, tysk eller engelsk dersom ikke annet er
+bestemt i avtale mellom de landene som omfattes av transporten.</p>
+<p>RID: I tillegg til informasjonen som kreves i 5.4.1.1 og 5.4.1.2 skal
+det påføres et kryss i den passende boksen dersom transportdokumentet
+gir mulighet for dette, for eksempel et jernbanefraktbrev i samsvar med
+CIM eller vogndokumentet i samsvar med «General Contract of Use for
+Wagons» (CGU) <a class="footnote-reference brackets" href="#id93" id="id70" role="doc-noteref"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></a>.</p>
+<p id="id71"><code class="docutils literal notranslate"><span class="pre">5.4.1.4.2</span></code></p>
+<p>ADR: Hvis en sending på grunn av sin størrelse ikke kan lastes på en
+enkelt transportenhet, skal det utferdiges minst så mange separate
+dokumenter, eller kopier av originaldokumentene, som antall opplastede
+transportenheter. Det skal dessuten utferdiges separate
+transportdokumenter for sendinger eller delsendinger som ikke kan lastes
+på samme kjøretøy/vogn på grunn av de samlasteforbud som er angitt i
+7.5.2.</p>
+<p>ADR: Opplysningene med hensyn til fareegenskapene til det godset som
+skal transporteres (som angitt i 5.4.1.1) kan være tilføyet i eller
+kombinert med et eksisterende transportdokument eller
+lasthåndteringsdokument. Måten opplysningene er ordnet i dokumentet
+(eller rekkefølgen av tilsvarende data som overføres ved elektronisk
+databehandling (EDP) eller elektronisk utveksling av data (EDI), skal
+være som bestemt i 5.4.1.1.1.</p>
+<p>ADR: Når det ikke kan benyttes et eksisterende transportdokument eller
+lasthåndteringsdokument for dokumentasjon av farlig gods i multimodal
+transport, anbefales bruk av dokumenter tilsvarende eksemplet vist i
+5.4.5. <a class="footnote-reference brackets" href="#id94" id="id72" role="doc-noteref"><span class="fn-bracket">[</span>12<span class="fn-bracket">]</span></a></p>
+<p>RID: Et separat dokument skal utstedes for transporter som, på grunn av
+forbudene i 7.5.2, ikke er tillatt transportert på samme vogn eller i
+samme container.</p>
+<p>RID: I tillegg til transportdokumentet anbefales ved multimodal
+transport at det benyttes dokumenter i samsvar med det eksemplet som er
+vist i 5.4.5.</p>
+<p id="id73"><code class="docutils literal notranslate"><span class="pre">5.4.1.5</span></code> Gods som ikke er farlig gods</p>
+<p>Når gods som er oppført med navn i tabell A i kapittel 3.2 ikke er
+underlagt ADR/RID fordi godset betraktes som ikke farlig i henhold til
+del 2, kan avsenderen gi opplysning om det i transportdokumentet, f.eks.
+<strong>«Ikke gods av klasse …»</strong></p>
+<p><strong>ANM:</strong> Denne bestemmelsen får spesielt anvendelse når avsenderen anser
+at det transporterte godset kan bli utsatt for kontroll under
+transporten på grunn av dets kjemiske natur (f.eks. løsninger og
+blandinger) eller på grunn av at slikt gods betraktes som farlig i
+forhold til andre regulerende bestemmelser.</p>
+</section>
+<section id="container-kjoretoystuingssertifikat">
+<span id="id74"></span><h2>5.4.2 Container-/kjøretøystuingssertifikat<a class="headerlink" href="#container-kjoretoystuingssertifikat" title="Link to this heading">#</a></h2>
+<p>Dersom transport av farlig gods i en container skjer forut for en
+sjøtransport, skal det utstedes et
+«container-/kjøretøystuingssertifikat» i samsvar med avsnitt 5.4.2 i
+IMDG-koden <a class="footnote-reference brackets" href="#id95" id="id75" role="doc-noteref"><span class="fn-bracket">[</span>13<span class="fn-bracket">]</span></a><sup>,</sup>  <a class="footnote-reference brackets" href="#id96" id="id76" role="doc-noteref"><span class="fn-bracket">[</span>14<span class="fn-bracket">]</span></a> til sjøtransportøren av de som er
+ansvarlige for å stue containeren.</p>
+<p>De funksjoner som er tillagt transportdokumentet i henhold til 5.4.1,
+samt «container-/kjøretøystuingssertifikatet» som ovenfor bestemt, kan
+være sammenfattet i et enkelt dokument (se for eksempel 5.4.5). Dersom
+disse funksjonene er sammenfattet i et enkelt dokument, er det
+tilstrekkelig at det er tatt inn i transportdokumentet en erklæring om
+at lastingen av containeren eller kjøretøyet er foretatt i samsvar med
+de relevante bestemmelser for transportmåtene samt at den personen som
+er ansvarlig for «container-/kjøretøystuingssertifikatet», er navngitt.</p>
+<p>Dersom transport av farlig gods i et kjøretøy skjer forut for en
+sjøtransport, kan det også utstedes et
+container-/kjøretøystuingssertifikat i samsvar med avsnitt 5.4.2 i
+IMDG-koden<sup>1, 2</sup>.</p>
+<p><strong>ANM (RID): I dette avsnittet omfatter termen «kjøretøy» også vogn.</strong></p>
+</section>
+<section id="skriftlige-instruksjoner">
+<span id="id77"></span><h2>5.4.3 Skriftlige instruksjoner<a class="headerlink" href="#skriftlige-instruksjoner" title="Link to this heading">#</a></h2>
+<p id="id78"><code class="docutils literal notranslate"><span class="pre">5.4.3.1</span></code></p>
+<p>Som en forholdsregel mot uhell eller nødsituasjoner som kan oppstå under
+en transport, skal skriftlige instruksjoner (transportuhellskort) i
+henhold til 5.4.3.4 oppbevares i førerhytten og være lett tilgjengelig.</p>
+<p id="id79"><code class="docutils literal notranslate"><span class="pre">5.4.3.2</span></code></p>
+<p>Transportøren er ansvarlig for at disse instruksjonene blir overlevert
+kjøretøyets mannskap/føreren før transporten starter. Instruksjonene
+skal være på et språk som kjøretøyets mannskap/føreren som overtar det
+farlige godset kan lese og forstå. Transportøren skal forsikre seg om at
+kjøretøyets mannskap/føreren forstår instruksene og er i stand til å
+utføre dem på en tilfredsstillende måte.</p>
+<p id="id80"><code class="docutils literal notranslate"><span class="pre">5.4.3.3</span></code></p>
+<p>ADR: Før transporten starter skal sjåføren/mannskapet gjøre seg kjent
+med det farlige godset lastet, og de skriftlige instruksjonene for
+opplysninger om hvilke tiltak som skal tas dersom en ulykke eller
+nødsituasjon inntreffer.</p>
+<p>RID: Før transporten starter skal føreren gjøre seg kjent med de
+skriftlige instruksjonene for opplysninger om hvilke tiltak som skal tas
+dersom en ulykke eller hendelse inntreffer, og også ta hensyn til
+informasjonen gitt av transportøren om det farlige godset om bord.</p>
+<p id="id81"><code class="docutils literal notranslate"><span class="pre">5.4.3.4</span></code></p>
+<p>De skriftlige instruksjonene skal skrives etter følgende fire siders mal
+når det gjelder form og innhold:</p>
+<p><strong>ANM (norsk):</strong></p>
+<p>De skriftlige instruksjonene for ADR og RID skal ha faresedler i farger.
+Faresedlene i farger finnes bakerst i denne boka.</p>
+<p>ADR: På de neste 4 sider er de skriftlige instruksjoner for ADR
+gjengitt.</p>
+<p>ADR: De skriftlige instruksjonene, i farger, på 4 sider, på norsk og
+andre språk, kan skrives ut fra
+<a class="reference external" href="http://www.unece.org/trans/danger/publi/adr/adr_linguistic_e.html">http://www.unece.org/trans/danger/publi/adr/adr_linguistic_e.html</a></p>
+<p>RID: På de påfølgende 4 sider er de skriftlige instruksjoner for RID
+gjengitt.</p>
+<p>RID: De skriftlige instruksjonene i farger på 4 sider, på norsk, kan
+skrives ut fra: www.dsb.no.</p>
+<p>RID: De skriftlige instruksjonene på andre språk, for RID, vil bli
+tilgjengelig på: www.otif.org</p>
+<p>SKRIFTLIGE INSTRUKSJONER I HENHOLD TIL ADR</p>
+<p><strong>Tiltak ved ulykker eller nødssituasjoner</strong></p>
+<p>Hvis en ulykke eller nødsituasjon oppstår eller er nært forestående
+under transport, skal kjøretøyets mannskap gjennomføre følgende tiltak
+dersom det er trygt og praktisk gjennomførbart:</p>
+<p>– Sett på bremsene, stopp motoren og slå av strømmen fra batteriet ved
+hjelp av hovedstrømbryteren hvis en slik finnes;</p>
+<p>– Unngå tennkilder, og spesielt røyking og bruk av elektroniske
+sigaretter eller lignende innretninger. Ikke slå på elektrisk utstyr;</p>
+<p>– Varsle relevante nødetater, gi dem så mye informasjon om hendelsen
+eller ulykken og de involverte stoffene som mulig;</p>
+<p>– Ta på varselvest og sett ut frittstående varselsignaler på en
+hensiktsmessig måte;</p>
+<p>– Ha transportdokumentene lett tilgjengelig for utrykningspersonell når
+disse ankommer;</p>
+<p>– Ikke gå i eller berør utlekkede stoffer og unngå å puste inn gass,
+røyk, støv og damp ved å oppholde deg i den retningen vinden blåser fra;</p>
+<p>– Bruk brannslukkerne til å slukke mindre branner i dekk, bremser og
+motorrom hvis det er hensiktsmessig og trygt;</p>
+<p>– Kjøretøyets mannskap skal ikke forsøke å slukke brann i lasterommet;</p>
+<p>– Dersom det er hensiktsmessig og trygt, bruk utstyret på kjøretøyet til
+å forhindre lekkasjer til vannmiljøer eller avløp, og til å samle opp
+søl;</p>
+<p>– Gå vekk fra ulykkesstedet, råd andre til å gjøre det samme og følg
+rådene fra redningstjenesten;</p>
+<p>– Fjern alle tilsølte klær og brukt tilsølt beskyttelsesutstyr og avhend
+det på en trygg måte;</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Till
+eggsvei
+ledning
+for
+kjør
+etøyets
+m
+annskap
+om
+egen
+skapene
+til
+farlig
+gods
+etter
+klasse
+og
+tiltak
+a
+vhengig
+av
+rådende
+oms
+tendigh
+eter.</strong></p></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Fares
+edler</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p><strong>Farlige
+egenskaper</strong></p></td>
+<td><p><strong>Till
+eggsveil
+edning</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="3">
+<li></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>Eks
+plosive
+stoffer
+og
+gjen
+stander</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Kan ha mange
+egenskaper og
+effekter slik
+som:</p>
+<p>Ma
+ssedetonasjoner,
+utkast av
+splinter og
+annet materiale,
+intens
+brann/varme,
+kraftige
+lysglimt,
+kraftig støy
+eller røyk.
+Følsomme for
+sjokk eller støt
+eller varme.</p>
+</td>
+<td><p>Ta
+dekning,
+og hold
+deg vekk
+fra
+vinduer.</p></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1986.j
+pg»/}}}</p>
+<p>1</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1983.j
+pg»/}}}</p>
+<p>1.5</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1985.j
+pg»/}}}</p>
+<p>1.6</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Eks
+plosive
+stoffer
+og
+gjen
+stander</p>
+<p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1981.j
+pg»/}}}</p>
+<p>1.4</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>En viss fare for
+eksplosjon og
+brann.</p></td>
+<td><p>Ta
+dekning.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Brann
+farlige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.</p>
+<p>Kan være under
+trykk.</p>
+<p>Fare for
+kvelning.</p>
+<p>Kan forårsake
+forbrenninger
+eller
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1994.j
+pg»/}}}</p>
+<p>2.1</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1996.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Ikke
+-brannf
+arlige,
+ikke-
+giftige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+kvelning.</p>
+<p>Kan være under
+trykk.</p>
+<p>Kan forårsake
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2127.j
+pg»/}}}</p>
+<p>2.2</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2000.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Giftige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forgiftning.</p>
+<p>Kan være under
+trykk.</p>
+<p>Kan forårsake
+forbrenninger
+eller
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Bruk
+flu
+ktmaske.</p>
+<p>Ta
+dekning.</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2001.j
+pg»/}}}</p>
+<p>2.3</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Brann
+farlige
+væsker</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning.</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2003.j
+pg»/}}}</p>
+<p>3</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2006.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Brann
+farlige
+faste
+s
+toffer,
+selvr
+eaktive
+s
+toffer,
+p
+olymeri
+serende
+stoffer
+og
+faste
+desen
+siterte
+eksp
+losiver</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.
+Brannfarlige
+eller brennbare,
+kan antennes av
+varme, gnister
+eller flammer.
+Kan inneholde
+selvreaktive
+stoffer som er
+tilbøyelige til
+eksoterm
+dekomponering
+dersom de
+utsettes for
+tilførsel av
+varme, kontakt
+med andre
+stoffer (som
+syrer,
+tungme
+tallforbindelser
+eller aminer),
+friksjon eller
+støt. Dette kan
+medføre
+utvikling av
+skadelig og
+brannfarlig gass
+eller damp eller
+selvantennelse.
+Beholdere kan
+eksplodere ved
+oppvarming.
+Risiko for
+eksplosjon av
+desensiterte
+eksplosiver
+etter tap av
+desensiterer.</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2008.j
+pg»/}}}</p>
+<p>4.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Selvant
+ennende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann
+ved
+selvantennelse
+dersom
+emballasjen er
+skadd, eller ved
+lekkasje. Kan
+reagere voldsomt
+med vann.</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2010.j
+pg»/}}}</p>
+<p>4.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Stoffer
+som
+u
+tvikler
+brann
+farlige
+gasser
+i
+kontakt
+med
+vann</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann
+eller eksplosjon
+ved kontakt med
+vann.</p></td>
+<td><p>U
+tlekkede
+stoffer
+bør
+holdes
+tørre
+ved
+til
+dekking.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2012.j
+pg»/}}}</p>
+<p>4.3</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2014.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Oksi
+derende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for voldsom
+reaksjon,
+antennelse og
+eksplosjon ved
+kontakt med
+brennbare eller
+brannfarlige
+stoffer.</p></td>
+<td><p>Unngå
+blanding
+med
+bran
+nfarlige
+eller
+b
+rennbare
+stoffer
+(f.eks.
+s
+agflis).</p></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2016.j
+pg»/}}}</p>
+<p>5.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Or
+ganiske
+per
+oksider</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+eksotermisk
+(
+varmeutviklende)
+dekomponering
+ved høye
+temperaturer,
+kontakt med
+andre stoffer
+(som syrer,
+tungme
+tallforbindelser
+eller aminer),
+friksjon eller
+støt. Dette kan
+medføre
+utvikling av
+skadelige og
+brannfarlige
+gasser eller
+damper eller
+selvantennelse.</p></td>
+<td><p>Unngå
+blanding
+med
+bran
+nfarlige
+eller
+b
+rennbare
+stoffer
+(f.eks.
+s
+agflis).</p></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2365.j
+pg»/}}}</p>
+<p>5.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Giftige
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forgiftning ved
+innånding,
+hudkontakt eller
+svelging.</p>
+<p>Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td><p>Bruk
+flu
+ktmaske.</p></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2019.j
+pg»/}}}</p>
+<p>6.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Infek
+sjonsfr
+emmende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+infeksjon.</p>
+<p>Kan forårsake
+alvorlige
+sykdommer hos
+mennesker eller
+dyr. Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2021.j
+pg»/}}}</p>
+<p>6.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Radi
+oaktivt
+ma
+teriale</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for å bli
+tatt opp i
+organismen og
+ytre stråling.</p></td>
+<td><p>Begrens
+ek
+sponerin
+gstiden.</p></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2023.j
+pg»/}}}</p>
+<p>7 A</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2026.j
+pg»/}}}</p>
+<p>7 B</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2028.j
+pg»/}}}</p>
+<p>7 C</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+R
+EF=»5-3
+-1-7-2-
+radioac
+tiveB.j
+pg»/}}}</p>
+<p>7 D</p>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Sp
+altbart
+ma
+teriale</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for nukleær
+kjedereaksjon.</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+EPS »»
+R
+EF=»fis
+sile.ep
+s»/}}}7
+E</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Etsende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+etseskader.</p>
+<div class="line-block">
+<div class="line">Kan reagere
+kraftig med
+hverandre, med
+vann og andre
+stoffer.
+Utlekket stoff
+kan utvikle
+etsende
+damper.</div>
+<div class="line">Farlig for
+vannmiljøer
+eller</div>
+</div>
+<blockquote>
+<div><p>avløpssystemer.</p>
+</div></blockquote>
+</td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2034.j
+pg»/}}}</p>
+<p>8</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Forsk
+jellige
+farlige
+stoffer
+og
+gjen
+stander</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forbrenninger.</p>
+<p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.
+Farlig for
+vannmiljøer
+eller
+avløpssystemer</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2035.j
+pg»/}}}</p>
+<p>9</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+EPS »»
+REF=»F
+aresedd
+el-9A.e
+ps»/}}}</p>
+<p>9A</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ANM 1:</strong> For farlige stoffer med flere farer og ved samlasting skal
+alle relevante tiltak følges.</p>
+<p><strong>ANM 2:</strong> Tiltakene som er listet i kolonne (3) i tabellen må tilpasses
+slik at de tilsvarer de klassene med farlig gods som transporteres og
+den aktuelle transportmåten.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Tilleggsveiledning
+for kjøretøyets
+mannskap om
+egenskaper til farlig
+gods som er angitt
+med merker,
+og tiltak avhengig av
+rådende
+omstendigheter</strong></p></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Merke</strong></p></td>
+<td><p><strong>Farlige egenskaper</strong></p></td>
+<td><p><strong>Till
+eggsveiledning</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="3">
+<li></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>{{{IMG CLASS=»«class
+imag»»
+REF=»S
+ymbolFiskTRE.jpg»/}}}</p>
+<p>Miljøfarlige stoffer</p>
+</td>
+<td><p>Farlig for vannmiljøer
+eller avløpssystemer.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG CLASS=»«class
+imag»»
+REF=»1841.jpg»/}}}</p>
+<p>Oppvarmede stoffer</p>
+</td>
+<td><p>Fare for forbrenninger.</p></td>
+<td><p>Unngå kontakt
+med varme deler
+av
+transportenheten
+og utlekket
+stoff.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Utstyr for personlig og alminnelig beskyttelse som skal medbringes på
+transportenheten i henhold til ADR 8.1.5 for å utføre generelle og
+farespesifikke nødtiltak.</p>
+<p>Følgende utstyr skal medbringes i alle transportenheter:</p>
+<p>– minst en stoppekloss per kjøretøy, av egnet størrelse for kjøretøyets
+vekt og hjuldiameter;</p>
+<p>– to frittstående varselsignaler;</p>
+<p>– øyeskyllevæske<sup>a</sup>, og</p>
+<p>for hvert medlem av kjøretøyets mannskap</p>
+<p>– varselvest;</p>
+<p>– en lommelykt;</p>
+<p>– et par beskyttelseshansker; og</p>
+<p>– øyebeskyttelse.</p>
+<p>Tilleggsutstyr som kreves for enkelte klasser:</p>
+<p>– en fluktmaske til hver enkelt av kjøretøyets mannskaper skal
+medbringes på transportenheten ved transport av gods med
+fareseddelnummer 2.3 eller 6.1;</p>
+<p>– en spade<sup>b</sup>;</p>
+<p>– tetning for sluk<sup>b</sup>;</p>
+<p>– oppsamlingsbeholder<sup>b</sup>.</p>
+<ol class="loweralpha simple">
+<li><p>Ikke nødvendig for faresedlene 1, 1.4, 1.5, 1.6, 2.1, 2.2 og 2.3.</p></li>
+</ol>
+<p>b. Bare nødvendig for faste stoffer og væsker med faresedlene 3, 4.1,
+4.3, 8 eller 9.</p>
+<p><strong>SKRIFTLIGE INSTRUKSJONER I HENHOLD TIL RID</strong></p>
+<p>Tiltak ved ulykker eller hendelser som involverer eller sannsynlig
+involverer farlig gods</p>
+<p>Hvis en ulykke eller hendelse oppstår eller er nært forstående under
+transport, skal førerne gjennomføre følgende tiltak dersom det er trygt
+og praktisk gjennomførbart<sup>a</sup>:</p>
+<p>– Stopp toget på et passende sted med hensyn til typen fare (for
+eksempel brann, tap av last), de lokale forhold (for eksempel tunnel,
+tettbebyggelse) og mulige tiltak fra redningstjenesten (tilgjengelighet,
+evakuering), hvis nødvendig etter avtale med den ansvarlige for
+jernbaneinfrastrukturen;</p>
+<p>– Sett lokomotivet ut av drift i henhold til driftsinstruksjonene;</p>
+<p>– Unngå tennkilder, og spesielt, unngå røyking og bruk av elektroniske
+sigaretter eller lignende innretninger. Ikke slå på elektrisk utstyr;</p>
+<p>– Ta hensyn til tilleggsveiledningen i etterfølgende tabell som gjelder
+for det farlige godset. Farene tilsvarer fareseddelen og merkingen som
+gjelder for godset som er involvert;</p>
+<p>– Informer den ansvarlige for jernbaneinfrastrukturen eller
+redningstjenesten med så mye informasjon om ulykken og de farlige
+stoffene som mulig og ta hensyn til transportørens instruksjoner;</p>
+<p>– Ha informasjon om det farlige godset som transporteres (om nødvendig
+transportdokumentene) lett tilgjengelig for redningstjenesten når denne
+ankommer, eller ha disse tilgjengelig ved elektronisk datautveksling
+(EDI);</p>
+<p>– Når lokomotivet forlates, ta på de foreskrevne varselklær;</p>
+<p>– Hvis nødvendig, bruk annet verneutstyr;</p>
+<p>– Gå vekk fra skadestedets umiddelbare nærhet, råd andre til å gjøre det
+samme og følg rådene fra ansvarshavende (interne og eksterne);</p>
+<p>– Ikke gå i eller berør utlekkede stoffer og unngå å puste inn gass,
+røyk, støv og damp ved å bevege deg i den retningen vinden blåser fra;</p>
+<p>– Fjern alle tilsølte klær og avhend dem på en trygg måte.</p>
+<p>a. Ta hensyn til spesifikasjonene i jernbaneregelverkene eller de
+operative jernbanebestemmelsene.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Till
+eggsvei
+ledning
+for
+førere
+om
+ege
+nskaper
+til
+farlig
+gods
+etter
+klasse
+og
+tiltak
+a
+vhengig
+av
+rådende
+om
+stendig
+heter</strong></p></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Fares
+edler</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p><strong>Farlige
+egenskaper</strong></p></td>
+<td><p><strong>Till
+eggsveil
+edning</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="3">
+<li></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>Eks
+plosive
+stoffer
+og
+gjen
+stander</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Kan ha mange
+egenskaper og
+effekter slik
+som:</p>
+<p>Ma
+ssedetonasjoner,
+utkast av
+splinter og
+annet materiale,
+intens
+brann/varme,
+kraftige
+lysglimt,
+kraftig støy
+eller røyk.</p>
+<p>Følsomme for
+sjokk eller støt
+eller varme.</p>
+</td>
+<td><p>Ta
+dekning,
+men
+unngå å
+stå bak
+vinduer.</p></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1986.j
+pg»/}}}</p>
+<p>1</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1983.j
+pg»/}}}</p>
+<p>1.5</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1985.j
+pg»/}}}</p>
+<p>1.6</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Eks
+plosive
+stoffer
+og
+gjen
+stander</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>En viss fare for
+eksplosjon og
+brann.</p></td>
+<td><p>Ta
+dekning.</p></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1981.j
+pg»/}}}</p>
+<p>1.4</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Brann
+farlige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.</p>
+<p>Kan være under
+trykk.</p>
+<p>Fare for
+kvelning.</p>
+<p>Kan forårsake
+forbrenninger
+eller
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1994.j
+pg»/}}}</p>
+<p>2.1</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«1996.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Ikke
+-brannf
+arlige,
+ikke-
+giftige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+kvelning.</p>
+<p>Kan være under
+trykk.</p>
+<p>Kan forårsake
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2127.j
+pg»/}}}</p>
+<p>2.2</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2000.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Giftige
+gasser</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forgiftning.</p>
+<p>Kan være under
+trykk.</p>
+<p>Kan forårsake
+forbrenninger
+eller
+frostskader.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning.</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2001.j
+pg»/}}}</p>
+<p>2.3</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Brann
+farlige
+væsker</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.</p>
+<p>Beholdere kan
+eksplodere ved
+oppvarming.</p>
+</td>
+<td><p>Ta
+dekning.</p>
+<p>Unngå
+lavt
+liggende
+områder.</p>
+</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2003.j
+pg»/}}}</p>
+<p>3</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2006.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Brann
+farlige
+faste
+s
+toffer,
+selvr
+eaktive
+s
+toffer,
+p
+olymeri
+serende
+stoffer
+og
+faste
+desen
+siterte
+eksp
+losiver</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann.
+Brannfarlige
+eller brennbare,
+kan antennes av
+varme, gnister
+eller flammer.
+Kan inneholde
+selvreaktive
+stoffer som er
+tilbøyelige til
+eksoterm
+dekomponering
+dersom de
+utsettes for
+tilførsel av
+varme, kontakt
+med andre
+stoffer (som
+syrer,
+tungme
+tallforbindelser
+eller aminer),
+friksjon eller
+støt. Dette kan
+medføre
+utvikling av
+skadelig og
+brannfarlig gass
+eller damp eller
+selvantennelse.
+Beholdere kan
+eksplodere ved
+oppvarming.
+Risiko for
+eksplosjon av
+desensiterte
+eksplosiver
+etter tap av
+desensiterer.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2008.j
+pg»/}}}</p>
+<p>4.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Selvant
+ennende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann
+ved
+selvantennelse
+dersom
+emballasjen er
+skadd, eller ved
+lekkasje. Kan
+reagere voldsomt
+med vann.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2010.j
+pg»/}}}</p>
+<p>4.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Stoffer
+som
+u
+tvikler
+brann
+farlige
+gasser
+i
+kontakt
+med
+vann</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for brann
+eller eksplosjon
+ved kontakt med
+vann.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2012.j
+pg»/}}}</p>
+<p>4.3</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2014.j
+pg»/}}}</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Oksi
+derende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for voldsom
+reaksjon,
+antennelse og
+eksplosjon ved
+kontakt med
+brennbare eller
+brannfarlige
+stoffer.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2016.j
+pg»/}}}</p>
+<p>5.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Or
+ganiske
+per
+oksider</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+eksotermisk
+(
+varmeutviklende)
+dekomponering
+ved høye
+temperaturer,
+kontakt med
+andre stoffer
+(som syrer,
+tungme
+tallforbindelser
+eller aminer),
+friksjon eller
+støt. Dette kan
+medføre
+utvikling av
+skadelige og
+brannfarlige
+gasser eller
+damper eller
+selvantennelse.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2365.j
+pg»/}}}</p>
+<p>5.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Giftige
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forgiftning ved
+innånding,
+hudkontakt eller
+svelging.</p>
+<p>Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2019.j
+pg»/}}}</p>
+<p>6.1</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Infek
+sjonsfr
+emmende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+infeksjon.</p>
+<p>Kan forårsake
+alvorlige
+sykdommer hos
+mennesker eller
+dyr. Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2021.j
+pg»/}}}</p>
+<p>6.2</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Radi
+oaktivt
+ma
+teriale</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for å bli
+tatt opp i
+organismen og
+ytre stråling.</p></td>
+<td><p>Begrens
+ek
+sponerin
+gstiden.</p></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2023.j
+pg»/}}}</p>
+<p>7 A</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2026.j
+pg»/}}}</p>
+<p>7 B</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2028.j
+pg»/}}}</p>
+<p>7 C</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+R
+EF=»5-3
+-1-7-2-
+radioac
+tiveB.j
+pg»/}}}</p>
+<p>7 D</p>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Sp
+altbart
+ma
+teriale</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for nukleær
+kjedereaksjon.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+EPS »»
+REF=»fi
+ssile.e
+ps»/}}}</p>
+<p>7 E</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Etsende
+stoffer</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+etseskader.</p>
+<p>Kan reagere
+kraftig med
+hverandre, med
+vann og andre
+stoffer.
+Utlekket stoff
+kan utvikle
+etsende damper.</p>
+<p>Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2034.j
+pg»/}}}</p>
+<p>8</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Forsk
+jellige
+farlige
+stoffer
+og
+gjen
+stander</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>Fare for
+forbrenninger.</p>
+<p>Fare for brann.</p>
+<p>Fare for
+eksplosjon.</p>
+<p>Farlig for
+vannmiljøer
+eller
+avløpssystemer.</p>
+</td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>{{{IMG
+CLASS=
+««class
+imag»»
+REF=
+«2035.j
+pg»/}}}</p>
+<p>9</p>
+</td>
+<td><p>{{{IMG
+CLASS=
+««class
+PDF »»
+REF=»F
+aresedd
+el-9A.p
+df»/}}}</p>
+<p>9 A</p>
+</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>ANM 1:</strong> For farlige stoffer med flere farer og ved samlasting skal
+alle relevante tiltak følges.</p>
+<p><strong>ANM 2:</strong> Tiltakene som er listet i kolonne (3) i tabellen må tilpasses
+slik at de tilsvarer de klassene med farlig gods som transporteres og
+den aktuelle transportmåten, og hvis nødvendig tilpasse dem til
+eksisterende nasjonale bestemmelser.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Tilleggsveiledning
+for førere om
+egenskaper til farlig
+gods etter klasse og
+tiltak
+avhengig av rådende
+omstendigheter.</strong></p></th>
+<th class="head"></th>
+<th class="head"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Merking</strong></p></td>
+<td><p><strong>Farlige egenskaper</strong></p></td>
+<td><p><strong>Tilll
+eggsveiledning</strong></p></td>
+</tr>
+<tr class="row-odd"><td><ol class="arabic simple">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="2">
+<li></li>
+</ol>
+</td>
+<td><ol class="arabic simple" start="3">
+<li></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>Miljøfarlige stoffer</p>
+<p>{{{IMG CLASS=»«class
+EPS »»
+REF=»SymbolFiskT
+re_markering.eps»/}}}</p>
+</td>
+<td><p>Farlig for vannmiljøer
+eller avløps-systemer.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Oppvarmede stoffer</p>
+<p>{{{IMG CLASS=»«class
+imag»»
+REF=»1841.jpg»/}}}</p>
+</td>
+<td><p>Fare for forbrenninger.</p></td>
+<td><p>Unngå kontakt
+med varme deler
+av vognen eller
+containeren og
+utlekket stoff.</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Utstyr for
+personlig beskyttelse
+som skal medbringes i
+førerhytten</strong></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p><strong>Følgende
+utstyr</strong><sup>a</sup>
+<strong>skal medbringes i
+førerhytten:</strong></p>
+<div class="line-block">
+<div class="line">– en lommelykt;</div>
+<div class="line">for føreren:</div>
+</div>
+<p>– egnede varselklær.</p>
+</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>a) Utstyret som skal holdes tilgjengelig, skal hvis nødvendig, utfylles
+i henhold til nasjonale spesifikasjoner.</p>
+<p id="id82"><code class="docutils literal notranslate"><span class="pre">5.4.3.5</span></code></p>
+<p>ADR: Kontraherende parter skal oversende sin offisielle oversettelse av
+de skriftlige instruksjonene på sitt nasjonale språk til
+UNECE-sekretariatet, i samsvar med dette avsnittet. UNECE-sekretariatet
+skal gjøre de nasjonale versjonene av de skriftlige instruksjonene de
+har mottatt tilgjengelige for alle kontraherende parter.</p>
+</section>
+<section id="oppbevaring-av-transportinformasjon-om-farlig-gods">
+<span id="id83"></span><h2>5.4.4 Oppbevaring av transportinformasjon om farlig gods<a class="headerlink" href="#oppbevaring-av-transportinformasjon-om-farlig-gods" title="Link to this heading">#</a></h2>
+<p id="id84"><code class="docutils literal notranslate"><span class="pre">5.4.4.1</span></code></p>
+<p>Avsenderen og transportøren skal oppbevare en kopi av
+transportdokumentet for farlig gods og tilleggsinformasjon og
+dokumentasjon som spesifisert i ADR/RID i en periode på minst 3 måneder.</p>
+<p id="id85"><code class="docutils literal notranslate"><span class="pre">5.4.4.2</span></code></p>
+<p>Dersom dokumentene blir bevart elektronisk eller i et datasystem skal
+avsenderen og transportøren være i stand til å reprodusere den på papir.</p>
+</section>
+<section id="eksempel-pa-multimodal-blankett-for-farlig-gods">
+<span id="id86"></span><h2>5.4.5 Eksempel på multimodal blankett for farlig gods<a class="headerlink" href="#eksempel-pa-multimodal-blankett-for-farlig-gods" title="Link to this heading">#</a></h2>
+<p>Eksempel på en blankett som kan brukes som kombinert farlig
+gods-deklarasjon og containerstuingssertifikat for multimodal transport
+av farlig gods.</p>
+<p>{{{IMG CLASS=»«class imag»» REF=»2038.jpg»/}}}</p>
+<p>{{{IMG CLASS=»«class imag»» REF=»2039.jpg»/}}}</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id87" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id12">5</a><span class="fn-bracket">]</span></span>
+<p>Tunnelrestriksjonskodene gjelder kun ved ADR-transport.</p>
+</aside>
+<aside class="footnote brackets" id="id88" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id26">6</a><span class="fn-bracket">]</span></span>
+<p><strong>RID: For transport i en transportkjede som omfatter sjø- eller
+flytransport kan en kopi av den foreskrevne dokumentasjonen for sjø-
+eller flytransport være vedlagt transportdokumentet (f.eks. skjema
+for multimodal transport av farlig gods i henhold til 5.4.5). Disse
+dokumentene skal være av samme størrelse som transportdokumentet.
+Dersom skjemaet for multimodal transport av farlig gods i henhold til
+5.4.5 er vedlagt transportdokumentet, behøver ikke informasjonen om
+det farlige godset som allerede står i skjemaet for multimodal
+transport være angitt i transportdokumentet, men en referanse til det
+supplerende skjemaet skal være innført i passende rubrikk i
+transportdokumentet.</strong></p>
+</aside>
+<aside class="footnote brackets" id="id89" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id37">7</a><span class="fn-bracket">]</span></span>
+<ol class="loweralpha simple" start="24">
+<li><p>skal erstattes med «1» eller «2» avhengig av hva som er relevant.</p></li>
+</ol>
+</aside>
+<aside class="footnote brackets" id="id90" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id47">8</a><span class="fn-bracket">]</span></span>
+<p>«For gjenstander betyr «eksplosivinnhold» mengden eksplosive stoffer
+i gjenstanden»</p>
+</aside>
+<aside class="footnote brackets" id="id91" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id48">9</a><span class="fn-bracket">]</span></span>
+<p>Nasjonalitetsmerket til registreringsstaten som brukes på
+motorkjøretøyer og tilhengere i internasjonal vegtrafikk, for
+eksempel i samsvar med Genèvekonvensjonen om vegtrafikk av 1949 eller
+Wienkonvensjonen om vegtrafikk av 1968.</p>
+</aside>
+<aside class="footnote brackets" id="id92" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id49">10</a><span class="fn-bracket">]</span></span>
+<p>Nasjonalitetsmerket til registreringsstaten som brukes på
+motorkjøretøyer og tilhengere i internasjonal vegtrafikk, for
+eksempel i samsvar med Genèvekonvensjonen om vegtrafikk av 1949 eller
+Wienkonvensjonen om vegtrafikk av 1968.</p>
+</aside>
+<aside class="footnote brackets" id="id93" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id70">11</a><span class="fn-bracket">]</span></span>
+<p><strong>RID: Utgitt av CGU Bureau, Avenue Louise, 500, BE-1050 Brussels,
+www.gcubureau.org.</strong></p>
+</aside>
+<aside class="footnote brackets" id="id94" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id72">12</a><span class="fn-bracket">]</span></span>
+<p>ADR: For anvendelsen av dette dokumentet kan man gjøre bruk av de
+tilsvarende anbefalingene fra UNECEs arbeidsgruppe for lettelse i
+internasjonale handelsprosedyrer (UN/CEFACT), spesielt Anbefaling nr.
+1 (FNs utkast til formularer for handelsdokumenter) (ECE/TRADE/137,
+utgave 81.3), Utkast til formular for handelsprosedyrer –
+Retningslinjer for anvendelse (ECE/TRADE/270, utgave 2002),
+Anbefaling nr. 11 (Dokumentasjonsaspekter ved internasjonal transport
+av farlig gods) (ECE/TRADE/204, utgave 96.1) og Anbefaling nr.22
+(Utkast til formular for standardiserte transportanvisninger)
+(ECE/TRADE/168), utgave 1989) Se fortegnelsen over dataelementer for
+handel (UNTDED) (ECE/TRADE/362, utgave 2005), Anbefalinger til
+lettelse av handel (ECE/TRADE/200) (Utgitt av de Forenet Nasjoner,
+salgsnummer E/F.96.II.E.13).</p>
+</aside>
+<aside class="footnote brackets" id="id95" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id75">13</a><span class="fn-bracket">]</span></span>
+<p>Retningslinjer som kan brukes ved øvelse og opplæring for lasting i
+transportenheter er også utarbeidet av «the International Maritime
+Organization» (IMO), «the International Labour Organization» (ILO) og
+«the United Nations Economic Commission for Europe» (UNECE) og er
+utgitt av IMO («IMO/ILO/UNECE Code of Practice for Packing of Cargo
+Transport Units (CTU Code)»).</p>
+</aside>
+<aside class="footnote brackets" id="id96" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id76">14</a><span class="fn-bracket">]</span></span>
+<p>Avsnitt 5.4.2 i IMDG-koden (Amendment 40-20) stiller følgende krav:</p>
+<blockquote>
+<div><p><strong>«5.4.2 Container-/kjøretøystuin</strong>gssertifikat</p>
+<p>5.4.2.1 Når farlig gods stues eller lastes på eller inn i en
+container (se definisjon av «freight container» i 1.2.1 i IMDG
+koden) eller et kjøretøy, skal de som er ansvarlige for stuingen
+av containeren eller kjøretøyet utstede et
+«container-/kjøretøystuingssertifikat» som angir
+containerens/kjøretøyets identifikasjonsnummer og attestere at
+stuingen er foretatt i samsvar med følgende betingelser:</p>
+<p><em>.1 Containeren/kjøretøyet var ren, tørr og tilsynelatende i stand
+til å ta imot godset;</em></p>
+<p><em>.2 Kolli som i henhold til gjeldende segregeringsbestemmelser må
+være adskilt, er ikke stuet sammen på eller i en
+container/kjøretøy (med mindre dette er godkjent av angjeldende
+vedkommende myndighet i henhold til 7.3.4.1 (i IMDG-koden));</em></p>
+<p><em>.3 Alle kolli er inspisert for utvendig skade, og bare kolli i
+god stand er blitt lastet;</em></p>
+<p><em>.4 Fat er stuet stående, med mindre vedkommende myndighet har
+godkjent noe annet. Alt gods er forsvarlig lastet og hvor
+nødvendig, forsvarlig sikret med sikringsmateriell (se
+IMO/ILO/UNECE Guidelines for Packing of Cargo Transport Units)
+tilpasset den aktuelle transportmåte og strekning;</em></p>
+<p><em>.5 Når farlig gods transporteres i bulk, er lasten jevnt fordelt
+i containeren/kjøretøyet;</em></p>
+<p><em>.6 Dersom forsendelsene inneholder gods av klasse 1 annet enn
+faregruppe 1.4, at containeren/kjøretøyet er strukturelt i
+driftsmessig stand i samsvar med 7.1.2 (i IMDG-koden);</em></p>
+<p><em>.7 Containeren/kjøretøyet og kolli som befinner seg i den, er
+korrekt merket og påført riktige faresedler og store faresedler;</em></p>
+<p><em>.8 Når stoffer som utgjør en kvelningsfare benyttes til kjøling
+eller kondisjonering (som tørris (UN 1845) eller nitrogen,
+nedkjølt flytende (UN 1977) eller argon, nedkjølt flytende (UN
+1951)) er containeren/kjøretøyet utvendig merket i henhold til
+5.5.3.6 (i IMDG-koden); og</em></p>
+<p><em>.9 Et transportdokument for farlig gods som kreves i 5.4.1 (i
+IMDG-koden), er mottatt for hver forsendelse med farlig gods som
+er stuet på eller i containeren/kjøretøyet.</em></p>
+<p><strong>ANM:</strong> Container-/kjøretøystuingssertifikat er ikke påkrevet for
+multimodale tanker.</p>
+<p>5.4.2.2 Informasjonen som er krevet i transportdokumentet og
+container-/kjøretøystuingssertifikatet kan være sammenfattet i ett
+enkelt dokument. I motsatt fall skal begge dokumentene være
+vedlagt. Dersom informasjonen er sammenfattet i ett enkelt
+dokument, skal dokumentet inneholde en undertegnet erklæring slik
+som «Det bekreftes at stuingen av gods i containeren/kjøretøyet er
+foretatt i samsvar med bestemmelsene i det gjeldende regelverk».
+Dokumentet skal være datert, og det skal angis på dokumentet hvem
+som har undertegnet denne erklæringen. Faksimilesignatur er
+akseptabelt der hvor gjeldende lover og bestemmelser anerkjenner
+faksimilesignatur juridisk.</p>
+<p>5.4.2.3 Hvis container-/kjøretøystuingssertifikat er gitt til
+transportøren i form av elektroniske data (EDP eller EDI), kan
+signaturen(e) være elektroniske signatur(er) eller erstattes med
+navnet/navnene til den/de som er autorisert til å signere, i store
+bokstaver.</p>
+<p>5.4.2.4 Når container-/kjøretøystuingssertifikatet gis elektronisk
+til en transportør (ved EDP eller EDI), og det farlige godset
+deretter overføres til en transportør som trenger
+container-/kjøretøystuingssertifikat på papir, skal transportøren
+forsikre seg om at papirdokumentasjonen indikerer «Original
+mottatt elektronisk», og navnet på undertegner skal vises i store
+bokstaver.</p>
+</div></blockquote>
+</aside>
+</aside>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Kapittel 5.3 Store faresedler/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 5.5 Spesielle bestemmelser/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 5.5 Spesielle bestemmelser</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generelt">5.4.0 Generelt</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#transportdokument-for-farlig-gods-og-opplysninger-i-den-forbindelse">5.4.1 Transportdokument for farlig gods og opplysninger i den forbindelse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#container-kjoretoystuingssertifikat">5.4.2 Container-/kjøretøystuingssertifikat</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#skriftlige-instruksjoner">5.4.3 Skriftlige instruksjoner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oppbevaring-av-transportinformasjon-om-farlig-gods">5.4.4 Oppbevaring av transportinformasjon om farlig gods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eksempel-pa-multimodal-blankett-for-farlig-gods">5.4.5 Eksempel på multimodal blankett for farlig gods</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del5/Kapittel 5.4 Dokumentasjon.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

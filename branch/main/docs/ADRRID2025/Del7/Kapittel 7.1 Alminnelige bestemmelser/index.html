@@ -1,0 +1,908 @@
+
+<!DOCTYPE html>
+
+
+<html lang="nb-NO" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kapittel 7.1 Alminnelige bestemmelser &#8212; ADR-RID portalen  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/custom.css?v=8bf501f5" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../../../_static/documentation_options.js?v=2ea4f440"></script>
+    <script src="../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/translations.js?v=b06a96f2"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/ADRRID2025/Del7/Kapittel 7.1 Alminnelige bestemmelser';</script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex/" />
+    <link rel="search" title="Søk" href="../../../../search/" />
+    <link rel="next" title="Kapittel 7.2 Bestemmelser om transport i kolli" href="../Kapittel 7.2 Bestemmelser om transport i kolli/" />
+    <link rel="prev" title="Del 7 Bestemmelser om transport, lasting, lossing og håndtering" href="../Del7_index/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="nb-NO"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/logo.SVG" class="logo__image only-light" alt="ADR-RID portalen  documentation - Home"/>
+    <img src="../../../../_static/logo.SVG" class="logo__image only-dark pst-js-only" alt="ADR-RID portalen  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Søk" aria-label="Søk" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Søk</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../landtransportforskriftenindex/">
+    Landtransportforskriften
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del0/OmADRRID/">
+    Om ADR/RID
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../ADRRID2025Index/">
+    ADR/RID 2025
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../Del3Tabell/Del3Tabell/">
+    Tabell A
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://farliggodspermen.no/">
+    Farliggodspermen
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="/ADRRIDOnline/_static/modulvogntog_snake.html" title="18a" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-truck-front fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">18a</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Innhold:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del1/Del1_index/">Del 1 Alminnelige bestemmelser</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.1 Omfang og anvendelse/">Kapittel 1.1 Omfang og anvendelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.2 Definisjoner, målenheter og forkortelser/">Kapittel 1.2 Definisjoner, måleenheter og forkortelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods/">Kapittel 1.3 Opplæring av personale som er involvert i transport av farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.4 Aktørenes plikter/">Kapittel 1.4 Aktørenes plikter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.5 Avvik/">Kapittel 1.5 Avvik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.6 Overgangsbestemmelser/">Kapittel 1.6 Overgangsbestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale/">Kapittel 1.7 Generelle bestemmelser vedrørende radioaktivt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt/">Kapittel 1.8 Kontroller og andre støttetiltak for å sikre at sikkerhetsbestemmelsene blir fulgt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter/">Kapittel 1.9 Transportrestriksjoner pålagt av vedkommende myndigheter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.10 Bestemmelser om sikring (security)/">Kapittel 1.10 Bestemmelser om sikring (security)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del1/Kapittel 1.11 RID Interne beredskapsplaner for skiftestasjoner/">Kapittel 1.11 RID: Interne beredskapsplaner for skiftestasjoner</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del2/Del2_index/">Del 2 Klassifisering</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.1 Alminnelige bestemmelser/">Kapittel 2.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.2 Spesielle bestemmelser for de enkelte klassene/">Kapittel 2.2 Spesielle bestemmelser for de enkelte klasser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del2/Kapittel 2.3 Testmetoder/">Kapittel 2.3 Testmetoder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del3/Del3_index/">Del 3 Liste over farlig gods, spesielle bestemmelser og unntak relatert til begrensede og unntatte mengde</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.1 Generelt/">Kapittel 3.1 Generelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.2 Liste over farlig gods/">Kapittel 3.2 Liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Tabell B - Alfabetisk liste over farlig gods/">Tabell B: Alfabetisk liste over farlig gods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer/">Kapittel 3.3 Spesielle bestemmelser som gjelder visse gjenstander eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.4 Farlig gods pakket i begrensede mengder/">Kapittel 3.4 Farlig gods pakket i begrensede mengder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del3/Kapittel 3.5 Farlig gods pakkei i unntatte mengder/">Kapittel 3.5 Farlig gods pakket i unntatte mengder</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del4/Del4_index/">Del 4 Bestemmelser om emballering og tanker</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje/">Kapittel 4.1 Bruk av emballasje, inklusive mellomstore bulkcontainere (IBCer) og storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)/">Kapittel 4.2 Bruk av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.3 Bruk av faste tanker/">Kapittel 4.3 Bruk av faste tanker (tankkjøretøyer, tankvogner), løstanker, vekseltanker og tankcontainere med skall fremstilt av metalliske materialer, samt batterikjøretøyer, batterivogner og multi-element gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.4 ADR Bruk av tanker av fiberarmert plast (FRP), faste tanker (tankjøretøyer), løstanker, tankcontainere og vekseltanker/">Kapittel 4.4 ADR: Bruk av faste tanker (tankkjøretøyer) og løstanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.5 Bruk av slamsugere/">Kapittel 4.5 Bruk av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.6/">Kapittel 4.6 (reservert)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del4/Kapittel 4.7 ADR Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)/">Kapittel 4.7 ADR: Bruk av mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del5/Del5_index/">Del 5 Klargjøring for forsendelse</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.1 Alminnelige bestemmelser/">Kapittel 5.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.2 Merking og faresedler/">Kapittel 5.2 Merking og faresedler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.3 Store faresedler/">Kapittel 5.3 Store faresedler og merking på containere, bulkcontainere, MEGCer, MEMUer, tankcontainere, multimodale tanker, jernbanevogner og kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.4 Dokumentasjon/">Kapittel 5.4 Dokumentasjon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del5/Kapittel 5.5 Spesielle bestemmelser/">Kapittel 5.5 Spesielle bestemmelser</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del6/Del6_index/">Del 6 Bestemmelser om konstruksjon og prøving av emballasje, mellomstore bulkcontainere (IBCer), storemballasje, tanker og bulkcontainere</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje/">Kapittel 6.1 Bestemmelser om konstruksjon og prøving av emballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.2 Bestemmelser om konstruksjon og prøving av trykkbeholdere/">Kapittel 6.2 Bestemmelser for konstruksjon og prøving av trykkbeholdere for gasser, aerosolbeholdere og små gassbeholdere (engangsbeholdere med gass) og brenselcellepatroner som inneholder brannfarlig flytende gass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende/">Kapittel 6.3 Bestemmelser om konstruksjon og prøving av emballasje for infeksjonsfremmende stoffer av kategori A i klasse 6.2 (UN 2814 og 2900)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.4 Bestemmelser om konstruksjon og prøving av emballasje for radioaktivt/">Kapittel 6.4 Bestemmelser om konstruksjon, prøving og godkjenning av kolli for radioaktivt materiale og for godkjenningen av slikt materiale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.5 Bestemmelser om konstruksjon og prøving av IBCer/">Kapittel 6.5 Bestemmelser for kontruksjon og prøving av mellomstore bulkcontainere (IBCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.6 Bestemmelser om konstruksjon og prøving av storemballasje/">Kapittel 6.6 Bestemmelser for konstruksjon og prøving av storemballasje</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.7 Bestemmelser om konstruksjon UN-MEGC/">Kapittel 6.7 Bestemmelser om design, konstruksjon, kontroll og prøving av multimodale tanker og multielement gasscontainere som er i henhold til UN-bestemmelser (UN-MEGC)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.8 Bestemmelser om konstruksjon MEGC/">Kapittel 6.8 Bestemmelser om konstruksjon, utstyr, typegodkjenning, kontroll og prøving samt merking for faste tanker (tankkjøretøyer, tankvogner) løstanker, tankcontainere og vekseltanker med tankskall av metallisk materiale samt batterikjøretøyer, batterivogner og multielement gasscontainere (MEGCer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.9 Bestemmelser om FRP/">Kapittel 6.9 Bestemmelser for design, konstruksjon, kontroll og prøving av multimodale tanker av fiberarmert plast (FRP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.10 Bestemmelser om slamsugere/">Kapittel 6.10 Bestemmelser for design, utstyr, typegodkjenning, prøving og merking av slamsugere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.11 bestemmelser om bulkcontainere/">Kapittel 6.11 Bestemmelser om design, konstruksjon, kontroll og prøving av bulkcontainere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.12 ADR bestemmelser om MEMUer/">Kapittel 6.12 ADR: Bestemmelser for design, utstyr, typegodkjenning, kontroll og prøving, samt merking av tanker, bulkcontainere og spesielle lasterom for eksplosiver på mobile enheter for tilvirkning av eksplosiver (MEMUer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del6/Kapittel 6.13 ADR bestemmelser om tankkjøretøyer/">Kapittel 6.13 ADR: Bestemmelser for design, konstruksjon, utstyr, typegodkjenning, prøving og merking av faste tanker (tankkjøretøyer) av fiberarmert plast (FRP) og løstanker</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Del7_index/">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Kapittel 7.1 Alminnelige bestemmelser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.2 Bestemmelser om transport i kolli/">Kapittel 7.2 Bestemmelser om transport i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.3 Bestemmelser om transport i bulk/">Kapittel 7.3 Bestemmelser om transport i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.4 Bestemmelser om transport i tanker/">Kapittel 7.4 Bestemmelser om transport i tanker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering/">Kapittel 7.5 Bestemmelser om lasting, lossing og håndtering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.6 RID Bestemmelser om transport i kolli/">Kapittel 7.6 RID: Bestemmelser for forsendelse som ekspresspakker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Kapittel 7.7 RID Piggybacktransport i kombinert passasjer- og godstransport/">Kapittel 7.7 RID: Piggybacktransport i kombinert passasjer- og godstransport</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del8/Del8_index/">Del 8 ADR: Bestemmelser om kjøretøyenes mannskaper og utstyr samt drift og dokumentasjon</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr/">Kapittel 8.1 Alminnelige bestemmelser om transportenheter og medfølgende utstyr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper/">Kapittel 8.2 Bestemmelser om opplæring av kjøretøymannskaper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til/">Kapittel 8.3 Forskjellige bestemmelser som kjøretøymannskapene må holde seg til</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer/">Kapittel 8.4 Bestemmelser om tilsyn med kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer/">Kapittel 8.5 Tilleggsbestemmelser som gjelder visse klasser eller stoffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del8/Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler/">Kapittel 8.6 Begrensninger på transport av farlig gods i vegtunneler</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Del9/Del9_index/">Del 9 ADR: Bestemmelser om bygging og godkjenning av kjøretøyer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer/">Kapittel 9.1 Omfang, definisjoner og krav for godkjenning av kjøretøyer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.2 Bestemmelser om kjøretøyers utførelse/">Kapittel 9.2 Bestemmelser om kjøretøyers utførelse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.3 Tilleggsbestemmelser for komplette eller ferdigstilte EX/II eller EX/III kjøretøyer beregnet for transport av eksplosive stoffer og gjenstander (klasse 1) i kolli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer/">Kapittel 9.4 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlig gods i kolli (andre enn EX/II og EX/III kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.5 Tilleggsbestemmelser transport bulk/">Kapittel 9.5 Tilleggsbestemmelser vedrørende bygging av karosserier for komplette eller ferdigstilte kjøretøyer beregnet for transport av farlige faste stoffer i bulk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.6 Tilleggsbestemmelser transport under temperaturkontroll/">Kapittel 9.6 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte kjøretøyer beregnet for transport av stoffer under temperaturkontroll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.7 Tilleggsbestemmelser tankkjøretøyer og batteri/">Kapittel 9.7 Tilleggsbestemmelser for tankkjøretøyer (faste tanker) batterikjøretøyer og komplette eller ferdigstilte kjøretøyer brukt for transport av farlig gods i løstank med volum over 1 m<sup>3</sup> eller i tankcontainere, multimodale tanker eller MEGCer med volum over 3 m<sup>3</sup> (EX/III, FL og AT kjøretøyer)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Del9/Kapittel 9.8 Tilleggsbestemmelser komplette eller ferdigstilte MEMUer/">Kapittel 9.8 Tilleggsbestemmelser vedrørende komplette eller ferdigstilte MEMUer</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../ADRRID2025Index/" class="nav-link">ADR/RID 2025</a></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Del7_index/" class="nav-link">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Kapittel 7.1 Alminnelige bestemmelser</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="kapittel-7-1-alminnelige-bestemmelser">
+<span id="id1"></span><h1>Kapittel 7.1 Alminnelige bestemmelser<a class="headerlink" href="#kapittel-7-1-alminnelige-bestemmelser" title="Link to this heading">#</a></h1>
+<p id="id2"><code class="docutils literal notranslate"><span class="pre">7.1.1</span></code></p>
+<p>Transport av farlig gods skal foretas i samsvar med bestemmelsene i
+dette kapitlet samt bestemmelsene i kapittel 7.2 for transport i kolli,
+kapittel 7.3 for transport i bulk og kapittel 7.4 for transport i
+tanker. Dessuten skal bestemmelsene i kapittel 7.5 om lasting, lossing
+og håndtering følges.</p>
+<p>Kolonnene 16, 17 og 18 i tabell A i kapittel 3.2 angir de spesielle
+bestemmelsene i denne delen som gjelder for spesifikt farlig gods.</p>
+<p><strong>ANM (RID): Vogner er tillatt utstyrt med detektorer som indikerer
+eller reagerer på en avsporing, forutsatt at kravene til
+bruksgodkjenning av slike vogner et oppfylt. Brukskravene for vogner kan
+ikke forby eller pålegge bruk av slike detektorer. Sirkulasjonen av
+vogner skal ikke hindres på grunn av installert eller fraværende
+deteksjonsutstyr.</strong></p>
+<p id="id3"><code class="docutils literal notranslate"><span class="pre">7.1.2</span></code></p>
+<p>ADR: I tillegg til bestemmelsene i denne delen, skal kjøretøyer som
+brukes til transport av farlig gods med hensyn til konstruksjon,
+utførelse og eventuelt godkjenning være i samsvar med de relevante
+bestemmelsene i del 9.</p>
+<p id="id4"><code class="docutils literal notranslate"><span class="pre">7.1.3</span></code></p>
+<p>Storcontainere, multimodale tanker, MEGCer og tankcontainere som svarer
+til definisjonen av «container» i CSC, 1972, i endret versjon eller i
+IRS 50591 (Roller units for horizontal transhipment – Technical
+conditions governing their use in international traffic) <a class="footnote-reference brackets" href="#id33" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> og IRS
+50592 (Intermodal Transport Units (others than semi-trailers) for
+vertical transhipment and suitable for carriage on wagons – Minimum
+requirements) <a class="footnote-reference brackets" href="#id34" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> utgitt av UIC får ikke benyttes til transport av
+farlig gods med mindre storcontaineren eller rammen til den multimodale
+tanken, MEGCen eller tankcontaineren oppfyller bestemmelsene til CSC
+eller i IRS 50591 og IRS 50592 fra UIC.</p>
+<p id="id7"><code class="docutils literal notranslate"><span class="pre">7.1.4</span></code></p>
+<p><em>(slettet)</em></p>
+<p id="id8"><code class="docutils literal notranslate"><span class="pre">7.1.5</span></code></p>
+<p>ADR: Storcontainere skal oppfylle kravene til et kjøretøys lastekasse
+som er fastsatt i denne delen og, hvis de er relevante, de kravene som
+er fastsatt i del 9 for angjeldende last; det er da ikke nødvendig at
+kjøretøyets lastekasse oppfyller disse kravene.</p>
+<p>ADR: Dersom storcontainere transporteres på kjøretøyer med lasteplan som
+er isolert og varmebestandig på en måte som oppfyller disse kravene,
+behøver ikke storcontainerne oppfylle de samme kravene.</p>
+<p>ADR: Denne bestemmelsen gjelder også for småcontainere for transport av
+eksplosive stoffer og gjenstander av klasse 1.</p>
+<p id="id9"><code class="docutils literal notranslate"><span class="pre">7.1.6</span></code></p>
+<p>ADR: Det faktum at det farlige godset befinner seg i en eller flere
+containere, endrer ikke de betingelser som må oppfylles av kjøretøyet
+som følge av mengden og arten av farlig gods som blir transportert, dog
+slik at bestemmelsene i siste del av første setning i 7.1.5 skal gjelde.</p>
+<p id="id10"><code class="docutils literal notranslate"><span class="pre">7.1.7</span></code></p>
+<p>RID: (slettet)</p>
+<p>ADR: Spesielle bestemmelser for transport av selvreaktive stoffer i
+klasse 4.1, organiske peroksider i klasse 5.2. og stoffer stabilisert
+ved temperaturkontroll (andre enn selvreaktive stoffer og organiske
+peroksider)</p>
+<p id="id11"><code class="docutils literal notranslate"><span class="pre">7.1.7.1</span></code></p>
+<p>Alle selvreaktive stoffer, organiske peroksider og polymeriserende
+stoffer skal beskyttes mot direkte sollys og alle varmekilder, og
+plasseres på områder med tilstrekkelig ventilasjon.</p>
+<p id="id12"><code class="docutils literal notranslate"><span class="pre">7.1.7.2</span></code></p>
+<p>Når flere kolli lastes i en container eller i et lukket kjøretøy, får
+total mengde stoff, type og antall kolli samt stablingsløsning ikke
+skape en eksplosjonsfare.</p>
+<p id="id13"><code class="docutils literal notranslate"><span class="pre">7.1.7.3</span></code> <strong>Bestemmelser om temperaturkontroll</strong></p>
+<p id="id14"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.1</span></code></p>
+<p>Disse bestemmelsene gjelder for visse selvreaktive stoffer når det
+kreves av 2.2.41.1.17, og for enkelte organiske peroksider når det
+kreves av 2.2.41.1.21 eller spesiell bestemmelse 386 i kapittel 3.3 som
+kun får transporteres under betingelser der temperaturen er kontrollert.</p>
+<p id="id15"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.2</span></code></p>
+<p>Disse bestemmelsene gjelder også for transport av stoffer hvor:</p>
+<p>a) varenavnet som oppført i kolonne 2 i tabell A i kapittel 3.2 eller
+som i henhold til 3.1.2.6 inneholder ordet «TEMPERATURKONTROLLERT» ; og</p>
+<p>b) SADT (selvakselererende dekomponeringstemperatur) eller SAPT
+(selvakselererende polymeriseringstemperatur) som er bestemt for stoffet
+(med eller uten kjemisk stabilisering) når det tilbys for transport er:</p>
+<ol class="lowerroman simple">
+<li><p>50 °C eller lavere for enkeltemballasjer og IBCer; eller</p></li>
+<li><p>45° C eller lavere for tanker.</p></li>
+</ol>
+<p>Når kjemisk inhibitor ikke er benyttet for å stabilisere et reaktivt
+stoff som kan generere farlige mengder av varme og gass, eller damp,
+under normale transportforhold, må dette stoffet transporteres under
+temperaturkontroll. Disse bestemmelsene gjelder ikke for stoffer som er
+stabilisert ved å tilsette kjemisk inhibitor slik at SADT eller SAPT er
+høyere enn det som angis i b) i. eller ii. ovenfor.</p>
+<p id="id16"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.3</span></code></p>
+<p>I tillegg kan det for et selvreaktivt stoff eller organisk peroksid
+eller et stoff der varenavnet inneholder ordet «STABILISERT» og hvor det
+normalt ikke kreves transport under temperaturkontroll, likevel kreves
+transport under temperaturkontroll dersom stoffet transporteres under
+betingelser der temperaturen kan overstige 55 °C.</p>
+<p id="id17"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.4</span></code></p>
+<p>Kontrolltemperaturen er den høyeste temperaturen hvor stoffet kan
+transporteres sikkert. Det forventes at temperaturen i kolliets
+umiddelbare omgivelser under transport ikke overstiger 55 °C og at denne
+verdien oppnås kun for en relativt kort tid i løpet av hver periode på
+24 timer. I tilfelle bortfall av temperaturkontroll kan det bli
+nødvendig å iverksette nødprosedyrer. «Faretemperaturen» er den
+temperaturen hvor slike prosedyrer skal iverksettes.</p>
+<p id="id18"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.5</span></code></p>
+<p>Utledning av kontroll- og faretemperaturer</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Type
+beholder</strong></p></th>
+<th class="head"><dl class="simple">
+<dt><strong>SADT</strong></dt><dd><p><sup>a</sup><a href="#id19"><span class="problematic" id="id20">**</span></a>/S</p>
+</dd>
+</dl>
+<p>APT**<sup>a</sup></p>
+</th>
+<th class="head"><p><strong>Kontr
+olltemperatur</strong></p></th>
+<th class="head"><p><strong>F
+aretemperatur</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>E
+nkeltemballasje
+og IBCer</p></td>
+<td><p>20 °C eller
+lavere</p>
+<p>over 20 °C til
+35 °C</p>
+<p>over 35 °C</p>
+</td>
+<td><p>20 °C under
+SADT/SAPT</p>
+<p>15 °C under
+SADT/SAPT</p>
+<p>10 °C under
+SADT/SAPT</p>
+</td>
+<td><p>10 °C under
+SADT/SAPT</p>
+<p>10 °C under
+SADT/SAPT</p>
+<p>5 °C under
+SADT/SAPT</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Tanker</p></td>
+<td><p>£ 45 °C</p></td>
+<td><p>10 °C under
+SADT/SAPT</p></td>
+<td><p>5 °C under
+SADT/SAPT</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>a d.v.s SADT/SAPT til stoffet som pakket for transport.</p>
+<p id="id21"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.6</span></code></p>
+<p>Kontroll- og faretemperaturene bestemmes ved å bruke tabellen i
+7.1.7.3.5 fra den SADT eller SAPT som er definert som de laveste
+temperaturene hvor selvakselererende dekomponering eller
+selvakselererende polymerisering kan forekomme hos et stoff i
+emballasjen, IBCen eller tanken som benyttes ved transport. SADT eller
+SAPT skal bestemmes for å avgjøre om et stoff skal være underlagt
+temperaturkontroll under transport. Bestemmelser for fastsettelse av
+SADT og SAPT er gitt i del II, avsnitt 28 i UN Testmanualen.</p>
+<p id="id22"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.7</span></code></p>
+<p>Kontroll- og faretemperaturene, etter hva som er aktuelt, er gitt for
+nåværende tilordnede selvreaktive stoffer i 2.2.41.4 og for nåværende
+tilordnede sammensetninger av organiske peroksider i 2.2.52.4.</p>
+<p id="id23"><code class="docutils literal notranslate"><span class="pre">7.1.7.3.8</span></code></p>
+<p>Den faktiske transporttemperaturen kan være lavere enn
+kontrolltemperaturen, men skal velges slik at farlig separering av
+fasene unngås.</p>
+<p id="id24"><code class="docutils literal notranslate"><span class="pre">7.1.7.4</span></code> Transport under temperaturkontroll</p>
+<p id="id25"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.1</span></code></p>
+<p>Opprettholdelse av foreskrevet temperatur er nødvendig for sikker
+transport av stoffer stabilisert ved temperaturkontroll. Generelt skal
+det være:</p>
+<ol class="loweralpha simple">
+<li><p>grundig kontroll av lasteenheten før lasting;</p></li>
+</ol>
+<p>b) instruksjoner til transportøren om kjølesystemets drift inklusive en
+liste over leverandørene av kjølemiddel tilgjengelig langs ruten;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>prosedyrer som skal følges i tilfelle tap av kontroll;</p></li>
+<li><p>regelmessig overvåkning av driftstemperaturen; og</p></li>
+<li><p>bestemmelser for et reservekjølesystem eller reservedeler.</p></li>
+</ol>
+<p id="id26"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.2</span></code></p>
+<p>Alle innretninger for kontroll og temperaturføling i kjølesystemet skal
+være lett å komme til og alle elektriske tilkoblinger værbestandige.
+Lufttemperaturen inne i lasteenheten skal måles med to uavhengige følere
+og avlesningen registreres slik at temperaturendringer lett oppdages.
+Temperaturen skal kontrolleres hver fjerde til hver sjette time og
+logges. Ved transport av stoffer som har en kontrolltemperatur på under
+25 °C skal lasteenheten utstyres med lys- og lydalarmer, drevet
+uavhengig av kjølesystemet, som er satt til å aktiveres ved eller under
+kontrolltemperaturen.</p>
+<p id="id27"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.3</span></code></p>
+<p>Dersom kontrolltemperaturen overskrides under transport skal tiltak
+iverksettes som involverer nødvendige reparasjoner av kjøleutstyr eller
+en økning av kjølekapasiteten (f.eks ved å tilsette flytende eller fast
+kjølemiddel). Temperaturen skal også kontrolleres ofte og gjennomføring
+av nødprosedyrene skal forberedes. Dersom faretemperaturen nås skal
+nødprosedyren iverksettes.</p>
+<p id="id28"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.4</span></code></p>
+<p>Egnetheten til metoden som velges for temperaturkontroll under transport
+avhenger av flere faktorer. Faktorene som skal vurderes inkluderer:</p>
+<p>a) kontrolltemperaturen(e) for stoffet (stoffene) som skal
+transporteres;</p>
+<p>b) forskjellen mellom kontrolltemperaturen og forventet
+omgivelsestemperatur;</p>
+<ol class="loweralpha simple" start="3">
+<li><p>effektiviteten til den termiske isolasjonen;</p></li>
+<li><p>transportens varighet; og</p></li>
+<li><p>tillatt sikkerhetsmargin for forsinkelser.</p></li>
+</ol>
+<p id="id29"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.5</span></code></p>
+<p>Egnede metoder for å hindre at kontrolltemperaturen overskrides er
+oppført nedenfor i stigende rekkefølge etter kontrollkapasitet:</p>
+<p>a) Kjøretøy, container, emballasje eller overpakning med termisk
+isolasjon forutsatt at stoffets (ellers stoffenes) temperatur i
+utgangspunktet er tilstrekkelig langt under kontrolltemperaturen;</p>
+<p>b) Kjøretøy, container, emballasje eller overpakning med termisk
+isolasjon og kjølemiddelsystem forutsatt at:</p>
+<p>i) det medbringes tilstrekkelig mengde av ikke brannfarlig kjølemiddel
+(f.eks flytende nitrogen eller tørris), som gir rimelig sikkerhetsmargin
+for forsinkelser, eller at etterfylling av kjølemiddel er sikret;</p>
+<ol class="lowerroman simple" start="2">
+<li><p>flytende oksygen eller luft ikke benyttes som kjølemiddel;</p></li>
+</ol>
+<p>iii) det er en jevn kjølingseffekt også når det meste av kjølemiddelet
+er forbrukt; og</p>
+<p>iv) behovet for utlufting av transportenheten før noen entrer den er
+tydelig angitt med en advarsel på døren(e) til transportenheten;</p>
+<p>c) Kjøretøy eller container med termisk isolasjon og enkel mekanisk
+kjøling forutsatt at for stoffer med flammepunkt lavere enn summen av
+faretemperaturen pluss 5 °C, er det benyttet eksplosjonssikker elektrisk
+armatur EExIIB T3 inne i kjølerommet for å hindre antennelse av
+brannfarlige damper fra stoffene.</p>
+<p>d) Kjøretøy eller container med termisk isolasjon og kombinert mekanisk
+kjølesystem med kjølemiddelsystem; forutsatt at:</p>
+<ol class="lowerroman simple">
+<li><p>de to systemene er uavhengig av hverandre;</p></li>
+<li><p>bestemmelsene i b) og c) ovenfor er oppfylt;</p></li>
+</ol>
+<p>e) Kjøretøy eller container med termisk isolasjon og dobbelt mekanisk
+kjølesystem; forutsatt at:</p>
+<p>i) de to systemene er uavhengig av hverandre, bortsett fra den
+integrerte strømforsyningen;</p>
+<p>ii) hvert av systemene alene er i stand til å opprettholde tilstrekkelig
+temperaturkontroll; og</p>
+<p>iii) for stoffer som transporteres med flammepunkt lavere enn summen av
+faretemperaturen pluss 5 °C, er det benyttet eksplosjonssikker elektrisk
+armatur EEx IIB T3 inne i kjølerommet for å hindre antenning av
+brannfarlige damper fra stoffene.</p>
+<p id="id30"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.6</span></code></p>
+<p>Metodene som er beskrevet i 7.1.7.4.5 d) og e) kan benyttes for alle
+organiske peroksider, selvreaktive stoffer og polymeriserende stoffer.</p>
+<p>Metoden beskrevet i 7.1.7.4.5 c) kan benyttes for organiske peroksider
+og selvreaktive stoffer av typene C, D, E og F samt for organiske
+peroksider og selvreaktive stoffer av type B og polymeriserende stoffer
+når høyeste omgivelsestemperatur som forventes under transporten ikke
+overstiger kontrolltemperaturen med mer enn 10 °C.</p>
+<p>Metoden beskrevet i 7.1.7.4.5 b) kan benyttes for organiske peroksider
+og selvreaktive stoffer av typen C, D, E og F og polymeriserende stoffer
+når høyeste omgivelsestemperatur som forventes under transporten ikke
+overstiger kontrolltemperaturen med mer enn 30 °C.</p>
+<p>Metoden beskrevet i 7.1.7.4.5 a) kan benyttes for organiske peroksider
+og selvreaktive stoffer av typene C, D, E og F og polymeriserende
+stoffer når høyeste omgivelsestemperatur som forventes under transporten
+er minst 10 °C lavere enn kontrolltemperaturen.</p>
+<p id="id31"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.7</span></code></p>
+<p>Isolerte, nedkjølte og mekanisk nedkjølte containere beregnet for
+transport av temperaturkontrollerte stoffer skal være i samsvar med
+nedenstående betingelser:</p>
+<p>a) Den totale varmeledningskoeffisienten til en isolert container skal
+ikke være større enn 0,4 W/m<sup>2</sup>/K;</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Kjølemediet som brukes skal ikke være brannfarlig; og</p></li>
+</ol>
+<p>c) Når containere er utstyrt med utluftninger eller
+ventilasjonsventiler, skal det sørges for at kjølingen ikke svekkes av
+utluftningene eller ventilasjonsventilene.</p>
+<p>Når det er krav om at stoffer skal transporteres i kjøretøyer som har
+isolasjon, kjøling eller mekanisk kjøling, skal disse kjøretøyene
+tilfredsstille kravene i kapittel 9.6.</p>
+<p id="id32"><code class="docutils literal notranslate"><span class="pre">7.1.7.4.8</span></code></p>
+<p>Dersom stoffene er pakket i beskyttende emballasje fylt med kjølemiddel
+skal de lastes i lukkede eller presenningsdekkede kjøretøyer eller
+lukkede eller presenningsdekkede containere. Dersom kjøretøyene eller
+containerne som benyttes er lukket, skal de ha tilstrekkelig lufting.
+Presenningdekkede kjøretøyer eller containere skal ha sidelemmer og
+baklem. Presenningen til disse kjøretøyene eller containerne skal være
+av tett og ikke-brennbart materiale.</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id33" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">1</a><span class="fn-bracket">]</span></span>
+<p>1. utgave av IRS (International Railway Solution) gjeldene fra og med
+1. juni 2020.</p>
+</aside>
+<aside class="footnote brackets" id="id34" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">2</a><span class="fn-bracket">]</span></span>
+<p>3.utgave av IRS (International Railway Solution) gjeldene fra og med
+1. desember 2023.</p>
+</aside>
+</aside>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Del7_index/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">forrige</p>
+        <p class="prev-next-title">Del 7 Bestemmelser om transport, lasting, lossing og håndtering</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Kapittel 7.2 Bestemmelser om transport i kolli/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">neste</p>
+        <p class="prev-next-title">Kapittel 7.2 Bestemmelser om transport i kolli</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>Denne siden</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/docs/ADRRID2025/Del7/Kapittel 7.1 Alminnelige bestemmelser.rst.txt"
+            rel="nofollow">Vis kildekode</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, Direktoratet for samfunnssikkerhet og beredskap.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Laget med <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
